@@ -1,0 +1,1865 @@
+/* Derived metadata only; no original user audio embedded. */
+window.BELAVADOS_REFERENCE_AUDIO_LEARNING = {
+  "generatedBy": "Belavad\u00f6s Voice Studio robotics/media humanization update",
+  "purpose": "Derived timing/timbre metadata from user-supplied audio and repositories. No original audio is embedded.",
+  "overall": {
+    "analyzedClips": 60,
+    "averageF0Hz": 153.8046,
+    "averagePitchRangeSemitones": 6.2488,
+    "averageSpectralCentroidHz": 1303.6143,
+    "averagePauseFraction": 0.308,
+    "averageZcr": 0.1353,
+    "sourceArchives": [
+      "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "Dice Bot Voices.zip",
+      "coqui_voice_pack_v2.zip"
+    ]
+  },
+  "categorySummary": {
+    "arcorven": {
+      "count": 2,
+      "f0Hz": 96.7,
+      "centroidHz": 1456.665,
+      "pause": 0.3255
+    },
+    "arcorven brasslock.mp3": {
+      "count": 1,
+      "f0Hz": 219.18,
+      "centroidHz": 357.06,
+      "pause": 0.253
+    },
+    "canielina": {
+      "count": 2,
+      "f0Hz": 230.35,
+      "centroidHz": 1891.89,
+      "pause": 0.3225
+    },
+    "canielina dennose.mp3": {
+      "count": 1,
+      "f0Hz": 228.76,
+      "centroidHz": 1363.18,
+      "pause": 0.328
+    },
+    "completion": {
+      "count": 3,
+      "f0Hz": 200.7,
+      "centroidHz": 729.7933,
+      "pause": 0.2863
+    },
+    "confirmation": {
+      "count": 3,
+      "f0Hz": 0,
+      "centroidHz": 1349.37,
+      "pause": 0.2683
+    },
+    "farewell": {
+      "count": 3,
+      "f0Hz": 160.22,
+      "centroidHz": 1003.1433,
+      "pause": 0.3333
+    },
+    "gheaririel": {
+      "count": 2,
+      "f0Hz": 106.75,
+      "centroidHz": 1439.01,
+      "pause": 0.3145
+    },
+    "ghearir\u2019iel luneglen.mp3": {
+      "count": 1,
+      "f0Hz": 150.94,
+      "centroidHz": 530.17,
+      "pause": 0.199
+    },
+    "greeting": {
+      "count": 3,
+      "f0Hz": 148.515,
+      "centroidHz": 821.9667,
+      "pause": 0.2887
+    },
+    "joeari": {
+      "count": 2,
+      "f0Hz": 182.865,
+      "centroidHz": 1690.74,
+      "pause": 0.301
+    },
+    "joeari ravenwood.mp3": {
+      "count": 1,
+      "f0Hz": 79.21,
+      "centroidHz": 1683.25,
+      "pause": 0.317
+    },
+    "kethazzun": {
+      "count": 2,
+      "f0Hz": 197.305,
+      "centroidHz": 1774.625,
+      "pause": 0.328
+    },
+    "kethazzun clawcoil.mp3": {
+      "count": 1,
+      "f0Hz": 171.13,
+      "centroidHz": 1373.12,
+      "pause": 0.247
+    },
+    "misceallaneous": {
+      "count": 3,
+      "f0Hz": 179.7067,
+      "centroidHz": 966.7233,
+      "pause": 0.3277
+    },
+    "nefumlith": {
+      "count": 2,
+      "f0Hz": 221.67,
+      "centroidHz": 2343.16,
+      "pause": 0.3225
+    },
+    "nefumlith duskendirge.mp3": {
+      "count": 1,
+      "f0Hz": 266.67,
+      "centroidHz": 593.72,
+      "pause": 0.312
+    },
+    "nimudri": {
+      "count": 2,
+      "f0Hz": 89.155,
+      "centroidHz": 1399.075,
+      "pause": 0.3115
+    },
+    "nimu\u2019dri ironvault.mp3": {
+      "count": 1,
+      "f0Hz": 72.73,
+      "centroidHz": 1308.93,
+      "pause": 0.328
+    },
+    "refusal": {
+      "count": 3,
+      "f0Hz": 216.22,
+      "centroidHz": 612.13,
+      "pause": 0.3333
+    },
+    "rosabin": {
+      "count": 2,
+      "f0Hz": 112.38,
+      "centroidHz": 1481.525,
+      "pause": 0.309
+    },
+    "ro\u2019sabin merryroot.mp3": {
+      "count": 1,
+      "f0Hz": 163.28,
+      "centroidHz": 1354.14,
+      "pause": 0.269
+    },
+    "stoneudor": {
+      "count": 2,
+      "f0Hz": 90.29,
+      "centroidHz": 1877.345,
+      "pause": 0.3095
+    },
+    "sto\u2019neudor stormbreath.mp3": {
+      "count": 1,
+      "f0Hz": 113.92,
+      "centroidHz": 751.92,
+      "pause": 0.242
+    },
+    "thalenael": {
+      "count": 2,
+      "f0Hz": 112.315,
+      "centroidHz": 1490.82,
+      "pause": 0.3255
+    },
+    "thalenael silverthorn.mp3": {
+      "count": 1,
+      "f0Hz": 197.53,
+      "centroidHz": 1668.14,
+      "pause": 0.349
+    },
+    "tyrylina": {
+      "count": 2,
+      "f0Hz": 205.98,
+      "centroidHz": 1870.04,
+      "pause": 0.3225
+    },
+    "tyrylina mirthwink.mp3": {
+      "count": 1,
+      "f0Hz": 137.93,
+      "centroidHz": 1435.86,
+      "pause": 0.317
+    },
+    "urg": {
+      "count": 2,
+      "f0Hz": 82.555,
+      "centroidHz": 1605.995,
+      "pause": 0.331
+    },
+    "urg-u\u2019rgugar mudgrip.mp3": {
+      "count": 1,
+      "f0Hz": 109.59,
+      "centroidHz": 2060.36,
+      "pause": 0.306
+    },
+    "valk": {
+      "count": 2,
+      "f0Hz": 83.705,
+      "centroidHz": 1355.39,
+      "pause": 0.3225
+    },
+    "valk-minoorvar thunderheft.mp3": {
+      "count": 1,
+      "f0Hz": 108.13,
+      "centroidHz": 590.04,
+      "pause": 0.22
+    },
+    "veyielven": {
+      "count": 2,
+      "f0Hz": 96.975,
+      "centroidHz": 1379.525,
+      "pause": 0.3335
+    },
+    "veyielven asharchf.mp3": {
+      "count": 1,
+      "f0Hz": 333.33,
+      "centroidHz": 585.98,
+      "pause": 0.323
+    }
+  },
+  "sampledReferences": [
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Arcorven Brasslock.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "arcorven brasslock.mp3",
+      "phraseHint": "Arcorven Brasslock",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.12659,
+        "zcrMean": 0.05674,
+        "spectralCentroidHz": 357.06,
+        "f0MedianHz": 219.18,
+        "f0P10Hz": 104.45,
+        "f0P90Hz": 221.31,
+        "pitchRangeSemitones": 13.0,
+        "pauseFractionApprox": 0.253,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Canielina Dennose.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "canielina dennose.mp3",
+      "phraseHint": "Canielina Dennose",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.18017,
+        "zcrMean": 0.11951,
+        "spectralCentroidHz": 1363.18,
+        "f0MedianHz": 228.76,
+        "f0P10Hz": 194.01,
+        "f0P90Hz": 261.46,
+        "pitchRangeSemitones": 5.17,
+        "pauseFractionApprox": 0.328,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Ghearir\u2019iel Luneglen.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "ghearir\u2019iel luneglen.mp3",
+      "phraseHint": "Ghearir\u2019iel Luneglen",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.14475,
+        "zcrMean": 0.06669,
+        "spectralCentroidHz": 530.17,
+        "f0MedianHz": 150.94,
+        "f0P10Hz": 83.77,
+        "f0P90Hz": 334.75,
+        "pitchRangeSemitones": 23.98,
+        "pauseFractionApprox": 0.199,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Joeari Ravenwood.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "joeari ravenwood.mp3",
+      "phraseHint": "Joeari Ravenwood",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.17214,
+        "zcrMean": 0.09504,
+        "spectralCentroidHz": 1683.25,
+        "f0MedianHz": 79.21,
+        "f0P10Hz": 73.67,
+        "f0P90Hz": 82.91,
+        "pitchRangeSemitones": 2.04,
+        "pauseFractionApprox": 0.317,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Kethazzun Clawcoil.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "kethazzun clawcoil.mp3",
+      "phraseHint": "Kethazzun Clawcoil",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.13592,
+        "zcrMean": 0.07825,
+        "spectralCentroidHz": 1373.12,
+        "f0MedianHz": 171.13,
+        "f0P10Hz": 124.83,
+        "f0P90Hz": 181.02,
+        "pitchRangeSemitones": 6.43,
+        "pauseFractionApprox": 0.247,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Nefumlith Duskendirge.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "nefumlith duskendirge.mp3",
+      "phraseHint": "Nefumlith Duskendirge",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.16181,
+        "zcrMean": 0.04738,
+        "spectralCentroidHz": 593.72,
+        "f0MedianHz": 266.67,
+        "f0P10Hz": 262.3,
+        "f0P90Hz": 343.48,
+        "pitchRangeSemitones": 4.67,
+        "pauseFractionApprox": 0.312,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Nimu\u2019dri Ironvault.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "nimu\u2019dri ironvault.mp3",
+      "phraseHint": "Nimu\u2019dri Ironvault",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.16972,
+        "zcrMean": 0.12616,
+        "spectralCentroidHz": 1308.93,
+        "f0MedianHz": 72.73,
+        "f0P10Hz": 70.48,
+        "f0P90Hz": 86.03,
+        "pitchRangeSemitones": 3.45,
+        "pauseFractionApprox": 0.328,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Ro\u2019sabin Merryroot.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "ro\u2019sabin merryroot.mp3",
+      "phraseHint": "Ro\u2019sabin Merryroot",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.18903,
+        "zcrMean": 0.09066,
+        "spectralCentroidHz": 1354.14,
+        "f0MedianHz": 163.28,
+        "f0P10Hz": 89.59,
+        "f0P90Hz": 217.13,
+        "pitchRangeSemitones": 15.32,
+        "pauseFractionApprox": 0.269,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Sto\u2019neudor Stormbreath.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "sto\u2019neudor stormbreath.mp3",
+      "phraseHint": "Sto\u2019neudor Stormbreath",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.15293,
+        "zcrMean": 0.08562,
+        "spectralCentroidHz": 751.92,
+        "f0MedianHz": 113.92,
+        "f0P10Hz": 95.16,
+        "f0P90Hz": 253.57,
+        "pitchRangeSemitones": 16.97,
+        "pauseFractionApprox": 0.242,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Thalenael Silverthorn.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "thalenael silverthorn.mp3",
+      "phraseHint": "Thalenael Silverthorn",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.10881,
+        "zcrMean": 0.16406,
+        "spectralCentroidHz": 1668.14,
+        "f0MedianHz": 197.53,
+        "f0P10Hz": 147.72,
+        "f0P90Hz": 211.66,
+        "pitchRangeSemitones": 6.23,
+        "pauseFractionApprox": 0.349,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Tyrylina Mirthwink.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "tyrylina mirthwink.mp3",
+      "phraseHint": "Tyrylina Mirthwink",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.1529,
+        "zcrMean": 0.12341,
+        "spectralCentroidHz": 1435.86,
+        "f0MedianHz": 137.93,
+        "f0P10Hz": 125.98,
+        "f0P90Hz": 231.88,
+        "pitchRangeSemitones": 10.56,
+        "pauseFractionApprox": 0.317,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Urg-U\u2019rgugar Mudgrip.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "urg-u\u2019rgugar mudgrip.mp3",
+      "phraseHint": "Urg-U\u2019rgugar Mudgrip",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.08373,
+        "zcrMean": 0.15983,
+        "spectralCentroidHz": 2060.36,
+        "f0MedianHz": 109.59,
+        "f0P10Hz": 87.48,
+        "f0P90Hz": 334.68,
+        "pitchRangeSemitones": 23.23,
+        "pauseFractionApprox": 0.306,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Valk-Minoorvar Thunderheft.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "valk-minoorvar thunderheft.mp3",
+      "phraseHint": "Valk-Minoorvar Thunderheft",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.06138,
+        "zcrMean": 0.05657,
+        "spectralCentroidHz": 590.04,
+        "f0MedianHz": 108.13,
+        "f0P10Hz": 103.59,
+        "f0P90Hz": 113.48,
+        "pitchRangeSemitones": 1.58,
+        "pauseFractionApprox": 0.22,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Dice Bot Voices.zip",
+      "path": "Dice Bot Voices (pre-fix)/Source Voices/Veyielven Asharchf.mp3",
+      "speakerOrNpc": "Source Voices",
+      "category": "veyielven asharchf.mp3",
+      "phraseHint": "Veyielven Asharchf",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.11346,
+        "zcrMean": 0.12638,
+        "spectralCentroidHz": 585.98,
+        "f0MedianHz": 333.33,
+        "f0P10Hz": 143.53,
+        "f0P90Hz": 333.33,
+        "pitchRangeSemitones": 14.59,
+        "pauseFractionApprox": 0.323,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/Joeari_Ravenwood_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Joeari_Ravenwood",
+      "category": "joeari",
+      "phraseHint": "Joeari Ravenwood full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.13419,
+        "zcrMean": 0.1458,
+        "spectralCentroidHz": 1449.2,
+        "f0MedianHz": 181.82,
+        "f0P10Hz": 152.62,
+        "f0P90Hz": 205.13,
+        "pitchRangeSemitones": 5.12,
+        "pauseFractionApprox": 0.301,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/Joeari_Ravenwood_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Joeari_Ravenwood",
+      "category": "joeari",
+      "phraseHint": "Joeari Ravenwood all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.13097,
+        "zcrMean": 0.24602,
+        "spectralCentroidHz": 1932.28,
+        "f0MedianHz": 183.91,
+        "f0P10Hz": 170.21,
+        "f0P90Hz": 199.51,
+        "pitchRangeSemitones": 2.75,
+        "pauseFractionApprox": 0.301,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Gheaririel_Luneglen/Gheaririel_Luneglen_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Gheaririel_Luneglen",
+      "category": "gheaririel",
+      "phraseHint": "Gheaririel Luneglen full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.08602,
+        "zcrMean": 0.09881,
+        "spectralCentroidHz": 1400.75,
+        "f0MedianHz": 108.92,
+        "f0P10Hz": 97.91,
+        "f0P90Hz": 113.91,
+        "pitchRangeSemitones": 2.62,
+        "pauseFractionApprox": 0.296,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Gheaririel_Luneglen/Gheaririel_Luneglen_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Gheaririel_Luneglen",
+      "category": "gheaririel",
+      "phraseHint": "Gheaririel Luneglen all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.09934,
+        "zcrMean": 0.16687,
+        "spectralCentroidHz": 1477.27,
+        "f0MedianHz": 104.58,
+        "f0P10Hz": 101.16,
+        "f0P90Hz": 117.0,
+        "pitchRangeSemitones": 2.52,
+        "pauseFractionApprox": 0.333,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Thalenael_Silverthorn/Thalenael_Silverthorn_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Thalenael_Silverthorn",
+      "category": "thalenael",
+      "phraseHint": "Thalenael Silverthorn full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.12144,
+        "zcrMean": 0.11827,
+        "spectralCentroidHz": 1275.37,
+        "f0MedianHz": 114.29,
+        "f0P10Hz": 96.39,
+        "f0P90Hz": 117.65,
+        "pitchRangeSemitones": 3.45,
+        "pauseFractionApprox": 0.312,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Thalenael_Silverthorn/Thalenael_Silverthorn_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Thalenael_Silverthorn",
+      "category": "thalenael",
+      "phraseHint": "Thalenael Silverthorn all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.09945,
+        "zcrMean": 0.16037,
+        "spectralCentroidHz": 1706.27,
+        "f0MedianHz": 110.34,
+        "f0P10Hz": 104.17,
+        "f0P90Hz": 117.65,
+        "pitchRangeSemitones": 2.11,
+        "pauseFractionApprox": 0.339,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Nimudri_Ironvault/Nimudri_Ironvault_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Nimudri_Ironvault",
+      "category": "nimudri",
+      "phraseHint": "Nimudri Ironvault full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.10514,
+        "zcrMean": 0.11331,
+        "spectralCentroidHz": 1300.92,
+        "f0MedianHz": 87.91,
+        "f0P10Hz": 83.16,
+        "f0P90Hz": 105.13,
+        "pitchRangeSemitones": 4.06,
+        "pauseFractionApprox": 0.317,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Nimudri_Ironvault/Nimudri_Ironvault_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Nimudri_Ironvault",
+      "category": "nimudri",
+      "phraseHint": "Nimudri Ironvault all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.0982,
+        "zcrMean": 0.15278,
+        "spectralCentroidHz": 1497.23,
+        "f0MedianHz": 90.4,
+        "f0P10Hz": 83.33,
+        "f0P90Hz": 98.16,
+        "pitchRangeSemitones": 2.83,
+        "pauseFractionApprox": 0.306,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/Rosabin_Merryroot_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Rosabin_Merryroot",
+      "category": "rosabin",
+      "phraseHint": "Rosabin Merryroot full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.11419,
+        "zcrMean": 0.10606,
+        "spectralCentroidHz": 1428.5,
+        "f0MedianHz": 111.51,
+        "f0P10Hz": 104.24,
+        "f0P90Hz": 121.03,
+        "pitchRangeSemitones": 2.58,
+        "pauseFractionApprox": 0.312,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/Rosabin_Merryroot_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Rosabin_Merryroot",
+      "category": "rosabin",
+      "phraseHint": "Rosabin Merryroot all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.1057,
+        "zcrMean": 0.18631,
+        "spectralCentroidHz": 1534.55,
+        "f0MedianHz": 113.25,
+        "f0P10Hz": 102.3,
+        "f0P90Hz": 124.13,
+        "pitchRangeSemitones": 3.35,
+        "pauseFractionApprox": 0.306,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Urg_Urgugar_Mudgrip/Urg_Urgugar_Mudgrip_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Urg_Urgugar_Mudgrip",
+      "category": "urg",
+      "phraseHint": "Urg Urgugar Mudgrip full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.13978,
+        "zcrMean": 0.14443,
+        "spectralCentroidHz": 1548.15,
+        "f0MedianHz": 85.11,
+        "f0P10Hz": 78.43,
+        "f0P90Hz": 94.12,
+        "pitchRangeSemitones": 3.16,
+        "pauseFractionApprox": 0.323,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Urg_Urgugar_Mudgrip/Urg_Urgugar_Mudgrip_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Urg_Urgugar_Mudgrip",
+      "category": "urg",
+      "phraseHint": "Urg Urgugar Mudgrip all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.10718,
+        "zcrMean": 0.25134,
+        "spectralCentroidHz": 1663.84,
+        "f0MedianHz": 80.0,
+        "f0P10Hz": 77.67,
+        "f0P90Hz": 95.81,
+        "pitchRangeSemitones": 3.63,
+        "pauseFractionApprox": 0.339,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Valk_Minoorvar_Thunderheft/Valk_Minoorvar_Thunderheft_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Valk_Minoorvar_Thunderheft",
+      "category": "valk",
+      "phraseHint": "Valk Minoorvar Thunderheft full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.10425,
+        "zcrMean": 0.09888,
+        "spectralCentroidHz": 1239.74,
+        "f0MedianHz": 85.36,
+        "f0P10Hz": 78.9,
+        "f0P90Hz": 92.86,
+        "pitchRangeSemitones": 2.82,
+        "pauseFractionApprox": 0.306,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Valk_Minoorvar_Thunderheft/Valk_Minoorvar_Thunderheft_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Valk_Minoorvar_Thunderheft",
+      "category": "valk",
+      "phraseHint": "Valk Minoorvar Thunderheft all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.08253,
+        "zcrMean": 0.13755,
+        "spectralCentroidHz": 1471.04,
+        "f0MedianHz": 82.05,
+        "f0P10Hz": 79.48,
+        "f0P90Hz": 92.94,
+        "pitchRangeSemitones": 2.71,
+        "pauseFractionApprox": 0.339,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Kethazzun_Clawcoil/Kethazzun_Clawcoil_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Kethazzun_Clawcoil",
+      "category": "kethazzun",
+      "phraseHint": "Kethazzun Clawcoil full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.18504,
+        "zcrMean": 0.13644,
+        "spectralCentroidHz": 1574.79,
+        "f0MedianHz": 191.79,
+        "f0P10Hz": 150.53,
+        "f0P90Hz": 216.82,
+        "pitchRangeSemitones": 6.32,
+        "pauseFractionApprox": 0.323,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Kethazzun_Clawcoil/Kethazzun_Clawcoil_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Kethazzun_Clawcoil",
+      "category": "kethazzun",
+      "phraseHint": "Kethazzun Clawcoil all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.18052,
+        "zcrMean": 0.17328,
+        "spectralCentroidHz": 1974.46,
+        "f0MedianHz": 202.82,
+        "f0P10Hz": 181.41,
+        "f0P90Hz": 222.54,
+        "pitchRangeSemitones": 3.54,
+        "pauseFractionApprox": 0.333,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/Veyielven_Asharchf_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Veyielven_Asharchf",
+      "category": "veyielven",
+      "phraseHint": "Veyielven Asharchf full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.1007,
+        "zcrMean": 0.1223,
+        "spectralCentroidHz": 1260.72,
+        "f0MedianHz": 97.56,
+        "f0P10Hz": 87.24,
+        "f0P90Hz": 107.24,
+        "pitchRangeSemitones": 3.57,
+        "pauseFractionApprox": 0.339,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/Veyielven_Asharchf_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Veyielven_Asharchf",
+      "category": "veyielven",
+      "phraseHint": "Veyielven Asharchf all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.09527,
+        "zcrMean": 0.17961,
+        "spectralCentroidHz": 1498.33,
+        "f0MedianHz": 96.39,
+        "f0P10Hz": 90.6,
+        "f0P90Hz": 105.46,
+        "pitchRangeSemitones": 2.63,
+        "pauseFractionApprox": 0.328,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Nefumlith_Duskendirge/Nefumlith_Duskendirge_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Nefumlith_Duskendirge",
+      "category": "nefumlith",
+      "phraseHint": "Nefumlith Duskendirge full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.14636,
+        "zcrMean": 0.20622,
+        "spectralCentroidHz": 2211.66,
+        "f0MedianHz": 228.57,
+        "f0P10Hz": 192.89,
+        "f0P90Hz": 257.25,
+        "pitchRangeSemitones": 4.98,
+        "pauseFractionApprox": 0.328,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Nefumlith_Duskendirge/Nefumlith_Duskendirge_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Nefumlith_Duskendirge",
+      "category": "nefumlith",
+      "phraseHint": "Nefumlith Duskendirge all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.12798,
+        "zcrMean": 0.26362,
+        "spectralCentroidHz": 2474.66,
+        "f0MedianHz": 214.77,
+        "f0P10Hz": 204.87,
+        "f0P90Hz": 251.23,
+        "pitchRangeSemitones": 3.53,
+        "pauseFractionApprox": 0.317,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Tyrylina_Mirthwink/Tyrylina_Mirthwink_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Tyrylina_Mirthwink",
+      "category": "tyrylina",
+      "phraseHint": "Tyrylina Mirthwink full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.14003,
+        "zcrMean": 0.13532,
+        "spectralCentroidHz": 1694.69,
+        "f0MedianHz": 200.03,
+        "f0P10Hz": 182.24,
+        "f0P90Hz": 227.63,
+        "pitchRangeSemitones": 3.85,
+        "pauseFractionApprox": 0.344,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Tyrylina_Mirthwink/Tyrylina_Mirthwink_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Tyrylina_Mirthwink",
+      "category": "tyrylina",
+      "phraseHint": "Tyrylina Mirthwink all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.13922,
+        "zcrMean": 0.20355,
+        "spectralCentroidHz": 2045.39,
+        "f0MedianHz": 211.93,
+        "f0P10Hz": 192.54,
+        "f0P90Hz": 220.12,
+        "pitchRangeSemitones": 2.32,
+        "pauseFractionApprox": 0.301,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/Stoneudor_Stormbreath_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Stoneudor_Stormbreath",
+      "category": "stoneudor",
+      "phraseHint": "Stoneudor Stormbreath full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.11417,
+        "zcrMean": 0.14022,
+        "spectralCentroidHz": 1805.53,
+        "f0MedianHz": 89.14,
+        "f0P10Hz": 76.9,
+        "f0P90Hz": 97.27,
+        "pitchRangeSemitones": 4.07,
+        "pauseFractionApprox": 0.296,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/Stoneudor_Stormbreath_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Stoneudor_Stormbreath",
+      "category": "stoneudor",
+      "phraseHint": "Stoneudor Stormbreath all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.11665,
+        "zcrMean": 0.16278,
+        "spectralCentroidHz": 1949.16,
+        "f0MedianHz": 91.44,
+        "f0P10Hz": 86.94,
+        "f0P90Hz": 94.41,
+        "pitchRangeSemitones": 1.43,
+        "pauseFractionApprox": 0.323,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Arcorven_Brasslock/Arcorven_Brasslock_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Arcorven_Brasslock",
+      "category": "arcorven",
+      "phraseHint": "Arcorven Brasslock full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.09093,
+        "zcrMean": 0.16784,
+        "spectralCentroidHz": 1309.42,
+        "f0MedianHz": 95.24,
+        "f0P10Hz": 89.02,
+        "f0P90Hz": 304.9,
+        "pitchRangeSemitones": 21.31,
+        "pauseFractionApprox": 0.328,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Arcorven_Brasslock/Arcorven_Brasslock_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Arcorven_Brasslock",
+      "category": "arcorven",
+      "phraseHint": "Arcorven Brasslock all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.1034,
+        "zcrMean": 0.19893,
+        "spectralCentroidHz": 1603.91,
+        "f0MedianHz": 98.16,
+        "f0P10Hz": 86.77,
+        "f0P90Hz": 104.86,
+        "pitchRangeSemitones": 3.28,
+        "pauseFractionApprox": 0.323,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Canielina_Dennose/Canielina_Dennose_full_personality_repaired_humanized_0p8_calm.wav",
+      "speakerOrNpc": "Canielina_Dennose",
+      "category": "canielina",
+      "phraseHint": "Canielina Dennose full personality repaired humanized 0p8 calm",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.14135,
+        "zcrMean": 0.11776,
+        "spectralCentroidHz": 1630.8,
+        "f0MedianHz": 225.35,
+        "f0P10Hz": 186.05,
+        "f0P90Hz": 258.06,
+        "pitchRangeSemitones": 5.66,
+        "pauseFractionApprox": 0.306,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip",
+      "path": "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Canielina_Dennose/Canielina_Dennose_all_25_emotions_sampler_repaired.wav",
+      "speakerOrNpc": "Canielina_Dennose",
+      "category": "canielina",
+      "phraseHint": "Canielina Dennose all 25 emotions sampler repaired",
+      "feature": {
+        "durationSeconds": 6.0,
+        "rmsMean": 0.12011,
+        "zcrMean": 0.14598,
+        "spectralCentroidHz": 2152.98,
+        "f0MedianHz": 235.35,
+        "f0P10Hz": 193.05,
+        "f0P90Hz": 258.06,
+        "pitchRangeSemitones": 5.03,
+        "pauseFractionApprox": 0.339,
+        "analysisWindowSeconds": 6.0
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/gitta_nikolina/completion_all_done.wav",
+      "speakerOrNpc": "gitta_nikolina",
+      "category": "completion",
+      "phraseHint": "completion all done",
+      "feature": {
+        "durationSeconds": 0.57,
+        "rmsMean": 0.17478,
+        "zcrMean": 0.07582,
+        "spectralCentroidHz": 740.44,
+        "f0MedianHz": 192.77,
+        "f0P10Hz": 192.77,
+        "f0P90Hz": 192.77,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.312,
+        "analysisWindowSeconds": 0.568875
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/gitta_nikolina/confirmation_yes.wav",
+      "speakerOrNpc": "gitta_nikolina",
+      "category": "confirmation",
+      "phraseHint": "confirmation yes",
+      "feature": {
+        "durationSeconds": 0.33,
+        "rmsMean": 0.17538,
+        "zcrMean": 0.39808,
+        "spectralCentroidHz": 1551.7,
+        "f0MedianHz": 0.0,
+        "f0P10Hz": 0.0,
+        "f0P90Hz": 0.0,
+        "pitchRangeSemitones": 0,
+        "pauseFractionApprox": 0.222,
+        "analysisWindowSeconds": 0.3250625
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/gitta_nikolina/greeting_hello.wav",
+      "speakerOrNpc": "gitta_nikolina",
+      "category": "greeting",
+      "phraseHint": "greeting hello",
+      "feature": {
+        "durationSeconds": 0.45,
+        "rmsMean": 0.15196,
+        "zcrMean": 0.10077,
+        "spectralCentroidHz": 825.96,
+        "f0MedianHz": 175.82,
+        "f0P10Hz": 175.82,
+        "f0P90Hz": 175.82,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.308,
+        "analysisWindowSeconds": 0.4528125
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/gitta_nikolina/farewell_goodbye.wav",
+      "speakerOrNpc": "gitta_nikolina",
+      "category": "farewell",
+      "phraseHint": "farewell goodbye",
+      "feature": {
+        "durationSeconds": 0.51,
+        "rmsMean": 0.17789,
+        "zcrMean": 0.10975,
+        "spectralCentroidHz": 1170.43,
+        "f0MedianHz": 164.95,
+        "f0P10Hz": 164.95,
+        "f0P90Hz": 164.95,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.357,
+        "analysisWindowSeconds": 0.510875
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/gitta_nikolina/refusal_no.wav",
+      "speakerOrNpc": "gitta_nikolina",
+      "category": "refusal",
+      "phraseHint": "refusal no",
+      "feature": {
+        "durationSeconds": 0.31,
+        "rmsMean": 0.20749,
+        "zcrMean": 0.06201,
+        "spectralCentroidHz": 694.36,
+        "f0MedianHz": 0.0,
+        "f0P10Hz": 0.0,
+        "f0P90Hz": 0.0,
+        "pitchRangeSemitones": 0,
+        "pauseFractionApprox": 0.375,
+        "analysisWindowSeconds": 0.3135
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/gitta_nikolina/misceallaneous_game_over.wav",
+      "speakerOrNpc": "gitta_nikolina",
+      "category": "misceallaneous",
+      "phraseHint": "misceallaneous game over",
+      "feature": {
+        "durationSeconds": 0.72,
+        "rmsMean": 0.17495,
+        "zcrMean": 0.10073,
+        "spectralCentroidHz": 1195.52,
+        "f0MedianHz": 180.14,
+        "f0P10Hz": 180.14,
+        "f0P90Hz": 180.14,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.333,
+        "analysisWindowSeconds": 0.7198125
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/claribel_dervla/completion_all_done.wav",
+      "speakerOrNpc": "claribel_dervla",
+      "category": "completion",
+      "phraseHint": "completion all done",
+      "feature": {
+        "durationSeconds": 0.56,
+        "rmsMean": 0.1778,
+        "zcrMean": 0.059,
+        "spectralCentroidHz": 697.21,
+        "f0MedianHz": 171.52,
+        "f0P10Hz": 171.52,
+        "f0P90Hz": 171.52,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.312,
+        "analysisWindowSeconds": 0.5573125
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/claribel_dervla/confirmation_yes.wav",
+      "speakerOrNpc": "claribel_dervla",
+      "category": "confirmation",
+      "phraseHint": "confirmation yes",
+      "feature": {
+        "durationSeconds": 0.31,
+        "rmsMean": 0.16701,
+        "zcrMean": 0.32104,
+        "spectralCentroidHz": 981.7,
+        "f0MedianHz": 0.0,
+        "f0P10Hz": 0.0,
+        "f0P90Hz": 0.0,
+        "pitchRangeSemitones": 0,
+        "pauseFractionApprox": 0.25,
+        "analysisWindowSeconds": 0.3135
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/claribel_dervla/greeting_hello.wav",
+      "speakerOrNpc": "claribel_dervla",
+      "category": "greeting",
+      "phraseHint": "greeting hello",
+      "feature": {
+        "durationSeconds": 0.45,
+        "rmsMean": 0.17421,
+        "zcrMean": 0.0762,
+        "spectralCentroidHz": 732.37,
+        "f0MedianHz": 121.21,
+        "f0P10Hz": 121.21,
+        "f0P90Hz": 121.21,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.308,
+        "analysisWindowSeconds": 0.4528125
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/claribel_dervla/farewell_goodbye.wav",
+      "speakerOrNpc": "claribel_dervla",
+      "category": "farewell",
+      "phraseHint": "farewell goodbye",
+      "feature": {
+        "durationSeconds": 0.51,
+        "rmsMean": 0.14947,
+        "zcrMean": 0.08198,
+        "spectralCentroidHz": 727.5,
+        "f0MedianHz": 137.93,
+        "f0P10Hz": 137.93,
+        "f0P90Hz": 137.93,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.357,
+        "analysisWindowSeconds": 0.510875
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/claribel_dervla/refusal_no.wav",
+      "speakerOrNpc": "claribel_dervla",
+      "category": "refusal",
+      "phraseHint": "refusal no",
+      "feature": {
+        "durationSeconds": 0.31,
+        "rmsMean": 0.17813,
+        "zcrMean": 0.06042,
+        "spectralCentroidHz": 556.22,
+        "f0MedianHz": 0.0,
+        "f0P10Hz": 0.0,
+        "f0P90Hz": 0.0,
+        "pitchRangeSemitones": 0,
+        "pauseFractionApprox": 0.375,
+        "analysisWindowSeconds": 0.3135
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/claribel_dervla/misceallaneous_game_over.wav",
+      "speakerOrNpc": "claribel_dervla",
+      "category": "misceallaneous",
+      "phraseHint": "misceallaneous game over",
+      "feature": {
+        "durationSeconds": 0.69,
+        "rmsMean": 0.19715,
+        "zcrMean": 0.09362,
+        "spectralCentroidHz": 734.19,
+        "f0MedianHz": 153.85,
+        "f0P10Hz": 153.85,
+        "f0P90Hz": 153.85,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.3,
+        "analysisWindowSeconds": 0.685
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/tanja_adelina/completion_all_done.wav",
+      "speakerOrNpc": "tanja_adelina",
+      "category": "completion",
+      "phraseHint": "completion all done",
+      "feature": {
+        "durationSeconds": 0.58,
+        "rmsMean": 0.22867,
+        "zcrMean": 0.06321,
+        "spectralCentroidHz": 751.73,
+        "f0MedianHz": 237.81,
+        "f0P10Hz": 237.81,
+        "f0P90Hz": 237.81,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.235,
+        "analysisWindowSeconds": 0.5805
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/tanja_adelina/confirmation_yes.wav",
+      "speakerOrNpc": "tanja_adelina",
+      "category": "confirmation",
+      "phraseHint": "confirmation yes",
+      "feature": {
+        "durationSeconds": 0.33,
+        "rmsMean": 0.22681,
+        "zcrMean": 0.34538,
+        "spectralCentroidHz": 1514.71,
+        "f0MedianHz": 0.0,
+        "f0P10Hz": 0.0,
+        "f0P90Hz": 0.0,
+        "pitchRangeSemitones": 0,
+        "pauseFractionApprox": 0.333,
+        "analysisWindowSeconds": 0.3250625
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/tanja_adelina/greeting_hello.wav",
+      "speakerOrNpc": "tanja_adelina",
+      "category": "greeting",
+      "phraseHint": "greeting hello",
+      "feature": {
+        "durationSeconds": 0.44,
+        "rmsMean": 0.26706,
+        "zcrMean": 0.06517,
+        "spectralCentroidHz": 907.57,
+        "f0MedianHz": 0.0,
+        "f0P10Hz": 0.0,
+        "f0P90Hz": 0.0,
+        "pitchRangeSemitones": 0,
+        "pauseFractionApprox": 0.25,
+        "analysisWindowSeconds": 0.4411875
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/tanja_adelina/farewell_goodbye.wav",
+      "speakerOrNpc": "tanja_adelina",
+      "category": "farewell",
+      "phraseHint": "farewell goodbye",
+      "feature": {
+        "durationSeconds": 0.51,
+        "rmsMean": 0.18385,
+        "zcrMean": 0.09152,
+        "spectralCentroidHz": 1111.5,
+        "f0MedianHz": 177.78,
+        "f0P10Hz": 177.78,
+        "f0P90Hz": 177.78,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.286,
+        "analysisWindowSeconds": 0.510875
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/tanja_adelina/refusal_no.wav",
+      "speakerOrNpc": "tanja_adelina",
+      "category": "refusal",
+      "phraseHint": "refusal no",
+      "feature": {
+        "durationSeconds": 0.31,
+        "rmsMean": 0.29955,
+        "zcrMean": 0.04746,
+        "spectralCentroidHz": 585.81,
+        "f0MedianHz": 216.22,
+        "f0P10Hz": 216.22,
+        "f0P90Hz": 216.22,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.25,
+        "analysisWindowSeconds": 0.3135
+      }
+    },
+    {
+      "sourceArchive": "coqui_voice_pack_v2.zip",
+      "path": "voice_pack_v2/tanja_adelina/misceallaneous_game_over.wav",
+      "speakerOrNpc": "tanja_adelina",
+      "category": "misceallaneous",
+      "phraseHint": "misceallaneous game over",
+      "feature": {
+        "durationSeconds": 0.7,
+        "rmsMean": 0.24037,
+        "zcrMean": 0.09188,
+        "spectralCentroidHz": 970.46,
+        "f0MedianHz": 205.13,
+        "f0P10Hz": 205.13,
+        "f0P90Hz": 205.13,
+        "pitchRangeSemitones": 0.0,
+        "pauseFractionApprox": 0.35,
+        "analysisWindowSeconds": 0.696625
+      }
+    }
+  ],
+  "repoSummaries": {
+    "OpenMusic-main.zip": {
+      "files": 264,
+      "audio": 0,
+      "js": 0,
+      "py": 121,
+      "json": 22,
+      "readmeFiles": [
+        "OpenMusic-main/audioldm_train/modules/audiomae/README.md",
+        "OpenMusic-main/readme.md"
+      ],
+      "examples": [
+        "OpenMusic-main/",
+        "OpenMusic-main/LICENSE.md",
+        "OpenMusic-main/audioldm_train/",
+        "OpenMusic-main/audioldm_train/.DS_Store",
+        "OpenMusic-main/audioldm_train/__init__.py",
+        "OpenMusic-main/audioldm_train/conditional_models.py",
+        "OpenMusic-main/audioldm_train/config/",
+        "OpenMusic-main/audioldm_train/config/mos_as_token/",
+        "OpenMusic-main/audioldm_train/config/mos_as_token/qa_mdt.yaml",
+        "OpenMusic-main/audioldm_train/dataset_plugin.py",
+        "OpenMusic-main/audioldm_train/losses/",
+        "OpenMusic-main/audioldm_train/losses/__init__.py"
+      ],
+      "textSnippets": [
+        {
+          "path": "OpenMusic-main/audioldm_train/modules/audiomae/README.md",
+          "excerpt": "# A simple use of Audio Masked AutoEncoder (AudioMAE) Reference code: https://github.com/facebookresearch/AudioMAE Paper: https://arxiv.org/abs/2207.06405 Install the required python packages: ``` pip install -r requirments.txt ``` See the usage in example.py ``` python example.py \"\"\" Load AudioMAE from /mnt/bn/data-xubo/project/Masked_AudioEncoder checkpoint/finetuned.pth / message: <All keys matched successfully> Start evaluation on AudioSet ... mAP: 0.463003 \"\"\" ```"
+        },
+        {
+          "path": "OpenMusic-main/readme.md",
+          "excerpt": "## SoTA Text-to-Music (TTM) Generation: QA-MDT Paper accepted at IJCAI-25 ### Official PyTorch Implementation (try our demo first!) [![Paper](https://img.shields.io/static/v1?label=Paper&message=arXiv.2405&color=red&logo=arxiv)](https://arxiv.org/pdf/2405.15863) [![Demo! really nice audio samples](https://img.shields.io/static/v1?label=Demo!%20really%20nice%20audio%20samples&message=QA-MDT&color=purple&logo=githubdotio)](https://qa-mdt.github.io/) [![CKPT](https://img.shields.io/static/v1?label=CKPT&message=huggingface&color=yellow&logo=huggingface)](https://huggingface.co/lichang0928/QA-MDT) [![\u9b54\u5854\u793e\u533a demo](https://img.shields.io/static/v1?label=%E9%AD%94%E5%A1%94%E7%A4%BE%E5%8C%BA%20demo&mes"
+        },
+        {
+          "path": "OpenMusic-main/test_prompts/good_prompts_1.lst",
+          "excerpt": "none uplifting, soft, piano, startup, bass, easy-listening, beat, beautiful, fun, inspirational, instrumental, holiday, exciting, background, intense, upbeat, electric-guitar, guitar, acoustic-drums, carefree, travel, happy, city, presentation, peaceful, atmospheric, medium speed, gopro, synth, acoustic, pads, keys, tv-music, electronic, imovie piano, calm, sad fantasy, dream, epic, magic, uplifting, game, positive renaissance, resurrection, hope, spirituality, peace benny hill, cabaret, charleston, charlie chaplin, comedy documentary, contemplative, cinematic, suspended, dreamy advertising, background, beat, cars, commercial, cool, drive action, advertising, clap, commercial, dynamic, energ"
+        },
+        {
+          "path": "OpenMusic-main/test_prompts/good_prompts_2.lst",
+          "excerpt": "Piano and guitar ensemble with light and repetitive melodies, creating a bright and positive pop style, filled with joy and cheerfulness. The violin solo's melodious tunes, brimming with emotion and elegance, lead listeners into a poetic musical world. The guitar gently plays melodious tunes, bringing warmth and tranquility, as if softly narrating stories from the heart. The fusion of strong drum rhythms and soft bass lines brings a nostalgic and sweet jazz feeling, relaxing and exhilarating. The guitar's light and high-pitched melody, combined with happy and bright harmonies, creates a pleasant folk atmosphere. The piano's soft and repetitive melody is gentle and melodious, creating a sweet"
+        },
+        {
+          "path": "OpenMusic-main/test_prompts/good_prompts_3.lst",
+          "excerpt": "Acoustic guitar melodies in an uplifting, sunny easy-listening song. Tranquil piano and violin piece for relaxation and mindfulness. Joyful electronic song with lively beats and synths to start the party. Smooth, soulful saxophone in a relaxed jazz tune for quiet evenings. Ethereal electronic landscape with pulsing beats for an immersive journey. Cheerful acoustic guitar for a sunny beach day vibe. A modern synthesizer creating futuristic soundscapes. a beautiful jazz music made by piano. a saxophone playing a soulful melody. soft music for video dubbing that evokes a sense of vitality and joy. energetic music with drum beats, perfect for listening during exercise. dynamic, vibrant, and styl"
+        }
+      ]
+    },
+    "Realtime-Synthetic-Call-Center-Agents-main.zip": {
+      "files": 205,
+      "audio": 0,
+      "js": 74,
+      "py": 33,
+      "json": 14,
+      "readmeFiles": [
+        "Realtime-Synthetic-Call-Center-Agents-main/README.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/src/backend/README_API.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/src/frontend/README.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/src/mcp-servers/ai-foundry-agent/README.md"
+      ],
+      "examples": [
+        "Realtime-Synthetic-Call-Center-Agents-main/",
+        "Realtime-Synthetic-Call-Center-Agents-main/.gitattributes",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/CODE_OF_CONDUCT.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/ISSUE_TEMPLATE.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/PULL_REQUEST_TEMPLATE.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/copilot-instructions.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/instructions/",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/instructions/project_structure_description.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/.github/instructions/python.instructions.md",
+        "Realtime-Synthetic-Call-Center-Agents-main/.gitignore",
+        "Realtime-Synthetic-Call-Center-Agents-main/.vscode/"
+      ],
+      "textSnippets": [
+        {
+          "path": "Realtime-Synthetic-Call-Center-Agents-main/.github/ISSUE_TEMPLATE.md",
+          "excerpt": "<!-- IF SUFFICIENT INFORMATION IS NOT PROVIDED VIA THE FOLLOWING TEMPLATE THE ISSUE MIGHT BE CLOSED WITHOUT FURTHER CONSIDERATION OR INVESTIGATION --> > Please provide us with the following information: > --------------------------------------------------------------- ### This issue is for a: (mark with an `x`) ``` - [ ] bug report -> please search issues before submitting - [ ] feature request - [ ] documentation issue or request - [ ] regression (a behavior that used to work and stopped in a new release) ``` ### Minimal steps to reproduce > ### Any log messages given by the failure > ### Expected/desired behavior > ### OS and Version? > Windows 7, 8 or 10. Linux (which distribution). macOS"
+        },
+        {
+          "path": "Realtime-Synthetic-Call-Center-Agents-main/.github/PULL_REQUEST_TEMPLATE.md",
+          "excerpt": "## Purpose <!-- Describe the intention of the changes being proposed. What problem does it solve or functionality does it add? --> * ... ## Does this introduce a breaking change? <!-- Mark one with an \"x\". --> ``` [ ] Yes [ ] No ``` ## Pull Request Type What kind of change does this Pull Request introduce? <!-- Please check the one that applies to this PR using \"x\". --> ``` [ ] Bugfix [ ] Feature [ ] Code style update (formatting, local variables) [ ] Refactoring (no functional changes, no api changes) [ ] Documentation content changes [ ] Other... Please describe: ``` ## How to Test * Get the code ``` git clone [repo-address] cd [repo-name] git checkout [branch-name] npm install ``` * Test "
+        },
+        {
+          "path": "Realtime-Synthetic-Call-Center-Agents-main/README.md",
+          "excerpt": "# Realtime Synthetic Call Center Agents An enterprise-grade AI contact center solution demonstrating real-time voice interaction, multi-agent orchestration, and Azure AI integration. Built with FastAPI + React for production-ready deployments. An enterprise-grade AI contact center solution demonstrating real-time voice interaction, multi-agent orchestration, and Azure AI integration. Built with FastAPI + React for production-ready deployments. ![Assistant Interface](./docs/images/architecture.png) The multi-agent system supports internal knowledge base queries, web search (grounded by Bing Search), and database actions (read, create, update), making it ideal for showcasing AI-driven customer"
+        },
+        {
+          "path": "Realtime-Synthetic-Call-Center-Agents-main/src/backend/README_API.md",
+          "excerpt": "FastAPI Admin API \u2014 Development guide This guide explains how to run the FastAPI admin API locally for development and wire it to the React dev server. Prerequisites - Python 3.11/3.12 - pip - Node/npm for the frontend (the frontend dev server runs separately) Install & run (PowerShell) 1. Create and activate a virtual environment $ python -m venv .venv-api $ .\\.venv-api\\Scripts\\Activate.ps1 2. Install Python dependencies $ pip install -r src/backend/requirements.txt 3. Set env variables (example values \u2014 replace with your configuration) $env:AZURE_SEARCH_ENDPOINT = \"https://<your-search>.search.windows.net\" $env:AZURE_STORAGE_ENDPOINT = \"https://<yourstorage>.blob.core.windows.net\" $env:AZU"
+        },
+        {
+          "path": "Realtime-Synthetic-Call-Center-Agents-main/src/frontend/README.md",
+          "excerpt": "# Overview The project is managed by pyproject.toml and [uv package manager](https://docs.astral.sh/uv/getting-started/installation/). ## Local execution For local execution init the .venv environment using [uv package manager](https://docs.astral.sh/uv/getting-started/installation/): ```shell cd src/frontend uv sync . ./.venv/bin/activate chainlit run ./chat.py ``` ## Environment variables The local execution relies on environmental variables to reference Azure resources required - specifically the model. These environment vaiables are set automatically by `azd` when the infrastructure is provisioned by `azd up`. They are set in the AZD env file: `$project/.azure/<selected_azd_environment>/"
+        }
+      ]
+    },
+    "coqui_voice_pack_v2.zip": {
+      "files": 2541,
+      "audio": 2541,
+      "js": 0,
+      "py": 0,
+      "json": 0,
+      "readmeFiles": [],
+      "examples": [
+        "voice_pack_v2/",
+        "voice_pack_v2/gitta_nikolina/",
+        "voice_pack_v2/gitta_nikolina/completion_all_done.wav",
+        "voice_pack_v2/gitta_nikolina/completion_thats_it.wav",
+        "voice_pack_v2/gitta_nikolina/completion_finished.wav",
+        "voice_pack_v2/gitta_nikolina/completion_ready.wav",
+        "voice_pack_v2/gitta_nikolina/completion_building_ready.wav",
+        "voice_pack_v2/gitta_nikolina/completion_done.wav",
+        "voice_pack_v2/gitta_nikolina/completion_unit_ready.wav",
+        "voice_pack_v2/gitta_nikolina/completion_crafting_complete.wav",
+        "voice_pack_v2/gitta_nikolina/completion_objective_complete.wav",
+        "voice_pack_v2/gitta_nikolina/completion_construction_complete.wav"
+      ],
+      "textSnippets": []
+    },
+    "thousandVoices-master.zip": {
+      "files": 11,
+      "audio": 0,
+      "js": 0,
+      "py": 4,
+      "json": 1,
+      "readmeFiles": [
+        "thousandVoices-master/README.md",
+        "thousandVoices-master/TTS/README.md",
+        "thousandVoices-master/TTS/artifacts/README.md"
+      ],
+      "examples": [
+        "thousandVoices-master/",
+        "thousandVoices-master/.gitignore",
+        "thousandVoices-master/LICENSE",
+        "thousandVoices-master/README.md",
+        "thousandVoices-master/TTS/",
+        "thousandVoices-master/TTS/README.md",
+        "thousandVoices-master/TTS/artifacts/",
+        "thousandVoices-master/TTS/artifacts/README.md",
+        "thousandVoices-master/TTS/basemodel/",
+        "thousandVoices-master/TTS/basemodel/Producing Audio.ipynb",
+        "thousandVoices-master/TTS/basemodel/Tacotron2_ParallelWaveGan.py",
+        "thousandVoices-master/TTS/deploy.py"
+      ],
+      "textSnippets": [
+        {
+          "path": "thousandVoices-master/README.md",
+          "excerpt": "# thousandVoices Text to Speech (TTS) with synthetical speaker embeddings ## Usage ## Model packaging (using MLflow) Package the model using the artifacts in TTS/artifacts, and storing the package in packages/test_deployment ``` python TTS/pack.py TTS/artifacts packages/test_deployment ``` ## Model deployment Deploy the packaged model in packages/test_deployment using a Flask server ``` python TTS/deploy.py packages/test_deployment ``` ## Testing In your browser go to [http://0.0.0.0:5000/TTS?S=Hello%20Stranger,%20how%20are%20you%20doing](http://0.0.0.0:5000/TTS?S=Hello%20Stranger,%20how%20are%20you%20doing) Change REST endpoint is **/TTS**, taging an argument **S** containing the string to "
+        },
+        {
+          "path": "thousandVoices-master/TTS/README.md",
+          "excerpt": "# Intro This contains the code to package ([MLFlow](http://mlflow.org/)) and deploy ([flask](https://flask.palletsprojects.com/)) a pre-trained TTS model. The pre-trained model was provided [Tomoki Hayashi](https://github.com/kan-bayashi) as part of the [espnet](https://github.com/espnet) project. This includes a Tacotron2 model and a parallelWaveGan. The x-vectors (speaker embeddings) have been extracted from the [libritts](http://www.openslr.org/resources/60) dataset. The artifacts are available [here](https://1drv.ms/u/s!AsC_YGX9uGhggZYnsjGU3Swtcb4ATA?e=UF4dcF)."
+        },
+        {
+          "path": "thousandVoices-master/TTS/artifacts/README.md",
+          "excerpt": "# Files Download the artifacts including pre trained models and speaker embeddings from [here](https://1drv.ms/u/s!AsC_YGX9uGhggZYnsjGU3Swtcb4ATA?e=IHecbT)"
+        },
+        {
+          "path": "thousandVoices-master/TTS/meta.json",
+          "excerpt": "[ { \"author\": \"manuel.pasieka@protonmail.ch\", \"description\": \"Thousand Voice Text to speech synthesis\" } ]"
+        }
+      ]
+    },
+    "coqui-voice-pack-2.zip": {
+      "files": 1,
+      "audio": 0,
+      "js": 0,
+      "py": 0,
+      "json": 0,
+      "readmeFiles": [
+        "coqui-voice-pack-2/README.md"
+      ],
+      "examples": [
+        "coqui-voice-pack-2/",
+        "coqui-voice-pack-2/README.md"
+      ],
+      "textSnippets": [
+        {
+          "path": "coqui-voice-pack-2/README.md",
+          "excerpt": "# \ud83d\udc38CoquiTTS Voice Pack Coqui Dialogue Audio Pack contains more than 2000 audio files of synthetic human voices over lines created specifically for video games. The pack includes 31 different male and female voices, and all of the files can be used for commercial purposes (royalty free). There are 2541 files that are 16-bit 44.1khz WAV format from 31 different speakers. Each recorded line is a separate file so you can start using them in your project right away. Each file is named in the format `<speaker_name>_<dialoge_category>_<dialoge_line>.wav`. \ud83d\udcbe Download the latest version of the voice pack from the [releases](https://github.com/coqui-ai/coqui-voice-pack/releases/tag/v1). [\ud83d\udc38Coqui.ai](ht"
+        }
+      ]
+    },
+    "JARVIS-ChatGPT-main.zip": {
+      "files": 508,
+      "audio": 23,
+      "js": 0,
+      "py": 256,
+      "json": 3,
+      "readmeFiles": [
+        "JARVIS-ChatGPT-main/README.md",
+        "JARVIS-ChatGPT-main/TTS/encoder/README.md",
+        "JARVIS-ChatGPT-main/TTS/server/README.md",
+        "JARVIS-ChatGPT-main/TTS/vocoder/README.md",
+        "JARVIS-ChatGPT-main/TTS_additional_material/README.md"
+      ],
+      "examples": [
+        "JARVIS-ChatGPT-main/",
+        "JARVIS-ChatGPT-main/.gitignore",
+        "JARVIS-ChatGPT-main/Assistant/",
+        "JARVIS-ChatGPT-main/Assistant/Agents.py",
+        "JARVIS-ChatGPT-main/Assistant/Chat.py",
+        "JARVIS-ChatGPT-main/Assistant/VirtualAssistant.py",
+        "JARVIS-ChatGPT-main/Assistant/__init__.py",
+        "JARVIS-ChatGPT-main/Assistant/get_audio.py",
+        "JARVIS-ChatGPT-main/Assistant/research_mode.py",
+        "JARVIS-ChatGPT-main/Assistant/semantic_scholar/",
+        "JARVIS-ChatGPT-main/Assistant/semantic_scholar/S2_tools.py",
+        "JARVIS-ChatGPT-main/Assistant/semantic_scholar/__init__.py"
+      ],
+      "textSnippets": [
+        {
+          "path": "JARVIS-ChatGPT-main/README.md",
+          "excerpt": "# JARVIS-ChatGPT: A conversational assistant equipped with J.A.R.V.I.S's voice **A voice-based interactive assistant equipped with a variety of synthetic voices (including J.A.R.V.I.S's voice from IronMan)** ![GitHub last commit](https://img.shields.io/github/last-commit/gianmarcoguarnier/JARVIS-ChatGPT?style=for-the-badge) <p align=\"center\"> <img src=\"https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png\"/> <span style=color:grey> <i>image by MidJourney AI </i> </span> </p> Ever dreamed to ask hyper-intelligent system tips to improve your armor? Now you can! Well, maybe not the armor part... This project exploits OpenAI Whisper, OpenAI ChatGPT"
+        },
+        {
+          "path": "JARVIS-ChatGPT-main/TTS/encoder/README.md",
+          "excerpt": "### Speaker Encoder This is an implementation of https://arxiv.org/abs/1710.10467. This model can be used for voice and speaker embedding. With the code here you can generate d-vectors for both multi-speaker and single-speaker TTS datasets, then visualise and explore them along with the associated audio files in an interactive chart. Below is an example showing embedding results of various speakers. You can generate the same plot with the provided notebook as demonstrated in [this video](https://youtu.be/KW3oO7JVa7Q). ![](umap.png) Download a pretrained model from [Released Models](https://github.com/mozilla/TTS/wiki/Released-Models) page. To run the code, you need to follow the same flow as"
+        },
+        {
+          "path": "JARVIS-ChatGPT-main/TTS/server/README.md",
+          "excerpt": "# :frog: TTS demo server Before you use the server, make sure you [install](https://github.com/coqui-ai/TTS/tree/dev#install-tts)) :frog: TTS properly. Then, you can follow the steps below. **Note:** If you install :frog:TTS using ```pip```, you can also use the ```tts-server``` end point on the terminal. Examples runs: List officially released models. ```python TTS/server/server.py --list_models ``` Run the server with the official models. ```python TTS/server/server.py --model_name tts_models/en/ljspeech/tacotron2-DCA --vocoder_name vocoder_models/en/ljspeech/multiband-melgan``` Run the server with the official models on a GPU. ```CUDA_VISIBLE_DEVICES=\"0\" python TTS/server/server.py --mode"
+        },
+        {
+          "path": "JARVIS-ChatGPT-main/TTS/server/templates/details.html",
+          "excerpt": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta name=\"description\" content=\"\"> <meta name=\"author\" content=\"\"> <title>TTS engine</title> <!-- Bootstrap core CSS --> <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\" rel=\"stylesheet\"> <!-- Custom styles for this template --> <style> body { padding-top: 54px; } @media (min-width: 992px) { body { padding-top: 56px; } } </style> </head> <body> <a href=\"https://github.com/mozilla/TTS\"><img style=\"pos"
+        },
+        {
+          "path": "JARVIS-ChatGPT-main/TTS/server/templates/index.html",
+          "excerpt": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"> <meta name=\"description\" content=\"\ud83d\udc38Coqui AI TTS demo server.\"> <meta name=\"author\" content=\"\ud83d\udc38Coqui AI TTS\"> <title>TTS engine</title> <!-- Bootstrap core CSS --> <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\" rel=\"stylesheet\"> <!-- Custom styles for this template --> <style> body { padding-top: 54px; } @media (min-width: 992px) { body { padding-top: 56px; } } </style> </head> <body> <a href=\"https://"
+        }
+      ]
+    },
+    "building_synthetic_voices_workshop-master.zip": {
+      "files": 12,
+      "audio": 0,
+      "js": 0,
+      "py": 1,
+      "json": 0,
+      "readmeFiles": [
+        "building_synthetic_voices_workshop-master/README.md",
+        "building_synthetic_voices_workshop-master/driving_alert/README.md"
+      ],
+      "examples": [
+        "building_synthetic_voices_workshop-master/",
+        "building_synthetic_voices_workshop-master/COPYING.txt",
+        "building_synthetic_voices_workshop-master/DEBUG.md",
+        "building_synthetic_voices_workshop-master/INSTALL.md",
+        "building_synthetic_voices_workshop-master/README.md",
+        "building_synthetic_voices_workshop-master/driving_alert/",
+        "building_synthetic_voices_workshop-master/driving_alert/README.md",
+        "building_synthetic_voices_workshop-master/driving_alert/driving.data",
+        "building_synthetic_voices_workshop-master/driving_alert/generated.txt",
+        "building_synthetic_voices_workshop-master/driving_alert/prompts.txt",
+        "building_synthetic_voices_workshop-master/driving_alert/template.yaml",
+        "building_synthetic_voices_workshop-master/scripts/"
+      ],
+      "textSnippets": [
+        {
+          "path": "building_synthetic_voices_workshop-master/DEBUG.md",
+          "excerpt": "Debugging with Wavesurfer ========================= The instructions in BSV refer to emu_label, a program that is not available for more than 10 years. Luckily, a newer program, wavesurfer can use the same files. However, wavesurfer do not take the same input parameters. To operate on a given file do: wavesurfer wav/driving0001.wav and choose the transcription configuration. On the .lab panel, click on the white box with the other button and select \"Load Transcription...\". Here you can load the files in lab/ and pm_lab (the ones in pm_lab are generated with bin/make_pmlab_pm). In the same menu there is a \"Properties\" entry, the option \"Extend boundaries into waveform and spectrogram panes\" i"
+        },
+        {
+          "path": "building_synthetic_voices_workshop-master/INSTALL.md",
+          "excerpt": "Installation instructions ========================= Download: * Festival 2.4 (Dec 2014): http://www.cstr.ed.ac.uk/projects/festival/download.html http://festvox.org/packed/festival/2.4/festival-2.4-release.tar.gz * Edinburgh Speech Tools 2.4: http://festvox.org/packed/festival/2.4/speech_tools-2.4-release.tar.gz * FestVox 2.7 (Dec. 2014): http://festvox.org/festvox-2.7/festvox-2.7.0-release.tar.gz * Wavesurfer 1.8.8 (Oct 2010), only for Mac OS X: https://sourceforge.net/projects/wavesurfer/files/wavesurfer/1.8.8p4/ Debian and Debian derivatives ----------------------------- Install dependencies and helpful programs: <pre> sudo apt-get install festival festival-dev festlex-cmu sox audacity wa"
+        },
+        {
+          "path": "building_synthetic_voices_workshop-master/README.md",
+          "excerpt": "Building Synthetic Voices workshop ================================== This is the material for the January 2015 workshop at Foulab."
+        },
+        {
+          "path": "building_synthetic_voices_workshop-master/driving_alert/README.md",
+          "excerpt": "Bicycle Driving Alerts Example Domain ===================================== A limited domain in with bicycle safety alerts [1]. Set up ------ Go to the workshop folder and create a folder to contain the voice: <pre> mkdir $HOME/workshop/foulab_driving_me </pre> You can replace \"foulab\" for any other organization that better describes you or use \"net\" for a generic one. It is better if you replace \"me\" with your initials. Now use the FestVox limited domain bootstrapping script: <pre> cd $HOME/workshop/foulab_driving_me $FESTVOXDIR/src/ldom/setup_ldom foulab driving me </pre> if you are using a different organization change the foulab here and change your initials, too. The bootstrapping scrip"
+        },
+        {
+          "path": "building_synthetic_voices_workshop-master/driving_alert/generated.txt",
+          "excerpt": "There is an obstacle to your right. There is an intersection to your right. There is a pedestrian to your right. There is a car to your right. There is a bicycle to your right. There is an obstacle to your left. There is an intersection to your left. There is a pedestrian to your left. There is a car to your left. There is a bicycle to your left. You are approaching an obstacle in 100 meters. You are approaching an intersection in 100 meters. You are approaching a pedestrian in 100 meters. You are approaching a car in 100 meters. You are approaching a bicycle in 100 meters. You are approaching an obstacle in 50 meters. You are approaching an intersection in 50 meters. You are approaching a p"
+        }
+      ]
+    },
+    "Synthetic-Voice-Detection-Vocoder-Artifacts-main.zip": {
+      "files": 57,
+      "audio": 0,
+      "js": 0,
+      "py": 41,
+      "json": 0,
+      "readmeFiles": [
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README copy.md",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README.md"
+      ],
+      "examples": [
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/LICENSE",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README copy.md",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README.md",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/__pycache__/",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/__pycache__/model.cpython-312.pyc",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/__init__.py",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/__pycache__/",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/__pycache__/__init__.cpython-312.pyc",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/__pycache__/__init__.cpython-36.pyc",
+        "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/__pycache__/__init__.cpython-37.pyc"
+      ],
+      "textSnippets": [
+        {
+          "path": "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README copy.md",
+          "excerpt": "# Synthetic-Voice-Detection-Vocoder-Artifacts # LibriSeVoc Dataset 1. We are the first to identify neural vocoders as a source of features to expose synthetic human voices. Here are the differences shown by the six vocoders compared to the original audio: ![image](https://github.com/csun22/Synthetic-Voice-Detection-Vocoder-Artifacts/assets/90001788/6c3381c4-af7e-4ce2-a446-b3c76bf52aee) 2. We provide LibriSeVoC as a dataset of self-vocoding samples created with six state-of-the-art vocoders to highlight and exploit the vocoder artifacts. The composition of the data set is shown in the following table: <img width=\"1000\" alt=\"image\" src=\"https://github.com/csun22/Synthetic-Voice-Detection-Vocod"
+        },
+        {
+          "path": "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README.md",
+          "excerpt": "# \ud83e\udde0 Synthetic-Voice-Detection-Vocoder-Artifacts --- ## \ud83d\udcc1 LibriSeVoc Dataset 1. **We are the first to identify neural vocoders as a source of features to expose synthetic human voices.** Here are the differences shown by the six vocoders compared to the original audio: ![image](https://github.com/csun22/Synthetic-Voice-Detection-Vocoder-Artifacts/assets/90001788/6c3381c4-af7e-4ce2-a446-b3c76bf52aee) 2. **We provide LibriSeVoC** as a dataset of self-vocoding samples created with six state-of-the-art vocoders to highlight and exploit the vocoder artifacts. The composition of the dataset is shown in the following table: <img width=\"1000\" alt=\"image\" src=\"https://github.com/csun22/Synthetic-Voice"
+        },
+        {
+          "path": "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/other_tools/debug.py",
+          "excerpt": "#!/usr/bin/env python \"\"\" debug.py Tools to help debugging \"\"\" from __future__ import absolute_import from __future__ import print_function import os import sys import datetime import numpy as np import torch from core_scripts.data_io import io_tools as nii_io __author__ = \"Xin Wang\" __email__ = \"wangxin@nii.ac.jp\" __copyright__ = \"Copyright 2020, Xin Wang\" def convert_data_for_debug(data): \"\"\" data_new = convert_data_for_debug(data) For debugging, it is convenient to has a data in numpy format Args ---- data: tensor Return ------ data_new: numpy array \"\"\" if hasattr(data, 'detach'): return data.detach().to('cpu').numpy() elif hasattr(data, 'cpu'): return data.to('cpu').numpy() elif hasattr("
+        }
+      ]
+    },
+    "Dice Bot Voices.zip": {
+      "files": 30,
+      "audio": 14,
+      "js": 0,
+      "py": 0,
+      "json": 0,
+      "readmeFiles": [],
+      "examples": [
+        "Dice Bot Voices (pre-fix)/",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Arcorven_Brasslock.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Canielina_Dennose.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Gheaririel_Luneglen.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Joeari_Ravenwood.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Kethazzun_Clawcoil.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Nefumlith_Duskendirge.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Nimu_dri_Ironvault.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Ro_sabin_Merryroot.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Sto_neudor_Stormbreath.png",
+        "Dice Bot Voices (pre-fix)/Dice Bot Personality Tokens/Thalenael_Silverthorn.png"
+      ],
+      "textSnippets": []
+    },
+    "Belavados_NPC_Audio_Research_Repair_V5_Part_01_of_04.zip": {
+      "files": 34,
+      "audio": 8,
+      "js": 0,
+      "py": 0,
+      "json": 8,
+      "readmeFiles": [],
+      "examples": [
+        "Belavados_NPC_Audio_Research_Repair_V5/WORK_SHOWN_RESEARCH_BASED_REPAIR_NOTES.md",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_SAMPLER_LINES.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_RENDERING_TABLE.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/NPC_VOICE_REPAIR_PROFILES.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/MASTER_AUDIT.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/original_spoken_text.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/normalized_spoken_text_used_for_tts.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/Joeari_Ravenwood_full_personality_repaired_humanized_0p8_calm.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/Joeari_Ravenwood_all_25_emotions_sampler_repaired.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/emotion_sampler_transcript.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/VOICE_REPAIR_MANIFEST.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_01_NPCs/Joeari_Ravenwood/WORK_SHOWN_FOR_THIS_NPC.md"
+      ],
+      "textSnippets": []
+    },
+    "Belavados_NPC_Audio_Research_Repair_V5_Part_02_of_04.zip": {
+      "files": 34,
+      "audio": 8,
+      "js": 0,
+      "py": 0,
+      "json": 8,
+      "readmeFiles": [],
+      "examples": [
+        "Belavados_NPC_Audio_Research_Repair_V5/WORK_SHOWN_RESEARCH_BASED_REPAIR_NOTES.md",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_SAMPLER_LINES.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_RENDERING_TABLE.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/NPC_VOICE_REPAIR_PROFILES.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/MASTER_AUDIT.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/original_spoken_text.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/normalized_spoken_text_used_for_tts.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/Rosabin_Merryroot_full_personality_repaired_humanized_0p8_calm.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/Rosabin_Merryroot_all_25_emotions_sampler_repaired.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/emotion_sampler_transcript.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/VOICE_REPAIR_MANIFEST.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_02_NPCs/Rosabin_Merryroot/WORK_SHOWN_FOR_THIS_NPC.md"
+      ],
+      "textSnippets": []
+    },
+    "Belavados_NPC_Audio_Research_Repair_V5_Part_03_of_04.zip": {
+      "files": 27,
+      "audio": 6,
+      "js": 0,
+      "py": 0,
+      "json": 7,
+      "readmeFiles": [],
+      "examples": [
+        "Belavados_NPC_Audio_Research_Repair_V5/WORK_SHOWN_RESEARCH_BASED_REPAIR_NOTES.md",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_SAMPLER_LINES.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_RENDERING_TABLE.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/NPC_VOICE_REPAIR_PROFILES.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/MASTER_AUDIT.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/original_spoken_text.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/normalized_spoken_text_used_for_tts.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/Veyielven_Asharchf_full_personality_repaired_humanized_0p8_calm.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/Veyielven_Asharchf_all_25_emotions_sampler_repaired.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/emotion_sampler_transcript.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/VOICE_REPAIR_MANIFEST.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_03_NPCs/Veyielven_Asharchf/WORK_SHOWN_FOR_THIS_NPC.md"
+      ],
+      "textSnippets": []
+    },
+    "Belavados_NPC_Audio_Research_Repair_V5_Part_04_of_04.zip": {
+      "files": 27,
+      "audio": 6,
+      "js": 0,
+      "py": 0,
+      "json": 7,
+      "readmeFiles": [],
+      "examples": [
+        "Belavados_NPC_Audio_Research_Repair_V5/WORK_SHOWN_RESEARCH_BASED_REPAIR_NOTES.md",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_SAMPLER_LINES.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/EMOTION_RENDERING_TABLE.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/NPC_VOICE_REPAIR_PROFILES.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/MASTER_AUDIT.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/original_spoken_text.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/normalized_spoken_text_used_for_tts.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/Stoneudor_Stormbreath_full_personality_repaired_humanized_0p8_calm.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/Stoneudor_Stormbreath_all_25_emotions_sampler_repaired.wav",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/emotion_sampler_transcript.txt",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/VOICE_REPAIR_MANIFEST.json",
+        "Belavados_NPC_Audio_Research_Repair_V5/Part_04_NPCs/Stoneudor_Stormbreath/WORK_SHOWN_FOR_THIS_NPC.md"
+      ],
+      "textSnippets": []
+    },
+    "accent_audio_reference_pack.zip": {
+      "files": 20,
+      "audio": 0,
+      "js": 0,
+      "py": 1,
+      "json": 1,
+      "readmeFiles": [
+        "accent_audio_reference_pack/README.md"
+      ],
+      "examples": [
+        "accent_audio_reference_pack/README.md",
+        "accent_audio_reference_pack/playlist.html",
+        "accent_audio_reference_pack/sources_and_licensing.md",
+        "accent_audio_reference_pack/metadata/manifest.csv",
+        "accent_audio_reference_pack/metadata/manifest.json",
+        "accent_audio_reference_pack/scripts/download_clips.py",
+        "accent_audio_reference_pack/links/01_English with Welsh accent__Speech Accent Archive english113 _ Wrexham_ Wales.url",
+        "accent_audio_reference_pack/links/02_English with French accent__LibriVox Celebration of Dialects and Accents Vol. 1 _ French accent.url",
+        "accent_audio_reference_pack/links/03_English with French accent__Speech Accent Archive french1.url",
+        "accent_audio_reference_pack/links/04_English with German accent__LibriVox Celebration of Dialects and Accents Vol. 1 _ German accent.url",
+        "accent_audio_reference_pack/links/05_English with German accent__Speech Accent Archive german1.url",
+        "accent_audio_reference_pack/links/06_English West Country__IDEA England 35 _ Devon_ Southwest England.url"
+      ],
+      "textSnippets": [
+        {
+          "path": "accent_audio_reference_pack/README.md",
+          "excerpt": "# Accent Audio Reference Pack Prepared for: Andrew Blake-Newton Date: 2026-06-18 This pack contains researched accent-audio references for the requested accent list. It includes: - `metadata/manifest.csv` and `metadata/manifest.json`: curated audio/resource entries, direct URLs when available, and rights notes. - `playlist.html`: an offline HTML page that streams the direct audio URLs in your browser where the source allows direct listening/downloading. - `scripts/download_clips.py`: a local downloader script that can fetch the direct audio URLs into an `audio/` folder on your computer. - `links/*.url`: Windows-friendly shortcut files for each accent/resource. - `sources_and_licensing.md`: d"
+        }
+      ]
+    },
+    "Belavados_Speech_Pattern_JSON_Pack.zip": {
+      "files": 5,
+      "audio": 0,
+      "js": 0,
+      "py": 0,
+      "json": 4,
+      "readmeFiles": [
+        "README.md"
+      ],
+      "examples": [
+        "classes_subclasses_enriched_descriptions_with_speech_patterns.json",
+        "gender_identity_speech_pattern_influences.json",
+        "race_speech_pattern_influences.json",
+        "README.md",
+        "SPEECH_PATTERN_JSON_MANIFEST.json"
+      ],
+      "textSnippets": [
+        {
+          "path": "README.md",
+          "excerpt": "# Belavad\u00f6s Speech Pattern JSON Pack Generated: 2026-06-18T11:00:40.879052+00:00 This pack contains three JSON files: 1. `classes_subclasses_enriched_descriptions_with_speech_patterns.json` - Preserves the uploaded class/subclass description JSON. - Adds `speechPatternInfluence` to each class and each subclass. - Covers 14 classes and 112 subclasses. 2. `gender_identity_speech_pattern_influences.json` - Adds optional, non-essentialist fictional voice-design controls for the 14 requested gender identities. - These are performance parameters, not claims about how real people speak. 3. `race_speech_pattern_influences.json` - Generated from the uploaded Belavad\u00f6s race compendium. - Covers 156 ra"
+        }
+      ]
+    }
+  },
+  "designLessons": [
+    "Use a single centralized playback/session manager so speech and audio never overlap.",
+    "Keep browser TTS pitch close to native voice pitch; carry deep/masculine identity through voice choice, rate, resonance readouts, text cadence, and formant metadata rather than extreme pitch lowering.",
+    "Use phrase-level timing and punctuation rather than word-by-word chunks to reduce robotic delivery.",
+    "For uploaded/recorded voices, use the clip as a reference vector for pitch/rhythm/timbre, while typed text remains the spoken content.",
+    "Accent strength should be separable from timbre reference strength so users can keep, lighten, or remove accents."
+  ]
+};
