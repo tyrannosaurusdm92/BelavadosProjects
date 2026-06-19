@@ -1,0 +1,177 @@
+{
+  "doubao": "Doubao",
+  "minmax": {
+    "male-qn-qingse": "若い男性の声",
+    "male-qn-jingying": "エリート男性の声",
+    "male-qn-badao": "支配的な男性の声",
+    "male-qn-daxuesheng": "大学生の男性の声",
+    "female-shaonv": "少女の声",
+    "female-yujie": "大人の女性の声",
+    "female-chengshu": "成熟した女性の声",
+    "female-tianmei": "甘い女性の声",
+    "presenter_male": "男性司会者",
+    "presenter_female": "女性司会者",
+    "audiobook_male_1": "男性オーディオブック1",
+    "audiobook_male_2": "男性オーディオブック2",
+    "audiobook_female_1": "女性オーディオブック1",
+    "audiobook_female_2": "女性オーディオブック2",
+    "male-qn-qingse-jingpin": "若い男性の声-beta",
+    "male-qn-jingying-jingpin": "エリート男性の声-beta",
+    "male-qn-badao-jingpin": "支配的な男性の声-beta",
+    "male-qn-daxuesheng-jingpin": "大学生の男性の声-beta",
+    "female-shaonv-jingpin": "少女の声-beta",
+    "female-yujie-jingpin": "大人の女性の声-beta",
+    "female-chengshu-jingpin": "成熟した女性の声-beta",
+    "female-tianmei-jingpin": "甘い女性の声-beta",
+    "clever_boy": "利口な男の子",
+    "cute_boy": "かわいい男の子",
+    "lovely_girl": "かわいい女の子",
+    "cartoon_pig": "カートゥーンピッグKi"
+  },
+  "male": "男性",
+  "female": "女性",
+  "session": {
+    "save": {
+      "error": "会話の保存に失敗しました：記事の内容が最大限の試行後も利用できません"
+    }
+  },
+  "footer": {
+    "ai": "内容はAIによって生成されたもので、参考のためのみにご利用ください"
+  },
+  "about": {
+    "title": "AI音声生成器について"
+  },
+  "detail": {
+    "title": "論文詳細",
+    "back": "戻る",
+    "copy": "コピー",
+    "copySuccess": "クリップボードにコピーされました",
+    "download": "PDFをダウンロード",
+    "sessionNotFound": "この会話が見つかりません",
+    "apiNotSet": "APIが設定されていません",
+    "taskIdNotSet": "タスクIDが存在しません。古いバージョンの内容を見ている可能性がありますが、現在サポートされていません",
+    "cannotDownloadMarkdownInEditingMode": "編集モードではMarkdownをダウンロードできません。まずプレビューモードに切り替えてください"
+  },
+  "home": {
+    "title": "AI音声生成器",
+    "login": {
+      "error": "ログイン情報が正しくありません。手動でログインしてください！"
+    },
+    "header": {
+      "title": "AI音声生成器",
+      "placeholder": "研究したいテーマを入力してください",
+      "start": "開始",
+      "starting": "作成中...",
+      "language": "言語を選択",
+      "history": {
+        "title": "履歴",
+        "search": {
+          "placeholder": "論文を検索",
+          "no_results": "関連する結果が見つかりませんでした",
+          "loading": "検索中..."
+        },
+        "empty": "履歴が空です",
+        "deleteAll": "すべて削除",
+        "deleteSuccess": "count} 件削除に成功しました",
+        "deleteConfirm": "削除を確認しますか？",
+        "close": "閉じる"
+      },
+      "voiceClone": {
+        "title": "音声モデルを作成",
+        "newModelName": "名前",
+        "makeClone": "作成",
+        "uploadOrRecord": "音声ファイルをアップロード（最短10秒、最長90秒、推奨25秒）",
+        "selectFile": "ファイルを選択",
+        "startRecord": "録音開始",
+        "or": "または",
+        "stopRecord": "録音停止",
+        "hasAudio": "音声が選択されました",
+        "referenceText": "参考録音テキスト",
+        "referenceTextReal": "水循環は自然の循環システムです。水は地表面から蒸発し、雲を形成し、そして雨の形で地表面に戻ります。この循環プロセスは地球上の生命にとって非常に重要です。"
+      }
+    },
+    "create": {
+      "success": "論文の作成に成功しました"
+    }
+  },
+  "tabs": {
+    "textToSpeech": "テキストから音声へ変換",
+    "speechToSpeech": "音声から音声へ変換",
+    "speechClone": "音声クローン"
+  },
+  "aria": {
+    "selectPlatform": "プラットフォームを選択",
+    "selectLanguage": "言語を選択",
+    "selectSpeaker": "発音者を選択",
+    "speed": "速度",
+    "speaker": "発音者",
+    "volume": "音量",
+    "language": "言語",
+    "makeCloneModel": "音声モデルを作成"
+  },
+  "placeholders": {
+    "selectPlatform": "プラットフォームを選択",
+    "selectLanguage": "言語を選択",
+    "selectSpeaker": "発音者を選択"
+  },
+  "buttons": {
+    "reUpload": "再アップロード",
+    "uploading": "アップロード中...",
+    "uploadRecording": "録音をアップロード",
+    "stopRecording": "録音を停止",
+    "startRecording": "録音を開始",
+    "history": "履歴",
+    "download": "ダウンロード",
+    "generate": "生成"
+  },
+  "or": "または",
+  "audio": "音声",
+  "success": {
+    "recordingEnded": "録音終了、識別を開始します",
+    "generation": "生成成功",
+    "restore": "復元成功",
+    "textCopied": "テキストがコピーされました",
+    "remove": "削除成功",
+    "makeClone": "クローン作成に成功しました",
+    "fileSelected": "ファイルが選択されました"
+  },
+  "error": {
+    "fetchSpeakersFailed": "発音者の取得に失敗しました",
+    "noAudio": "音声がありません。まず「生成」をクリックしてください",
+    "noFile": "ファイルを選択してください",
+    "recognitionFailed": "音声を認識できません",
+    "noRecording": "まず録音してください",
+    "noRecordingData": "録音終了、録音データが検出されませんでした",
+    "recordingEndedFailed": "録音終了失敗",
+    "noText": "テキストを入力してください",
+    "noPlatform": "プラットフォームを選択してください",
+    "noSpeaker": "発音者を選択してください",
+    "unsupportedLanguage": "生成失敗：選択した発音者は入力された言語をサポートしていません",
+    "generationFailed": "生成失敗",
+    "remove": "削除失敗",
+    "noAudioData": "先に音声をアップロードしてください",
+    "noModelName": "モデル名を入力してください",
+    "fileSelected": "ファイルが選択されました",
+    "tooShort": "音声が短すぎます。再録音してください",
+    "tooLong": "音声が長すぎます。再録音してください",
+    "durationCalculationFailed": "音声の長さの計算に失敗しました。再録音してください",
+    "taskFailed": "タスク実行に失敗しました",
+    "taskExpired": "タスクが期限切れです",
+    "taskTimeout": "タスク状態の確認に時間がかかりました"
+  },
+  "auth": {
+    "title": "共有コードが必要です",
+    "description": "作成者が認証を有効にしていますので、下のフィールドに共有コードを入力してください",
+    "placeholder": "共有コードを入力してください",
+    "errorMessage": "詳細は以下のリンクをご参照ください",
+    "confirmButton": "確認",
+    "rememberCode": "共有コードを記憶",
+    "error": {
+      "tool_deleted": "このツールは削除されました",
+      "tool_disabled": "このツールは無効になっています",
+      "share_code_error": "共有コードが間違っています",
+      "network_error": "ネットワークエラー",
+      "unknown_error": "不明なエラー"
+    }
+  }
+}

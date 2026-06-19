@@ -1,0 +1,177 @@
+{
+  "doubao": "Doubao",
+  "minmax": {
+    "male-qn-qingse": "Jugendliche männliche Stimme",
+    "male-qn-jingying": "Eliten männliche Stimme",
+    "male-qn-badao": "Dominante männliche Stimme",
+    "male-qn-daxuesheng": "Student männliche Stimme",
+    "female-shaonv": "Mädchenstimme",
+    "female-yujie": "Reife Frauenstimme",
+    "female-chengshu": "Reife weibliche Stimme",
+    "female-tianmei": "Süße weibliche Stimme",
+    "presenter_male": "Männlicher Moderator",
+    "presenter_female": "Weibliche Moderatorin",
+    "audiobook_male_1": "Männliches Hörbuch 1",
+    "audiobook_male_2": "Männliches Hörbuch 2",
+    "audiobook_female_1": "Weibliches Hörbuch 1",
+    "audiobook_female_2": "Weibliches Hörbuch 2",
+    "male-qn-qingse-jingpin": "Jugendliche männliche Stimme-beta",
+    "male-qn-jingying-jingpin": "Eliten männliche Stimme-beta",
+    "male-qn-badao-jingpin": "Dominante männliche Stimme-beta",
+    "male-qn-daxuesheng-jingpin": "Student männliche Stimme-beta",
+    "female-shaonv-jingpin": "Mädchenstimme-beta",
+    "female-yujie-jingpin": "Reife Frauenstimme-beta",
+    "female-chengshu-jingpin": "Reife weibliche Stimme-beta",
+    "female-tianmei-jingpin": "Süße weibliche Stimme-beta",
+    "clever_boy": "Kleiner Junge",
+    "cute_boy": "Süßer Junge",
+    "lovely_girl": "Liebenswertes Mädchen",
+    "cartoon_pig": "Cartoon Schwein Qi"
+  },
+  "male": "Männlich",
+  "female": "Weiblich",
+  "session": {
+    "save": {
+      "error": "Sitzung konnte nicht gespeichert werden: Artikelinhalt nach maximalen Versuchen nicht verfügbar"
+    }
+  },
+  "footer": {
+    "ai": "Inhalt von KI generiert, nur als Referenz"
+  },
+  "about": {
+    "title": "Über KI-Sprachgenerator"
+  },
+  "detail": {
+    "title": "Papierdetails",
+    "back": "Zurück",
+    "copy": "Kopieren",
+    "copySuccess": "In die Zwischenablage kopiert",
+    "download": "PDF herunterladen",
+    "sessionNotFound": "Diese Sitzung wurde nicht gefunden",
+    "apiNotSet": "API nicht eingestellt",
+    "taskIdNotSet": "Task-ID existiert nicht, Sie sehen möglicherweise eine alte Version des Inhalts, die derzeit nicht unterstützt wird",
+    "cannotDownloadMarkdownInEditingMode": "Markdown kann im Bearbeitungsmodus nicht heruntergeladen werden, bitte wechseln Sie zuerst in den Vorschaumodus"
+  },
+  "home": {
+    "title": "KI-Sprachgenerator",
+    "login": {
+      "error": "Anmeldeinformationen sind falsch, bitte melden Sie sich manuell an!"
+    },
+    "header": {
+      "title": "KI-Sprachgenerator",
+      "placeholder": "Geben Sie das Thema ein, das Sie erforschen möchten",
+      "start": "Start",
+      "starting": "Erstelle...",
+      "language": "Sprache auswählen",
+      "voiceClone": {
+        "title": "Sprachmodell erstellen",
+        "newModelName": "Name",
+        "makeClone": "Erstellen",
+        "uploadOrRecord": "Sprachdatei hochladen (mindestens 10 Sekunden, höchstens 90 Sekunden, empfohlen 25 Sekunden)",
+        "selectFile": "Datei auswählen",
+        "startRecord": "Aufnahme starten",
+        "or": "oder",
+        "stopRecord": "Aufnahme stoppen",
+        "hasAudio": "Audio ausgewählt",
+        "referenceText": "Referenzaufnahmetext",
+        "referenceTextReal": "Der Wasserkreislauf ist das Zirkulationssystem der Natur. Wasser verdunstet vom Boden, bildet Wolken und kehrt dann in Form von Regen zum Boden zurück. Dieser zyklische Prozess ist für das Leben auf der Erde von entscheidender Bedeutung."
+      },
+      "history": {
+        "title": "Verlauf",
+        "search": {
+          "placeholder": "Durchsuchen Sie Ihre Papiere",
+          "no_results": "Keine relevanten Ergebnisse gefunden",
+          "loading": "Suche..."
+        },
+        "empty": "Ihr Verlauf ist leer",
+        "deleteAll": "Alles löschen",
+        "deleteSuccess": "Erfolgreich {count} Elemente gelöscht",
+        "deleteConfirm": "Löschen bestätigen?",
+        "close": "Schließen"
+      }
+    },
+    "create": {
+      "success": "Papier erfolgreich erstellt"
+    }
+  },
+  "tabs": {
+    "textToSpeech": "Text zu Sprache",
+    "speechToSpeech": "Sprache zu Sprache",
+    "speechClone": "Sprache klonen"
+  },
+  "aria": {
+    "selectPlatform": "Plattform auswählen",
+    "selectLanguage": "Sprache auswählen",
+    "selectSpeaker": "Sprecher auswählen",
+    "speed": "Geschwindigkeit",
+    "speaker": "Sprecher",
+    "volume": "Lautstärke",
+    "language": "Sprache",
+    "makeCloneModel": "Sprachmodell erstellen"
+  },
+  "placeholders": {
+    "selectPlatform": "Plattform auswählen",
+    "selectLanguage": "Sprache auswählen",
+    "selectSpeaker": "Sprecher auswählen"
+  },
+  "buttons": {
+    "reUpload": "Erneut hochladen",
+    "uploading": "Lade hoch...",
+    "uploadRecording": "Aufnahme hochladen",
+    "stopRecording": "Aufnahme stoppen",
+    "startRecording": "Aufnahme starten",
+    "history": "Verlauf",
+    "download": "Herunterladen",
+    "generate": "Generieren"
+  },
+  "or": "oder",
+  "audio": "Audio",
+  "success": {
+    "recordingEnded": "Aufnahme beendet, Erkennung beginnt",
+    "generation": "Generierung erfolgreich",
+    "restore": "Wiederherstellung erfolgreich",
+    "textCopied": "Text kopiert",
+    "remove": "Löschen erfolgreich",
+    "makeClone": "Klonen erfolgreich",
+    "fileSelected": "Datei ausgewählt"
+  },
+  "error": {
+    "fetchSpeakersFailed": "Sprecher konnten nicht abgerufen werden",
+    "noAudio": "Kein Audio verfügbar, bitte zuerst auf Generieren klicken",
+    "noFile": "Bitte wählen Sie eine Datei aus",
+    "recognitionFailed": "Sprache konnte nicht erkannt werden",
+    "noRecording": "Bitte zuerst aufnehmen",
+    "noRecordingData": "Aufnahme beendet, keine Aufnahmedaten erkannt",
+    "recordingEndedFailed": "Aufnahme konnte nicht beendet werden",
+    "noText": "Bitte Text eingeben",
+    "noPlatform": "Bitte Plattform auswählen",
+    "noSpeaker": "Bitte Sprecher auswählen",
+    "unsupportedLanguage": "Generierung fehlgeschlagen, der ausgewählte Sprecher unterstützt die Sprache des Eingabeinhalts nicht",
+    "generationFailed": "Generierung fehlgeschlagen",
+    "remove": "Löschen fehlgeschlagen",
+    "noAudioData": "Bitte zuerst Audio hochladen",
+    "noModelName": "Bitte Modellnamen eingeben",
+    "fileSelected": "Datei ausgewählt",
+    "tooShort": "Audio zu kurz, bitte erneut aufnehmen",
+    "tooLong": "Audio zu lang, bitte erneut aufnehmen",
+    "durationCalculationFailed": "Berechnung der Audiodauer fehlgeschlagen, bitte erneut aufnehmen",
+    "taskFailed": "Aufgabe fehlgeschlagen",
+    "taskExpired": "Aufgabe abgelaufen",
+    "taskTimeout": "Aufgabenstatusabfragezeitüberschreitung"
+  },
+  "auth": {
+    "title": "Freigabecode erforderlich",
+    "description": "Der Ersteller hat die Authentifizierung aktiviert, bitte geben Sie unten den Freigabecode ein",
+    "placeholder": "Bitte geben Sie den Freigabecode ein",
+    "errorMessage": "Für weitere Informationen besuchen Sie bitte",
+    "confirmButton": "Bestätigen",
+    "rememberCode": "Freigabecode merken",
+    "error": {
+      "tool_deleted": "Dieses Tool wurde gelöscht",
+      "tool_disabled": "Dieses Tool wurde deaktiviert",
+      "share_code_error": "Freigabecode-Fehler",
+      "network_error": "Netzwerkfehler",
+      "unknown_error": "Unbekannter Fehler"
+    }
+  }
+}

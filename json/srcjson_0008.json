@@ -1,0 +1,3315 @@
+{
+  "raceCategories": [
+    {
+      "id": "race_category_01",
+      "number": 1,
+      "name": "Humans, Near-Humans, and Mixed Heritage",
+      "creatorGod": "Nebyrr",
+      "summary": "Cleanest biome accent; high intelligibility; flexible culture-to-culture adaptation.",
+      "raceSpeechArchetype": "Human / Mixed Heritage",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Human",
+        "Half-Elf",
+        "Half-Orc",
+        "Khoravar",
+        "Umbral Human"
+      ],
+      "voiceTexturePreset": {
+        "humanVariation": 0.8,
+        "clarity": 0.9,
+        "roughness": 0.12,
+        "special": "adaptable"
+      }
+    },
+    {
+      "id": "race_category_02",
+      "number": 2,
+      "name": "Elven Peoples",
+      "creatorGod": "Sigrananna",
+      "summary": "Smoother vowels, lighter consonants, more musical rhythm, elegant accent carry.",
+      "raceSpeechArchetype": "Elf",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Elf (Core Elves)",
+        "High Elf",
+        "Wood Elf",
+        "Drow (Underdark Elf)",
+        "Eladrin",
+        "Astral Elf",
+        "Sea Elf",
+        "Shadar-Kai",
+        "Pallid Elf",
+        "Star Elf (Lunar/Heavenly Lineage)",
+        "Avariel (Winged Elf)",
+        "Snow Elf (Frostbound Elf)",
+        "Sun Elf",
+        "Moon Elf",
+        "Shadowmoor Elf",
+        "Celestial Elf",
+        "Kaluseban"
+      ],
+      "voiceTexturePreset": {
+        "vowelFlow": 0.82,
+        "clarity": 0.85,
+        "roughness": 0.08,
+        "special": "airy"
+      }
+    },
+    {
+      "id": "race_category_03",
+      "number": 3,
+      "name": "Dwarven and Gnomish Kin",
+      "creatorGod": "Marduthor",
+      "summary": "Lower, denser, craft-clipped, stronger consonants; gnomish branches become quicker and more technical.",
+      "raceSpeechArchetype": "Dwarf / Gnome",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Dwarf",
+        "Duergar",
+        "Gnome",
+        "Deep Gnome",
+        "Autognome",
+        "Geisamahi"
+      ],
+      "voiceTexturePreset": {
+        "resonance": 0.9,
+        "throatDepth": 0.75,
+        "roughness": 0.2,
+        "special": "stonework"
+      }
+    },
+    {
+      "id": "race_category_04",
+      "number": 4,
+      "name": "Halfling and Smallfolk",
+      "creatorGod": "Ishtanora",
+      "summary": "Warmer, quicker, friendlier, softer conversational accent handling.",
+      "raceSpeechArchetype": "Halfling / Smallfolk",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Halfling",
+        "Kender",
+        "Kithkin",
+        "Qickstep",
+        "Hedge",
+        "Jerbeen"
+      ],
+      "voiceTexturePreset": {
+        "warmth": 0.88,
+        "rhythm": 0.72,
+        "clarity": 0.82,
+        "special": "smallfolk"
+      }
+    },
+    {
+      "id": "race_category_05",
+      "number": 5,
+      "name": "Orcs, Goblinoids, and Brutish Humanoids",
+      "creatorGod": "Enkirael",
+      "summary": "Rougher, forceful, punchier syllables, martial consonants, survival-coded intensity.",
+      "raceSpeechArchetype": "Orc / Goblinoid",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Orc",
+        "Goblin",
+        "Hobgoblin",
+        "Bugbear",
+        "Gnoll",
+        "Gobboc",
+        "Shadow Goblin"
+      ],
+      "voiceTexturePreset": {
+        "roughness": 0.72,
+        "consonantBite": 0.83,
+        "projection": 0.75,
+        "special": "brutish"
+      }
+    },
+    {
+      "id": "race_category_06",
+      "number": 6,
+      "name": "Giantkin and Powerful Humanoids",
+      "creatorGod": "Anubaldir",
+      "summary": "Larger breath, slower weight, chest/body resonance, fewer but heavier phrases.",
+      "raceSpeechArchetype": "Giantkin",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Goliath",
+        "Firbolg",
+        "Cyclopian",
+        "Giff",
+        "Minotaur"
+      ],
+      "voiceTexturePreset": {
+        "resonance": 0.95,
+        "projection": 0.9,
+        "speed": 0.4,
+        "special": "giant"
+      }
+    },
+    {
+      "id": "race_category_07",
+      "number": 7,
+      "name": "Draconic and Reptilian Races",
+      "creatorGod": "Valkhamesh",
+      "summary": "Growled undertone, scaled breath, hiss/fricative edge, ceremonial dominance.",
+      "raceSpeechArchetype": "Draconic / Reptilian",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Dragonborn",
+        "Kobold",
+        "Lizardfolk",
+        "Yuan-Ti"
+      ],
+      "voiceTexturePreset": {
+        "consonantBite": 0.82,
+        "throatDepth": 0.86,
+        "roughness": 0.45,
+        "special": "draconic"
+      }
+    },
+    {
+      "id": "race_category_08",
+      "number": 8,
+      "name": "Celestial, Fiendish, and Planar Bloodlines",
+      "creatorGod": "Freyseth",
+      "summary": "Otherworldly resonance; celestial lines brighten, fiendish lines harden, cursed lines roughen.",
+      "raceSpeechArchetype": "Planar Bloodline",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Aasimar",
+        "Tiefling",
+        "Feral Tiefling",
+        "Hexblood",
+        "Accursed",
+        "Curseborn",
+        "Aburata"
+      ],
+      "voiceTexturePreset": {
+        "projection": 0.82,
+        "inflection": 0.72,
+        "warmth": 0.62,
+        "special": "planar"
+      }
+    },
+    {
+      "id": "race_category_09",
+      "number": 9,
+      "name": "Undead and Death-Touched Races",
+      "creatorGod": "Nefarokir",
+      "summary": "Breathier, hollow, restrained, grave-adjacent speech; emotions sound deliberately controlled.",
+      "raceSpeechArchetype": "Undead / Death-Touched",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Dhampir",
+        "Darakhul",
+        "Reborn",
+        "Arisen",
+        "Graveborn",
+        "Shade",
+        "Downcast",
+        "Volsarii"
+      ],
+      "voiceTexturePreset": {
+        "breath": 0.7,
+        "roughness": 0.38,
+        "speed": 0.42,
+        "special": "deathTouched"
+      }
+    },
+    {
+      "id": "race_category_10",
+      "number": 10,
+      "name": "Fey and Trickster Folk",
+      "creatorGod": "Thalunesh",
+      "summary": "Playful rhythm, flexible timing, musical misdirection, bright social motion.",
+      "raceSpeechArchetype": "Fey / Trickster",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Faerie",
+        "Fairy",
+        "Changeling",
+        "Lorwyn Changeling",
+        "Satyr",
+        "Dreamer",
+        "Gandirosha"
+      ],
+      "voiceTexturePreset": {
+        "inflection": 0.88,
+        "rhythm": 0.84,
+        "vowelFlow": 0.8,
+        "special": "fey"
+      }
+    },
+    {
+      "id": "race_category_11",
+      "number": 11,
+      "name": "Elemental and Energy-Born Peoples",
+      "creatorGod": "Horundar",
+      "summary": "Speech takes on element behavior: air light, earth grounded, fire sharp, water flowing.",
+      "raceSpeechArchetype": "Elemental / Energy-Born",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Air Genasi",
+        "Earth Genasi",
+        "Fire Genasi",
+        "Water Genasi",
+        "Flamekin",
+        "Rimekin",
+        "Ashborn",
+        "Azureborn",
+        "Bogborn",
+        "Deepborn",
+        "Snowborn",
+        "Stoneborn",
+        "Panolima"
+      ],
+      "voiceTexturePreset": {
+        "inflection": 0.76,
+        "projection": 0.72,
+        "vowelFlow": 0.72,
+        "special": "elemental"
+      }
+    },
+    {
+      "id": "race_category_12",
+      "number": 12,
+      "name": "Psionic, Astral, and Alien Minds",
+      "creatorGod": "Raeshkul",
+      "summary": "Precise or uncanny cadence, mental pauses, compressed stress, and subtle phase layering.",
+      "raceSpeechArchetype": "Psionic / Astral",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Kalashtar",
+        "Githyanki",
+        "Githzerai",
+        "Plasmoid",
+        "Disembodied",
+        "Gwynis"
+      ],
+      "voiceTexturePreset": {
+        "pauseControl": 0.84,
+        "clarity": 0.78,
+        "inflection": 0.56,
+        "special": "psionic"
+      }
+    },
+    {
+      "id": "race_category_13",
+      "number": 13,
+      "name": "Constructed and Artificial Beings",
+      "creatorGod": "Setrimir",
+      "summary": "Measured timing, engineered clarity, metallic or wooden resonance, less biological randomness unless awakened emotion pushes through.",
+      "raceSpeechArchetype": "Constructed / Artificial",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Warforged",
+        "Geppettin",
+        "Relicborn",
+        "Wechselkind"
+      ],
+      "voiceTexturePreset": {
+        "clarity": 0.92,
+        "rhythm": 0.42,
+        "consonantBite": 0.7,
+        "special": "constructed"
+      }
+    },
+    {
+      "id": "race_category_14",
+      "number": 14,
+      "name": "Birdfolk and Avian Races",
+      "creatorGod": "Sokhivar",
+      "summary": "Lifted pitch gesture, light consonant release, chirp/trill energy, air-borne phrasing.",
+      "raceSpeechArchetype": "Avian",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Aarakocra",
+        "Kenku",
+        "Owlin",
+        "Ravenfolk",
+        "Corvum",
+        "Gallus",
+        "Strig",
+        "Feathren",
+        "Raptor"
+      ],
+      "voiceTexturePreset": {
+        "pitch": 0.68,
+        "inflection": 0.82,
+        "vowelFlow": 0.7,
+        "special": "avian"
+      }
+    },
+    {
+      "id": "race_category_15",
+      "number": 15,
+      "name": "Beastfolk and Mammalian Anthropomorphs",
+      "creatorGod": "Iskareth",
+      "summary": "Expressive rhythm, animal textures such as purr/chuff/growl, stronger sensory emphasis.",
+      "raceSpeechArchetype": "Beastfolk",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Harengon",
+        "Leonin",
+        "Loxodon",
+        "Tabaxi",
+        "Bearfolk",
+        "Canisar",
+        "Cervan",
+        "Erina",
+        "Mapach",
+        "Ratatosk",
+        "Rakin",
+        "Sattare",
+        "Vulpin",
+        "Deorbasun"
+      ],
+      "voiceTexturePreset": {
+        "roughness": 0.35,
+        "warmth": 0.68,
+        "rhythm": 0.74,
+        "special": "beastfolk"
+      }
+    },
+    {
+      "id": "race_category_16",
+      "number": 16,
+      "name": "Amphibious and Aquatic Peoples",
+      "creatorGod": "Bastveig",
+      "summary": "Flowing and breathy; vowels stretch more; words sound liquid, wet, croaky, or wave-shaped depending on race.",
+      "raceSpeechArchetype": "Aquatic / Merfolk",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Triton",
+        "Locathah",
+        "Grung",
+        "Merfolk",
+        "Sahuagin",
+        "Lotol",
+        "Nakudama",
+        "Dril'thar",
+        "Tamhiogal"
+      ],
+      "voiceTexturePreset": {
+        "vowelFlow": 0.92,
+        "breath": 0.54,
+        "rhythm": 0.66,
+        "special": "aquatic"
+      }
+    },
+    {
+      "id": "race_category_17",
+      "number": 17,
+      "name": "Insectoid, Ooze, and Aberrant Creatures",
+      "creatorGod": "Thoryn-Rahek",
+      "summary": "Clicks, buzzes, viscosity, segmented timing, or unsettling alien articulation.",
+      "raceSpeechArchetype": "Insectoid / Ooze / Aberrant",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Thri-Kreen",
+        "Cnidarin",
+        "Oozekin",
+        "Opteran",
+        "Silkborn"
+      ],
+      "voiceTexturePreset": {
+        "consonantBite": 0.86,
+        "stutter": 0.28,
+        "special": "clickCroak"
+      }
+    },
+    {
+      "id": "race_category_18",
+      "number": 18,
+      "name": "Plantfolk and Nature-Bound Races",
+      "creatorGod": "Hathruna",
+      "summary": "Rustle, slow growth cadence, seasonal warmth, fungal dampness, or root-deep resonance.",
+      "raceSpeechArchetype": "Plantfolk / Nature-Bound",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Mandrake",
+        "Mycelian",
+        "Gnarlborn",
+        "Harvestborn",
+        "Jaspey"
+      ],
+      "voiceTexturePreset": {
+        "speed": 0.45,
+        "warmth": 0.76,
+        "vowelFlow": 0.78,
+        "special": "plant"
+      }
+    },
+    {
+      "id": "race_category_19",
+      "number": 19,
+      "name": "Shadow, Umbral, and Darkness-Aligned Peoples",
+      "creatorGod": "Eirzunet",
+      "summary": "Lower light, softer edges, secrecy, hollow resonance, and restrained emotional reveal.",
+      "raceSpeechArchetype": "Shadow / Umbral",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Ombrask",
+        "Ruinbound",
+        "Blagueborn",
+        "Threadborn"
+      ],
+      "voiceTexturePreset": {
+        "breath": 0.74,
+        "pauseControl": 0.8,
+        "roughness": 0.26,
+        "special": "shadow"
+      }
+    },
+    {
+      "id": "race_category_20",
+      "number": 20,
+      "name": "Animalistic Hybrids and Experimental Races",
+      "creatorGod": "Oskar'enlil",
+      "summary": "Adaptive and mixed: combines civilized clarity with animal, altered, or engineered speech traits.",
+      "raceSpeechArchetype": "Hybrid / Experimental",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Simic Hybrid",
+        "Shifter",
+        "Verdan",
+        "Vedalken",
+        "Hadozee",
+        "Tortle"
+      ],
+      "voiceTexturePreset": {
+        "humanVariation": 0.92,
+        "inflection": 0.7,
+        "roughness": 0.32,
+        "special": "hybrid"
+      }
+    },
+    {
+      "id": "race_category_21",
+      "number": 21,
+      "name": "Primitive, Tribal, and Wilderness Humanoids",
+      "creatorGod": "Asethyr",
+      "summary": "Earthy, direct, ritual/local, breathy from outdoor life, with practical survival emphasis.",
+      "raceSpeechArchetype": "Wilderness Humanoid",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Boggart",
+        "Centaur",
+        "Grudgel",
+        "Hederan",
+        "Laneshi",
+        "Terandus"
+      ],
+      "voiceTexturePreset": {
+        "projection": 0.82,
+        "rhythm": 0.7,
+        "consonantBite": 0.66,
+        "special": "wilderness"
+      }
+    },
+    {
+      "id": "race_category_22",
+      "number": 22,
+      "name": "Miscellaneous and Hard-to-Classify Races",
+      "creatorGod": "Nephthysra",
+      "summary": "Unique voice-print; accent treatment should be individually selected and personality-forward.",
+      "raceSpeechArchetype": "Miscellaneous / Rare",
+      "biomeRoutingNote": "Recommended biome accents are carriers; this racial category still applies its own resonance/articulation overlay after the biome is selected.",
+      "races": [
+        "Dara",
+        "Golynn",
+        "Luma"
+      ],
+      "voiceTexturePreset": {
+        "humanVariation": 0.95,
+        "inflection": 0.66,
+        "clarity": 0.68,
+        "special": "miscellaneous"
+      }
+    }
+  ],
+  "races": [
+    {
+      "id": "human",
+      "name": "Human",
+      "categoryNumber": 1,
+      "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "half_elf",
+      "name": "Half-Elf",
+      "categoryNumber": 1,
+      "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "half_orc",
+      "name": "Half-Orc",
+      "categoryNumber": 1,
+      "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "khoravar",
+      "name": "Khoravar",
+      "categoryNumber": 1,
+      "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "umbral_human",
+      "name": "Umbral Human",
+      "categoryNumber": 1,
+      "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "elf_core_elves",
+      "name": "Elf (Core Elves)",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "high_elf",
+      "name": "High Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "wood_elf",
+      "name": "Wood Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "drow_underdark_elf",
+      "name": "Drow (Underdark Elf)",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "eladrin",
+      "name": "Eladrin",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "astral_elf",
+      "name": "Astral Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "sea_elf",
+      "name": "Sea Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "shadar_kai",
+      "name": "Shadar-Kai",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "pallid_elf",
+      "name": "Pallid Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "star_elf_lunar_heavenly_lineage",
+      "name": "Star Elf (Lunar/Heavenly Lineage)",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "avariel_winged_elf",
+      "name": "Avariel (Winged Elf)",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "snow_elf_frostbound_elf",
+      "name": "Snow Elf (Frostbound Elf)",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "sun_elf",
+      "name": "Sun Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "moon_elf",
+      "name": "Moon Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "shadowmoor_elf",
+      "name": "Shadowmoor Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "celestial_elf",
+      "name": "Celestial Elf",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "kaluseban",
+      "name": "Kaluseban",
+      "categoryNumber": 2,
+      "categoryName": "Elven Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "categoryNumber": 3,
+      "categoryName": "Dwarven and Gnomish Kin",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "duergar",
+      "name": "Duergar",
+      "categoryNumber": 3,
+      "categoryName": "Dwarven and Gnomish Kin",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "categoryNumber": 3,
+      "categoryName": "Dwarven and Gnomish Kin",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "deep_gnome",
+      "name": "Deep Gnome",
+      "categoryNumber": 3,
+      "categoryName": "Dwarven and Gnomish Kin",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "autognome",
+      "name": "Autognome",
+      "categoryNumber": 3,
+      "categoryName": "Dwarven and Gnomish Kin",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "geisamahi",
+      "name": "Geisamahi",
+      "categoryNumber": 3,
+      "categoryName": "Dwarven and Gnomish Kin",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "categoryNumber": 4,
+      "categoryName": "Halfling and Smallfolk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "kender",
+      "name": "Kender",
+      "categoryNumber": 4,
+      "categoryName": "Halfling and Smallfolk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "kithkin",
+      "name": "Kithkin",
+      "categoryNumber": 4,
+      "categoryName": "Halfling and Smallfolk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "qickstep",
+      "name": "Qickstep",
+      "categoryNumber": 4,
+      "categoryName": "Halfling and Smallfolk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "hedge",
+      "name": "Hedge",
+      "categoryNumber": 4,
+      "categoryName": "Halfling and Smallfolk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "jerbeen",
+      "name": "Jerbeen",
+      "categoryNumber": 4,
+      "categoryName": "Halfling and Smallfolk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "hobgoblin",
+      "name": "Hobgoblin",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "bugbear",
+      "name": "Bugbear",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gnoll",
+      "name": "Gnoll",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gobboc",
+      "name": "Gobboc",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "shadow_goblin",
+      "name": "Shadow Goblin",
+      "categoryNumber": 5,
+      "categoryName": "Orcs, Goblinoids, and Brutish Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "categoryNumber": 6,
+      "categoryName": "Giantkin and Powerful Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "firbolg",
+      "name": "Firbolg",
+      "categoryNumber": 6,
+      "categoryName": "Giantkin and Powerful Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "cyclopian",
+      "name": "Cyclopian",
+      "categoryNumber": 6,
+      "categoryName": "Giantkin and Powerful Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "giff",
+      "name": "Giff",
+      "categoryNumber": 6,
+      "categoryName": "Giantkin and Powerful Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "categoryNumber": 6,
+      "categoryName": "Giantkin and Powerful Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "categoryNumber": 7,
+      "categoryName": "Draconic and Reptilian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "kobold",
+      "name": "Kobold",
+      "categoryNumber": 7,
+      "categoryName": "Draconic and Reptilian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "lizardfolk",
+      "name": "Lizardfolk",
+      "categoryNumber": 7,
+      "categoryName": "Draconic and Reptilian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "yuan_ti",
+      "name": "Yuan-Ti",
+      "categoryNumber": 7,
+      "categoryName": "Draconic and Reptilian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "feral_tiefling",
+      "name": "Feral Tiefling",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "hexblood",
+      "name": "Hexblood",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "accursed",
+      "name": "Accursed",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "curseborn",
+      "name": "Curseborn",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "aburata",
+      "name": "Aburata",
+      "categoryNumber": 8,
+      "categoryName": "Celestial, Fiendish, and Planar Bloodlines",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "dhampir",
+      "name": "Dhampir",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "darakhul",
+      "name": "Darakhul",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "reborn",
+      "name": "Reborn",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "arisen",
+      "name": "Arisen",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "graveborn",
+      "name": "Graveborn",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "shade",
+      "name": "Shade",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "downcast",
+      "name": "Downcast",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "volsarii",
+      "name": "Volsarii",
+      "categoryNumber": 9,
+      "categoryName": "Undead and Death-Touched Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "faerie",
+      "name": "Faerie",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "changeling",
+      "name": "Changeling",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "lorwyn_changeling",
+      "name": "Lorwyn Changeling",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "satyr",
+      "name": "Satyr",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "dreamer",
+      "name": "Dreamer",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gandirosha",
+      "name": "Gandirosha",
+      "categoryNumber": 10,
+      "categoryName": "Fey and Trickster Folk",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "air_genasi",
+      "name": "Air Genasi",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "earth_genasi",
+      "name": "Earth Genasi",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "fire_genasi",
+      "name": "Fire Genasi",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "water_genasi",
+      "name": "Water Genasi",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "flamekin",
+      "name": "Flamekin",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "rimekin",
+      "name": "Rimekin",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "ashborn",
+      "name": "Ashborn",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "azureborn",
+      "name": "Azureborn",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "bogborn",
+      "name": "Bogborn",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "deepborn",
+      "name": "Deepborn",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "snowborn",
+      "name": "Snowborn",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "stoneborn",
+      "name": "Stoneborn",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "panolima",
+      "name": "Panolima",
+      "categoryNumber": 11,
+      "categoryName": "Elemental and Energy-Born Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "kalashtar",
+      "name": "Kalashtar",
+      "categoryNumber": 12,
+      "categoryName": "Psionic, Astral, and Alien Minds",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "githyanki",
+      "name": "Githyanki",
+      "categoryNumber": 12,
+      "categoryName": "Psionic, Astral, and Alien Minds",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "githzerai",
+      "name": "Githzerai",
+      "categoryNumber": 12,
+      "categoryName": "Psionic, Astral, and Alien Minds",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "plasmoid",
+      "name": "Plasmoid",
+      "categoryNumber": 12,
+      "categoryName": "Psionic, Astral, and Alien Minds",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "disembodied",
+      "name": "Disembodied",
+      "categoryNumber": 12,
+      "categoryName": "Psionic, Astral, and Alien Minds",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gwynis",
+      "name": "Gwynis",
+      "categoryNumber": 12,
+      "categoryName": "Psionic, Astral, and Alien Minds",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "warforged",
+      "name": "Warforged",
+      "categoryNumber": 13,
+      "categoryName": "Constructed and Artificial Beings",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "geppettin",
+      "name": "Geppettin",
+      "categoryNumber": 13,
+      "categoryName": "Constructed and Artificial Beings",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "relicborn",
+      "name": "Relicborn",
+      "categoryNumber": 13,
+      "categoryName": "Constructed and Artificial Beings",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "wechselkind",
+      "name": "Wechselkind",
+      "categoryNumber": 13,
+      "categoryName": "Constructed and Artificial Beings",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "aarakocra",
+      "name": "Aarakocra",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "kenku",
+      "name": "Kenku",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "owlin",
+      "name": "Owlin",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "ravenfolk",
+      "name": "Ravenfolk",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "corvum",
+      "name": "Corvum",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gallus",
+      "name": "Gallus",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "strig",
+      "name": "Strig",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "feathren",
+      "name": "Feathren",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "raptor",
+      "name": "Raptor",
+      "categoryNumber": 14,
+      "categoryName": "Birdfolk and Avian Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "harengon",
+      "name": "Harengon",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "leonin",
+      "name": "Leonin",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "loxodon",
+      "name": "Loxodon",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "tabaxi",
+      "name": "Tabaxi",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "bearfolk",
+      "name": "Bearfolk",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "canisar",
+      "name": "Canisar",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "cervan",
+      "name": "Cervan",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "erina",
+      "name": "Erina",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "mapach",
+      "name": "Mapach",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "ratatosk",
+      "name": "Ratatosk",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "rakin",
+      "name": "Rakin",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "sattare",
+      "name": "Sattare",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "vulpin",
+      "name": "Vulpin",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "deorbasun",
+      "name": "Deorbasun",
+      "categoryNumber": 15,
+      "categoryName": "Beastfolk and Mammalian Anthropomorphs",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "locathah",
+      "name": "Locathah",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "grung",
+      "name": "Grung",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "merfolk",
+      "name": "Merfolk",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "sahuagin",
+      "name": "Sahuagin",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "lotol",
+      "name": "Lotol",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "nakudama",
+      "name": "Nakudama",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "dril_thar",
+      "name": "Dril'thar",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "tamhiogal",
+      "name": "Tamhiogal",
+      "categoryNumber": 16,
+      "categoryName": "Amphibious and Aquatic Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "thri_kreen",
+      "name": "Thri-Kreen",
+      "categoryNumber": 17,
+      "categoryName": "Insectoid, Ooze, and Aberrant Creatures",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "cnidarin",
+      "name": "Cnidarin",
+      "categoryNumber": 17,
+      "categoryName": "Insectoid, Ooze, and Aberrant Creatures",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "oozekin",
+      "name": "Oozekin",
+      "categoryNumber": 17,
+      "categoryName": "Insectoid, Ooze, and Aberrant Creatures",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "opteran",
+      "name": "Opteran",
+      "categoryNumber": 17,
+      "categoryName": "Insectoid, Ooze, and Aberrant Creatures",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "silkborn",
+      "name": "Silkborn",
+      "categoryNumber": 17,
+      "categoryName": "Insectoid, Ooze, and Aberrant Creatures",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "mandrake",
+      "name": "Mandrake",
+      "categoryNumber": 18,
+      "categoryName": "Plantfolk and Nature-Bound Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "mycelian",
+      "name": "Mycelian",
+      "categoryNumber": 18,
+      "categoryName": "Plantfolk and Nature-Bound Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "gnarlborn",
+      "name": "Gnarlborn",
+      "categoryNumber": 18,
+      "categoryName": "Plantfolk and Nature-Bound Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "harvestborn",
+      "name": "Harvestborn",
+      "categoryNumber": 18,
+      "categoryName": "Plantfolk and Nature-Bound Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "jaspey",
+      "name": "Jaspey",
+      "categoryNumber": 18,
+      "categoryName": "Plantfolk and Nature-Bound Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "ombrask",
+      "name": "Ombrask",
+      "categoryNumber": 19,
+      "categoryName": "Shadow, Umbral, and Darkness-Aligned Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "ruinbound",
+      "name": "Ruinbound",
+      "categoryNumber": 19,
+      "categoryName": "Shadow, Umbral, and Darkness-Aligned Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "blagueborn",
+      "name": "Blagueborn",
+      "categoryNumber": 19,
+      "categoryName": "Shadow, Umbral, and Darkness-Aligned Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "threadborn",
+      "name": "Threadborn",
+      "categoryNumber": 19,
+      "categoryName": "Shadow, Umbral, and Darkness-Aligned Peoples",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "simic_hybrid",
+      "name": "Simic Hybrid",
+      "categoryNumber": 20,
+      "categoryName": "Animalistic Hybrids and Experimental Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "categoryNumber": 20,
+      "categoryName": "Animalistic Hybrids and Experimental Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "verdan",
+      "name": "Verdan",
+      "categoryNumber": 20,
+      "categoryName": "Animalistic Hybrids and Experimental Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "vedalken",
+      "name": "Vedalken",
+      "categoryNumber": 20,
+      "categoryName": "Animalistic Hybrids and Experimental Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "hadozee",
+      "name": "Hadozee",
+      "categoryNumber": 20,
+      "categoryName": "Animalistic Hybrids and Experimental Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "tortle",
+      "name": "Tortle",
+      "categoryNumber": 20,
+      "categoryName": "Animalistic Hybrids and Experimental Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "boggart",
+      "name": "Boggart",
+      "categoryNumber": 21,
+      "categoryName": "Primitive, Tribal, and Wilderness Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "centaur",
+      "name": "Centaur",
+      "categoryNumber": 21,
+      "categoryName": "Primitive, Tribal, and Wilderness Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "grudgel",
+      "name": "Grudgel",
+      "categoryNumber": 21,
+      "categoryName": "Primitive, Tribal, and Wilderness Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "hederan",
+      "name": "Hederan",
+      "categoryNumber": 21,
+      "categoryName": "Primitive, Tribal, and Wilderness Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "laneshi",
+      "name": "Laneshi",
+      "categoryNumber": 21,
+      "categoryName": "Primitive, Tribal, and Wilderness Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "terandus",
+      "name": "Terandus",
+      "categoryNumber": 21,
+      "categoryName": "Primitive, Tribal, and Wilderness Humanoids",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "dara",
+      "name": "Dara",
+      "categoryNumber": 22,
+      "categoryName": "Miscellaneous and Hard-to-Classify Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "golynn",
+      "name": "Golynn",
+      "categoryNumber": 22,
+      "categoryName": "Miscellaneous and Hard-to-Classify Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    },
+    {
+      "id": "luma",
+      "name": "Luma",
+      "categoryNumber": 22,
+      "categoryName": "Miscellaneous and Hard-to-Classify Races",
+      "lineageNotes": "",
+      "voiceRoutingHint": "Use race category first, biome second when habitat/culture matters, then class/subclass and gender expression overlay."
+    }
+  ],
+  "biomes": [
+    {
+      "id": "ocean_surface_floating_settlement",
+      "name": "Ocean Surface Floating Settlement",
+      "fantasyAccentName": "Tidecrest Cant",
+      "baseAccentInspiration": "Portuguese",
+      "bestFitCategoryNumbers": [
+        1,
+        2,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Humans sound closest to the base. Elves become breezier and more elegant, especially sea-traders or sky-dock elves. Dwarves and gnomes become harsher, shipwright-like, and practical. Aquatic peoples make it fluid and tide-shaped. **Ocean Dril’thar** use Tidecrest Cant when living in floating settlements, storm-pools, mangrove platforms, or ocean pilgrim ports. Fire, storm, and water Genasi shift the voice toward heat, thunder, or wave rhythm. Warforged and constructs sound like harbor machinery, bells, brass hulls, and pressure valves.",
+      "classOverlayBehavior": "Merchants sound like dock traders; captains, paladins, fighters, and commanders sound declarative; bards sound sea-shanty-like; artificers sound shipyard-practical; clerics sound like tide-priests.",
+      "finalVoiceFeel": "Open, rolling, maritime, lively, salt-air social."
+    },
+    {
+      "id": "underwater_with_reefs",
+      "name": "Underwater With Reefs",
+      "fantasyAccentName": "Reefglass Lilt",
+      "baseAccentInspiration": "Japanese",
+      "bestFitCategoryNumbers": [
+        2,
+        7,
+        8,
+        11,
+        16,
+        17,
+        18,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Sea Elves, reef elves, aquatic Kaluseban, merfolk, tritons, reefborn Dril’thar, and coral-adapted beastfolk should use this instead of their dryland family accent. Elves make it delicate and precise. Aquatic races make it especially fluid. Orcish or goblinoid aquatic lineages become abrupt and unusual. Reptilian reef lineages add sharp consonants and controlled throat pressure. Coral plantfolk sound chiming, slow, and breath-light.",
+      "classOverlayBehavior": "Clerics sound ritualistic and tide-temple formal; mages sound precise; rogues sound muffled, quick, and current-hidden; monks sound calm and suspended; bards sound elegant and glassy.",
+      "finalVoiceFeel": "Graceful, clear, flowing, elegant, refracted like light through water."
+    },
+    {
+      "id": "underwater_without_reefs",
+      "name": "Underwater Without Reefs",
+      "fantasyAccentName": "Deepcurrent Song",
+      "baseAccentInspiration": "Thai",
+      "bestFitCategoryNumbers": [
+        7,
+        8,
+        9,
+        11,
+        12,
+        16,
+        17,
+        19,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Deep-sea peoples, trench lineages, abyssal Dril’thar, deep merfolk, pressure-adapted sea elves, drowned undead, alien aquatic minds, and shadowed waterborn bloodlines use this instead of brighter reef accents. Aquatic races make it almost sung. Dwarven or stone-heavy lineages make it denser and slower. Humans keep it balanced. Aberrant and psionic lineages make pauses longer, stranger, and more hypnotic.",
+      "classOverlayBehavior": "Rangers sound calm and practical; warriors sound clipped and blunt; warlocks sound distant and abyssal; blood hunters sound restrained and haunted; psionic classes sound slow, spaced, and inevitable.",
+      "finalVoiceFeel": "Quiet, deep, rhythmic, mysterious, pressure-heavy."
+    },
+    {
+      "id": "grassland",
+      "name": "Grassland",
+      "fantasyAccentName": "Plainwind Common",
+      "baseAccentInspiration": "American Midwest / General North American",
+      "bestFitCategoryNumbers": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        11,
+        14,
+        15,
+        16,
+        18,
+        20,
+        21,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Humans stay neutral and plainspoken. Halflings and smallfolk become friendly and neighborly. Orcs become rougher and more direct. Beastfolk become open, vocal, and physical. **Grassland Dril’thar** should use Plainwind Common when they belong to rain-fed ponds, seasonal wetlands, prairie pools, or hidden wetland gardens rather than ocean or swamp culture. Grassland birdfolk sound broad, high, and wind-carried.",
+      "classOverlayBehavior": "Merchants sound practical and familiar; rangers sound natural; warriors sound terse; druids sound weather-aware; farmers and scouts sound easygoing but observant.",
+      "finalVoiceFeel": "Broad, open, easygoing, practical, approachable."
+    },
+    {
+      "id": "prairie",
+      "name": "Prairie",
+      "fantasyAccentName": "Ironstep Cant",
+      "baseAccentInspiration": "Russian",
+      "bestFitCategoryNumbers": [
+        1,
+        5,
+        6,
+        11,
+        12,
+        14,
+        15,
+        20,
+        21
+      ],
+      "raceLineageOverlayBehavior": "Dwarves deepen the accent if present in prairie fortresses or railholds. Elves soften it but keep the width and distance. Beastfolk make it expressive and strong. Hobgoblins, military humans, gnolls, giantkin, and strategy-heavy psionic peoples make it stern, organized, and hard-edged. Prairie birdfolk sound sharp, sky-wide, and watchful.",
+      "classOverlayBehavior": "Warriors sound stern; scholars sound formal and heavy; bards sound dramatic; fighters and commanders sound order-heavy; monks and psions sound disciplined.",
+      "finalVoiceFeel": "Strong, wide, grounded, hardy, martial when needed."
+    },
+    {
+      "id": "farming",
+      "name": "Farming",
+      "fantasyAccentName": "Hearthfield Brogue",
+      "baseAccentInspiration": "Irish",
+      "bestFitCategoryNumbers": [
+        1,
+        3,
+        4,
+        10,
+        15,
+        18,
+        20,
+        21,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Halflings make it especially warm. Dwarves make it earthier. Elves make it lighter and lilting. Plantfolk sound seasonal, patient, and root-wise. Domestic beastfolk and hearthbound experimental races become friendly, food-centered, and communal. Rural undead may soften into old-family melancholy rather than horror.",
+      "classOverlayBehavior": "Farmers and artisans sound practical; clerics sound gentle; bards sound cheerful; druids sound harvest-wise; paladins sound neighborly but firm.",
+      "finalVoiceFeel": "Friendly, earthy, communal, homely, harvest-warm."
+    },
+    {
+      "id": "mountain_range",
+      "name": "Mountain Range",
+      "fantasyAccentName": "Cragthane Burr",
+      "baseAccentInspiration": "Scottish",
+      "bestFitCategoryNumbers": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        11,
+        13,
+        14,
+        15,
+        18,
+        20,
+        21
+      ],
+      "raceLineageOverlayBehavior": "Dwarves fit this best and sound very natural. Goliaths, giantkin, stone Genasi, mountain orcs, goatfolk, raptorfolk, avariel, and alpine dragonborn become rugged and breath-heavy. Humans sound cleaner. Orcs sound harsh and mountainous. Avariel and birdfolk make it wind-cut and high-altitude. Snow elves, frost bloodlines, and cold-adapted lineages use Cragthane Burr with frost overlay if no separate arctic biome is available.",
+      "classOverlayBehavior": "Warriors sound rugged; scouts sound clipped; scholars sound surprisingly sharp; barbarians sound storm-heavy; clerics sound ancestral; artificers sound stone-and-forge practical.",
+      "finalVoiceFeel": "Tough, crisp, resilient, wind-carved."
+    },
+    {
+      "id": "valley",
+      "name": "Valley",
+      "fantasyAccentName": "Vinesong Flow",
+      "baseAccentInspiration": "Italian",
+      "bestFitCategoryNumbers": [
+        1,
+        2,
+        4,
+        8,
+        10,
+        11,
+        15,
+        18,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Elves make it smooth and lyrical. Halflings make it warm. Beastfolk make it expressive and lively. Satyrs, fey-touched peoples, flowerfolk, vinebound plantfolk, and charismatic miscellaneous lineages flourish here. Celestial or beautiful planar bloodlines become polished, radiant, and emotionally expressive.",
+      "classOverlayBehavior": "Merchants sound polished; bards sound romantic; clerics sound calm and measured; sorcerers sound passionate; warlocks sound seductive or uncanny depending patron.",
+      "finalVoiceFeel": "Flowing, fertile, elegant, soft, emotionally expressive."
+    },
+    {
+      "id": "deep_cavern",
+      "name": "Deep Cavern",
+      "fantasyAccentName": "Stonehollow Echo",
+      "baseAccentInspiration": "Welsh",
+      "bestFitCategoryNumbers": [
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20
+      ],
+      "raceLineageOverlayBehavior": "Dwarves and Duergar make it especially resonant. Humans sound clear. Orcs, dragonborn, reptilian peoples, and deep beastfolk make it heavier and more guttural. Drow, deep gnomes, cave Dril’thar, subterranean amphibians, undead, umbral humans, shadow goblins, constructs, and aberrant lineages use Stonehollow Echo when their home is beneath the surface. Warforged sound metallic and measured; psionic cavern peoples sound echo-spaced and exact.",
+      "classOverlayBehavior": "Mages sound ancient and formal; warriors sound short and echoing; rogues sound low and secretive; artificers sound mechanical and vault-like; clerics sound ancestral or funeral-deep.",
+      "finalVoiceFeel": "Echoing, ancient, carved-from-stone, heavy with memory."
+    },
+    {
+      "id": "deep_forest",
+      "name": "Deep Forest",
+      "fantasyAccentName": "Rootmere Cant",
+      "baseAccentInspiration": "German",
+      "bestFitCategoryNumbers": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21
+      ],
+      "raceLineageOverlayBehavior": "Wood Elves use Rootmere Cant rather than Highbranch Lilt when grounded in forest floor culture. Elves soften the hardness. Beastfolk make it strong and vocal. Humans keep it practical. Firbolgs, tabaxi, wolffolk, bearfolk, forest goblins, shadow elves, plantfolk, fungal lineages, forest Dril’thar, and umbral wilderness peoples all fit here. Drow only use this if they are deep-forest shadow operatives rather than cavern-born.",
+      "classOverlayBehavior": "Rangers sound disciplined; scholars sound precise; warriors sound clipped and firm; monks sound controlled and low; druids sound rooted; rogues sound hidden and tense.",
+      "finalVoiceFeel": "Dense, structured, rooted, authoritative, old-growth serious."
+    },
+    {
+      "id": "partial_forest",
+      "name": "Partial Forest",
+      "fantasyAccentName": "Sundapple Tongue",
+      "baseAccentInspiration": "Spanish",
+      "bestFitCategoryNumbers": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        14,
+        15,
+        18,
+        20,
+        21
+      ],
+      "raceLineageOverlayBehavior": "Humans sound closest to base. Halflings make it warmer. Elves make it smoother. Mixed woodland-and-town lineages, road fey, edge-forest beastfolk, smallfolk traders, birdfolk scouts, and light-footed goblins use this when they belong between forest and settlement rather than deep wilderness. Plantfolk become more social and sunlit.",
+      "classOverlayBehavior": "Merchants sound lively; bards sound expressive; scouts sound relaxed; rogues sound nimble; rangers sound practical but friendly.",
+      "finalVoiceFeel": "Flexible, social, sun-dappled, active, borderland-friendly."
+    },
+    {
+      "id": "treetops_treehouses",
+      "name": "Treetops / Treehouses",
+      "fantasyAccentName": "Highbranch Lilt",
+      "baseAccentInspiration": "French",
+      "bestFitCategoryNumbers": [
+        2,
+        8,
+        10,
+        12,
+        14,
+        15,
+        18,
+        19,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "High Elves, treetop elves, fey-touched scholars, archfey bloodlines, birdfolk, gliding beastfolk, arboreal plantfolk, and elegant miscellaneous peoples use this. Elves make it especially elegant. Humans sound refined. Halflings make it playful if they live in tree-villages. Sea Elves do **not** default here unless raised in aerial or treetop culture; they use reef, deepcurrent, or shore accents instead. Shadow-treetop peoples make it whisper-light and eerie.",
+      "classOverlayBehavior": "Bards sound graceful; scholars sound polished; rogues sound light and quick; warlocks sound lyrical and bargain-coded; monks sound airy and controlled.",
+      "finalVoiceFeel": "Light, elevated, refined, airy, graceful."
+    },
+    {
+      "id": "marshes_and_swamps",
+      "name": "Marshes and Swamps",
+      "fantasyAccentName": "Mirecurl Drawl",
+      "baseAccentInspiration": "Louisiana Cajun / Creole-influenced English",
+      "bestFitCategoryNumbers": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "raceLineageOverlayBehavior": "Halflings make it friendly. Beastfolk make it rhythmic. Orcs make it rough and muddy. **Swamp and marsh Dril’thar** use Mirecurl Drawl, especially lineages tied to spawning pools, rot, renewal, gravewater, and wetland prophecy. Dhampirs, drowned undead, swamp hags, reptilian lineages, ooze-touched peoples, fungal plantfolk, and shadowed marshfolk all fit here.",
+      "classOverlayBehavior": "Rangers sound local and practical; clerics sound slow and steady; rogues sound secretive; blood hunters sound haunted and restrained; druids sound rot-and-renewal wise.",
+      "finalVoiceFeel": "Slow, earthy, wet, lived-in, haunted when death-touched."
+    },
+    {
+      "id": "beach_and_grass_with_water",
+      "name": "Beach and Grass With Water",
+      "fantasyAccentName": "Brightshore Flow",
+      "baseAccentInspiration": "Brazilian Portuguese",
+      "bestFitCategoryNumbers": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        14,
+        15,
+        16,
+        18,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Humans sound natural. Elves sound breezy. Aquatic races make it very soft and fluid. Shoreline Dril’thar, coastal halflings, beach beastfolk, tide-touched Genasi, reptilian sunning cultures, and water-grass nomads use this when they are coastal but not reef-centered. Sea Elves raised in coastal trade towns may use Brightshore Flow rather than Reefglass Lilt.",
+      "classOverlayBehavior": "Merchants sound relaxed; bards sound sunlit and melodic; warriors sound brisk; clerics sound open and blessing-like; rangers sound shore-practical.",
+      "finalVoiceFeel": "Warm, coastal, bright, casual, breezy."
+    },
+    {
+      "id": "beach_and_reefs_with_water",
+      "name": "Beach and Reefs With Water",
+      "fantasyAccentName": "Wavebloom Welcome",
+      "baseAccentInspiration": "Hawaiian-influenced English",
+      "bestFitCategoryNumbers": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        14,
+        15,
+        16,
+        18,
+        20,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Aquatic races make it strongest. Halflings make it welcoming. Dwarves make it firmer and more grounded if they are reef-builders or harbor-smiths. Dragonborn and reptilian lineages add command and throat-weight. Sea Elves raised around reef communities use Wavebloom Welcome for above-water reef culture and Reefglass Lilt for fully underwater reef culture. Reef Dril’thar, coralborn, turtlefolk, reef Genasi, and tropical birdfolk fit strongly here.",
+      "classOverlayBehavior": "Clerics sound peaceful; bards sound musical; scouts sound light-footed; paladins sound ceremonial and community-protective; druids sound reef-wise.",
+      "finalVoiceFeel": "Gentle, tropical, wave-like, welcoming, communal."
+    },
+    {
+      "id": "hybrid_tree_and_forest_floor",
+      "name": "Hybrid Tree and Forest Floor",
+      "fantasyAccentName": "Bramblewood Burr",
+      "baseAccentInspiration": "English West Country",
+      "bestFitCategoryNumbers": [
+        2,
+        3,
+        4,
+        10,
+        14,
+        15,
+        18,
+        20,
+        21
+      ],
+      "raceLineageOverlayBehavior": "Elves smooth it out. Dwarves make it rustic. Beastfolk make it earthy and lively. Kender, hedgefolk, jerbeen, ferretfolk tinkerers, satyrs, forest-floor fey, burrow smallfolk, woodland beastfolk, and bramble plantfolk use this when they live between canopy and ground. Wood Elves may use Bramblewood Burr if they are village-woodland rather than deep-forest traditionalists.",
+      "classOverlayBehavior": "Rangers sound very natural; artisans sound local; warriors sound sturdy; bards sound folk-tale bright; rogues sound playful and quick.",
+      "finalVoiceFeel": "Rustic, layered, grounded, woodland, friendly but sturdy."
+    },
+    {
+      "id": "hybrid_farming_forest_grassland",
+      "name": "Hybrid Farming Forest Grassland",
+      "fantasyAccentName": "Millfield Practical",
+      "baseAccentInspiration": "Dutch",
+      "bestFitCategoryNumbers": [
+        1,
+        3,
+        4,
+        5,
+        10,
+        13,
+        15,
+        18,
+        20,
+        21,
+        22
+      ],
+      "raceLineageOverlayBehavior": "Humans sound plain and practical. Halflings make it friendly. Orcs make it blunt and workmanlike. Gnomes, Geisamahi, autognomes, constructed farmhands, mixed villages, beastfolk laborers, plantfolk cultivators, and experimental civic lineages fit well here. This is the best fallback for practical multi-ancestry settlements that are neither fully rural-hearth nor fully wild.",
+      "classOverlayBehavior": "Merchants sound efficient; farmers sound matter-of-fact; scholars sound neat and organized; artificers sound workshop-practical; clerics sound community-service focused.",
+      "finalVoiceFeel": "Practical, mixed, industrious, balanced, workday-clear."
+    }
+  ],
+  "lineageDivergenceRules": [
+    {
+      "rule": "Biome beats ancestry when the body or culture depends on environment.",
+      "behavior": "A Sea Elf, Wood Elf, Drow, Avariel, and High Elf should not all share one “Elf accent.” Their accent follows lived biome first, then Elven overlay second."
+    },
+    {
+      "rule": "Bloodline beats broad category when the bloodline changes habitat.",
+      "behavior": "A Fire Genasi in an ocean-surface rebel port may use Tidecrest Cant with ember pressure, while an Earth Genasi in a mountain hold may use Cragthane Burr or Stonehollow Echo."
+    },
+    {
+      "rule": "Culture beats biology when raised outside ancestral terrain.",
+      "behavior": "A reefborn Dragonborn raised in a floating settlement may use Tidecrest Cant instead of Wavebloom Welcome. A Wood Elf raised in treetop academies may use Highbranch Lilt instead of Rootmere Cant."
+    },
+    {
+      "rule": "Aquatic peoples split heavily by water type.",
+      "behavior": "Reef communities use Reefglass Lilt underwater or Wavebloom Welcome above-water. Deep ocean communities use Deepcurrent Song. Floating harbors use Tidecrest Cant. Coastal grass-and-water cultures use Brightshore Flow."
+    },
+    {
+      "rule": "Dril’thar must diverge by water ecology.",
+      "behavior": "Grassland Dril’thar = Plainwind Common with rain-fed wetland softness. Swamp Dril’thar = Mirecurl Drawl with gravewater/rot/renewal rhythm. Reef Dril’thar = Reefglass Lilt underwater or Wavebloom Welcome above-water. Ocean Dril’thar = Tidecrest Cant for floating/ocean settlements or Deepcurrent Song for deep-water lineages. Forest/Rainforest Dril’thar = Rootmere Cant, Sundapple Tongue, or Bramblewood Burr depending canopy depth and settlement style."
+    },
+    {
+      "rule": "Shadow lineages follow the shadowed version of the biome.",
+      "behavior": "Umbral Human in a city-grassland region may use Plainwind Common darkened by shadow. Shadow Goblin in cavern systems uses Stonehollow Echo. Shadar-Kai in forest gloom uses Rootmere Cant."
+    },
+    {
+      "rule": "Constructed beings follow maker culture plus operating environment.",
+      "behavior": "Warforged forged in Deep Cavern use Stonehollow Echo. Autognomes and workshop constructs in mixed farm/forest towns use Millfield Practical. Ship constructs use Tidecrest Cant."
+    },
+    {
+      "rule": "Planar bloodlines should not all sound celestial or fiendish by default.",
+      "behavior": "A celestial mountain guardian may use Cragthane Burr with radiant clarity; a fiendish swamp exile may use Mirecurl Drawl with infernal heat; an astral scholar may use Highbranch Lilt, Deepcurrent Song, or Stonehollow Echo depending home culture."
+    },
+    {
+      "rule": "Birdfolk split by flight environment.",
+      "behavior": "Avariel and cliff raptors use Cragthane Burr; canopy birdfolk use Highbranch Lilt; shorebirds use Brightshore Flow or Wavebloom Welcome; prairie hawkfolk use Ironstep Cant or Plainwind Common."
+    },
+    {
+      "rule": "Plantfolk split by growth pattern.",
+      "behavior": "Crop and orchard plantfolk use Hearthfield Brogue or Millfield Practical; deep-root forest plantfolk use Rootmere Cant; vine and flower valley plantfolk use Vinesong Flow; fungal/swamp plantfolk use Mirecurl Drawl."
+    },
+    {
+      "rule": "Beastfolk and experimental races split by animal ecology.",
+      "behavior": "Catfolk in deep forest use Rootmere Cant; ferretfolk tinkerers in mixed settlements use Millfield Practical or Bramblewood Burr; aquatic hybrids use water accents; hoofed grassland beastfolk use Plainwind Common or Ironstep Cant."
+    }
+  ],
+  "lineageExamples": [
+    {
+      "lineage": "Wood Elf",
+      "avoid": "“Elf = Highbranch Lilt”",
+      "better": "Deep Forest Wood Elf = Rootmere Cant; woodland village Wood Elf = Bramblewood Burr; treetop noble Wood Elf = Highbranch Lilt."
+    },
+    {
+      "lineage": "Sea Elf",
+      "avoid": "“Elf = Highbranch Lilt”",
+      "better": "Reef Sea Elf underwater = Reefglass Lilt; deep Sea Elf = Deepcurrent Song; coastal Sea Elf trader = Brightshore Flow; above-reef Sea Elf = Wavebloom Welcome."
+    },
+    {
+      "lineage": "Drow",
+      "avoid": "“Elf = Highbranch Lilt”",
+      "better": "Underdark Drow = Stonehollow Echo; deep-forest shadow operative Drow = Rootmere Cant; swamp exile Drow = Mirecurl Drawl."
+    },
+    {
+      "lineage": "Dril’thar",
+      "avoid": "“Aquatic = one ocean accent”",
+      "better": "Grassland Dril’thar = Plainwind Common; swamp Dril’thar = Mirecurl Drawl; reef Dril’thar = Reefglass Lilt or Wavebloom Welcome; ocean Dril’thar = Tidecrest Cant or Deepcurrent Song."
+    },
+    {
+      "lineage": "Dragonborn",
+      "avoid": "“Dragonborn = always guttural”",
+      "better": "Reef Dragonborn = Wavebloom Welcome with draconic command; cavern Dragonborn = Stonehollow Echo with heavier throat-weight; mountain Dragonborn = Cragthane Burr with thunder-weight."
+    },
+    {
+      "lineage": "Warforged / Autognome",
+      "avoid": "“Construct = metallic only”",
+      "better": "Deep forge Warforged = Stonehollow Echo; village Autognome = Millfield Practical; shipboard construct = Tidecrest Cant."
+    },
+    {
+      "lineage": "Fire Genasi",
+      "avoid": "“Elemental = one accent”",
+      "better": "Ocean-surface Fire Genasi = Tidecrest Cant with ember pressure; valley Fire Genasi = Vinesong Flow with dramatic warmth; mountain Fire Genasi = Cragthane Burr with volcanic weight."
+    },
+    {
+      "lineage": "Tabaxi / Beastfolk",
+      "avoid": "“Beastfolk = one animal voice”",
+      "better": "Forest Tabaxi = Rootmere Cant; valley Satyr = Vinesong Flow; prairie Gnoll = Ironstep Cant; coastal otterfolk = Brightshore Flow."
+    }
+  ],
+  "classes": [
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "description": "Barbarians are front-line warriors whose power rises from rage, instinct, endurance, and mythic physical presence rather than disciplined technique alone. In a party they usually serve as durable strikers, living shields, and momentum breakers who force enemies to answer them first. Their core fantasy is the hero who survives impossible wounds, crosses the battlefield through raw will, and turns emotion into a weapon. A barbarian can be a tribal guardian, gladiator, cursed wanderer, revolutionary, raider, monster hunter, or gentle giant who becomes terrifying only when loved ones are threatened. Mechanically, the class favors Strength, Constitution, weapon attacks, mobility, and high-risk aggression. Narratively, it works best when rage is not treated as mindless anger, but as ancestral memory, survival response, sacred fury, battle trance, or the voice of a harsh world speaking through the body. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "berserker",
+          "name": "Berserker",
+          "fullName": "Path of the Berserker",
+          "parentClass": "Barbarian",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "totem_warrior",
+          "name": "Totem Warrior",
+          "fullName": "Path of the Totem Warrior",
+          "parentClass": "Barbarian",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "zealot",
+          "name": "Zealot",
+          "fullName": "Path of the Zealot",
+          "parentClass": "Barbarian",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "wild_magic",
+          "name": "Wild Magic",
+          "fullName": "Path of the Wild Magic",
+          "parentClass": "Barbarian",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "beast",
+          "name": "Beast",
+          "fullName": "Path of the Beast",
+          "parentClass": "Barbarian",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "ancestral_guardian",
+          "name": "Ancestral Guardian",
+          "fullName": "Path of the Ancestral Guardian",
+          "parentClass": "Barbarian",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "storm_herald",
+          "name": "Storm Herald",
+          "fullName": "Path of the Storm Herald",
+          "parentClass": "Barbarian",
+          "source": "Xanathar's Guide to Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "projection": 0.82,
+        "roughness": 0.65,
+        "formality": 0.25,
+        "tag": "forceful"
+      }
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "description": "Bards are versatile artists, speakers, historians, spies, duelists, diplomats, and magical performers whose power comes through story, rhythm, inspiration, and social awareness. They are rarely limited to one battlefield role: a bard can heal, hinder, charm, scout, negotiate, blast, or support depending on their chosen college and spell selection. Their defining strength is adaptability, especially in campaigns that reward skill use, roleplay, improvisation, and problem solving outside of simple combat. A bard may be a court poet, revolutionary singer, traveling comedian, scholar of lost epics, battlefield drummer, spirit medium, silver-tongued envoy, or blade-dancer whose performance is also a weapon. Mechanically, they lean on Charisma, skills, Bardic Inspiration, and flexible spellcasting. Narratively, bards remind the table that culture is power: names, songs, rumors, speeches, and memories can change kingdoms as surely as swords. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "lore",
+          "name": "Lore",
+          "fullName": "College of Lore",
+          "parentClass": "Bard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "valor",
+          "name": "Valor",
+          "fullName": "College of Valor",
+          "parentClass": "Bard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "glamour",
+          "name": "Glamour",
+          "fullName": "College of Glamour",
+          "parentClass": "Bard",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "whispers",
+          "name": "Whispers",
+          "fullName": "College of Whispers",
+          "parentClass": "Bard",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "swords",
+          "name": "Swords",
+          "fullName": "College of Swords",
+          "parentClass": "Bard",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "eloquence",
+          "name": "Eloquence",
+          "fullName": "College of Eloquence",
+          "parentClass": "Bard",
+          "source": "Mythic Odysseys of Theros / Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "spirits",
+          "name": "Spirits",
+          "fullName": "College of Spirits",
+          "parentClass": "Bard",
+          "source": "Van Richten's Guide to Ravenloft"
+        },
+        {
+          "id": "creation",
+          "name": "Creation",
+          "fullName": "College of Creation",
+          "parentClass": "Bard",
+          "source": "Tasha's Cauldron of Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "inflection": 0.92,
+        "rhythm": 0.88,
+        "warmth": 0.72,
+        "tag": "performative"
+      }
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "description": "Clerics are divine spellcasters who channel sacred power through faith, service, philosophy, cosmic allegiance, or a personal relationship with a godlike force. They are not simply healers; they can become armored front-line champions, radiant destroyers, battlefield commanders, scholars, exorcists, peacemakers, storm-callers, grave wardens, or trickster-priests depending on their domain. In a party, clerics often provide durability, restoration, protection, utility, and decisive magic against undead or supernatural threats. Their stories can involve temples, pilgrimages, heresies, vows, miracles, doubt, holy politics, and the burden of representing a power larger than themselves. Mechanically, they rely on Wisdom, prepared spells, domain features, and strong support options. A cleric’s subclass is especially identity-defining because the domain explains what kind of divinity or sacred principle answers when the character prays. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "life",
+          "name": "Life",
+          "fullName": "Life Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "light",
+          "name": "Light",
+          "fullName": "Light Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "war",
+          "name": "War",
+          "fullName": "War Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "trickery",
+          "name": "Trickery",
+          "fullName": "Trickery Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "death",
+          "name": "Death",
+          "fullName": "Death Domain",
+          "parentClass": "Cleric",
+          "source": "Dungeon Master's Guide"
+        },
+        {
+          "id": "grave",
+          "name": "Grave",
+          "fullName": "Grave Domain",
+          "parentClass": "Cleric",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "twilight",
+          "name": "Twilight",
+          "fullName": "Twilight Domain",
+          "parentClass": "Cleric",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "peace",
+          "name": "Peace",
+          "fullName": "Peace Domain",
+          "parentClass": "Cleric",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "forge",
+          "name": "Forge",
+          "fullName": "Forge Domain",
+          "parentClass": "Cleric",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "tempest",
+          "name": "Tempest",
+          "fullName": "Tempest Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "knowledge",
+          "name": "Knowledge",
+          "fullName": "Knowledge Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "nature",
+          "name": "Nature",
+          "fullName": "Nature Domain",
+          "parentClass": "Cleric",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "arcana",
+          "name": "Arcana",
+          "fullName": "Arcana Domain",
+          "parentClass": "Cleric",
+          "source": "Sword Coast Adventurer's Guide"
+        }
+      ],
+      "voiceTagPreset": {
+        "formality": 0.76,
+        "pauseControl": 0.75,
+        "warmth": 0.72,
+        "tag": "ritual"
+      }
+    },
+    {
+      "id": "druid",
+      "name": "Druid",
+      "description": "Druids are primal spellcasters who draw power from nature, spirits, cycles, stars, elemental forces, beasts, fungi, wildfire, dreams, and the living balance of the world. They can heal, control terrain, summon allies, transform, gather information, and punish those who damage the natural order. In a party, druids often fill flexible support, control, exploration, and survival roles, with some circles becoming powerful front-line shapeshifters or specialist casters. Their stories may center on sacred groves, old pacts, ecological collapse, borderlands between civilization and wilderness, seasonal rites, or the moral complexity of nature itself. Mechanically, they lean on Wisdom, prepared spells, Wild Shape, and concentration. Narratively, druids work best when nature is more than scenery: it is an active community of beasts, plants, spirits, storms, memories, and consequences. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "land",
+          "name": "Land",
+          "fullName": "Circle of Land",
+          "parentClass": "Druid",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "moon",
+          "name": "Moon",
+          "fullName": "Circle of Moon",
+          "parentClass": "Druid",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "dreams",
+          "name": "Dreams",
+          "fullName": "Circle of Dreams",
+          "parentClass": "Druid",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "spores",
+          "name": "Spores",
+          "fullName": "Circle of Spores",
+          "parentClass": "Druid",
+          "source": "Guildmasters' Guide to Ravnica / Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "wildfire",
+          "name": "Wildfire",
+          "fullName": "Circle of Wildfire",
+          "parentClass": "Druid",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "stars",
+          "name": "Stars",
+          "fullName": "Circle of Stars",
+          "parentClass": "Druid",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "shepherd",
+          "name": "Shepherd",
+          "fullName": "Circle of Shepherd",
+          "parentClass": "Druid",
+          "source": "Xanathar's Guide to Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "vowelFlow": 0.78,
+        "warmth": 0.68,
+        "breath": 0.48,
+        "tag": "natural"
+      }
+    },
+    {
+      "id": "fighter",
+      "name": "Fighter",
+      "description": "Fighters are weapon masters whose strength comes from training, discipline, adaptability, and sheer practical competence. They can be soldiers, duelists, knights, archers, bodyguards, gladiators, tacticians, magical warriors, psychic combatants, rune-carved giantslayers, or champions of a martial order. In a party, fighters usually provide reliable damage, strong defenses, battlefield presence, and consistency across long adventuring days. Unlike classes defined by one supernatural source, the fighter’s identity is shaped by method: how they fight, why they trained, what code they follow, and what they do when skill is not enough. Mechanically, fighters support many builds because they gain strong weapon and armor options, repeated attacks, and flexible ability-score growth. Their subclasses can remain grounded or become highly magical, making the class useful for both realistic martial heroes and mythic battlefield specialists. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "champion",
+          "name": "Champion",
+          "fullName": "Champion Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "battle_master",
+          "name": "Battle Master",
+          "fullName": "Battle Master Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "eldritch_knight",
+          "name": "Eldritch Knight",
+          "fullName": "Eldritch Knight Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "arcane_archer",
+          "name": "Arcane Archer",
+          "fullName": "Arcane Archer Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "cavalier",
+          "name": "Cavalier",
+          "fullName": "Cavalier Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "samurai",
+          "name": "Samurai",
+          "fullName": "Samurai Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "rune_knight",
+          "name": "Rune Knight",
+          "fullName": "Rune Knight Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "psi_warrior",
+          "name": "Psi Warrior",
+          "fullName": "Psi Warrior Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "echo_knight",
+          "name": "Echo Knight",
+          "fullName": "Echo Knight Martial Archetype",
+          "parentClass": "Fighter",
+          "source": "Explorer's Guide to Wildemount"
+        }
+      ],
+      "voiceTagPreset": {
+        "clarity": 0.76,
+        "projection": 0.72,
+        "consonantBite": 0.65,
+        "tag": "command"
+      }
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "description": "Monks are disciplined martial artists who transform body, breath, awareness, and spiritual focus into supernatural combat ability. They are swift, mobile, precise, and often strange to enemies who expect steel and armor rather than open hands, pressure points, impossible leaps, or inner power. In a party, monks often act as skirmishers, disruptors, scouts, and mage-hunters who reach vulnerable targets and interfere with enemy plans. A monk may come from a monastery, street-fighting lineage, hidden temple, assassin school, wandering healer order, philosophical tradition, or personal discipline developed in isolation. Mechanically, monks depend on Dexterity, Wisdom, mobility, bonus actions, ki or focus resources, and careful positioning. Narratively, their subclasses define the philosophy behind their training: mercy, shadow, elemental harmony, weapon perfection, drunken misdirection, astral manifestation, or mastery over death itself. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "open_hand",
+          "name": "Open Hand",
+          "fullName": "Way of Open Hand",
+          "parentClass": "Monk",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "shadow",
+          "name": "Shadow",
+          "fullName": "Way of Shadow",
+          "parentClass": "Monk",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "mercy",
+          "name": "Mercy",
+          "fullName": "Way of Mercy",
+          "parentClass": "Monk",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "four_elements",
+          "name": "Four Elements",
+          "fullName": "Way of Four Elements",
+          "parentClass": "Monk",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "kensei",
+          "name": "Kensei",
+          "fullName": "Way of Kensei",
+          "parentClass": "Monk",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "astral_self",
+          "name": "Astral Self",
+          "fullName": "Way of Astral Self",
+          "parentClass": "Monk",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "drunken_master",
+          "name": "Drunken Master",
+          "fullName": "Way of Drunken Master",
+          "parentClass": "Monk",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "long_death",
+          "name": "Long Death",
+          "fullName": "Way of Long Death",
+          "parentClass": "Monk",
+          "source": "Sword Coast Adventurer's Guide"
+        }
+      ],
+      "voiceTagPreset": {
+        "speed": 0.54,
+        "pauseControl": 0.86,
+        "clarity": 0.82,
+        "tag": "centered"
+      }
+    },
+    {
+      "id": "paladin",
+      "name": "Paladin",
+      "description": "Paladins are sacred warriors whose magic is bound to an oath, ideal, vow, or moral obsession strong enough to reshape the world around them. They combine martial durability with divine force, healing, protection, and explosive smiting power. In a party, paladins often serve as front-line defenders, leaders, emergency healers, and moral anchors, though some oaths create darker conquerors, avengers, redeemers, or oathbreakers. A paladin’s story is rarely only about religion; it is about what promise they refuse to abandon and what cost they will pay to keep it. Mechanically, they lean on Strength or Dexterity, Charisma, armor, auras, spell slots, and decisive weapon strikes. Narratively, paladins are strongest when their oath creates real tension: mercy versus justice, glory versus humility, law versus compassion, vengeance versus peace, or vigilance versus paranoia. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "devotion",
+          "name": "Devotion",
+          "fullName": "Oath of Devotion",
+          "parentClass": "Paladin",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "ancients",
+          "name": "Ancients",
+          "fullName": "Oath of Ancients",
+          "parentClass": "Paladin",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "vengeance",
+          "name": "Vengeance",
+          "fullName": "Oath of Vengeance",
+          "parentClass": "Paladin",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "redemption",
+          "name": "Redemption",
+          "fullName": "Oath of Redemption",
+          "parentClass": "Paladin",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "oathbreaker",
+          "name": "Oathbreaker",
+          "fullName": "Oathbreaker",
+          "parentClass": "Paladin",
+          "source": "Dungeon Master's Guide"
+        },
+        {
+          "id": "glory",
+          "name": "Glory",
+          "fullName": "Oath of Glory",
+          "parentClass": "Paladin",
+          "source": "Mythic Odysseys of Theros / Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "conquest",
+          "name": "Conquest",
+          "fullName": "Oath of Conquest",
+          "parentClass": "Paladin",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "crown",
+          "name": "Crown",
+          "fullName": "Oath of Crown",
+          "parentClass": "Paladin",
+          "source": "Sword Coast Adventurer's Guide"
+        },
+        {
+          "id": "watchers",
+          "name": "Watchers",
+          "fullName": "Oath of Watchers",
+          "parentClass": "Paladin",
+          "source": "Tasha's Cauldron of Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "projection": 0.84,
+        "formality": 0.82,
+        "warmth": 0.58,
+        "tag": "oathbound"
+      }
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "description": "Rangers are wandering hunters, scouts, survivalists, monster specialists, and primal warriors who stand between civilization and the dangerous edges of the world. They combine martial skill, exploration talent, nature magic, stealth, tracking, and specialized knowledge of threats. In a party, rangers often serve as scouts, strikers, guides, ambushers, and troubleshooters in wilderness or frontier campaigns, but many subclasses work well in cities, planes, ruins, and horror stories too. A ranger might be a border warden, dragon-bonded guardian, fey-touched diplomat, shadowy ambusher, planar traveler, swarm keeper, beast trainer, or monster slayer. Mechanically, they often rely on Dexterity or Strength, Wisdom, weapon attacks, mobility, and selected spells. Narratively, the ranger is defined by attention: they notice tracks, weather, habits, migrations, weaknesses, and the small signs that danger is already near. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "hunter",
+          "name": "Hunter",
+          "fullName": "Hunter Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "beast_master",
+          "name": "Beast Master",
+          "fullName": "Beast Master Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Player's Handbook / Tasha's Cauldron of Everything options"
+        },
+        {
+          "id": "gloom_stalker",
+          "name": "Gloom Stalker",
+          "fullName": "Gloom Stalker Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "fey_wanderer",
+          "name": "Fey Wanderer",
+          "fullName": "Fey Wanderer Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "horizon_walker",
+          "name": "Horizon Walker",
+          "fullName": "Horizon Walker Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "swarmkeeper",
+          "name": "Swarmkeeper",
+          "fullName": "Swarmkeeper Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "drakewarden",
+          "name": "Drakewarden",
+          "fullName": "Drakewarden Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Fizban's Treasury of Dragons"
+        },
+        {
+          "id": "monster_slayer",
+          "name": "Monster Slayer",
+          "fullName": "Monster Slayer Ranger Archetype",
+          "parentClass": "Ranger",
+          "source": "Xanathar's Guide to Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "clarity": 0.7,
+        "pauseControl": 0.72,
+        "rhythm": 0.64,
+        "tag": "practical"
+      }
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "description": "Rogues are experts, infiltrators, scouts, duelists, assassins, investigators, thieves, manipulators, and problem solvers who win through precision rather than brute force. In a party, they often provide scouting, skill coverage, trap handling, social trickery, and high single-target damage through well-timed attacks. Rogues thrive in campaigns with secrets, locks, lies, patrols, mysteries, negotiations, and uneven terrain, but they can also shine in combat through mobility and careful positioning. A rogue may be a charming swashbuckler, haunted medium, psychic blade, mastermind, detective, wilderness scout, magical trickster, professional thief, or cold assassin. Mechanically, rogues lean on Dexterity, skills, expertise, cunning movement, and Sneak Attack. Narratively, the class is about leverage: the right word, the right disguise, the right angle, the right silence, and the exact moment when a hidden weakness becomes fatal. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "thief",
+          "name": "Thief",
+          "fullName": "Thief Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "assassin",
+          "name": "Assassin",
+          "fullName": "Assassin Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "arcane_trickster",
+          "name": "Arcane Trickster",
+          "fullName": "Arcane Trickster Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "swashbuckler",
+          "name": "Swashbuckler",
+          "fullName": "Swashbuckler Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Sword Coast Adventurer's Guide / Xanathar's Guide to Everything"
+        },
+        {
+          "id": "mastermind",
+          "name": "Mastermind",
+          "fullName": "Mastermind Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Sword Coast Adventurer's Guide / Xanathar's Guide to Everything"
+        },
+        {
+          "id": "phantom",
+          "name": "Phantom",
+          "fullName": "Phantom Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "soulknife",
+          "name": "Soulknife",
+          "fullName": "Soulknife Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "inquisitive",
+          "name": "Inquisitive",
+          "fullName": "Inquisitive Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "scout",
+          "name": "Scout",
+          "fullName": "Scout Roguish Archetype",
+          "parentClass": "Rogue",
+          "source": "Xanathar's Guide to Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "speed": 0.72,
+        "pauseControl": 0.66,
+        "formality": 0.34,
+        "tag": "quick"
+      }
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "description": "Sorcerers are innate spellcasters whose magic comes from bloodline, exposure, destiny, cosmic accident, divine touch, planar influence, aberrant mutation, storm blessing, shadow corruption, or reality’s strange favor. Unlike wizards, they do not primarily study magic from books; their power is part of them, often emotional, physical, hereditary, or uncontrollable. In a party, sorcerers usually function as flexible arcane casters, blasters, controllers, faces, and specialists who reshape spells through metamagic. Their stories often involve identity, inheritance, fear of power, family secrets, transformation, and the question of whether a gift is also a curse. Mechanically, sorcerers lean on Charisma, limited spells known, sorcery points, and spell modification. Their subclass matters deeply because it explains why magic answers them and what kind of impossible force is trying to speak through their body. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "wild_magic",
+          "name": "Wild Magic",
+          "fullName": "Wild Magic Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "draconic",
+          "name": "Draconic",
+          "fullName": "Draconic Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "divine_soul",
+          "name": "Divine Soul",
+          "fullName": "Divine Soul Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "shadow",
+          "name": "Shadow",
+          "fullName": "Shadow Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "clockwork",
+          "name": "Clockwork",
+          "fullName": "Clockwork Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "aberrant_mind",
+          "name": "Aberrant Mind",
+          "fullName": "Aberrant Mind Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "storm",
+          "name": "Storm",
+          "fullName": "Storm Sorcerous Origin",
+          "parentClass": "Sorcerer",
+          "source": "Sword Coast Adventurer's Guide / Xanathar's Guide to Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "inflection": 0.84,
+        "projection": 0.66,
+        "humanVariation": 0.7,
+        "tag": "innate"
+      }
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "description": "Warlocks are pact-bound spellcasters who gain power through bargains, patronage, forbidden study, stolen secrets, or contact with entities beyond ordinary mortal reach. Their patrons may be fiends, archfey, ancient stars, sentient weapons, genies, celestials, undead powers, sea horrors, or other supernatural forces. In a party, warlocks often act as blasters, faces, utility casters, occult investigators, and strange specialists with customizable invocations. Their magic feels different from other casters because it is negotiated, branded, gifted, or owed. A warlock’s story can revolve around debt, temptation, loopholes, devotion, exploitation, rebellion, or partnership with the patron. Mechanically, they lean on Charisma, pact magic, short-rest spell recovery, Eldritch Blast-style consistency, invocations, and pact boons. Narratively, the best warlocks are not just “evil mages”; they are people who asked something dangerous for help and now live with the answer. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "fiend",
+          "name": "Fiend",
+          "fullName": "Fiend Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "archfey",
+          "name": "Archfey",
+          "fullName": "Archfey Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "great_old_one",
+          "name": "Great Old One",
+          "fullName": "Great Old One Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "celestial",
+          "name": "Celestial",
+          "fullName": "Celestial Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "hexblade",
+          "name": "Hexblade",
+          "fullName": "Hexblade Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Xanathar's Guide to Everything"
+        },
+        {
+          "id": "undead",
+          "name": "Undead",
+          "fullName": "Undead Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Van Richten's Guide to Ravenloft"
+        },
+        {
+          "id": "genie",
+          "name": "Genie",
+          "fullName": "Genie Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "fathomless",
+          "name": "Fathomless",
+          "fullName": "Fathomless Otherworldly Patron",
+          "parentClass": "Warlock",
+          "source": "Tasha's Cauldron of Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "pauseControl": 0.84,
+        "roughness": 0.32,
+        "inflection": 0.74,
+        "tag": "pact"
+      }
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "description": "Wizards are scholarly arcane spellcasters who master magic through study, experimentation, notation, theory, memory, and disciplined preparation. They are the classic researchers of spellcraft: fragile in body but immense in possibility when given time, information, and a full spellbook. In a party, wizards can become controllers, blasters, ritualists, utility casters, battlefield engineers, diviners, illusionists, necromancers, defensive specialists, or magical problem solvers. Their stories often involve academies, forbidden libraries, apprenticeships, rival scholars, dangerous inventions, lost languages, and the ethical cost of knowledge. Mechanically, wizards rely on Intelligence, prepared spells, rituals, and the broadest arcane toolbox. Their subclass usually represents a school, method, or theory of magic rather than a bloodline or patron, making each wizard feel like a practitioner who chose a lens through which to understand reality. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "abjuration",
+          "name": "Abjuration",
+          "fullName": "School of Abjuration",
+          "parentClass": "Wizard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "divination",
+          "name": "Divination",
+          "fullName": "School of Divination",
+          "parentClass": "Wizard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "evocation",
+          "name": "Evocation",
+          "fullName": "School of Evocation",
+          "parentClass": "Wizard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "illusion",
+          "name": "Illusion",
+          "fullName": "School of Illusion",
+          "parentClass": "Wizard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "necromancy",
+          "name": "Necromancy",
+          "fullName": "School of Necromancy",
+          "parentClass": "Wizard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "enchantment",
+          "name": "Enchantment",
+          "fullName": "School of Enchantment",
+          "parentClass": "Wizard",
+          "source": "Player's Handbook"
+        },
+        {
+          "id": "chronurgy",
+          "name": "Chronurgy",
+          "fullName": "Chronurgy Magic",
+          "parentClass": "Wizard",
+          "source": "Explorer's Guide to Wildemount"
+        },
+        {
+          "id": "graviturgy",
+          "name": "Graviturgy",
+          "fullName": "Graviturgy Magic",
+          "parentClass": "Wizard",
+          "source": "Explorer's Guide to Wildemount"
+        },
+        {
+          "id": "bladesinging",
+          "name": "Bladesinging",
+          "fullName": "Bladesinging",
+          "parentClass": "Wizard",
+          "source": "Sword Coast Adventurer's Guide / Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "scribes",
+          "name": "Scribes",
+          "fullName": "Order of Scribes",
+          "parentClass": "Wizard",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "war_magic",
+          "name": "War Magic",
+          "fullName": "War Magic",
+          "parentClass": "Wizard",
+          "source": "Xanathar's Guide to Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "clarity": 0.9,
+        "formality": 0.88,
+        "pauseControl": 0.78,
+        "tag": "precise"
+      }
+    },
+    {
+      "id": "artificer",
+      "name": "Artificer",
+      "description": "Artificers are magical inventors who turn arcane theory into tools, armor, constructs, elixirs, weapons, and devices. They sit between spellcaster, engineer, alchemist, enchanter, and battlefield technician, making them ideal for characters who solve problems by building something clever. In a party, artificers often provide support, utility, item enhancement, defensive technology, healing, and flexible damage depending on their specialist path. Their stories fit laboratories, guilds, war workshops, ancient ruins, magewright colleges, clockwork temples, airships, prosthetic craft, and strange experiments. Mechanically, artificers rely on Intelligence, infusions, prepared spells, tool proficiencies, and subclass-built equipment. Narratively, they are excellent for worlds where magic has infrastructure: locks, engines, medical devices, arcane firearms, animated armor, living steel, and inventions that blur the line between spell and machine. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "alchemist",
+          "name": "Alchemist",
+          "fullName": "Alchemist Artificer Specialist",
+          "parentClass": "Artificer",
+          "source": "Eberron: Rising from the Last War / Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "armorer",
+          "name": "Armorer",
+          "fullName": "Armorer Artificer Specialist",
+          "parentClass": "Artificer",
+          "source": "Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "artillerist",
+          "name": "Artillerist",
+          "fullName": "Artillerist Artificer Specialist",
+          "parentClass": "Artificer",
+          "source": "Eberron: Rising from the Last War / Tasha's Cauldron of Everything"
+        },
+        {
+          "id": "battle_smith",
+          "name": "Battle Smith",
+          "fullName": "Battle Smith Artificer Specialist",
+          "parentClass": "Artificer",
+          "source": "Eberron: Rising from the Last War / Tasha's Cauldron of Everything"
+        }
+      ],
+      "voiceTagPreset": {
+        "clarity": 0.86,
+        "rhythm": 0.52,
+        "consonantBite": 0.68,
+        "tag": "technical"
+      }
+    },
+    {
+      "id": "blood_hunter",
+      "name": "Blood Hunter",
+      "description": "Blood Hunters are dark martial monster hunters who use hemocraft, forbidden rites, self-sacrifice, curses, alchemy, lycanthropy, or occult pacts to fight supernatural threats with their own pain as fuel. The class is associated with Matthew Mercer and Critical Role material rather than the standard Player’s Handbook core. In a party, Blood Hunters often operate as strikers, trackers, monster specialists, and grim investigators who accept risk for extra power. Their stories fit horror campaigns, cursed bloodlines, secret orders, monster-plagued frontiers, vampire hunts, forbidden laboratories, and morally complicated oaths. Mechanically, they tend to resemble martial rangers or fighters with additional resources and risk-reward choices. Narratively, they work best when the character understands that becoming dangerous enough to kill monsters may also make them frightening to the people they protect. In a generator, this class should influence combat role, voice posture, equipment, duties, common conflicts, and how an NPC reacts when danger interrupts ordinary life.",
+      "subclasses": [
+        {
+          "id": "ghostslayer",
+          "name": "Ghostslayer",
+          "fullName": "Order of the Ghostslayer",
+          "parentClass": "Blood Hunter",
+          "source": "D&D Beyond / Critical Role Blood Hunter"
+        },
+        {
+          "id": "lycan",
+          "name": "Lycan",
+          "fullName": "Order of the Lycan",
+          "parentClass": "Blood Hunter",
+          "source": "D&D Beyond / Critical Role Blood Hunter"
+        },
+        {
+          "id": "mutant",
+          "name": "Mutant",
+          "fullName": "Order of the Mutant",
+          "parentClass": "Blood Hunter",
+          "source": "D&D Beyond / Critical Role Blood Hunter"
+        },
+        {
+          "id": "profane_soul",
+          "name": "Profane Soul",
+          "fullName": "Order of the Profane Soul",
+          "parentClass": "Blood Hunter",
+          "source": "D&D Beyond / Critical Role Blood Hunter"
+        }
+      ],
+      "voiceTagPreset": {
+        "roughness": 0.42,
+        "pauseControl": 0.78,
+        "projection": 0.62,
+        "tag": "haunted"
+      }
+    }
+  ],
+  "genderIdentities": [
+    {
+      "id": "cis_male",
+      "name": "Cis-Male",
+      "voiceDesignSummary": "A grounded register option that can emphasize lower center, steadier cadence, and firmer sentence endings when desired.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "cis_female",
+      "name": "Cis-Female",
+      "voiceDesignSummary": "A bright, expressive register option that can emphasize warmth, clearer pitch motion, and smoother emotional color.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "demi_male",
+      "name": "Demi-Male",
+      "voiceDesignSummary": "A partially masc-coded performance option with grounded warmth but less strongly lowered than a full masc register.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "demi_female",
+      "name": "Demi-Female",
+      "voiceDesignSummary": "A partially femme-coded performance option with refined lightness, gentle warmth, and precise but softened contour.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "non_binary",
+      "name": "Non-Binary",
+      "voiceDesignSummary": "A centered register option that balances bright and low cues without committing the performance to a strongly gendered pitch profile.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "trans_male",
+      "name": "Trans-Male",
+      "voiceDesignSummary": "A masc-aligned performance option that can emphasize affirming grounded resonance, controlled depth, and strength without flattening emotion.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "trans_female",
+      "name": "Trans-Female",
+      "voiceDesignSummary": "A femme-aligned performance option that can emphasize lift, emotional brightness, and careful resonance while preserving strength and depth where needed.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "gender_fluid",
+      "name": "Gender-Fluid",
+      "voiceDesignSummary": "A dynamic performance option with moving register, shifting formants, and expressive transitions across scenes or emotional states.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "agender",
+      "name": "Agender",
+      "voiceDesignSummary": "A less gender-coded performance option with centered register, reduced gendered pitch cues, and clean controlled articulation.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "gender_less",
+      "name": "Gender-Less",
+      "voiceDesignSummary": "A deliberately ungendered performance option that can sound steadier, more abstract, mechanical, ancient, alien, or spiritually detached depending on race/class.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "gender_flexible",
+      "name": "Gender-Flexible",
+      "voiceDesignSummary": "A performance option that can lean softer or firmer as context changes while remaining recognizably the same person.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "bi_gender",
+      "name": "Bi-Gender",
+      "voiceDesignSummary": "A layered performance option with two identifiable register colors that can alternate, blend, or harmonize in emphasis.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "poly_gender",
+      "name": "Poly-Gender",
+      "voiceDesignSummary": "A many-layered performance option that can stack multiple register colors, especially useful for magical, draconic, fey, or cosmic characters.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    },
+    {
+      "id": "neutrois",
+      "name": "Neutrois",
+      "voiceDesignSummary": "A neutral-gender performance option that balances warmth, clarity, and composure with minimal binary pitch coding.",
+      "useNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules."
+    }
+  ]
+}

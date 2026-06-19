@@ -1,0 +1,177 @@
+{
+  "doubao": "豆包",
+  "minmax": {
+    "male-qn-qingse": "青涩青年音色",
+    "male-qn-jingying": "精英青年音色",
+    "male-qn-badao": "霸道青年音色",
+    "male-qn-daxuesheng": "青年大学生音色",
+    "female-shaonv": "少女音色",
+    "female-yujie": "御姐音色",
+    "female-chengshu": "成熟女性音色",
+    "female-tianmei": "甜美女性音色",
+    "presenter_male": "男性主持人",
+    "presenter_female": "女性主持人",
+    "audiobook_male_1": "男性有声书1",
+    "audiobook_male_2": "男性有声书2",
+    "audiobook_female_1": "女性有声书1",
+    "audiobook_female_2": "女性有声书2",
+    "male-qn-qingse-jingpin": "青涩青年音色-beta",
+    "male-qn-jingying-jingpin": "精英青年音色-beta",
+    "male-qn-badao-jingpin": "霸道青年音色-beta",
+    "male-qn-daxuesheng-jingpin": "青年大学生音色-beta",
+    "female-shaonv-jingpin": "少女音色-beta",
+    "female-yujie-jingpin": "御姐音色-beta",
+    "female-chengshu-jingpin": "成熟女性音色-beta",
+    "female-tianmei-jingpin": "甜美女性音色-beta",
+    "clever_boy": "聪明男童",
+    "cute_boy": "可爱男童",
+    "lovely_girl": "萌萌女童",
+    "cartoon_pig": "卡通猪小琪"
+  },
+  "male": "男",
+  "female": "女",
+  "session": {
+    "save": {
+      "error": "保存会话失败：文章内容在最大限度地尝试后不可用"
+    }
+  },
+  "footer": {
+    "ai": "内容由AI生成，仅供参考"
+  },
+  "about": {
+    "title": "关于 AI语音生成器"
+  },
+  "detail": {
+    "title": "论文详情",
+    "back": "返回",
+    "copy": "复制",
+    "copySuccess": "已复制到剪切板",
+    "download": "下载 PDF",
+    "sessionNotFound": "找不到此会话",
+    "apiNotSet": "API 未设置",
+    "taskIdNotSet": "任务 ID 不存在，你可能正在查看一个旧版本的内容，暂不支持",
+    "cannotDownloadMarkdownInEditingMode": "在编辑模式下无法下载 Markdown，请先切换到预览模式"
+  },
+  "home": {
+    "title": "AI 语音生成器",
+    "login": {
+      "error": "登录信息有误，请手动登录！"
+    },
+    "header": {
+      "title": "AI 语音生成器",
+      "placeholder": "输入你想研究的主题",
+      "start": "开始",
+      "starting": "创作中...",
+      "language": "选择语言",
+      "voiceClone": {
+        "title": "制作声音模型",
+        "newModelName": "名称",
+        "makeClone": "制作",
+        "uploadOrRecord": "上传声音文件（最短10秒，最长90秒，推荐25秒）",
+        "selectFile": "选择文件",
+        "startRecord": "开始录制",
+        "or": "或",
+        "stopRecord": "停止录制",
+        "hasAudio": "已选择音频",
+        "referenceText": "参考录制文本",
+        "referenceTextReal": "水循环是大自然的循环系统,水从地面蒸发,形成云,然后以雨的形式回到地面,这个循环过程对地球上的生命至关重要的"
+      },
+      "history": {
+        "title": "历史记录",
+        "search": {
+          "placeholder": "搜索您的论文",
+          "no_results": "未找到相关结果",
+          "loading": "搜索中..."
+        },
+        "empty": "您的历史为空",
+        "deleteAll": "删除全部",
+        "deleteSuccess": "成功删除 {count} 项",
+        "deleteConfirm": "确认删除吗？",
+        "close": "关闭"
+      }
+    },
+    "create": {
+      "success": "论文创作成功"
+    }
+  },
+  "tabs": {
+    "textToSpeech": "文本转语音",
+    "speechToSpeech": "语音转语音",
+    "speechClone": "语音克隆"
+  },
+  "aria": {
+    "selectPlatform": "选择平台",
+    "selectLanguage": "选择语言",
+    "selectSpeaker": "选择发音人",
+    "speed": "速度",
+    "speaker": "发音人",
+    "volume": "音量",
+    "language": "语言",
+    "makeCloneModel": "制作声音模型"
+  },
+  "placeholders": {
+    "selectPlatform": "选择平台",
+    "selectLanguage": "选择语言",
+    "selectSpeaker": "选择发音人"
+  },
+  "buttons": {
+    "reUpload": "重新上传",
+    "uploading": "上传中...",
+    "uploadRecording": "上传录音",
+    "stopRecording": "停止录音",
+    "startRecording": "开始录音",
+    "history": "历史记录",
+    "download": "下载",
+    "generate": "生成"
+  },
+  "or": "或",
+  "audio": "音频",
+  "success": {
+    "recordingEnded": "录音结束，开始识别",
+    "generation": "生成成功",
+    "restore": "恢复成功",
+    "textCopied": "文本已复制",
+    "remove": "删除成功",
+    "makeClone": "克隆成功",
+    "fileSelected": "文件已选择"
+  },
+  "error": {
+    "fetchSpeakersFailed": "获取发音人失败",
+    "noAudio": "暂无音频，请先点击生成",
+    "noFile": "请选择文件",
+    "recognitionFailed": "无法识别语音",
+    "noRecording": "请先录音",
+    "noRecordingData": "录音结束，未检测到录音数据",
+    "recordingEndedFailed": "录音结束失败",
+    "noText": "请输入文本",
+    "noPlatform": "请选择平台",
+    "noSpeaker": "请选择发音人",
+    "unsupportedLanguage": "生成失败，所选发音人不支持所输入内容语言",
+    "generationFailed": "生成失败",
+    "remove": "删除失败",
+    "noAudioData": "请先上传音频",
+    "noModelName": "请输入模型名称",
+    "fileSelected": "文件已选择",
+    "tooShort": "音频太短，请重新录制",
+    "tooLong": "音频太长，请重新录制",
+    "durationCalculationFailed": "音频时长计算失败，请重新录制",
+    "taskFailed": "任务执行失败",
+    "taskExpired": "任务已过期",
+    "taskTimeout": "任务状态查询超时"
+  },
+  "auth": {
+    "title": "需要分享码",
+    "description": "创建者开启了验证, 请在下方填入分享码",
+    "placeholder": "请输入分享码",
+    "errorMessage": "更多请访问",
+    "confirmButton": "确认",
+    "rememberCode": "记住分享码",
+    "error": {
+      "tool_deleted": "该工具已删除",
+      "tool_disabled": "该工具已禁用",
+      "share_code_error": "分享码错误",
+      "network_error": "网络错误",
+      "unknown_error": "未知错误"
+    }
+  }
+}
