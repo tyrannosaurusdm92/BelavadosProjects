@@ -1,0 +1,33 @@
+# Your 302 AI API Key
+NEXT_PUBLIC_API_KEY=
+
+# -----------------------------------
+# 0 for China, 1 for Global
+NEXT_PUBLIC_REGION=0
+# 302 AI API Host
+NEXT_PUBLIC_PROD_API_HOST=api.302.ai
+
+# 302 AI Upload API
+NEXT_PUBLIC_UPLOAD_API=https://dash-api.302.ai/gpt/api/upload/gpt/image
+
+# Azure API Endpoints
+NEXT_PUBLIC_PROD_AZURE_SPEAKER_LIST_API=https://api.302.ai/cognitiveservices/voices/list
+NEXT_PUBLIC_PROD_AZURE_SPEAKER_TTS_API=https://api.302.ai/cognitiveservices/v1
+
+# OpenAI API Endpoints
+NEXT_PUBLIC_PROD_OPENAI_AUDIO_TO_TEXT_API=https://api.302.ai/v1/audio/transcriptions
+NEXT_PUBLIC_PROD_OPENAI_SPEAKER_TTS_API=https://api.302.ai/v1/audio/speech
+
+# Moon API Endpoints
+NEXT_PUBLIC_PROD_MOON_SPEAKER_TTS_API=https://api.302.ai/doubao/tts_hd
+
+# Fish Audio API Endpoints
+NEXT_PUBLIC_PROD_FISH_AUDIO_SPEAKER_LIST_API=https://api.302.ai/fish-audio/model
+NEXT_PUBLIC_PROD_FISH_AUDIO_SPEAKER_TTS_API=https://api.302.ai/fish-audio/v1/tts
+NEXT_PUBLIC_PROD_FISH_AUDIO_CLONE_API=https://api.302.ai/fish-audio/model
+
+# Minimax API Endpoints
+NEXT_PUBLIC_PROD_MINIMAX_SPEAKER_TTS_API=https://api.302.ai/minimaxi/v1/t2a_async_v2
+NEXT_PUBLIC_PROD_MINIMAX_SPEAKER_STATUS_API=https://api.302.ai/minimaxi/v1/query/t2a_async_query_v2
+NEXT_PUBLIC_PROD_MINIMAX_SPEAKER_DOWNLOAD_API=https://api.302.ai/minimaxi/v1/files/retrieve
+
