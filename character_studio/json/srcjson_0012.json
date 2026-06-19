@@ -1,0 +1,177 @@
+{
+  "doubao": "Doubao",
+  "minmax": {
+    "male-qn-qingse": "Voix masculine juvénile",
+    "male-qn-jingying": "Voix masculine élite",
+    "male-qn-badao": "Voix masculine dominante",
+    "male-qn-daxuesheng": "Voix masculine universitaire",
+    "female-shaonv": "Voix féminine",
+    "female-yujie": "Voix de femme mature",
+    "female-chengshu": "Voix féminine mature",
+    "female-tianmei": "Voix féminine douce",
+    "presenter_male": "Présentateur masculin",
+    "presenter_female": "Présentatrice féminine",
+    "audiobook_male_1": "Livre audio masculin 1",
+    "audiobook_male_2": "Livre audio masculin 2",
+    "audiobook_female_1": "Livre audio féminin 1",
+    "audiobook_female_2": "Livre audio féminin 2",
+    "male-qn-qingse-jingpin": "Voix masculine juvénile-beta",
+    "male-qn-jingying-jingpin": "Voix masculine élite-beta",
+    "male-qn-badao-jingpin": "Voix masculine dominante-beta",
+    "male-qn-daxuesheng-jingpin": "Voix masculine universitaire-beta",
+    "female-shaonv-jingpin": "Voix féminine-beta",
+    "female-yujie-jingpin": "Voix de femme mature-beta",
+    "female-chengshu-jingpin": "Voix féminine mature-beta",
+    "female-tianmei-jingpin": "Voix féminine douce-beta",
+    "clever_boy": "Petit garçon",
+    "cute_boy": "Garçon mignon",
+    "lovely_girl": "Fille adorable",
+    "cartoon_pig": "Cartoon Pig Qi"
+  },
+  "male": "Masculin",
+  "female": "Féminin",
+  "session": {
+    "save": {
+      "error": "Échec de la sauvegarde de la session : le contenu de l'article n'est pas disponible après le nombre maximal de tentatives"
+    }
+  },
+  "footer": {
+    "ai": "Contenu généré par l'IA, à titre de référence uniquement"
+  },
+  "about": {
+    "title": "À propos du générateur de voix IA"
+  },
+  "detail": {
+    "title": "Détails de l'article",
+    "back": "Retour",
+    "copy": "Copier",
+    "copySuccess": "Copié dans le presse-papiers",
+    "download": "Télécharger le PDF",
+    "sessionNotFound": "Cette session n'a pas été trouvée",
+    "apiNotSet": "API non configurée",
+    "taskIdNotSet": "L'ID de tâche n'existe pas, vous visualisez peut-être une ancienne version du contenu, ce qui n'est pas pris en charge actuellement",
+    "cannotDownloadMarkdownInEditingMode": "Impossible de télécharger le Markdown en mode édition, veuillez d'abord passer en mode aperçu"
+  },
+  "home": {
+    "title": "Générateur de voix IA",
+    "login": {
+      "error": "Les informations de connexion sont incorrectes, veuillez vous connecter manuellement !"
+    },
+    "header": {
+      "title": "Générateur de voix IA",
+      "placeholder": "Entrez le sujet que vous souhaitez rechercher",
+      "start": "Commencer",
+      "starting": "Création en cours...",
+      "language": "Sélectionner la langue",
+      "voiceClone": {
+        "title": "Créer un modèle de voix",
+        "newModelName": "Nom",
+        "makeClone": "Créer",
+        "uploadOrRecord": "Télécharger un fichier audio (minimum 10 secondes, maximum 90 secondes, 25 secondes recommandées)",
+        "selectFile": "Sélectionner un fichier",
+        "startRecord": "Commencer l'enregistrement",
+        "or": "ou",
+        "stopRecord": "Arrêter l'enregistrement",
+        "hasAudio": "Audio sélectionné",
+        "referenceText": "Texte de référence pour l'enregistrement",
+        "referenceTextReal": "Le cycle de l'eau est un système de circulation naturelle. L'eau s'évapore de la surface terrestre, forme des nuages, puis retourne à la surface sous forme de pluie. Ce processus cyclique est crucial pour la vie sur Terre."
+      },
+      "history": {
+        "title": "Historique",
+        "search": {
+          "placeholder": "Rechercher vos articles",
+          "no_results": "Aucun résultat pertinent trouvé",
+          "loading": "Recherche en cours..."
+        },
+        "empty": "Votre historique est vide",
+        "deleteAll": "Tout supprimer",
+        "deleteSuccess": "{count} éléments supprimés avec succès",
+        "deleteConfirm": "Confirmer la suppression ?",
+        "close": "Fermer"
+      }
+    },
+    "create": {
+      "success": "Article créé avec succès"
+    }
+  },
+  "tabs": {
+    "textToSpeech": "Texte vers Parole",
+    "speechToSpeech": "Parole vers Parole",
+    "speechClone": "Clonage de Voix"
+  },
+  "aria": {
+    "selectPlatform": "Sélectionner la plateforme",
+    "selectLanguage": "Sélectionner la langue",
+    "selectSpeaker": "Sélectionner le locuteur",
+    "speed": "Vitesse",
+    "speaker": "Locuteur",
+    "volume": "Volume",
+    "language": "Langue",
+    "makeCloneModel": "Créer un modèle de voix"
+  },
+  "placeholders": {
+    "selectPlatform": "Sélectionner la plateforme",
+    "selectLanguage": "Sélectionner la langue",
+    "selectSpeaker": "Sélectionner le locuteur"
+  },
+  "buttons": {
+    "reUpload": "Télécharger à nouveau",
+    "uploading": "Téléchargement en cours...",
+    "uploadRecording": "Télécharger l'enregistrement",
+    "stopRecording": "Arrêter l'enregistrement",
+    "startRecording": "Commencer l'enregistrement",
+    "history": "Historique",
+    "download": "Télécharger",
+    "generate": "Générer"
+  },
+  "or": "ou",
+  "audio": "Audio",
+  "success": {
+    "recordingEnded": "Enregistrement terminé, début de la reconnaissance",
+    "generation": "Génération réussie",
+    "restore": "Restauration réussie",
+    "textCopied": "Texte copié",
+    "remove": "Suppression réussie",
+    "makeClone": "Clonage réussi",
+    "fileSelected": "Fichier sélectionné"
+  },
+  "error": {
+    "fetchSpeakersFailed": "Échec de la récupération des locuteurs",
+    "noAudio": "Aucun audio disponible, veuillez d'abord cliquer sur générer",
+    "noFile": "Veuillez sélectionner un fichier",
+    "recognitionFailed": "Impossible de reconnaître la parole",
+    "noRecording": "Veuillez d'abord enregistrer",
+    "noRecordingData": "Enregistrement terminé, aucune donnée d'enregistrement détectée",
+    "recordingEndedFailed": "Échec de la fin de l'enregistrement",
+    "noText": "Veuillez entrer du texte",
+    "noPlatform": "Veuillez sélectionner une plateforme",
+    "noSpeaker": "Veuillez sélectionner un locuteur",
+    "unsupportedLanguage": "Échec de la génération, le locuteur sélectionné ne prend pas en charge la langue du contenu saisi",
+    "generationFailed": "Échec de la génération",
+    "remove": "Échec de la suppression",
+    "noAudioData": "Veuillez d'abord télécharger l'audio",
+    "noModelName": "Veuillez entrer un nom de modèle",
+    "fileSelected": "Fichier sélectionné",
+    "tooShort": "Audio trop court, veuillez réenregistrer",
+    "tooLong": "Audio trop long, veuillez réenregistrer",
+    "durationCalculationFailed": "Échec du calcul de la durée de l'audio, veuillez réenregistrer",
+    "taskFailed": "Échec de l'exécution de la tâche",
+    "taskExpired": "La tâche a expiré",
+    "taskTimeout": "Temps d'attente de l'état de la tâche expiré"
+  },
+  "auth": {
+    "title": "Code de partage requis",
+    "description": "Le créateur a activé l'authentification, veuillez entrer le code de partage ci-dessous",
+    "placeholder": "Veuillez entrer le code de partage",
+    "errorMessage": "Pour plus d'informations, veuillez visiter",
+    "confirmButton": "Confirmer",
+    "rememberCode": "Se souvenir du code de partage",
+    "error": {
+      "tool_deleted": "Cet outil a été supprimé",
+      "tool_disabled": "Cet outil a été désactivé",
+      "share_code_error": "Erreur de code de partage",
+      "network_error": "Erreur réseau",
+      "unknown_error": "Erreur inconnue"
+    }
+  }
+}

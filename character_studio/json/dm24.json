@@ -1,0 +1,2335 @@
+{
+  "schema": "belavados.deepVoiceMath.genderIdentities.v3",
+  "packageName": "Belavados Deep Voice Math 24 JSON Pack",
+  "generatedAt": "2026-06-18T22:34:34.140341+00:00",
+  "requestedChange": "Complete deep overwrite of speech math using the uploaded repository resources while keeping Belavados races, gender identities, biomes, fantasy accent names, and real-world accent inspirations intact.",
+  "totalJsonFilesInPackage": 24,
+  "jsonFileRoles": {
+    "01-22": "One deep voice-math JSON per Belavados racial category.",
+    "23": "Classes and races deep voice-math merge file.",
+    "24": "Gender identities deep voice-math file."
+  },
+  "fileNumber": 24,
+  "fileRole": "genderIdentitiesDeepVoiceMath",
+  "repositoryResourceUse": {
+    "sourceUsePolicy": "Repository files were scanned/extracted locally and used as design/math references. This JSON pack stores derived equations, parameter names, pipeline ideas, and calibration notes; it does not copy repository source code.",
+    "repositoriesIntegrated": [
+      {
+        "id": "realtime_synthetic_call_center_agents",
+        "uploadedName": "Realtime-Synthetic-Call-Center-Agents-main.zip",
+        "primaryUse": "Realtime orchestration, streaming-friendly voice state, session pipeline separation, and live agent/event flow concepts.",
+        "mathOrArchitectureUsed": [
+          "streaming chunk model",
+          "session state separation",
+          "latency-safe parameter updates",
+          "event-driven synthesis handoff"
+        ]
+      },
+      {
+        "id": "coqui_voice_pack_v2",
+        "uploadedName": "coqui_voice_pack_v2.zip",
+        "primaryUse": "Reference-audio calibration corpus for short utterance timing, mono WAV consistency, and base-audio influence behavior.",
+        "resourceStats": {
+          "wavFilesRead": 2541,
+          "sampleRateHz": 44100,
+          "channels": "mono",
+          "sampleWidthBytes": 2,
+          "durationSeconds": {
+            "min": 0.2438,
+            "median": 0.5805,
+            "mean": 0.6237,
+            "max": 1.4164
+          }
+        },
+        "mathOrArchitectureUsed": [
+          "reference voice retention blend",
+          "short-clip pause calibration",
+          "amplitude/energy normalization"
+        ]
+      },
+      {
+        "id": "thousand_voices",
+        "uploadedName": "thousandVoices-master.zip",
+        "primaryUse": "Multi-voice packaging and Tacotron2/ParallelWaveGAN-style separation of acoustic model and vocoder.",
+        "mathOrArchitectureUsed": [
+          "speaker pack abstraction",
+          "acoustic-model-to-vocoder split",
+          "mel-to-waveform generation handoff"
+        ]
+      },
+      {
+        "id": "coqui_voice_pack_2",
+        "uploadedName": "coqui-voice-pack-2.tar.gz / coqui-voice-pack-2.zip",
+        "primaryUse": "Voice-pack packaging conventions and user-owned voice-resource separation.",
+        "mathOrArchitectureUsed": [
+          "voice pack metadata",
+          "owned/licensed audio boundary",
+          "pack-level manifest pattern"
+        ]
+      },
+      {
+        "id": "jarvis_chatgpt",
+        "uploadedName": "JARVIS-ChatGPT-main.zip",
+        "primaryUse": "TTS architecture references including VITS, duration prediction, mel spectrogram style references, speaker embeddings/d-vectors, and vocoder handoff.",
+        "mathOrArchitectureUsed": [
+          "mel spectrogram conditioning",
+          "duration predictor",
+          "speaker/style vectors",
+          "VITS-style stochastic duration",
+          "HiFi-GAN/WaveGrad/MelGAN vocoder concepts"
+        ]
+      },
+      {
+        "id": "building_synthetic_voices_workshop",
+        "uploadedName": "building_synthetic_voices_workshop-master.zip",
+        "primaryUse": "Synthetic voice generation workflow and prompt-to-voice design framing.",
+        "mathOrArchitectureUsed": [
+          "prompt/design layer",
+          "generated phrase inventories",
+          "workflow separation"
+        ]
+      },
+      {
+        "id": "synthetic_voice_detection_vocoder_artifacts",
+        "uploadedName": "Synthetic-Voice-Detection-Vocoder-Artifacts-main.zip",
+        "primaryUse": "Vocoder artifact awareness and mel-filterbank math for quality/safety checks.",
+        "mathOrArchitectureUsed": [
+          "mel scale hz<->mel formulas",
+          "filterbank extraction",
+          "artifact-aware QA layer",
+          "synthetic-vocoder residual monitoring"
+        ]
+      },
+      {
+        "id": "openmusic",
+        "uploadedName": "OpenMusic-main.zip",
+        "primaryUse": "Latent audio pipeline concepts, audio dataset/inference structure, and diffusion-style audio generation separation.",
+        "mathOrArchitectureUsed": [
+          "latent audio representation",
+          "conditioning vector separation",
+          "spectrogram/latent handoff"
+        ]
+      },
+      {
+        "id": "spoken",
+        "uploadedName": "spoken-master.zip",
+        "primaryUse": "Browser SpeechSynthesis voice selection, utterance creation, rate, and pitch routing.",
+        "mathOrArchitectureUsed": [
+          "SpeechSynthesisUtterance voice/rate/pitch controls",
+          "browser voice fallback"
+        ]
+      },
+      {
+        "id": "cere_voice",
+        "uploadedName": "cere-voice-master.zip",
+        "primaryUse": "REST TTS request shaping, voice/audioFormat/sampleRate fields, and audio-output parameterization.",
+        "mathOrArchitectureUsed": [
+          "remote TTS request schema",
+          "sample-rate format routing",
+          "audio output option mapping"
+        ]
+      },
+      {
+        "id": "speakit_js",
+        "uploadedName": "Speakit-JS-main.zip",
+        "primaryUse": "Browser voice inventory and utterancePitch/utteranceRate controls.",
+        "mathOrArchitectureUsed": [
+          "browser pitch control",
+          "browser rate control",
+          "voice enumeration"
+        ]
+      },
+      {
+        "id": "omnivoice_studio",
+        "uploadedName": "OmniVoice-Studio-main.zip",
+        "primaryUse": "Unified TTS backend protocol, voice cloning/design/auto voice, audio resampling/trimming/fade utilities, longform parser, voice tags, pause tags, per-span speed.",
+        "mathOrArchitectureUsed": [
+          "backend generate(text, voice) protocol",
+          "voice design prompt",
+          "voice cloning reference",
+          "pause marker parser",
+          "per-line speed",
+          "resample/fade/trim"
+        ]
+      },
+      {
+        "id": "openai_edge_tts",
+        "uploadedName": "openai-edge-tts-main.zip",
+        "primaryUse": "Voice-name mapping, SSML rate conversion, and streaming TTS response handling.",
+        "mathOrArchitectureUsed": [
+          "SSML rate percentage conversion",
+          "streaming audio chunks",
+          "voice alias map"
+        ]
+      },
+      {
+        "id": "302_tts",
+        "uploadedName": "302_tts-main.zip",
+        "primaryUse": "Voice generation app behavior: timbre, language, playback speed, upload/recording, mp3 output, voice-to-voice, and cloning UX.",
+        "mathOrArchitectureUsed": [
+          "voice-to-voice mode",
+          "playback-speed control",
+          "uploaded/recorded influence slider"
+        ]
+      }
+    ],
+    "scannedRepoFileCounts": {
+      "302_tts-main": {
+        "files": 81,
+        "size": 3425093,
+        "ext_counts": {
+          ".tsx": 23,
+          ".ts": 20,
+          ".json": 9,
+          "": 8,
+          ".png": 7,
+          ".md": 3,
+          ".js": 3,
+          ".jpg": 3,
+          ".svg": 2,
+          ".example": 1,
+          ".ico": 1,
+          ".css": 1
+        },
+        "readmes": [
+          "302_tts-main/README.md",
+          "302_tts-main/README_ja.md",
+          "302_tts-main/README_zh.md"
+        ],
+        "interesting": [
+          "302_tts-main/.eslintrc.json",
+          "302_tts-main/README.md",
+          "302_tts-main/README_ja.md",
+          "302_tts-main/README_zh.md",
+          "302_tts-main/next.config.js",
+          "302_tts-main/package.json",
+          "302_tts-main/postcss.config.js",
+          "302_tts-main/tailwind.config.js",
+          "302_tts-main/tsconfig.json",
+          "302_tts-main/messages/de.json",
+          "302_tts-main/messages/en.json",
+          "302_tts-main/messages/fr.json",
+          "302_tts-main/messages/ja.json",
+          "302_tts-main/messages/ko.json",
+          "302_tts-main/messages/zh.json"
+        ]
+      },
+      "JARVIS-ChatGPT-main": {
+        "files": 508,
+        "size": 145092012,
+        "ext_counts": {
+          ".py": 256,
+          ".pyc": 116,
+          ".txt": 57,
+          ".pdf": 20,
+          ".mp3": 14,
+          ".wav": 9,
+          ".md": 8,
+          "": 7,
+          ".bat": 3,
+          ".json": 3,
+          ".csv": 3,
+          ".html": 3
+        },
+        "readmes": [
+          "JARVIS-ChatGPT-main/README.md",
+          "JARVIS-ChatGPT-main/TTS_additional_material/README.md",
+          "JARVIS-ChatGPT-main/Vicuna/README.md",
+          "JARVIS-ChatGPT-main/TTS/encoder/README.md",
+          "JARVIS-ChatGPT-main/TTS/server/README.md"
+        ],
+        "interesting": [
+          "JARVIS-ChatGPT-main/README.md",
+          "JARVIS-ChatGPT-main/UpdateHistory.md",
+          "JARVIS-ChatGPT-main/env.txt",
+          "JARVIS-ChatGPT-main/openai_api_chatbot.py",
+          "JARVIS-ChatGPT-main/test_TTS.py",
+          "JARVIS-ChatGPT-main/tests.py",
+          "JARVIS-ChatGPT-main/venv_requirements.txt",
+          "JARVIS-ChatGPT-main/Assistant/Agents.py",
+          "JARVIS-ChatGPT-main/Assistant/Chat.py",
+          "JARVIS-ChatGPT-main/Assistant/VirtualAssistant.py",
+          "JARVIS-ChatGPT-main/Assistant/__init__.py",
+          "JARVIS-ChatGPT-main/Assistant/get_audio.py",
+          "JARVIS-ChatGPT-main/Assistant/research_mode.py",
+          "JARVIS-ChatGPT-main/Assistant/tools.py",
+          "JARVIS-ChatGPT-main/Assistant/voice.py"
+        ]
+      },
+      "OmniVoice-Studio-main": {
+        "files": 1161,
+        "size": 20621122,
+        "ext_counts": {
+          ".py": 428,
+          ".md": 189,
+          ".jsx": 108,
+          ".js": 85,
+          ".css": 72,
+          ".png": 62,
+          ".json": 52,
+          ".ts": 52,
+          ".sh": 25,
+          ".yaml": 17,
+          "": 17,
+          ".yml": 13
+        },
+        "readmes": [
+          "OmniVoice-Studio-main/README.md",
+          "OmniVoice-Studio-main/README_CN.md",
+          "OmniVoice-Studio-main/bin/README.md",
+          "OmniVoice-Studio-main/design/README.md",
+          "OmniVoice-Studio-main/examples/README.md"
+        ],
+        "interesting": [
+          "OmniVoice-Studio-main/CHANGELOG.md",
+          "OmniVoice-Studio-main/CLAUDE.md",
+          "OmniVoice-Studio-main/CODE_OF_CONDUCT.md",
+          "OmniVoice-Studio-main/CONTRIBUTING.md",
+          "OmniVoice-Studio-main/README.md",
+          "OmniVoice-Studio-main/README_CN.md",
+          "OmniVoice-Studio-main/SECURITY.md",
+          "OmniVoice-Studio-main/SUPPORT.md",
+          "OmniVoice-Studio-main/greptile.json",
+          "OmniVoice-Studio-main/package.json",
+          "OmniVoice-Studio-main/turbo.json",
+          "OmniVoice-Studio-main/.github/pull_request_template.md",
+          "OmniVoice-Studio-main/.planning/PROJECT.md",
+          "OmniVoice-Studio-main/.planning/REQUIREMENTS.md",
+          "OmniVoice-Studio-main/.planning/ROADMAP.md"
+        ]
+      },
+      "OpenMusic-main": {
+        "files": 264,
+        "size": 3989605,
+        "ext_counts": {
+          ".py": 121,
+          ".pyc": 100,
+          ".json": 22,
+          "": 4,
+          ".lst": 4,
+          ".md": 3,
+          ".txt": 2,
+          ".sh": 2,
+          ".yml": 1,
+          ".cpp": 1,
+          ".cu": 1,
+          ".gz": 1
+        },
+        "readmes": [
+          "OpenMusic-main/readme.md",
+          "OpenMusic-main/audioldm_train/modules/audiomae/README.md"
+        ],
+        "interesting": [
+          "OpenMusic-main/LICENSE.md",
+          "OpenMusic-main/offset_pretrained_checkpoints.json",
+          "OpenMusic-main/readme.md",
+          "OpenMusic-main/requirements.txt",
+          "OpenMusic-main/audioldm_train/__init__.py",
+          "OpenMusic-main/audioldm_train/conditional_models.py",
+          "OpenMusic-main/audioldm_train/dataset_plugin.py",
+          "OpenMusic-main/gradio/gradio_app.py",
+          "OpenMusic-main/gradio/requirements.txt",
+          "OpenMusic-main/infer/infer_mos1.py",
+          "OpenMusic-main/infer/infer_mos2.py",
+          "OpenMusic-main/infer/infer_mos3.py",
+          "OpenMusic-main/infer/infer_mos4.py",
+          "OpenMusic-main/infer/infer_mos5.py",
+          "OpenMusic-main/audioldm_train/losses/__init__.py"
+        ]
+      },
+      "Realtime-Synthetic-Call-Center-Agents-main": {
+        "files": 205,
+        "size": 5616828,
+        "ext_counts": {
+          ".tsx": 65,
+          ".py": 33,
+          ".png": 21,
+          ".bicep": 18,
+          ".md": 17,
+          ".json": 14,
+          "": 7,
+          ".ts": 6,
+          ".ps1": 3,
+          ".toml": 3,
+          ".js": 3,
+          ".css": 3
+        },
+        "readmes": [
+          "Realtime-Synthetic-Call-Center-Agents-main/README.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/src/backend/README_API.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/src/frontend/README.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/src/mcp-servers/ai-foundry-agent/README.md"
+        ],
+        "interesting": [
+          "Realtime-Synthetic-Call-Center-Agents-main/CONTRIBUTING.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/LICENSE.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/LOCAL_DEVELOPMENT.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/README.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/.github/CODE_OF_CONDUCT.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/.github/ISSUE_TEMPLATE.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/.github/PULL_REQUEST_TEMPLATE.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/.github/copilot-instructions.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/.vscode/settings.json",
+          "Realtime-Synthetic-Call-Center-Agents-main/docs/AGENT_FLOW_DIAGRAM.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/docs/AI_FOUNDRY_INFRASTRUCTURE_SETUP.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/docs/DYNAMIC_KB_AGENT_TOPICS.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/docs/mail_authorisation.md",
+          "Realtime-Synthetic-Call-Center-Agents-main/infra/abbreviations.json",
+          "Realtime-Synthetic-Call-Center-Agents-main/infra/main.json"
+        ]
+      },
+      "Speakit-JS-main": {
+        "files": 37,
+        "size": 5454494,
+        "ext_counts": {
+          ".js": 16,
+          ".webp": 7,
+          ".png": 4,
+          ".gif": 3,
+          ".md": 2,
+          ".html": 2,
+          ".css": 2,
+          "": 1
+        },
+        "readmes": [
+          "Speakit-JS-main/README.md",
+          "Speakit-JS-main/docs/ttsl/readme.md"
+        ],
+        "interesting": [
+          "Speakit-JS-main/README.md",
+          "Speakit-JS-main/docs/index.html",
+          "Speakit-JS-main/history/Speakit.alpha.1.1.0.js",
+          "Speakit-JS-main/history/Speakit.alpha.1.1.0.min.js",
+          "Speakit-JS-main/src/Speakit1.0.1.js",
+          "Speakit-JS-main/src/Speakit1.0.1.min.js",
+          "Speakit-JS-main/history/1.0/Speakit1.0.0.js",
+          "Speakit-JS-main/history/1.0/Speakit1.0.0.min.js",
+          "Speakit-JS-main/history/beta/Speakit-beta.v1.0.0.js",
+          "Speakit-JS-main/history/beta/Speakit-beta.v1.0.0.min.js",
+          "Speakit-JS-main/docs/js/Speakit-beta.v1.0.0.min.js",
+          "Speakit-JS-main/docs/js/Speakit1.0.0.min.js",
+          "Speakit-JS-main/docs/js/main.js",
+          "Speakit-JS-main/docs/ttsl/Speakit1.0.0.min.js",
+          "Speakit-JS-main/docs/ttsl/index.html"
+        ]
+      },
+      "Synthetic-Voice-Detection-Vocoder-Artifacts-main": {
+        "files": 57,
+        "size": 688191,
+        "ext_counts": {
+          ".py": 41,
+          ".pyc": 7,
+          ".txt": 5,
+          ".md": 2,
+          "": 1,
+          ".yaml": 1
+        },
+        "readmes": [
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README copy.md",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README.md"
+        ],
+        "interesting": [
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README copy.md",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/README.md",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/dev.txt",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/eval.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/main.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/model.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/requirements.txt",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/test.txt",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/train.txt",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/__init__.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/startup_config.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/config_parse/__init__.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/config_parse/arg_parse.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/config_parse/config_parse.py",
+          "Synthetic-Voice-Detection-Vocoder-Artifacts-main/core_scripts/data_io/__init__.py"
+        ]
+      },
+      "building_synthetic_voices_workshop-master": {
+        "files": 12,
+        "size": 95421,
+        "ext_counts": {
+          ".md": 5,
+          ".txt": 3,
+          ".data": 1,
+          ".yaml": 1,
+          ".py": 1,
+          ".html": 1
+        },
+        "readmes": [
+          "building_synthetic_voices_workshop-master/README.md",
+          "building_synthetic_voices_workshop-master/driving_alert/README.md"
+        ],
+        "interesting": [
+          "building_synthetic_voices_workshop-master/COPYING.txt",
+          "building_synthetic_voices_workshop-master/DEBUG.md",
+          "building_synthetic_voices_workshop-master/INSTALL.md",
+          "building_synthetic_voices_workshop-master/README.md",
+          "building_synthetic_voices_workshop-master/driving_alert/README.md",
+          "building_synthetic_voices_workshop-master/driving_alert/generated.txt",
+          "building_synthetic_voices_workshop-master/driving_alert/prompts.txt",
+          "building_synthetic_voices_workshop-master/scripts/generate.py",
+          "building_synthetic_voices_workshop-master/slides/presentation.html",
+          "building_synthetic_voices_workshop-master/slides/slides.md"
+        ]
+      },
+      "cere-voice-master": {
+        "files": 22,
+        "size": 1150789,
+        "ext_counts": {
+          ".js": 7,
+          ".ts": 6,
+          ".json": 3,
+          ".html": 2,
+          "": 1,
+          ".pdf": 1,
+          ".css": 1,
+          ".yml": 1
+        },
+        "readmes": [],
+        "interesting": [
+          "cere-voice-master/index.html",
+          "cere-voice-master/package-lock.json",
+          "cere-voice-master/package.json",
+          "cere-voice-master/tsconfig.json",
+          "cere-voice-master/libs/jquery-1.10.2.js",
+          "cere-voice-master/libs/riot-0.9.7.js",
+          "cere-voice-master/scripts/bootstrap.js",
+          "cere-voice-master/scripts/main.js",
+          "cere-voice-master/templates/index.html",
+          "cere-voice-master/libs/require/2.1.9.js",
+          "cere-voice-master/libs/require/domReady-2.0.1.js",
+          "cere-voice-master/libs/require/text-2.0.10.js"
+        ]
+      },
+      "coqui-voice-pack-2": {
+        "files": 1,
+        "size": 2589,
+        "ext_counts": {
+          ".md": 1
+        },
+        "readmes": [
+          "coqui-voice-pack-2/README.md"
+        ],
+        "interesting": [
+          "coqui-voice-pack-2/README.md"
+        ]
+      },
+      "coqui_voice_pack_v2": {
+        "files": 2541,
+        "size": 139888828,
+        "ext_counts": {
+          ".wav": 2541
+        },
+        "readmes": [],
+        "interesting": []
+      },
+      "openai-edge-tts-main": {
+        "files": 12,
+        "size": 78187,
+        "ext_counts": {
+          ".py": 5,
+          "": 3,
+          ".example": 1,
+          ".md": 1,
+          ".yml": 1,
+          ".txt": 1
+        },
+        "readmes": [
+          "openai-edge-tts-main/README.md"
+        ],
+        "interesting": [
+          "openai-edge-tts-main/README.md",
+          "openai-edge-tts-main/requirements.txt",
+          "openai-edge-tts-main/app/config.py",
+          "openai-edge-tts-main/app/handle_text.py",
+          "openai-edge-tts-main/app/server.py",
+          "openai-edge-tts-main/app/tts_handler.py",
+          "openai-edge-tts-main/app/utils.py"
+        ]
+      },
+      "spoken-master": {
+        "files": 8,
+        "size": 27383,
+        "ext_counts": {
+          ".js": 4,
+          "": 1,
+          ".html": 1,
+          ".json": 1,
+          ".md": 1
+        },
+        "readmes": [
+          "spoken-master/readme.md"
+        ],
+        "interesting": [
+          "spoken-master/gulpfile.js",
+          "spoken-master/index.html",
+          "spoken-master/package.json",
+          "spoken-master/readme.md",
+          "spoken-master/spoken.js",
+          "spoken-master/build/spoken.js",
+          "spoken-master/src/spoken.js"
+        ]
+      },
+      "thousandVoices-master": {
+        "files": 11,
+        "size": 23399,
+        "ext_counts": {
+          ".py": 4,
+          ".md": 3,
+          "": 2,
+          ".json": 1,
+          ".ipynb": 1
+        },
+        "readmes": [
+          "thousandVoices-master/README.md",
+          "thousandVoices-master/TTS/README.md",
+          "thousandVoices-master/TTS/artifacts/README.md"
+        ],
+        "interesting": [
+          "thousandVoices-master/README.md",
+          "thousandVoices-master/TTS/README.md",
+          "thousandVoices-master/TTS/deploy.py",
+          "thousandVoices-master/TTS/meta.json",
+          "thousandVoices-master/TTS/model.py",
+          "thousandVoices-master/TTS/pack.py",
+          "thousandVoices-master/TTS/artifacts/README.md",
+          "thousandVoices-master/TTS/basemodel/Tacotron2_ParallelWaveGan.py"
+        ]
+      }
+    },
+    "notCopiedCodeNote": "No executable repository source code is embedded. Formulas and JSON control fields are clean, derived, implementation-ready abstractions for the user's static voice studio/scanner."
+  },
+  "sliderControlMath": {
+    "version": "deep_slider_math_v3_24file_pack",
+    "normalization": {
+      "slider01": "n = clamp(value, min, max) / max",
+      "sliderCentered": "z = (clamp(value,0,10) - 5) / 5",
+      "influence01": "lambda = clamp(percent,0,100) / 100",
+      "blendRule": "final = baseAudio * influenceBaseAudio + synthesizedTransform * (1 - influenceBaseAudio), then biome/race/class/gender/personality/emotion weights are applied as independent lambdas."
+    },
+    "userFacingSliders": [
+      {
+        "key": "pitch",
+        "name": "Voice Height",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Base pitch, F0, semitone shift, pitch range",
+        "normalizedSymbols": {
+          "n01": "pitch_n",
+          "centered": "pitch_z"
+        }
+      },
+      {
+        "key": "speed",
+        "name": "Speaking Speed",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Speech rate, duration, pacing",
+        "normalizedSymbols": {
+          "n01": "speed_n",
+          "centered": "speed_z"
+        }
+      },
+      {
+        "key": "inflection",
+        "name": "Expression Shape",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Pitch motion, melody, phrase movement",
+        "normalizedSymbols": {
+          "n01": "inflection_n",
+          "centered": "inflection_z"
+        }
+      },
+      {
+        "key": "stutter",
+        "name": "Hesitations",
+        "range": [
+          0,
+          10
+        ],
+        "default": 1.0,
+        "controls": "Stutter chance, hesitation text, pause behavior",
+        "normalizedSymbols": {
+          "n01": "stutter_n",
+          "centered": "stutter_z"
+        }
+      },
+      {
+        "key": "breath",
+        "name": "Softness",
+        "range": [
+          0,
+          10
+        ],
+        "default": 3.0,
+        "controls": "Airiness, aspiration, soft delivery",
+        "normalizedSymbols": {
+          "n01": "breath_n",
+          "centered": "breath_z"
+        }
+      },
+      {
+        "key": "roughness",
+        "name": "Gruff Edge",
+        "range": [
+          0,
+          10
+        ],
+        "default": 2.0,
+        "controls": "Rough cadence, jitter/shimmer hints, gruff stress",
+        "normalizedSymbols": {
+          "n01": "roughness_n",
+          "centered": "roughness_z"
+        }
+      },
+      {
+        "key": "resonance",
+        "name": "Body / Depth",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.5,
+        "controls": "Fullness, formant scale, chest/body feel",
+        "normalizedSymbols": {
+          "n01": "resonance_n",
+          "centered": "resonance_z"
+        }
+      },
+      {
+        "key": "formality",
+        "name": "Speech Style",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.5,
+        "controls": "Formality, articulation, carefulness",
+        "normalizedSymbols": {
+          "n01": "formality_n",
+          "centered": "formality_z"
+        }
+      },
+      {
+        "key": "vowelFlow",
+        "name": "Vowel Flow",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Clipped vs stretched vowels",
+        "normalizedSymbols": {
+          "n01": "vowelFlow_n",
+          "centered": "vowelFlow_z"
+        }
+      },
+      {
+        "key": "consonantBite",
+        "name": "Consonant Bite",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Soft vs sharp consonants",
+        "normalizedSymbols": {
+          "n01": "consonantBite_n",
+          "centered": "consonantBite_z"
+        }
+      },
+      {
+        "key": "mouthShape",
+        "name": "Mouth Shape",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Closed vs open mouth feel",
+        "normalizedSymbols": {
+          "n01": "mouthShape_n",
+          "centered": "mouthShape_z"
+        }
+      },
+      {
+        "key": "nasality",
+        "name": "Nasal Color",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Oral vs nasal color",
+        "normalizedSymbols": {
+          "n01": "nasality_n",
+          "centered": "nasality_z"
+        }
+      },
+      {
+        "key": "throatDepth",
+        "name": "Throat Depth",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Forward vs back, throaty resonance",
+        "normalizedSymbols": {
+          "n01": "throatDepth_n",
+          "centered": "throatDepth_z"
+        }
+      },
+      {
+        "key": "rhythm",
+        "name": "Speech Rhythm",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Even vs bouncy cadence",
+        "normalizedSymbols": {
+          "n01": "rhythm_n",
+          "centered": "rhythm_z"
+        }
+      },
+      {
+        "key": "pauseControl",
+        "name": "Pause Space",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Tight vs spacious phrase timing",
+        "normalizedSymbols": {
+          "n01": "pauseControl_n",
+          "centered": "pauseControl_z"
+        }
+      },
+      {
+        "key": "emphasis",
+        "name": "Word Emphasis",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Gentle vs strong stress",
+        "normalizedSymbols": {
+          "n01": "emphasis_n",
+          "centered": "emphasis_z"
+        }
+      },
+      {
+        "key": "warmth",
+        "name": "Warmth",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Cool vs warm delivery",
+        "normalizedSymbols": {
+          "n01": "warmth_n",
+          "centered": "warmth_z"
+        }
+      },
+      {
+        "key": "clarity",
+        "name": "Clarity",
+        "range": [
+          0,
+          10
+        ],
+        "default": 6.0,
+        "controls": "Muttered vs clear articulation",
+        "normalizedSymbols": {
+          "n01": "clarity_n",
+          "centered": "clarity_z"
+        }
+      },
+      {
+        "key": "projection",
+        "name": "Projection",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Quiet/private vs projected/outward",
+        "normalizedSymbols": {
+          "n01": "projection_n",
+          "centered": "projection_z"
+        }
+      },
+      {
+        "key": "humanVariation",
+        "name": "Human Variation",
+        "range": [
+          0,
+          10
+        ],
+        "default": 5.0,
+        "controls": "Mechanical steadiness vs lifelike micro-variation",
+        "normalizedSymbols": {
+          "n01": "humanVariation_n",
+          "centered": "humanVariation_z"
+        }
+      },
+      {
+        "key": "accentColor",
+        "name": "Accent Color",
+        "range": [
+          0,
+          10
+        ],
+        "default": 7.0,
+        "controls": "Removes or strengthens accent mouth-feel",
+        "normalizedSymbols": {
+          "n01": "accentColor_n",
+          "centered": "accentColor_z"
+        }
+      }
+    ],
+    "influenceSliders": [
+      {
+        "key": "influenceRace",
+        "name": "Race / Ancestry Influence",
+        "rangePercent": [
+          0,
+          100
+        ],
+        "defaultPercent": 100,
+        "controls": "How strongly ancestry/species modifies the base voice",
+        "normalizedSymbol": "lambda_race"
+      },
+      {
+        "key": "influenceGender",
+        "name": "Gender Identity Influence",
+        "rangePercent": [
+          0,
+          100
+        ],
+        "defaultPercent": 100,
+        "controls": "How strongly gender-linked style affects the voice",
+        "normalizedSymbol": "lambda_gender"
+      },
+      {
+        "key": "influencePersonality",
+        "name": "Personality Influence",
+        "rangePercent": [
+          0,
+          100
+        ],
+        "defaultPercent": 100,
+        "controls": "How strongly personality affects delivery",
+        "normalizedSymbol": "lambda_personality"
+      },
+      {
+        "key": "influenceBiome",
+        "name": "Accent Strength / Remove Accent",
+        "rangePercent": [
+          0,
+          100
+        ],
+        "defaultPercent": 100,
+        "controls": "How strongly biome/accent rules appear or fade",
+        "normalizedSymbol": "lambda_biome"
+      },
+      {
+        "key": "influenceBaseAudio",
+        "name": "Uploaded / Recorded Voice Influence",
+        "rangePercent": [
+          0,
+          100
+        ],
+        "defaultPercent": 45,
+        "controls": "How much the original clip remains in the result",
+        "normalizedSymbol": "lambda_baseaudio"
+      },
+      {
+        "key": "emotionIntensity",
+        "name": "Emotion Strength",
+        "rangePercent": [
+          0,
+          100
+        ],
+        "defaultPercent": 75,
+        "controls": "How strongly emotion curves reshape pitch, timing, and tone",
+        "normalizedSymbol": "lambda_emotionintensity"
+      }
+    ],
+    "primaryEngineParameters": {
+      "f0Hz": "F0_final(t) = F0_base(t) * 2^((pitchSemitoneOffset + contourSemitone(t))/12)",
+      "pitchRangeSemitones": "range = lerp(0.75, 10.0, inflection_n) * racePitchRangeScale * genderPitchRangeScale * emotionPitchRangeScale",
+      "speechRate": "rate = clamp(0.45, 2.25, 2^(0.9 * speed_z) * raceRate * classRate * emotionRate)",
+      "durationScale": "durationScale = 1 / speechRate",
+      "pauseDensity": "pauseDensity = clamp01(0.08 + 0.11*stutter_n + 0.10*pauseControl_n + racePause + classPause + emotionPause)",
+      "pauseMs": "pauseMs = clamp(70, 1800, 70 + 820*pauseControl_n + 520*stutter_n + 380*(1-speed_n) + 200*ritualCadence)",
+      "breathNoiseMix": "breathMix = clamp01(0.02 + 0.50*breath_n + raceBreath + genderBreath + emotionBreath)",
+      "roughnessAmount": "rough = clamp01(0.03 + 0.55*roughness_n + raceRoughness + draconicGrowl*0.25 + undeadWhisper*0.18)",
+      "jitterCents": "jitter = 1.5 + 24*roughness_n + 10*humanVariation_n + 8*tension",
+      "shimmerDb": "shimmer = 0.05 + 1.6*roughness_n + 0.6*humanVariation_n",
+      "formantScale": "formantScale = clamp(0.72,1.32, raceFormantScale * genderFormantScale * (1 - 0.030*resonance_z + 0.025*mouthShape_z - 0.020*throatDepth_z))",
+      "mouthOpenness": "mouthOpen = clamp01(0.5 + 0.38*mouthShape_z + 0.20*vowelFlow_z)",
+      "nasalMix": "nasalMix = clamp01(0.02 + 0.72*nasality_n + raceNasality + accentNasalColor)",
+      "throatResonance": "throat = clamp01(0.5 + 0.35*throatDepth_z + raceThroat + roughness_n*0.10)",
+      "articulationPrecision": "articulation = clamp01(0.25 + 0.70*clarity_n + 0.25*formality_n - 0.22*roughness_n - 0.15*breath_n + raceArticulation)",
+      "consonantEnergy": "consonants = clamp(0.35,2.40, 0.70 + 1.25*consonantBite_n + raceConsonantForce + accentConsonantBite)",
+      "vowelLength": "vowelLength = clamp(0.45,1.95, 0.75 + 0.85*vowelFlow_n + raceVowelStretch + accentVowelFlow)",
+      "rhythmSwing": "rhythmSwing = clamp01(0.12 + 0.72*rhythm_n + raceRhythm + classRhythm + accentRhythm)",
+      "stressGainDb": "stressDb = clamp(0, 9.5, 0.5 + 7.5*emphasis_n + 1.2*projection_n + classAuthority)",
+      "warmSpectralTiltDb": "tilt = clamp(-8,8, -4 + 8*warmth_n - 1.2*clarity_n + raceWarmth)",
+      "projectionRmsDb": "targetRms = clamp(-34,-12, -32 + 16*projection_n + 4*emphasis_n + raceProjection)",
+      "humanMicroVariation": "micro = clamp01(0.02 + 0.80*humanVariation_n + 0.20*emotionIntensity + raceHumanity - metallicResonance*0.18)",
+      "accentBlend": "accentBlend = clamp01(accentColor_n * influenceBiome * accentCarrierStrength)",
+      "baseAudioBlend": "baseBlend = clamp01(influenceBaseAudio)"
+    },
+    "analysisPipeline": [
+      "Decode MP3/OGG/WAV to mono Float32 PCM; preserve original sample rate metadata.",
+      "Resample working copy to engine rate; reference rates observed in uploaded resources include 24k, 22.05k, 44.1k, and 48k.",
+      "Run VAD/silence trim; keep a silence map for pauseControl and stutter injection.",
+      "Extract STFT magnitude/phase; derive mel spectrogram for acoustic/vocoder conditioning.",
+      "Estimate F0 contour, voicing probability, phrase-level pitch range, and terminal cadence.",
+      "Estimate formants through LPC-style envelope tracking; map resonance/mouthShape/throatDepth to formant scaling.",
+      "Estimate breath/noise, harmonic-to-noise, jitter, shimmer, RMS, spectral tilt, and nasal-band energy.",
+      "Build baseVoiceVector, then blend biome accent, race/lineage, class/subclass, gender identity, personality, and emotion vectors.",
+      "Transform with PSOLA/vocoder/browser TTS/voice-to-voice path depending runtime engine capability.",
+      "Run artifact-aware QA using mel residual, clipping, DC offset, sibilance, robotic steadiness, and synthetic-vocoder artifact checks."
+    ],
+    "repositoryDerivedEquations": {
+      "melScaleHzToMel": "mel = 2595 * log10(1 + hz / 700)",
+      "melScaleMelToHz": "hz = 700 * (10^(mel / 2595) - 1)",
+      "stftMagnitude": "|X(k,n)| = sqrt(real(X)^2 + imag(X)^2)",
+      "melSpectrogram": "M(m,n) = sum_k filterbank_m(k) * |STFT(k,n)|^2",
+      "sourceFilterApproximation": "speech(t) = glottal_source(t; f0,jitter,shimmer,breath) * vocal_tract_filter(formants,nasality,throatDepth)",
+      "durationTransform": "duration_i' = duration_i * durationScale * raceDurationScale * classDurationScale * genderDurationScale * emotionDurationScale * (1 + epsilon_i)",
+      "formantTransform": "F_j' = F_j * formantScale + deltaMouth_j + deltaThroat_j + deltaNasal_j",
+      "vocoderConditioning": "waveform = vocoder(mel, speakerVector, styleVector, durationVector, noiseSchedule)",
+      "artifactScore": "artifactRisk = w1*melResidual + w2*phaseDiscontinuity + w3*overSmoothness + w4*unvoicedVoicedLeak + w5*clipping"
+    }
+  },
+  "runtimeMergeModel": {
+    "pipelineName": "Belavados Deep Runtime Voice Merge",
+    "priorityOrder": [
+      "baseAudioAnalysis",
+      "biomeAccentCarrier",
+      "lineageBloodlineRouting",
+      "raceCategoryAndRaceBodyMath",
+      "classAndSubclassDeliveryMath",
+      "genderIdentityPerformanceMath",
+      "personalityAndEmotionMath",
+      "humanVariationAndArtifactQA"
+    ],
+    "compactFormula": "V_final = blendAudio(V_baseAudio, Synthesize(V_neutral + λ_b*B_biome + λ_l*L_lineage + λ_r*R_race + λ_c*C_class + λ_s*S_subclass + λ_g*G_gender + λ_p*P_personality + λ_e*E_emotion + ε_human), influenceBaseAudio)",
+    "expandedEquations": {
+      "biome": "B_applied = influenceBiome * accentColor_n * selectedBiomeAccent.deepAccentMath.engineParameters",
+      "race": "R_applied = influenceRace * selectedRace.deepRaceMath.engineParameters",
+      "class": "C_applied = classWeight * selectedClass.deepClassMath.engineParameters; S_applied = subclassWeight * selectedSubclass.deepSubclassMath.engineParameters",
+      "gender": "G_applied = influenceGender * selectedGender.deepGenderMath.engineParameters",
+      "emotion": "E_applied = emotionIntensity * emotionCurve(mood, sceneIntensity, lineIntent)",
+      "baseAudio": "features_base = AnalyzePCM(uploadedOrRecordedAudio); keep = influenceBaseAudio; finalFeatures = keep*features_base + (1-keep)*mergedFantasyFeatures",
+      "finalF0": "F0_final(t) = F0_base(t) * 2^((Σ semitoneOffsets + contour(t))/12)",
+      "finalDuration": "D_i_final = D_i_base * Π durationScales * (1 + ε_i)",
+      "finalFormants": "F_j_final = F_j_base * Π formantScales + Σ formantDeltas_j",
+      "finalWave": "x_final = VocoderOrPSOLA(mel_final, f0_final, duration_final, styleVector_final) + textureLayers"
+    },
+    "safetyPermissionLayer": {
+      "allowedAudio": [
+        "user-owned recordings",
+        "explicitly licensed samples",
+        "public-domain or compatible-license material"
+      ],
+      "disallowedDefault": "Do not train or clone from private, celebrity, commercial, or unknown-rights voices without permission.",
+      "packBehavior": "This JSON describes controllable fictional voice traits and accent-inspired mouth-feel; it does not contain voice-cloning weights or copied audio."
+    }
+  },
+  "genderIdentityDesignPolicy": {
+    "nonEssentialist": true,
+    "purpose": "Optional performance-layer math for fictional Belavadös characters. Gender identities stay intact from the original pack.",
+    "respectRule": "Never use these values to claim how real people sound. Treat them as adjustable, opt-in voice-design presets layered after biome/race/class and before personality/emotion.",
+    "fadeRule": "When influenceGender=0, gender identity math contributes zero while the identity label remains preserved for character data."
+  },
+  "genderIdentities": [
+    {
+      "id": "cis_male",
+      "name": "Cis-Male",
+      "voiceDesignSummary": "A grounded register option that can emphasize lower center, steadier cadence, and firmer sentence endings when desired.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_cis_male",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": -2.0,
+          "pitchRangeSemitones": 1.75,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 0.975,
+          "chestResonanceDb": 2.44,
+          "throatDepth": 0.3795,
+          "mouthOpenness": 0.505,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5574,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.055,
+          "legatoBlend": 0.1625,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.9,
+          "warmSpectralTiltDb": -0.559,
+          "projectionRmsDb": -25.47,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3495,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.45,
+            "authority": 0.47,
+            "warmth": 0.43,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 3.7,
+          "speed": 5.0,
+          "inflection": 4.79,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.79,
+          "formality": 6.21,
+          "vowelFlow": 4.8,
+          "consonantBite": 5.4,
+          "mouthShape": 5.11,
+          "nasality": 2.24,
+          "throatDepth": 5.59,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.92,
+          "warmth": 4.58,
+          "clarity": 5.75,
+          "projection": 7.32,
+          "humanVariation": 5.45,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "cis_female",
+      "name": "Cis-Female",
+      "voiceDesignSummary": "A bright, expressive register option that can emphasize warmth, clearer pitch motion, and smoother emotional color.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_cis_female",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 1.5,
+          "pitchRangeSemitones": 2.45,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.085,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.025,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.5685,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5526,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.0725,
+          "legatoBlend": 0.2325,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": 0.281,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3795,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.57,
+            "authority": 0.35,
+            "warmth": 0.57,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.97,
+          "speed": 5.0,
+          "inflection": 5.28,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.01,
+          "vowelFlow": 5.04,
+          "consonantBite": 5.4,
+          "mouthShape": 5.71,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.51,
+          "warmth": 5.21,
+          "clarity": 5.75,
+          "projection": 6.91,
+          "humanVariation": 5.66,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "demi_male",
+      "name": "Demi-Male",
+      "voiceDesignSummary": "A partially masc-coded performance option with grounded warmth but less strongly lowered than a full masc register.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_demi_male",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": -1.2,
+          "pitchRangeSemitones": 2.05,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 0.988,
+          "chestResonanceDb": 1.8,
+          "throatDepth": 0.3275,
+          "mouthOpenness": 0.5206,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5554,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.055,
+          "legatoBlend": 0.1625,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.625,
+          "warmSpectralTiltDb": -0.199,
+          "projectionRmsDb": -26.32,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3495,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.45,
+            "authority": 0.42,
+            "warmth": 0.49,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 4.22,
+          "speed": 5.0,
+          "inflection": 5.0,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.49,
+          "formality": 6.13,
+          "vowelFlow": 4.8,
+          "consonantBite": 5.4,
+          "mouthShape": 5.27,
+          "nasality": 2.24,
+          "throatDepth": 5.3,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.75,
+          "warmth": 4.85,
+          "clarity": 5.75,
+          "projection": 6.97,
+          "humanVariation": 5.45,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "demi_female",
+      "name": "Demi-Female",
+      "voiceDesignSummary": "A partially femme-coded performance option with refined lightness, gentle warmth, and precise but softened contour.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_demi_female",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.9,
+          "pitchRangeSemitones": 2.25,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.084,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.015,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.556,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5526,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.07,
+          "legatoBlend": 0.2225,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": 0.161,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3695,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.53,
+            "authority": 0.35,
+            "warmth": 0.55,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.58,
+          "speed": 5.0,
+          "inflection": 5.14,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.01,
+          "vowelFlow": 5.0,
+          "consonantBite": 5.4,
+          "mouthShape": 5.59,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.51,
+          "warmth": 5.12,
+          "clarity": 5.75,
+          "projection": 6.91,
+          "humanVariation": 5.59,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "non_binary",
+      "name": "Non-Binary",
+      "voiceDesignSummary": "A centered register option that balances bright and low cues without committing the performance to a strongly gendered pitch profile.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_non_binary",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 2.15,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.535,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.6126,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.0694,
+          "legatoBlend": 0.1925,
+          "rhythmSwing": 0.3375,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": -0.259,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.6345,
+          "humanVariationAmount": 0.3495,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.45,
+            "authority": 0.35,
+            "warmth": 0.48,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.37
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 5.11,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.28,
+          "vowelFlow": 4.94,
+          "consonantBite": 5.4,
+          "mouthShape": 5.4,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 5.16,
+          "pauseControl": 6.04,
+          "emphasis": 5.51,
+          "warmth": 4.81,
+          "clarity": 6.34,
+          "projection": 6.91,
+          "humanVariation": 5.45,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "trans_male",
+      "name": "Trans-Male",
+      "voiceDesignSummary": "A masc-aligned performance option that can emphasize affirming grounded resonance, controlled depth, and strength without flattening emotion.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_trans_male",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": -1.8,
+          "pitchRangeSemitones": 2.05,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.21,
+          "shimmerDb": 0.267,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 0.982,
+          "chestResonanceDb": 2.12,
+          "throatDepth": 0.3535,
+          "mouthOpenness": 0.5134,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5566,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.055,
+          "legatoBlend": 0.1625,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.835,
+          "warmSpectralTiltDb": -0.259,
+          "projectionRmsDb": -25.85,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3525,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.45,
+            "authority": 0.45,
+            "warmth": 0.48,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.28,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 3.83,
+          "speed": 5.0,
+          "inflection": 5.0,
+          "stutter": 1.81,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.64,
+          "formality": 6.18,
+          "vowelFlow": 4.8,
+          "consonantBite": 5.4,
+          "mouthShape": 5.2,
+          "nasality": 2.24,
+          "throatDepth": 5.44,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.88,
+          "warmth": 4.81,
+          "clarity": 5.75,
+          "projection": 7.16,
+          "humanVariation": 5.47,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "trans_female",
+      "name": "Trans-Female",
+      "voiceDesignSummary": "A femme-aligned performance option that can emphasize lift, emotional brightness, and careful resonance while preserving strength and depth where needed.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_trans_female",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 1.25,
+          "pitchRangeSemitones": 2.35,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.11,
+          "aspirationAmount": 0.1115,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 1.04,
+          "formantScale": 1.018,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.5606,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5502,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.075,
+          "legatoBlend": 0.2425,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": 0.317,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.57,
+          "humanVariationAmount": 0.377,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.56,
+            "authority": 0.35,
+            "warmth": 0.58,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.81,
+          "speed": 5.0,
+          "inflection": 5.21,
+          "stutter": 1.74,
+          "breath": 2.3,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.0,
+          "vowelFlow": 5.07,
+          "consonantBite": 5.4,
+          "mouthShape": 5.63,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.51,
+          "warmth": 5.24,
+          "clarity": 5.7,
+          "projection": 6.91,
+          "humanVariation": 5.64,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "gender_fluid",
+      "name": "Gender-Fluid",
+      "voiceDesignSummary": "A dynamic performance option with moving register, shifting formants, and expressive transitions across scenes or emotional states.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_gender_fluid",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 2.85,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.31,
+          "pauseMeanMs": 365.2,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.09,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.005,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.547,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5526,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.1234,
+          "legatoBlend": 0.3625,
+          "rhythmSwing": 0.3875,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": -0.439,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.387,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.6,
+            "authority": 0.35,
+            "warmth": 0.45,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.57
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 5.66,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.01,
+          "vowelFlow": 5.55,
+          "consonantBite": 5.4,
+          "mouthShape": 5.48,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 5.45,
+          "pauseControl": 6.28,
+          "emphasis": 5.51,
+          "warmth": 4.67,
+          "clarity": 5.75,
+          "projection": 6.91,
+          "humanVariation": 5.71,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "agender",
+      "name": "Agender",
+      "voiceDesignSummary": "A less gender-coded performance option with centered register, reduced gendered pitch cues, and clean controlled articulation.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_agender",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 1.85,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.32,
+          "pauseMeanMs": 373.4,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.535,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.6526,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.0574,
+          "legatoBlend": 0.1675,
+          "rhythmSwing": 0.3125,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": -0.439,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.6745,
+          "humanVariationAmount": 0.342,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.42,
+            "authority": 0.35,
+            "warmth": 0.45,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.27
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 4.87,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.46,
+          "vowelFlow": 4.83,
+          "consonantBite": 5.4,
+          "mouthShape": 5.4,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 5.01,
+          "pauseControl": 6.36,
+          "emphasis": 5.51,
+          "warmth": 4.67,
+          "clarity": 6.75,
+          "projection": 6.91,
+          "humanVariation": 5.39,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "gender_less",
+      "name": "Gender-Less",
+      "voiceDesignSummary": "A deliberately ungendered performance option that can sound steadier, more abstract, mechanical, ancient, alien, or spiritually detached depending on race/class.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_gender_less",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 1.65,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.34,
+          "pauseMeanMs": 389.8,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.28,
+          "shimmerDb": 0.271,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.535,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.7026,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.0454,
+          "legatoBlend": 0.1425,
+          "rhythmSwing": 0.2875,
+          "stressGainDb": 3.3,
+          "warmSpectralTiltDb": -0.439,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.7245,
+          "humanVariationAmount": 0.336,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.38,
+            "authority": 0.35,
+            "warmth": 0.45,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.29,
+            "fluidity": 0.17
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 4.7,
+          "stutter": 1.83,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.69,
+          "vowelFlow": 4.72,
+          "consonantBite": 5.4,
+          "mouthShape": 5.4,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 4.87,
+          "pauseControl": 6.52,
+          "emphasis": 5.55,
+          "warmth": 4.67,
+          "clarity": 7.25,
+          "projection": 6.91,
+          "humanVariation": 5.35,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "gender_flexible",
+      "name": "Gender-Flexible",
+      "voiceDesignSummary": "A performance option that can lean softer or firmer as context changes while remaining recognizably the same person.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_gender_flexible",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 2.55,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.085,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.5385,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5542,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.1013,
+          "legatoBlend": 0.2925,
+          "rhythmSwing": 0.3675,
+          "stressGainDb": 3.46,
+          "warmSpectralTiltDb": -0.079,
+          "projectionRmsDb": -26.09,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3745,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.55,
+            "authority": 0.39,
+            "warmth": 0.51,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.49
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 5.43,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.08,
+          "vowelFlow": 5.3,
+          "consonantBite": 5.4,
+          "mouthShape": 5.42,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 5.33,
+          "pauseControl": 6.04,
+          "emphasis": 5.65,
+          "warmth": 4.94,
+          "clarity": 5.75,
+          "projection": 7.06,
+          "humanVariation": 5.62,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "bi_gender",
+      "name": "Bi-Gender",
+      "voiceDesignSummary": "A layered performance option with two identifiable register colors that can alternate, blend, or harmonize in emphasis.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_bi_gender",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 2.65,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.078,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 1.64,
+          "throatDepth": 0.3145,
+          "mouthOpenness": 0.535,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5554,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.0766,
+          "legatoBlend": 0.2075,
+          "rhythmSwing": 0.33,
+          "stressGainDb": 3.295,
+          "warmSpectralTiltDb": -0.019,
+          "projectionRmsDb": -26.72,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.3255,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.45,
+            "authority": 0.42,
+            "warmth": 0.52,
+            "theatricality": 0.05,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.43
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 5.45,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.41,
+          "formality": 6.13,
+          "vowelFlow": 5.0,
+          "consonantBite": 5.4,
+          "mouthShape": 5.4,
+          "nasality": 2.24,
+          "throatDepth": 5.23,
+          "rhythm": 5.11,
+          "pauseControl": 6.04,
+          "emphasis": 5.54,
+          "warmth": 4.99,
+          "clarity": 5.75,
+          "projection": 6.8,
+          "humanVariation": 5.28,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "poly_gender",
+      "name": "Poly-Gender",
+      "voiceDesignSummary": "A many-layered performance option that can stack multiple register colors, especially useful for magical, draconic, fey, or cosmic characters.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_poly_gender",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 3.05,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.086,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 1.8,
+          "throatDepth": 0.3275,
+          "mouthOpenness": 0.539,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.5526,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.1086,
+          "legatoBlend": 0.3125,
+          "rhythmSwing": 0.3625,
+          "stressGainDb": 3.02,
+          "warmSpectralTiltDb": -0.439,
+          "projectionRmsDb": -27.15,
+          "clarityIndex": 0.5745,
+          "humanVariationAmount": 0.366,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.58,
+            "authority": 0.35,
+            "warmth": 0.45,
+            "theatricality": 0.1,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.53
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 5.77,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.49,
+          "formality": 6.01,
+          "vowelFlow": 5.38,
+          "consonantBite": 5.4,
+          "mouthShape": 5.42,
+          "nasality": 2.24,
+          "throatDepth": 5.3,
+          "rhythm": 5.3,
+          "pauseControl": 6.04,
+          "emphasis": 5.37,
+          "warmth": 4.67,
+          "clarity": 5.75,
+          "projection": 6.62,
+          "humanVariation": 5.56,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    },
+    {
+      "id": "neutrois",
+      "name": "Neutrois",
+      "voiceDesignSummary": "A neutral-gender performance option that balances warmth, clarity, and composure with minimal binary pitch coding.",
+      "nonEssentialistUseNote": "This is an optional fictional voice-performance influence. It must not be treated as a rule for how real people with this identity speak.",
+      "accentInteraction": "Gender identity modifies register placement, pitch movement, emotional color, and layering while preserving the biome accent and race/class articulation rules.",
+      "preservedBelavadosIdentity": true,
+      "deepGenderMath": {
+        "vectorName": "G_neutrois",
+        "applicationFormula": "voiceAfterGender = voiceAfterClass + influenceGender * identityWeight * deepGenderMath.engineParameters",
+        "engineParameters": {
+          "f0SemitoneOffset": 0.0,
+          "pitchRangeSemitones": 2.05,
+          "speechRateMultiplier": 1.0,
+          "durationScale": 1.0,
+          "pauseDensity": 0.28,
+          "pauseMeanMs": 340.6,
+          "breathNoiseMix": 0.08,
+          "aspirationAmount": 0.082,
+          "roughnessAmount": 0.05,
+          "jitterCents": 5.0,
+          "shimmerDb": 0.255,
+          "harmonicNoiseLossDb": 0.92,
+          "formantScale": 1.0,
+          "chestResonanceDb": 2.6,
+          "throatDepth": 0.3925,
+          "mouthOpenness": 0.537,
+          "nasalMix": 0.03,
+          "articulationPrecision": 0.6526,
+          "consonantEnergy": 1.0,
+          "fricativeEdge": 0.0,
+          "vowelLengthMultiplier": 1.065,
+          "legatoBlend": 0.2025,
+          "rhythmSwing": 0.3075,
+          "stressGainDb": 3.24,
+          "warmSpectralTiltDb": -0.079,
+          "projectionRmsDb": -26.45,
+          "clarityIndex": 0.6745,
+          "humanVariationAmount": 0.3495,
+          "specialTextureMix": {
+            "animalTexture": 0.0,
+            "avianLift": 0.0,
+            "draconicGrowl": 0.0,
+            "metallicResonance": 0.0,
+            "psionicPhase": 0.0,
+            "undeadWhisper": 0.0,
+            "clickCroakTexture": 0.0,
+            "plantRustle": 0.0
+          },
+          "latentStyleVectorHints": {
+            "emotionalColor": 0.45,
+            "authority": 0.35,
+            "warmth": 0.51,
+            "theatricality": 0.2,
+            "secrecy": 0.15,
+            "ritualCadence": 0.1,
+            "musicality": 0.2,
+            "tension": 0.25,
+            "fluidity": 0.25
+          }
+        },
+        "sliderBiases": {
+          "pitch": 5.0,
+          "speed": 5.0,
+          "inflection": 5.0,
+          "stutter": 1.74,
+          "breath": 2.0,
+          "roughness": 1.1,
+          "resonance": 5.87,
+          "formality": 6.46,
+          "vowelFlow": 4.94,
+          "consonantBite": 5.4,
+          "mouthShape": 5.41,
+          "nasality": 2.24,
+          "throatDepth": 5.66,
+          "rhythm": 4.98,
+          "pauseControl": 6.04,
+          "emphasis": 5.51,
+          "warmth": 4.94,
+          "clarity": 6.75,
+          "projection": 6.91,
+          "humanVariation": 5.45,
+          "accentColor": 7.0
+        },
+        "timeVariantOptions": [
+          "Gender-Fluid, Gender-Flexible, Bi-Gender, and Poly-Gender may use scene-based or emotion-based register curves rather than one static value."
+        ],
+        "respectRule": "Gender identity influence is a user-controlled performance layer. It never implies real-world biology or how real people with this identity sound."
+      }
+    }
+  ],
+  "genderRuntimeMath": {
+    "formula": "V_after_gender = V_after_class + influenceGender * selectedIdentity.deepGenderMath.engineParameters",
+    "fluidTemporalBlend": "For fluid/flexible/multi-gender identities, allow time-varying interpolation: G(t)=Σ w_i(t)*G_i where Σw_i(t)=1.",
+    "rangeGuard": "Clamp final pitch/formant/resonance to user-selected range; gender identity math cannot override user sliders.",
+    "baseAudioRespect": "Uploaded/recorded voice influence keeps user-owned base-audio qualities according to influenceBaseAudio before gender math is blended."
+  }
+}
