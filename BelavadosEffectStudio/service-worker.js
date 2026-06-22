@@ -1,7 +1,9 @@
-const CACHE_NAME = 'belavados-effect-studio-v2026-06-22-backend';
+const CACHE_NAME = 'belavados-effect-studio-v2026-06-22-lightning-js-restored';
 const CORE_ASSETS = [
   './',
   './index.html',
+  './mobile.html',
+  './desktop.html',
   './manifest.webmanifest',
   './css/styles.css',
   './js/app.js',
