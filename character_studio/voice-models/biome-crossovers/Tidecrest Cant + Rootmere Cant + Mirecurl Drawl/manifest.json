@@ -1,0 +1,149 @@
+{
+  "schema": "belavados.voice.crossoverManifest.v2",
+  "id": "biome_cache_combo_095",
+  "folderName": "Tidecrest Cant + Rootmere Cant + Mirecurl Drawl",
+  "folderPath": "voice-models/biome-crossovers/Tidecrest Cant + Rootmere Cant + Mirecurl Drawl/",
+  "cacheSlots": 3,
+  "orderMatters": false,
+  "duplicateBiomesAllowed": false,
+  "accentBlendName": "Tidecrest Cant + Rootmere Cant + Mirecurl Drawl",
+  "accentInspirations": [
+    "Portuguese",
+    "German",
+    "Louisiana Cajun / Creole-influenced English"
+  ],
+  "voiceFeelBlend": "Open, rolling, maritime, lively + Dense, structured, rooted, authoritative + Slow, earthy, wet, lived-in",
+  "diversityType": "mixed_category",
+  "categoryCounts": {
+    "Forest": 2,
+    "Ocean": 1
+  },
+  "modelDuplicationRule": "Do not place voice model binaries in this crossover folder. Let users choose models from the component main accent manifests.",
+  "components": [
+    {
+      "biomeId": "ocean_surface_floating_settlement",
+      "biome": "Ocean Surface Floating Settlement",
+      "category": "Ocean",
+      "fantasyAccentName": "Tidecrest Cant",
+      "baseAccentInspiration": "Portuguese",
+      "mainAccentManifest": "../../main-accents/Tidecrest Cant/manifest.json",
+      "availableModelIds": [
+        "piper_pt_pt_tugao_medium",
+        "kokoro_pt_pt_reference"
+      ],
+      "defaultModelId": "piper_pt_pt_tugao_medium",
+      "raceOverlayBehavior": "Humans sound closest to the base; elves make it airy; dwarves make it harsher; aquatic races make it very fluid.",
+      "classOverlayBehavior": "Merchants sound like dock traders; captains/warriors sound commanding; bards sound sea-shanty-like.",
+      "finalVoiceFeel": "Open, rolling, maritime, lively."
+    },
+    {
+      "biomeId": "deep_forest",
+      "biome": "Deep Forest",
+      "category": "Forest",
+      "fantasyAccentName": "Rootmere Cant",
+      "baseAccentInspiration": "German",
+      "mainAccentManifest": "../../main-accents/Rootmere Cant/manifest.json",
+      "availableModelIds": [
+        "piper_de_de_thorsten",
+        "piper_de_de_eva_k"
+      ],
+      "defaultModelId": "piper_de_de_thorsten",
+      "raceOverlayBehavior": "Elves soften the hardness; beastfolk make it strong and vocal; humans keep it practical.",
+      "classOverlayBehavior": "Rangers sound disciplined; scholars sound precise; warriors sound clipped and firm.",
+      "finalVoiceFeel": "Dense, structured, rooted, authoritative."
+    },
+    {
+      "biomeId": "marshes_and_swamps",
+      "biome": "Marshes and Swamps",
+      "category": "Forest",
+      "fantasyAccentName": "Mirecurl Drawl",
+      "baseAccentInspiration": "Louisiana Cajun / Creole-influenced English",
+      "mainAccentManifest": "../../main-accents/Mirecurl Drawl/manifest.json",
+      "availableModelIds": [
+        "cajun_creole_reference_overlay",
+        "piper_en_us_plus_french_overlay"
+      ],
+      "defaultModelId": "cajun_creole_reference_overlay",
+      "raceOverlayBehavior": "Halflings make it friendly; beastfolk make it rhythmic; orcs make it rough and muddy.",
+      "classOverlayBehavior": "Rangers sound local and practical; clerics sound slow and steady; rogues sound secretive.",
+      "finalVoiceFeel": "Slow, earthy, wet, lived-in."
+    }
+  ],
+  "userChoicePolicy": {
+    "mode": "choose-one-model-per-component-or-choose-primary-accent",
+    "defaultPrimaryAccent": "Tidecrest Cant",
+    "forceEnglishText": true,
+    "accentHeldBy": "selected main accent model or backend reference conditioning"
+  },
+  "weightedLayerDefaults": [
+    {
+      "biomeId": "ocean_surface_floating_settlement",
+      "fantasyAccentName": "Tidecrest Cant",
+      "enabled": true,
+      "defaultModelId": "piper_pt_pt_tugao_medium",
+      "availableModelIds": [
+        "piper_pt_pt_tugao_medium",
+        "kokoro_pt_pt_reference"
+      ],
+      "intensityPercent": 34,
+      "mainAccentManifest": "../../main-accents/Tidecrest Cant/manifest.json"
+    },
+    {
+      "biomeId": "deep_forest",
+      "fantasyAccentName": "Rootmere Cant",
+      "enabled": true,
+      "defaultModelId": "piper_de_de_thorsten",
+      "availableModelIds": [
+        "piper_de_de_thorsten",
+        "piper_de_de_eva_k"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Rootmere Cant/manifest.json"
+    },
+    {
+      "biomeId": "marshes_and_swamps",
+      "fantasyAccentName": "Mirecurl Drawl",
+      "enabled": true,
+      "defaultModelId": "cajun_creole_reference_overlay",
+      "availableModelIds": [
+        "cajun_creole_reference_overlay",
+        "piper_en_us_plus_french_overlay"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Mirecurl Drawl/manifest.json"
+    }
+  ],
+  "layeringRules": {
+    "crossoverBehavior": "For a three-biome cache, each component accent contributes one selectable model layer. Suggested layers start enabled and can be disabled or re-enabled by the player.",
+    "intensityBehavior": "Each enabled layer has a 0-100 intensity slider. Raw percentages are preserved, and a normalized weight is computed so enabled layers sum to 1.0 for backend mixing.",
+    "modelDuplicationRule": "Main accent folders own reusable model pointers. Crossover folders contain only manifests that reference main accent models.",
+    "example": "Irish 16%, Thai 37%, Creole 47% is represented as three enabled weightedLayer entries."
+  },
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}
