@@ -1,0 +1,152 @@
+{
+  "schema": "belavados.voice.crossoverManifest.v2",
+  "id": "biome_cache_combo_165",
+  "folderName": "Reefglass Lilt + Hearthfield Brogue + Highbranch Lilt",
+  "folderPath": "voice-models/biome-crossovers/Reefglass Lilt + Hearthfield Brogue + Highbranch Lilt/",
+  "cacheSlots": 3,
+  "orderMatters": false,
+  "duplicateBiomesAllowed": false,
+  "accentBlendName": "Reefglass Lilt + Hearthfield Brogue + Highbranch Lilt",
+  "accentInspirations": [
+    "Japanese",
+    "Irish",
+    "French"
+  ],
+  "voiceFeelBlend": "Graceful, clear, flowing, elegant + Friendly, earthy, communal, homely + Light, elevated, refined, airy",
+  "diversityType": "cross_category",
+  "categoryCounts": {
+    "Forest": 1,
+    "Ocean": 1,
+    "Plains": 1
+  },
+  "modelDuplicationRule": "Do not place voice model binaries in this crossover folder. Let users choose models from the component main accent manifests.",
+  "components": [
+    {
+      "biomeId": "underwater_with_reefs",
+      "biome": "Underwater With Reefs",
+      "category": "Ocean",
+      "fantasyAccentName": "Reefglass Lilt",
+      "baseAccentInspiration": "Japanese",
+      "mainAccentManifest": "../../main-accents/Reefglass Lilt/manifest.json",
+      "availableModelIds": [
+        "kokoro_ja_reference",
+        "kizuna_ja_voice_factory"
+      ],
+      "defaultModelId": "kokoro_ja_reference",
+      "raceOverlayBehavior": "Elves make it delicate; aquatic races make it especially fluid; orcs make it more abrupt and unusual.",
+      "classOverlayBehavior": "Clerics sound ritualistic; mages sound precise; rogues sound muffled and quick.",
+      "finalVoiceFeel": "Graceful, clear, flowing, elegant."
+    },
+    {
+      "biomeId": "farming",
+      "biome": "Farming",
+      "category": "Plains",
+      "fantasyAccentName": "Hearthfield Brogue",
+      "baseAccentInspiration": "Irish",
+      "mainAccentManifest": "../../main-accents/Hearthfield Brogue/manifest.json",
+      "availableModelIds": [
+        "libritts_irish_reference",
+        "commonaccent_irish_english",
+        "piper_en_gb_base"
+      ],
+      "defaultModelId": "libritts_irish_reference",
+      "raceOverlayBehavior": "Halflings make it especially warm; dwarves make it earthier; elves make it lighter and lilting.",
+      "classOverlayBehavior": "Farmers and artisans sound practical; clerics sound gentle; bards sound cheerful.",
+      "finalVoiceFeel": "Friendly, earthy, communal, homely."
+    },
+    {
+      "biomeId": "treetops__treehouses",
+      "biome": "Treetops / Treehouses",
+      "category": "Forest",
+      "fantasyAccentName": "Highbranch Lilt",
+      "baseAccentInspiration": "French",
+      "mainAccentManifest": "../../main-accents/Highbranch Lilt/manifest.json",
+      "availableModelIds": [
+        "piper_fr_fr_base",
+        "kokoro_fr_reference"
+      ],
+      "defaultModelId": "piper_fr_fr_base",
+      "raceOverlayBehavior": "Elves make it especially elegant; humans sound refined; halflings make it playful.",
+      "classOverlayBehavior": "Bards sound graceful; scholars sound polished; rogues sound light and quick.",
+      "finalVoiceFeel": "Light, elevated, refined, airy."
+    }
+  ],
+  "userChoicePolicy": {
+    "mode": "choose-one-model-per-component-or-choose-primary-accent",
+    "defaultPrimaryAccent": "Reefglass Lilt",
+    "forceEnglishText": true,
+    "accentHeldBy": "selected main accent model or backend reference conditioning"
+  },
+  "weightedLayerDefaults": [
+    {
+      "biomeId": "underwater_with_reefs",
+      "fantasyAccentName": "Reefglass Lilt",
+      "enabled": true,
+      "defaultModelId": "kokoro_ja_reference",
+      "availableModelIds": [
+        "kokoro_ja_reference",
+        "kizuna_ja_voice_factory"
+      ],
+      "intensityPercent": 34,
+      "mainAccentManifest": "../../main-accents/Reefglass Lilt/manifest.json"
+    },
+    {
+      "biomeId": "farming",
+      "fantasyAccentName": "Hearthfield Brogue",
+      "enabled": true,
+      "defaultModelId": "libritts_irish_reference",
+      "availableModelIds": [
+        "libritts_irish_reference",
+        "commonaccent_irish_english",
+        "piper_en_gb_base"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Hearthfield Brogue/manifest.json"
+    },
+    {
+      "biomeId": "treetops__treehouses",
+      "fantasyAccentName": "Highbranch Lilt",
+      "enabled": true,
+      "defaultModelId": "piper_fr_fr_base",
+      "availableModelIds": [
+        "piper_fr_fr_base",
+        "kokoro_fr_reference"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Highbranch Lilt/manifest.json"
+    }
+  ],
+  "layeringRules": {
+    "crossoverBehavior": "For a three-biome cache, each component accent contributes one selectable model layer. Suggested layers start enabled and can be disabled or re-enabled by the player.",
+    "intensityBehavior": "Each enabled layer has a 0-100 intensity slider. Raw percentages are preserved, and a normalized weight is computed so enabled layers sum to 1.0 for backend mixing.",
+    "modelDuplicationRule": "Main accent folders own reusable model pointers. Crossover folders contain only manifests that reference main accent models.",
+    "example": "Irish 16%, Thai 37%, Creole 47% is represented as three enabled weightedLayer entries."
+  },
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}
