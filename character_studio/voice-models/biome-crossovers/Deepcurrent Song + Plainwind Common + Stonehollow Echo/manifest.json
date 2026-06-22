@@ -1,0 +1,156 @@
+{
+  "schema": "belavados.voice.crossoverManifest.v2",
+  "id": "biome_cache_combo_230",
+  "folderName": "Deepcurrent Song + Plainwind Common + Stonehollow Echo",
+  "folderPath": "voice-models/biome-crossovers/Deepcurrent Song + Plainwind Common + Stonehollow Echo/",
+  "cacheSlots": 3,
+  "orderMatters": false,
+  "duplicateBiomesAllowed": false,
+  "accentBlendName": "Deepcurrent Song + Plainwind Common + Stonehollow Echo",
+  "accentInspirations": [
+    "Thai",
+    "American Midwest / General North American",
+    "Welsh"
+  ],
+  "voiceFeelBlend": "Quiet, deep, rhythmic, mysterious + Broad, open, easygoing + Echoing, ancient, carved-from-stone",
+  "diversityType": "cross_category",
+  "categoryCounts": {
+    "Mountains": 1,
+    "Ocean": 1,
+    "Plains": 1
+  },
+  "modelDuplicationRule": "Do not place voice model binaries in this crossover folder. Let users choose models from the component main accent manifests.",
+  "components": [
+    {
+      "biomeId": "underwater_without_reefs",
+      "biome": "Underwater Without Reefs",
+      "category": "Ocean",
+      "fantasyAccentName": "Deepcurrent Song",
+      "baseAccentInspiration": "Thai",
+      "mainAccentManifest": "../../main-accents/Deepcurrent Song/manifest.json",
+      "availableModelIds": [
+        "pythaitts_english_text_thai_accent",
+        "khanomtan_multilingual_thai",
+        "thonburian_f5_tts_reference"
+      ],
+      "defaultModelId": "pythaitts_english_text_thai_accent",
+      "raceOverlayBehavior": "Aquatic races make it almost sung; dwarves make it denser and slower; humans keep it balanced.",
+      "classOverlayBehavior": "Rangers sound calm and practical; warriors sound clipped and blunt.",
+      "finalVoiceFeel": "Quiet, deep, rhythmic, mysterious."
+    },
+    {
+      "biomeId": "grassland",
+      "biome": "Grassland",
+      "category": "Plains",
+      "fantasyAccentName": "Plainwind Common",
+      "baseAccentInspiration": "American Midwest / General North American",
+      "mainAccentManifest": "../../main-accents/Plainwind Common/manifest.json",
+      "availableModelIds": [
+        "piper_en_us_amy",
+        "piper_en_us_ryan",
+        "voices_java_en_us"
+      ],
+      "defaultModelId": "piper_en_us_amy",
+      "raceOverlayBehavior": "Humans stay neutral; halflings make it friendly; orcs make it rougher and more direct.",
+      "classOverlayBehavior": "Merchants sound plainspoken; rangers sound natural; warriors sound terse.",
+      "finalVoiceFeel": "Broad, open, easygoing."
+    },
+    {
+      "biomeId": "deep_cavern",
+      "biome": "Deep Cavern",
+      "category": "Mountains",
+      "fantasyAccentName": "Stonehollow Echo",
+      "baseAccentInspiration": "Welsh",
+      "mainAccentManifest": "../../main-accents/Stonehollow Echo/manifest.json",
+      "availableModelIds": [
+        "piper_cy_gb_base",
+        "libritts_welsh_reference",
+        "commonaccent_welsh_english"
+      ],
+      "defaultModelId": "piper_cy_gb_base",
+      "raceOverlayBehavior": "Dwarves make it especially resonant; humans sound clear; orcs and dragonborn-style voices make it heavier and more guttural.",
+      "classOverlayBehavior": "Mages sound ancient and formal; warriors sound short and echoing; rogues sound low and secretive.",
+      "finalVoiceFeel": "Echoing, ancient, carved-from-stone."
+    }
+  ],
+  "userChoicePolicy": {
+    "mode": "choose-one-model-per-component-or-choose-primary-accent",
+    "defaultPrimaryAccent": "Deepcurrent Song",
+    "forceEnglishText": true,
+    "accentHeldBy": "selected main accent model or backend reference conditioning"
+  },
+  "weightedLayerDefaults": [
+    {
+      "biomeId": "underwater_without_reefs",
+      "fantasyAccentName": "Deepcurrent Song",
+      "enabled": true,
+      "defaultModelId": "pythaitts_english_text_thai_accent",
+      "availableModelIds": [
+        "pythaitts_english_text_thai_accent",
+        "khanomtan_multilingual_thai",
+        "thonburian_f5_tts_reference"
+      ],
+      "intensityPercent": 34,
+      "mainAccentManifest": "../../main-accents/Deepcurrent Song/manifest.json"
+    },
+    {
+      "biomeId": "grassland",
+      "fantasyAccentName": "Plainwind Common",
+      "enabled": true,
+      "defaultModelId": "piper_en_us_amy",
+      "availableModelIds": [
+        "piper_en_us_amy",
+        "piper_en_us_ryan",
+        "voices_java_en_us"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Plainwind Common/manifest.json"
+    },
+    {
+      "biomeId": "deep_cavern",
+      "fantasyAccentName": "Stonehollow Echo",
+      "enabled": true,
+      "defaultModelId": "piper_cy_gb_base",
+      "availableModelIds": [
+        "piper_cy_gb_base",
+        "libritts_welsh_reference",
+        "commonaccent_welsh_english"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Stonehollow Echo/manifest.json"
+    }
+  ],
+  "layeringRules": {
+    "crossoverBehavior": "For a three-biome cache, each component accent contributes one selectable model layer. Suggested layers start enabled and can be disabled or re-enabled by the player.",
+    "intensityBehavior": "Each enabled layer has a 0-100 intensity slider. Raw percentages are preserved, and a normalized weight is computed so enabled layers sum to 1.0 for backend mixing.",
+    "modelDuplicationRule": "Main accent folders own reusable model pointers. Crossover folders contain only manifests that reference main accent models.",
+    "example": "Irish 16%, Thai 37%, Creole 47% is represented as three enabled weightedLayer entries."
+  },
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}

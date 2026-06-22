@@ -1,0 +1,154 @@
+{
+  "schema": "belavados.voice.crossoverManifest.v2",
+  "id": "biome_cache_combo_301",
+  "folderName": "Deepcurrent Song + Sundapple Tongue + Millfield Practical",
+  "folderPath": "voice-models/biome-crossovers/Deepcurrent Song + Sundapple Tongue + Millfield Practical/",
+  "cacheSlots": 3,
+  "orderMatters": false,
+  "duplicateBiomesAllowed": false,
+  "accentBlendName": "Deepcurrent Song + Sundapple Tongue + Millfield Practical",
+  "accentInspirations": [
+    "Thai",
+    "Spanish",
+    "Dutch"
+  ],
+  "voiceFeelBlend": "Quiet, deep, rhythmic, mysterious + Flexible, social, sun-dappled, active + Practical, mixed, industrious, balanced",
+  "diversityType": "cross_category",
+  "categoryCounts": {
+    "Forest": 1,
+    "Hybrid": 1,
+    "Ocean": 1
+  },
+  "modelDuplicationRule": "Do not place voice model binaries in this crossover folder. Let users choose models from the component main accent manifests.",
+  "components": [
+    {
+      "biomeId": "underwater_without_reefs",
+      "biome": "Underwater Without Reefs",
+      "category": "Ocean",
+      "fantasyAccentName": "Deepcurrent Song",
+      "baseAccentInspiration": "Thai",
+      "mainAccentManifest": "../../main-accents/Deepcurrent Song/manifest.json",
+      "availableModelIds": [
+        "pythaitts_english_text_thai_accent",
+        "khanomtan_multilingual_thai",
+        "thonburian_f5_tts_reference"
+      ],
+      "defaultModelId": "pythaitts_english_text_thai_accent",
+      "raceOverlayBehavior": "Aquatic races make it almost sung; dwarves make it denser and slower; humans keep it balanced.",
+      "classOverlayBehavior": "Rangers sound calm and practical; warriors sound clipped and blunt.",
+      "finalVoiceFeel": "Quiet, deep, rhythmic, mysterious."
+    },
+    {
+      "biomeId": "partial_forest",
+      "biome": "Partial Forest",
+      "category": "Forest",
+      "fantasyAccentName": "Sundapple Tongue",
+      "baseAccentInspiration": "Spanish",
+      "mainAccentManifest": "../../main-accents/Sundapple Tongue/manifest.json",
+      "availableModelIds": [
+        "piper_es_es_base",
+        "piper_es_mx_base",
+        "kokoro_es_reference"
+      ],
+      "defaultModelId": "piper_es_es_base",
+      "raceOverlayBehavior": "Humans sound closest to base; halflings make it warmer; elves make it smoother.",
+      "classOverlayBehavior": "Merchants sound lively; bards sound expressive; scouts sound relaxed.",
+      "finalVoiceFeel": "Flexible, social, sun-dappled, active."
+    },
+    {
+      "biomeId": "hybrid_farming_forest_grassland",
+      "biome": "Hybrid Farming Forest Grassland",
+      "category": "Hybrid",
+      "fantasyAccentName": "Millfield Practical",
+      "baseAccentInspiration": "Dutch",
+      "mainAccentManifest": "../../main-accents/Millfield Practical/manifest.json",
+      "availableModelIds": [
+        "piper_nl_nl_base",
+        "piper_nl_be_base"
+      ],
+      "defaultModelId": "piper_nl_nl_base",
+      "raceOverlayBehavior": "Humans sound plain and practical; halflings make it friendly; orcs make it blunt and workmanlike.",
+      "classOverlayBehavior": "Merchants sound efficient; farmers sound matter-of-fact; scholars sound neat and organized.",
+      "finalVoiceFeel": "Practical, mixed, industrious, balanced."
+    }
+  ],
+  "userChoicePolicy": {
+    "mode": "choose-one-model-per-component-or-choose-primary-accent",
+    "defaultPrimaryAccent": "Deepcurrent Song",
+    "forceEnglishText": true,
+    "accentHeldBy": "selected main accent model or backend reference conditioning"
+  },
+  "weightedLayerDefaults": [
+    {
+      "biomeId": "underwater_without_reefs",
+      "fantasyAccentName": "Deepcurrent Song",
+      "enabled": true,
+      "defaultModelId": "pythaitts_english_text_thai_accent",
+      "availableModelIds": [
+        "pythaitts_english_text_thai_accent",
+        "khanomtan_multilingual_thai",
+        "thonburian_f5_tts_reference"
+      ],
+      "intensityPercent": 34,
+      "mainAccentManifest": "../../main-accents/Deepcurrent Song/manifest.json"
+    },
+    {
+      "biomeId": "partial_forest",
+      "fantasyAccentName": "Sundapple Tongue",
+      "enabled": true,
+      "defaultModelId": "piper_es_es_base",
+      "availableModelIds": [
+        "piper_es_es_base",
+        "piper_es_mx_base",
+        "kokoro_es_reference"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Sundapple Tongue/manifest.json"
+    },
+    {
+      "biomeId": "hybrid_farming_forest_grassland",
+      "fantasyAccentName": "Millfield Practical",
+      "enabled": true,
+      "defaultModelId": "piper_nl_nl_base",
+      "availableModelIds": [
+        "piper_nl_nl_base",
+        "piper_nl_be_base"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Millfield Practical/manifest.json"
+    }
+  ],
+  "layeringRules": {
+    "crossoverBehavior": "For a three-biome cache, each component accent contributes one selectable model layer. Suggested layers start enabled and can be disabled or re-enabled by the player.",
+    "intensityBehavior": "Each enabled layer has a 0-100 intensity slider. Raw percentages are preserved, and a normalized weight is computed so enabled layers sum to 1.0 for backend mixing.",
+    "modelDuplicationRule": "Main accent folders own reusable model pointers. Crossover folders contain only manifests that reference main accent models.",
+    "example": "Irish 16%, Thai 37%, Creole 47% is represented as three enabled weightedLayer entries."
+  },
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}
