@@ -1,0 +1,150 @@
+{
+  "schema": "belavados.voice.crossoverManifest.v2",
+  "id": "biome_cache_combo_679",
+  "folderName": "Brightshore Flow + Bramblewood Burr + Millfield Practical",
+  "folderPath": "voice-models/biome-crossovers/Brightshore Flow + Bramblewood Burr + Millfield Practical/",
+  "cacheSlots": 3,
+  "orderMatters": false,
+  "duplicateBiomesAllowed": false,
+  "accentBlendName": "Brightshore Flow + Bramblewood Burr + Millfield Practical",
+  "accentInspirations": [
+    "Brazilian Portuguese",
+    "English West Country",
+    "Dutch"
+  ],
+  "voiceFeelBlend": "Warm, coastal, bright, casual + Rustic, layered, grounded, woodland + Practical, mixed, industrious, balanced",
+  "diversityType": "single_category",
+  "categoryCounts": {
+    "Hybrid": 3
+  },
+  "modelDuplicationRule": "Do not place voice model binaries in this crossover folder. Let users choose models from the component main accent manifests.",
+  "components": [
+    {
+      "biomeId": "beach_and_grass_with_water",
+      "biome": "Beach and Grass With Water",
+      "category": "Hybrid",
+      "fantasyAccentName": "Brightshore Flow",
+      "baseAccentInspiration": "Brazilian Portuguese",
+      "mainAccentManifest": "../../main-accents/Brightshore Flow/manifest.json",
+      "availableModelIds": [
+        "piper_pt_br_cadu",
+        "piper_pt_br_edresson",
+        "kokoro_pt_br_reference"
+      ],
+      "defaultModelId": "piper_pt_br_cadu",
+      "raceOverlayBehavior": "Humans sound natural; elves sound breezy; aquatic races make it very soft and fluid.",
+      "classOverlayBehavior": "Merchants sound relaxed; bards sound sunlit and melodic; warriors sound brisk.",
+      "finalVoiceFeel": "Warm, coastal, bright, casual."
+    },
+    {
+      "biomeId": "hybrid_tree_and_forest_floor",
+      "biome": "Hybrid Tree and Forest Floor",
+      "category": "Hybrid",
+      "fantasyAccentName": "Bramblewood Burr",
+      "baseAccentInspiration": "English West Country",
+      "mainAccentManifest": "../../main-accents/Bramblewood Burr/manifest.json",
+      "availableModelIds": [
+        "west_country_reference_overlay",
+        "piper_en_gb_rustic_overlay"
+      ],
+      "defaultModelId": "west_country_reference_overlay",
+      "raceOverlayBehavior": "Elves smooth it out; dwarves make it rustic; beastfolk make it earthy and lively.",
+      "classOverlayBehavior": "Rangers sound very natural; artisans sound local; warriors sound sturdy.",
+      "finalVoiceFeel": "Rustic, layered, grounded, woodland."
+    },
+    {
+      "biomeId": "hybrid_farming_forest_grassland",
+      "biome": "Hybrid Farming Forest Grassland",
+      "category": "Hybrid",
+      "fantasyAccentName": "Millfield Practical",
+      "baseAccentInspiration": "Dutch",
+      "mainAccentManifest": "../../main-accents/Millfield Practical/manifest.json",
+      "availableModelIds": [
+        "piper_nl_nl_base",
+        "piper_nl_be_base"
+      ],
+      "defaultModelId": "piper_nl_nl_base",
+      "raceOverlayBehavior": "Humans sound plain and practical; halflings make it friendly; orcs make it blunt and workmanlike.",
+      "classOverlayBehavior": "Merchants sound efficient; farmers sound matter-of-fact; scholars sound neat and organized.",
+      "finalVoiceFeel": "Practical, mixed, industrious, balanced."
+    }
+  ],
+  "userChoicePolicy": {
+    "mode": "choose-one-model-per-component-or-choose-primary-accent",
+    "defaultPrimaryAccent": "Brightshore Flow",
+    "forceEnglishText": true,
+    "accentHeldBy": "selected main accent model or backend reference conditioning"
+  },
+  "weightedLayerDefaults": [
+    {
+      "biomeId": "beach_and_grass_with_water",
+      "fantasyAccentName": "Brightshore Flow",
+      "enabled": true,
+      "defaultModelId": "piper_pt_br_cadu",
+      "availableModelIds": [
+        "piper_pt_br_cadu",
+        "piper_pt_br_edresson",
+        "kokoro_pt_br_reference"
+      ],
+      "intensityPercent": 34,
+      "mainAccentManifest": "../../main-accents/Brightshore Flow/manifest.json"
+    },
+    {
+      "biomeId": "hybrid_tree_and_forest_floor",
+      "fantasyAccentName": "Bramblewood Burr",
+      "enabled": true,
+      "defaultModelId": "west_country_reference_overlay",
+      "availableModelIds": [
+        "west_country_reference_overlay",
+        "piper_en_gb_rustic_overlay"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Bramblewood Burr/manifest.json"
+    },
+    {
+      "biomeId": "hybrid_farming_forest_grassland",
+      "fantasyAccentName": "Millfield Practical",
+      "enabled": true,
+      "defaultModelId": "piper_nl_nl_base",
+      "availableModelIds": [
+        "piper_nl_nl_base",
+        "piper_nl_be_base"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Millfield Practical/manifest.json"
+    }
+  ],
+  "layeringRules": {
+    "crossoverBehavior": "For a three-biome cache, each component accent contributes one selectable model layer. Suggested layers start enabled and can be disabled or re-enabled by the player.",
+    "intensityBehavior": "Each enabled layer has a 0-100 intensity slider. Raw percentages are preserved, and a normalized weight is computed so enabled layers sum to 1.0 for backend mixing.",
+    "modelDuplicationRule": "Main accent folders own reusable model pointers. Crossover folders contain only manifests that reference main accent models.",
+    "example": "Irish 16%, Thai 37%, Creole 47% is represented as three enabled weightedLayer entries."
+  },
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}

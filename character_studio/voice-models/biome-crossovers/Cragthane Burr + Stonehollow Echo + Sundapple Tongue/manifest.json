@@ -1,0 +1,155 @@
+{
+  "schema": "belavados.voice.crossoverManifest.v2",
+  "id": "biome_cache_combo_526",
+  "folderName": "Cragthane Burr + Stonehollow Echo + Sundapple Tongue",
+  "folderPath": "voice-models/biome-crossovers/Cragthane Burr + Stonehollow Echo + Sundapple Tongue/",
+  "cacheSlots": 3,
+  "orderMatters": false,
+  "duplicateBiomesAllowed": false,
+  "accentBlendName": "Cragthane Burr + Stonehollow Echo + Sundapple Tongue",
+  "accentInspirations": [
+    "Scottish",
+    "Welsh",
+    "Spanish"
+  ],
+  "voiceFeelBlend": "Tough, crisp, resilient + Echoing, ancient, carved-from-stone + Flexible, social, sun-dappled, active",
+  "diversityType": "mixed_category",
+  "categoryCounts": {
+    "Forest": 1,
+    "Mountains": 2
+  },
+  "modelDuplicationRule": "Do not place voice model binaries in this crossover folder. Let users choose models from the component main accent manifests.",
+  "components": [
+    {
+      "biomeId": "mountain_range",
+      "biome": "Mountain Range",
+      "category": "Mountains",
+      "fantasyAccentName": "Cragthane Burr",
+      "baseAccentInspiration": "Scottish",
+      "mainAccentManifest": "../../main-accents/Cragthane Burr/manifest.json",
+      "availableModelIds": [
+        "libritts_scottish_reference",
+        "commonaccent_scottish_english",
+        "voices_java_en_gb_alan"
+      ],
+      "defaultModelId": "libritts_scottish_reference",
+      "raceOverlayBehavior": "Dwarves fit this best and sound very natural; humans sound clean; orcs sound harsh and mountainous.",
+      "classOverlayBehavior": "Warriors sound rugged; scouts sound clipped; scholars sound surprisingly sharp.",
+      "finalVoiceFeel": "Tough, crisp, resilient."
+    },
+    {
+      "biomeId": "deep_cavern",
+      "biome": "Deep Cavern",
+      "category": "Mountains",
+      "fantasyAccentName": "Stonehollow Echo",
+      "baseAccentInspiration": "Welsh",
+      "mainAccentManifest": "../../main-accents/Stonehollow Echo/manifest.json",
+      "availableModelIds": [
+        "piper_cy_gb_base",
+        "libritts_welsh_reference",
+        "commonaccent_welsh_english"
+      ],
+      "defaultModelId": "piper_cy_gb_base",
+      "raceOverlayBehavior": "Dwarves make it especially resonant; humans sound clear; orcs and dragonborn-style voices make it heavier and more guttural.",
+      "classOverlayBehavior": "Mages sound ancient and formal; warriors sound short and echoing; rogues sound low and secretive.",
+      "finalVoiceFeel": "Echoing, ancient, carved-from-stone."
+    },
+    {
+      "biomeId": "partial_forest",
+      "biome": "Partial Forest",
+      "category": "Forest",
+      "fantasyAccentName": "Sundapple Tongue",
+      "baseAccentInspiration": "Spanish",
+      "mainAccentManifest": "../../main-accents/Sundapple Tongue/manifest.json",
+      "availableModelIds": [
+        "piper_es_es_base",
+        "piper_es_mx_base",
+        "kokoro_es_reference"
+      ],
+      "defaultModelId": "piper_es_es_base",
+      "raceOverlayBehavior": "Humans sound closest to base; halflings make it warmer; elves make it smoother.",
+      "classOverlayBehavior": "Merchants sound lively; bards sound expressive; scouts sound relaxed.",
+      "finalVoiceFeel": "Flexible, social, sun-dappled, active."
+    }
+  ],
+  "userChoicePolicy": {
+    "mode": "choose-one-model-per-component-or-choose-primary-accent",
+    "defaultPrimaryAccent": "Cragthane Burr",
+    "forceEnglishText": true,
+    "accentHeldBy": "selected main accent model or backend reference conditioning"
+  },
+  "weightedLayerDefaults": [
+    {
+      "biomeId": "mountain_range",
+      "fantasyAccentName": "Cragthane Burr",
+      "enabled": true,
+      "defaultModelId": "libritts_scottish_reference",
+      "availableModelIds": [
+        "libritts_scottish_reference",
+        "commonaccent_scottish_english",
+        "voices_java_en_gb_alan"
+      ],
+      "intensityPercent": 34,
+      "mainAccentManifest": "../../main-accents/Cragthane Burr/manifest.json"
+    },
+    {
+      "biomeId": "deep_cavern",
+      "fantasyAccentName": "Stonehollow Echo",
+      "enabled": true,
+      "defaultModelId": "piper_cy_gb_base",
+      "availableModelIds": [
+        "piper_cy_gb_base",
+        "libritts_welsh_reference",
+        "commonaccent_welsh_english"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Stonehollow Echo/manifest.json"
+    },
+    {
+      "biomeId": "partial_forest",
+      "fantasyAccentName": "Sundapple Tongue",
+      "enabled": true,
+      "defaultModelId": "piper_es_es_base",
+      "availableModelIds": [
+        "piper_es_es_base",
+        "piper_es_mx_base",
+        "kokoro_es_reference"
+      ],
+      "intensityPercent": 33,
+      "mainAccentManifest": "../../main-accents/Sundapple Tongue/manifest.json"
+    }
+  ],
+  "layeringRules": {
+    "crossoverBehavior": "For a three-biome cache, each component accent contributes one selectable model layer. Suggested layers start enabled and can be disabled or re-enabled by the player.",
+    "intensityBehavior": "Each enabled layer has a 0-100 intensity slider. Raw percentages are preserved, and a normalized weight is computed so enabled layers sum to 1.0 for backend mixing.",
+    "modelDuplicationRule": "Main accent folders own reusable model pointers. Crossover folders contain only manifests that reference main accent models.",
+    "example": "Irish 16%, Thai 37%, Creole 47% is represented as three enabled weightedLayer entries."
+  },
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}
