@@ -45,3 +45,15 @@ The runtime is intentionally small enough to open from a normal Windows folder. 
 - Not copied wholesale: the separate Forge application shell, weapon-management UI, large source_specs docs, and independent renderer stack were not merged into the studio runtime to avoid duplication.
 - New code location: `js/app.js` contains the `ichor` layer renderer, preset controls, brush conversion, and standalone export runtime support.
 - New documentation: `docs/ICHOR_CONVERTER_IMPLEMENTATION.md` and `docs/ICHOR_CONVERTER_TEST_REPORT.md`.
+
+
+## 2026-06-22 Mobile-first repository merge
+
+Merged `ImageEditorMobileApp-main.zip` as reference/audit material and implemented browser-native mobile equivalents: portrait-first layout, dropdown tool panels, safe touch drawing toggle, pinch zoom, landscape handling, and PWA manifest updates. SwiftUI source is preserved under `docs/mobile_reference/`; no native iOS code is executed in the static web runtime.
+
+
+## Addendum: restored lightning and image editing repositories
+
+The following repositories were re-audited for behavior restoration: Paintbrush, mspaint-rewritten, Paint3D, Javascript-Lightning-Effect, Lightning2D, shockingly-good 2D lightning, Godot 2D Lightning, Unity3d ChainLightning, SpriteKit Lightning variants, Objective-C Lightning, simple geometry editor, and shapefile creator.
+
+Only portable browser-side behavior was folded into `js/app.js`; native, Unity, Godot, Swift, Objective-C, Qt/QML, Delphi, and Java implementation files are preserved as docs/legacy references and audit notes. See `LEGACY_SOURCE_MANIFEST.md` for per-source treatment.
