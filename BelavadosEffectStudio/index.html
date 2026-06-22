@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#00ffff" />
+  <meta name="description" content="Belavadös Effect Layer Studio with Apps Script backend launcher and responsive PWA install support." />
+  <title>Belavadös Effect Layer Studio</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
+  <link rel="apple-touch-icon" href="icons/icon-192.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>
+    window.BELAVADOS_BACKEND_CONFIG = {
+      appName: 'Belavadös Effect Layer Studio',
+      githubUrl: 'https://tyrannosaurusdm92.github.io/BelavadosProjects/BelavadosEffectStudio',
+      appsScriptUrl: 'https://script.google.com/macros/s/AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs/exec',
+      deploymentId: 'AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs',
+      projectKey: 'belavados-effect-layer-studio-cloud-project',
+      autosaveKey: 'belavados-effect-layer-studio-autosave-v1',
+      version: '2026-06-22-backend-embedded'
+    };
+  </script>
+</head>
+<body>
+<div class="template-shell">
+  <header class="topbar" id="top">
+    <div class="site-mark" aria-hidden="true">✦</div>
+    <div class="site-title">
+      <h1>Belavadös Effect Layer Studio</h1>
+      <p>Image cleanup · zoomable paint box · separate animated effect layers · interactive HTML export</p>
+    </div>
+    <div class="read-only-badge">Backend Ready</div>
+  </header>
+
+  <nav class="nav-row" aria-label="In-site navigation">
+    <a class="button" href="#image-box">Image Box</a>
+    <a class="button dark" href="#brush-box">Brush Effects</a>
+    <a class="button" href="#shape-box">Shapes + Links</a>
+    <a class="button" href="#ichor-box">Ichor Converter</a>
+    <a class="button" href="#transparency-box">Transparency</a>
+    <a class="button dark" href="#layers-box">Layers</a>
+    <a class="button" href="#export-box">Export</a>
+    <a class="button dark" href="#backend-box">Backend</a>
+  </nav>
+
+  <main class="template-grid editor-grid">
+    <aside class="left-column" aria-label="Tools column">
+      <section class="window" id="files-box">
+        <div class="window-header">Files</div>
+        <div class="window-body">
+          <label class="file-drop" for="fileInput">
+            <span>Upload Image / Project</span>
+            <small>PNG, JPG, SVG, GIF, JSON, belfx</small>
+          </label>
+          <input id="fileInput" type="file" accept="image/*,.json,.belfx,application/json" />
+          <div class="button-row compact-buttons">
+            <button id="newCanvasBtn">New Transparent</button>
+            <button id="fitImageBtn">Fit View</button>
+            <button id="resetViewBtn">Reset View</button>
+          </div>
+          <div class="button-row compact-buttons backend-quick-actions">
+            <button id="backendOpenLauncherBtn" type="button">Open App Icon</button>
+            <button id="backendInstallBtn" type="button">Install</button>
+          </div>
+          <div class="label-list small-inputs">
+            <label class="label-row"><b>Width</b><input id="canvasW" type="number" min="64" max="8192" value="1280" /></label>
+            <label class="label-row"><b>Height</b><input id="canvasH" type="number" min="64" max="8192" value="720" /></label>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="tools-box">
+        <div class="window-header alt">Tools</div>
+        <div class="window-body">
+          <div class="tool-grid" id="toolGrid" role="toolbar" aria-label="Main tools">
+            <button data-tool="brush" class="active">Stroke Brush</button>
+            <button data-tool="eraser">Layer Eraser</button>
+            <button data-tool="repair">Repair Brush</button>
+            <button data-tool="fill">Fill Tool</button>
+            <button data-tool="shape">Shape / Link</button>
+            <button data-tool="selectzoom">Drag Zoom Box</button>
+            <button data-tool="pan">Pan Drag</button>
+            <button data-tool="eyedropper">Match Color</button>
+            <button data-tool="transparent">Pick Transparency</button>
+          </div>
+          <div class="button-row compact-buttons editor-actions">
+            <button id="undoBtn">Undo</button>
+            <button id="redoBtn">Redo</button>
+            <button id="quickSaveBrowserBtn">Save Browser</button>
+          </div>
+          <p class="hint">Use the mouse wheel over the image box to zoom. Drag a box with “Drag Zoom Box,” then press Zoom To Box.</p>
+          <div class="button-row compact-buttons">
+            <button id="zoomToBoxBtn">Zoom To Box</button>
+            <button id="zoomOutBtn">− Zoom</button>
+            <button id="zoomInBtn">+ Zoom</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="brush-box">
+        <div class="window-header">Brush + Effect Creator</div>
+        <div class="window-body control-stack">
+          <label>Effect Type
+            <select id="effectType">
+              <option value="electric">Thunder / Electric</option>
+              <option value="ichor">Ichor Discharge / Fluid Lightning</option>
+              <option value="pulse">Pulsing Stroke</option>
+              <option value="blink">Blinking Lights</option>
+              <option value="wave">Wave Stroke</option>
+              <option value="hover">Hover Drift</option>
+              <option value="shimmer">Shimmer</option>
+              <option value="motes">Dust / Ichor Motes</option>
+              <option value="vectors">Vectors / Arrows</option>
+              <option value="paint">Plain Paint</option>
+              <option value="shape">Shape Layer</option>
+            </select>
+          </label>
+          <label>Brush Style
+            <select id="brushKind">
+              <option value="regular">Regular Paint</option>
+              <option value="pencil">Pencil</option>
+              <option value="marker">Marker</option>
+              <option value="crayon">Crayon</option>
+              <option value="spraypaint">Spraypaint</option>
+              <option value="charcoal">Charcoal</option>
+            </select>
+          </label>
+          <div class="color-hex-row">
+            <label>Color Wheel <input id="brushColor" type="color" value="#00ffff" /></label>
+            <label>Hexcode <input id="brushHex" type="text" value="#00ffff" spellcheck="false" maxlength="9" /></label>
+          </div>
+          <label>Brush Size <input id="brushSize" type="range" min="1" max="220" value="28" /></label>
+          <label>Brush Alpha / Transparency <input id="brushAlpha" type="range" min="0.01" max="1" step="0.01" value="0.95" /></label>
+          <label>Angle <input id="brushAngle" type="range" min="0" max="360" value="0" /></label>
+          <div class="button-row compact-buttons">
+            <button id="addLayerBtn">Add Layer</button>
+            <button id="clearLayerBtn">Clear Layer</button>
+            <button id="duplicateLayerBtn">Duplicate Layer</button>
+            <button id="ichorConvertBtn" class="ichor-action">Ichor Convert</button>
+          </div>
+          <p class="hint">For ichor: draw rough guide strokes first, then press <b>Ichor Convert</b>. The converter turns the stroke path into active liquid-electric current, not a cutout mask.</p>
+        </div>
+      </section>
+
+      <section class="window" id="shape-box">
+        <div class="window-header">Shapes + Clickable Links</div>
+        <div class="window-body control-stack">
+          <p class="hint">Choose the Shape / Link tool, pick a shape, then click the canvas. If a shape is selected, these settings update it live. Links become clickable in the interactive HTML export.</p>
+          <label>Shape Library
+            <select id="shapeType">
+              <option value="circle">Circle</option>
+              <option value="ellipse">Ellipse</option>
+              <option value="square">Square</option>
+              <option value="rectangle">Rectangle</option>
+              <option value="triangle">Triangle</option>
+              <option value="diamond">Diamond</option>
+              <option value="pentagon">Pentagon</option>
+              <option value="hexagon">Hexagon</option>
+              <option value="octagon">Octagon</option>
+              <option value="polygon">Custom Polygon</option>
+              <option value="star">Star</option>
+              <option value="gear">Gear</option>
+              <option value="heart">Heart</option>
+              <option value="arrow">Arrow</option>
+              <option value="thought">Thought Box</option>
+              <option value="shout">Shout Box</option>
+              <option value="cube">Cube / 3D Box</option>
+              <option value="sphere">Sphere</option>
+              <option value="cylinder">Cylinder</option>
+              <option value="cone">Cone</option>
+              <option value="pyramid">Pyramid</option>
+              <option value="moonFull">Full Moon</option>
+              <option value="moonCrescent">Crescent Moon</option>
+              <option value="planet">Ringed Planet</option>
+              <option value="cloud">Cloud</option>
+              <option value="plant">Plant</option>
+              <option value="tree">Tree</option>
+              <option value="leaf">Leaf</option>
+              <option value="flower">Flower</option>
+            </select>
+          </label>
+          <div class="shape-mini-grid">
+            <label>Width <input id="shapeWidth" type="range" min="8" max="900" value="160" /></label>
+            <label>Height <input id="shapeHeight" type="range" min="8" max="900" value="110" /></label>
+            <label>Rotation <input id="shapeRotation" type="range" min="0" max="360" value="0" /></label>
+            <label>Sides <input id="shapeSides" type="range" min="3" max="16" step="1" value="6" /></label>
+            <label>Shape Alpha <input id="shapeAlpha" type="range" min="0.01" max="1" step="0.01" value="0.85" /></label>
+            <label>Border Width <input id="shapeBorderWidth" type="range" min="0" max="60" value="4" /></label>
+          </div>
+          <div class="color-hex-row">
+            <label>Fill <input id="shapeFill" type="color" value="#00ffff" /></label>
+            <label>Border <input id="shapeBorder" type="color" value="#e8ffff" /></label>
+          </div>
+          <label>Clickable Link URL <input id="shapeLink" type="url" placeholder="https://example.com" /></label>
+          <div class="button-row compact-buttons">
+            <button id="addShapeBtn">Add Shape Center</button>
+            <button id="deleteShapeBtn" class="danger">Delete Selected Shape</button>
+          </div>
+          <p class="hint" id="shapeStatus">No shape selected.</p>
+        </div>
+      </section>
+
+      <section class="window" id="ichor-box">
+        <div class="window-header alt">Ichor Converter</div>
+        <div class="window-body control-stack">
+          <p class="hint">No battery core is drawn here. This only creates the external discharge currents that you layer over existing weapons or skyships.</p>
+          <button id="ichorConvertBtn2" class="ichor-action">Ichor Convert Selected Layer</button>
+          <div id="ichorSettingsPanel" class="ichor-settings-panel is-closed">
+            <label>Thundercoil / Skyship Preset
+              <select id="ichorPreset"></select>
+            </label>
+            <div class="ichor-mini-grid">
+              <label>Velocity <input id="ichorVelocity" type="range" min="0.05" max="5" step="0.01" value="1.15" /></label>
+              <label>Power <input id="ichorPower" type="range" min="0.05" max="4" step="0.01" value="1.25" /></label>
+              <label>Thrust / Flow <input id="ichorThrust" type="range" min="0" max="4" step="0.01" value="1" /></label>
+              <label>Dust Motes <input id="ichorDust" type="range" min="0" max="260" step="1" value="80" /></label>
+              <label>Lighting / Glow <input id="ichorLighting" type="range" min="0" max="5" step="0.01" value="1.75" /></label>
+              <label>Escape Arcs <input id="ichorEscape" type="range" min="0" max="3" step="0.01" value="1.05" /></label>
+              <label>Fluidity <input id="ichorFluidity" type="range" min="0" max="3" step="0.01" value="1.35" /></label>
+              <label>Pressure Spread <input id="ichorPressure" type="range" min="0" max="3" step="0.01" value="1" /></label>
+            </div>
+            <p class="hint" id="ichorPresetNote">Preset math will appear here after conversion.</p>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <section class="center-column" aria-label="Center image workspace">
+      <section class="window image-window" id="image-box">
+        <div class="window-header alt">
+          <span>Image Placement Box</span>
+          <span class="status-line" id="statusText">Ready.</span>
+        </div>
+        <div class="window-body compact image-body">
+          <div class="workspace-toolbar-mini">
+            <label>Zoom <input id="zoomRange" type="range" min="0.05" max="8" step="0.01" value="1" /></label>
+            <span id="zoomReadout">100%</span>
+            <span class="hint inline">Wheel zoom · space/middle drag pans · sliders update live</span>
+          </div>
+          <div id="viewport" class="viewport" tabindex="0" aria-label="Zoomable image workspace">
+            <div id="brushCursor" class="brush-cursor" aria-hidden="true"><span></span><i></i><b></b></div>
+            <div id="stage" class="stage checkerboard">
+              <canvas id="baseCanvas" width="1280" height="720"></canvas>
+              <div id="layerHost" class="layer-host"></div>
+              <canvas id="overlayCanvas" width="1280" height="720"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="effects-box">
+        <div class="window-header">Live Effect Sliders</div>
+        <div class="window-body slider-grid">
+          <label>Intensity <input id="intensity" type="range" min="0" max="3" step="0.01" value="1.2" /></label>
+          <label>Transparency <input id="transparency" type="range" min="0" max="1" step="0.01" value="1" /></label>
+          <label>Speed <input id="speed" type="range" min="0" max="5" step="0.01" value="1" /></label>
+          <label>Blur / Softening <input id="blur" type="range" min="0" max="40" step="0.1" value="4" /></label>
+          <label>Sharpness <input id="sharpness" type="range" min="0" max="3" step="0.01" value="1" /></label>
+          <label>Wave / Hover Size <input id="waveAmp" type="range" min="0" max="160" step="1" value="28" /></label>
+          <label>Mote Count <input id="moteCount" type="range" min="0" max="220" step="1" value="60" /></label>
+          <label>Vector Length <input id="vectorLength" type="range" min="0" max="180" step="1" value="44" /></label>
+        </div>
+      </section>
+    </section>
+
+    <aside class="right-column" aria-label="Inspector column">
+      <section class="window" id="layers-box">
+        <div class="window-header">Separate Layers</div>
+        <div class="window-body">
+          <div id="layerList" class="layer-list"></div>
+          <div class="button-row compact-buttons">
+            <button id="moveLayerUpBtn">Move Up</button>
+            <button id="moveLayerDownBtn">Move Down</button>
+            <button id="deleteLayerBtn" class="danger">Delete Layer</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="transparency-box">
+        <div class="window-header alt">Transparency Creator</div>
+        <div class="window-body control-stack">
+          <p class="hint">Choose “Pick Transparency,” click the reachable color region, then adjust tolerance live. The transparency remover now flood-fills only connected areas reachable from that click, so it does not cut through unrelated parts of the image. Use Repair Brush to paint removed pixels back from the preserved original image.</p>
+          <div class="picked-color-row"><span id="pickedColorChip"></span><code id="pickedColorText">none picked</code></div>
+          <label>Tolerance 1%–100% <input id="tolerance" type="range" min="1" max="100" step="1" value="18" /></label>
+          <label>Soft Edge <input id="edgeSoftness" type="range" min="0" max="40" step="1" value="8" /></label>
+          <label>Removal Strength <input id="removeStrength" type="range" min="0" max="1" step="0.01" value="1" /></label>
+          <label class="check-row"><input type="checkbox" id="previewTransparency" checked /> live preview mask</label>
+          <div class="button-row compact-buttons">
+            <button id="applyTransparencyBtn">Apply Transparency</button>
+            <button id="repairSourceBtn">Refresh Repair Source</button>
+            <button id="trimTransparentBtn">Trim Empty Edges</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="export-box">
+        <div class="window-header">Export</div>
+        <div class="window-body">
+          <div class="button-row compact-buttons">
+            <button id="exportHtmlBtn">Interactive HTML</button>
+            <button id="exportPngBtn">PNG Frame</button>
+            <button id="exportProjectBtn">Project JSON</button>
+            <button id="saveBrowserBtn">Save Browser</button>
+            <button id="loadBrowserBtn">Load Browser</button>
+            <button id="clearBrowserBtn">Clear Save</button>
+          </div>
+          <p class="hint">HTML export embeds the uploaded image and animated layers, so the effects keep moving after export.</p>
+        </div>
+      </section>
+
+      <section class="window backend-window" id="backend-box">
+        <div class="window-header alt">
+          <span>Apps Script Backend / App Icon</span>
+          <span class="backend-pill" id="backendStatePill">Ready</span>
+        </div>
+        <div class="window-body control-stack">
+          <p class="hint">Connected deployment: <code id="backendDeploymentId">AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs</code></p>
+          <div class="backend-url-box"><code id="backendUrlText">https://script.google.com/macros/s/AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs/exec</code></div>
+          <div class="button-row compact-buttons">
+            <button id="backendPingBtn" type="button">Test Backend</button>
+            <button id="backendOpenLauncherBtn2" type="button">Open Launcher</button>
+            <button id="backendInstallBtn2" type="button">Install Icon</button>
+          </div>
+          <div class="button-row compact-buttons">
+            <button id="backendSaveBtn" type="button">Save Cloud Copy</button>
+            <button id="backendLoadBtn" type="button">Load Cloud Copy</button>
+            <button id="backendCopyUrlBtn" type="button">Copy URL</button>
+          </div>
+          <label class="check-row backend-check"><input type="checkbox" id="backendAutosaveToggle" /> Save browser backup whenever cloud save is pressed</label>
+          <p class="hint" id="backendStatusText">Backend bridge loaded. Use Test Backend first, then save/load project copies.</p>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Status / Notes</div>
+        <div class="window-body">
+          <ul class="check-list">
+            <li>Each effect is stored as its own editable layer.</li>
+            <li>Sliders redraw selected layers immediately; no undo cycle needed.</li>
+            <li>Ichor Convert turns hand strokes into animated liquid lightning currents, not transparency cutouts.</li>
+            <li>No battery/core is generated inside ichor layers; source hardware stays in your base art.</li>
+            <li>Large design repos are audited in docs instead of copied whole.</li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+  </main>
+</div>
+
+<script src="js/vendor/lax.min.js"></script>
+<script src="js/vendor/Pizzicato.min.js"></script>
+<script src="js/vendor/slidr.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/backend.js"></script>
+</body>
+</html>
