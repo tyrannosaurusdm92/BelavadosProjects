@@ -1,0 +1,34 @@
+{
+  "schema": "belavados.fullScannerBuild.manifest.v1",
+  "name": "Belavados Fantasy Voice Scanner FULL Windows-Safe Build",
+  "entrypoint": "character studio.html",
+  "inputPackages": [
+    "simulated-fantasy-voices-scanner_studio-compatible.zip",
+    "Belavados_Fantasy_Voice_Simulation_JS_with_Audio_TTS.zip",
+    "Belavados_Deep_Voice_Math_24_JSON_Pack.zip"
+  ],
+  "counts": {
+    "absorbedVoicePackageFiles": 3230,
+    "audioReferences": 2566,
+    "sourceReferences": 590,
+    "deepMathFiles": 24,
+    "categories": 22,
+    "races": 156,
+    "classes": 14,
+    "genderIdentities": 14,
+    "biomeAccentCarriers": 17
+  },
+  "windowsSafety": {
+    "flattened": true,
+    "maxRelativePathLength": 22,
+    "pathPolicy": "Original deep repository paths are stored in manifests only. Files are flattened to short local scanner paths."
+  },
+  "keyFiles": [
+    "js/scanner-deep-math.js",
+    "js/scanner-assets.js",
+    "json/deep-voice-runtime-index.json",
+    "json/assets-index.json",
+    "json/audio-reference-index.json",
+    "docs/FULL_MERGE_AUDIT.md"
+  ]
+}

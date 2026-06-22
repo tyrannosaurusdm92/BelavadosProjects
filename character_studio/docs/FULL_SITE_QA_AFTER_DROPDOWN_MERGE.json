@@ -1,0 +1,51 @@
+{
+  "html": {
+    "index_bytes": 1962463,
+    "page_panels": [
+      null,
+      "page-character",
+      "page-forge",
+      "page-voice"
+    ]
+  },
+  "json": {
+    "bddSourceData": {
+      "valid": true,
+      "type": "dict",
+      "top_count": 14
+    },
+    "bddBiomeData": {
+      "valid": true,
+      "type": "dict",
+      "top_count": 5
+    },
+    "bddPronounData": {
+      "valid": true,
+      "type": "list",
+      "top_count": 30
+    },
+    "bddTitleData": {
+      "valid": true,
+      "type": "list",
+      "top_count": 155
+    },
+    "json_files_total": 89,
+    "json_files_invalid": []
+  },
+  "javascript": {
+    "js_files_total": 202,
+    "js_files_syntax_errors": []
+  },
+  "assets": {
+    "relative_refs_total": 2,
+    "relative_refs_missing": [],
+    "relative_refs_missing_count": 0
+  },
+  "dropdown_merge": {
+    "page1_builder": true,
+    "page2_builder": true,
+    "page3_builder": true,
+    "css_linked": true,
+    "js_linked": true
+  }
+}
