@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Belavados Effect Studio icon">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#e8ffff"/>
+      <stop offset="32%" stop-color="#00ffff"/>
+      <stop offset="74%" stop-color="#073846"/>
+      <stop offset="100%" stop-color="#050713"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#050713"/>
+  <rect x="22" y="22" width="468" height="468" rx="104" fill="url(#g)" stroke="#00ffff" stroke-width="12"/>
+  <path d="M97 312c83-121 126-80 187-187-17 76 21 73 131 56-67 36-94 73-72 117-78-31-118-7-246 14Z" fill="none" stroke="#e8ffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M148 360c66-91 140-83 209-21" fill="none" stroke="#ffd56e" stroke-width="18" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="177" cy="171" r="24" fill="#e8ffff" filter="url(#glow)"/>
+  <circle cx="348" cy="372" r="19" fill="#00ffff" filter="url(#glow)"/>
+</svg>

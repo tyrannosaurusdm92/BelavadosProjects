@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Generic Box Page Template - Balanced Modules</title>
+<style>
+:root{
+  /* Replace the placeholder string with a real image URL when using the template. */
+  --page-bg-image:url("<image url placeholder>");
+
+  /* Theme defaults are overwritten by the seeded randomizer below. */
+  --bg-light:#CDD7D8;
+  --bg-dark:#000305;
+  --surface-light:#EFFBFF;
+  --surface-dark:#091017;
+  --text-light:#FFFFFF;
+  --text-dark:#001E24;
+  --button-light-bg:#FFFFFF;
+  --button-dark-bg:#001E24;
+  --button-text-on-light:#001E24;
+  --button-text-on-dark:#FFFFFF;
+  --border-accent:#00FFFF;
+  --slider-accent:#00FFFF;
+  --scrollbar-accent:#5EAAAA;
+  --status-accent:#FFD56E;
+  --brand-accent:#00FFFF;
+  --shadow-strong:0 16px 42px rgba(0,0,0,.46);
+  --shadow-soft:0 10px 26px rgba(0,0,0,.34);
+  --radius-large:14px;
+  --radius-medium:10px;
+  --shell-width:1480px;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html,
+body{
+  margin:0;
+  min-height:100%;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  min-height:100vh;
+  font:15px/1.45 Georgia,"Times New Roman",serif;
+  color:var(--text-light);
+  background:var(--bg-dark) fixed center/cover no-repeat;
+  overflow-x:hidden;
+  scrollbar-color:var(--scrollbar-accent) var(--bg-dark);
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background:
+    linear-gradient(rgba(0,0,0,.38),rgba(0,0,0,.72)),
+    var(--page-bg-image),
+    var(--bg-dark);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  background:
+    radial-gradient(circle at top,rgba(255,255,255,.09),transparent 35%),
+    linear-gradient(180deg,rgba(0,0,0,.12),rgba(0,0,0,.58));
+  pointer-events:none;
+}
+
+img,
+video,
+iframe{
+  max-width:100%;
+}
+
+button,
+a{
+  font:inherit;
+}
+
+button:focus-visible,
+a:focus-visible{
+  outline:3px solid var(--slider-accent);
+  outline-offset:3px;
+}
+
+.template-shell{
+  width:min(var(--shell-width),calc(100% - 24px));
+  margin:0 auto;
+  padding:18px 0 28px;
+}
+
+.topbar{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:14px;
+  align-items:center;
+  padding:12px 14px;
+  margin-bottom:14px;
+  border:2px ridge var(--border-accent);
+  border-radius:var(--radius-large);
+  background:linear-gradient(180deg,var(--surface-dark),var(--bg-dark));
+  color:var(--text-light);
+  box-shadow:var(--shadow-strong);
+}
+
+.site-mark{
+  width:58px;
+  height:58px;
+  border-radius:var(--radius-medium);
+  border:2px solid var(--border-accent);
+  background:
+    radial-gradient(circle at 35% 35%,rgba(255,255,255,.55),transparent 24%),
+    linear-gradient(145deg,var(--brand-accent),var(--status-accent));
+}
+
+.site-title h1{
+  margin:0;
+  font-size:clamp(1.35rem,2.6vw,2.2rem);
+  line-height:1;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.site-title p{
+  margin:5px 0 0;
+  color:var(--text-light);
+  opacity:.88;
+}
+
+.read-only-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:7px 10px;
+  border-radius:999px;
+  background:var(--bg-light);
+  color:var(--text-dark);
+  border:2px solid var(--border-accent);
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  white-space:nowrap;
+}
+
+.nav-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  justify-content:flex-end;
+}
+
+.template-grid{
+  display:grid;
+  grid-template-columns:minmax(250px,.9fr) minmax(380px,1.2fr) minmax(280px,1fr);
+  gap:14px;
+  align-items:start;
+}
+
+.left-column,
+.center-column,
+.right-column{
+  min-width:0;
+}
+
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+
+.feature-grid .placeholder-card:first-child{
+  grid-column:1 / -1;
+}
+
+.check-list{
+  display:grid;
+  gap:8px;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.check-list li{
+  padding:9px 10px;
+  border-radius:var(--radius-medium);
+  border:2px solid var(--border-accent);
+  background:var(--bg-dark);
+  color:var(--text-light);
+}
+
+.module-note{
+  margin:0;
+  padding:10px;
+  border-radius:var(--radius-medium);
+  border:2px solid var(--status-accent);
+  background:var(--bg-light);
+  color:var(--text-dark);
+  font-weight:700;
+}
+
+.window{
+  border:2px ridge var(--border-accent);
+  border-radius:var(--radius-medium);
+  overflow:hidden;
+  background:var(--surface-dark);
+  color:var(--text-light);
+  box-shadow:var(--shadow-soft);
+  margin-bottom:14px;
+}
+
+.window-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:9px 11px;
+  color:var(--text-dark);
+  font-weight:900;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  background:var(--bg-light);
+  border-bottom:3px solid var(--border-accent);
+}
+
+.window-header.alt{
+  background:var(--button-light-bg);
+  color:var(--button-text-on-light);
+}
+
+.window-body{
+  padding:12px;
+  background:linear-gradient(180deg,var(--surface-dark),var(--bg-dark));
+  color:var(--text-light);
+}
+
+.window-body.compact{
+  padding:8px;
+}
+
+.window-footer{
+  padding:10px 12px;
+  border-top:2px solid var(--border-accent);
+  background:var(--surface-dark);
+  color:var(--text-light);
+}
+
+.button-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.button,
+button{
+  border:0;
+  border-radius:var(--radius-medium);
+  padding:11px 13px;
+  min-height:42px;
+  min-width:42px;
+  font-weight:900;
+  cursor:pointer;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:var(--button-light-bg);
+  color:var(--button-text-on-light);
+  box-shadow:0 10px 20px rgba(0,0,0,.24);
+  border:2px solid var(--border-accent);
+}
+
+.button.dark,
+button.dark{
+  background:var(--button-dark-bg);
+  color:var(--button-text-on-dark);
+}
+
+.button-row .button,
+.button-row button{
+  flex:1 1 120px;
+}
+
+.card-stack{
+  display:grid;
+  gap:10px;
+}
+
+.placeholder-card{
+  padding:11px;
+  border-radius:var(--radius-medium);
+  border:2px solid var(--border-accent);
+  background:var(--bg-dark);
+  color:var(--text-light);
+}
+
+.placeholder-card.light{
+  background:var(--bg-light);
+  color:var(--text-dark);
+}
+
+.placeholder-card h3,
+.placeholder-card h4,
+.placeholder-card p{
+  margin-top:0;
+}
+
+.placeholder-card p:last-child{
+  margin-bottom:0;
+}
+
+.label-list{
+  display:grid;
+  gap:8px;
+}
+
+.label-row{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:8px;
+  padding:8px;
+  border-radius:var(--radius-medium);
+  background:var(--bg-dark);
+  color:var(--text-light);
+  border:2px solid var(--border-accent);
+}
+
+.label-row b{
+  color:var(--text-light);
+  font-size:.78rem;
+  text-transform:uppercase;
+  letter-spacing:.045em;
+}
+
+.tag-cloud{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.tag{
+  display:inline-flex;
+  align-items:center;
+  padding:6px 9px;
+  border-radius:999px;
+  color:var(--text-dark);
+  background:var(--bg-light);
+  border:2px solid var(--border-accent);
+  font-weight:900;
+  font-size:.75rem;
+}
+
+.status-line{
+  color:var(--text-dark);
+  background:var(--bg-light);
+  border:2px solid var(--status-accent);
+  border-radius:999px;
+  padding:5px 9px;
+  font-size:.8rem;
+  font-weight:900;
+  white-space:nowrap;
+}
+
+.progress-lines{
+  display:grid;
+  gap:10px;
+}
+
+.progress-item{
+  display:grid;
+  gap:5px;
+}
+
+.progress-label{
+  display:flex;
+  justify-content:space-between;
+  color:var(--text-light);
+  font-size:.82rem;
+}
+
+.progress-track{
+  height:12px;
+  border-radius:999px;
+  overflow:hidden;
+  border:2px solid var(--border-accent);
+  background:var(--bg-dark);
+}
+
+.progress-fill{
+  height:100%;
+  width:50%;
+  background:linear-gradient(90deg,var(--brand-accent),var(--status-accent));
+}
+
+.notice-box{
+  background:var(--bg-light);
+  color:var(--text-dark);
+  border:2px solid var(--status-accent);
+  border-radius:var(--radius-medium);
+  padding:10px;
+  font-weight:700;
+}
+
+@media (max-width:1180px){
+  .template-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .right-column{
+    grid-column:1 / -1;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:14px;
+  }
+
+  .right-column .window{
+    margin-bottom:0;
+  }
+}
+
+@media (max-width:860px){
+  .topbar{
+    grid-template-columns:1fr;
+  }
+
+  .nav-row{
+    justify-content:stretch;
+  }
+
+  .nav-row .button{
+    flex:1 1 150px;
+  }
+
+  .template-grid,
+  .right-column,
+  .feature-grid{
+    grid-template-columns:1fr;
+  }
+
+  .label-row{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+<body>
+<div class="template-shell">
+
+  <header class="topbar" id="top">
+    <div class="site-mark" aria-hidden="true"></div>
+
+    <div class="site-title">
+      <h1>Generic Box Page Template</h1>
+      <p>Read-only multi-purpose layout for boxed content, navigation, and balanced modular sections.</p>
+    </div>
+
+    <div class="read-only-badge">Read Only</div>
+  </header>
+
+  <nav class="nav-row" aria-label="In-site navigation">
+    <a class="button" href="#in-site-page-1">In-Site Page 1</a>
+    <a class="button dark" href="#in-site-page-2">In-Site Page 2</a>
+    <a class="button" href="#in-site-page-3">In-Site Page 3</a>
+    <a class="button dark" href="#in-site-page-4">In-Site Page 4</a>
+    <a class="button" href="#in-site-page-5">In-Site Page 5</a>
+  </nav>
+
+  <main class="template-grid">
+
+    <aside class="left-column" aria-label="Left content column">
+
+      <section class="window" id="in-site-page-1">
+        <div class="window-header">Box 1</div>
+        <div class="window-body">
+          <div class="card-stack">
+            <article class="placeholder-card">
+              <h3>Content Area 1</h3>
+              <p>Generic placeholder area for text, links, lists, profile information, project notes, or any other boxed content.</p>
+            </article>
+            <article class="placeholder-card light">
+              <h3>Content Area 2</h3>
+              <p>Light surface example using the legal dark-on-light readable pairing.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Box 4</div>
+        <div class="window-body">
+          <div class="tag-cloud">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+            <span class="tag">Tag 3</span>
+            <span class="tag">Tag 4</span>
+            <span class="tag">Tag 5</span>
+            <span class="tag">Tag 6</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header">Box 9</div>
+        <div class="window-body">
+          <div class="button-row">
+            <a class="button" href="#top">Button 8</a>
+            <a class="button dark" href="#in-site-page-1">Button 9</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Box 11</div>
+        <div class="window-body">
+          <ul class="check-list">
+            <li>Small extra module for short reminders, links, or checklist items.</li>
+            <li>Added to keep the left column full after removing the media box.</li>
+            <li>Replace this with project-specific support content.</li>
+          </ul>
+        </div>
+      </section>
+
+    </aside>
+
+    <section class="center-column" aria-label="Center content column">
+
+      <section class="window" id="in-site-page-2">
+        <div class="window-header alt">Box 5</div>
+        <div class="window-body">
+          <div class="feature-grid">
+            <article class="placeholder-card">
+              <h3>Main Content Area</h3>
+              <p>Use this boxed area for a long-form description, project overview, static instructions, credits, status notes, feature details, or any other reusable content.</p>
+              <p>The old image/game/video placeholder has been removed so this center column works as a true content dashboard instead of a media viewer.</p>
+            </article>
+            <article class="placeholder-card light">
+              <h4>Feature Block 1</h4>
+              <p>Use for a highlight, quick explanation, or compact card.</p>
+            </article>
+            <article class="placeholder-card">
+              <h4>Feature Block 2</h4>
+              <p>Use for a second highlight, quick explanation, or compact card.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="in-site-page-3">
+        <div class="window-header">Box 3</div>
+        <div class="window-body">
+          <div class="progress-lines">
+            <div class="progress-item">
+              <div class="progress-label"><span>Meter 1</span><span>50%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width:50%"></div></div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-label"><span>Meter 2</span><span>75%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width:75%"></div></div>
+            </div>
+            <div class="progress-item">
+              <div class="progress-label"><span>Meter 3</span><span>25%</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width:25%"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="window" id="in-site-page-4">
+        <div class="window-header">Box 6</div>
+        <div class="window-body">
+          <div class="notice-box">This notice box demonstrates a light surface with darkest readable text and accent-only border/status use.</div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Box 12</div>
+        <div class="window-body">
+          <div class="card-stack">
+            <p class="module-note">Additional middle-column module added to replace the vertical weight of the removed media placeholder.</p>
+            <article class="placeholder-card">
+              <h3>Expanded Text Block</h3>
+              <p>Use this section for secondary instructions, page summaries, credits, status updates, or any content that needs more room than a sidebar card.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <aside class="right-column" aria-label="Right content column">
+
+      <section class="window" id="in-site-page-5">
+        <div class="window-header">Box 7</div>
+        <div class="window-body">
+          <div class="card-stack">
+            <article class="placeholder-card">
+              <h3>Side Content 1</h3>
+              <p>Generic sidebar module for highlights, reminders, summaries, mini cards, related links, or project-specific blocks.</p>
+            </article>
+            <article class="placeholder-card light">
+              <h3>Side Content 2</h3>
+              <p>Generic light-card module with legal readable contrast.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Box 2</div>
+        <div class="window-body">
+          <div class="label-list">
+            <div class="label-row"><b>Label 1</b><span>Placeholder value 1</span></div>
+            <div class="label-row"><b>Label 2</b><span>Placeholder value 2</span></div>
+            <div class="label-row"><b>Label 3</b><span>Placeholder value 3</span></div>
+            <div class="label-row"><b>Label 4</b><span>Placeholder value 4</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Box 8</div>
+        <div class="window-body">
+          <div class="label-list">
+            <div class="label-row"><b>Item 1</b><span>Placeholder item 1</span></div>
+            <div class="label-row"><b>Item 2</b><span>Placeholder item 2</span></div>
+            <div class="label-row"><b>Item 3</b><span>Placeholder item 3</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="window-header alt">Box 10</div>
+        <div class="window-body">
+          <p>Replace any placeholder text, labels, and tags directly in the HTML to reuse this template across different projects.</p>
+        </div>
+      </section>
+
+    </aside>
+
+  </main>
+</div>
+
+<script>
+const palette = {
+  brandingAccents: {
+    lightest: ["#E8FFFF", "#D6FFFA", "#C9FFF4", "#FFE6C9", "#FFF3D6"],
+    light: ["#99FFFF", "#7EFBEA", "#65E9D2", "#F7B36B", "#EFA35C"],
+    medium: ["#00FFFF", "#00D9D9", "#2FBED8", "#CA6309", "#B85A08"],
+    dark: ["#008B8B", "#007A78", "#0B6E74", "#7A3A07", "#643006"],
+    darkest: ["#003C42", "#003A3A", "#062D34", "#2A1304", "#1A0A02"]
+  },
+  buttons: {
+    lightest: ["#FFFFFF", "#ECFFFF", "#FFF1E6", "#F1FFF9", "#E9F8FF"],
+    light: ["#C8FFFF", "#BDF7F1", "#FFD0AA", "#B9F0DF", "#BDEBFF"],
+    medium: ["#00FFFF", "#CA6309", "#3D9FA0", "#2FBED8", "#4BC7B0"],
+    dark: ["#008C96", "#8B3F05", "#1F6668", "#167A8C", "#2D766A"],
+    darkest: ["#001E24", "#220E02", "#09292C", "#061F27", "#0A241F"]
+  },
+  pageOverlays: {
+    lightest: ["#D8E6E8", "#C9DAD8", "#E8D7C8", "#D5ECE8", "#E0E6F0"],
+    light: ["#8FA4A7", "#7F9997", "#A88D78", "#79AAA1", "#8AA3B8"],
+    medium: ["#44575C", "#3F5655", "#5B4030", "#36655F", "#3C5067"],
+    dark: ["#162126", "#142323", "#23170F", "#112823", "#151E2C"],
+    darkest: ["#000000", "#03070A", "#07090A", "#091017", "#0C1017"]
+  },
+  navMenus: {
+    lightest: ["#EFFBFF", "#E8FFF9", "#FFF3E8", "#F4FAF9", "#F1F1FF"],
+    light: ["#B7E9F2", "#A5E7D9", "#FFC99A", "#C7D7D4", "#C9C9E8"],
+    medium: ["#2FBED8", "#3D9FA0", "#CA6309", "#557F82", "#595E8D"],
+    dark: ["#0B4F5E", "#195154", "#753506", "#2C4144", "#272A55"],
+    darkest: ["#03161A", "#071B1C", "#240E02", "#0C1416", "#0A0B20"]
+  },
+  text: {
+    lightest: ["#FFFFFF", "#F3E9DB", "#FFF8ED", "#EFFFFF", "#F9FFFC"],
+    light: ["#D4C6B6", "#C9EDEA", "#FFD7B0", "#C8D9E8", "#DDF8EF"],
+    medium: ["#A79A8D", "#8DE0DC", "#D7AA63", "#82A9B5", "#9AB7AE"],
+    dark: ["#6E635A", "#3D9FA0", "#8A5C2B", "#456672", "#4E6C61"],
+    darkest: ["#2D2722", "#0B3F43", "#3A200B", "#162E38", "#1A3029"]
+  },
+  sliders: {
+    lightest: ["#DFFFFF", "#E4FFF8", "#FFEBD9", "#F4FFFC", "#E6F7FF"],
+    light: ["#91FFFF", "#9EF2E4", "#FFBD85", "#ADEDD6", "#A6E7FF"],
+    medium: ["#00FFFF", "#1FD1C2", "#CA6309", "#49C7A8", "#2FBED8"],
+    dark: ["#007E8A", "#0E716B", "#854006", "#267661", "#0E7083"],
+    darkest: ["#00242B", "#052C2A", "#2B1202", "#082820", "#042631"]
+  },
+  scrollbars: {
+    lightest: ["#EEF9F9", "#E5FFFA", "#FFF0DF", "#E6EEF0", "#F7F7F7"],
+    light: ["#B2D9D9", "#9FEEDD", "#F0B474", "#A6BEC5", "#BFCBD1"],
+    medium: ["#5EAAAA", "#48BAA6", "#CA6309", "#6D858E", "#87919A"],
+    dark: ["#275859", "#1F675C", "#6E3306", "#293D44", "#3E454B"],
+    darkest: ["#0A1B1D", "#071F1D", "#1F0C02", "#0A1317", "#11161B"]
+  },
+  borders: {
+    lightest: ["#D9FFFF", "#E8FFF6", "#FFE9C8", "#F6FFFF", "#F0E8FF"],
+    light: ["#9EFFFF", "#ABF5E3", "#F1C070", "#C7FFFF", "#C5B8E8"],
+    medium: ["#00FFFF", "#00BFAF", "#D7AA63", "#8DE0DC", "#7B75C9"],
+    dark: ["#00848A", "#13786D", "#8A5C2B", "#3D9FA0", "#3A3476"],
+    darkest: ["#00282B", "#062A25", "#2D1906", "#0B3032", "#161344"]
+  },
+  backgrounds: {
+    lightest: ["#CDD7D8", "#C7D8D5", "#DAC5B2", "#D0DDE2", "#D9D2E8"],
+    light: ["#7C9496", "#74918B", "#A07659", "#7692A2", "#887CA4"],
+    medium: ["#263A40", "#243D3C", "#4B2F1E", "#25384D", "#302946"],
+    dark: ["#091017", "#07090A", "#120A05", "#0B1220", "#100B18"],
+    darkest: ["#000305", "#000000", "#050201", "#020712", "#04030A"]
+  },
+  status: {
+    lightest: ["#FFF7D1", "#FFE5DA", "#E6FFFF", "#E6F5FF", "#F1E9FF"],
+    light: ["#FFD56E", "#FFA88C", "#9EFFFF", "#9ED8FF", "#CBB6FF"],
+    medium: ["#E8C76E", "#FF5A7A", "#00FFFF", "#2FBED8", "#8B5CFF"],
+    dark: ["#8A6730", "#9E1D36", "#008A91", "#0B6070", "#44269A"],
+    darkest: ["#2D1D07", "#30060E", "#002A30", "#061E26", "#160B38"]
+  }
+};
+
+const PROJECT_NAME = "Generic Box Page Template";
+
+function hashString(str) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function mulberry32(seed) {
+  return function () {
+    let t = (seed += 0x6D2B79F5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function pick(arr, rng) {
+  return arr[Math.floor(rng() * arr.length)];
+}
+
+function chooseProjectTheme(projectName) {
+  const rng = mulberry32(hashString(projectName));
+
+  return {
+    brandingAccent: pick(palette.brandingAccents.medium, rng),
+    buttonLightBg: pick(palette.buttons.lightest, rng),
+    buttonDarkBg: pick(palette.buttons.darkest, rng),
+    buttonTextOnLight: pick(palette.buttons.darkest, rng),
+    buttonTextOnDark: pick(palette.buttons.lightest, rng),
+    navTextOnLight: pick(palette.navMenus.darkest, rng),
+    navTextOnDark: pick(palette.navMenus.lightest, rng),
+    bodyTextOnLight: pick(palette.text.darkest, rng),
+    bodyTextOnDark: pick(palette.text.lightest, rng),
+    bgLight: pick(palette.backgrounds.lightest, rng),
+    bgDark: pick(palette.backgrounds.darkest, rng),
+    surfaceLight: pick(palette.pageOverlays.lightest, rng),
+    surfaceDark: pick(palette.pageOverlays.darkest, rng),
+    border: pick([].concat(palette.borders.light, palette.borders.medium, palette.borders.dark), rng),
+    slider: pick([].concat(palette.sliders.light, palette.sliders.medium, palette.sliders.dark), rng),
+    scrollbar: pick([].concat(palette.scrollbars.light, palette.scrollbars.medium, palette.scrollbars.dark), rng),
+    status: pick([].concat(palette.status.light, palette.status.medium, palette.status.dark), rng)
+  };
+}
+
+function applyTheme(projectName) {
+  const t = chooseProjectTheme(projectName);
+  const root = document.documentElement.style;
+
+  root.setProperty("--bg-light", t.bgLight);
+  root.setProperty("--bg-dark", t.bgDark);
+  root.setProperty("--surface-light", t.surfaceLight);
+  root.setProperty("--surface-dark", t.surfaceDark);
+  root.setProperty("--text-light", t.bodyTextOnDark);
+  root.setProperty("--text-dark", t.bodyTextOnLight);
+  root.setProperty("--button-light-bg", t.buttonLightBg);
+  root.setProperty("--button-dark-bg", t.buttonDarkBg);
+  root.setProperty("--button-text-on-light", t.buttonTextOnLight);
+  root.setProperty("--button-text-on-dark", t.buttonTextOnDark);
+  root.setProperty("--border-accent", t.border);
+  root.setProperty("--slider-accent", t.slider);
+  root.setProperty("--scrollbar-accent", t.scrollbar);
+  root.setProperty("--status-accent", t.status);
+  root.setProperty("--brand-accent", t.brandingAccent);
+}
+
+applyTheme(PROJECT_NAME);
+</script>
+</body>
+</html>
