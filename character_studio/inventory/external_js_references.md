@@ -1,0 +1,52 @@
+# External JavaScript references preserved
+
+The uploaded ZIP only contained `character_studio.html`, so these referenced JS files were not physically present to extract. Their `<script src="...">` references are preserved in the cleaned HTML:
+
+- `js/voice-data.js`
+- `js/voice-generator-pack.js`
+- `js/voice-generator-pack-runtime.js`
+- `js/voice-speech-pattern-pack.js`
+- `js/voice-humanization-references.js`
+- `js/voice-reference-audio-learning.js`
+- `js/voice-humanization-engine.js`
+- `js/voice-math-core.js`
+- `js/voice-core.js`
+- `js/voice-naturalness-guard.js`
+- `js/voice-math-source-filter.js`
+- `js/voice-math-stft.js`
+- `js/voice-math-mel.js`
+- `js/voice-math-lpc.js`
+- `js/voice-math-formants.js`
+- `js/voice-math-instability.js`
+- `js/voice-math-psola.js`
+- `js/voice-math-vocoder.js`
+- `js/voice-math-prosody.js`
+- `js/voice-math-accent-phoneme.js`
+- `js/voice-math-emotion-curves.js`
+- `js/voice-math-evaluation.js`
+- `js/voice-math-speaker-reference.js`
+- `js/voice-analysis.js`
+- `js/voice-biome-accents.js`
+- `js/voice-recorder.js`
+- `js/voice-emotions.js`
+- `js/voice-speech-api.js`
+- `js/voice-playback-hub.js`
+- `js/voice-vocal-model.js`
+- `js/voice-prosody-engine.js`
+- `js/voice-synthesis.js`
+- `js/voice-presets.js`
+- `js/voice-json-mapper.js`
+- `js/voice-exporter.js`
+- `js/asset-index-data.js`
+- `js/deep-voice-math-data.js`
+- `js/scanner-json-data.js`
+- `js/scanner-core.js`
+- `js/scanner-parser.js`
+- `js/scanner-voice-mapper.js`
+- `js/scanner-data-loader.js`
+- `js/scanner-deep-math.js`
+- `js/scanner-assets.js`
+- `js/scanner-preview.js`
+- `js/scanner-exporter.js`
+- `js/voice-studio-ui.js`
+- `js/scanner-studio-bridge.js`
