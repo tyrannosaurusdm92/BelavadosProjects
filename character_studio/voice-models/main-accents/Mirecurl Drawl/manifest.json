@@ -1,0 +1,122 @@
+{
+  "schema": "belavados.voice.mainAccentManifest.v2",
+  "folderName": "Mirecurl Drawl",
+  "biomeId": "marshes_and_swamps",
+  "biome": "Marshes and Swamps",
+  "category": "Forest",
+  "fantasyAccentName": "Mirecurl Drawl",
+  "baseAccentInspiration": "Louisiana Cajun / Creole-influenced English",
+  "raceOverlayBehavior": "Halflings make it friendly; beastfolk make it rhythmic; orcs make it rough and muddy.",
+  "classOverlayBehavior": "Rangers sound local and practical; clerics sound slow and steady; rogues sound secretive.",
+  "finalVoiceFeel": "Slow, earthy, wet, lived-in.",
+  "forceEnglishMode": {
+    "enabled": true,
+    "textLanguage": "en",
+    "accentReferenceLanguage": "en-US",
+    "note": "The spoken phrase is treated as English text. Accent identity comes from the chosen accent model, browser voice hint, or backend reference conditioning."
+  },
+  "modelOwnershipRule": "Canonical reusable models live only in this main accent folder. Crossover folders reference this manifest and do not duplicate models.",
+  "models": [
+    {
+      "id": "cajun_creole_reference_overlay",
+      "label": "Cajun / Creole-influenced English reference overlay slot",
+      "engine": "reference-overlay",
+      "languageHint": "en-US",
+      "textLanguage": "en",
+      "assetType": "reference-slot",
+      "repositories": [
+        "CommonAccent_IS23-main.zip",
+        "TextyMcSpeechy-main.zip",
+        "piper-recording-studio-master.zip"
+      ],
+      "status": "reference-required"
+    },
+    {
+      "id": "piper_en_us_plus_french_overlay",
+      "label": "Piper en-US base + French-influenced rhythm overlay",
+      "engine": "piper-overlay",
+      "languageHint": "en-US",
+      "textLanguage": "en",
+      "assetType": "model-plus-overlay",
+      "repositories": [
+        "voices-main.zip",
+        "kokoro-main.zip"
+      ],
+      "status": "overlay-required"
+    }
+  ],
+  "recommendedFallback": "Browser speech synthesis preview. For production, wire selected model id to a Piper/Kokoro/PyThaiTTS/Thonburian backend adapter.",
+  "repositoriesUsed": [
+    "CommonAccent_IS23-main.zip",
+    "TextyMcSpeechy-main.zip",
+    "kokoro-main.zip",
+    "piper-recording-studio-master.zip",
+    "voices-main.zip"
+  ],
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "defaultVoiceProfile": {
+    "pitch": 5.0,
+    "speed": 5.0,
+    "inflection": 5.0,
+    "stutter": 1.0,
+    "breath": 3.0,
+    "roughness": 2.0,
+    "resonance": 5.5,
+    "formality": 5.5,
+    "vowelFlow": 5.0,
+    "consonantBite": 5.0,
+    "mouthShape": 5.0,
+    "nasality": 5.0,
+    "throatDepth": 5.0,
+    "rhythm": 5.0,
+    "pauseControl": 5.0,
+    "emphasis": 5.0,
+    "warmth": 5.0,
+    "clarity": 6.0,
+    "projection": 5.0,
+    "humanVariation": 5.0,
+    "accentColor": 7.0,
+    "influenceRace": 1.0,
+    "influenceGender": 1.0,
+    "influencePersonality": 1.0,
+    "influenceBiome": 1.0,
+    "influenceBaseAudio": 0.45,
+    "emotionIntensity": 0.75
+  },
+  "layeringSupport": {
+    "canBeLayeredInCrossover": true,
+    "recommendedInitialIntensityPercent": 33,
+    "mayBeDisabledByUser": true,
+    "mayBeReEnabledByUser": true,
+    "intensityRangePercent": [
+      0,
+      100
+    ]
+  },
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}

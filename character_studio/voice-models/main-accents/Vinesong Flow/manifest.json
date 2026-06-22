@@ -1,0 +1,130 @@
+{
+  "schema": "belavados.voice.mainAccentManifest.v2",
+  "folderName": "Vinesong Flow",
+  "biomeId": "valley",
+  "biome": "Valley",
+  "category": "Mountains",
+  "fantasyAccentName": "Vinesong Flow",
+  "baseAccentInspiration": "Italian",
+  "raceOverlayBehavior": "Elves make it smooth and lyrical; halflings make it warm; beastfolk make it expressive and lively.",
+  "classOverlayBehavior": "Merchants sound polished; bards sound romantic; clerics sound calm and measured.",
+  "finalVoiceFeel": "Flowing, fertile, elegant, soft.",
+  "forceEnglishMode": {
+    "enabled": true,
+    "textLanguage": "en",
+    "accentReferenceLanguage": "it-IT",
+    "note": "The spoken phrase is treated as English text. Accent identity comes from the chosen accent model, browser voice hint, or backend reference conditioning."
+  },
+  "modelOwnershipRule": "Canonical reusable models live only in this main accent folder. Crossover folders reference this manifest and do not duplicate models.",
+  "models": [
+    {
+      "id": "piper_it_it_paola",
+      "label": "Piper Italian Paola",
+      "engine": "piper",
+      "languageHint": "it-IT",
+      "textLanguage": "en",
+      "assetType": "model-pointer",
+      "repositories": [
+        "voices-main.zip"
+      ],
+      "status": "placeholder-pointer"
+    },
+    {
+      "id": "piper_it_it_riccardo",
+      "label": "Piper Italian Riccardo",
+      "engine": "piper",
+      "languageHint": "it-IT",
+      "textLanguage": "en",
+      "assetType": "model-pointer",
+      "repositories": [
+        "voices-main.zip"
+      ],
+      "status": "placeholder-pointer"
+    },
+    {
+      "id": "kokoro_it_reference",
+      "label": "Kokoro Italian reference accent slot",
+      "engine": "kokoro",
+      "languageHint": "it-IT",
+      "textLanguage": "en",
+      "assetType": "reference-slot",
+      "repositories": [
+        "kokoro-main.zip",
+        "kokoro-onnx-main.zip"
+      ],
+      "status": "backend-required"
+    }
+  ],
+  "recommendedFallback": "Browser speech synthesis preview. For production, wire selected model id to a Piper/Kokoro/PyThaiTTS/Thonburian backend adapter.",
+  "repositoriesUsed": [
+    "kokoro-main.zip",
+    "kokoro-onnx-main.zip",
+    "voices-main.zip"
+  ],
+  "sliderSchemaPath": "../../../data/voice_slider_schema.json",
+  "defaultVoiceProfile": {
+    "pitch": 5.0,
+    "speed": 5.0,
+    "inflection": 5.0,
+    "stutter": 1.0,
+    "breath": 3.0,
+    "roughness": 2.0,
+    "resonance": 5.5,
+    "formality": 5.5,
+    "vowelFlow": 5.0,
+    "consonantBite": 5.0,
+    "mouthShape": 5.0,
+    "nasality": 5.0,
+    "throatDepth": 5.0,
+    "rhythm": 5.0,
+    "pauseControl": 5.0,
+    "emphasis": 5.0,
+    "warmth": 5.0,
+    "clarity": 6.0,
+    "projection": 5.0,
+    "humanVariation": 5.0,
+    "accentColor": 7.0,
+    "influenceRace": 1.0,
+    "influenceGender": 1.0,
+    "influencePersonality": 1.0,
+    "influenceBiome": 1.0,
+    "influenceBaseAudio": 0.45,
+    "emotionIntensity": 0.75
+  },
+  "layeringSupport": {
+    "canBeLayeredInCrossover": true,
+    "recommendedInitialIntensityPercent": 33,
+    "mayBeDisabledByUser": true,
+    "mayBeReEnabledByUser": true,
+    "intensityRangePercent": [
+      0,
+      100
+    ]
+  },
+  "audioTransportRules": {
+    "singleActiveClip": true,
+    "requiredControls": [
+      "play/resume",
+      "pause",
+      "stop",
+      "rewind_5_seconds",
+      "fast_forward_5_seconds"
+    ],
+    "browserSpeechNote": "Web Speech preview seek is approximate because speechSynthesis does not expose a waveform timeline. Real generated audio clips use normal media currentTime seeking."
+  },
+  "safetyLayer": {
+    "allowedAssetPermissionTypes": [
+      "own_voice",
+      "licensed_actor",
+      "public_domain_character_asset",
+      "synthetic_original"
+    ],
+    "defaultUnknownAssetPolicy": "blocked_until_labeled",
+    "storageSeparation": [
+      "raw_audio",
+      "abstract_parameters",
+      "safety_permission_record",
+      "generated_output"
+    ]
+  }
+}
