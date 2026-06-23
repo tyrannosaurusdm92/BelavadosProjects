@@ -87,10 +87,8 @@
     repairCanvas: null,
     lastRender: 0,
     dirty: true,
-    touchDrawingArmed: false,
-    coarsePointer: false,
     activePointers: new Map(),
-    pinchStart: null
+    pinchGesture: null
   };
 
   const storageKey = 'belavados-effect-layer-studio-v2';
@@ -539,10 +537,6 @@
   function labelForType(type) {
     const labels = {
       electric: 'Thunder',
-      chainLightning: 'Chain Lightning',
-      forkedLightning: 'Forked Lightning Tree',
-      stormMesh: 'Storm Mesh / Lattice',
-      sparkField: 'Spark Field',
       ichor: 'Ichor Discharge',
       pulse: 'Pulse',
       blink: 'Blinking Lights',
@@ -912,6 +906,84 @@
     viewport.classList.remove('panning');
   }
 
+  function rememberPointer(evt) {
+    state.activePointers.set(evt.pointerId, {
+      id: evt.pointerId,
+      pointerType: evt.pointerType,
+      clientX: evt.clientX,
+      clientY: evt.clientY
+    });
+  }
+
+  function forgetPointer(evt) {
+    state.activePointers.delete(evt.pointerId);
+    if (state.activePointers.size < 2) endPinchGesture();
+  }
+
+  function pointerPair() {
+    return Array.from(state.activePointers.values()).slice(0, 2);
+  }
+
+  function pointerDistance(a, b) {
+    return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+  }
+
+  function pointerMidpoint(a, b) {
+    return { clientX: (a.clientX + b.clientX) / 2, clientY: (a.clientY + b.clientY) / 2 };
+  }
+
+  function beginPinchGesture() {
+    const pair = pointerPair();
+    if (pair.length < 2) return;
+    if (state.drawing) endStroke();
+    endPan();
+    state.dragStart = null;
+    const mid = pointerMidpoint(pair[0], pair[1]);
+    const stageRect = stage.getBoundingClientRect();
+    state.pinchGesture = {
+      startDistance: Math.max(1, pointerDistance(pair[0], pair[1])),
+      startZoom: state.zoom,
+      canvasX: clamp((mid.clientX - stageRect.left) / state.zoom, 0, state.w),
+      canvasY: clamp((mid.clientY - stageRect.top) / state.zoom, 0, state.h)
+    };
+    viewport.classList.add('pinching');
+    if (brushCursor) brushCursor.style.display = 'none';
+  }
+
+  function updatePinchGesture() {
+    const pair = pointerPair();
+    if (!state.pinchGesture || pair.length < 2) return;
+    const mid = pointerMidpoint(pair[0], pair[1]);
+    const scale = pointerDistance(pair[0], pair[1]) / state.pinchGesture.startDistance;
+    const nextZoom = clamp(state.pinchGesture.startZoom * scale, 0.05, 8);
+    state.zoom = nextZoom;
+    updateStageSize();
+    const viewRect = viewport.getBoundingClientRect();
+    viewport.scrollLeft = state.pinchGesture.canvasX * nextZoom - (mid.clientX - viewRect.left) + 36;
+    viewport.scrollTop = state.pinchGesture.canvasY * nextZoom - (mid.clientY - viewRect.top) + 36;
+  }
+
+  function endPinchGesture() {
+    state.pinchGesture = null;
+    viewport.classList.remove('pinching');
+  }
+
+  function activateTool(tool, label = '') {
+    state.tool = tool;
+    els.toolGrid.querySelectorAll('button[data-tool]').forEach((b) => b.classList.toggle('active', b.dataset.tool === tool));
+    document.querySelectorAll('[data-mobile-tool]').forEach((b) => b.classList.toggle('active', b.dataset.mobileTool === tool));
+    overlayCtx.clearRect(0, 0, state.w, state.h);
+    setStatus(`Tool: ${label || tool}.`);
+  }
+
+  function installServiceWorker() {
+    if (!('serviceWorker' in navigator)) return;
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') return;
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js').catch((err) => console.warn('Service worker registration skipped:', err));
+    });
+  }
+
   function renderLayers(time) {
     state.layers.forEach((layer) => renderLayer(layer, time));
     state.dirty = false;
@@ -957,10 +1029,6 @@
     const color = settings.color || '#00ffff';
 
     if (type === 'electric') drawElectric(ctx, stroke.points, settings, t, seed);
-    else if (type === 'chainLightning') drawChainLightning(ctx, stroke.points, settings, t, seed);
-    else if (type === 'forkedLightning') drawForkedLightning(ctx, stroke.points, settings, t, seed);
-    else if (type === 'stormMesh') drawStormMesh(ctx, stroke.points, settings, t, seed);
-    else if (type === 'sparkField') drawSparkField(ctx, stroke.points, settings, t, seed);
     else if (type === 'ichor') drawIchor(ctx, stroke.points, settings, t, seed);
     else if (type === 'blink') drawBlinkingLights(ctx, stroke.points, settings, t, seed);
     else if (type === 'wave') drawBasicLine(ctx, wavePoints(stroke.points, settings, t), { color, width: baseWidth, alpha, shadowBlur: 12 * intensity, sharpness: settings.sharpness });
@@ -1010,18 +1078,6 @@
     } else if (kind === 'charcoal') {
       drawBasicLine(ctx, jitterPoints(points, seed, width * .22), { color, width: width * .9, alpha: alpha * .25, shadowBlur: width * .25, sharpness: 0 });
       for (let i = 0; i < 4; i++) drawBasicLine(ctx, jitterPoints(points, seed + 71 * i, width * .28), { color, width: width * (.18 + i*.05), alpha: alpha * .22, shadowBlur: 0, sharpness: 0 });
-    } else if (kind === 'airbrush') {
-      drawLegacyAirbrush(ctx, points, settings, t, seed);
-    } else if (kind === 'watercolor') {
-      drawWatercolorBrush(ctx, points, settings, t, seed);
-    } else if (kind === 'oilpaint') {
-      drawOilBrush(ctx, points, settings, t, seed);
-    } else if (kind === 'pixelink') {
-      drawPixelInk(ctx, points, settings, t, seed);
-    } else if (kind === 'calligraphy') {
-      drawCalligraphyBrush(ctx, points, settings, t, seed);
-    } else if (kind === 'neon') {
-      drawNeonPaint(ctx, points, settings, t, seed);
     } else {
       drawBasicLine(ctx, points, { color, width, alpha, shadowBlur: 8 * intensity, sharpness: settings.sharpness });
     }
@@ -1235,8 +1291,6 @@
     drawBasicLine(ctx, primary, { color: deep, width: width * (0.94 + pressure * 0.18), alpha: alpha * 0.38, shadowBlur: 12 * lighting, sharpness: 0 });
     drawBasicLine(ctx, primary, { color: core, width: width * 0.58, alpha: alpha * 0.74, shadowBlur: 18 * lighting, sharpness });
     drawBasicLine(ctx, tertiary, { color: ion, width: width * (0.11 + sharpness * 0.05), alpha: alpha * 0.96, shadowBlur: 7 * lighting, sharpness });
-    drawIchorLightningBranches(ctx, primary, settings, t, seed + 12077);
-    drawIchorLightningBranches(ctx, secondary, settings, t + 0.09, seed + 22091);
 
     const flowRepeats = 3 + Math.round(pressure * 2 + fluidity);
     for (let i = 1; i < primary.length; i++) {
@@ -1301,390 +1355,31 @@
     ctx.restore();
   }
 
-
-  /*
-   * Legacy lightning and paint ports.
-   * These routines fold in the behaviors that mattered from the uploaded source repositories:
-   * - Javascript-Lightning-Effect: segmented cast, endpoint glow, noisy segment jitter.
-   * - Lightning2D / shockingly-good Unity examples: ordered random positions, normal displacement, envelope taper, branches.
-   * - Godot 2D Lightning: timer-like point regeneration, angle variance, short organic segments.
-   * - Paintbrush / Paint3D / MS Paint style sources: airbrush scatter, hard-edge/pixel stroke, bounded fills, and deliberate zoom/touch behavior.
-   * The code below is browser-native JavaScript so it works in desktop, mobile, and exported HTML without copying native engines.
-   */
-  function samplePath(points, maxStep = 18) {
-    if (!points || points.length < 2) return points || [];
-    const out = [points[0]];
-    for (let i = 1; i < points.length; i++) {
-      const a = points[i - 1];
-      const b = points[i];
-      const dist = Math.hypot(b.x - a.x, b.y - a.y);
-      const steps = Math.max(1, Math.ceil(dist / Math.max(2, maxStep)));
-      for (let j = 1; j <= steps; j++) {
-        const u = j / steps;
-        out.push({ x: a.x + (b.x - a.x) * u, y: a.y + (b.y - a.y) * u });
-      }
-    }
-    return out;
-  }
-
-  function pointAtPath(points, u) {
-    const pts = samplePath(points, 10);
-    if (!pts.length) return { x: 0, y: 0 };
-    if (pts.length === 1) return pts[0];
-    const idx = clamp(u, 0, 1) * (pts.length - 1);
-    const i = Math.floor(idx);
-    const f = idx - i;
-    const a = pts[i];
-    const b = pts[Math.min(pts.length - 1, i + 1)];
-    return { x: a.x + (b.x - a.x) * f, y: a.y + (b.y - a.y) * f };
-  }
-
-  function rotateVector(v, radians) {
-    const c = Math.cos(radians);
-    const s = Math.sin(radians);
-    return { x: v.x * c - v.y * s, y: v.x * s + v.y * c };
-  }
-
-  function boltBetween(a, b, settings, t, seed, opts = {}) {
-    const dx = b.x - a.x;
-    const dy = b.y - a.y;
-    const length = Math.hypot(dx, dy) || 1;
-    const tangent = { x: dx / length, y: dy / length };
-    const normal = { x: -tangent.y, y: tangent.x };
-    const intensity = safeNumber(settings.intensity, 1);
-    const wave = safeNumber(settings.waveAmp, 24);
-    const latency = opts.latency || Math.max(3, Math.round(16 / Math.max(0.2, intensity)));
-    const sway = opts.sway ?? (wave * (0.55 + intensity * 0.24));
-    const count = Math.max(4, Math.min(96, Math.ceil(length / latency)));
-    const frame = Math.floor(t * (18 + safeNumber(settings.speed, 1) * 18));
-    const positions = [0, 1];
-    for (let i = 1; i < count; i++) positions.push(seededNoise(seed + i * 101 + frame * 17));
-    positions.sort((x, y) => x - y);
-    const pts = [];
-    let previousDisplacement = 0;
-    for (let i = 0; i < positions.length; i++) {
-      const pos = positions[i];
-      const prev = positions[Math.max(0, i - 1)];
-      const scale = (length / Math.max(1, sway)) * (pos - prev);
-      const envelope = Math.sin(pos * Math.PI); // taper at both endpoints, from Lightning2D envelope idea
-      let displacement = (seededNoise(seed + i * 73 + frame * 29) * 2 - 1) * sway;
-      displacement -= (displacement - previousDisplacement) * (1 - Math.min(1, scale));
-      displacement *= envelope;
-      const tinyAngleVariance = (seededNoise(seed + i * 89 + frame * 13) - 0.5) * safeNumber(settings.ichorEscape, 1) * 0.18;
-      const n = rotateVector(normal, tinyAngleVariance);
-      pts.push({ x: a.x + tangent.x * length * pos + n.x * displacement, y: a.y + tangent.y * length * pos + n.y * displacement });
-      previousDisplacement = displacement;
-    }
-    return pts;
-  }
-
-  function drawBoltPath(ctx, pts, settings, alpha, width, color, intensity, coreScale = 1) {
-    const glowColor = settings.glowColor || rgba(hexToRgb(color), 0.9);
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
-    drawBasicLine(ctx, pts, { color: glowColor, width: width * (2.3 + intensity * 0.55) * coreScale, alpha: alpha * 0.14, shadowBlur: width * (2.7 + intensity), sharpness: 0 });
-    drawBasicLine(ctx, pts, { color, width: width * (0.74 + intensity * 0.12) * coreScale, alpha: alpha * 0.67, shadowBlur: 20 * intensity, sharpness: settings.sharpness });
-    drawBasicLine(ctx, pts, { color: '#e8ffff', width: Math.max(0.7, width * 0.17 * coreScale), alpha, shadowBlur: 5 + 4 * intensity, sharpness: settings.sharpness });
-    ctx.restore();
-  }
-
-  function drawEndpointFlare(ctx, p, settings, alpha, width, color, seed) {
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
-    ctx.fillStyle = '#ffffff';
-    ctx.shadowColor = color;
-    ctx.shadowBlur = width * (3.5 + safeNumber(settings.intensity, 1));
-    ctx.globalAlpha = alpha * 0.42;
-    ctx.beginPath();
-    ctx.arc(p.x + (seededNoise(seed) - 0.5) * width * 0.45, p.y + (seededNoise(seed + 1) - 0.5) * width * 0.45, Math.max(1.2, width * 0.2), 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
-  }
-
-  function drawBranchFromPoint(ctx, root, tangent, settings, t, seed, alpha, width, color, branchScale = 1) {
-    const intensity = safeNumber(settings.intensity, 1);
-    const side = seededNoise(seed) > 0.5 ? 1 : -1;
-    const baseAngle = Math.atan2(tangent.y, tangent.x);
-    const angleVariance = (26 + seededNoise(seed + 5) * 58) * Math.PI / 180;
-    const angle = baseAngle + side * angleVariance + Math.sin(t * 7 + seed) * 0.24;
-    const len = width * branchScale * (1.3 + intensity * 1.2 + seededNoise(seed + 7) * 4.5);
-    const tip = { x: root.x + Math.cos(angle) * len, y: root.y + Math.sin(angle) * len };
-    const bolt = boltBetween(root, tip, settings, t, seed + 50, { latency: Math.max(2, Math.round(8 / Math.max(0.4, intensity))), sway: width * (0.28 + intensity * 0.22) });
-    drawBoltPath(ctx, bolt, settings, alpha * 0.72, width * 0.42, color, intensity, 0.72);
-    if (seededNoise(seed + Math.floor(t * 14)) > 0.72) {
-      const tangent2 = { x: Math.cos(angle), y: Math.sin(angle) };
-      const forkStart = bolt[Math.floor(bolt.length * (0.55 + seededNoise(seed + 2) * 0.25))] || tip;
-      drawBranchFromPoint(ctx, forkStart, tangent2, settings, t + 0.13, seed + 333, alpha * 0.58, width * 0.72, color, branchScale * 0.42);
-    }
-  }
-
-  function drawLightningRails(ctx, points, settings, t, seed, mode = 'electric') {
-    if (!points || points.length < 2) return;
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const intensity = safeNumber(settings.intensity, 1);
-    const sampled = samplePath(points, Math.max(6, 22 - intensity * 3));
-    const rails = mode === 'storm' ? 2 : 1;
-    for (let rail = 0; rail < rails; rail++) {
-      const railPts = rail ? sampled.map((p, i) => {
-        const tan = tangentAt(sampled, i);
-        const offset = Math.sin(i * 0.37 + t * 8 + seed) * width * 0.28;
-        return { x: p.x - tan.y * offset, y: p.y + tan.x * offset };
-      }) : sampled;
-      const bolt = boltBetween(railPts[0], railPts[railPts.length - 1], settings, t + rail * 0.11, seed + rail * 911, { sway: (safeNumber(settings.waveAmp, 24) + width * 0.8) * (0.48 + intensity * 0.18) });
-      // Bend generated bolt back toward the user stroke so it follows drawn guide strokes instead of only endpoint-to-endpoint.
-      const followed = bolt.map((p, i) => {
-        const guide = pointAtPath(railPts, i / Math.max(1, bolt.length - 1));
-        return { x: guide.x * 0.68 + p.x * 0.32, y: guide.y * 0.68 + p.y * 0.32 };
-      });
-      drawBoltPath(ctx, followed, settings, alpha, width, color, intensity, rail ? 0.62 : 1);
-      drawEndpointFlare(ctx, followed[0], settings, alpha, width, color, seed + rail * 5);
-      drawEndpointFlare(ctx, followed[followed.length - 1], settings, alpha, width, color, seed + rail * 7);
-      const branchCount = Math.max(1, Math.round((mode === 'forked' ? 5 : 2) * intensity));
-      for (let i = 0; i < branchCount; i++) {
-        const u = (i + 1) / (branchCount + 1);
-        const idx = Math.max(1, Math.min(followed.length - 2, Math.round(u * (followed.length - 1))));
-        const root = followed[idx];
-        const tan = tangentAt(followed, idx);
-        const gate = seededNoise(seed + i * 131 + Math.floor(t * 11));
-        if (mode === 'electric' && gate < 0.35) continue;
-        drawBranchFromPoint(ctx, root, tan, settings, t, seed + i * 613 + rail * 991, alpha, width, color, mode === 'forked' ? 1.35 : 0.74);
-      }
-    }
-  }
-
-  function drawChainLightning(ctx, points, settings, t, seed) {
-    const pts = samplePath(points, Math.max(10, safeNumber(settings.size, 20) * 0.5));
-    if (pts.length < 2) return;
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const intensity = safeNumber(settings.intensity, 1);
-    const jumps = Math.max(2, Math.round(3 + intensity * 3));
-    let previous = pts[0];
-    for (let j = 1; j <= jumps; j++) {
-      const u = j / jumps;
-      const guide = pointAtPath(pts, u);
-      const tangent = tangentAt(pts, Math.min(pts.length - 1, Math.round(u * (pts.length - 1))));
-      const side = j % 2 ? 1 : -1;
-      const hop = { x: guide.x - tangent.y * side * width * (0.35 + seededNoise(seed + j) * 0.8), y: guide.y + tangent.x * side * width * (0.35 + seededNoise(seed + j + 3) * 0.8) };
-      const bolt = boltBetween(previous, hop, settings, t + j * 0.05, seed + j * 401, { latency: Math.max(3, Math.round(12 / intensity)), sway: width * (0.65 + intensity * 0.35) });
-      drawBoltPath(ctx, bolt, settings, alpha, width * (1 - j * 0.045), color, intensity, 1);
-      drawEndpointFlare(ctx, hop, settings, alpha, width, color, seed + j * 43);
-      if (j < jumps && seededNoise(seed + j * 17 + Math.floor(t * 12)) > 0.25) drawBranchFromPoint(ctx, hop, tangent, settings, t, seed + j * 503, alpha, width, color, 0.85);
-      previous = hop;
-    }
-  }
-
-  function drawForkedLightning(ctx, points, settings, t, seed) {
-    drawLightningRails(ctx, points, settings, t, seed, 'forked');
-  }
-
-  function drawStormMesh(ctx, points, settings, t, seed) {
-    const pts = samplePath(points, Math.max(12, safeNumber(settings.size, 20) * 0.72));
-    if (pts.length < 2) return;
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const intensity = safeNumber(settings.intensity, 1);
-    drawLightningRails(ctx, pts, settings, t, seed, 'storm');
-    const nodes = Math.min(18, Math.max(4, Math.round(pts.length / 6)));
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
-    for (let i = 0; i < nodes; i++) {
-      const a = pointAtPath(pts, i / Math.max(1, nodes - 1));
-      const u = clamp(i / Math.max(1, nodes - 1) + (seededNoise(seed + i * 73) - 0.5) * 0.32, 0, 1);
-      const b = pointAtPath(pts, u);
-      const tan = tangentAt(pts, Math.round(u * (pts.length - 1)));
-      const offset = (seededNoise(seed + i * 97 + Math.floor(t * 8)) - 0.5) * width * (2.5 + intensity * 3);
-      const target = { x: b.x - tan.y * offset, y: b.y + tan.x * offset };
-      if (Math.hypot(target.x - a.x, target.y - a.y) < width * 0.8) continue;
-      const bolt = boltBetween(a, target, settings, t + i * 0.03, seed + i * 301, { latency: 6, sway: width * (0.3 + intensity * 0.22) });
-      drawBoltPath(ctx, bolt, settings, alpha * 0.45, width * 0.35, color, intensity, 0.55);
-    }
-    ctx.restore();
-  }
-
-  function drawSparkField(ctx, points, settings, t, seed) {
-    const pts = samplePath(points, Math.max(5, safeNumber(settings.size, 20) * 0.4));
-    if (!pts.length) return;
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const intensity = safeNumber(settings.intensity, 1);
-    const count = Math.min(520, Math.max(18, Math.round(safeNumber(settings.moteCount, 60) * (1.2 + intensity))));
-    const angle = safeNumber(settings.angle, 0) * Math.PI / 180;
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
-    ctx.strokeStyle = color;
-    ctx.fillStyle = '#e8ffff';
-    ctx.shadowColor = color;
-    ctx.shadowBlur = width * (0.8 + intensity * 0.55);
-    for (let i = 0; i < count; i++) {
-      const p = pts[Math.floor(seededNoise(seed + i * 19) * pts.length)] || pts[0];
-      const age = (t * (0.5 + intensity * 0.18) + seededNoise(seed + i * 31)) % 1;
-      const burst = Math.sin(age * Math.PI);
-      const theta = angle + (seededNoise(seed + i * 43) - 0.5) * Math.PI * 2;
-      const dist = burst * width * (0.35 + seededNoise(seed + i * 47) * 2.8) * (0.8 + intensity * 0.55);
-      const x = p.x + Math.cos(theta) * dist;
-      const y = p.y + Math.sin(theta) * dist;
-      const len = width * (0.28 + seededNoise(seed + i * 53) * 1.4);
-      ctx.globalAlpha = alpha * burst * (0.26 + seededNoise(seed + i * 59) * 0.45);
-      ctx.lineWidth = Math.max(0.6, width * (0.025 + seededNoise(seed + i * 61) * 0.06));
-      ctx.beginPath();
-      ctx.moveTo(x, y);
-      ctx.lineTo(x + Math.cos(theta) * len, y + Math.sin(theta) * len);
-      ctx.stroke();
-      if (seededNoise(seed + i * 67) > 0.72) {
-        ctx.beginPath();
-        ctx.arc(x, y, Math.max(0.55, width * 0.035), 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
-    ctx.restore();
-  }
-
-  function drawLegacyAirbrush(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const pts = samplePath(points, Math.max(3, width * 0.28));
-    const count = Math.min(1400, Math.round(pts.length * width * 0.22));
-    ctx.save();
-    ctx.fillStyle = color;
-    ctx.shadowColor = color;
-    ctx.shadowBlur = width * 0.35;
-    for (let i = 0; i < count; i++) {
-      const p = pts[Math.floor(seededNoise(seed + i * 11) * pts.length)] || pts[0];
-      const a = seededNoise(seed + i * 13) * Math.PI * 2;
-      const r = Math.sqrt(seededNoise(seed + i * 17)) * width * 0.78;
-      ctx.globalAlpha = alpha * (0.025 + seededNoise(seed + i * 19) * 0.11);
-      ctx.beginPath();
-      ctx.arc(p.x + Math.cos(a) * r, p.y + Math.sin(a) * r, Math.max(0.55, width * (0.006 + seededNoise(seed + i * 23) * 0.024)), 0, Math.PI * 2);
-      ctx.fill();
-    }
-    ctx.restore();
-  }
-
-  function drawWatercolorBrush(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    ctx.save();
-    ctx.globalCompositeOperation = 'source-over';
-    for (let i = 0; i < 6; i++) {
-      const pts = jitterPoints(samplePath(points, width * 0.45), seed + i * 109 + Math.floor(t * 2), width * (0.16 + i * 0.045));
-      drawBasicLine(ctx, pts, { color, width: width * (1.05 + i * 0.1), alpha: alpha * (0.055 + i * 0.018), shadowBlur: width * 0.08, sharpness: 0 });
-    }
-    ctx.restore();
-  }
-
-  function drawOilBrush(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    drawBasicLine(ctx, points, { color, width: width * 0.92, alpha: alpha * 0.72, shadowBlur: width * 0.18, sharpness: settings.sharpness });
-    for (let i = 0; i < 5; i++) {
-      const offset = (i - 2) * width * 0.105;
-      const pts = samplePath(points, width * 0.5).map((p, n) => {
-        const tan = tangentAt(points, Math.min(points.length - 1, n));
-        return { x: p.x - tan.y * offset + (seededNoise(seed + i * 61 + n) - 0.5) * width * 0.1, y: p.y + tan.x * offset + (seededNoise(seed + i * 67 + n) - 0.5) * width * 0.1 };
-      });
-      drawBasicLine(ctx, pts, { color: i % 2 ? '#e8ffff' : color, width: width * (0.07 + i * 0.015), alpha: alpha * (0.16 - i * 0.015), shadowBlur: 0, sharpness: 1 });
-    }
-  }
-
-  function drawPixelInk(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const cell = Math.max(1, Math.round(Math.max(2, width * 0.18)));
-    const pts = samplePath(points, cell * 0.9);
-    ctx.save();
-    ctx.globalAlpha = alpha;
-    ctx.fillStyle = color;
-    pts.forEach((p, i) => {
-      const jitter = seededNoise(seed + i * 7) > 0.92 ? cell : 0;
-      ctx.fillRect(Math.round((p.x + jitter) / cell) * cell - width * 0.28, Math.round((p.y - jitter) / cell) * cell - width * 0.28, Math.max(cell, width * 0.55), Math.max(cell, width * 0.55));
-    });
-    ctx.restore();
-  }
-
-  function drawCalligraphyBrush(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const angle = safeNumber(settings.angle, 0) * Math.PI / 180;
-    const pts = samplePath(points, Math.max(2, width * 0.22));
-    ctx.save();
-    ctx.globalAlpha = alpha;
-    ctx.fillStyle = color;
-    ctx.shadowColor = color;
-    ctx.shadowBlur = 6 * safeNumber(settings.intensity, 1);
-    pts.forEach((p, i) => {
-      const w = width * (0.32 + 0.12 * Math.sin(i * 0.2 + t));
-      ctx.save();
-      ctx.translate(p.x, p.y);
-      ctx.rotate(angle);
-      ctx.beginPath();
-      ctx.ellipse(0, 0, width * 0.52, w, 0, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.restore();
-    });
-    ctx.restore();
-  }
-
-  function drawNeonPaint(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
-    const width = Math.max(1, safeNumber(settings.size, 20));
-    const intensity = safeNumber(settings.intensity, 1);
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
-    drawBasicLine(ctx, points, { color, width: width * 1.6, alpha: alpha * 0.16, shadowBlur: width * 2.4 * intensity, sharpness: 0 });
-    drawBasicLine(ctx, points, { color, width: width * 0.82, alpha: alpha * 0.44, shadowBlur: width * 1.1 * intensity, sharpness: 0 });
-    drawBasicLine(ctx, points, { color: '#e8ffff', width: width * 0.18, alpha: alpha * 0.92, shadowBlur: 4 * intensity, sharpness: settings.sharpness });
-    ctx.restore();
-  }
-
-  function drawIchorLightningBranches(ctx, points, settings, t, seed) {
-    const color = settings.color || '#00ffff';
-    const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1) * 0.82;
-    const width = Math.max(1, safeNumber(settings.size, 28));
-    const intensity = safeNumber(settings.intensity, 1) * safeNumber(settings.ichorLighting, 1.75);
-    const p = samplePath(points, Math.max(6, width * 0.34));
-    if (p.length < 2) return;
-    const jittered = p.map((pt, i) => {
-      const tan = tangentAt(p, i);
-      const side = Math.sin(i * 0.47 - t * 5.8 + seed) * width * (0.05 + safeNumber(settings.ichorFluidity, 1) * 0.045);
-      return { x: pt.x - tan.y * side, y: pt.y + tan.x * side };
-    });
-    const micro = boltBetween(jittered[0], jittered[jittered.length - 1], settings, t, seed + 9041, { latency: Math.max(2, Math.round(7 / Math.max(0.45, intensity))), sway: width * (0.4 + safeNumber(settings.ichorEscape, 1) * 0.22) });
-    const followed = micro.map((pt, i) => {
-      const guide = pointAtPath(jittered, i / Math.max(1, micro.length - 1));
-      return { x: guide.x * 0.78 + pt.x * 0.22, y: guide.y * 0.78 + pt.y * 0.22 };
-    });
-    drawBoltPath(ctx, followed, settings, alpha, width * 0.34, color, intensity, 0.76);
-  }
-
   function drawElectric(ctx, points, settings, t, seed) {
-    drawLightningRails(ctx, points, settings, t, seed, 'electric');
-    // Extra animated crackle on top of the rail bolt to keep the old hand-drawn electric brush feel.
     const color = settings.color || '#00ffff';
     const alpha = safeNumber(settings.alpha, 1) * safeNumber(settings.transparency, 1);
     const width = Math.max(1, safeNumber(settings.size, 20));
     const intensity = safeNumber(settings.intensity, 1);
-    const sampled = samplePath(points, Math.max(6, width * 0.35));
-    ctx.save();
-    ctx.globalCompositeOperation = 'lighter';
-    for (let i = 2; i < sampled.length; i += Math.max(3, Math.round(9 / Math.max(0.35, intensity)))) {
-      if (seededNoise(seed + i * 41 + Math.floor(t * 21)) < 0.34) continue;
-      const p = sampled[i];
-      const tan = tangentAt(sampled, i);
-      drawBranchFromPoint(ctx, p, tan, settings, t, seed + i * 119, alpha * 0.75, width * 0.8, color, 0.58);
+    const amp = safeNumber(settings.waveAmp, 18) * 0.38 * intensity;
+    const jagged = points.map((p, i) => {
+      const n = seededNoise(seed + i * 17 + Math.floor(t * 24));
+      const n2 = seededNoise(seed + i * 31 + Math.floor(t * 19));
+      return { x: p.x + (n - 0.5) * amp, y: p.y + (n2 - 0.5) * amp };
+    });
+    drawBasicLine(ctx, jagged, { color, width: width * 0.96, alpha: alpha * 0.72, shadowBlur: 22 * intensity, sharpness: settings.sharpness });
+    drawBasicLine(ctx, jagged, { color: 'rgba(232,255,255,1)', width: width * 0.22, alpha: alpha, shadowBlur: 4, sharpness: settings.sharpness });
+    for (let i = 2; i < jagged.length; i += 8) {
+      const p = jagged[i];
+      const branchAngle = ((settings.angle || 0) + (seededNoise(seed + i) > 0.5 ? 65 : -65)) * Math.PI / 180;
+      const len = width * (0.8 + seededNoise(seed + i * 7) * 2.4) * intensity;
+      drawBasicLine(ctx, [p, { x: p.x + Math.cos(branchAngle) * len, y: p.y + Math.sin(branchAngle) * len }], {
+        color,
+        width: width * 0.18,
+        alpha: alpha * 0.55,
+        shadowBlur: 10 * intensity,
+        sharpness: settings.sharpness
+      });
     }
-    ctx.restore();
   }
 
   function drawBlinkingLights(ctx, points, settings, t, seed) {
@@ -2432,16 +2127,7 @@ function warpIchor(pts,s,t,seed,pass){const vel=Number(s.ichorVelocity||1.15),po
 function pick(list,seed){return list[Math.floor(noise(seed)*list.length)%list.length]}
 function drawIchor(ctx,pts,s,t,seed,alpha,w,inten,color){var pal={mist:['#E8FFFF','#DFFFFF','#D9FFFF','#C8FFFF','#C7FFFF'],ion:['#BDEBFF','#BDF7F1','#A6E7FF','#A6BEC5'],glow:['#9EFFFF','#9FEEDD','#9EF2E4','#91FFFF','#8DE0DC'],arc:['#7EFBEA','#65E9D2','#5EAAAA','#4BC7B0','#48BAA6','#3D9FA0'],core:['#2FBED8','#1FD1C2','#00FFFF','#00D9D9','#00BFAF'],deep:['#008C96','#008B8B','#00848A','#007E8A','#007A78','#0E716B','#0B6E74'],shadow:['#0B6070','#0B3F43','#062D34','#052C2A'],residue:['#003C42','#003A3A','#002A30','#00242B']};var vel=Number(s.ichorVelocity||1.15),thr=Number(s.ichorThrust||1),dust=Math.min(320,Math.max(0,Number(s.ichorDust||80))),light=Number(s.ichorLighting||1.75),esc=Number(s.ichorEscape||1.05),fluid=Number(s.ichorFluidity||1.35),press=Number(s.ichorPressure||1),sharp=Number(s.sharpness||1),bias=Number(s.angle||0)*Math.PI/180,p1=warpIchor(pts,s,t,seed,0),p2=warpIchor(pts,s,t+.17,seed+101,1),p3=warpIchor(pts,s,t+.31,seed+303,2),mist=pick(pal.mist,seed+1),ion=pick(pal.ion,seed+2),glow=pick(pal.glow,seed+3),arc=pick(pal.arc,seed+4),core=pick(pal.core,seed+5),deep=pick(pal.deep,seed+6),shadow=pick(pal.shadow,seed+7),residue=pick(pal.residue,seed+8);ctx.save();ctx.globalCompositeOperation='lighter';line(ctx,p1,{color:mist,width:w*(2.15+fluid*.42+press*.28),alpha:alpha*.13,shadow:w*(1.4+light*1.1),sharp:0});line(ctx,p2,{color:glow,width:w*(1.35+fluid*.22),alpha:alpha*.28,shadow:w*(.9+light*.65),sharp:0});line(ctx,p1,{color:deep,width:w*(.94+press*.18),alpha:alpha*.38,shadow:12*light,sharp:0});line(ctx,p1,{color:core,width:w*.58,alpha:alpha*.74,shadow:18*light,sharp:sharp});line(ctx,p3,{color:ion,width:w*(.11+sharp*.05),alpha:alpha*.96,shadow:7*light,sharp:sharp});var reps=3+Math.round(press*2+fluid);for(var i=1;i<p1.length;i++){var ph=(i/Math.max(1,p1.length-1)*reps-t*(.65+vel*.58)+noise(seed+i)*.18)%1;if(ph<0)ph+=1;var g=.18+.82*Math.max(0,Math.sin(ph*Math.PI));if(g<.36)continue;line(ctx,[p1[i-1],p1[i]],{color:ion,width:w*(.08+g*.12),alpha:alpha*g,shadow:10*light,sharp:sharp});line(ctx,[p1[i-1],p1[i]],{color:arc,width:w*(.18+g*.08),alpha:alpha*g*.36,shadow:14*light,sharp:0})}var step=Math.max(3,Math.round(18/Math.max(.35,esc+press*.24))),shift=Math.floor((t*(8+vel*7)+seed)%step);for(var i=2+shift;i<p1.length-1;i+=step){var trig=noise(seed+i*37+Math.floor(t*(5+vel*5)));if(trig>clampv(.26+esc*.22+light*.08,.18,.92))continue;var root=p1[i],q=tanAt(p1,i),side=noise(seed+i*11)>.5?1:-1,ba=q.angle+side*(.42+esc*.32+noise(seed+i*17)*.55)+Math.sin(t*2+i)*.18+Math.cos(bias-q.angle)*.18,len=w*(.8+esc*1.25+thr*.8+press*.55)*(.6+noise(seed+i*23)*1.2),m={x:root.x+Math.cos(ba)*len*.45+Math.cos(ba+Math.PI/2)*len*.14*Math.sin(t*3+i),y:root.y+Math.sin(ba)*len*.45+Math.sin(ba+Math.PI/2)*len*.14*Math.sin(t*3+i)},tip={x:root.x+Math.cos(ba)*len,y:root.y+Math.sin(ba)*len};line(ctx,[root,m,tip],{color:arc,width:w*(.07+trig*.08),alpha:alpha*(.38+trig*.34),shadow:14*light,sharp:sharp});if(esc>1.25&&noise(seed+i*29+Math.floor(t*9))>.55){var fa=ba+side*(.42+noise(seed+i*31)*.45),ft={x:tip.x+Math.cos(fa)*len*.46,y:tip.y+Math.sin(fa)*len*.46};line(ctx,[tip,ft],{color:mist,width:w*.045,alpha:alpha*.48,shadow:10*light,sharp:sharp})}}ctx.fillStyle=mist;ctx.shadowColor=glow;ctx.shadowBlur=w*(.4+light*.36);for(var i=0;i<dust;i++){var idx=Math.floor(noise(seed+i*13)*p1.length),p=p1[idx]||p1[0],q=tanAt(p1,idx),age=(t*(.18+vel*.08)+noise(seed+i*19))%1,side=noise(seed+i*41)>.5?1:-1,np=(age*age)*w*(.25+esc*.95)*side,fp=(age-.2)*((Number(s.vectorLength||44))*.35+thr*w*1.4),wb=Math.sin(t*5+i)*w*.12*fluid,x=p.x+q.x*fp-q.y*np+Math.cos(bias)*thr*age*5+wb,y=p.y+q.y*fp+q.x*np+Math.sin(bias)*thr*age*5-wb,fade=Math.sin(age*Math.PI);ctx.globalAlpha=alpha*fade*(.12+light*.13);ctx.beginPath();ctx.arc(x,y,Math.max(.8,w*(.025+noise(seed+i*29)*.05)*(.7+press*.25)),0,Math.PI*2);ctx.fill();if(noise(seed+i*43)>.82){ctx.fillStyle=residue;ctx.globalAlpha*=.45;ctx.beginPath();ctx.arc(x+w*.08,y+w*.08,Math.max(.5,w*.018),0,Math.PI*2);ctx.fill();ctx.fillStyle=mist}}ctx.globalCompositeOperation='source-over';line(ctx,p1,{color:shadow,width:w*(.22+press*.06),alpha:alpha*.16,shadow:0,sharp:0});ctx.restore()}
 function shapePoly(ctx,sides,rx,ry,off){sides=Math.max(3,Math.round(sides||6));off=off==null?-Math.PI/2:off;ctx.beginPath();for(var i=0;i<sides;i++){var a=off+i/sides*Math.PI*2,x=Math.cos(a)*rx,y=Math.sin(a)*ry;if(!i)ctx.moveTo(x,y);else ctx.lineTo(x,y);}ctx.closePath()}function paintShape(ctx,shape){ctx.globalAlpha=Math.max(.01,Math.min(1,Number(shape.alpha||.85)));ctx.fillStyle=shape.fill||'#00ffff';ctx.strokeStyle=shape.border||'#e8ffff';ctx.lineWidth=Math.max(0,Number(shape.borderWidth||4));ctx.shadowColor=shape.fill||'#00ffff';ctx.shadowBlur=ctx.lineWidth*1.4;ctx.fill();if(ctx.lineWidth>0)ctx.stroke()}function drawShape(ctx,shape){var w=Number(shape.w||160),h=Number(shape.h||110),type=shape.type||'circle';ctx.save();ctx.translate(shape.x||0,shape.y||0);ctx.rotate((Number(shape.rotation||0))*Math.PI/180);if(type==='circle'||type==='ellipse'||type==='sphere'||type==='moonFull'){ctx.beginPath();ctx.ellipse(0,0,w/2,(type==='circle'?w:h)/2,0,0,Math.PI*2);paintShape(ctx,shape)}else if(type==='square'||type==='rectangle'){ctx.beginPath();ctx.rect(-w/2,-h/2,type==='square'?w:w,type==='square'?w:h);paintShape(ctx,shape)}else if(type==='triangle'){shapePoly(ctx,3,w/2,h/2);paintShape(ctx,shape)}else if(type==='diamond'){shapePoly(ctx,4,w/2,h/2,0);paintShape(ctx,shape)}else if(type==='pentagon'){shapePoly(ctx,5,w/2,h/2);paintShape(ctx,shape)}else if(type==='hexagon'){shapePoly(ctx,6,w/2,h/2);paintShape(ctx,shape)}else if(type==='octagon'){shapePoly(ctx,8,w/2,h/2);paintShape(ctx,shape)}else if(type==='polygon'){shapePoly(ctx,shape.sides||6,w/2,h/2);paintShape(ctx,shape)}else if(type==='star'||type==='gear'||type==='shout'){var pts=type==='gear'?18:(type==='shout'?18:10);ctx.beginPath();for(var i=0;i<pts;i++){var a=-Math.PI/2+i/pts*Math.PI*2,rr=i%2?(type==='gear'?.72:type==='shout'?.78:.42):1,x=Math.cos(a)*w*.5*rr,y=Math.sin(a)*h*.5*rr;if(!i)ctx.moveTo(x,y);else ctx.lineTo(x,y)}ctx.closePath();paintShape(ctx,shape)}else if(type==='heart'){ctx.beginPath();ctx.moveTo(0,h*.32);ctx.bezierCurveTo(-w*.55,-h*.05,-w*.38,-h*.52,0,-h*.22);ctx.bezierCurveTo(w*.38,-h*.52,w*.55,-h*.05,0,h*.32);ctx.closePath();paintShape(ctx,shape)}else if(type==='arrow'){ctx.beginPath();ctx.moveTo(-w*.5,-h*.14);ctx.lineTo(w*.14,-h*.14);ctx.lineTo(w*.14,-h*.38);ctx.lineTo(w*.5,0);ctx.lineTo(w*.14,h*.38);ctx.lineTo(w*.14,h*.14);ctx.lineTo(-w*.5,h*.14);ctx.closePath();paintShape(ctx,shape)}else if(type==='moonCrescent'){ctx.beginPath();ctx.arc(0,0,Math.min(w,h)*.45,Math.PI*.18,Math.PI*1.82);ctx.arc(w*.18,0,Math.min(w,h)*.38,Math.PI*1.78,Math.PI*.22,true);ctx.closePath();paintShape(ctx,shape)}else{shapePoly(ctx,6,w/2,h/2);paintShape(ctx,shape)}ctx.restore()}
-function samplePath(pts,maxStep){if(!pts||pts.length<2)return pts||[];var out=[pts[0]];for(var i=1;i<pts.length;i++){var a=pts[i-1],b=pts[i],d=Math.hypot(b.x-a.x,b.y-a.y),steps=Math.max(1,Math.ceil(d/Math.max(2,maxStep||18)));for(var j=1;j<=steps;j++){var u=j/steps;out.push({x:a.x+(b.x-a.x)*u,y:a.y+(b.y-a.y)*u})}}return out}
-function pointAtPath(pts,u){pts=samplePath(pts,10);if(!pts.length)return{x:0,y:0};var idx=Math.max(0,Math.min(1,u))*(pts.length-1),i=Math.floor(idx),f=idx-i,a=pts[i],b=pts[Math.min(pts.length-1,i+1)];return{x:a.x+(b.x-a.x)*f,y:a.y+(b.y-a.y)*f}}
-function rot(v,r){var c=Math.cos(r),s=Math.sin(r);return{x:v.x*c-v.y*s,y:v.x*s+v.y*c}}
-function boltBetween(a,b,s,t,seed,opt){opt=opt||{};var dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1,tan={x:dx/len,y:dy/len},nor={x:-tan.y,y:tan.x},inten=Number(s.intensity||1),wave=Number(s.waveAmp||24),lat=opt.latency||Math.max(3,Math.round(16/Math.max(.2,inten))),sway=opt.sway==null?wave*(.55+inten*.24):opt.sway,cnt=Math.max(4,Math.min(96,Math.ceil(len/lat))),frame=Math.floor(t*(18+Number(s.speed||1)*18)),pos=[0,1];for(var i=1;i<cnt;i++)pos.push(noise(seed+i*101+frame*17));pos.sort(function(x,y){return x-y});var out=[],prev=0;for(var i=0;i<pos.length;i++){var p=pos[i],pv=pos[Math.max(0,i-1)],sc=(len/Math.max(1,sway))*(p-pv),env=Math.sin(p*Math.PI),disp=(noise(seed+i*73+frame*29)*2-1)*sway;disp-=(disp-prev)*(1-Math.min(1,sc));disp*=env;var n=rot(nor,(noise(seed+i*89+frame*13)-.5)*Number(s.ichorEscape||1)*.18);out.push({x:a.x+tan.x*len*p+n.x*disp,y:a.y+tan.y*len*p+n.y*disp});prev=disp}return out}
-function boltDraw(ctx,pts,s,alpha,w,color,inten,scale){scale=scale||1;ctx.save();ctx.globalCompositeOperation='lighter';line(ctx,pts,{color:color,width:w*(2.3+inten*.55)*scale,alpha:alpha*.14,shadow:w*(2.7+inten),sharp:0});line(ctx,pts,{color:color,width:w*(.74+inten*.12)*scale,alpha:alpha*.67,shadow:20*inten,sharp:s.sharpness});line(ctx,pts,{color:'#e8ffff',width:Math.max(.7,w*.17*scale),alpha:alpha,shadow:5+4*inten,sharp:s.sharpness});ctx.restore()}
-function endpoint(ctx,p,s,alpha,w,color,seed){ctx.save();ctx.globalCompositeOperation='lighter';ctx.fillStyle='#fff';ctx.shadowColor=color;ctx.shadowBlur=w*(3.5+Number(s.intensity||1));ctx.globalAlpha=alpha*.42;ctx.beginPath();ctx.arc(p.x+(noise(seed)-.5)*w*.45,p.y+(noise(seed+1)-.5)*w*.45,Math.max(1.2,w*.2),0,Math.PI*2);ctx.fill();ctx.restore()}
-function branch(ctx,root,tan,s,t,seed,alpha,w,color,scale){var inten=Number(s.intensity||1),side=noise(seed)>.5?1:-1,base=Math.atan2(tan.y,tan.x),ang=base+side*((26+noise(seed+5)*58)*Math.PI/180)+Math.sin(t*7+seed)*.24,len=w*(scale||1)*(1.3+inten*1.2+noise(seed+7)*4.5),tip={x:root.x+Math.cos(ang)*len,y:root.y+Math.sin(ang)*len},b=boltBetween(root,tip,s,t,seed+50,{latency:Math.max(2,Math.round(8/Math.max(.4,inten))),sway:w*(.28+inten*.22)});boltDraw(ctx,b,s,alpha*.72,w*.42,color,inten,.72)}
-function rails(ctx,pts,s,t,seed,mode){if(!pts||pts.length<2)return;var color=s.color||'#00ffff',alpha=(s.alpha||1)*(s.transparency==null?1:s.transparency)*global.opacity,w=s.size||20,inten=s.intensity||1,samp=samplePath(pts,Math.max(6,22-inten*3)),railsN=mode==='storm'?2:1;for(var rail=0;rail<railsN;rail++){var railPts=rail?samp.map(function(p,i){var q=tanAt(samp,i),off=Math.sin(i*.37+t*8+seed)*w*.28;return{x:p.x-q.y*off,y:p.y+q.x*off}}):samp,b=boltBetween(railPts[0],railPts[railPts.length-1],s,t+rail*.11,seed+rail*911,{sway:((s.waveAmp||24)+w*.8)*(.48+inten*.18)}),follow=b.map(function(p,i){var g=pointAtPath(railPts,i/Math.max(1,b.length-1));return{x:g.x*.68+p.x*.32,y:g.y*.68+p.y*.32}});boltDraw(ctx,follow,s,alpha,w,color,inten,rail?.62:1);endpoint(ctx,follow[0],s,alpha,w,color,seed+rail*5);endpoint(ctx,follow[follow.length-1],s,alpha,w,color,seed+rail*7);var bc=Math.max(1,Math.round((mode==='forked'?5:2)*inten));for(var i=0;i<bc;i++){var u=(i+1)/(bc+1),idx=Math.max(1,Math.min(follow.length-2,Math.round(u*(follow.length-1)))),gate=noise(seed+i*131+Math.floor(t*11));if(mode==='electric'&&gate<.35)continue;branch(ctx,follow[idx],tanAt(follow,idx),s,t,seed+i*613+rail*991,alpha,w,color,mode==='forked'?1.35:.74)}}}
-function sparkField(ctx,pts,s,t,seed){pts=samplePath(pts,Math.max(5,(s.size||20)*.4));if(!pts.length)return;var color=s.color||'#00ffff',alpha=(s.alpha||1)*(s.transparency==null?1:s.transparency)*global.opacity,w=s.size||20,inten=s.intensity||1,count=Math.min(520,Math.max(18,Math.round((s.moteCount||60)*(1.2+inten)))),ang=(s.angle||0)*Math.PI/180;ctx.save();ctx.globalCompositeOperation='lighter';ctx.strokeStyle=color;ctx.fillStyle='#e8ffff';ctx.shadowColor=color;ctx.shadowBlur=w*(.8+inten*.55);for(var i=0;i<count;i++){var p=pts[Math.floor(noise(seed+i*19)*pts.length)]||pts[0],age=(t*(.5+inten*.18)+noise(seed+i*31))%1,burst=Math.sin(age*Math.PI),theta=ang+(noise(seed+i*43)-.5)*Math.PI*2,dist=burst*w*(.35+noise(seed+i*47)*2.8)*(.8+inten*.55),x=p.x+Math.cos(theta)*dist,y=p.y+Math.sin(theta)*dist,len=w*(.28+noise(seed+i*53)*1.4);ctx.globalAlpha=alpha*burst*(.26+noise(seed+i*59)*.45);ctx.lineWidth=Math.max(.6,w*(.025+noise(seed+i*61)*.06));ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+Math.cos(theta)*len,y+Math.sin(theta)*len);ctx.stroke();if(noise(seed+i*67)>.72){ctx.beginPath();ctx.arc(x,y,Math.max(.55,w*.035),0,Math.PI*2);ctx.fill()}}ctx.restore()}
-function renderStroke(ctx,stroke,type,s,time,seed){ const pts=stroke.points||[]; if(!pts.length)return; if(stroke.erase){line(ctx,pts,{color:'#000',width:s.size,alpha:1,comp:'destination-out'});return;} const t=time/1000*(s.speed||1)*global.speed, alpha=(s.alpha||1)*(s.transparency??1)*global.opacity, w=s.size||20, inten=s.intensity||1, color=s.color||'#00ffff'; if(type==='ichor'){drawIchor(ctx,pts,s,t,seed,alpha,w,inten,color);rails(ctx,pts,s,t,seed+1109,'electric')} else if(type==='electric'){rails(ctx,pts,s,t,seed,'electric')} else if(type==='chainLightning'){var p=samplePath(pts,Math.max(10,w*.5)),jumps=Math.max(2,Math.round(3+inten*3)),prev=p[0];for(var j=1;j<=jumps;j++){var u=j/jumps,g=pointAtPath(p,u),q=tanAt(p,Math.min(p.length-1,Math.round(u*(p.length-1)))),side=j%2?1:-1,hop={x:g.x-q.y*side*w*(.35+noise(seed+j)*.8),y:g.y+q.x*side*w*(.35+noise(seed+j+3)*.8)},b=boltBetween(prev,hop,s,t+j*.05,seed+j*401,{latency:Math.max(3,Math.round(12/inten)),sway:w*(.65+inten*.35)});boltDraw(ctx,b,s,alpha,w*(1-j*.045),color,inten,1);endpoint(ctx,hop,s,alpha,w,color,seed+j*43);prev=hop}} else if(type==='forkedLightning'){rails(ctx,pts,s,t,seed,'forked')} else if(type==='stormMesh'){rails(ctx,pts,s,t,seed,'storm')} else if(type==='sparkField'){sparkField(ctx,pts,s,t,seed)} else if(type==='blink'){ctx.save(); for(let i=0;i<pts.length;i+=Math.max(2,Math.round(34/Math.max(.2,inten)))){const p=pts[i],b=.2+.8*Math.max(0,Math.sin(t*6+i*.7+seed)); ctx.globalAlpha=alpha*b; ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=w*1.2; ctx.beginPath(); ctx.arc(p.x,p.y,w*(.22+b*.18),0,Math.PI*2); ctx.fill();} ctx.restore();} else if(type==='wave'){ const a=((s.angle||0)+90)*Math.PI/180; const amp=s.waveAmp||0; line(ctx,pts.map((p,i)=>({x:p.x+Math.cos(a)*Math.sin(i*.42+t*Math.PI*2)*amp,y:p.y+Math.sin(a)*Math.sin(i*.42+t*Math.PI*2)*amp})),{color,width:w,alpha,shadow:12*inten,sharp:s.sharpness}); } else if(type==='hover'){ const off=Math.sin(t*Math.PI*2)*(s.waveAmp||0); line(ctx,pts.map(p=>({x:p.x,y:p.y+off})),{color,width:w,alpha,shadow:12*inten,sharp:s.sharpness}); } else if(type==='motes'){line(ctx,pts,{color,width:w*.34,alpha:alpha*.33,shadow:14*inten,sharp:s.sharpness}); ctx.save(); const ang=(s.angle||0)*Math.PI/180; for(let i=0;i<(s.moteCount||60);i++){const p=pts[Math.floor(noise(seed+i*13)*pts.length)]||pts[0]; const age=(t*.22+noise(seed+i*19))%1, drift=(age-.5)*(s.vectorLength||44)*1.8, wob=(noise(seed+i*23+Math.floor(t*20))-.5)*(s.waveAmp||28), fade=Math.sin(age*Math.PI); ctx.globalAlpha=alpha*fade*.85; ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=w*.8; ctx.beginPath(); ctx.arc(p.x+Math.cos(ang)*drift-Math.sin(ang)*wob,p.y+Math.sin(ang)*drift+Math.cos(ang)*wob,Math.max(1,w*(.045+noise(seed+i*29)*.09)),0,Math.PI*2); ctx.fill();} ctx.restore(); } else { const pul=type==='pulse'?1+Math.sin(t*Math.PI*2)*.22*inten:1; line(ctx,pts,{color,width:w*pul,alpha,shadow:12*inten,sharp:s.sharpness}); }}
+function renderStroke(ctx,stroke,type,s,time,seed){ const pts=stroke.points||[]; if(!pts.length)return; if(stroke.erase){line(ctx,pts,{color:'#000',width:s.size,alpha:1,comp:'destination-out'});return;} const t=time/1000*(s.speed||1)*global.speed, alpha=(s.alpha||1)*(s.transparency??1)*global.opacity, w=s.size||20, inten=s.intensity||1, color=s.color||'#00ffff'; if(type==='ichor'){drawIchor(ctx,pts,s,t,seed,alpha,w,inten,color);} else if(type==='electric'){ const amp=(s.waveAmp||20)*.38*inten; const jag=pts.map((p,i)=>({x:p.x+(noise(seed+i*17+Math.floor(t*24))-.5)*amp,y:p.y+(noise(seed+i*31+Math.floor(t*19))-.5)*amp})); line(ctx,jag,{color,width:w*.96,alpha:alpha*.72,shadow:22*inten,sharp:s.sharpness}); line(ctx,jag,{color:'rgba(232,255,255,1)',width:w*.22,alpha,shadow:4,sharp:s.sharpness}); } else if(type==='blink'){ctx.save(); for(let i=0;i<pts.length;i+=Math.max(2,Math.round(34/Math.max(.2,inten)))){const p=pts[i],b=.2+.8*Math.max(0,Math.sin(t*6+i*.7+seed)); ctx.globalAlpha=alpha*b; ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=w*1.2; ctx.beginPath(); ctx.arc(p.x,p.y,w*(.22+b*.18),0,Math.PI*2); ctx.fill();} ctx.restore();} else if(type==='wave'){ const a=((s.angle||0)+90)*Math.PI/180; const amp=s.waveAmp||0; line(ctx,pts.map((p,i)=>({x:p.x+Math.cos(a)*Math.sin(i*.42+t*Math.PI*2)*amp,y:p.y+Math.sin(a)*Math.sin(i*.42+t*Math.PI*2)*amp})),{color,width:w,alpha,shadow:12*inten,sharp:s.sharpness}); } else if(type==='hover'){ const off=Math.sin(t*Math.PI*2)*(s.waveAmp||0); line(ctx,pts.map(p=>({x:p.x,y:p.y+off})),{color,width:w,alpha,shadow:12*inten,sharp:s.sharpness}); } else if(type==='motes'){line(ctx,pts,{color,width:w*.34,alpha:alpha*.33,shadow:14*inten,sharp:s.sharpness}); ctx.save(); const ang=(s.angle||0)*Math.PI/180; for(let i=0;i<(s.moteCount||60);i++){const p=pts[Math.floor(noise(seed+i*13)*pts.length)]||pts[0]; const age=(t*.22+noise(seed+i*19))%1, drift=(age-.5)*(s.vectorLength||44)*1.8, wob=(noise(seed+i*23+Math.floor(t*20))-.5)*(s.waveAmp||28), fade=Math.sin(age*Math.PI); ctx.globalAlpha=alpha*fade*.85; ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=w*.8; ctx.beginPath(); ctx.arc(p.x+Math.cos(ang)*drift-Math.sin(ang)*wob,p.y+Math.sin(ang)*drift+Math.cos(ang)*wob,Math.max(1,w*(.045+noise(seed+i*29)*.09)),0,Math.PI*2); ctx.fill();} ctx.restore(); } else { const pul=type==='pulse'?1+Math.sin(t*Math.PI*2)*.22*inten:1; line(ctx,pts,{color,width:w*pul,alpha,shadow:12*inten,sharp:s.sharpness}); }}
 function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.clearRect(0,0,PROJECT.width,PROJECT.height); if(layer.visible===false)return; const s=layer.settings||{}; if(s.blur)ctx.filter='blur('+s.blur+'px)'; (layer.strokes||[]).forEach(st=>renderStroke(ctx,st,layer.type,s,time,layer.seed||1)); (layer.shapes||[]).forEach(sh=>drawShape(ctx,sh)); ctx.filter='none';}); requestAnimationFrame(frame);} requestAnimationFrame(frame); fit();
 </script>
 </body>
@@ -2534,142 +2220,11 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
     setStatus(`Zoomed to selected box at ${Math.round(next * 100)}%.`);
   }
 
-
-  function isMobileLayout() {
-    return window.matchMedia('(max-width: 900px), (hover: none), (pointer: coarse)').matches;
-  }
-
-  function updateTouchGuardUi() {
-    const armed = !!state.touchDrawingArmed;
-    document.body.classList.toggle('touch-drawing-armed', armed);
-    const label = armed ? 'Touch Drawing Armed' : 'Safe Scroll On';
-    ['mobileTouchGuardBtn', 'mobileArmDrawBtn'].forEach((id) => {
-      const btn = $(id);
-      if (!btn) return;
-      btn.textContent = label;
-      btn.classList.toggle('is-armed', armed);
-      btn.setAttribute('aria-pressed', String(armed));
-      btn.title = armed ? 'Touch drawing is armed. Finger contact can paint or edit.' : 'Safe scroll/pan is on. Finger contact will not paint or erase.';
-    });
-    const mode = $('mobileModeText');
-    if (mode) mode.textContent = armed ? 'Drawing: ARMED' : 'Safe Scroll: ON';
-  }
-
-  function setTouchDrawingArmed(armed, announce = true) {
-    state.touchDrawingArmed = !!armed;
-    updateTouchGuardUi();
-    if (announce) setStatus(state.touchDrawingArmed ? 'Mobile touch drawing is armed. Finger strokes can edit the canvas now.' : 'Safe Scroll is on. Touches pan/zoom and will not paint, erase, fill, or pick transparency.');
-  }
-
-  function toggleTouchDrawingArmed() {
-    setTouchDrawingArmed(!state.touchDrawingArmed);
-  }
-
-  function openMobilePanel(id, scroll = true) {
-    const target = $(id);
-    if (!target) return;
-    document.querySelectorAll('.window.mobile-open').forEach((win) => {
-      if (win !== target && !win.classList.contains('image-window')) win.classList.remove('mobile-open');
-    });
-    if (!target.classList.contains('image-window')) target.classList.add('mobile-open');
-    const picker = $('mobilePanelSelect');
-    if (picker && picker.value !== id) picker.value = id;
-    if (scroll) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-
-  function initMobileDrawers() {
-    document.querySelectorAll('.window').forEach((win) => {
-      const header = win.querySelector('.window-header');
-      if (!header || win.classList.contains('image-window')) return;
-      header.addEventListener('click', (evt) => {
-        if (!isMobileLayout()) return;
-        if (evt.target.closest('button,a,input,select,textarea,label')) return;
-        const willOpen = !win.classList.contains('mobile-open');
-        document.querySelectorAll('.window.mobile-open').forEach((other) => {
-          if (other !== win && !other.classList.contains('image-window')) other.classList.remove('mobile-open');
-        });
-        win.classList.toggle('mobile-open', willOpen);
-      });
-    });
-    $('mobileOpenPanelBtn')?.addEventListener('click', () => openMobilePanel($('mobilePanelSelect')?.value || 'tools-box'));
-    $('mobilePanelSelect')?.addEventListener('change', () => openMobilePanel($('mobilePanelSelect').value));
-    $('mobileTouchGuardBtn')?.addEventListener('click', toggleTouchDrawingArmed);
-    $('mobileArmDrawBtn')?.addEventListener('click', toggleTouchDrawingArmed);
-    $('mobileFitBtn')?.addEventListener('click', fitView);
-    $('mobileToolsJumpBtn')?.addEventListener('click', () => openMobilePanel('tools-box'));
-    window.addEventListener('orientationchange', () => setTimeout(fitView, 220));
-    window.addEventListener('resize', () => {
-      clearTimeout(initMobileDrawers._resizeTimer);
-      initMobileDrawers._resizeTimer = setTimeout(() => {
-        updateTouchGuardUi();
-        if (isMobileLayout()) updateStageSize();
-      }, 160);
-    });
-    state.coarsePointer = window.matchMedia('(hover: none), (pointer: coarse)').matches;
-    setTouchDrawingArmed(false, false);
-  }
-
-  function midpoint(a, b) {
-    return { clientX: (a.clientX + b.clientX) / 2, clientY: (a.clientY + b.clientY) / 2 };
-  }
-
-  function distance(a, b) {
-    return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
-  }
-
-  function updateActivePointer(evt) {
-    if (evt.pointerType !== 'touch') return;
-    state.activePointers.set(evt.pointerId, { clientX: evt.clientX, clientY: evt.clientY });
-  }
-
-  function removeActivePointer(evt) {
-    if (evt.pointerType !== 'touch') return;
-    state.activePointers.delete(evt.pointerId);
-    if (state.activePointers.size < 2) state.pinchStart = null;
-  }
-
-  function beginPinchIfNeeded(evt) {
-    if (evt.pointerType !== 'touch' || state.activePointers.size < 2) return false;
-    const pts = Array.from(state.activePointers.values()).slice(0, 2);
-    state.pinchStart = { distance: Math.max(1, distance(pts[0], pts[1])), zoom: state.zoom, center: midpoint(pts[0], pts[1]) };
-    endPan();
-    endStroke();
-    return true;
-  }
-
-  function movePinchIfNeeded(evt) {
-    if (evt.pointerType !== 'touch' || state.activePointers.size < 2 || !state.pinchStart) return false;
-    const pts = Array.from(state.activePointers.values()).slice(0, 2);
-    const nextDistance = Math.max(1, distance(pts[0], pts[1]));
-    const center = midpoint(pts[0], pts[1]);
-    setZoom(state.pinchStart.zoom * (nextDistance / state.pinchStart.distance), center);
-    return true;
-  }
-
-  function touchShouldEdit(evt) {
-    if (evt.pointerType !== 'touch') return true;
-    if (!isMobileLayout()) return true;
-    if (state.activePointers.size > 1) return false;
-    if (state.tool === 'pan' || state.tool === 'selectzoom') return true;
-    return !!state.touchDrawingArmed;
-  }
-
-  function safeMobilePanInsteadOfEdit(evt) {
-    if (evt.pointerType !== 'touch') return false;
-    if (touchShouldEdit(evt)) return false;
-    beginPan(evt);
-    setStatus('Safe Scroll is on. Panning instead of editing; press “Safe Scroll On” to arm touch drawing when you are ready.');
-    return true;
-  }
-
   function installEvents() {
     els.toolGrid.addEventListener('click', (evt) => {
       const button = evt.target.closest('button[data-tool]');
       if (!button) return;
-      state.tool = button.dataset.tool;
-      els.toolGrid.querySelectorAll('button').forEach((b) => b.classList.toggle('active', b === button));
-      overlayCtx.clearRect(0, 0, state.w, state.h);
-      setStatus(`Tool: ${button.textContent.trim()}.`);
+      activateTool(button.dataset.tool, button.textContent.trim());
     });
 
     els.fileInput.addEventListener('change', () => {
@@ -2685,11 +2240,18 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
       setZoom(state.zoom * (evt.deltaY < 0 ? 1.12 : 0.89), evt);
     }, { passive: false });
 
+    viewport.addEventListener('contextmenu', (evt) => evt.preventDefault());
+
     viewport.addEventListener('pointerdown', (evt) => {
-      viewport.setPointerCapture(evt.pointerId);
-      updateActivePointer(evt);
-      if (beginPinchIfNeeded(evt)) return;
-      if (safeMobilePanInsteadOfEdit(evt)) return;
+      evt.preventDefault();
+      viewport.focus({ preventScroll: true });
+      try { viewport.setPointerCapture(evt.pointerId); } catch (_) {}
+      rememberPointer(evt);
+      if (evt.pointerType === 'touch' && state.activePointers.size >= 2) {
+        beginPinchGesture();
+        return;
+      }
+      updateBrushCursor(evt);
       if (evt.button === 1 || state.spaceDown || state.tool === 'pan') {
         beginPan(evt);
         return;
@@ -2711,6 +2273,7 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
         const c = sampleBaseColor(p);
         const hex = rgbToHex(c.r, c.g, c.b);
         els.brushColor.value = hex;
+        if (els.brushHex) els.brushHex.value = hex;
         currentLayerSettingsToActive();
         setStatus(`Matched color ${hex}.`);
       } else if (state.tool === 'repair') {
@@ -2718,11 +2281,15 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
       } else if (state.tool === 'brush' || state.tool === 'eraser') {
         beginStroke(evt);
       }
-    });
+    }, { passive: false });
 
     viewport.addEventListener('pointermove', (evt) => {
-      updateActivePointer(evt);
-      if (movePinchIfNeeded(evt)) return;
+      evt.preventDefault();
+      if (state.activePointers.has(evt.pointerId)) rememberPointer(evt);
+      if (state.pinchGesture) {
+        updatePinchGesture();
+        return;
+      }
       updateBrushCursor(evt);
       if (state.panning) {
         movePan(evt);
@@ -2736,20 +2303,29 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
       } else if (state.drawing) {
         addStrokePoint(evt);
       }
+    }, { passive: false });
+
+    viewport.addEventListener('pointerleave', (evt) => {
+      if (evt.pointerType !== 'touch' && brushCursor) brushCursor.style.display = 'none';
     });
 
-    viewport.addEventListener('pointerleave', () => { if (brushCursor) brushCursor.style.display = 'none'; });
-
-    viewport.addEventListener('pointerup', (evt) => {
-      removeActivePointer(evt);
+    const finishPointer = (evt) => {
+      evt.preventDefault();
+      forgetPointer(evt);
+      if (state.pinchGesture) return;
       endPan();
       endStroke();
       if (state.tool === 'selectzoom' && state.selectedRect) drawOverlayRect(state.selectedRect);
       if (state.tool === 'selectzoom') state.dragStart = null;
-    });
-    viewport.addEventListener('pointercancel', (evt) => { removeActivePointer(evt); endPan(); endStroke(); state.dragStart = null; });
-
-    viewport.addEventListener('contextmenu', (evt) => { if (evt.pointerType === 'touch' || isMobileLayout()) evt.preventDefault(); });
+    };
+    viewport.addEventListener('pointerup', finishPointer, { passive: false });
+    viewport.addEventListener('pointercancel', (evt) => {
+      evt.preventDefault();
+      forgetPointer(evt);
+      endPan();
+      endStroke();
+      state.dragStart = null;
+    }, { passive: false });
 
     window.addEventListener('keydown', (evt) => {
       if (evt.code === 'Space') state.spaceDown = true;
@@ -2775,6 +2351,12 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
     $('undoBtn')?.addEventListener('click', restoreLastHistory);
     $('redoBtn')?.addEventListener('click', restoreNextHistory);
     $('quickSaveBrowserBtn')?.addEventListener('click', saveBrowser);
+    document.querySelectorAll('[data-mobile-tool]').forEach((button) => {
+      button.addEventListener('click', () => activateTool(button.dataset.mobileTool, button.textContent.trim()));
+    });
+    $('mobileFitBtn')?.addEventListener('click', fitView);
+    $('mobileUndoBtn')?.addEventListener('click', restoreLastHistory);
+    $('mobileRedoBtn')?.addEventListener('click', restoreNextHistory);
 
     $('newCanvasBtn').addEventListener('click', () => {
       pushHistory('new canvas');
@@ -2865,29 +2447,8 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
     requestAnimationFrame(animate);
   }
 
-  window.BelavadosEffectStudio = {
-    getProject(includeRuntime = false) {
-      return serializeProject(includeRuntime);
-    },
-    async loadProject(project, options = {}) {
-      await hydrateProject(project, options);
-      fitView();
-      setStatus('Loaded project from backend bridge.');
-      return true;
-    },
-    saveBrowser,
-    loadBrowser,
-    clearBrowser,
-    setStatus,
-    getStatus() {
-      return els.status ? els.status.textContent : '';
-    },
-    markDirty,
-    storageKey,
-    version: '2026-06-22-mobile-first-touch-safe'
-  };
-
   function bootstrap() {
+    installServiceWorker();
     populateIchorPresets();
     setIchorPanelOpen(false);
     resizeAll(1280, 720, false);
@@ -2898,8 +2459,8 @@ function frame(time){ PROJECT.layers.forEach((layer)=>{const ctx=layer.ctx; ctx.
     baseCtx.fillRect(0, 0, state.w, state.h);
     refreshRepairSource('Startup canvas captured as repair source.');
     createLayer('electric', 'Thunder 1');
-    initMobileDrawers();
     installEvents();
+    activateTool(state.tool, 'Stroke Brush');
     updateStageSize();
     setTimeout(fitView, 50);
     requestAnimationFrame(animate);

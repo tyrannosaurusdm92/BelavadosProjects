@@ -35,36 +35,6 @@ This version adds brush-based ichor discharge creation. Draw rough guide strokes
 The Interactive HTML export now keeps ichor layers animated in the exported standalone file.
 
 
-## Apps Script backend embedded — 2026-06-22
+## Mobile/PWA repair pass
 
-This build is wired to the deployed Apps Script web app:
-
-- Deployment ID: `AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs`
-- Web app URL: `https://script.google.com/macros/s/AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs/exec`
-- GitHub Pages target: `https://tyrannosaurusdm92.github.io/BelavadosProjects/BelavadosEffectStudio`
-
-Added files:
-
-- `manifest.webmanifest` for installable desktop/mobile icon support on GitHub Pages.
-- `service-worker.js` for local PWA caching on the GitHub Pages origin.
-- `icons/icon.svg`, `icons/icon-192.svg`, `icons/icon-512.svg` for the install icon.
-- `js/backend.js` for the Apps Script launcher/backend bridge.
-- `backend/Code.gs` as an optional upgraded Apps Script backend if cloud project save/load is desired.
-
-The studio now exposes `window.BelavadosEffectStudio` so backend code can safely read and reload `.belfx` project snapshots without duplicating editor internals.
-
-
-## Mobile-first update
-
-This build includes the uploaded `ImageEditorMobileApp-main` repository as documented reference material and adds a browser-native mobile interface. On phones and tablets, non-image tools are collapsed under dropdown/accordion menus, the image workspace appears first, and touch editing starts in **Safe Scroll On** mode so accidental finger scrolling will not paint, erase, fill, pick transparency, or place shapes.
-
-Use the sticky mobile dock at the top to open any tool panel. Tap **Safe Scroll On** to switch to **Touch Drawing Armed** only when you are ready to edit with your finger or stylus. Pinch inside the image box to zoom, drag inside the image box to pan, and rotate the phone if needed; portrait remains the preferred layout.
-
-
-## 2026-06-22 Lightning / Ichor JavaScript Restoration
-
-This build restores missing JavaScript-side lightning and painting behavior into the actual studio runtime, not just CSS visuals. New effect layer types include Chain Lightning, Forked Lightning Tree, Storm Mesh / Lightning Lattice, and Spark Field / Crackle. Ichor now keeps its liquid current renderer and gains true animated micro-bolt overlays. New brush styles include Legacy Airbrush, Watercolor Wash, Oil Paint Impasto, Pixel Ink, Angle Calligraphy, and Neon Tube Paint.
-
-Use `index.html` for the normal responsive app, `mobile.html` for a portrait-first fat-finger-safe entry, and `desktop.html` for a desktop-first entry.
-
-See `docs/LIGHTNING_ICHOR_JS_RESTORATION_AUDIT.md`, `docs/LEGACY_SOURCE_MANIFEST.md`, and `docs/EXPORT_RENDERER_PARITY_NOTES.md` for the source/legacy merge details.
+This build includes a mobile-first repair layer: PWA manifest/icons/service worker, installable Android/Apple home-screen metadata, touch-safe canvas controls, two-finger pinch/pan inside the editor, larger touch targets, portrait-first workspace ordering, and rotated landscape layout support. See `docs/MOBILE_PWA_FIX_REPORT.md` for details.

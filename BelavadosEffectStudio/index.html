@@ -3,24 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#00ffff" />
-  <meta name="description" content="Belavadös Effect Layer Studio with mobile-first portrait editing, touch-safe drawing, responsive PWA install support, and Apps Script backend bridge." />
-  <title>Belavadös Effect Layer Studio</title>
+  <meta name="theme-color" content="#001e24" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Belavadös FX" />
+  <meta name="format-detection" content="telephone=no" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
-  <link rel="apple-touch-icon" href="icons/icon-192.svg" />
+  <link rel="apple-touch-icon" href="icons/icon-180.png" />
+  <title>Belavadös Effect Layer Studio</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <script>
-    window.BELAVADOS_BACKEND_CONFIG = {
-      appName: 'Belavadös Effect Layer Studio',
-      githubUrl: 'https://tyrannosaurusdm92.github.io/BelavadosProjects/BelavadosEffectStudio',
-      appsScriptUrl: 'https://script.google.com/macros/s/AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs/exec',
-      deploymentId: 'AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs',
-      projectKey: 'belavados-effect-layer-studio-cloud-project',
-      autosaveKey: 'belavados-effect-layer-studio-autosave-v1',
-      version: '2026-06-22-lightning-js-legacy-restored'
-    };
-  </script>
 </head>
 <body>
 <div class="template-shell">
@@ -28,9 +20,9 @@
     <div class="site-mark" aria-hidden="true">✦</div>
     <div class="site-title">
       <h1>Belavadös Effect Layer Studio</h1>
-      <p>Mobile-first + desktop effect studio · touch-safe controls · restored JS lightning/ichor engines · interactive HTML export</p>
+      <p>Image cleanup · zoomable paint box · separate animated effect layers · interactive HTML export</p>
     </div>
-    <div class="read-only-badge">Backend Ready</div>
+    <div class="read-only-badge">Windows Ready</div>
   </header>
 
   <nav class="nav-row" aria-label="In-site navigation">
@@ -41,38 +33,7 @@
     <a class="button" href="#transparency-box">Transparency</a>
     <a class="button dark" href="#layers-box">Layers</a>
     <a class="button" href="#export-box">Export</a>
-    <a class="button dark" href="#backend-box">Backend</a>
   </nav>
-
-
-
-  <section class="mobile-dock" id="mobileDock" aria-label="Mobile quick controls">
-    <div class="mobile-dock-title">
-      <strong>Mobile Studio Controls</strong>
-      <span id="mobileModeText">Safe Scroll: ON</span>
-    </div>
-    <label class="mobile-panel-picker">Tool Dropdown
-      <select id="mobilePanelSelect">
-        <option value="image-box">Image Workspace</option>
-        <option value="files-box">Files / Upload</option>
-        <option value="tools-box">Tools / Undo</option>
-        <option value="brush-box">Brush + Effect Creator</option>
-        <option value="shape-box">Shapes + Links</option>
-        <option value="ichor-box">Ichor Converter</option>
-        <option value="effects-box">Live Effect Sliders</option>
-        <option value="layers-box">Layers</option>
-        <option value="transparency-box">Transparency</option>
-        <option value="export-box">Export</option>
-        <option value="backend-box">Backend / Install</option>
-      </select>
-    </label>
-    <div class="mobile-action-row">
-      <button id="mobileOpenPanelBtn" type="button">Open Dropdown</button>
-      <button id="mobileTouchGuardBtn" type="button" aria-pressed="false">Safe Scroll On</button>
-      <button id="mobileFitBtn" type="button">Fit Image</button>
-    </div>
-    <p class="mobile-hint">Portrait-first mode: panels stay collapsed until opened. Touch drawing is locked by default so scrolling/panning with your fingers will not accidentally paint, erase, fill, or pick transparency.</p>
-  </section>
 
   <main class="template-grid editor-grid">
     <aside class="left-column" aria-label="Tools column">
@@ -88,10 +49,6 @@
             <button id="newCanvasBtn">New Transparent</button>
             <button id="fitImageBtn">Fit View</button>
             <button id="resetViewBtn">Reset View</button>
-          </div>
-          <div class="button-row compact-buttons backend-quick-actions">
-            <button id="backendOpenLauncherBtn" type="button">Open App Icon</button>
-            <button id="backendInstallBtn" type="button">Install</button>
           </div>
           <div class="label-list small-inputs">
             <label class="label-row"><b>Width</b><input id="canvasW" type="number" min="64" max="8192" value="1280" /></label>
@@ -134,10 +91,6 @@
           <label>Effect Type
             <select id="effectType">
               <option value="electric">Thunder / Electric</option>
-              <option value="chainLightning">Chain Lightning Bolts</option>
-              <option value="forkedLightning">Forked Lightning Tree</option>
-              <option value="stormMesh">Storm Mesh / Lightning Lattice</option>
-              <option value="sparkField">Spark Field / Crackle</option>
               <option value="ichor">Ichor Discharge / Fluid Lightning</option>
               <option value="pulse">Pulsing Stroke</option>
               <option value="blink">Blinking Lights</option>
@@ -158,12 +111,6 @@
               <option value="crayon">Crayon</option>
               <option value="spraypaint">Spraypaint</option>
               <option value="charcoal">Charcoal</option>
-              <option value="airbrush">Legacy Airbrush</option>
-              <option value="watercolor">Watercolor Wash</option>
-              <option value="oilpaint">Oil Paint Impasto</option>
-              <option value="pixelink">Pixel Ink / Hard Edge</option>
-              <option value="calligraphy">Angle Calligraphy</option>
-              <option value="neon">Neon Tube Paint</option>
             </select>
           </label>
           <div class="color-hex-row">
@@ -276,9 +223,16 @@
           <div class="workspace-toolbar-mini">
             <label>Zoom <input id="zoomRange" type="range" min="0.05" max="8" step="0.01" value="1" /></label>
             <span id="zoomReadout">100%</span>
-            <button id="mobileArmDrawBtn" type="button" class="mobile-canvas-arm">Safe Scroll On</button>
-            <button id="mobileToolsJumpBtn" type="button" class="mobile-tools-jump">Tool Menus</button>
-            <span class="hint inline">Wheel zoom · pinch/drag pan on mobile · sliders update live</span>
+            <span class="hint inline">Desktop: wheel zoom · space/middle drag pans. Mobile: two-finger pinch/pan · one-finger uses selected tool.</span>
+          </div>
+          <div class="mobile-action-strip" aria-label="Mobile quick controls">
+            <button type="button" data-mobile-tool="brush">Brush</button>
+            <button type="button" data-mobile-tool="pan">Pan</button>
+            <button type="button" data-mobile-tool="transparent">Erase BG</button>
+            <button type="button" data-mobile-tool="repair">Repair</button>
+            <button type="button" id="mobileFitBtn">Fit</button>
+            <button type="button" id="mobileUndoBtn">Undo</button>
+            <button type="button" id="mobileRedoBtn">Redo</button>
           </div>
           <div id="viewport" class="viewport" tabindex="0" aria-label="Zoomable image workspace">
             <div id="brushCursor" class="brush-cursor" aria-hidden="true"><span></span><i></i><b></b></div>
@@ -351,29 +305,6 @@
         </div>
       </section>
 
-      <section class="window backend-window" id="backend-box">
-        <div class="window-header alt">
-          <span>Apps Script Backend / App Icon</span>
-          <span class="backend-pill" id="backendStatePill">Ready</span>
-        </div>
-        <div class="window-body control-stack">
-          <p class="hint">Connected deployment: <code id="backendDeploymentId">AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs</code></p>
-          <div class="backend-url-box"><code id="backendUrlText">https://script.google.com/macros/s/AKfycbxW28DzqosHIy7w5Y4iU0FW0RBRqrQEob_8sTHbWYyRC3zFqSacL1-gKqjdg56gSRvs/exec</code></div>
-          <div class="button-row compact-buttons">
-            <button id="backendPingBtn" type="button">Test Backend</button>
-            <button id="backendOpenLauncherBtn2" type="button">Open Launcher</button>
-            <button id="backendInstallBtn2" type="button">Install Icon</button>
-          </div>
-          <div class="button-row compact-buttons">
-            <button id="backendSaveBtn" type="button">Save Cloud Copy</button>
-            <button id="backendLoadBtn" type="button">Load Cloud Copy</button>
-            <button id="backendCopyUrlBtn" type="button">Copy URL</button>
-          </div>
-          <label class="check-row backend-check"><input type="checkbox" id="backendAutosaveToggle" /> Save browser backup whenever cloud save is pressed</label>
-          <p class="hint" id="backendStatusText">Backend bridge loaded. Use Test Backend first, then save/load project copies.</p>
-        </div>
-      </section>
-
       <section class="window">
         <div class="window-header alt">Status / Notes</div>
         <div class="window-body">
@@ -394,6 +325,5 @@
 <script src="js/vendor/Pizzicato.min.js"></script>
 <script src="js/vendor/slidr.min.js"></script>
 <script src="js/app.js"></script>
-<script src="js/backend.js"></script>
 </body>
 </html>

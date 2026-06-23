@@ -13,8 +13,3 @@ The source archives included several complete applications. Copying all of them 
 ## If you later want a full framework-based merge
 
 A deeper Penpot/draw.io/Excalidraw/Canva merge would need a real package manager workflow, build process, dependency resolution, and license review. This static build deliberately avoids that so it can open from `index.html` on Windows.
-
-
-## Why full legacy repos are not inside runtime
-
-The uploaded lightning and paint repos include native macOS, iOS, Unity, Godot, Qt/QML, Delphi, Java, and large web-app source trees. Copying them wholesale into the production editor would make the project harder to open on Windows and mobile. Their usable concepts were ported into browser JavaScript, while source provenance is documented in `licenses/`, `source_readmes/`, `legacy_reference/`, and `LEGACY_SOURCE_MANIFEST.md`.

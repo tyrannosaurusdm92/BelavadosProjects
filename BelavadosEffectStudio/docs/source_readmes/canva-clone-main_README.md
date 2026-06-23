@@ -1,61 +1,178 @@
-# Setup Guides
+# 🎨 Canva Clone - Full-Featured Graphic Design SaaS Platform
 
-Step-by-step guides for setting up the Canva Clone project. Follow them in order.
+<img width="5706" height="1806" alt="canva-clone" src="/canva-clone.png" />
 
----
-
-## Guides
-
-| # | File | Topic | Time |
-|---|------|-------|------|
-| 00 | [00-PREREQUISITES.md](./00-PREREQUISITES.md) | Software requirements and account creation | 2 min |
-| 01 | [01-INSTALLATION.md](./01-INSTALLATION.md) | Clone repository and install dependencies | 5 min |
-| 02 | [02-DATABASE-SETUP.md](./02-DATABASE-SETUP.md) | Neon PostgreSQL, migrations, Drizzle Studio | 10 min |
-| 03 | [03-UNSPLASH-API.md](./03-UNSPLASH-API.md) | Unsplash stock photo API integration | 5 min |
-| 04 | [04-UPLOADTHING-API.md](./04-UPLOADTHING-API.md) | UploadThing file upload service (3 keys) | 5 min |
-| 05 | [05-REPLICATE-API.md](./05-REPLICATE-API.md) | Replicate AI image generation (paid, min $2) | 10 min |
-| 06 | [06-STRIPE-SETUP.md](./06-STRIPE-SETUP.md) | Stripe payments, subscriptions, webhooks | 20 min |
-| 07 | [07-TEMPLATES-SETUP.md](./07-TEMPLATES-SETUP.md) | Upload and configure design templates | 15 min |
-| 08 | [08-GITHUB-OAUTH.md](./08-GITHUB-OAUTH.md) | GitHub OAuth authentication | 5 min |
-| 09 | [09-GOOGLE-OAUTH.md](./09-GOOGLE-OAUTH.md) | Google OAuth authentication | 10 min |
-| 10 | [10-DEPLOYMENT.md](./10-DEPLOYMENT.md) | Deploy to Vercel with production config | 15 min |
-
-## Reference
-
-| File | Description |
-|------|-------------|
-| [11-TROUBLESHOOTING.md](./11-TROUBLESHOOTING.md) | Common issues organized by category with solutions |
-| [12-ENV-REFERENCE.md](./12-ENV-REFERENCE.md) | All 13 environment variables with formats and sources |
+A production-ready graphic design SaaS platform with an intuitive drag-and-drop editor, AI-powered features, and complete subscription management. Built with Next.js 14, Fabric.js canvas engine, Replicate AI, and Stripe payments.
 
 ---
 
-## Setup Order
+## 🚀 Quick Start
 
+**New to this project?** Follow our step-by-step setup guide:
+
+### 📖 [Complete Setup Documentation](./docs/README/)
+
+Start here: **[00-PREREQUISITES.md](./docs/README/00-PREREQUISITES.md)**
+
+**Estimated setup time:** ~90 minutes
+
+---
+
+## ✨ Key Features
+
+- 🎨 **Professional Design Editor** - Templates, text, shapes, drawing tools, and layers
+- 🤖 **AI-Powered Tools** - Image generation and background removal
+- 🔐 **Multi-Auth** - Google, GitHub, and Email/Password
+- 💳 **Stripe Subscriptions** - Complete payment management
+- 📤 **Export Options** - PNG, JPG, SVG, JSON
+- 📱 **Fully Responsive** - Works on all devices
+- 🔍 **Project Management** - Create and organize multiple projects
+- 🎯 **Unsplash Integration** - Millions of free stock photos
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:** Next.js 14, React 18, TypeScript, TailwindCSS, Shadcn UI, Fabric.js  
+**Backend:** Hono.js, Drizzle ORM, Neon PostgreSQL, Auth.js  
+**AI & Media:** Replicate AI, Unsplash, UploadThing  
+**Payments:** Stripe  
+**State:** Zustand, TanStack Query
+
+---
+
+## 📋 Prerequisites
+
+Before starting, you need:
+- Node.js (v18+) or Bun
+- Git
+- Free accounts for: Neon, UploadThing, Replicate, Unsplash, Stripe, Google, GitHub
+
+**👉 See [Prerequisites Guide](./docs/README/00-PREREQUISITES.md) for details**
+
+---
+
+## 🎯 Setup Guide
+
+Follow these guides in order:
+
+1. **[Prerequisites](./docs/README/00-PREREQUISITES.md)** - What you need (2 min)
+2. **[Installation](./docs/README/01-INSTALLATION.md)** - Clone and install (5 min)
+3. **[Database Setup](./docs/README/02-DATABASE-SETUP.md)** - Neon PostgreSQL (10 min)
+4. **[Unsplash API](./docs/README/03-UNSPLASH-API.md)** - Stock photos (5 min)
+5. **[UploadThing API](./docs/README/04-UPLOADTHING-API.md)** - File uploads (5 min)
+6. **[Replicate API](./docs/README/05-REPLICATE-API.md)** - AI features (10 min)
+7. **[Stripe Setup](./docs/README/06-STRIPE-SETUP.md)** - Payments (20 min)
+8. **[Templates Setup](./docs/README/07-TEMPLATES-SETUP.md)** - Design templates (15 min)
+9. **[GitHub OAuth](./docs/README/08-GITHUB-OAUTH.md)** - GitHub login (5 min)
+10. **[Google OAuth](./docs/README/09-GOOGLE-OAUTH.md)** - Google login (10 min)
+11. **[Deployment](./docs/README/10-DEPLOYMENT.md)** - Deploy to Vercel (15 min)
+
+**Need help?** Check [Troubleshooting Guide](./docs/README/11-TROUBLESHOOTING.md)
+
+---
+
+## 📦 Quick Commands
+
+```bash
+# Install dependencies
+bun install
+
+# Setup database
+bun run db:generate
+bun run db:migrate
+
+# Start development
+bun dev
+
+# Open database GUI
+bun run db:studio
 ```
-00 Prerequisites
- |
-01 Installation
- |
-02 Database Setup  <-- Required for everything below
- |
- +-- 03 Unsplash API
- +-- 04 UploadThing API
- +-- 05 Replicate API
- |
-06 Stripe Setup  <-- Required for Pro/AI features
- |
-07 Templates Setup
- |
- +-- 08 GitHub OAuth
- +-- 09 Google OAuth
- |
-10 Deployment
-```
+
+**Full command reference:** See [Installation Guide](./docs/README/01-INSTALLATION.md)
 
 ---
 
-## Back to Docs
+## 🔧 Environment Variables
 
-- [Documentation Hub](../README.md)
-- [Full Reference (NOTE.md)](../NOTE.md)
-- [Project README](../../README.md)
+Create a `.env` file with these variables:
+
+```env
+DATABASE_URL=
+AUTH_SECRET=
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
+UPLOADTHING_TOKEN=
+REPLICATE_API_TOKEN=
+STRIPE_SECRET_KEY=
+STRIPE_PRICE_ID=
+STRIPE_WEBHOOK_SECRET=
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
+
+**Detailed guide:** [Environment Variables Reference](./docs/README/12-ENV-REFERENCE.md)
+
+---
+
+## 💎 Pro Features
+
+Unlock with subscription:
+- ✨ Unlimited projects
+- 🎨 Premium templates
+- 🤖 Unlimited AI generations
+- 📤 High-resolution exports
+- 💾 Priority support
+
+---
+
+## 📚 Documentation
+
+- **[Setup Guides](./docs/README/)** - Complete step-by-step setup
+- **[Troubleshooting](./docs/README/11-TROUBLESHOOTING.md)** - Common issues and solutions
+- **[Environment Variables](./docs/README/12-ENV-REFERENCE.md)** - All variables explained
+
+---
+
+## 🎓 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Drizzle ORM Documentation](https://orm.drizzle.team/docs)
+- [Auth.js Documentation](https://authjs.dev/)
+- [Fabric.js Documentation](http://fabricjs.com/docs/)
+- [Stripe Documentation](https://stripe.com/docs)
+- [Replicate Documentation](https://replicate.com/docs)
+
+---
+
+## 🙏 Credits
+
+**Course:** [YouTube/Original Tutorial](https://www.codewithantonio.com/projects/canva-clone) (18-hour course)  
+**Creator:** [Code With Antonio](https://github.com/antonioerdeljac)  
+**Deployment:** [Vercel](https://vercel.com/)  
+**UI Components:** [Shadcn](https://ui.shadcn.com/)
+
+---
+
+## 📝 License
+
+This project is based on the tutorial by Antonio Erdeljac.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please give it a star!
+
+**Need help?** 
+- Check [Documentation](./docs/NOTE.md)
+- Review [Troubleshooting](./docs/README/11-TROUBLESHOOTING.md)
+- Create an issue on GitHub
+
+---
+
+**Ready to start?** → Begin with **[Prerequisites Guide](./docs/README/00-PREREQUISITES.md)** 🚀
