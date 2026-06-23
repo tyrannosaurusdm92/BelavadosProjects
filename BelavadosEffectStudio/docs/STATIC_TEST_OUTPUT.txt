@@ -1,0 +1,23 @@
+Static checks run after merge:
+
+1. node --check assets/app.js
+   Result: PASS
+
+2. DOM ID binding check
+   Result: PASS
+   Every $('id') and document.getElementById('id') reference in assets/app.js exists in index.html.
+
+3. Local reference check
+   Result: PASS
+   index.html references found:
+   - manifest.webmanifest
+   - icons/icon-180.png
+   - assets/styles.css
+   - assets/app.js
+
+4. Backend endpoint check
+   Result: PASS
+   assets/app.js contains the requested Apps Script backend URL.
+
+5. Browser launch note
+   Playwright/Chromium local navigation was blocked by the sandbox environment with ERR_BLOCKED_BY_ADMINISTRATOR, so full click-through browser testing could not be completed here.

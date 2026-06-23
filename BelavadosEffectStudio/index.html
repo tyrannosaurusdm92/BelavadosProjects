@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#03161A" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Belavadös FX" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Belavadös Effect Studio</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-180.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to canvas</a>
+  <div id="app" class="app-shell simple-shell">
+    <header class="topbar" role="banner">
+      <button id="toggleTools" class="nav-button" type="button" aria-expanded="true" aria-controls="toolDrawer" title="Open tools">☰</button>
+      <div class="brand-block" aria-label="Belavadös Effect Studio">
+        <strong>Belavadös Effect Studio</strong>
+        <span>simple app · deep tools · mobile first</span>
+      </div>
+      <div class="top-actions">
+        <button class="nav-button" id="saveBrowserBtn" type="button">Save</button>
+        <button class="nav-button" id="loadBrowserBtn" type="button">Load</button>
+        <button class="nav-button" id="clearBrowserBtn" type="button">Clear Save</button>
+        <button class="nav-button" id="backendSaveBtn" type="button">Sync</button>
+        <button class="nav-button" id="installBtn" type="button" hidden>Install</button>
+      </div>
+    </header>
+
+    <aside id="toolDrawer" class="tool-drawer" aria-label="Studio controls">
+      <div id="paletteDragHandle" class="palette-titlebar" title="Drag this menu anywhere">
+        <span>Movable tool menu</span>
+        <button id="paletteResetBtn" type="button">Reset</button>
+      </div>
+      <nav class="mode-strip" aria-label="Tool panel selector">
+        <button class="mode-btn active" data-panel="drawPanel" type="button" title="Draw">✎</button>
+        <button class="mode-btn" data-panel="sprayPanel" type="button" title="Spray">☁</button>
+        <button class="mode-btn" data-panel="textPanel" type="button" title="Text">T</button>
+        <button class="mode-btn" data-panel="shapePanel" type="button" title="Objects">◇</button>
+        <button class="mode-btn" data-panel="assetPanel" type="button" title="Assets">★</button>
+        <button class="mode-btn" data-panel="ichorPanel" type="button" title="Ichor and lightning">⌁</button>
+        <button class="mode-btn" data-panel="layerPanel" type="button" title="Layers">☷</button>
+        <button class="mode-btn" data-panel="animatePanel" type="button" title="Animate">▶</button>
+        <button class="mode-btn" data-panel="exportPanel" type="button" title="Export">⇪</button>
+      </nav>
+
+      <section id="drawPanel" class="panel compact tool-panel active-panel">
+        <h2>Draw</h2>
+        <div class="tool-grid icon-grid" id="toolGrid" role="toolbar" aria-label="Drawing tools">
+          <button class="tool active" data-tool="pencil" type="button" title="Pencil">✎<span>Pencil</span></button>
+          <button class="tool" data-tool="ink" type="button" title="Ink">✒<span>Ink</span></button>
+          <button class="tool" data-tool="paint" type="button" title="Paint">▰<span>Paint</span></button>
+          <button class="tool" data-tool="marker" type="button" title="Marker">▮<span>Marker</span></button>
+          <button class="tool" data-tool="crayon" type="button" title="Crayon">▧<span>Crayon</span></button>
+          <button class="tool" data-tool="charcoal" type="button" title="Charcoal">░<span>Charcoal</span></button>
+          <button class="tool" data-tool="pixel" type="button" title="Pixel">▦<span>Pixel</span></button>
+          <button class="tool" data-tool="eraser" type="button" title="Eraser">⌫<span>Eraser</span></button>
+          <button class="tool" data-tool="repair" type="button" title="Repair transparency">✚<span>Repair</span></button>
+          <button class="tool" data-tool="fill" type="button" title="Fill">◈<span>Fill</span></button>
+          <button class="tool" data-tool="eyedropper" type="button" title="Eyedropper">◉<span>Pick</span></button>
+          <button class="tool" data-tool="pan" type="button" title="Pan">✋<span>Pan</span></button>
+          <button class="tool" data-tool="zoomBox" type="button" title="Drag zoom box from version 1">▣<span>Zoom box</span></button>
+        </div>
+        <div class="slider-stack">
+          <label>Size <output id="sizeOut">18</output>px<input id="sizeInput" type="range" min="1" max="240" value="18" /></label>
+          <label>Opacity <output id="opacityOut">100</output>%<input id="opacityInput" type="range" min="1" max="100" value="100" /></label>
+          <label>Softness / scatter <output id="softnessOut">35</output>%<input id="softnessInput" type="range" min="0" max="100" value="35" /></label>
+          <label>Smoothing <output id="smoothOut">45</output>%<input id="smoothInput" type="range" min="0" max="95" value="45" /></label>
+        </div>
+        <label>Blend mode
+          <select id="blendInput">
+            <option value="source-over">Normal</option><option value="multiply">Multiply</option><option value="screen">Screen</option><option value="overlay">Overlay</option><option value="soft-light">Soft Light</option><option value="color-dodge">Color Dodge</option><option value="lighter">Glow / Add</option><option value="destination-out">Erase Alpha</option>
+          </select>
+        </label>
+        <div class="button-row"><button id="undoBtn" type="button">Undo</button><button id="redoBtn" type="button">Redo</button><button id="clearBtn" type="button">Clear</button></div>
+      </section>
+
+      <section id="sprayPanel" class="panel compact tool-panel">
+        <h2>Spray + Fill</h2>
+        <div class="button-row"><button class="tool" data-tool="spray" type="button">☁ Spray</button><button class="tool" data-tool="graffiti" type="button">⚡ Graffiti</button><button class="tool" data-tool="fill" type="button">◈ Fill</button></div>
+        <label>Spray hex codes <textarea id="sprayPaletteInput" rows="3" placeholder="#00FFFF, #7EFBEA, #CA6309">#00FFFF, #7EFBEA, #CA6309</textarea></label>
+        <label>Spray density <output id="sprayDensityOut">55</output>%<input id="sprayDensityInput" type="range" min="5" max="100" value="55" /></label>
+        <label>Graffiti drip chance <output id="dripChanceOut">22</output>%<input id="dripChanceInput" type="range" min="0" max="100" value="22" /></label>
+        <label><input id="gradientToggle" type="checkbox" checked /> Gradient fill for shapes/text/fill</label>
+        <div class="form-row"><input id="gradientA" type="color" value="#00ffff" aria-label="Gradient start" /><input id="gradientB" type="color" value="#ca6309" aria-label="Gradient end" /></div>
+        <label>Gradient angle <output id="gradientAngleOut">45</output>°<input id="gradientAngleInput" type="range" min="-180" max="180" value="45" /></label>
+        <label>Fill tolerance <output id="toleranceOut">18</output>%<input id="toleranceInput" type="range" min="0" max="100" value="18" /></label>
+      </section>
+
+      <section id="textPanel" class="panel compact tool-panel">
+        <h2>Text</h2>
+        <div class="button-row"><button class="tool" data-tool="text" type="button">T Text</button><button id="addTextObjectBtn" type="button">Add Text</button><button id="rasterizeObjectBtn" type="button">Rasterize</button></div>
+        <label>Text / tag<textarea id="textInput" rows="3">Belavadös</textarea></label>
+        <label>Font
+          <select id="fontInput"><option value="Impact, Haettenschweiler, fantasy">Graffiti heavy</option><option value="Georgia, serif">Ink serif</option><option value="Comic Sans MS, Comic Sans, cursive">Sketch comic</option><option value="Trebuchet MS, sans-serif">Clean label</option><option value="Courier New, monospace">Pixel mono</option></select>
+        </label>
+        <div class="format-bar" role="toolbar" aria-label="Text formatting">
+          <button id="boldBtn" type="button" aria-pressed="false">B</button><button id="italicBtn" type="button" aria-pressed="false"><em>I</em></button><button id="underlineBtn" type="button" aria-pressed="false"><u>U</u></button><button id="strikeBtn" type="button" aria-pressed="false"><s>S</s></button>
+        </div>
+        <label>Text size <output id="textSizeOut">72</output>px<input id="textSizeInput" type="range" min="8" max="420" value="72" /></label>
+        <label>Letter spacing <output id="letterSpacingOut">0</output>px<input id="letterSpacingInput" type="range" min="-12" max="80" value="0" /></label>
+        <label>Line spacing <output id="lineSpacingOut">1.1</output><input id="lineSpacingInput" type="range" min="70" max="240" value="110" /></label>
+        <label>Bend text <output id="bendOut">0</output>%<input id="bendInput" type="range" min="-100" max="100" value="0" /></label>
+        <div class="form-row"><label>Stroke<input id="strokeColorInput" type="color" value="#001e24" /></label><label>Highlight<input id="highlightColorInput" type="color" value="#fff3d6" /></label></div>
+        <label>Stroke width <output id="strokeWidthOut">4</output>px<input id="strokeWidthInput" type="range" min="0" max="42" value="4" /></label>
+        <label>Shadow blur <output id="shadowBlurOut">10</output>px<input id="shadowBlurInput" type="range" min="0" max="80" value="10" /></label>
+        <label>Text alignment<select id="textAlignInput"><option value="left">Left</option><option value="center">Center</option><option value="right">Right</option></select></label>
+      </section>
+
+      <section id="shapePanel" class="panel compact tool-panel">
+        <h2>Objects</h2>
+        <div class="button-row"><button class="tool" data-tool="shape" type="button">◇ Shape</button><button id="addShapeObjectBtn" type="button">Add Object</button><button id="duplicateObjectBtn" type="button">Copy</button><button id="deleteObjectBtn" type="button">Delete</button></div>
+        <label><input id="objectModeInput" type="checkbox" checked /> Shape tool creates editable objects</label>
+        <label>Shape type
+          <select id="shapeType"><option value="rect">Rectangle</option><option value="roundrect">Rounded rectangle</option><option value="circle">Circle / ellipse</option><option value="line">Line</option><option value="triangle">Triangle</option><option value="diamond">Diamond</option><option value="star">Star</option><option value="polygon">Hex / polygon</option><option value="cloud">Cloud / thought bubble</option><option value="burst">Shout burst</option><option value="moon">Moon</option><option value="plant">Plant</option><option value="cube">Cube / 3D box</option><option value="heart">Heart</option><option value="arrow">Arrow</option><option value="speech">Speech bubble</option></select>
+        </label>
+        <label>Polygon/star sides <output id="shapeSidesOut">6</output><input id="shapeSidesInput" type="range" min="3" max="18" value="6" /></label>
+        <label>Shape fill<select id="shapeFill"><option value="fillStroke">Fill + border</option><option value="stroke">Border only</option><option value="fill">Fill only</option></select></label>
+        <label>Clickable link for shape/text<input id="linkInput" type="url" placeholder="https://..." /></label>
+        <div class="object-controls">
+          <label>X <output id="objectXOut">0</output><input id="objectXInput" type="range" min="-1000" max="3000" value="80" /></label>
+          <label>Y <output id="objectYOut">0</output><input id="objectYInput" type="range" min="-1000" max="3000" value="80" /></label>
+          <label>Width <output id="objectWOut">400</output><input id="objectWInput" type="range" min="8" max="3000" value="400" /></label>
+          <label>Height <output id="objectHOut">180</output><input id="objectHInput" type="range" min="8" max="3000" value="180" /></label>
+          <label>Rotation <output id="rotationOut">0</output>°<input id="rotationInput" type="range" min="-180" max="180" value="0" /></label>
+          <label>Object opacity <output id="objectOpacityOut">100</output>%<input id="objectOpacityInput" type="range" min="0" max="100" value="100" /></label>
+        </div>
+        <div class="button-row"><button id="objectUpBtn" type="button">Raise</button><button id="objectDownBtn" type="button">Lower</button><button id="flipObjectHBtn" type="button">Flip H</button><button id="flipObjectVBtn" type="button">Flip V</button></div>
+      </section>
+
+      <section id="assetPanel" class="panel compact tool-panel">
+        <h2>Assets</h2>
+        <div class="button-row"><label class="file-label">Photo overlay<input id="overlayImport" type="file" accept="image/*" /></label><label class="file-label">Canvas image<input id="imageImport" type="file" accept="image/*" /></label></div>
+        <label>Category<select id="assetCategory"><option value="all">All assets</option></select></label>
+        <input id="assetSearch" type="search" placeholder="Search assets, stickers, textures…" />
+        <div id="assetGrid" class="asset-grid" aria-live="polite"></div>
+        <h3>Emoji stickers</h3>
+        <div id="emojiGrid" class="emoji-grid" aria-label="Emoji sticker assets"></div>
+        <h3>Asset audio</h3>
+        <div id="audioList" class="audio-list"></div>
+      </section>
+
+
+      <section id="ichorPanel" class="panel compact tool-panel ichor-panel">
+        <h2>Ichor + Lightning</h2>
+        <p class="microcopy">The old mobile-PWA effect engine has been folded into this simple Paint/AddText-style menu. No iframe, no second layout: draw a guide stroke on the canvas and these controls create the electricity, forks, escape arcs, spraypaint motes, and liquid ichor glow directly in the main workspace.</p>
+        <div class="tool-grid icon-grid" role="toolbar" aria-label="Ichor and lightning tools">
+          <button class="tool" data-tool="electric" type="button" title="Electric lightning">⚡<span>Electric</span></button>
+          <button class="tool" data-tool="ichor" type="button" title="Liquid ichor lightning">⌁<span>Ichor</span></button>
+          <button class="tool" data-tool="motes" type="button" title="Random spraypaint motes">✦<span>Motes</span></button>
+          <button class="tool" data-tool="blink" type="button" title="Version 1 blinking lights">◌<span>Blink</span></button>
+          <button class="tool" data-tool="shimmer" type="button" title="Version 1 shimmer trail">✧<span>Shimmer</span></button>
+          <button class="tool" data-tool="hoverMotes" type="button" title="Version 1 hover motes">⋇<span>Hover</span></button>
+          <button class="tool" data-tool="vectors" type="button" title="Version 1 vector sparks">↯<span>Vectors</span></button>
+        </div>
+        <label>Effect preset
+          <select id="effectPresetInput">
+            <option value="balanced">Balanced liquid arc</option>
+            <option value="weapon-shotgun">Thundercoil shotgun burst</option>
+            <option value="harbor-puffer">Low-output harbor puffer</option>
+            <option value="storm-climb">Emergency storm climb</option>
+            <option value="thin-arc">Thin forked lightning</option>
+            <option value="mote-bloom">Heavy spraypaint mote bloom</option>
+            <option value="legacy-handgun">V1 Thundercoil Handgun</option>
+            <option value="legacy-rifle">V1 Thundercoil Rifle</option>
+            <option value="legacy-shotgun">V1 Thundercoil Shotgun</option>
+            <option value="legacy-grenade">V1 Thundercoil Grenade</option>
+            <option value="legacy-coil-array">V1 Thundercoil Coil Array</option>
+            <option value="legacy-hammer">V1 Thundercoil Hammer</option>
+            <option value="legacy-sword">V1 Thundercoil Sword</option>
+            <option value="legacy-dagger">V1 Thundercoil Dagger</option>
+          </select>
+        </label>
+        <div class="slider-stack effect-controls">
+          <label>Effect size <output id="effectSizeOut">28</output>px<input id="effectSizeInput" type="range" min="1" max="260" value="28" /></label>
+          <label>Intensity <output id="effectIntensityOut">100</output>%<input id="effectIntensityInput" type="range" min="5" max="240" value="100" /></label>
+          <label>Forking <output id="effectForksOut">55</output>%<input id="effectForksInput" type="range" min="0" max="100" value="55" /></label>
+          <label>Escape arcs <output id="effectEscapeOut">45</output>%<input id="effectEscapeInput" type="range" min="0" max="120" value="45" /></label>
+          <label>Fluid randomness <output id="effectFluidityOut">70</output>%<input id="effectFluidityInput" type="range" min="0" max="140" value="70" /></label>
+          <label>Pressure / thrust <output id="effectPressureOut">70</output>%<input id="effectPressureInput" type="range" min="0" max="160" value="70" /></label>
+          <label>Lighting glow <output id="effectLightingOut">120</output>%<input id="effectLightingInput" type="range" min="0" max="240" value="120" /></label>
+          <label>Spraypaint motes <output id="effectMotesOut">80</output><input id="effectMotesInput" type="range" min="0" max="360" value="80" /></label>
+          <label>Animation speed <output id="effectSpeedOut">100</output>%<input id="effectSpeedInput" type="range" min="0" max="300" value="100" /></label>
+          <label>Blur / aura <output id="effectBlurOut">4</output>px<input id="effectBlurInput" type="range" min="0" max="80" value="4" /></label>
+          <label>Sharpness <output id="effectSharpnessOut">100</output>%<input id="effectSharpnessInput" type="range" min="0" max="300" value="100" /></label>
+          <label>Wave amplitude <output id="effectWaveAmpOut">28</output>px<input id="effectWaveAmpInput" type="range" min="0" max="220" value="28" /></label>
+          <label>Vector length <output id="effectVectorLengthOut">44</output>px<input id="effectVectorLengthInput" type="range" min="0" max="360" value="44" /></label>
+        </div>
+        <div class="button-row"><button id="applyIchorPresetBtn" type="button">Apply Preset</button><button id="clearPreviewBtn" type="button">Clear Preview</button><button id="clearLiveFxBtn" type="button">Clear Animated FX</button></div>
+      </section>
+
+      <section id="layerPanel" class="panel compact tool-panel">
+        <h2>Layers</h2>
+        <div class="button-row"><button id="addLayerBtn" type="button">Add</button><button id="duplicateLayerBtn" type="button">Duplicate</button><button id="deleteLayerBtn" type="button">Delete</button></div>
+        <div class="button-row"><button id="layerUpBtn" type="button">Move Up</button><button id="layerDownBtn" type="button">Move Down</button><button id="mergeDownBtn" type="button">Merge Down</button></div>
+        <div class="button-row"><button id="rotateLayerBtn" type="button">Rotate 90°</button><button id="flipLayerHBtn" type="button">Flip H</button><button id="flipLayerVBtn" type="button">Flip V</button></div>
+        <label>Layer opacity <output id="layerOpacityOut">100</output>%<input id="layerOpacityInput" type="range" min="0" max="100" value="100" /></label>
+        <h3>Editable overlays</h3><div id="objectList" class="layers-list object-list" aria-live="polite"></div>
+        <h3>Raster layers</h3><div id="layersList" class="layers-list" aria-live="polite"></div>
+      </section>
+
+      <section id="animatePanel" class="panel compact tool-panel">
+        <h2>Animate</h2>
+        <div class="button-row"><button id="captureFrameBtn" type="button">Capture</button><button id="playAnimBtn" type="button">Play</button><button id="stopAnimBtn" type="button">Stop</button></div>
+        <label>FPS <output id="fpsOut">8</output><input id="fpsInput" type="range" min="1" max="24" value="8" /></label>
+        <label><input id="onionSkinInput" type="checkbox" /> Onion skin previous frame</label>
+        <canvas id="animationPreview" width="320" height="180" aria-label="Animation preview"></canvas>
+        <div id="framesList" class="frames-list" aria-live="polite"></div>
+      </section>
+
+      <section id="exportPanel" class="panel compact tool-panel">
+        <h2>Workspace + Export</h2>
+        <div class="button-row"><button id="newTransparentBtn" type="button">New Transparent</button><button id="fitBtn" type="button">Fit</button><button id="zoomOutBtn" type="button">−</button><button id="zoomInBtn" type="button">+</button><button id="resetViewBtn" type="button">Reset</button></div>
+        <label>Zoom <output id="zoomOut">100</output>%<input id="zoomInput" type="range" min="10" max="800" value="100" /></label>
+        <label>Canvas size<select id="canvasPreset"><option value="1600x1200">Studio 4:3</option><option value="1080x1920">Mobile portrait</option><option value="1920x1080">Desktop / video</option><option value="2048x2048">Square art</option><option value="3000x1500">Wide mural</option></select></label>
+        <label>Background mode
+          <select id="backgroundModeInput">
+            <option value="transparent">Transparent / checkerboard preview</option>
+            <option value="white">White background</option>
+            <option value="color">Colored background</option>
+          </select>
+        </label>
+        <div class="form-row background-row"><label>BG color<input id="backgroundColorInput" type="color" value="#ffffff" /></label><button id="applyCurrentColorBgBtn" type="button">Use Brush Color</button></div>
+        <div class="button-row"><button id="resizeCanvasBtn" type="button">Apply Size</button><button id="toggleGridBtn" type="button" aria-pressed="true">Grid</button><button id="toggleMirrorBtn" type="button" aria-pressed="false">Mirror</button><button id="pinBackgroundBtn" type="button" aria-pressed="false">Pin BG</button></div>
+        <div class="button-row"><button id="removeColorBtn" type="button">Remove Picked Color</button><button id="applyConnectedTransparencyBtn" type="button">Apply Picked Area</button><button id="trimTransparentBtn" type="button">Trim Empty Edges</button></div>
+        <div class="button-row"><button id="refreshRepairSourceBtn" type="button">Refresh Repair Source</button><button id="softenBtn" type="button">Soften</button><button id="sharpenBtn" type="button">Sharpen</button></div>
+        <label>Transparency edge softness <output id="edgeSoftnessOut">8</output>px<input id="edgeSoftnessInput" type="range" min="0" max="64" value="8" /></label>
+        <label>Transparency remove strength <output id="removeStrengthOut">100</output>%<input id="removeStrengthInput" type="range" min="5" max="100" value="100" /></label>
+        <label><input id="previewTransparencyInput" type="checkbox" /> Preview picked transparency area</label>
+        <div class="button-row"><button id="exportPngBtn" type="button">PNG</button><button id="exportSvgBtn" type="button">SVG</button><button id="exportJsonBtn" type="button">JSON</button><button id="exportHtmlBtn" type="button">HTML</button></div>
+        <label class="file-label">Import project JSON<input id="projectImport" type="file" accept="application/json,.json,.belfx" /></label>
+        <div class="button-row"><button id="loadBrowserProjectBtn" type="button">Load Browser Save</button><button id="clearBrowserProjectBtn" type="button">Clear Browser Save</button></div>
+        <button id="showShortcutsBtn" type="button">Shortcuts</button>
+      </section>
+
+      <section class="panel compact color-panel always-panel">
+        <h2>Color</h2>
+        <canvas id="colorDisc" width="220" height="220" aria-label="Color disc" role="img"></canvas>
+        <div class="form-row"><input id="colorInput" type="color" value="#00ffff" aria-label="Brush color" /><input id="hexInput" type="text" value="#00FFFF" inputmode="text" maxlength="9" aria-label="Hex color" /></div>
+        <div class="swatches" id="swatches" aria-label="Belavadös color swatches"></div>
+      </section>
+    </aside>
+
+    <main id="workspace" class="workspace-wrap" tabindex="-1">
+      <div class="canvas-status" id="statusBar" role="status" aria-live="polite">Ready · Pencil · 1600×1200</div>
+      <div class="workspace" id="canvasViewport" aria-label="Drawing workspace">
+        <div id="gridOverlay" class="grid-overlay"></div>
+        <div id="stage" class="stage">
+          <div id="layerStack" class="layer-stack"></div>
+          <canvas id="objectCanvas" class="object-canvas"></canvas>
+          <canvas id="liveFxCanvas" class="live-fx-canvas" aria-label="Animated effects layer"></canvas>
+          <canvas id="previewCanvas" class="preview-canvas"></canvas>
+          <div id="objectLayer" class="object-layer" aria-label="Editable object handles"></div>
+        </div>
+        <div id="hotspotLayer" class="hotspot-layer" aria-label="Clickable shape links"></div>
+      </div>
+      <div class="bottom-controls" aria-label="Quick controls">
+        <button data-panel="drawPanel" type="button">✎</button><button data-panel="sprayPanel" type="button">☁</button><button data-panel="textPanel" type="button">T</button><button data-panel="shapePanel" type="button">◇</button><button data-panel="assetPanel" type="button">★</button><button data-panel="ichorPanel" type="button" title="Ichor and lightning">⌁</button><button data-panel="layerPanel" type="button">☷</button><button id="quickUndo" type="button">Undo</button><button id="quickRedo" type="button">Redo</button>
+      </div>
+    </main>
+
+    <dialog id="shortcutsDialog"><form method="dialog" class="dialog-card"><h2>Belavadös Studio shortcuts</h2><ul><li><strong>Ctrl/⌘ + Z</strong> undo · <strong>Shift + Ctrl/⌘ + Z</strong> redo</li><li><strong>Space + drag</strong> or Pan mode moves the canvas</li><li><strong>[ / ]</strong> smaller/larger brush</li><li><strong>G</strong> graffiti · <strong>S</strong> spray · <strong>E</strong> eraser · <strong>V</strong> shape</li><li><strong>Pinch</strong> or the zoom slider works on mobile.</li></ul><button type="submit">Close</button></form></dialog>
+  </div>
+  <div id="brushCursor" class="brush-cursor" aria-hidden="true"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
