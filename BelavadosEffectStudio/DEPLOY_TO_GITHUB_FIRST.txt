@@ -1,22 +1,25 @@
-BELAVADÖS EFFECT STUDIO — GITHUB DEPLOY READY
+BELAVADÖS EFFECT STUDIO — GITHUB DEPLOY READY — UNIFIED PAINT/ADDTEXT SHELL
 
 This package is flattened for GitHub Pages. Upload the CONTENTS of this folder into your existing GitHub Pages folder, not the folder itself.
 
-Most likely reason local desktop shows v2 but GitHub shows v1:
-1. GitHub Pages is still serving the old index.html from the configured Pages source folder; or
-2. The new zip was uploaded as a nested folder instead of replacing the live index.html; or
-3. The browser/PWA service worker cached the old v1 shell.
+What this build fixes:
+1. Desktop, tablet, mobile portrait, and rotated/landscape now use the SAME app shell.
+2. The app no longer changes into a separate desktop sidebar layout or a separate mobile layout.
+3. All tools stay inside the one movable Microsoft Paint / AddText-style toolbox.
+4. The bottom icon toolbar is present across viewport sizes.
+5. The CSS cache version and service-worker cache name were changed so mobile does not keep the old layout.
 
 Deploy steps:
-1. In your GitHub repo, open the folder that GitHub Pages serves for this app.
-2. Delete the old app files in that folder first: old index.html, old assets, old subtools/mobile-pwa, old sw.js, old manifest.
+1. In your GitHub repo, open the folder that GitHub Pages actually serves for this app.
+2. Delete the old app files in that folder first: old index.html, old assets, old old alternate PWA folder, old sw.js, old manifest, and old icons if present.
 3. Upload every file/folder from this deploy package directly into that same folder.
 4. Commit changes.
-5. Open github-cache-reset.html once from the live GitHub Pages URL, then it will clear old browser caches and redirect to index.html.
+5. Open github-cache-reset.html once from the live GitHub Pages URL. It clears old service workers/cache storage and redirects to index.html.
+6. On Android, also remove the old home-screen icon and add the app again after the reset if it still opens the older cached layout.
 
 Verification:
 - index.html is the only app layout.
 - github-cache-reset.html is only a cache cleanup helper, not another app layout.
-- No subtools/mobile-pwa folder is included.
+- No old alternate PWA folder folder is included.
 - No v1 HTML source files are included in this deploy package.
-- Top bar should say: v2 simple shell · GitHub deploy · mobile first
+- Top bar should say: v2 unified shell · same desktop/mobile Paint layout

@@ -1,0 +1,21 @@
+BELAVADÖS EFFECT STUDIO — UNIFIED LAYOUT AUDIT
+
+Goal:
+Make desktop, mobile, tablet, portrait, and rotated views use the same simple Microsoft Paint / AddText Android-style shell.
+
+Confirmed in this package:
+- One app entry: index.html.
+- No iframe tags in index.html, CSS, or JS.
+- No old alternate PWA folder folder.
+- No hidden v1 app HTML included.
+- All tool panels remain in index.html:
+  Draw, Spray + Fill, Text, Objects, Assets, Ichor + Lightning, Layers, Animate, Workspace + Export, Color.
+- All tool buttons remain present, including drawing tools, spray/graffiti, text tools, shape/object controls, assets, ichor/electric/motes/blink/shimmer/hover/vectors, layers, animation, background/transparency, import/export, and color.
+- A final CSS block named UNIFIED PAINT/ADDTEXT SHELL LOCK now overrides earlier media queries.
+- At every viewport size, the app shell is one canvas workspace plus one fixed/movable toolbox plus one bottom icon toolbar.
+- Desktop side-column layout switching is intentionally overridden.
+- Mobile-only panel behavior was removed from JS; selecting any bottom or top panel opens the same movable toolbox on every screen size.
+- Cache version changed to 20260623-unified-shell-v3.
+
+Important deployment note:
+If mobile still looks different after uploading this exact package, the cause is almost certainly a stale mobile PWA/service-worker cache or the GitHub Pages folder is not actually serving this new top-level index.html. Open github-cache-reset.html on the live site once, then reload index.html. On Android, remove and re-add the home-screen icon if needed.

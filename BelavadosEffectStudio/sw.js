@@ -1,9 +1,9 @@
-const CACHE_NAME = 'belavados-effect-studio-20260623-v2only-github-deploy';
+const CACHE_NAME = 'belavados-effect-studio-20260623-unified-shell-v3';
 const CORE_ASSETS = [
   './',
   './index.html',
-  './assets/styles.css?v=20260623-v2only-github-deploy',
-  './assets/app.js?v=20260623-v2only-github-deploy',
+  './assets/styles.css?v=20260623-unified-shell-v3',
+  './assets/app.js?v=20260623-unified-shell-v3',
   './manifest.webmanifest',
   './assets/icon.svg',
   './icons/icon-180.png',

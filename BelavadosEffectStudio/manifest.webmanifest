@@ -1,8 +1,8 @@
 {
   "name": "Belavadös Effect Studio",
   "short_name": "Belavadös Studio",
-  "description": "Mobile-first drawing, spraypaint, graffiti, background erasing, ichor/lightning, workspace, and animator studio.",
-  "start_url": "./index.html",
+  "description": "Unified Microsoft Paint / AddText-style mobile-first drawing, spraypaint, graffiti, background erasing, ichor/lightning, workspace, and animator studio.",
+  "start_url": "./index.html?v=20260623-unified-shell-v3-pwa",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
@@ -36,5 +36,6 @@
     "graphics",
     "design",
     "photo"
-  ]
+  ],
+  "id": "./?belavados-effect-studio-unified-shell-v3"
 }

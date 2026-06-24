@@ -30,8 +30,8 @@
         const keys = await caches.keys();
         await Promise.all(keys.map(key => caches.delete(key)));
       }
-      status.textContent = 'Done. Opening the v2 shell…';
-      location.replace('./index.html?v=20260623-v2only-github-deploy-reset');
+      status.textContent = 'Done. Opening the unified v2 shell…';
+      location.replace('./index.html?v=20260623-unified-shell-v3-reset');
     }
     document.getElementById('resetBtn').addEventListener('click', clearOldAppCache);
     clearOldAppCache().catch(err => { document.getElementById('status').textContent = 'Reset failed: ' + err.message; });
