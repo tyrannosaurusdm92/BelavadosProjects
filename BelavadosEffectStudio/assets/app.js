@@ -2982,8 +2982,12 @@
 
   async function initServiceWorker() {
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      try { await navigator.serviceWorker.register('sw.js'); }
-      catch (err) { console.warn('Service worker not registered:', err); }
+      try {
+        const reg = await navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' });
+        await reg.update();
+      } catch (err) {
+        console.warn('Service worker not registered:', err);
+      }
     }
   }
 
