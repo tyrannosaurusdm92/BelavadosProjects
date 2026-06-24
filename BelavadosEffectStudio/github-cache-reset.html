@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Belavadös Cache Reset</title>
+  <style>
+    body{margin:0;min-height:100dvh;display:grid;place-items:center;background:#03161A;color:white;font-family:system-ui,sans-serif;text-align:center;padding:2rem}
+    main{max-width:680px;border:1px solid rgba(0,255,255,.45);border-radius:24px;padding:2rem;background:rgba(0,0,0,.35)}
+    a,button{display:inline-block;margin-top:1rem;border:1px solid #00ffff;border-radius:999px;background:#00ffff;color:#001e24;padding:.8rem 1rem;font-weight:800;text-decoration:none;cursor:pointer}
+    code{background:rgba(255,255,255,.12);padding:.15rem .35rem;border-radius:.4rem}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Belavadös cache reset</h1>
+    <p>This removes old service-worker/cache storage that can make GitHub Pages keep showing v1 after v2 has been uploaded.</p>
+    <p id="status">Ready.</p>
+    <button id="resetBtn" type="button">Clear old app cache and open v2</button>
+  </main>
+  <script>
+    async function clearOldAppCache(){
+      const status = document.getElementById('status');
+      status.textContent = 'Clearing service workers and Cache Storage…';
+      if ('serviceWorker' in navigator) {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map(reg => reg.unregister()));
+      }
+      if ('caches' in window) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map(key => caches.delete(key)));
+      }
+      status.textContent = 'Done. Opening the v2 shell…';
+      location.replace('./index.html?v=20260623-v2only-github-deploy-reset');
+    }
+    document.getElementById('resetBtn').addEventListener('click', clearOldAppCache);
+    clearOldAppCache().catch(err => { document.getElementById('status').textContent = 'Reset failed: ' + err.message; });
+  </script>
+</body>
+</html>
