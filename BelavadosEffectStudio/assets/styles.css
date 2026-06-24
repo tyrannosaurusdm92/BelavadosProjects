@@ -15,6 +15,7 @@
   --nav-dark: #03161A;
   --panel-dark: rgba(0, 30, 36, 0.92);
   --panel-dark-2: rgba(3, 22, 26, 0.96);
+  --panel: var(--panel-dark);
   --input-light: #DFFFFF;
   --input-dark: #00242B;
   --text-light: #FFFFFF;
@@ -621,4 +622,282 @@ textarea { resize: vertical; min-height: 74px; }
 .brush-cursor.mote-cursor {
   border-style: dotted;
   box-shadow: 0 0 16px rgba(232,255,255,.42);
+}
+
+
+/* --------------------------------------------------------------------------
+   UNIFIED PAINT/ADDTEXT SHELL LOCK
+   This block intentionally comes last. It removes desktop-vs-mobile layout
+   switching so GitHub, desktop preview, mobile, tablet, portrait, and rotated
+   views all use the same simple Microsoft Paint / AddText Android style shell.
+   All tools remain in the one movable drawer; no alternate responsive layout is
+   allowed to become active at larger or smaller breakpoints.
+-------------------------------------------------------------------------- */
+html, body {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+.unified-shell.app-shell,
+.app-shell.simple-shell {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-rows: auto minmax(0, 1fr) !important;
+  width: 100vw !important;
+  height: 100dvh !important;
+  min-height: 100dvh !important;
+  overflow: hidden !important;
+}
+.unified-shell .topbar,
+.app-shell.simple-shell .topbar {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  min-width: 0;
+  gap: clamp(.28rem, 1.5vw, .55rem);
+  padding-inline: max(.45rem, env(safe-area-inset-left, 0px));
+  padding-right: max(.45rem, env(safe-area-inset-right, 0px));
+}
+.unified-shell .brand-block,
+.app-shell.simple-shell .brand-block {
+  min-width: 0;
+}
+.unified-shell .brand-block strong,
+.app-shell.simple-shell .brand-block strong {
+  font-size: clamp(.9rem, 3.8vw, 1.2rem);
+}
+.unified-shell .brand-block span,
+.app-shell.simple-shell .brand-block span {
+  display: block !important;
+  font-size: clamp(.58rem, 2.1vw, .74rem);
+}
+.unified-shell .top-actions,
+.app-shell.simple-shell .top-actions {
+  min-width: 0;
+  max-width: min(46vw, 520px);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.unified-shell .top-actions button,
+.app-shell.simple-shell .top-actions button {
+  flex: 0 0 auto;
+  min-height: 38px;
+  white-space: nowrap;
+}
+.unified-shell .workspace-wrap,
+.app-shell.simple-shell .workspace-wrap {
+  grid-column: 1 !important;
+  grid-row: 2 !important;
+  width: 100vw !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+.unified-shell .workspace,
+.app-shell.simple-shell .workspace {
+  inset: 0 !important;
+}
+.unified-shell .tool-drawer,
+.app-shell.simple-shell .tool-drawer {
+  position: fixed !important;
+  grid-column: auto !important;
+  grid-row: auto !important;
+  top: calc(clamp(52px, 10dvh, 72px) + var(--safe-top)) !important;
+  left: max(.45rem, env(safe-area-inset-left, 0px)) !important;
+  right: auto !important;
+  bottom: calc(64px + var(--safe-bottom)) !important;
+  width: clamp(296px, 94vw, 430px) !important;
+  max-width: calc(100vw - .9rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)) !important;
+  height: auto !important;
+  min-width: min(92vw, 296px) !important;
+  min-height: 260px !important;
+  max-height: calc(100dvh - 128px - var(--safe-top) - var(--safe-bottom)) !important;
+  transform: translateX(0) !important;
+  border: 2px solid var(--line-light) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 16px 42px rgba(0,0,0,.58) !important;
+  resize: both;
+  overscroll-behavior: contain;
+}
+.unified-shell .tool-drawer.collapsed,
+.app-shell.simple-shell .tool-drawer.collapsed {
+  transform: translateX(calc(-100% - 1rem)) !important;
+}
+.unified-shell .tool-drawer.is-floating,
+.app-shell.simple-shell .tool-drawer.is-floating {
+  position: fixed !important;
+  right: auto !important;
+  bottom: auto !important;
+  width: min(94vw, 430px);
+  height: min(78dvh, 760px);
+  max-width: calc(100vw - .5rem) !important;
+  max-height: calc(100dvh - .5rem - var(--safe-bottom)) !important;
+  resize: both;
+  transform: none !important;
+}
+.unified-shell .palette-titlebar,
+.app-shell.simple-shell .palette-titlebar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.unified-shell .mode-strip,
+.app-shell.simple-shell .mode-strip {
+  display: flex !important;
+  grid-template-columns: none !important;
+  gap: .32rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+}
+.unified-shell .mode-strip button,
+.app-shell.simple-shell .mode-strip button {
+  flex: 0 0 48px;
+  min-width: 48px;
+  min-height: 46px;
+  scroll-snap-align: start;
+}
+.unified-shell .tool-grid.icon-grid,
+.app-shell.simple-shell .tool-grid.icon-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.unified-shell .button-row,
+.app-shell.simple-shell .button-row {
+  align-items: stretch;
+}
+.unified-shell .button-row > button,
+.app-shell.simple-shell .button-row > button,
+.unified-shell .button-row > .file-label,
+.app-shell.simple-shell .button-row > .file-label {
+  min-width: min(100%, 8.25rem);
+}
+.unified-shell .bottom-controls,
+.app-shell.simple-shell .bottom-controls {
+  position: fixed !important;
+  left: max(.45rem, env(safe-area-inset-left, 0px)) !important;
+  right: max(.45rem, env(safe-area-inset-right, 0px)) !important;
+  bottom: calc(.45rem + var(--safe-bottom)) !important;
+  width: auto !important;
+  max-width: none !important;
+  display: flex !important;
+  grid-auto-flow: unset !important;
+  grid-auto-columns: unset !important;
+  justify-content: flex-start;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.unified-shell .bottom-controls button,
+.app-shell.simple-shell .bottom-controls button {
+  flex: 0 0 auto;
+  min-width: 46px;
+  min-height: 42px;
+  white-space: nowrap;
+}
+.unified-shell .asset-grid,
+.app-shell.simple-shell .asset-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-height: min(42dvh, 360px);
+}
+.unified-shell .emoji-grid,
+.app-shell.simple-shell .emoji-grid {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.unified-shell .canvas-status,
+.app-shell.simple-shell .canvas-status {
+  top: .65rem;
+  left: auto;
+  right: .65rem;
+  max-width: min(92vw, 560px);
+}
+
+@media (max-width: 560px) {
+  .unified-shell .topbar,
+  .app-shell.simple-shell .topbar {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .unified-shell .top-actions,
+  .app-shell.simple-shell .top-actions {
+    grid-column: 1 / -1;
+    max-width: none;
+    width: 100%;
+  }
+  .unified-shell .top-actions button,
+  .app-shell.simple-shell .top-actions button {
+    min-height: 36px;
+    padding-inline: .5rem;
+  }
+  .unified-shell .tool-drawer,
+  .app-shell.simple-shell .tool-drawer {
+    top: calc(clamp(86px, 15dvh, 108px) + var(--safe-top)) !important;
+    width: calc(100vw - .9rem) !important;
+    max-height: calc(100dvh - 160px - var(--safe-top) - var(--safe-bottom)) !important;
+  }
+  .unified-shell .tool-grid.icon-grid,
+  .app-shell.simple-shell .tool-grid.icon-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .unified-shell .asset-grid,
+  .app-shell.simple-shell .asset-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .unified-shell .canvas-status,
+  .app-shell.simple-shell .canvas-status {
+    left: .55rem;
+    right: .55rem;
+    text-align: center;
+    font-size: .76rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  .unified-shell .topbar,
+  .app-shell.simple-shell .topbar {
+    padding-block: calc(.28rem + var(--safe-top)) .28rem;
+  }
+  .unified-shell .brand-block span,
+  .app-shell.simple-shell .brand-block span {
+    display: none !important;
+  }
+  .unified-shell .top-actions button,
+  .app-shell.simple-shell .top-actions button,
+  .unified-shell .bottom-controls button,
+  .app-shell.simple-shell .bottom-controls button {
+    min-height: 34px;
+  }
+  .unified-shell .tool-drawer,
+  .app-shell.simple-shell .tool-drawer {
+    top: calc(48px + var(--safe-top)) !important;
+    bottom: calc(50px + var(--safe-bottom)) !important;
+    width: min(58vw, 430px) !important;
+    max-height: calc(100dvh - 102px - var(--safe-top) - var(--safe-bottom)) !important;
+  }
+  .unified-shell .asset-grid,
+  .app-shell.simple-shell .asset-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-height: 34dvh;
+  }
+}
+
+@media (min-width: 900px) {
+  .unified-shell .tool-drawer,
+  .app-shell.simple-shell .tool-drawer {
+    width: 430px !important;
+  }
+  .unified-shell .bottom-controls,
+  .app-shell.simple-shell .bottom-controls {
+    left: 50% !important;
+    right: auto !important;
+    width: min(920px, calc(100vw - 1.4rem)) !important;
+    transform: translateX(-50%);
+  }
 }

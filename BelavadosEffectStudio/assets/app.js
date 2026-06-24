@@ -659,7 +659,7 @@
     const includeFrames = options.includeFrames !== false;
     return {
       app: 'Belavados Effect Studio',
-      version: '2026.06.mobile-first-assets-and-overlays',
+      version: '2026.06.unified-paint-shell-all-viewports',
       savedAt: new Date().toISOString(),
       backendAction: 'saveEffectStudioProject',
       width: state.width,
@@ -2549,10 +2549,10 @@
     const showPanel = (id) => {
       document.querySelectorAll('.tool-panel').forEach((p) => p.classList.toggle('active-panel', p.id === id));
       document.querySelectorAll('[data-panel]').forEach((b) => b.classList.toggle('active', b.dataset.panel === id));
-      if (window.matchMedia('(max-width: 979px)').matches) {
-        els.toolDrawer.classList.remove('collapsed');
-        els.toggleTools?.setAttribute('aria-expanded', 'true');
-      }
+      // Same shell on desktop, tablet, mobile, portrait, and rotated views:
+      // choosing a tool panel always opens the movable Paint/AddText-style menu.
+      els.toolDrawer.classList.remove('collapsed');
+      els.toggleTools?.setAttribute('aria-expanded', 'true');
     };
     document.querySelectorAll('[data-panel]').forEach((btn) => btn.addEventListener('click', () => showPanel(btn.dataset.panel)));
   }
