@@ -118,11 +118,71 @@ function populateSelects(){
     if(!classSel.options.length) ['merchant','warrior','bard','cleric','mage','rogue','ranger','scholar','artisan','farmer','scout'].forEach(x=>option(classSel,x,x));
   }
   if(accentSel && !accentSel.value && DATA.biomes?.[0]) accentSel.value = DATA.biomes[0].id;
+  populateVoiceAssetSelect();
+}
+function allModelAssetOptions(){
+  const rows=[];
+  (DATA.biomes||[]).forEach(function(b){
+    (b.modelChoices||[]).forEach(function(m){
+      rows.push({kind:'main-accent', biomeId:b.id, biome:b.biome, fantasyAccentName:b.fantasyAccentName, baseAccentInspiration:b.baseAccentInspiration, manifestPath:b.manifestPath, model:m});
+    });
+  });
+  (DATA.combinations||[]).forEach(function(c){
+    rows.push({kind:'crossover', comboId:c.id, biomeIds:c.biomeIds||[], fantasyAccentName:c.accentBlendName, baseAccentInspiration:c.diversityType||'three-biome crossover', manifestPath:c.manifestPath || ('voice-models/biome-crossovers/'+(c.folderName||c.accentBlendName||c.id)+'/manifest.json'), model:{id:c.id, label:c.accentBlendName || c.id, engine:'weighted-crossover', assetType:'manifest-pointer', status:'manifest-pointer'}});
+  });
+  return rows;
+}
+function optionValueForAsset(row){ return JSON.stringify({kind:row.kind, biomeId:row.biomeId||'', comboId:row.comboId||'', modelId:row.model?.id||'', manifestPath:row.manifestPath||'', pathHint:row.model?.pathHint||''}); }
+function parseSelectedAsset(){
+  const sel=$('voiceAssetSelect');
+  if(!sel || !sel.value) return null;
+  try{return JSON.parse(sel.value);}catch(e){return {raw:sel.value};}
+}
+function populateVoiceAssetSelect(){
+  const sel=$('voiceAssetSelect'); if(!sel) return;
+  const old=sel.value;
+  sel.innerHTML='';
+  option(sel,'','Choose a packaged model/reference route or use uploaded/pasted audio');
+  const groups={};
+  allModelAssetOptions().forEach(function(row){
+    const groupName = row.kind==='crossover' ? 'Three-biome crossover manifests' : (row.fantasyAccentName + ' — ' + (row.baseAccentInspiration||row.biome||''));
+    if(!groups[groupName]){ groups[groupName]=document.createElement('optgroup'); groups[groupName].label=groupName; sel.appendChild(groups[groupName]); }
+    const o=document.createElement('option');
+    o.value=optionValueForAsset(row);
+    o.textContent=(row.kind==='crossover' ? 'Crossover manifest' : (row.model?.label||row.model?.id||'Model pointer')) + (row.model?.engine ? ' · '+row.model.engine : '');
+    groups[groupName].appendChild(o);
+  });
+  if(Array.from(sel.options).some(o=>o.value===old)) sel.value=old;
+}
+function selectedAudioAsset(){
+  const direct=($('voiceAssetUrl')?.value||'').trim();
+  const chosen=parseSelectedAsset();
+  const upload=$('voiceLabFile')?.files?.[0] || null;
+  const selection=chosen ? allModelAssetOptions().find(function(row){
+    return (chosen.kind===row.kind) && (!chosen.biomeId || chosen.biomeId===row.biomeId) && (!chosen.comboId || chosen.comboId===row.comboId) && (!chosen.modelId || chosen.modelId===row.model?.id);
+  }) : null;
+  return {directUrl:direct, uploadedFileName:upload ? upload.name : '', selected:selection||chosen||null, playableUrl:direct || '', permissionRequired:['own_voice','licensed_actor','public_domain_character_asset','synthetic_original'], unknownAssetPolicy:'blocked_until_labeled'};
+}
+function updateSelectedAssetUi(){
+  const audio=$('voiceLabAudio');
+  const box=$('voiceSelectedAssetText');
+  const asset=selectedAudioAsset();
+  if(asset.directUrl && audio){ audio.src=asset.directUrl; audio.load(); }
+  else if(audio && !asset.uploadedFileName){ audio.removeAttribute('src'); }
+  if(box){
+    const sel=asset.selected;
+    const title=sel?.fantasyAccentName || sel?.model?.label || sel?.modelId || 'No packaged asset selected';
+    const path=sel?.model?.pathHint || sel?.manifestPath || asset.directUrl || '';
+    box.innerHTML='<strong>'+esc(title)+'</strong><br><span class="voice-lab-small">'+esc(path || 'Use the dropdown, upload control, or pasted URL. Packaged model pointers are routed to the locked backend; direct/uploaded audio previews locally when playable.')+'</span>';
+  }
+  return asset;
 }
 function renderAccentProfile(){
   const b = byBiomeId[$('csAccentProfileSelect')?.value] || selectedVoiceBiome() || DATA.biomes?.[0]; if(!b) return;
   state.selectedAccentId = b.id;
   const modelSel=$('csSingleModelSelect'); if(modelSel){ modelSel.innerHTML=''; (b.modelChoices||[]).forEach(m=>option(modelSel,m.id,`${m.label || m.id} (${m.engine || 'reference'})`)); }
+  populateVoiceAssetSelect();
+  updateSelectedAssetUi();
   const card=$('csAccentProfileCard'); if(card) card.innerHTML = `<strong>${esc(b.fantasyAccentName)}</strong><br>Base inspiration: ${esc(b.baseAccentInspiration)}<br>Biome: ${esc(b.biome)}<br>Race behavior: ${esc(b.raceOverlayBehavior)}<br>Class behavior: ${esc(b.classOverlayBehavior)}<br>Feel: ${esc(b.finalVoiceFeel)}`;
   if(!state.selectedCombo && !state.layers.length) resetLayersFromBiomes([b.id]);
   updateAll();
@@ -193,7 +253,7 @@ function buildPayload(){
   const profile = collectSliderValuesFromDom();
   const layers = normalizedLayers();
   const primary = byBiomeId[state.selectedAccentId] || selectedVoiceBiome() || DATA.biomes?.[0] || {};
-  const payload = { schema:'belavados.characterStudio.voiceWorldProfile.v3', source:'character-studio-page-3-and-page-2-sheet', generatedAt:new Date().toISOString(), text:getTextLine(), forceEnglishOutput:true, selectedAccent:{biomeId:primary.id, fantasyAccentName:primary.fantasyAccentName, baseAccentInspiration:primary.baseAccentInspiration}, selectedCrossover: state.selectedCombo ? {id:state.selectedCombo.id, accentBlendName:state.selectedCombo.accentBlendName, biomeIds:state.selectedCombo.biomeIds, diversityType:state.selectedCombo.diversityType} : null, layers, enabledLayers: layers.filter(l=>l.enabled&&l.normalizedWeight>0), voiceProfile:profile, internalParameters:internalParameters(profile), overlays:{race:selectedRaceOverlay(), className:selectedClassOverlay()}, characterContext:characterContext(), safety:{allowedAssetPermissionTypes:['own_voice','licensed_actor','public_domain_character_asset','synthetic_original'], unknownAssetsBlocked:true}, transport:{oneActiveClipOnly:true, controls:['play_resume','pause','stop','rewind_5_seconds','forward_5_seconds']}, backendAction:'voice.jobs.create' };
+  const payload = { schema:'belavados.characterStudio.voiceWorldProfile.v4', source:'character-studio-page-3-and-page-2-sheet', generatedAt:new Date().toISOString(), text:getTextLine(), forceEnglishOutput:true, lockedBackend:{url:BACKEND_URL, mutable:false, reason:'character-studio-voice-assets'}, selectedAccent:{biomeId:primary.id, fantasyAccentName:primary.fantasyAccentName, baseAccentInspiration:primary.baseAccentInspiration}, selectedCrossover: state.selectedCombo ? {id:state.selectedCombo.id, accentBlendName:state.selectedCombo.accentBlendName, biomeIds:state.selectedCombo.biomeIds, diversityType:state.selectedCombo.diversityType} : null, layers, enabledLayers: layers.filter(l=>l.enabled&&l.normalizedWeight>0), selectedAudio:selectedAudioAsset(), voiceProfile:profile, internalParameters:internalParameters(profile), overlays:{race:selectedRaceOverlay(), className:selectedClassOverlay()}, characterContext:characterContext(), safety:{allowedAssetPermissionTypes:['own_voice','licensed_actor','public_domain_character_asset','synthetic_original'], unknownAssetsBlocked:true}, transport:{oneActiveClipOnly:true, controls:['play_resume','pause','stop','rewind_5_seconds','forward_5_seconds']}, backendAction:'voice.jobs.create' };
   state.lastPayload=payload; return payload;
 }
 function renderPayload(){
@@ -242,17 +302,21 @@ function wireAudio(){
   });
   const audio=$('voiceLabAudio');
   const bind=(id,fn)=>{ const el=$(id); if(el && !el.dataset.voiceWorldBound){ el.dataset.voiceWorldBound='1'; el.addEventListener('click', ev=>{ev.preventDefault(); ev.stopPropagation(); fn();}, true); }};
-  bind('voicePlayAssetBtn',()=>{ if(audio){ stopOtherMedia(audio); audio.play().catch(()=>setStatus('No playable audio asset loaded.')); }});
+  const upload=$('voiceLabFile');
+  if(upload && !upload.dataset.voiceWorldFileBound){ upload.dataset.voiceWorldFileBound='1'; upload.addEventListener('change',()=>{ const f=upload.files&&upload.files[0]; if(f&&audio){ audio.src=URL.createObjectURL(f); audio.load(); setStatus('Uploaded audio asset loaded for preview.'); updateSelectedAssetUi(); } }); }
+  bind('voicePlayAssetBtn',()=>{ updateSelectedAssetUi(); if(audio){ stopOtherMedia(audio); audio.play().catch(()=>setStatus('No playable audio asset loaded. Packaged model pointers still export and send to the locked backend.')); }});
   bind('voicePauseAssetBtn',()=>audio&&audio.pause()); bind('voiceStopAssetBtn',()=>{ if(audio){audio.pause();audio.currentTime=0;} }); bind('voiceRewindAssetBtn',()=>{ if(audio) audio.currentTime=Math.max(0,audio.currentTime-5); }); bind('voiceForwardAssetBtn',()=>{ if(audio) audio.currentTime=Math.min(audio.duration||audio.currentTime+5,audio.currentTime+5); });
   bind('voiceSpeakTypedBtn',()=>speak()); bind('speakPreviewBtn',()=>speak()); bind('forgeSpeakPreviewBtn',()=>speak()); bind('voicePauseSpeechBtn',pause); bind('voiceResumeSpeechBtn',resume); bind('voiceRestartSpeechBtn',()=>{state.speech.wordIndex=0;speak({wordIndex:0});}); bind('voiceStopSpeechBtn',stop); bind('stopSpeakBtn',stop); bind('csVoiceRewindSpeechBtn',()=>seekSpeech(-5)); bind('csVoiceForwardSpeechBtn',()=>seekSpeech(5));
 }
 function updateSheetPanel(payload){
   const frame=$('characterSheetFrame'); if(!frame) return;
-  let doc=null; try{ doc=frame.contentDocument; }catch(e){ return; }
-  if(!doc || !doc.body) return;
-  let panel=doc.getElementById('characterStudioVoiceWorldSheetPanel');
-  if(!panel){ panel=doc.createElement('section'); panel.id='characterStudioVoiceWorldSheetPanel'; panel.className='voice-world-sheet-panel'; doc.body.insertBefore(panel, doc.body.firstChild); }
-  panel.innerHTML = `<h2>Character Voice + Biome Cache</h2><p>${esc(payload.selectedCrossover?.accentBlendName || payload.selectedAccent?.fantasyAccentName || 'No voice selected')}</p><p>${payload.enabledLayers.map(l=>`<span class="voice-world-pill">${esc(l.fantasyAccentName)} ${(l.normalizedWeight*100).toFixed(1)}%</span>`).join('')}</p><p><strong>Line:</strong> ${esc(payload.text)}</p><p><strong>Race/Class:</strong> ${esc(payload.characterContext.race || payload.overlays.race)} / ${esc(payload.characterContext.className || payload.overlays.className)}</p>`;
+  let root=frame;
+  try{ if(frame.contentDocument && frame.contentDocument.body) root=frame.contentDocument.body; }catch(e){ root=frame; }
+  if(!root) return;
+  let panel=root.querySelector ? root.querySelector('#characterStudioVoiceWorldSheetPanel') : null;
+  const owner=root.ownerDocument || document;
+  if(!panel){ panel=owner.createElement('section'); panel.id='characterStudioVoiceWorldSheetPanel'; panel.className='voice-world-sheet-panel'; root.insertBefore(panel, root.firstChild || null); }
+  panel.innerHTML = `<h2>Character Voice + Biome Cache</h2><p>${esc(payload.selectedCrossover?.accentBlendName || payload.selectedAccent?.fantasyAccentName || 'No voice selected')}</p><p>${payload.enabledLayers.map(l=>`<span class="voice-world-pill">${esc(l.fantasyAccentName)} ${(l.normalizedWeight*100).toFixed(1)}%</span>`).join('')}</p><p><strong>Line:</strong> ${esc(payload.text)}</p><p><strong>Race/Class:</strong> ${esc(payload.characterContext.race || payload.overlays.race)} / ${esc(payload.characterContext.className || payload.overlays.className)}</p><p><strong>Asset route:</strong> ${esc(payload.selectedAudio?.selected?.manifestPath || payload.selectedAudio?.selected?.model?.pathHint || payload.selectedAudio?.directUrl || 'Browser speech / backend model pointer')}</p>`;
 }
 async function sendVoiceJob(){
   const payload=buildPayload(); setStatus('Sending voice job...');
@@ -271,15 +335,15 @@ function registerAdapter(){
   window.makeVoiceExport = function(){ return buildPayload(); };
   window.buildVoiceProfile = function(){ renderPayload(); return buildPayload(); };
   window.speakPreview = function(){ return speak(); };
-  window.BelavadosCharacterVoiceWorld = {data:DATA, state, buildPayload, sendVoiceJob, speak, pause, resume, stop, seekSpeech};
+  window.BelavadosCharacterVoiceWorld = {data:DATA, state, buildPayload, sendVoiceJob, speak, pause, resume, stop, seekSpeech, populateVoiceAssetSelect, selectedAudioAsset};
 }
 function wireControls(){
   const bind=(id,fn,event='click')=>{ const el=$(id); if(el && !el.dataset.voiceWorldAction){el.dataset.voiceWorldAction='1';el.addEventListener(event,fn);} };
-  bind('csAddBiomeCache',()=>addBiomeToCache($('csVoiceBiomeCacheSelect')?.value)); bind('csClearBiomeCache',()=>{state.cache=[];state.selectedCombo=null;resetLayersFromBiomes([state.selectedAccentId||selectedVoiceBiome()?.id]);renderCache();updateAll();}); bind('csPullCharacterBiome',()=>addBiomeToCache(selectedVoiceBiome()?.id)); bind('csAccentProfileSelect',renderAccentProfile,'change'); bind('csSingleModelSelect',updateAll,'change'); bind('csVoiceRaceOverlay',updateAll,'change'); bind('csVoiceClassOverlay',updateAll,'change'); bind('csNormalizeLayers',normalizeLayersTo100); bind('csResetLayers',()=>{resolveComboFromCache();renderCache();updateAll();}); bind('csBuildVoicePayload',()=>{renderPayload();setStatus('Voice payload built.');}); bind('csSendVoiceJob',sendVoiceJob); bind('csSaveVoicePreset',savePreset); bind('csLoadVoicePreset',loadPreset);
+  bind('csAddBiomeCache',()=>addBiomeToCache($('csVoiceBiomeCacheSelect')?.value)); bind('csClearBiomeCache',()=>{state.cache=[];state.selectedCombo=null;resetLayersFromBiomes([state.selectedAccentId||selectedVoiceBiome()?.id]);renderCache();updateAll();}); bind('csPullCharacterBiome',()=>addBiomeToCache(selectedVoiceBiome()?.id)); bind('csAccentProfileSelect',renderAccentProfile,'change'); bind('csSingleModelSelect',updateAll,'change'); bind('csVoiceRaceOverlay',updateAll,'change'); bind('csVoiceClassOverlay',updateAll,'change'); bind('csNormalizeLayers',normalizeLayersTo100); bind('csResetLayers',()=>{resolveComboFromCache();renderCache();updateAll();}); bind('csBuildVoicePayload',()=>{renderPayload();setStatus('Voice payload built.');}); bind('csSendVoiceJob',sendVoiceJob); bind('csSaveVoicePreset',savePreset); bind('csLoadVoicePreset',loadPreset); bind('voiceFindMatchingAssetBtn',()=>{populateVoiceAssetSelect();updateSelectedAssetUi();renderPayload();setStatus('Matching voice assets refreshed from the locked model registry.');}); bind('voiceAssetSelect',()=>{updateSelectedAssetUi();updateAll(false);},'change'); bind('voiceAssetUrl',()=>{updateSelectedAssetUi();updateAll(false);},'input');
   ['voiceLabText','previewText','voiceName','voiceRace','voiceGender','voiceClass','voiceSubclass','voiceBiome','voiceNotes','characterName','raceSelect','primaryClass','primarySubclass'].forEach(id=>{ const el=$(id); if(el && !el.dataset.voiceWorldInput){ el.dataset.voiceWorldInput='1'; el.addEventListener('input',()=>updateAll(false)); el.addEventListener('change',()=>{ if(id==='voiceBiome'){ const b=selectedVoiceBiome(); if(b&&$('csAccentProfileSelect')) $('csAccentProfileSelect').value=b.id; renderAccentProfile(); } else updateAll(false); }); }});
 }
 function init(){
-  ensureUi(); populateSelects(); state.sliderValues=Object.assign(defaultProfile(), state.sliderValues); renderSliders(); renderAccentProfile(); renderCache(); wireControls(); wireAudio(); registerAdapter(); renderPayload();
+  ensureUi(); populateSelects(); state.sliderValues=Object.assign(defaultProfile(), state.sliderValues); renderSliders(); renderAccentProfile(); renderCache(); wireControls(); wireAudio(); registerAdapter(); const payload=renderPayload(); updateSelectedAssetUi(); updateSheetPanel(payload);
   const frame=$('characterSheetFrame'); if(frame && !frame.dataset.voiceWorldSheetBound){ frame.dataset.voiceWorldSheetBound='1'; frame.addEventListener('load',()=>setTimeout(()=>updateSheetPanel(buildPayload()),250)); }
   setStatus('Character Studio Voice World ready.');
 }
