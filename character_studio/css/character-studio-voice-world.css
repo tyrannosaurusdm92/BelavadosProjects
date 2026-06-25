@@ -8,3 +8,15 @@
 .voice-world-layer{border:1px solid #aaa;padding:10px;margin:8px 0;background:#fff}.voice-world-layer header{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:8px}.voice-world-layer.disabled{opacity:.55}.voice-world-layer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px;align-items:end}@media(max-width:900px){.voice-world-layer-grid{grid-template-columns:1fr}}
 .voice-world-readout{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.82rem;white-space:pre-wrap;max-height:340px;overflow:auto;background:#fff;border:1px solid #999;padding:10px}
 .voice-world-mini{font-size:.88rem}.voice-world-status{border:1px dashed #777;padding:8px;margin-top:8px;background:#fff}.voice-world-slider-meta{font-size:.78rem;font-weight:400}.voice-world-sheet-panel{border:2px solid #222;padding:10px;margin:10px 0;background:#fff}.voice-world-sheet-panel h2{margin:0 0 8px}.voice-world-pill{display:inline-block;border:1px solid #777;padding:2px 6px;margin:2px;background:#fff}.voice-world-secure-note{font-size:.86rem}.voice-world-card select,.voice-world-card input,.voice-world-card textarea{background:#fff!important;color:#000!important}.voice-world-card button{background:#fff;color:#111;border:1px solid #555}
+
+
+/* v4 readability repair: Page 3 generated voice world cards must not squeeze controls into unusable columns. */
+.voice-world-card.voice-world-cache-card,
+.voice-world-card.voice-world-mixer-card,
+.voice-world-card.voice-world-payload-card{grid-column:1/-1;}
+.voice-world-card.voice-world-base-card,
+.voice-world-card.voice-world-influence-card,
+.voice-world-card.voice-world-backend-card{grid-column:span 6;}
+.voice-world-card{min-width:0;overflow-wrap:anywhere;}
+.voice-world-actions button{white-space:normal;}
+@media(max-width:900px){.voice-world-card.voice-world-base-card,.voice-world-card.voice-world-influence-card,.voice-world-card.voice-world-backend-card{grid-column:1/-1;}}
