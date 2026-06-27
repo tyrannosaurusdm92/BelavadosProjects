@@ -1,0 +1,5 @@
+Poly-Gender
+
+No uploaded source file explicitly identified any speaker/file with this exact gender identity.
+This folder is kept because it was part of the requested identity taxonomy.
+I did not infer this identity from voice, name, accent, sex labels, or presentation.
