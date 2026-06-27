@@ -1,0 +1,25 @@
+{
+  "built": "2026-06-25T18:25:10",
+  "source_inputs": [
+    {
+      "name": "Singular_Accent_Atlas_PART_1_of_2.zip",
+      "path": "/mnt/data/Singular_Accent_Atlas_PART_1_of_2.zip"
+    },
+    {
+      "name": "Singular_Accent_Atlas_PART_2_of_2.zip",
+      "path": "/mnt/data/Singular_Accent_Atlas_PART_2_of_2.zip"
+    },
+    {
+      "name": "Vocal_Audio_Voice_Model_Atlas_Merged.tar.gz",
+      "path": "/mnt/data/Vocal_Audio_Voice_Model_Atlas_Merged.tar.gz"
+    }
+  ],
+  "copied_accent_files": 1200,
+  "accent_gender_index_files": 43,
+  "flattened_vocal_source_files": 3336,
+  "notes": [
+    "Vocal source files were flattened to avoid Windows path-length failures; see vocal_source_path_map.csv.",
+    "Derived vocal hardlink views from the previous atlas are represented by manifests/docs instead of duplicating all bytes again in ZIP form.",
+    "Accent region atlas and gender identity sort from the prior accent atlas are physically included."
+  ]
+}

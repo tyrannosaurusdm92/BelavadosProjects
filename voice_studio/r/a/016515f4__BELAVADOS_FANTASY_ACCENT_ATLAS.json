@@ -1,0 +1,230 @@
+{
+  "purpose": "Belavados fantasy accent atlas/routing reference, added alongside the preserved uploaded source files.",
+  "note": "This is a generated routing/reference file, not an original uploaded repository file.",
+  "fantasy_accent_regions": [
+    {
+      "fantasy_name": "Tidecrest Cant",
+      "real_world_influence": "Portuguese",
+      "region": "Ocean Surface floating settlement",
+      "biome": "Ocean"
+    },
+    {
+      "fantasy_name": "Reefglass Lilt",
+      "real_world_influence": "Japanese",
+      "region": "Underwater with reefs",
+      "biome": "Ocean"
+    },
+    {
+      "fantasy_name": "Tidemurk Drift",
+      "real_world_influence": "Thai",
+      "region": "Underwater without reefs",
+      "biome": "Ocean"
+    },
+    {
+      "fantasy_name": "Meadowrise Tone",
+      "real_world_influence": "Welsh",
+      "region": "Grassland",
+      "biome": "Plains"
+    },
+    {
+      "fantasy_name": "Windplain Drawl",
+      "real_world_influence": "Russian",
+      "region": "Prairie",
+      "biome": "Plains"
+    },
+    {
+      "fantasy_name": "Hearthfold Bend",
+      "real_world_influence": "English West Country",
+      "region": "Farming",
+      "biome": "Plains"
+    },
+    {
+      "fantasy_name": "Highcliff Brogue",
+      "real_world_influence": "Scottish",
+      "region": "Mountain range",
+      "biome": "Mountains"
+    },
+    {
+      "fantasy_name": "Vale Serenata",
+      "real_world_influence": "Italian",
+      "region": "Valley",
+      "biome": "Mountains"
+    },
+    {
+      "fantasy_name": "Cavernstone Tone",
+      "real_world_influence": "Welsh",
+      "region": "Deep cavern",
+      "biome": "Mountains"
+    },
+    {
+      "fantasy_name": "Hollowbloom Tongue",
+      "real_world_influence": "German",
+      "region": "Deep forest",
+      "biome": "Forest"
+    },
+    {
+      "fantasy_name": "Canopy Chant",
+      "real_world_influence": "French",
+      "region": "Treetops-treehouses",
+      "biome": "Forest"
+    },
+    {
+      "fantasy_name": "Mirecreole Flow",
+      "real_world_influence": "Cajun/Creole",
+      "region": "Marshes and swamps",
+      "biome": "Forest"
+    },
+    {
+      "fantasy_name": "Shoalway Talk",
+      "real_world_influence": "Hawaiian-influenced",
+      "region": "Beach & grass with water",
+      "biome": "Hybrid"
+    },
+    {
+      "fantasy_name": "Reefshore Blend",
+      "real_world_influence": "Portuguese + Hawaiian",
+      "region": "Beach & reefs with water",
+      "biome": "Hybrid"
+    },
+    {
+      "fantasy_name": "Rootpath Lilt",
+      "real_world_influence": "English West Country",
+      "region": "Hybrid tree & forest floor",
+      "biome": "Hybrid"
+    },
+    {
+      "fantasy_name": "Meadowgrove Mix",
+      "real_world_influence": "Mixed",
+      "region": "Hybrid farming forest grassland",
+      "biome": "Hybrid"
+    }
+  ],
+  "npc_gender_accent_routes": [
+    {
+      "identity": "Gender-Flexible",
+      "npc": "Joeari Ravenwood",
+      "region": "Deep cavern",
+      "accent": "Cavernstone Tone",
+      "influence": "Welsh"
+    },
+    {
+      "identity": "Demi-Female",
+      "npc": "Ghearir’iel Luneglen",
+      "region": "Treetops-treehouses",
+      "accent": "Canopy Chant",
+      "influence": "French"
+    },
+    {
+      "identity": "Non-Binary",
+      "npc": "Thalenael Silverthorn",
+      "region": "Deep forest",
+      "accent": "Hollowbloom Tongue",
+      "influence": "German"
+    },
+    {
+      "identity": "Gender-Less",
+      "npc": "Nimu’dri Ironvault",
+      "region": "Deep cavern",
+      "accent": "Cavernstone Tone",
+      "influence": "Welsh"
+    },
+    {
+      "identity": "Bi-Gender",
+      "npc": "Ro’sabin Merryroot",
+      "region": "Hybrid tree & forest floor",
+      "accent": "Rootpath Lilt",
+      "influence": "English West Country"
+    },
+    {
+      "identity": "Cis-Male",
+      "npc": "Urg-U’rgugar Mudgrip",
+      "region": "Prairie",
+      "accent": "Windplain Drawl",
+      "influence": "Russian"
+    },
+    {
+      "identity": "Trans-Male",
+      "npc": "Valk-Minoorvar Thunderheft",
+      "region": "Mountain range",
+      "accent": "Highcliff Brogue",
+      "influence": "Scottish"
+    },
+    {
+      "identity": "Poly-Gender",
+      "npc": "Kethazzun Clawcoil",
+      "region": "Beach & reefs with water",
+      "accent": "Reefshore Blend",
+      "influence": "Portuguese + Hawaiian"
+    },
+    {
+      "identity": "Agender",
+      "npc": "Veyielven Asharchf",
+      "region": "Treetops-treehouses",
+      "accent": "Canopy Chant",
+      "influence": "French"
+    },
+    {
+      "identity": "Trans-Female",
+      "npc": "Nefumlith Duskendirge",
+      "region": "Marshes and swamps",
+      "accent": "Mirecreole Flow",
+      "influence": "Cajun/Creole"
+    },
+    {
+      "identity": "Gender-Fluid",
+      "npc": "Tyrylina Mirthwink",
+      "region": "Valley",
+      "accent": "Vale Serenata",
+      "influence": "Italian"
+    },
+    {
+      "identity": "Demi-Male",
+      "npc": "Sto’neudor Stormbreath",
+      "region": "Ocean Surface floating settlement",
+      "accent": "Tidecrest Cant",
+      "influence": "Portuguese"
+    },
+    {
+      "identity": "Neutrois",
+      "npc": "Arcorven Brasslock",
+      "region": "Deep cavern",
+      "accent": "Cavernstone Tone",
+      "influence": "Welsh"
+    },
+    {
+      "identity": "Cis-Female",
+      "npc": "Canielina Dennose",
+      "region": "Deep forest",
+      "accent": "Hollowbloom Tongue",
+      "influence": "German"
+    }
+  ],
+  "uploaded_source_coverage_observed": {
+    "has_direct_files_for": [
+      "Accent_Prediction_Global",
+      "British_Isles_Mixed",
+      "CommonAccent_Global_Metadata",
+      "English_British",
+      "Global_Multi_Accent",
+      "Irish",
+      "Mandarin",
+      "Russian",
+      "Scottish",
+      "Spanish",
+      "Synthetic_Call_Center_Global",
+      "Thai",
+      "Welsh"
+    ],
+    "not_directly_present_as_source_assets_but_in_fantasy_atlas": [
+      "Portuguese",
+      "Japanese",
+      "English West Country",
+      "Italian",
+      "German",
+      "French",
+      "Cajun/Creole",
+      "Hawaiian",
+      "Mixed_Hybrid"
+    ]
+  }
+}
