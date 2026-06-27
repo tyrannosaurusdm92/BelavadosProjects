@@ -1,0 +1,1467 @@
+[
+  {
+    "categoryId": "humans_near_humans_and_mixed_heritage",
+    "category": "Humans, Near-Humans, and Mixed Heritage",
+    "raceId": "human",
+    "race": "Human",
+    "lineages": []
+  },
+  {
+    "categoryId": "humans_near_humans_and_mixed_heritage",
+    "category": "Humans, Near-Humans, and Mixed Heritage",
+    "raceId": "half_elf",
+    "race": "Half-Elf",
+    "lineages": [
+      {
+        "id": "half_elf_high_elf_bloodline",
+        "name": "Half-Elf High Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / High Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: High Elves are scholarly and magically inclined elves who emphasize arcane study, civilization, and refined tradition. Their lineage is best represented by formal magical education, arcane cantrip traditions, and disciplined civic or scholastic culture."
+      },
+      {
+        "id": "half_elf_wood_elf_bloodline",
+        "name": "Half-Elf Wood Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Wood Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Wood Elves are reclusive, nature-bound elves of forests and wildlands, swift and perceptive in living ecosystems. Their lineage emphasizes fleet movement, forest masking, practical survival, and graceful hunting among trees, undergrowth, and moonlit wilderness."
+      },
+      {
+        "id": "half_elf_drow_underdark_elf_bloodline",
+        "name": "Half-Elf Drow (Underdark Elf)",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Drow (Underdark Elf). Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Drow are Underdark elves adapted to subterranean realms, harsh pressure, and societies shaped by secrecy or theocratic survival. Their lineage carries superior darkvision, drow magic, shadow familiarity, and instincts formed by darkness, spider symbolism, and underground danger."
+      },
+      {
+        "id": "half_elf_eladrin_bloodline",
+        "name": "Half-Elf Eladrin",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Eladrin. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Eladrin are fey-touched elves whose emotions and magical expression shift with seasons or states of feeling. Their lineage is defined by fey stepping, mutable grace, and close ties to the Feywild’s unstable beauty."
+      },
+      {
+        "id": "half_elf_astral_elf_bloodline",
+        "name": "Half-Elf Astral Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Astral Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Astral Elves carry a starborne perspective and innate ties to cosmic or psychic magic. Their lineage expresses astral fire, starlight movement, psychic discipline, and trance practices shaped by the Astral Plane."
+      },
+      {
+        "id": "half_elf_sea_elf_bloodline",
+        "name": "Half-Elf Sea Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Sea Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Sea Elves are aquatic elves adapted to life beneath waves, reefs, and sea-bound civilizations. Their lineage has swimming grace, current-reading, marine kinship, and deep bonds with ocean creatures and reef communities."
+      },
+      {
+        "id": "half_elf_shadar_kai_bloodline",
+        "name": "Half-Elf Shadar-Kai",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Shadar-Kai. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Shadar-Kai are shadow-bound elves hardened by bleak realms, despair, and entropy. Their lineage carries necrotic resilience, shadow familiarity, and a disciplined relationship with loss, memory, and the Raven Queen’s influence."
+      },
+      {
+        "id": "half_elf_pallid_elf_bloodline",
+        "name": "Half-Elf Pallid Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Pallid Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Pallid Elves are pale, fey-marked elves associated with luminous and uncanny wilderness. Their lineage emphasizes moonlit insight, incisive observation, curiosity, and subtle otherworldly perception."
+      },
+      {
+        "id": "half_elf_star_elf_lunar_heavenly_lineage_bloodline",
+        "name": "Half-Elf Star Elf (Lunar/Heavenly Lineage)",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Star Elf (Lunar/Heavenly Lineage). Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Star Elves are a lunar and heavenly elven lineage touched by celestial cycles, night magic, dreams, and prophecy. Their lunar inheritance may tug at tides, omens, and emotional currents while remaining rooted in astral fire, starlight movement, and moonlit divination."
+      },
+      {
+        "id": "half_elf_avariel_winged_elf_bloodline",
+        "name": "Half-Elf Avariel (Winged Elf)",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Avariel (Winged Elf). Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Avariel are rare winged elves whose bodies are adapted to flight, heights, and sky-bound enclaves. Their lineage emphasizes winged flight, aerial grace, wind-reading, and three-dimensional movement in mountain or aerial terrain."
+      },
+      {
+        "id": "half_elf_snow_elf_frostbound_elf_bloodline",
+        "name": "Half-Elf Snow Elf (Frostbound Elf)",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Snow Elf (Frostbound Elf). Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Snow Elves are frostbound elves adapted to arctic, glacial, and winter wilderness. Their lineage emphasizes cold endurance, frostbound movement, calm under hardship, and ancestral memory preserved through isolation and snow."
+      },
+      {
+        "id": "half_elf_sun_elf_bloodline",
+        "name": "Half-Elf Sun Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Sun Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Sun Elves are radiant, disciplined elves tied to daylight, order, and structured magical traditions. Their lineage emphasizes solar arcana, radiant discipline, heritage, perfection, and formal arcane mastery."
+      },
+      {
+        "id": "half_elf_moon_elf_bloodline",
+        "name": "Half-Elf Moon Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Moon Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Moon Elves are flexible wandering elves open to other cultures, adventures, and change. Their lineage emphasizes lunar adaptability and wanderer’s grace, and moonlit magic can influence tides, moods, and travel omens when their lunar heritage matters at the table."
+      },
+      {
+        "id": "half_elf_shadowmoor_elf_bloodline",
+        "name": "Half-Elf Shadowmoor Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Shadowmoor Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Shadowmoor Elves are shaped by lands of perpetual gloom and magical distortion. Their lineage emphasizes survivalist instincts, darkvision, shadow familiarity, and resilience in unstable magical environments."
+      },
+      {
+        "id": "half_elf_celestial_elf_bloodline",
+        "name": "Half-Elf Celestial Elf",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Celestial Elf. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Celestial Elves are elven people touched directly by divine or heavenly forces. Their lineage carries celestial resistance, healing light, sacred protection, and the social role of emissary, guardian, or chosen vessel."
+      },
+      {
+        "id": "half_elf_kaluseban_bloodline",
+        "name": "Half-Elf Kaluseban",
+        "description": "Half-elf bloodline option derived from Elf (Core Elves) / Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Kaluseban are elegant mana-bound people whose forms respond to ley lines, nature, moonlight, shadow, and ritual magic. As an elven-adjacent lineage in this category, they retain their own six internal bloodlines for fine-grained selection rather than being treated as a generic elf subtype."
+      },
+      {
+        "id": "half_elf_arcane_kaluseban_bloodline",
+        "name": "Half-Elf Arcane Kaluseban",
+        "description": "Half-elf bloodline option derived from Kaluseban / Arcane Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Arcane Kaluseban express luminous gold, ivory, or deep-violet beauty, glowing eyes, mana-lit hands, rune-marked garments, and scholarly ritual symmetry. They are drawn to ley lines, libraries, magical sites, diagrams, glyphs, and objects that can hold or channel spellwork. Their bloodline grants prestidigitation, detect magic, and later magic weapon or arcane lock, making them strong ritualists, warders, artificer-adjacent scholars, and arcane diplomats. They often frame Raeshkul and Sigrananna as paired forces of pattern and beauty."
+      },
+      {
+        "id": "half_elf_starborne_kaluseban_bloodline",
+        "name": "Half-Elf Starborne Kaluseban",
+        "description": "Half-elf bloodline option derived from Kaluseban / Starborne Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Starborne Kaluseban carry pale blue, silver, or amethyst skin, moonlit glow, weightless hair, celestial eyes, and an ethereal presence strongest under lunar or stellar light. They read dreams, omens, lunar phases, and celestial alignments, and their gifts include guidance, sleep, and augury. Many act as seers, dream interpreters, prophecy keepers, and guides between mortal and mystical realms. Their line often adds Sokhivar’s distant light and prophecy to Sigrananna’s moonlit grace."
+      },
+      {
+        "id": "half_elf_wildroot_kaluseban_bloodline",
+        "name": "Half-Elf Wildroot Kaluseban",
+        "description": "Half-elf bloodline option derived from Kaluseban / Wildroot Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Wildroot Kaluseban have earthy tones, barklike textures, vine-wrapped limbs, leaf patterns, mosslike or grasslike hair, and eyes that echo foliage or animal markings. They are attuned to flora, fauna, green ley lines, forests, sacred trees, soil, storms, and living groves. Their bloodline grants druidcraft, speak with animals, lesser restoration, and simple emotional communication with plants and beasts. They are natural forest wardens, healers, wilderness ritualists, and protectors of the places that keep Kaluseban vitality stable."
+      },
+      {
+        "id": "half_elf_tideborn_kaluseban_bloodline",
+        "name": "Half-Elf Tideborn Kaluseban",
+        "description": "Half-elf bloodline option derived from Kaluseban / Tideborn Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Tideborn Kaluseban show pearl-blue, aquamarine, dusky, or iridescent skin, underwater-current hair, deep-sea eyes, webbed fingers, and gill-like markings. They sense tides, currents, river memory, reef resonance, mist, rain, and living water, blending Sigrananna’s grace with Bastveig’s water memory. Their gifts include a swim speed, air and water breathing, shape water, fog cloud, and misty step flavored as spray or mist. They work well as river diplomats, reef envoys, tide ritualists, mist walkers, and guardians of aquatic ley places."
+      },
+      {
+        "id": "half_elf_stonebound_kaluseban_bloodline",
+        "name": "Half-Elf Stonebound Kaluseban",
+        "description": "Half-elf bloodline option derived from Kaluseban / Stonebound Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Stonebound Kaluseban carry granite, sandstone, muted moonstone, or crystalline skin tones, mineral-vein hair, rune-etched markings, and grounded movement. They sense rock resonance, minerals, caverns, pressure, tremors, and subterranean sacred places, and they often honor Horundar or Anubaldir depending on whether their culture reads stone as force or burden. Their gifts include mason’s tools or Religion, mold earth, shield, and warding bond without material components. They are protective warders, cavern priests, mountain envoys, shrine guardians, and ritual architects."
+      },
+      {
+        "id": "half_elf_umbral_kaluseban_bloodline",
+        "name": "Half-Elf Umbral Kaluseban",
+        "description": "Half-elf bloodline option derived from Kaluseban / Umbral Kaluseban. Use this when a Half-Elf character carries visible, cultural, magical, or ancestral traits from this elvish bloodline while remaining under the Humans, Near-Humans, and Mixed Heritage category. Source note: Umbral Kaluseban have shadowed skin, phosphorescent veins, engraved runes, shifting-symbol eyes, and clothing or movements designed for concealment. They are attuned to shadows, subterranean spaces, illusions, liminal places, forbidden transformations, and twilight bargains associated with Eirzunet’s dangerous inheritance. Their gifts include darkvision, minor illusion, disguise self, and darkness, with strong talent for stealth, observation, and subtle influence. They often become guardians of hidden paths, secret knowledge, cursed borders, or shadowed rituals where power must be handled carefully."
+      }
+    ]
+  },
+  {
+    "categoryId": "humans_near_humans_and_mixed_heritage",
+    "category": "Humans, Near-Humans, and Mixed Heritage",
+    "raceId": "half_orc",
+    "race": "Half-Orc",
+    "lineages": []
+  },
+  {
+    "categoryId": "humans_near_humans_and_mixed_heritage",
+    "category": "Humans, Near-Humans, and Mixed Heritage",
+    "raceId": "khoravar",
+    "race": "Khoravar",
+    "lineages": []
+  },
+  {
+    "categoryId": "humans_near_humans_and_mixed_heritage",
+    "category": "Humans, Near-Humans, and Mixed Heritage",
+    "raceId": "umbral_human",
+    "race": "Umbral Human",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "elf_core_elves",
+    "race": "Elf (Core Elves)",
+    "lineages": [
+      {
+        "id": "high_elf",
+        "name": "High Elf",
+        "description": "High Elves are scholarly and magically inclined elves who emphasize arcane study, civilization, and refined tradition. Their lineage is best represented by formal magical education, arcane cantrip traditions, and disciplined civic or scholastic culture."
+      },
+      {
+        "id": "wood_elf",
+        "name": "Wood Elf",
+        "description": "Wood Elves are reclusive, nature-bound elves of forests and wildlands, swift and perceptive in living ecosystems. Their lineage emphasizes fleet movement, forest masking, practical survival, and graceful hunting among trees, undergrowth, and moonlit wilderness."
+      },
+      {
+        "id": "drow_underdark_elf",
+        "name": "Drow (Underdark Elf)",
+        "description": "Drow are Underdark elves adapted to subterranean realms, harsh pressure, and societies shaped by secrecy or theocratic survival. Their lineage carries superior darkvision, drow magic, shadow familiarity, and instincts formed by darkness, spider symbolism, and underground danger."
+      },
+      {
+        "id": "eladrin",
+        "name": "Eladrin",
+        "description": "Eladrin are fey-touched elves whose emotions and magical expression shift with seasons or states of feeling. Their lineage is defined by fey stepping, mutable grace, and close ties to the Feywild’s unstable beauty."
+      },
+      {
+        "id": "astral_elf",
+        "name": "Astral Elf",
+        "description": "Astral Elves carry a starborne perspective and innate ties to cosmic or psychic magic. Their lineage expresses astral fire, starlight movement, psychic discipline, and trance practices shaped by the Astral Plane."
+      },
+      {
+        "id": "sea_elf",
+        "name": "Sea Elf",
+        "description": "Sea Elves are aquatic elves adapted to life beneath waves, reefs, and sea-bound civilizations. Their lineage has swimming grace, current-reading, marine kinship, and deep bonds with ocean creatures and reef communities."
+      },
+      {
+        "id": "shadar_kai",
+        "name": "Shadar-Kai",
+        "description": "Shadar-Kai are shadow-bound elves hardened by bleak realms, despair, and entropy. Their lineage carries necrotic resilience, shadow familiarity, and a disciplined relationship with loss, memory, and the Raven Queen’s influence."
+      },
+      {
+        "id": "pallid_elf",
+        "name": "Pallid Elf",
+        "description": "Pallid Elves are pale, fey-marked elves associated with luminous and uncanny wilderness. Their lineage emphasizes moonlit insight, incisive observation, curiosity, and subtle otherworldly perception."
+      },
+      {
+        "id": "star_elf_lunar_heavenly_lineage",
+        "name": "Star Elf (Lunar/Heavenly Lineage)",
+        "description": "Star Elves are a lunar and heavenly elven lineage touched by celestial cycles, night magic, dreams, and prophecy. Their lunar inheritance may tug at tides, omens, and emotional currents while remaining rooted in astral fire, starlight movement, and moonlit divination."
+      },
+      {
+        "id": "avariel_winged_elf",
+        "name": "Avariel (Winged Elf)",
+        "description": "Avariel are rare winged elves whose bodies are adapted to flight, heights, and sky-bound enclaves. Their lineage emphasizes winged flight, aerial grace, wind-reading, and three-dimensional movement in mountain or aerial terrain."
+      },
+      {
+        "id": "snow_elf_frostbound_elf",
+        "name": "Snow Elf (Frostbound Elf)",
+        "description": "Snow Elves are frostbound elves adapted to arctic, glacial, and winter wilderness. Their lineage emphasizes cold endurance, frostbound movement, calm under hardship, and ancestral memory preserved through isolation and snow."
+      },
+      {
+        "id": "sun_elf",
+        "name": "Sun Elf",
+        "description": "Sun Elves are radiant, disciplined elves tied to daylight, order, and structured magical traditions. Their lineage emphasizes solar arcana, radiant discipline, heritage, perfection, and formal arcane mastery."
+      },
+      {
+        "id": "moon_elf",
+        "name": "Moon Elf",
+        "description": "Moon Elves are flexible wandering elves open to other cultures, adventures, and change. Their lineage emphasizes lunar adaptability and wanderer’s grace, and moonlit magic can influence tides, moods, and travel omens when their lunar heritage matters at the table."
+      },
+      {
+        "id": "shadowmoor_elf",
+        "name": "Shadowmoor Elf",
+        "description": "Shadowmoor Elves are shaped by lands of perpetual gloom and magical distortion. Their lineage emphasizes survivalist instincts, darkvision, shadow familiarity, and resilience in unstable magical environments."
+      },
+      {
+        "id": "celestial_elf",
+        "name": "Celestial Elf",
+        "description": "Celestial Elves are elven people touched directly by divine or heavenly forces. Their lineage carries celestial resistance, healing light, sacred protection, and the social role of emissary, guardian, or chosen vessel."
+      },
+      {
+        "id": "kaluseban",
+        "name": "Kaluseban",
+        "description": "Kaluseban are elegant mana-bound people whose forms respond to ley lines, nature, moonlight, shadow, and ritual magic. As an elven-adjacent lineage in this category, they retain their own six internal bloodlines for fine-grained selection rather than being treated as a generic elf subtype."
+      }
+    ]
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "high_elf",
+    "race": "High Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "wood_elf",
+    "race": "Wood Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "drow_underdark_elf",
+    "race": "Drow (Underdark Elf)",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "eladrin",
+    "race": "Eladrin",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "astral_elf",
+    "race": "Astral Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "sea_elf",
+    "race": "Sea Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "shadar_kai",
+    "race": "Shadar-Kai",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "pallid_elf",
+    "race": "Pallid Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "star_elf_lunar_heavenly_lineage",
+    "race": "Star Elf (Lunar/Heavenly Lineage)",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "avariel_winged_elf",
+    "race": "Avariel (Winged Elf)",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "snow_elf_frostbound_elf",
+    "race": "Snow Elf (Frostbound Elf)",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "sun_elf",
+    "race": "Sun Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "moon_elf",
+    "race": "Moon Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "shadowmoor_elf",
+    "race": "Shadowmoor Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "celestial_elf",
+    "race": "Celestial Elf",
+    "lineages": []
+  },
+  {
+    "categoryId": "elven_peoples",
+    "category": "Elven Peoples",
+    "raceId": "kaluseban",
+    "race": "Kaluseban",
+    "lineages": [
+      {
+        "id": "arcane_kaluseban",
+        "name": "Arcane Kaluseban",
+        "description": "Arcane Kaluseban express luminous gold, ivory, or deep-violet beauty, glowing eyes, mana-lit hands, rune-marked garments, and scholarly ritual symmetry. They are drawn to ley lines, libraries, magical sites, diagrams, glyphs, and objects that can hold or channel spellwork. Their bloodline grants prestidigitation, detect magic, and later magic weapon or arcane lock, making them strong ritualists, warders, artificer-adjacent scholars, and arcane diplomats. They often frame Raeshkul and Sigrananna as paired forces of pattern and beauty."
+      },
+      {
+        "id": "starborne_kaluseban",
+        "name": "Starborne Kaluseban",
+        "description": "Starborne Kaluseban carry pale blue, silver, or amethyst skin, moonlit glow, weightless hair, celestial eyes, and an ethereal presence strongest under lunar or stellar light. They read dreams, omens, lunar phases, and celestial alignments, and their gifts include guidance, sleep, and augury. Many act as seers, dream interpreters, prophecy keepers, and guides between mortal and mystical realms. Their line often adds Sokhivar’s distant light and prophecy to Sigrananna’s moonlit grace."
+      },
+      {
+        "id": "wildroot_kaluseban",
+        "name": "Wildroot Kaluseban",
+        "description": "Wildroot Kaluseban have earthy tones, barklike textures, vine-wrapped limbs, leaf patterns, mosslike or grasslike hair, and eyes that echo foliage or animal markings. They are attuned to flora, fauna, green ley lines, forests, sacred trees, soil, storms, and living groves. Their bloodline grants druidcraft, speak with animals, lesser restoration, and simple emotional communication with plants and beasts. They are natural forest wardens, healers, wilderness ritualists, and protectors of the places that keep Kaluseban vitality stable."
+      },
+      {
+        "id": "tideborn_kaluseban",
+        "name": "Tideborn Kaluseban",
+        "description": "Tideborn Kaluseban show pearl-blue, aquamarine, dusky, or iridescent skin, underwater-current hair, deep-sea eyes, webbed fingers, and gill-like markings. They sense tides, currents, river memory, reef resonance, mist, rain, and living water, blending Sigrananna’s grace with Bastveig’s water memory. Their gifts include a swim speed, air and water breathing, shape water, fog cloud, and misty step flavored as spray or mist. They work well as river diplomats, reef envoys, tide ritualists, mist walkers, and guardians of aquatic ley places."
+      },
+      {
+        "id": "stonebound_kaluseban",
+        "name": "Stonebound Kaluseban",
+        "description": "Stonebound Kaluseban carry granite, sandstone, muted moonstone, or crystalline skin tones, mineral-vein hair, rune-etched markings, and grounded movement. They sense rock resonance, minerals, caverns, pressure, tremors, and subterranean sacred places, and they often honor Horundar or Anubaldir depending on whether their culture reads stone as force or burden. Their gifts include mason’s tools or Religion, mold earth, shield, and warding bond without material components. They are protective warders, cavern priests, mountain envoys, shrine guardians, and ritual architects."
+      },
+      {
+        "id": "umbral_kaluseban",
+        "name": "Umbral Kaluseban",
+        "description": "Umbral Kaluseban have shadowed skin, phosphorescent veins, engraved runes, shifting-symbol eyes, and clothing or movements designed for concealment. They are attuned to shadows, subterranean spaces, illusions, liminal places, forbidden transformations, and twilight bargains associated with Eirzunet’s dangerous inheritance. Their gifts include darkvision, minor illusion, disguise self, and darkness, with strong talent for stealth, observation, and subtle influence. They often become guardians of hidden paths, secret knowledge, cursed borders, or shadowed rituals where power must be handled carefully."
+      }
+    ]
+  },
+  {
+    "categoryId": "dwarven_and_gnomish_kin",
+    "category": "Dwarven and Gnomish Kin",
+    "raceId": "dwarf",
+    "race": "Dwarf",
+    "lineages": []
+  },
+  {
+    "categoryId": "dwarven_and_gnomish_kin",
+    "category": "Dwarven and Gnomish Kin",
+    "raceId": "duergar",
+    "race": "Duergar",
+    "lineages": []
+  },
+  {
+    "categoryId": "dwarven_and_gnomish_kin",
+    "category": "Dwarven and Gnomish Kin",
+    "raceId": "gnome",
+    "race": "Gnome",
+    "lineages": []
+  },
+  {
+    "categoryId": "dwarven_and_gnomish_kin",
+    "category": "Dwarven and Gnomish Kin",
+    "raceId": "deep_gnome",
+    "race": "Deep Gnome",
+    "lineages": []
+  },
+  {
+    "categoryId": "dwarven_and_gnomish_kin",
+    "category": "Dwarven and Gnomish Kin",
+    "raceId": "autognome",
+    "race": "Autognome",
+    "lineages": []
+  },
+  {
+    "categoryId": "dwarven_and_gnomish_kin",
+    "category": "Dwarven and Gnomish Kin",
+    "raceId": "geisamahi",
+    "race": "Geisamahi",
+    "lineages": []
+  },
+  {
+    "categoryId": "halfling_and_smallfolk",
+    "category": "Halfling and Smallfolk",
+    "raceId": "halfling",
+    "race": "Halfling",
+    "lineages": []
+  },
+  {
+    "categoryId": "halfling_and_smallfolk",
+    "category": "Halfling and Smallfolk",
+    "raceId": "kender",
+    "race": "Kender",
+    "lineages": []
+  },
+  {
+    "categoryId": "halfling_and_smallfolk",
+    "category": "Halfling and Smallfolk",
+    "raceId": "kithkin",
+    "race": "Kithkin",
+    "lineages": []
+  },
+  {
+    "categoryId": "halfling_and_smallfolk",
+    "category": "Halfling and Smallfolk",
+    "raceId": "qickstep",
+    "race": "Qickstep",
+    "lineages": []
+  },
+  {
+    "categoryId": "halfling_and_smallfolk",
+    "category": "Halfling and Smallfolk",
+    "raceId": "hedge",
+    "race": "Hedge",
+    "lineages": []
+  },
+  {
+    "categoryId": "halfling_and_smallfolk",
+    "category": "Halfling and Smallfolk",
+    "raceId": "jerbeen",
+    "race": "Jerbeen",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "orc",
+    "race": "Orc",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "goblin",
+    "race": "Goblin",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "hobgoblin",
+    "race": "Hobgoblin",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "bugbear",
+    "race": "Bugbear",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "gnoll",
+    "race": "Gnoll",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "gobboc",
+    "race": "Gobboc",
+    "lineages": []
+  },
+  {
+    "categoryId": "orcs_goblinoids_and_brutish_humanoids",
+    "category": "Orcs, Goblinoids, and Brutish Humanoids",
+    "raceId": "shadow_goblin",
+    "race": "Shadow Goblin",
+    "lineages": []
+  },
+  {
+    "categoryId": "giantkin_and_powerful_humanoids",
+    "category": "Giantkin and Powerful Humanoids",
+    "raceId": "goliath",
+    "race": "Goliath",
+    "lineages": []
+  },
+  {
+    "categoryId": "giantkin_and_powerful_humanoids",
+    "category": "Giantkin and Powerful Humanoids",
+    "raceId": "firbolg",
+    "race": "Firbolg",
+    "lineages": []
+  },
+  {
+    "categoryId": "giantkin_and_powerful_humanoids",
+    "category": "Giantkin and Powerful Humanoids",
+    "raceId": "cyclopian",
+    "race": "Cyclopian",
+    "lineages": []
+  },
+  {
+    "categoryId": "giantkin_and_powerful_humanoids",
+    "category": "Giantkin and Powerful Humanoids",
+    "raceId": "giff",
+    "race": "Giff",
+    "lineages": []
+  },
+  {
+    "categoryId": "giantkin_and_powerful_humanoids",
+    "category": "Giantkin and Powerful Humanoids",
+    "raceId": "minotaur",
+    "race": "Minotaur",
+    "lineages": []
+  },
+  {
+    "categoryId": "draconic_and_reptilian_races",
+    "category": "Draconic and Reptilian Races",
+    "raceId": "dragonborn",
+    "race": "Dragonborn",
+    "lineages": [
+      {
+        "id": "noitzideq",
+        "name": "Noitzideq",
+        "description": "Noitzideq Dragonborn inherit sky, weather, air, wind, storm movement, and healing currents from Asaafi and Sauqonsex, with Boisein storm influence. They can choose lightning or thunder resistance after rest, read clouds and natural weather, move more freely through wind and open-air terrain, and channel a sky-healer current to heal an ally or move a willing creature with a harmless gust. Their culture tends toward coordinated civic roles, storm guidance, travel, open-sky navigation, and protective motion rather than raw conquest."
+      },
+      {
+        "id": "saelftum",
+        "name": "Saelftum",
+        "description": "Saelftum Dragonborn carry volcanic flame, heat control, molten resilience, and temperature command from Erymasos and Oreilhya, with Zrom’s elemental pressure. They resist fire, endure extreme heat, shed molten light, intensify or dampen flame, and can turn absorbed fire into a brief volcanic reprisal. Saelftum are especially suited to forgeholds, volcanic settlements, defenders, fire-priests, armored warriors, and characters who must decide whether flame is a shield, a tool, or a weapon of domination."
+      },
+      {
+        "id": "jazwed",
+        "name": "Jazwed",
+        "description": "Jazwed Dragonborn blend fire, stone, crystal force, elemental shaping, and defensive engineering through Erymasos, Nenshexeq, and Zrom. Their gifts include fire resistance, crystal-lava strikes, thermal crystal sight for heat and unstable stone, and the ability to shape loose stone, crystal, cooled lava, or packed earth into cover, steps, braces, or barriers. They are natural martial engineers, fortress builders, lava-field guardians, and disciplined enforcers whose power works best when it protects structure instead of crushing dissent."
+      },
+      {
+        "id": "khoalaros",
+        "name": "Khoalaros",
+        "description": "Khoalaros Dragonborn inherit tide, ocean, sea control, water shaping, currents, swimming grace, aquatic communication, and healing water from Philous, Xuqhuath, and Yichah. They gain aquatic movement, may hold their breath for long periods or breathe water when full aquatic parentage is allowed, ignore coastal and underwater movement penalties, communicate with aquatic beasts and water spirits, and restore a creature with healing tide. Their lineages fit reef cities, harbor guardians, tide-priests, sea diplomats, storm coasts, and oceanic protectors."
+      },
+      {
+        "id": "gauksneth",
+        "name": "Gauksneth",
+        "description": "Gauksneth Dragonborn are desert sand and hidden-water lineages descended from Innoxia, Nenshexeq, and Yichah or Xuqhuath. They are adapted to extreme heat, need less water, sense vibrations through sand, loose soil, or stone, and have an oasis instinct for finding water, shade, shelter, and safe dryland travel routes. Their sand-and-water shaping can move loose earth, reveal damp ground, or draw a small amount of clean water from a natural source, making them ideal caravan guardians, oasis stewards, desert rangers, and resource guild figures."
+      },
+      {
+        "id": "tuorszom",
+        "name": "Tuorszom",
+        "description": "Tuorszom Dragonborn carry stone, mountain, earth shaping, metal and mineral awareness, tremor sense, and endurance from Nenshexeq, Innoxia, and Aloic. They climb stone, cliffs, ruins, and mountains with confidence, resist damage from falling rock or collapses, hear instability through stone, and can reinforce, crack, smooth, or roughen natural stone or packed earth. Their lineage favors mountain sentinels, tunnel wardens, miners, rune knights, fortress guardians, and patient defenders whose authority comes from endurance."
+      },
+      {
+        "id": "taudinax",
+        "name": "Taudinax",
+        "description": "Taudinax Dragonborn inherit shadow manipulation, darkness, illusion, tactical concealment, and controlled light from Ekhoq, Pteris, Xacuacsih or Thusekha, with Kiczi illusion influence. They gain Stealth training, minor illusion, the ability to hide in dim light, fog, forest, swamp mist, or heavy shadow, and a shadow-light veil that alters a small area of light for concealment or performance. Taudinax work well as scouts, spies, hidden guardians, illusionists, shadow monks, and tacticians whose power is subtle rather than openly sovereign."
+      },
+      {
+        "id": "gouxelq",
+        "name": "Gouxelq",
+        "description": "Gouxelq Dragonborn inherit metal control, stone and crystal shaping, elemental structure, crafted barriers, and material awareness from Aloic, Nenshexeq, and Zrom. They gain a tool gift with smith’s, mason’s, or jeweler’s tools, can read nonmagical metal, stone, or crystal by touch, create temporary braces or partial barriers from nearby mineral fragments, and appraise, repair, identify, or sabotage metal and crystal structures more effectively. Their lineage suits artificers, forge clerics, engineers, armorers, fortification experts, and civic builders who turn draconic dominion into infrastructure."
+      },
+      {
+        "id": "vautaces",
+        "name": "Vautaces",
+        "description": "Vautaces Dragonborn carry radiance, foresight, perception, emotional insight, time-sense, and radiant protection from Thusekha, Xacuacsih, Mumh, Lunngha or Eecors, and Chiellieds. They can train in Insight or Arcana, add a guiding flash to a check or saving throw, cast light in ruby, cream, gold, or star-white radiance, and later read a pattern in fate for a key roll. Vautaces are natural arbiters, seers, judges, diviners, radiant guardians, and counselors whose challenge is using foresight to protect without controlling every choice."
+      }
+    ]
+  },
+  {
+    "categoryId": "draconic_and_reptilian_races",
+    "category": "Draconic and Reptilian Races",
+    "raceId": "kobold",
+    "race": "Kobold",
+    "lineages": []
+  },
+  {
+    "categoryId": "draconic_and_reptilian_races",
+    "category": "Draconic and Reptilian Races",
+    "raceId": "lizardfolk",
+    "race": "Lizardfolk",
+    "lineages": []
+  },
+  {
+    "categoryId": "draconic_and_reptilian_races",
+    "category": "Draconic and Reptilian Races",
+    "raceId": "yuan_ti",
+    "race": "Yuan-Ti",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "aasimar",
+    "race": "Aasimar",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "tiefling",
+    "race": "Tiefling",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "feral_tiefling",
+    "race": "Feral Tiefling",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "hexblood",
+    "race": "Hexblood",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "accursed",
+    "race": "Accursed",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "curseborn",
+    "race": "Curseborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "celestial_fiendish_and_planar_bloodlines",
+    "category": "Celestial, Fiendish, and Planar Bloodlines",
+    "raceId": "aburata",
+    "race": "Aburata",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "dhampir",
+    "race": "Dhampir",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "darakhul",
+    "race": "Darakhul",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "reborn",
+    "race": "Reborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "arisen",
+    "race": "Arisen",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "graveborn",
+    "race": "Graveborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "shade",
+    "race": "Shade",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "downcast",
+    "race": "Downcast",
+    "lineages": []
+  },
+  {
+    "categoryId": "undead_and_death_touched_races",
+    "category": "Undead and Death-Touched Races",
+    "raceId": "volsarii",
+    "race": "Volsarii",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "faerie",
+    "race": "Faerie",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "fairy",
+    "race": "Fairy",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "changeling",
+    "race": "Changeling",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "lorwyn_changeling",
+    "race": "Lorwyn Changeling",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "satyr",
+    "race": "Satyr",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "dreamer",
+    "race": "Dreamer",
+    "lineages": []
+  },
+  {
+    "categoryId": "fey_and_trickster_folk",
+    "category": "Fey and Trickster Folk",
+    "raceId": "gandirosha",
+    "race": "Gandirosha",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "air_genasi",
+    "race": "Air Genasi",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "earth_genasi",
+    "race": "Earth Genasi",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "fire_genasi",
+    "race": "Fire Genasi",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "water_genasi",
+    "race": "Water Genasi",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "flamekin",
+    "race": "Flamekin",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "rimekin",
+    "race": "Rimekin",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "ashborn",
+    "race": "Ashborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "azureborn",
+    "race": "Azureborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "bogborn",
+    "race": "Bogborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "deepborn",
+    "race": "Deepborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "snowborn",
+    "race": "Snowborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "stoneborn",
+    "race": "Stoneborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "elemental_and_energy_born_peoples",
+    "category": "Elemental and Energy-Born Peoples",
+    "raceId": "panolima",
+    "race": "Panolima",
+    "lineages": [
+      {
+        "id": "earth_thread",
+        "name": "Earth Thread",
+        "description": "Earth Thread Panolima are grounded in stone, soil, roots, caves, forests, mountains, and sacred terrain. Their bodies may show barklike skin, mossy hair, mineral patterns, and deep resonant voices that echo the land. They gain climbing on stone, trees, cliffs, or earthen surfaces and have advantage when detecting unstable ground, structural weaknesses, mineral deposits, or hidden natural passages. Their rituals often involve shaping stone, tending groves, reinforcing land, and listening to the heartbeat of solid places."
+      },
+      {
+        "id": "fire_thread",
+        "name": "Fire Thread",
+        "description": "Fire Thread Panolima carry magma-like cracks, ember-red hair, glowing eyes, radiating warmth, and voices that crackle with power. They sustain themselves through heat sources, flames, magma flows, forging, firewalking, combat rites, or controlled burns. Their bloodline grants fire resistance, light shedding, and a once-per-long-rest boost to fire damage. Their stories often divide between Marduthor’s forge-flame and Enkirael’s battle-flame, making the ethics of heat central to their identity."
+      },
+      {
+        "id": "water_thread",
+        "name": "Water Thread",
+        "description": "Water Thread Panolima have reflective, fluid textures, flowing hair, lake or ocean eyes, and movements that echo rivers, tides, and currents. They thrive in lakes, rivers, oceans, reefs, glacial waters, and ritual immersion, using bathing and water communion to preserve spiritual balance. Their bloodline grants a swim speed, air and water breathing, and freedom from nonmagical movement penalties caused by currents, mud, ice, or shallow water. They are natural tide-singers, aquatic mediators, flood prophets, reef protectors, and restorative guardians."
+      },
+      {
+        "id": "air_thread",
+        "name": "Air Thread",
+        "description": "Air Thread Panolima are marked by cloudlike hair, shifting skin patterns, luminous sky-toned eyes, light movement, and sensitivity to pressure changes. They require open skies, wind, high places, storm meditation, aerial ritual, or wind-song to remain healthy and focused. Their bloodline increases walking speed, allows gliding and falling-damage reduction, and grants advantage on checks involving wind, storms, pressure, or airborne sounds. They are swift scouts, sky pilgrims, storm heralds, monks, rangers, and wind-speaking messengers."
+      },
+      {
+        "id": "aether_thread",
+        "name": "Aether Thread",
+        "description": "Aether Thread Panolima have skin infused with living energy, hair of flowing elemental light, mood-shifting patterns, and luminous traces that follow their movement. They draw strength from ley lines, auroras, arcane storms, elemental convergences, magical laboratories, and concentrated ambient energy. Their bloodline grants resistance to force damage from environmental magical surges or arcane storms, detect magic, and later misty step as elemental light. They stand at the point where element becomes thought, theory, and living law, making them watched closely by Raeshkul and Oskar’enlil."
+      }
+    ]
+  },
+  {
+    "categoryId": "psionic_astral_and_alien_minds",
+    "category": "Psionic, Astral, and Alien Minds",
+    "raceId": "kalashtar",
+    "race": "Kalashtar",
+    "lineages": []
+  },
+  {
+    "categoryId": "psionic_astral_and_alien_minds",
+    "category": "Psionic, Astral, and Alien Minds",
+    "raceId": "githyanki",
+    "race": "Githyanki",
+    "lineages": []
+  },
+  {
+    "categoryId": "psionic_astral_and_alien_minds",
+    "category": "Psionic, Astral, and Alien Minds",
+    "raceId": "githzerai",
+    "race": "Githzerai",
+    "lineages": []
+  },
+  {
+    "categoryId": "psionic_astral_and_alien_minds",
+    "category": "Psionic, Astral, and Alien Minds",
+    "raceId": "plasmoid",
+    "race": "Plasmoid",
+    "lineages": []
+  },
+  {
+    "categoryId": "psionic_astral_and_alien_minds",
+    "category": "Psionic, Astral, and Alien Minds",
+    "raceId": "disembodied",
+    "race": "Disembodied",
+    "lineages": []
+  },
+  {
+    "categoryId": "psionic_astral_and_alien_minds",
+    "category": "Psionic, Astral, and Alien Minds",
+    "raceId": "gwynis",
+    "race": "Gwynis",
+    "lineages": []
+  },
+  {
+    "categoryId": "constructed_and_artificial_beings",
+    "category": "Constructed and Artificial Beings",
+    "raceId": "warforged",
+    "race": "Warforged",
+    "lineages": []
+  },
+  {
+    "categoryId": "constructed_and_artificial_beings",
+    "category": "Constructed and Artificial Beings",
+    "raceId": "geppettin",
+    "race": "Geppettin",
+    "lineages": []
+  },
+  {
+    "categoryId": "constructed_and_artificial_beings",
+    "category": "Constructed and Artificial Beings",
+    "raceId": "relicborn",
+    "race": "Relicborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "constructed_and_artificial_beings",
+    "category": "Constructed and Artificial Beings",
+    "raceId": "wechselkind",
+    "race": "Wechselkind",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "aarakocra",
+    "race": "Aarakocra",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "kenku",
+    "race": "Kenku",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "owlin",
+    "race": "Owlin",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "ravenfolk",
+    "race": "Ravenfolk",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "corvum",
+    "race": "Corvum",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "gallus",
+    "race": "Gallus",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "strig",
+    "race": "Strig",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "feathren",
+    "race": "Feathren",
+    "lineages": []
+  },
+  {
+    "categoryId": "birdfolk_and_avian_races",
+    "category": "Birdfolk and Avian Races",
+    "raceId": "raptor",
+    "race": "Raptor",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "harengon",
+    "race": "Harengon",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "leonin",
+    "race": "Leonin",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "loxodon",
+    "race": "Loxodon",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "tabaxi",
+    "race": "Tabaxi",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "bearfolk",
+    "race": "Bearfolk",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "canisar",
+    "race": "Canisar",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "cervan",
+    "race": "Cervan",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "erina",
+    "race": "Erina",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "mapach",
+    "race": "Mapach",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "ratatosk",
+    "race": "Ratatosk",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "rakin",
+    "race": "Rakin",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "sattare",
+    "race": "Sattare",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "vulpin",
+    "race": "Vulpin",
+    "lineages": []
+  },
+  {
+    "categoryId": "beastfolk_and_mammalian_anthropomorphs",
+    "category": "Beastfolk and Mammalian Anthropomorphs",
+    "raceId": "deorbasun",
+    "race": "Deorbasun",
+    "lineages": [
+      {
+        "id": "hunter_instinct",
+        "name": "Hunter Instinct",
+        "description": "Hunter Instinct Deorbasun express tracking, stealth, pursuit, and survival through the soul-animal bond. This instinct grants Stealth or Survival training and supports scouts, stalkers, wilderness hunters, and guardians who know how to follow a trail without losing judgment. It fits the First Hunt ideal especially well, because the hunter must prove they can track, decide, and spare when the land does not require blood. Hunter Deorbasun are dangerous because they are patient, not because they are careless predators."
+      },
+      {
+        "id": "guardian_instinct",
+        "name": "Guardian Instinct",
+        "description": "Guardian Instinct Deorbasun embody territorial protection, oath-bound strength, sacred boundaries, and the duty to hold a line without becoming a tyrant. This instinct grants Intimidation or Athletics training and supports shrine guardians, border wardens, sworn protectors, and leaders whose authority comes from restraint. Their stories often revolve around deciding where duty ends and domination begins. A Guardian Deorbasun may be frightening, but their purpose is to protect what was entrusted to them."
+      },
+      {
+        "id": "winged_instinct",
+        "name": "Winged Instinct",
+        "description": "Winged Instinct Deorbasun carry wings or aerial soul-animal traits that let guardian duty rise into the sky. Their Winged Maneuver allows horizontal gliding and falling-damage reduction when they jump or fall, giving them brief aerial control without turning them into constant flyers by default. They suit cliff guardians, sky-watchers, high-canopy hunters, shrine sentinels, and Deorbasun whose soul-animal demands perspective as well as strength. Their wings can be physical, ethereal, feathered, scaled, or otherwise tied to their beast-soul symbolism."
+      },
+      {
+        "id": "venomtail_instinct",
+        "name": "Venomtail Instinct",
+        "description": "Venomtail Instinct Deorbasun channel a tail, fang, claw, stinger, or similar natural weapon into controlled poison. Their gift lets a natural weapon deal poison damage once per turn, making them dangerous close-range guardians without turning venom into uncontrolled cruelty. This instinct suits border enforcers, sacred-beast judges, jungle hunters, and protectors whose warning must sometimes become pain. The cultural challenge is using venom as a measured tool rather than vanity, torture, or domination."
+      },
+      {
+        "id": "mystic_instinct",
+        "name": "Mystic Instinct",
+        "description": "Mystic Instinct Deorbasun emphasize prophetic animal dreams, magical disturbances, sacred beasts, omen-reading, and the spiritual side of territorial guardianship. This instinct grants Arcana, Nature, or Religion training and suits wardens whose soul-animal is as much sign and spirit as body. Mystic Deorbasun may sense when a boundary is magically disturbed, when a beast is frightened, or when a shrine’s duty has been forgotten. They work well as druids, paladins, clerics, rangers, monks, and wise guardians of old roads or sacred groves."
+      }
+    ]
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "triton",
+    "race": "Triton",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "locathah",
+    "race": "Locathah",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "grung",
+    "race": "Grung",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "merfolk",
+    "race": "Merfolk",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "sahuagin",
+    "race": "Sahuagin",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "lotol",
+    "race": "Lotol",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "nakudama",
+    "race": "Nakudama",
+    "lineages": []
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "drilthar",
+    "race": "Dril'thar",
+    "lineages": [
+      {
+        "id": "grassland_lineage",
+        "name": "Grassland Lineage",
+        "description": "Grassland Dril’thar evolved among flooded plains, seasonal rivers, colossal reed-seas, and wind-swept wetlands where speed and stealth determine survival. Their pale reed, dusty green, muddy brown, and storm-gray coloration helps them vanish in grass, mud, shallow water, and storm light. They run faster, ignore difficult terrain from mud, reeds, grass, shallow water, or vegetation, leap without a running start, and can add poison damage through an ambush tongue. They excel as scouts, skirmishers, survivalists, monks, rogues, rangers, and mobile fighters who survive where water appears only in seasons or hidden pools."
+      },
+      {
+        "id": "swamp_lineage",
+        "name": "Swamp Lineage",
+        "description": "Swamp Dril’thar are toxic bog, fungal wetland, stagnant marsh, and blackwater river survivors with black-green, mold-speckled, algae-blue, gray, or dark olive skin. Their toxic mucus can slow enemies, their mire camouflage lets them hide in rain, mud, swamp water, or dense vegetation, and their drowning grasp makes it harder for grappled creatures to escape. They are territorial ambushers and guardians who understand that rot, poison, and still water can be both threat and shelter. They suit barbarians, fighters, rangers, warlocks, marsh wardens, and toxic defenders."
+      },
+      {
+        "id": "marsh_lineage",
+        "name": "Marsh Lineage",
+        "description": "Marsh Dril’thar dwell among drowned ruins, corpse-marshes, fungal floodplains, grave bogs, and mist-choked wetlands where decay feeds renewal. Their corpse-gray algae, pallid moss, black reed, muted violet rot, and sickly pale-blue coloration reflects their comfort with gravewater and ancestral pools. They know death-touched magic such as chill touch, false life, and gentle repose, resist necrotic damage, and can sense corpses, undead, or dying creatures through shared water, mud, or ground. They are feared and respected as death mystics, corpse-speakers, grave clerics, necromantic scholars, warlocks, and spores druids."
+      },
+      {
+        "id": "rainforest_lineage",
+        "name": "Rainforest Lineage",
+        "description": "Rainforest Dril’thar inhabit colossal jungle canopies, flooded jungles, mangrove labyrinths, and sacred spawning forests. Their sapphire, sunset orange, orchid purple, vibrant green, and bioluminescent markings make them vivid heirs of living jungle water rather than muted marsh camouflage. They climb faster, move across walls and ceilings while climbing, cast druidcraft, entangle, and spike growth, and communicate simple emotions with amphibians, reptiles, insects, fungi, and plants. They are among the greatest primal mystics, jungle survivalists, druids, rangers, monks, and nature clerics of Dril’thar society."
+      },
+      {
+        "id": "forest_lineage",
+        "name": "Forest Lineage",
+        "description": "Forest Dril’thar evolved in misty temperate forests, root-choked wetlands, rain-soaked valleys, shaded pools, and hidden streams. Their bark-browns, moss-greens, fungal whites, and muted amber patterns let them vanish among trees, roots, leaves, and wet stone. Rootsense grants tremorsense while touching the ground, camouflaged skin supports hiding in natural terrain, and a grasping tail can hold their full body weight for hanging, sleeping, or fighting while suspended. They excel at infiltration, mobility, wilderness survival, rogue work, ranger patrols, druidic scouting, and monk-like vertical movement."
+      },
+      {
+        "id": "reef_lineage",
+        "name": "Reef Lineage",
+        "description": "Reef Dril’thar dwell among coral kingdoms, volcanic shallows, mangrove reefs, and bioluminescent underwater cities. Their skin patterns resemble tropical fish, coral blooms, and glowing reef organisms, making camouflage and display equally important. Coral venom can briefly prevent healing after their poison damage, reef camouflage lets them hide underwater while lightly obscured, and current riding removes penalties from rough currents, reef terrain, or underwater difficult terrain. Reef Dril’thar often become navigators, diplomats, illusionists, mystics, bards, sorcerers, warlocks, and rogues of coral courts and reef routes."
+      },
+      {
+        "id": "ocean_lineage",
+        "name": "Ocean Lineage",
+        "description": "Ocean Dril’thar evolved among abyssal trenches, open seas, storm coasts, and deep-ocean migratory clans. Their sleek silver-gray, abyssal black, deep blue, and bioluminescent bodies are built for pressure, darkness, and long underwater journeys. They gain underwater darkvision, immunity to deep-ocean pressure effects, an extended prehensile tongue for storm-tongue movement, and proficiency in Survival and navigator’s tools. They can breathe and function underwater as Dril’thar, making them sea guardians, storm-priests, navigators, abyssal hunters, tempest clerics, storm sorcerers, fighters, and paladins."
+      }
+    ]
+  },
+  {
+    "categoryId": "amphibious_and_aquatic_peoples",
+    "category": "Amphibious and Aquatic Peoples",
+    "raceId": "tamhiogal",
+    "race": "Tamhiogal",
+    "lineages": []
+  },
+  {
+    "categoryId": "insectoid_ooze_and_aberrant_creatures",
+    "category": "Insectoid, Ooze, and Aberrant Creatures",
+    "raceId": "thri_kreen",
+    "race": "Thri-Kreen",
+    "lineages": []
+  },
+  {
+    "categoryId": "insectoid_ooze_and_aberrant_creatures",
+    "category": "Insectoid, Ooze, and Aberrant Creatures",
+    "raceId": "cnidarin",
+    "race": "Cnidarin",
+    "lineages": []
+  },
+  {
+    "categoryId": "insectoid_ooze_and_aberrant_creatures",
+    "category": "Insectoid, Ooze, and Aberrant Creatures",
+    "raceId": "oozekin",
+    "race": "Oozekin",
+    "lineages": []
+  },
+  {
+    "categoryId": "insectoid_ooze_and_aberrant_creatures",
+    "category": "Insectoid, Ooze, and Aberrant Creatures",
+    "raceId": "opteran",
+    "race": "Opteran",
+    "lineages": []
+  },
+  {
+    "categoryId": "insectoid_ooze_and_aberrant_creatures",
+    "category": "Insectoid, Ooze, and Aberrant Creatures",
+    "raceId": "silkborn",
+    "race": "Silkborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "plantfolk_and_nature_bound_races",
+    "category": "Plantfolk and Nature-Bound Races",
+    "raceId": "mandrake",
+    "race": "Mandrake",
+    "lineages": []
+  },
+  {
+    "categoryId": "plantfolk_and_nature_bound_races",
+    "category": "Plantfolk and Nature-Bound Races",
+    "raceId": "mycelian",
+    "race": "Mycelian",
+    "lineages": []
+  },
+  {
+    "categoryId": "plantfolk_and_nature_bound_races",
+    "category": "Plantfolk and Nature-Bound Races",
+    "raceId": "gnarlborn",
+    "race": "Gnarlborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "plantfolk_and_nature_bound_races",
+    "category": "Plantfolk and Nature-Bound Races",
+    "raceId": "harvestborn",
+    "race": "Harvestborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "plantfolk_and_nature_bound_races",
+    "category": "Plantfolk and Nature-Bound Races",
+    "raceId": "jaspey",
+    "race": "Jaspey",
+    "lineages": [
+      {
+        "id": "mosscap_jaspey",
+        "name": "Mosscap Jaspey",
+        "description": "Mosscap Jaspey are gentle healers and wandering herbalists covered in soft moss, pale mushrooms, glowing spores, and fragrant medicinal fungi. They commonly travel as medics, alchemists, shamans, plague doctors, or tiny caretakers who turn decay into relief. Their soothing spores restore a small amount of vitality, and their herbal adeptness makes crafting medicines, salves, antitoxins, and remedies faster and cheaper. They embody the Jaspey belief that abandoned rot can become shelter, comfort, and medicine."
+      },
+      {
+        "id": "gloomtail_jaspey",
+        "name": "Gloomtail Jaspey",
+        "description": "Gloomtail Jaspey are sneaky scavengers, thieves, tunnel-runners, and urban survivors who thrive in ruins, graveyards, alleyways, sewers, and abandoned structures. Their fungal growths tend toward dark gray, black, violet, or deep blue, helping them disappear into dim, cluttered, and haunted spaces. They are excellent at hiding in darkness, dim light, ruins, graveyards, clutter, and urban alleys, and they can vanish behind larger creatures or cling unnoticed to a companion. Gloomtails make strong scouts, burglars, messengers, tiny rescue crews, and unsettling household spirits who know every crack in a city."
+      },
+      {
+        "id": "rotcap_jaspey",
+        "name": "Rotcap Jaspey",
+        "description": "Rotcap Jaspey are eerie fungal mystics fascinated by spirits, decay, curses, death magic, forgotten knowledge, and necromantic traces. Their mushrooms are often crimson, purple, black, or sickly white, and many have glowing eyes or visible skeletal patches beneath their fur. They know druidcraft, later gain ray of sickness and blindness/deafness, and can add insight to checks involving undead, curses, decay, fungi, spirits, or necromancy. Rotcaps are grave-garden sages, curse-readers, fungal occultists, and tiny defenders of the boundary between useful rot and spiritual violation."
+      }
+    ]
+  },
+  {
+    "categoryId": "shadow_umbral_and_darkness_aligned_peoples",
+    "category": "Shadow, Umbral, and Darkness-Aligned Peoples",
+    "raceId": "ombrask",
+    "race": "Ombrask",
+    "lineages": []
+  },
+  {
+    "categoryId": "shadow_umbral_and_darkness_aligned_peoples",
+    "category": "Shadow, Umbral, and Darkness-Aligned Peoples",
+    "raceId": "ruinbound",
+    "race": "Ruinbound",
+    "lineages": []
+  },
+  {
+    "categoryId": "shadow_umbral_and_darkness_aligned_peoples",
+    "category": "Shadow, Umbral, and Darkness-Aligned Peoples",
+    "raceId": "blagueborn",
+    "race": "Blagueborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "shadow_umbral_and_darkness_aligned_peoples",
+    "category": "Shadow, Umbral, and Darkness-Aligned Peoples",
+    "raceId": "threadborn",
+    "race": "Threadborn",
+    "lineages": []
+  },
+  {
+    "categoryId": "animalistic_hybrids_and_experimental_races",
+    "category": "Animalistic Hybrids and Experimental Races",
+    "raceId": "simic_hybrid",
+    "race": "Simic Hybrid",
+    "lineages": []
+  },
+  {
+    "categoryId": "animalistic_hybrids_and_experimental_races",
+    "category": "Animalistic Hybrids and Experimental Races",
+    "raceId": "shifter",
+    "race": "Shifter",
+    "lineages": []
+  },
+  {
+    "categoryId": "animalistic_hybrids_and_experimental_races",
+    "category": "Animalistic Hybrids and Experimental Races",
+    "raceId": "verdan",
+    "race": "Verdan",
+    "lineages": []
+  },
+  {
+    "categoryId": "animalistic_hybrids_and_experimental_races",
+    "category": "Animalistic Hybrids and Experimental Races",
+    "raceId": "vedalken",
+    "race": "Vedalken",
+    "lineages": []
+  },
+  {
+    "categoryId": "animalistic_hybrids_and_experimental_races",
+    "category": "Animalistic Hybrids and Experimental Races",
+    "raceId": "hadozee",
+    "race": "Hadozee",
+    "lineages": []
+  },
+  {
+    "categoryId": "animalistic_hybrids_and_experimental_races",
+    "category": "Animalistic Hybrids and Experimental Races",
+    "raceId": "tortle",
+    "race": "Tortle",
+    "lineages": []
+  },
+  {
+    "categoryId": "primitive_tribal_and_wilderness_humanoids",
+    "category": "Primitive, Tribal, and Wilderness Humanoids",
+    "raceId": "boggart",
+    "race": "Boggart",
+    "lineages": []
+  },
+  {
+    "categoryId": "primitive_tribal_and_wilderness_humanoids",
+    "category": "Primitive, Tribal, and Wilderness Humanoids",
+    "raceId": "centaur",
+    "race": "Centaur",
+    "lineages": []
+  },
+  {
+    "categoryId": "primitive_tribal_and_wilderness_humanoids",
+    "category": "Primitive, Tribal, and Wilderness Humanoids",
+    "raceId": "grudgel",
+    "race": "Grudgel",
+    "lineages": []
+  },
+  {
+    "categoryId": "primitive_tribal_and_wilderness_humanoids",
+    "category": "Primitive, Tribal, and Wilderness Humanoids",
+    "raceId": "hederan",
+    "race": "Hederan",
+    "lineages": []
+  },
+  {
+    "categoryId": "primitive_tribal_and_wilderness_humanoids",
+    "category": "Primitive, Tribal, and Wilderness Humanoids",
+    "raceId": "laneshi",
+    "race": "Laneshi",
+    "lineages": []
+  },
+  {
+    "categoryId": "primitive_tribal_and_wilderness_humanoids",
+    "category": "Primitive, Tribal, and Wilderness Humanoids",
+    "raceId": "terandus",
+    "race": "Terandus",
+    "lineages": []
+  },
+  {
+    "categoryId": "miscellaneous_and_hard_to_classify_races",
+    "category": "Miscellaneous and Hard-to-Classify Races",
+    "raceId": "dara",
+    "race": "Dara",
+    "lineages": []
+  },
+  {
+    "categoryId": "miscellaneous_and_hard_to_classify_races",
+    "category": "Miscellaneous and Hard-to-Classify Races",
+    "raceId": "golynn",
+    "race": "Golynn",
+    "lineages": []
+  },
+  {
+    "categoryId": "miscellaneous_and_hard_to_classify_races",
+    "category": "Miscellaneous and Hard-to-Classify Races",
+    "raceId": "luma",
+    "race": "Luma",
+    "lineages": []
+  }
+]

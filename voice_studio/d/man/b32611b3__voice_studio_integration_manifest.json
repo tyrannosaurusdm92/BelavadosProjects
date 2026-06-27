@@ -1,0 +1,37 @@
+{
+  "project": "Voice Studio",
+  "generatedAt": "2026-06-27T11:44:35Z",
+  "backend": "https://script.google.com/macros/s/AKfycbyr4TwLilCubnWm_g-N8nIZUiWR3GJ7-nzeV8dc1vJctcPHHFU3bCg96yi5retOUeZGfQ/exec",
+  "sourceRepos": [
+    "aeon-music-maker-main.zip",
+    "thousandVoices-master (1).zip",
+    "Dice Bots.zip",
+    "HeartMuse-master.zip",
+    "building_synthetic_voices_workshop-master (1).zip",
+    "thonburian-tts-api-main (1).zip",
+    "coqui-voice-pack-2 (1).zip",
+    "thonburian-tts-main (1).zip",
+    "Synthetic-Voice-Detection-Vocoder-Artifacts-main (1).zip",
+    "Realtime-Synthetic-Call-Center-Agents-main (1).zip",
+    "YuE-main.zip",
+    "coqui_voice_pack_v2 (1).zip",
+    "JARVIS-ChatGPT-main (1).zip",
+    "Poblem-Sloving-App-With-ChatGTP-master.zip",
+    "OpenChat-main.zip",
+    "ChatGTP-Flutter-main.zip",
+    "Full_Voice_Accent_Atlas_PART_1_of_4.zip",
+    "Full_Voice_Accent_Atlas_PART_3_of_4.zip",
+    "Full_Voice_Accent_Atlas_PART_2_of_4.zip",
+    "Full_Voice_Accent_Atlas_PART_4_of_4.zip"
+  ],
+  "implementedFiles": [
+    "index.html",
+    "src/js/app.js",
+    "src/js/voice-profile.js",
+    "src/js/audio-renderer.js",
+    "src/js/backend-client.js",
+    "src/js/smart-assistants.js",
+    "backend/google_apps_script/VoiceStudioBackend.gs"
+  ],
+  "resourcePolicy": "Audio/model resources are indexed and referenced; unintegrated code is kept as docs/source snapshots and audits."
+}
