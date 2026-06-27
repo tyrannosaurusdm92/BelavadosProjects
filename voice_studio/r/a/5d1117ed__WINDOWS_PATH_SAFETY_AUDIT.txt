@@ -1,0 +1,8 @@
+Windows safety audit
+
+- Output folder name avoids special characters.
+- File/folder names avoid Windows-forbidden characters: < > : " / \ | ? * and control characters.
+- Reserved Windows device names are guarded against.
+- Deep original repository paths are flattened.
+- Each accent/region category uses shallow category/source/file organization.
+- Original paths are retained in FILE_MANIFEST_ALL_PRESERVED_FILES.csv.

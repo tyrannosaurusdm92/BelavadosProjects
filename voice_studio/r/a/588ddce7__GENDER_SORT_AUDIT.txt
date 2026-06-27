@@ -1,0 +1,28 @@
+Gender sort audit
+
+Requested identity taxonomy:
+- Agender
+- Bi-Gender
+- Cis-Female
+- Cis-Male
+- Demi-Female
+- Demi-Male
+- Gender-Flexible
+- Gender-Fluid
+- Gender-Less
+- Neutrois
+- Non-Binary
+- Poly-Gender
+- Trans-Female
+- Trans-Male
+
+Source reality:
+The uploaded datasets expose source labels such as sex=male/female, gender=M/F, and speaker metadata.
+They do not explicitly establish Agender, Bi-Gender, Demi-Female, Demi-Male, Gender-Flexible, Gender-Fluid, Gender-Less, Neutrois, Non-Binary, Poly-Gender, Trans-Female, or Trans-Male identities.
+
+What was done:
+- All requested identity folders were created.
+- Source speaker rows with female/F labels were indexed under Cis-Female with a warning that cis identity is not verified.
+- Source speaker rows with male/M labels were indexed under Cis-Male with a warning that cis identity is not verified.
+- Belavados NPC/reference routing was added where known.
+- No identity was inferred from accent, voice, pitch, name, nationality, or appearance.
