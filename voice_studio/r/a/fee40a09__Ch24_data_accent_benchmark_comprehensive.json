@@ -1,0 +1,111 @@
+{
+  "benchmark": {
+    "best_model": "Linear SVM",
+    "best_test_f1": 0.5738778817342384,
+    "task": "accent_classification",
+    "accents": [
+      "mandarin",
+      "russian",
+      "spanish"
+    ]
+  },
+  "linear_svm": {
+    "best_params": {
+      "clf__C": 1.0,
+      "feature_selection__k": "all"
+    },
+    "cv_f1": 0.7900005763063579,
+    "val_f1": 0.4431357649442756,
+    "test_f1": 0.5738778817342384,
+    "training_time_seconds": 6.438715696334839,
+    "test_report": {
+      "Mandarin": {
+        "precision": 0.5652173913043478,
+        "recall": 0.52,
+        "f1-score": 0.5416666666666666,
+        "support": 25.0
+      },
+      "Russian": {
+        "precision": 0.6,
+        "recall": 0.46153846153846156,
+        "f1-score": 0.5217391304347826,
+        "support": 13.0
+      },
+      "Spanish": {
+        "precision": 0.6190476190476191,
+        "recall": 0.7027027027027027,
+        "f1-score": 0.6582278481012658,
+        "support": 37.0
+      },
+      "accuracy": 0.6,
+      "macro avg": {
+        "precision": 0.5947550034506556,
+        "recall": 0.5614137214137215,
+        "f1-score": 0.5738778817342384,
+        "support": 75.0
+      },
+      "weighted avg": {
+        "precision": 0.5978026224982746,
+        "recall": 0.6,
+        "f1-score": 0.5957160765608757,
+        "support": 75.0
+      }
+    }
+  },
+  "rbf_svm": {
+    "best_params": {
+      "clf__C": 10.0,
+      "clf__gamma": 0.01,
+      "pca__n_components": 100
+    },
+    "cv_f1": 0.8860783072957922,
+    "val_f1": 0.4982860520094563,
+    "test_f1": 0.4138007054673721,
+    "training_time_seconds": 10.668336153030396,
+    "test_report": {
+      "Mandarin": {
+        "precision": 0.4782608695652174,
+        "recall": 0.44,
+        "f1-score": 0.4583333333333333,
+        "support": 25.0
+      },
+      "Russian": {
+        "precision": 0.25,
+        "recall": 0.15384615384615385,
+        "f1-score": 0.19047619047619047,
+        "support": 13.0
+      },
+      "Spanish": {
+        "precision": 0.5454545454545454,
+        "recall": 0.6486486486486487,
+        "f1-score": 0.5925925925925926,
+        "support": 37.0
+      },
+      "accuracy": 0.49333333333333335,
+      "macro avg": {
+        "precision": 0.4245718050065876,
+        "recall": 0.4141649341649342,
+        "f1-score": 0.4138007054673721,
+        "support": 75.0
+      },
+      "weighted avg": {
+        "precision": 0.4718445322793149,
+        "recall": 0.49333333333333335,
+        "f1-score": 0.47813932980599644,
+        "support": 75.0
+      }
+    }
+  },
+  "dataset": {
+    "features": 204,
+    "train_samples_original": 336,
+    "train_samples_augmented": 672,
+    "val_samples": 71,
+    "test_samples": 75,
+    "accents": [
+      "mandarin",
+      "russian",
+      "spanish"
+    ]
+  }
+}

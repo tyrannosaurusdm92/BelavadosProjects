@@ -1,0 +1,11 @@
+{
+  "atlas_name": "Full_Voice_Accent_Atlas",
+  "zip_count": 4,
+  "extract_instruction": "Extract all four ZIP files into the same parent folder so their Full_Voice_Accent_Atlas folders merge.",
+  "parts": [
+    {"part": 1, "contents": "00_DOCS, 02_ACCENT_GENDER_IDENTITY_SORT, smaller/global accent regions"},
+    {"part": 2, "contents": "01_ACCENT_REGION_ATLAS/Mandarin and Thai"},
+    {"part": 3, "contents": "01_ACCENT_REGION_ATLAS/Spanish and Russian"},
+    {"part": 4, "contents": "03_VOICE_AUDIO_MODEL_ATLAS flattened vocal/audio/voice model sources"}
+  ]
+}
