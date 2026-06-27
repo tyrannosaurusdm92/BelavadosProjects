@@ -7,7 +7,7 @@
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="stylesheet" href="s/style.css" />
 </head>
-<body>
+<body data-voice-root="v/" data-voice-manifest="s/voices.json" data-voice-folder-limit="950">
 <header class="topbar">
   <div>
     <h1>Voice Studio</h1>
@@ -119,6 +119,7 @@
       <button id="rescanSourcesBtn" type="button">Refresh source list</button>
       <button id="previewSourceBtn" type="button">Preview selected source</button>
     </div>
+    <p class="status">Voice library paths use GitHub-safe folders under <code>v/p001/</code>, <code>v/p002/</code>, etc. Manifest: <code>s/voices.json</code>.</p>
     <div id="sourceResults" class="source-results"></div>
   </section>
 
@@ -150,6 +151,21 @@
   <p>Voice Studio is for fictional characters and voices you have rights to use. Do not use it to impersonate real people without consent.</p>
 </footer>
 
+
+<script id="voiceStudioResourceConfig">
+window.VOICE_STUDIO_RESOURCE_CONFIG = {
+  "voiceRoot": "v/",
+  "voiceManifest": "s/voices.json",
+  "voicePathMap": "v/path_map.json",
+  "maxFilesPerFolder": 950,
+  "voiceFolders": [
+    "v/p001/",
+    "v/p002/",
+    "v/p003/"
+  ],
+  "totalVoiceFiles": 2541
+};
+</script>
 <script type="module" src="s/app.js"></script>
 </body>
 </html>
