@@ -1,0 +1,26 @@
+{
+  "schema": "voice_studio.github_safe_split.v1",
+  "maxFilesPerVoiceFolder": 950,
+  "totalAudioFiles": 2541,
+  "folders": [
+    {
+      "folder": "v/p001",
+      "fileCount": 950
+    },
+    {
+      "folder": "v/p002",
+      "fileCount": 950
+    },
+    {
+      "folder": "v/p003",
+      "fileCount": 641
+    }
+  ],
+  "voiceManifest": "s/voices.json",
+  "pathMap": "v/path_map.json",
+  "notes": [
+    "Audio files were split from a flat v/ folder into v/p001, v/p002, etc.",
+    "Each p### folder contains no more than 950 audio files.",
+    "The generated s/voices.json contains the new file paths used by Voice Studio."
+  ]
+}
