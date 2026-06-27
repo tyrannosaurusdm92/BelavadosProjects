@@ -1,0 +1,18 @@
+{
+  "name": "voice-studio-belavados",
+  "version": "1.0.0",
+  "description": "D&D NPC smart voice generator with biome accents, mood context, source voice library, backend export connector, and local WAV fallback.",
+  "scripts": {
+    "serve": "python -m http.server 8080"
+  },
+  "keywords": [
+    "voice",
+    "tts",
+    "dnd",
+    "npc",
+    "accent",
+    "belavados",
+    "web-audio"
+  ],
+  "license": "SEE-DOCS-LICENSES"
+}
