@@ -1,0 +1,25 @@
+name: agentic-voice-demo
+metadata:
+    template: azd-init@1.4.2
+services:
+    frontend:
+        project: ./src/frontend
+        host: containerapp
+        language: python
+        docker:
+            path: Dockerfile
+            remoteBuild: true
+    backend:
+        project: ./src/backend
+        host: containerapp
+        language: python
+        docker:
+            path: Dockerfile
+            remoteBuild: true
+    ai-foundry-mcp:
+        project: ./src/mcp-servers/ai-foundry-agent
+        host: containerapp
+        language: python
+        docker:
+            path: Dockerfile
+            remoteBuild: true
