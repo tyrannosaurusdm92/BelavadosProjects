@@ -1,0 +1,658 @@
+{
+  "generated_at_utc": "2026-06-25T16:57:59.821111+00:00",
+  "atlas_name": "Vocal Audio Voice Model Atlas",
+  "source_archives": [
+    {
+      "source_archive": "Realtime-Synthetic-Call-Center-Agents-main (1).zip",
+      "source_label": "Realtime-Synthetic-Call-Center-Agents-main_1",
+      "sandbox_path": "/mnt/data/Realtime-Synthetic-Call-Center-Agents-main (1).zip",
+      "size_bytes": 3453331,
+      "sha256": "78d8c22b65add4a30d7075255454ac0cc9685049e13c03423e0112732d0011ee",
+      "extracted_to": "00_sources_preserved/Realtime-Synthetic-Call-Center-Agents-main_1"
+    },
+    {
+      "source_archive": "thousandVoices-master (1).zip",
+      "source_label": "thousandVoices-master_1",
+      "sandbox_path": "/mnt/data/thousandVoices-master (1).zip",
+      "size_bytes": 12423,
+      "sha256": "9eb9a0634a6b21e51920a7c3e1708a9a7494b1bc83951e807614a5d72a643a5d",
+      "extracted_to": "00_sources_preserved/thousandVoices-master_1"
+    },
+    {
+      "source_archive": "JARVIS-ChatGPT-main (1).zip",
+      "source_label": "JARVIS-ChatGPT-main_1",
+      "sandbox_path": "/mnt/data/JARVIS-ChatGPT-main (1).zip",
+      "size_bytes": 126160078,
+      "sha256": "b4c9c0129f15a8ae85002ea1cb684ef16ed529dd77a1ea450063e8c6efa705c2",
+      "extracted_to": "00_sources_preserved/JARVIS-ChatGPT-main_1"
+    },
+    {
+      "source_archive": "Synthetic-Voice-Detection-Vocoder-Artifacts-main (1).zip",
+      "source_label": "Synthetic-Voice-Detection-Vocoder-Artifacts-main_1",
+      "sandbox_path": "/mnt/data/Synthetic-Voice-Detection-Vocoder-Artifacts-main (1).zip",
+      "size_bytes": 171600,
+      "sha256": "f2c3feb369c42b056f298ebef27ce77ef0264577065178538a1f5bbb87adbe9f",
+      "extracted_to": "00_sources_preserved/Synthetic-Voice-Detection-Vocoder-Artifacts-main_1"
+    },
+    {
+      "source_archive": "building_synthetic_voices_workshop-master (1).zip",
+      "source_label": "building_synthetic_voices_workshop-master_1",
+      "sandbox_path": "/mnt/data/building_synthetic_voices_workshop-master (1).zip",
+      "size_bytes": 21734,
+      "sha256": "bbb35969b880c76ad6434e0c663ad15bdaf790837af88b3b8751cfcc483f4a97",
+      "extracted_to": "00_sources_preserved/building_synthetic_voices_workshop-master_1"
+    },
+    {
+      "source_archive": "coqui_voice_pack_v2 (1).zip",
+      "source_label": "coqui_voice_pack_v2_1",
+      "sandbox_path": "/mnt/data/coqui_voice_pack_v2 (1).zip",
+      "size_bytes": 114792439,
+      "sha256": "585fbcb5c4ed5e9c4c6453fe7b9f99ebeb40290b9d36f392dd1c0c5165b898c1",
+      "extracted_to": "00_sources_preserved/coqui_voice_pack_v2_1"
+    },
+    {
+      "source_archive": "coqui-voice-pack-2 (1).zip",
+      "source_label": "coqui-voice-pack-2_1",
+      "sandbox_path": "/mnt/data/coqui-voice-pack-2 (1).zip",
+      "size_bytes": 1416,
+      "sha256": "b39bd34f7f728cf91afd98077b9b616ce914d42feb5f9628b671d5308c3009f0",
+      "extracted_to": "00_sources_preserved/coqui-voice-pack-2_1"
+    },
+    {
+      "source_archive": "coqui-voice-pack-2 (1).tar.gz",
+      "source_label": "coqui-voice-pack-2_1__archive2",
+      "sandbox_path": "/mnt/data/coqui-voice-pack-2 (1).tar.gz",
+      "size_bytes": 1329,
+      "sha256": "cdcc6142ce4517b840a57ce4aa022c67322ea4f850e32633110ad80c1d455383",
+      "extracted_to": "00_sources_preserved/coqui-voice-pack-2_1__archive2"
+    }
+  ],
+  "totals": {
+    "sources": 8,
+    "extracted_files": 3336,
+    "audio_files": 2564,
+    "voice_model_or_ml_artifact_files": 0,
+    "speaker_audio_entries": 2541,
+    "duplicate_file_entries": 77,
+    "explicit_or_canonical_gender_identity_entries": 15
+  },
+  "file_type_summary": [
+    {
+      "category": "assets_images",
+      "subcategory": "ico",
+      "file_count": 1,
+      "total_bytes": 4286
+    },
+    {
+      "category": "assets_images",
+      "subcategory": "png",
+      "file_count": 22,
+      "total_bytes": 2988634
+    },
+    {
+      "category": "assets_images",
+      "subcategory": "webp",
+      "file_count": 1,
+      "total_bytes": 351122
+    },
+    {
+      "category": "audio",
+      "subcategory": "mp3",
+      "file_count": 14,
+      "total_bytes": 6325979
+    },
+    {
+      "category": "audio",
+      "subcategory": "wav",
+      "file_count": 2550,
+      "total_bytes": 184410330
+    },
+    {
+      "category": "cache_bytecode",
+      "subcategory": "pyc",
+      "file_count": 123,
+      "total_bytes": 730714
+    },
+    {
+      "category": "code",
+      "subcategory": "c",
+      "file_count": 1,
+      "total_bytes": 859808
+    },
+    {
+      "category": "code",
+      "subcategory": "javascript",
+      "file_count": 3,
+      "total_bytes": 4341
+    },
+    {
+      "category": "code",
+      "subcategory": "powershell",
+      "file_count": 4,
+      "total_bytes": 28666
+    },
+    {
+      "category": "code",
+      "subcategory": "python",
+      "file_count": 332,
+      "total_bytes": 2252277
+    },
+    {
+      "category": "code",
+      "subcategory": "shell",
+      "file_count": 1,
+      "total_bytes": 336
+    },
+    {
+      "category": "code",
+      "subcategory": "typescript",
+      "file_count": 6,
+      "total_bytes": 29884
+    },
+    {
+      "category": "code",
+      "subcategory": "typescript_react",
+      "file_count": 65,
+      "total_bytes": 289330
+    },
+    {
+      "category": "code",
+      "subcategory": "windows_batch",
+      "file_count": 3,
+      "total_bytes": 5157
+    },
+    {
+      "category": "code",
+      "subcategory": "windows_cmd",
+      "file_count": 1,
+      "total_bytes": 223
+    },
+    {
+      "category": "configs_manifests",
+      "subcategory": "json",
+      "file_count": 4,
+      "total_bytes": 3735
+    },
+    {
+      "category": "configs_manifests",
+      "subcategory": "no_extension",
+      "file_count": 3,
+      "total_bytes": 2549
+    },
+    {
+      "category": "configs_manifests",
+      "subcategory": "py",
+      "file_count": 2,
+      "total_bytes": 8080
+    },
+    {
+      "category": "configs_manifests",
+      "subcategory": "toml",
+      "file_count": 3,
+      "total_bytes": 2093
+    },
+    {
+      "category": "configs_manifests",
+      "subcategory": "txt",
+      "file_count": 6,
+      "total_bytes": 6070
+    },
+    {
+      "category": "data_and_configs",
+      "subcategory": "conf",
+      "file_count": 1,
+      "total_bytes": 917
+    },
+    {
+      "category": "data_and_configs",
+      "subcategory": "csv",
+      "file_count": 3,
+      "total_bytes": 45769
+    },
+    {
+      "category": "data_and_configs",
+      "subcategory": "data",
+      "file_count": 1,
+      "total_bytes": 1803
+    },
+    {
+      "category": "data_and_configs",
+      "subcategory": "json",
+      "file_count": 14,
+      "total_bytes": 1113491
+    },
+    {
+      "category": "data_and_configs",
+      "subcategory": "yaml",
+      "file_count": 4,
+      "total_bytes": 2633
+    },
+    {
+      "category": "data_and_configs",
+      "subcategory": "yml",
+      "file_count": 1,
+      "total_bytes": 469
+    },
+    {
+      "category": "docs",
+      "subcategory": "licenses_readmes_notices",
+      "file_count": 5,
+      "total_bytes": 20071
+    },
+    {
+      "category": "docs",
+      "subcategory": "readmes_guides",
+      "file_count": 23,
+      "total_bytes": 95098
+    },
+    {
+      "category": "notebooks",
+      "subcategory": "jupyter",
+      "file_count": 1,
+      "total_bytes": 1392
+    },
+    {
+      "category": "other",
+      "subcategory": "bib",
+      "file_count": 1,
+      "total_bytes": 19869
+    },
+    {
+      "category": "other",
+      "subcategory": "bicep",
+      "file_count": 18,
+      "total_bytes": 59857
+    },
+    {
+      "category": "other",
+      "subcategory": "dat",
+      "file_count": 1,
+      "total_bytes": 10880
+    },
+    {
+      "category": "other",
+      "subcategory": "example",
+      "file_count": 1,
+      "total_bytes": 664
+    },
+    {
+      "category": "other",
+      "subcategory": "lock",
+      "file_count": 2,
+      "total_bytes": 480041
+    },
+    {
+      "category": "other",
+      "subcategory": "md",
+      "file_count": 14,
+      "total_bytes": 66708
+    },
+    {
+      "category": "other",
+      "subcategory": "pdf",
+      "file_count": 20,
+      "total_bytes": 90366829
+    },
+    {
+      "category": "other",
+      "subcategory": "pyd",
+      "file_count": 1,
+      "total_bytes": 126976
+    },
+    {
+      "category": "other",
+      "subcategory": "pyx",
+      "file_count": 1,
+      "total_bytes": 1236
+    },
+    {
+      "category": "other",
+      "subcategory": "txt",
+      "file_count": 60,
+      "total_bytes": 564656
+    },
+    {
+      "category": "other_no_extension",
+      "subcategory": "no_extension",
+      "file_count": 11,
+      "total_bytes": 46149
+    },
+    {
+      "category": "web_ui",
+      "subcategory": "css",
+      "file_count": 3,
+      "total_bytes": 15715
+    },
+    {
+      "category": "web_ui",
+      "subcategory": "html",
+      "file_count": 5,
+      "total_bytes": 65020
+    }
+  ],
+  "gender_identities_requested": [
+    "Agender",
+    "Bi-Gender",
+    "Cis-Female",
+    "Cis-Male",
+    "Demi-Female",
+    "Demi-Male",
+    "Gender-Flexible",
+    "Gender-Fluid",
+    "Gender-Less",
+    "Neutrois",
+    "Non-Binary",
+    "Poly-Gender",
+    "Trans-Female",
+    "Trans-Male"
+  ],
+  "canonical_belavados_npc_voice_identity_map": [
+    {
+      "name": "Joeari Ravenwood",
+      "gender_identity": "Gender-Flexible",
+      "voice_context": "Human Bard Spirits, Deep cavern / Welsh"
+    },
+    {
+      "name": "Ghearir’iel Luneglen",
+      "gender_identity": "Demi-Female",
+      "voice_context": "High Elf Wizard Bladesinging, Treetops / French"
+    },
+    {
+      "name": "Thalenael Silverthorn",
+      "gender_identity": "Non-Binary",
+      "voice_context": "Drow Rogue Phantom, Deep forest / German"
+    },
+    {
+      "name": "Nimu’dri Ironvault",
+      "gender_identity": "Gender-Less",
+      "voice_context": "Duergar Artificer Armorer, Deep cavern / Welsh"
+    },
+    {
+      "name": "Ro’sabin Merryroot",
+      "gender_identity": "Bi-Gender",
+      "voice_context": "Kender Ranger Fey Wanderer, Hybrid tree / English West Country"
+    },
+    {
+      "name": "Urg-U’rgugar Mudgrip",
+      "gender_identity": "Cis-Male",
+      "voice_context": "Hobgoblin Fighter Battle Master, Prairie / Russian"
+    },
+    {
+      "name": "Valk-Minoorvar Thunderheft",
+      "gender_identity": "Trans-Male",
+      "voice_context": "Goliath Barbarian Storm Herald, Mountain / Scottish"
+    },
+    {
+      "name": "Kethazzun Clawcoil",
+      "gender_identity": "Poly-Gender",
+      "voice_context": "Dragonborn Paladin Conquest, Beach & reefs / Hawaiian"
+    },
+    {
+      "name": "Veyielven Asharchf",
+      "gender_identity": "Agender",
+      "voice_context": "Hexblood Warlock Archfey, Treetops / French"
+    },
+    {
+      "name": "Nefumlith Duskendirge",
+      "gender_identity": "Trans-Female",
+      "voice_context": "Dhampir Blood Hunter Ghostslayer, Marsh / Cajun"
+    },
+    {
+      "name": "Tyrylina Mirthwink",
+      "gender_identity": "Gender-Fluid",
+      "voice_context": "Satyr Bard Glamour, Valley / Italian"
+    },
+    {
+      "name": "Sto’neudor Stormbreath",
+      "gender_identity": "Demi-Male",
+      "voice_context": "Fire Genasi Sorcerer Draconic, Ocean / Portuguese"
+    },
+    {
+      "name": "Arcorven Brasslock",
+      "gender_identity": "Neutrois",
+      "voice_context": "Warforged Cleric Forge, Deep cavern / Welsh"
+    },
+    {
+      "name": "Canielina Dennose",
+      "gender_identity": "Cis-Female",
+      "voice_context": "Tabaxi Monk Shadow, Deep forest / German"
+    }
+  ],
+  "voice_sliders": [
+    {
+      "user_facing_name": "Voice Height",
+      "internal_key": "pitch",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Base pitch, F0, semitone shift, pitch range"
+    },
+    {
+      "user_facing_name": "Speaking Speed",
+      "internal_key": "speed",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Speech rate, duration, pacing"
+    },
+    {
+      "user_facing_name": "Expression Shape",
+      "internal_key": "inflection",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Pitch motion, melody, phrase movement"
+    },
+    {
+      "user_facing_name": "Hesitations",
+      "internal_key": "stutter",
+      "range": "0-10",
+      "default": 1.0,
+      "controls": "Stutter chance, hesitation text, pause behavior"
+    },
+    {
+      "user_facing_name": "Softness",
+      "internal_key": "breath",
+      "range": "0-10",
+      "default": 3.0,
+      "controls": "Airiness, aspiration, soft delivery"
+    },
+    {
+      "user_facing_name": "Roughness",
+      "internal_key": "roughness",
+      "range": "0-10",
+      "default": 3.0,
+      "controls": "Rasp, growl, grit, throat edge"
+    },
+    {
+      "user_facing_name": "Nasal Tone",
+      "internal_key": "nasal",
+      "range": "0-10",
+      "default": 3.0,
+      "controls": "Nasality and facial resonance"
+    },
+    {
+      "user_facing_name": "Voice Color",
+      "internal_key": "timbre",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Bright/dark spectral tone"
+    },
+    {
+      "user_facing_name": "Mouth Shape",
+      "internal_key": "formant",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Formant shift and perceived vocal tract size"
+    },
+    {
+      "user_facing_name": "Emphasis",
+      "internal_key": "emphasis",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Stress, volume shape, punch"
+    },
+    {
+      "user_facing_name": "Emotion",
+      "internal_key": "emotion",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Emotional intensity weighting"
+    },
+    {
+      "user_facing_name": "Accent Strength",
+      "internal_key": "accent",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Accent overlay strength"
+    },
+    {
+      "user_facing_name": "Age / Wear",
+      "internal_key": "age_wear",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Age texture, wear, fatigue"
+    },
+    {
+      "user_facing_name": "Phrase Style",
+      "internal_key": "phrase",
+      "range": "0-10",
+      "default": 5.0,
+      "controls": "Diction, sentence rhythm, idiom cadence"
+    },
+    {
+      "user_facing_name": "Construct Tone",
+      "internal_key": "construct",
+      "range": "0-10",
+      "default": 0.0,
+      "controls": "Mechanical/metallic resonance, only used when appropriate"
+    }
+  ],
+  "biome_accent_atlas": [
+    {
+      "biome": "Ocean",
+      "sub_biome": "Ocean Surface floating settlement",
+      "fantasy_accent": "Tidecrest Cant",
+      "real_world_anchor": "Portuguese"
+    },
+    {
+      "biome": "Ocean",
+      "sub_biome": "Underwater with reefs",
+      "fantasy_accent": "Reefglass Lilt",
+      "real_world_anchor": "Japanese"
+    },
+    {
+      "biome": "Ocean",
+      "sub_biome": "Underwater without reefs",
+      "fantasy_accent": "Tidemurk Drift",
+      "real_world_anchor": "Thai"
+    },
+    {
+      "biome": "Plains",
+      "sub_biome": "Grassland",
+      "fantasy_accent": "Meadowrise Tone",
+      "real_world_anchor": "Welsh"
+    },
+    {
+      "biome": "Plains",
+      "sub_biome": "Prairie",
+      "fantasy_accent": "Windplain Drawl",
+      "real_world_anchor": "Russian"
+    },
+    {
+      "biome": "Plains",
+      "sub_biome": "Farming",
+      "fantasy_accent": "Hearthfold Bend",
+      "real_world_anchor": "English West Country"
+    },
+    {
+      "biome": "Mountains",
+      "sub_biome": "Mountain range",
+      "fantasy_accent": "Highcliff Brogue",
+      "real_world_anchor": "Scottish"
+    },
+    {
+      "biome": "Mountains",
+      "sub_biome": "Valley",
+      "fantasy_accent": "Vale Serenata",
+      "real_world_anchor": "Italian"
+    },
+    {
+      "biome": "Mountains",
+      "sub_biome": "Deep cavern",
+      "fantasy_accent": "Cavernstone Tone",
+      "real_world_anchor": "Welsh"
+    },
+    {
+      "biome": "Forest",
+      "sub_biome": "Deep forest",
+      "fantasy_accent": "Hollowbloom Tongue",
+      "real_world_anchor": "German"
+    },
+    {
+      "biome": "Forest",
+      "sub_biome": "Treetops-treehouses",
+      "fantasy_accent": "Canopy Chant",
+      "real_world_anchor": "French"
+    },
+    {
+      "biome": "Forest",
+      "sub_biome": "Marshes and swamps",
+      "fantasy_accent": "Mirecreole Flow",
+      "real_world_anchor": "Cajun/Creole"
+    },
+    {
+      "biome": "Hybrid",
+      "sub_biome": "Beach & grass with water",
+      "fantasy_accent": "Shoalway Talk",
+      "real_world_anchor": "Hawaiian-influenced"
+    },
+    {
+      "biome": "Hybrid",
+      "sub_biome": "Beach & reefs with water",
+      "fantasy_accent": "Reefshore Blend",
+      "real_world_anchor": "Portuguese + Hawaiian"
+    },
+    {
+      "biome": "Hybrid",
+      "sub_biome": "Hybrid tree & forest floor",
+      "fantasy_accent": "Rootpath Lilt",
+      "real_world_anchor": "English West Country"
+    },
+    {
+      "biome": "Hybrid",
+      "sub_biome": "Hybrid farming forest grassland",
+      "fantasy_accent": "Meadowgrove Mix",
+      "real_world_anchor": "Mixed rural/forest/plains"
+    }
+  ],
+  "race_overlays": {
+    "Human": "clean",
+    "Elf": "smoother/musical",
+    "Dwarf": "lower/denser/clipped",
+    "Orc": "rough/punchy",
+    "Halfling": "warm/quick",
+    "Aquatic": "flowing/breathy",
+    "Beastfolk": "emphasized",
+    "Construct": "metallic",
+    "Dragonborn": "growl/rasp",
+    "Genasi": "elemental"
+  },
+  "class_overlays": {
+    "Barbarian": "thunder",
+    "Bard": "theatrical/ritual",
+    "Cleric": "ceremonial",
+    "Druid": "calm",
+    "Fighter": "short/command",
+    "Monk": "controlled",
+    "Paladin": "declarative",
+    "Ranger": "practical",
+    "Rogue": "hushed/quick",
+    "Sorcerer": "incandescent",
+    "Warlock": "lyrical",
+    "Wizard": "precise"
+  },
+  "policy_notes": [
+    "Original source trees are preserved in 00_sources_preserved.",
+    "Categorized hard-linked copies are provided in 01_by_type.",
+    "Gender identity folders are populated only by explicit source mentions or canonical Belavadös NPC placeholders; no identity is inferred from a speaker name or vocal presentation.",
+    "Duplicate files are preserved; duplicate relationships are documented in docs/audits/duplicate_files_audit.csv."
+  ]
+}

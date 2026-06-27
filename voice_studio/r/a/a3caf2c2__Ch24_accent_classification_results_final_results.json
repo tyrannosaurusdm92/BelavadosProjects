@@ -1,0 +1,167 @@
+{
+  "experiment_config": {
+    "DATA_DIR": "/content/drive/MyDrive/Fall25/EE502/FinalProjects/Ch24/data",
+    "PROJECT_DIR": "/content/drive/MyDrive/Fall25/EE502/FinalProjects/Ch24/accent_classification",
+    "CACHE_DIR": "/content/drive/MyDrive/Fall25/EE502/FinalProjects/Ch24/accent_classification/cache",
+    "RESULTS_DIR": "/content/drive/MyDrive/Fall25/EE502/FinalProjects/Ch24/accent_classification/results",
+    "TARGET_ACCENTS": [
+      "mandarin",
+      "russian",
+      "spanish"
+    ],
+    "SAMPLE_RATE": 16000,
+    "MAX_DURATION": 10.0,
+    "N_MFCC": 40,
+    "N_CHROMA": 12,
+    "N_SPECTRAL_CONTRAST": 7,
+    "N_TONNETZ": 6,
+    "FRAME_LENGTH": 2048,
+    "HOP_LENGTH": 512,
+    "FEATURE_SELECTION_K_VALUES": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "AUGMENT_NOISE_LEVEL": 0.001,
+    "AUGMENT_COPIES_PER_SAMPLE": 2,
+    "LR_C_VALUES": [
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "BAGGING_N_ESTIMATORS": 50,
+    "N_FOLDS": 5,
+    "TEST_SIZE": 0.15,
+    "VAL_SIZE": 0.15,
+    "RANDOM_STATE": 42
+  },
+  "data_splits": {
+    "train_size": 336,
+    "val_size": 73,
+    "test_size": 73,
+    "train_distribution": {
+      "spanish": 169,
+      "mandarin": 109,
+      "russian": 58
+    },
+    "val_distribution": {
+      "spanish": 37,
+      "mandarin": 24,
+      "russian": 12
+    },
+    "test_distribution": {
+      "spanish": 37,
+      "mandarin": 24,
+      "russian": 12
+    }
+  },
+  "feature_selection": {
+    "best_k": 12,
+    "best_val_f1": 0.41058844256518673,
+    "all_k_results": [
+      {
+        "k": 10,
+        "val_f1": 0.37254901960784315,
+        "test_f1": 0.38790481302558594
+      },
+      {
+        "k": 11,
+        "val_f1": 0.403030303030303,
+        "test_f1": 0.39054596197453345
+      },
+      {
+        "k": 12,
+        "val_f1": 0.41058844256518673,
+        "test_f1": 0.37105751391465674
+      },
+      {
+        "k": 13,
+        "val_f1": 0.3878787878787879,
+        "test_f1": 0.42518351214003386
+      },
+      {
+        "k": 14,
+        "val_f1": 0.3559428960997995,
+        "test_f1": 0.4896220486578687
+      }
+    ]
+  },
+  "best_model": {
+    "name": "Bagging Ensemble",
+    "params": {
+      "n_estimators": 50
+    },
+    "train_f1": 0.47191506410256406,
+    "val_f1": 0.3895228266745295,
+    "test_f1": 0.4516879319510898,
+    "test_accuracy": 0.5342465753424658
+  },
+  "all_models": [
+    {
+      "name": "Logistic Regression (L2)",
+      "model": "<Model: LogisticRegression>",
+      "train_f1": 0.47062118876211834,
+      "val_f1": 0.39580483356133156,
+      "test_f1": 0.4191430958348252,
+      "test_accuracy": 0.5205479452054794,
+      "best_params": {
+        "C": 10.0
+      }
+    },
+    {
+      "name": "Bagging Ensemble",
+      "model": "<Model: BaggingClassifier>",
+      "train_f1": 0.47191506410256406,
+      "val_f1": 0.3895228266745295,
+      "test_f1": 0.4516879319510898,
+      "test_accuracy": 0.5342465753424658,
+      "best_params": {
+        "n_estimators": 50
+      }
+    }
+  ],
+  "evaluation": {
+    "accuracy": 0.5342465753424658,
+    "macro_f1": 0.4516879319510898,
+    "weighted_f1": 0.5280854689650653,
+    "per_accent_f1": {
+      "mandarin": 0.7027027027027027,
+      "russian": 0.2857142857142857,
+      "spanish": 0.7868852459016393
+    },
+    "confusion_matrix": [
+      [
+        13,
+        2,
+        9
+      ],
+      [
+        4,
+        2,
+        6
+      ],
+      [
+        7,
+        6,
+        24
+      ]
+    ]
+  },
+  "benchmark_comparison": {
+    "Calc_f1": 0.4516879319510898,
+    "benchmark_f1": 0.39274261603375527,
+    "improvement": 0.05894531591733454,
+    "beats_benchmark": true,
+    "mcnemar_test": {
+      "statistic": 3.0,
+      "p_value": 1.0,
+      "significant": "False",
+      "n_model1_wrong_model2_correct": 3,
+      "n_model1_correct_model2_wrong": 3
+    }
+  }
+}

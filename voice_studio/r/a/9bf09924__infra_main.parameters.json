@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "${AZURE_ENV_NAME}",
+      "metadata": {
+        "description": "Name of the the environment which is used to generate a short unique hash used in all resources."
+      }
+    },
+    "principalId": {
+      "value": "${AZURE_PRINCIPAL_ID}"
+    },
+    "location": {
+      "value": "${AZURE_LOCATION}"
+    },
+    "enableZeroTrust": {
+      "value": "${ENABLE_ZERO_TRUST}"
+    },
+    "resourceGroupName": {
+      "value": "rg-${AZURE_ENV_NAME}"
+    },
+    "openAiRealtimeName": {
+      "value": "${AZURE_OPENAI_REALTIME_NAME}"
+    },
+    "openAiRealtimeKey": {
+      "value": "${AZURE_OPENAI_REALTIME_KEY}"
+    },
+    "appExists": {
+      "value": "${SERVICE_APP_RESOURCE_EXISTS=false}"
+    },
+    "backendContainerAppName": {
+      "value": "agentic-backend-app"
+    },
+    "backendContainerImage": {
+      "value": "mcr.microsoft.com/azuredocs/containerapps-helloworld:latest"
+    },
+    "frontendContainerAppName": {
+      "value": "agentic-frontend-app"
+    },
+    "frontendContainerImage": {
+      "value": "mcr.microsoft.com/azuredocs/containerapps-helloworld:latest"
+    }
+  }
+}
