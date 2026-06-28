@@ -1,0 +1,41 @@
+{
+  "botName": "superbot",
+  "lockedBackendUrl": "https://script.google.com/macros/s/AKfycbzoGmgKoNq_d-KorQsuBYYeJYQ0pAVk4a7Y3zFxdJncbU7GlMK_Dg2irgbR1zPfyiPr4g/exec",
+  "convertedFeatures": [
+    {
+      "source": "ai-chat-bot-main/backend/src/ai/ai.service.ts",
+      "target": "Code.gs superbot_callAiIfConfigured_",
+      "detail": "OpenAI/NestJS call pattern translated to Apps Script UrlFetchApp with Script Properties."
+    },
+    {
+      "source": "ai-chat-bot-main/backend/src/chat/chat.service.ts",
+      "target": "Code.gs superbot_chatCreate_/superbot_chatSend_/superbot_chatMessages_",
+      "detail": "Conversations/messages/history and plan message limits translated to Sheets."
+    },
+    {
+      "source": "ai-chat-bot-main/backend/src/auth/auth.service.ts",
+      "target": "Code.gs superbot_authRegister_/superbot_authLogin_",
+      "detail": "Auth/session flow translated to salted Apps Script hash and Sheets sessions."
+    },
+    {
+      "source": "ai-chat-bot-main/frontend/src/store/useChatStore.ts",
+      "target": "frontend/assets/superbot.js",
+      "detail": "Active conversation, optimistic send, typing behavior, local state."
+    },
+    {
+      "source": "ai-chat-bot-main/frontend/src/components/ChatWidget.tsx",
+      "target": "frontend/embed/superbot-widget.js + frontend/superbot.html",
+      "detail": "Floating chat and online status converted to dependency-free JS."
+    },
+    {
+      "source": "ai-chat-bot-main/frontend/public/widget.js",
+      "target": "frontend/embed/superbot-widget.js",
+      "detail": "Embeddable widget locked to Apps Script deployment URL."
+    },
+    {
+      "source": "Gitbot_AI_Bot_Package/Code.gs",
+      "target": "Code.gs",
+      "detail": "GitHub scanning, file indexing, tasks, voice simulation, notifications, and AI bridge retained and expanded."
+    }
+  ]
+}

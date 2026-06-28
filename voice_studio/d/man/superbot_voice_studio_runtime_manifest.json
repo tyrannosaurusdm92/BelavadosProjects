@@ -1,0 +1,21 @@
+{
+  "schema": "voice_studio.superbot_integration_manifest.v1",
+  "generatedAt": "2026-06-28T02:22:12.870985Z",
+  "lockedBackendUrl": "https://script.google.com/macros/s/AKfycbzoGmgKoNq_d-KorQsuBYYeJYQ0pAVk4a7Y3zFxdJncbU7GlMK_Dg2irgbR1zPfyiPr4g/exec",
+  "runtimeFilesAdded": [
+    "s/superbot-voice-brain.js"
+  ],
+  "htmlSectionsAdded": [
+    "#superbot"
+  ],
+  "backendAdapterAdded": true,
+  "voicePathsPreserved": [
+    "r/v/p001/",
+    "r/v/p002/",
+    "r/v/p003/",
+    "s/voices.json"
+  ],
+  "notes": [
+    "Superbot source archives were not duplicated; runnable logic was converted into live Voice Studio files."
+  ]
+}
