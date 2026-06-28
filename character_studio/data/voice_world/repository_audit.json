@@ -1,0 +1,634 @@
+{
+  "schema": "belavados.voice.repositoryAudit.v2",
+  "generatedAt": "2026-06-22T15:48:23.261835+00:00",
+  "repositories": [
+    {
+      "zip": "CommonAccent_IS23-main.zip",
+      "sourceSandboxPath": "/mnt/data/CommonAccent_IS23-main.zip",
+      "zipSizeBytes": 1660206,
+      "sha256": "0ec9e22c261d99572ef34b0825be41a88d9fd351716d55800677bdce3844919f",
+      "fileCount": 13,
+      "directoryCount": 4,
+      "topFolder": "CommonAccent_IS23-main",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "CommonAccent_IS23-main/README.md"
+      ],
+      "licenseFiles": [],
+      "dependencyFiles": [],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 6,
+      "extensionCounts": {
+        ".ipynb": 4,
+        ".csv": 3,
+        ".py": 2,
+        ".pyc": 2,
+        ".md": 1,
+        "[no extension]": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "LibriTTS-British-Accents-master.zip",
+      "sourceSandboxPath": "/mnt/data/LibriTTS-British-Accents-master.zip",
+      "zipSizeBytes": 16076,
+      "sha256": "5c895d6af4b748ce81db2605ac1ef4287b151acc3ba7c51bbb10b090cee45193",
+      "fileCount": 15,
+      "directoryCount": 1,
+      "topFolder": "LibriTTS-British-Accents-master",
+      "licenseGuess": "Creative Commons",
+      "readmeFiles": [
+        "LibriTTS-British-Accents-master/README.md"
+      ],
+      "licenseFiles": [
+        "LibriTTS-British-Accents-master/LICENSE"
+      ],
+      "dependencyFiles": [],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 0,
+      "extensionCounts": {
+        ".txt": 8,
+        "[no extension]": 2,
+        ".001": 1,
+        ".002": 1,
+        ".003": 1,
+        ".004": 1,
+        ".md": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "ThaiSpeechKit-main.zip",
+      "sourceSandboxPath": "/mnt/data/ThaiSpeechKit-main.zip",
+      "zipSizeBytes": 13600,
+      "sha256": "44c11ac7f4bb6302c0b6d0272d5fd018310a5c16358a9fbbd7008eb7735dbcab",
+      "fileCount": 17,
+      "directoryCount": 5,
+      "topFolder": "ThaiSpeechKit-main",
+      "licenseGuess": "MIT",
+      "readmeFiles": [
+        "ThaiSpeechKit-main/README.md"
+      ],
+      "licenseFiles": [
+        "ThaiSpeechKit-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "ThaiSpeechKit-main/pyproject.toml",
+        "ThaiSpeechKit-main/requirements.txt"
+      ],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 9,
+      "extensionCounts": {
+        ".py": 9,
+        "[no extension]": 4,
+        ".txt": 2,
+        ".md": 1,
+        ".toml": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "KhanomTan-TTS-v1.0-main.zip",
+      "sourceSandboxPath": "/mnt/data/KhanomTan-TTS-v1.0-main.zip",
+      "zipSizeBytes": 97929594,
+      "sha256": "530c47018fe14a5328d16f8b92cd3fa73f43764aab5a9341c147930deafa51e3",
+      "fileCount": 276,
+      "directoryCount": 5,
+      "topFolder": "KhanomTan-TTS-v1.0-main",
+      "licenseGuess": "Apache-2.0",
+      "readmeFiles": [
+        "KhanomTan-TTS-v1.0-main/README.md",
+        "KhanomTan-TTS-v1.0-main/train/README.md"
+      ],
+      "licenseFiles": [
+        "KhanomTan-TTS-v1.0-main/LICENSE"
+      ],
+      "dependencyFiles": [],
+      "audioFileCount": 264,
+      "codeOrNotebookCount": 1,
+      "extensionCounts": {
+        ".wav": 264,
+        "[no extension]": 4,
+        ".html": 3,
+        ".md": 2,
+        ".json": 1,
+        ".pth": 1,
+        ".py": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "thonburian-tts-api-main.zip",
+      "sourceSandboxPath": "/mnt/data/thonburian-tts-api-main.zip",
+      "zipSizeBytes": 10674,
+      "sha256": "74e586f6d9be1c2eeec2e145d1d4e315e890f69a68e3243054d089c3289514eb",
+      "fileCount": 6,
+      "directoryCount": 1,
+      "topFolder": "thonburian-tts-api-main",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "thonburian-tts-api-main/README.md"
+      ],
+      "licenseFiles": [],
+      "dependencyFiles": [
+        "thonburian-tts-api-main/docker-compose.yml",
+        "thonburian-tts-api-main/requirements.txt"
+      ],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 1,
+      "extensionCounts": {
+        "[no extension]": 2,
+        ".md": 1,
+        ".py": 1,
+        ".txt": 1,
+        ".yml": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "thonburian-tts-main.zip",
+      "sourceSandboxPath": "/mnt/data/thonburian-tts-main.zip",
+      "zipSizeBytes": 2847398,
+      "sha256": "6c618d1c0242586cf26cf31ac32ac8278274bcffaba10c900d6cde20056b12eb",
+      "fileCount": 91,
+      "directoryCount": 25,
+      "topFolder": "thonburian-tts-main",
+      "licenseGuess": "Creative Commons",
+      "readmeFiles": [
+        "thonburian-tts-main/README.md",
+        "thonburian-tts-main/flowtts/eval/README.md",
+        "thonburian-tts-main/flowtts/infer/README.md",
+        "thonburian-tts-main/flowtts/model/backbones/README.md",
+        "thonburian-tts-main/flowtts/runtime/triton_trtllm/README.md",
+        "thonburian-tts-main/flowtts/train/README.md"
+      ],
+      "licenseFiles": [
+        "thonburian-tts-main/LICENSE-CC-BY-NC-SA",
+        "thonburian-tts-main/LICENSE-MIT"
+      ],
+      "dependencyFiles": [
+        "thonburian-tts-main/flowtts/runtime/triton_trtllm/docker-compose.yml",
+        "thonburian-tts-main/requirements.txt"
+      ],
+      "audioFileCount": 6,
+      "codeOrNotebookCount": 52,
+      "extensionCounts": {
+        ".py": 50,
+        ".md": 7,
+        ".yaml": 5,
+        ".png": 4,
+        ".txt": 4,
+        ".flac": 3,
+        ".sh": 3,
+        ".wav": 3,
+        "[no extension]": 3,
+        ".ipynb": 2,
+        ".pbtxt": 2,
+        ".toml": 2
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "NextJS_Text-to-Speech-for-PyThaiTTS-main.zip",
+      "sourceSandboxPath": "/mnt/data/NextJS_Text-to-Speech-for-PyThaiTTS-main.zip",
+      "zipSizeBytes": 510014,
+      "sha256": "df8f810d61af9b7be701c128b1d25dac764e6b9ec9d63a362c828ad8a9ce40f9",
+      "fileCount": 24,
+      "directoryCount": 9,
+      "topFolder": "NextJS_Text-to-Speech-for-PyThaiTTS-main",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "NextJS_Text-to-Speech-for-PyThaiTTS-main/README.md",
+        "NextJS_Text-to-Speech-for-PyThaiTTS-main/frontend/README.md"
+      ],
+      "licenseFiles": [],
+      "dependencyFiles": [
+        "NextJS_Text-to-Speech-for-PyThaiTTS-main/backend/requirements.txt",
+        "NextJS_Text-to-Speech-for-PyThaiTTS-main/frontend/package.json"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "PyThaiTTS-Demo-main.zip",
+      "sourceSandboxPath": "/mnt/data/PyThaiTTS-Demo-main.zip",
+      "zipSizeBytes": 11053,
+      "sha256": "cddbce124eeaff89433006d817a7f723794c2e721cadb414b3bc3f0aa467247c",
+      "fileCount": 8,
+      "directoryCount": 2,
+      "topFolder": "PyThaiTTS-Demo-main",
+      "licenseGuess": "Apache-2.0",
+      "readmeFiles": [
+        "PyThaiTTS-Demo-main/README.md"
+      ],
+      "licenseFiles": [
+        "PyThaiTTS-Demo-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "PyThaiTTS-Demo-main/requirements.txt"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "PyThaiTTS-main.zip",
+      "sourceSandboxPath": "/mnt/data/PyThaiTTS-main.zip",
+      "zipSizeBytes": 668865,
+      "sha256": "8acccc936222d969c962fb8dcdd033ace58b5172df6e9ed7fb3eaef6fa6cdf04",
+      "fileCount": 29,
+      "directoryCount": 8,
+      "topFolder": "PyThaiTTS-main",
+      "licenseGuess": "Apache-2.0",
+      "readmeFiles": [
+        "PyThaiTTS-main/README.md"
+      ],
+      "licenseFiles": [
+        "PyThaiTTS-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "PyThaiTTS-main/requirements.txt"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "Kokoro-FastAPI-master.zip",
+      "sourceSandboxPath": "/mnt/data/Kokoro-FastAPI-master.zip",
+      "zipSizeBytes": 45801583,
+      "sha256": "5b62cf8098019de952c74fb751e2b1405804f5e13fc9c437b059176b0eb63189",
+      "fileCount": 342,
+      "directoryCount": 76,
+      "topFolder": "Kokoro-FastAPI-master",
+      "licenseGuess": "Apache-2.0",
+      "readmeFiles": [
+        "Kokoro-FastAPI-master/README.md",
+        "Kokoro-FastAPI-master/examples/assorted_checks/test_transcription/README.md"
+      ],
+      "licenseFiles": [
+        "Kokoro-FastAPI-master/LICENSE"
+      ],
+      "dependencyFiles": [
+        "Kokoro-FastAPI-master/docker/test-client/pyproject.toml",
+        "Kokoro-FastAPI-master/docs/requirements.txt",
+        "Kokoro-FastAPI-master/examples/pyproject.toml",
+        "Kokoro-FastAPI-master/examples/requirements.txt",
+        "Kokoro-FastAPI-master/package.json",
+        "Kokoro-FastAPI-master/pyproject.toml"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "kokoro-tts-main.zip",
+      "sourceSandboxPath": "/mnt/data/kokoro-tts-main.zip",
+      "zipSizeBytes": 1132929,
+      "sha256": "89351b14de0f827a71cd1c9e074861ad7399e1ccce6d62d9162f7bf4f0e801a2",
+      "fileCount": 23,
+      "directoryCount": 6,
+      "topFolder": "kokoro-tts-main",
+      "licenseGuess": "MIT",
+      "readmeFiles": [
+        "kokoro-tts-main/README.md"
+      ],
+      "licenseFiles": [
+        "kokoro-tts-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "kokoro-tts-main/pyproject.toml",
+        "kokoro-tts-main/requirements.txt"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "kokoro-main.zip",
+      "sourceSandboxPath": "/mnt/data/kokoro-main.zip",
+      "zipSizeBytes": 26232514,
+      "sha256": "610fbbe07be5f9426f3fade017fc882befeb5fceb7e38cc5c80c83ef1dfa0183",
+      "fileCount": 108,
+      "directoryCount": 13,
+      "topFolder": "kokoro-main",
+      "licenseGuess": "Apache-2.0",
+      "readmeFiles": [
+        "kokoro-main/README.md",
+        "kokoro-main/demo/README.md",
+        "kokoro-main/kokoro.js/README.md",
+        "kokoro-main/kokoro.js/demo/README.md"
+      ],
+      "licenseFiles": [
+        "kokoro-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "kokoro-main/demo/requirements.txt",
+        "kokoro-main/kokoro.js/demo/package.json",
+        "kokoro-main/kokoro.js/package.json",
+        "kokoro-main/pyproject.toml"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "kokoro-onnx-main.zip",
+      "sourceSandboxPath": "/mnt/data/kokoro-onnx-main.zip",
+      "zipSizeBytes": 104503,
+      "sha256": "fb70cfb40604eb74fb0e6016d2e8307b040642720e9bc257c69ce0f2fd5847c9",
+      "fileCount": 51,
+      "directoryCount": 9,
+      "topFolder": "kokoro-onnx-main",
+      "licenseGuess": "MIT",
+      "readmeFiles": [
+        "kokoro-onnx-main/README.md"
+      ],
+      "licenseFiles": [
+        "kokoro-onnx-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "kokoro-onnx-main/pyproject.toml"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "voices-main.zip",
+      "sourceSandboxPath": "/mnt/data/voices-main.zip",
+      "zipSizeBytes": 11223679,
+      "sha256": "ea33535af9fde34c3c1559a602a2e1d171d8c20b15ada63d221779a9a30ca133",
+      "fileCount": 138,
+      "directoryCount": 194,
+      "topFolder": "voices-main",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "voices-main/README.md"
+      ],
+      "licenseFiles": [],
+      "dependencyFiles": [
+        "voices-main/alba/pom.xml",
+        "voices-main/bryce/pom.xml",
+        "voices-main/chorus/pom.xml",
+        "voices-main/core/pom.xml",
+        "voices-main/cori/pom.xml",
+        "voices-main/en_uk/pom.xml",
+        "voices-main/en_us/pom.xml",
+        "voices-main/g2p/pom.xml",
+        "voices-main/kokoro/pom.xml",
+        "voices-main/model_downloader/pom.xml",
+        "voices-main/openvoice/pom.xml",
+        "voices-main/piper/pom.xml"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "kizuna-voice-studio-main.zip",
+      "sourceSandboxPath": "/mnt/data/kizuna-voice-studio-main.zip",
+      "zipSizeBytes": 132816,
+      "sha256": "0547844db2c8ae93183f0a6f00b06ca981a5450db510ea85141e2bb8e5252ac7",
+      "fileCount": 41,
+      "directoryCount": 11,
+      "topFolder": "kizuna-voice-studio-main",
+      "licenseGuess": "Apache-2.0",
+      "readmeFiles": [
+        "kizuna-voice-studio-main/README.md"
+      ],
+      "licenseFiles": [
+        "kizuna-voice-studio-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "kizuna-voice-studio-main/electron/package.json",
+        "kizuna-voice-studio-main/pyproject.toml"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "TextyMcSpeechy-main.zip",
+      "sourceSandboxPath": "/mnt/data/TextyMcSpeechy-main.zip",
+      "zipSizeBytes": 148873,
+      "sha256": "ea0e875f20f9f7e9ed55ad806714f6469c539eb901ff86f288b56686d692f45e",
+      "fileCount": 103,
+      "directoryCount": 32,
+      "topFolder": "TextyMcSpeechy-main",
+      "licenseGuess": "MIT",
+      "readmeFiles": [
+        "TextyMcSpeechy-main/README.md",
+        "TextyMcSpeechy-main/dataset_recorder/dataset_recorder_README.md"
+      ],
+      "licenseFiles": [
+        "TextyMcSpeechy-main/LICENSE"
+      ],
+      "dependencyFiles": [],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "piper-recording-studio-master.zip",
+      "sourceSandboxPath": "/mnt/data/piper-recording-studio-master.zip",
+      "zipSizeBytes": 5177664,
+      "sha256": "359d37ec5f972c40010f3a43d946629130f15d0467c7739bc5edcbcb9ddb342f",
+      "fileCount": 243,
+      "directoryCount": 72,
+      "topFolder": "piper-recording-studio-master",
+      "licenseGuess": "MIT",
+      "readmeFiles": [
+        "piper-recording-studio-master/README.md"
+      ],
+      "licenseFiles": [
+        "piper-recording-studio-master/LICENSE.md"
+      ],
+      "dependencyFiles": [
+        "piper-recording-studio-master/requirements.txt"
+      ],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "intellij-idea-tutorial-master.zip",
+      "sourceSandboxPath": "/mnt/data/intellij-idea-tutorial-master.zip",
+      "zipSizeBytes": 28754743,
+      "sha256": "2443514e906d957595b3fc67939b2305d8263f21be970869159016d58da2c05d",
+      "fileCount": 306,
+      "directoryCount": 45,
+      "topFolder": "intellij-idea-tutorial-master",
+      "licenseGuess": "MIT",
+      "readmeFiles": [
+        "intellij-idea-tutorial-master/README.md"
+      ],
+      "licenseFiles": [
+        "intellij-idea-tutorial-master/LICENSE"
+      ],
+      "dependencyFiles": [],
+      "folderLimitNote": "Original repo is not expanded into the web root. Only docs/audit material is copied, keeping GitHub folders under the 1000-file target."
+    },
+    {
+      "zip": "Kaggle-Kernel-Speech-Accent-Archive-master.zip",
+      "sourceSandboxPath": "/mnt/data/Kaggle-Kernel-Speech-Accent-Archive-master.zip",
+      "zipSizeBytes": 17356050,
+      "sha256": "b1f366da7e4610ffeb011be8acd8f78cd94e57c3fefec987b0b77d3efb0cb5c0",
+      "fileCount": 20,
+      "directoryCount": 4,
+      "topFolder": "Kaggle-Kernel-Speech-Accent-Archive-master",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "Kaggle-Kernel-Speech-Accent-Archive-master/README.MD"
+      ],
+      "licenseFiles": [],
+      "dependencyFiles": [
+        "Kaggle-Kernel-Speech-Accent-Archive-master/requirements.txt"
+      ],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 11,
+      "extensionCounts": {
+        ".ipynb": 6,
+        ".py": 5,
+        ".png": 2,
+        ".txt": 2,
+        ".csv": 1,
+        ".html": 1,
+        ".md": 1,
+        ".pdf": 1,
+        "[no extension]": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "Speech-Accent-Mining-master.zip",
+      "sourceSandboxPath": "/mnt/data/Speech-Accent-Mining-master.zip",
+      "zipSizeBytes": 7673992,
+      "sha256": "0cc6b8cadfc004ad4b92bef0eb1871b463b1c0f434767ab60ec63b88ac50df59",
+      "fileCount": 35,
+      "directoryCount": 5,
+      "topFolder": "Speech-Accent-Mining-master",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "Speech-Accent-Mining-master/README.md",
+        "Speech-Accent-Mining-master/README.rst"
+      ],
+      "licenseFiles": [
+        "Speech-Accent-Mining-master/LICENSE"
+      ],
+      "dependencyFiles": [
+        "Speech-Accent-Mining-master/requirements.txt"
+      ],
+      "audioFileCount": 3,
+      "codeOrNotebookCount": 10,
+      "extensionCounts": {
+        ".py": 10,
+        ".png": 8,
+        "[no extension]": 4,
+        ".wav": 3,
+        ".csv": 2,
+        ".rst": 2,
+        ".txt": 2,
+        ".bat": 1,
+        ".in": 1,
+        ".md": 1,
+        ".twbx": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "Accent-Classification--GMU-Speech-Accent-Archive--main.zip",
+      "sourceSandboxPath": "/mnt/data/Accent-Classification--GMU-Speech-Accent-Archive--main.zip",
+      "zipSizeBytes": 272690270,
+      "sha256": "98bf77aaaae663fdbb419c907cf68899c59e9bb62a8f96bcf4d71595f0ea80b7",
+      "fileCount": 533,
+      "directoryCount": 12,
+      "topFolder": "Accent-Classification--GMU-Speech-Accent-Archive--main",
+      "licenseGuess": "unknown",
+      "readmeFiles": [],
+      "licenseFiles": [],
+      "dependencyFiles": [],
+      "audioFileCount": 482,
+      "codeOrNotebookCount": 11,
+      "extensionCounts": {
+        ".mp3": 482,
+        ".png": 15,
+        ".py": 9,
+        ".pyc": 9,
+        ".csv": 6,
+        ".pkl": 5,
+        ".ipynb": 2,
+        ".json": 2,
+        ".pdf": 2,
+        "[no extension]": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "accent-prediction-main.zip",
+      "sourceSandboxPath": "/mnt/data/accent-prediction-main.zip",
+      "zipSizeBytes": 4818153,
+      "sha256": "fc9c116129cf7477aa7ea9158e99fbd9cb2b96d64dfd5f1939566d66ef76a661",
+      "fileCount": 12,
+      "directoryCount": 4,
+      "topFolder": "accent-prediction-main",
+      "licenseGuess": "unknown",
+      "readmeFiles": [
+        "accent-prediction-main/README.md"
+      ],
+      "licenseFiles": [],
+      "dependencyFiles": [
+        "accent-prediction-main/accent-interface/requirements.txt"
+      ],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 3,
+      "extensionCounts": {
+        ".png": 6,
+        ".ipynb": 2,
+        ".md": 2,
+        ".py": 1,
+        ".txt": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "SpeechAccentArchive-master.zip",
+      "sourceSandboxPath": "/mnt/data/SpeechAccentArchive-master.zip",
+      "zipSizeBytes": 13446087,
+      "sha256": "17943a7f40a31098b6c49e8c7b7eb2c6655a8f29ac9fb41920470057d459ebde",
+      "fileCount": 46,
+      "directoryCount": 23,
+      "topFolder": "SpeechAccentArchive-master",
+      "licenseGuess": "unknown",
+      "readmeFiles": [],
+      "licenseFiles": [],
+      "dependencyFiles": [],
+      "audioFileCount": 0,
+      "codeOrNotebookCount": 11,
+      "extensionCounts": {
+        ".json": 11,
+        ".swift": 11,
+        ".jpg": 9,
+        ".png": 3,
+        ".plist": 2,
+        ".storyboard": 2,
+        ".mov": 1,
+        ".pbxproj": 1,
+        ".xcbkptlist": 1,
+        ".xcexplist": 1,
+        ".xcscheme": 1,
+        ".xcuserstate": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    },
+    {
+      "zip": "Speech-Accent-Archive-Scraper-main.zip",
+      "sourceSandboxPath": "/mnt/data/Speech-Accent-Archive-Scraper-main.zip",
+      "zipSizeBytes": 1260769,
+      "sha256": "e29746155fa54d6fb19c0448f8a82e3abfa66252cabfa6d70ae80b58c54b4b64",
+      "fileCount": 22,
+      "directoryCount": 2,
+      "topFolder": "Speech-Accent-Archive-Scraper-main",
+      "licenseGuess": "MIT",
+      "readmeFiles": [],
+      "licenseFiles": [
+        "Speech-Accent-Archive-Scraper-main/LICENSE"
+      ],
+      "dependencyFiles": [
+        "Speech-Accent-Archive-Scraper-main/requirements.txt"
+      ],
+      "audioFileCount": 1,
+      "codeOrNotebookCount": 10,
+      "extensionCounts": {
+        ".py": 9,
+        ".png": 4,
+        "[no extension]": 4,
+        ".txt": 2,
+        ".csv": 1,
+        ".ipynb": 1,
+        ".mp3": 1
+      },
+      "folderLimitNote": "Full repository is not expanded into the GitHub Pages web root. Only lightweight docs/audit material is copied so no generated folder approaches the ~1000-file target."
+    }
+  ],
+  "repositoryExpansionPolicy": "Do not expand full source repos into the site. Keep source docs, licenses, small manifests, and audit JSON only; use external/model storage for heavy MP3/WAV/ONNX/PTH assets."
+}
