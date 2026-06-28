@@ -12,14 +12,18 @@ function encodeWav(samples, sampleRate=44100){
 const vowelFormants={a:[800,1150,2900],e:[500,1900,2500],i:[350,2200,3000],o:[500,900,2400],u:[350,700,2400],y:[420,1700,2600]};
 function charKind(ch){ch=ch.toLowerCase(); if('aeiouy'.includes(ch)) return 'vowel'; if(/[.,;:!?]/.test(ch)) return 'pause'; if(/[szfvthx]/.test(ch)) return 'fric'; if(/[mnrlw]/.test(ch)) return 'sonorant'; if(/[bcdfgjkpqt]/.test(ch)) return 'stop'; if(/\s/.test(ch)) return 'space'; return 'other';}
 function hashNoise(i, seed){let x=Math.sin((i+1)*(seed+1)*12.9898)*43758.5453; return (x-Math.floor(x))*2-1;}
+function hashNumber(value){let h=2166136261>>>0; const s=String(value||''); for(let i=0;i<s.length;i++){h^=s.charCodeAt(i); h=Math.imul(h,16777619);} return h>>>0;}
 function accentCurve(accentName, t){const a=(accentName||'').toLowerCase(); if(a.includes('reefglass')||a.includes('japanese')) return Math.sin(t*2*Math.PI)*.04; if(a.includes('tide')||a.includes('portuguese')||a.includes('brightshore')) return Math.sin(t*Math.PI)*.08; if(a.includes('iron')||a.includes('russian')) return -0.04 + Math.sin(t*Math.PI*2)*.02; if(a.includes('crag')||a.includes('scottish')) return Math.sin(t*Math.PI*3)*.06; if(a.includes('mire')||a.includes('cajun')) return -0.03 + Math.sin(t*Math.PI)*.09; if(a.includes('highbranch')||a.includes('french')) return .04 + Math.sin(t*Math.PI*1.5)*.05; return Math.sin(t*Math.PI*2)*.025;}
 export function renderProfileToWav(text, profile){
   const sr=44100;
   text=(text||'This is what I sound like.').slice(0,1200);
   const sl=profile?.sliders||{};
-  const pitchBase=105 + (sl.pitch ?? 5)*19 - (sl.formant ?? 5)*4;
+  const sourceHash=hashNumber([profile?.sourceVoice?.speaker,profile?.sourceVoice?.tag,profile?.sourceVoice?.phrase,profile?.sourceVoice?.bytes].join('|'));
+  const sourceRegister=((sourceHash % 2400) / 2400) - 0.5;
+  const sourceTexture=(((sourceHash >>> 8) % 2000) / 2000);
+  const pitchBase=105 + (sl.pitch ?? 5)*19 - (sl.formant ?? 5)*4 + sourceRegister*18;
   const speedFactor=0.75 + (sl.speed ?? 5)/10;
-  const rough=(sl.roughness ?? 3)/10, breath=(sl.breath ?? 3)/10, construct=(sl.construct ?? 0)/10, accent=(sl.accent ?? 5)/10, inflect=(sl.inflection ?? 5)/10, emphasis=(sl.emphasis ?? 5)/10;
+  const rough=Math.min(1,(sl.roughness ?? 3)/10 + sourceTexture*.045), breath=(sl.breath ?? 3)/10, construct=(sl.construct ?? 0)/10, accent=(sl.accent ?? 5)/10, inflect=(sl.inflection ?? 5)/10, emphasis=(sl.emphasis ?? 5)/10;
   const samples=[];
   let seed = 0; for (const ch of JSON.stringify(profile||{})) seed=(seed*31+ch.charCodeAt(0))>>>0;
   let charIndex=0;
@@ -39,7 +43,7 @@ export function renderProfileToWav(text, profile){
       if(/[A-Z]/.test(ch)) f0 += 12*emphasis;
       let voiced = Math.sin(2*Math.PI*f0*t) + .35*Math.sin(2*Math.PI*f0*2*t) + .15*Math.sin(2*Math.PI*f0*3*t);
       let form = 0;
-      const formShift = 0.72 + (sl.timbre ?? 5)/14 + ((sl.formant ?? 5)-5)/22;
+      const formShift = 0.72 + (sl.timbre ?? 5)/14 + ((sl.formant ?? 5)-5)/22 + (sourceTexture-.5)*.035;
       for(let k=0;k<vf.length;k++) form += Math.sin(2*Math.PI*vf[k]*formShift*t)/(k+1.8);
       let noise = hashNoise(samples.length, seed) * (breath*.17 + rough*.08);
       if(kind==='fric') noise += hashNoise(samples.length+13, seed)*.5;

@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "app": {
+    "title": "Belavad\u00f6s D&D 5e Character Sheet Scanner Module",
+    "subtitle": "Scans fields, uploaded sheets, typed areas, images, and code, with extra signals for D&D 5e roll-relevant data.",
+    "modePill": "Offline \u00b7 HTML + CSS + JS + JSON"
+  },
+  "privacy": {
+    "storeRawText": false,
+    "storeRawImages": false,
+    "storeRawCode": false,
+    "storeOnlyMetricsSignalsAndHashes": true,
+    "hashSalt": "document-scanner-local-v1"
+  },
+  "limits": {
+    "maxTextBytes": 1200000,
+    "maxImageSampleSize": 128,
+    "maxManifestFindings": 5000,
+    "maxSignalsPerFinding": 80
+  },
+  "ui": {
+    "appTitle": "Belavad\u00f6s D&D 5e Character Sheet Scanner Module",
+    "appSubtitle": "Scan character-sheet fields, uploaded content, typed areas, images, and code without storing raw scanned text.",
+    "modePill": "Safe action registry",
+    "loadHeading": "1. Scan sources",
+    "dropLabel": "Drop or choose files",
+    "scanHostLabel": "Scan this page/document",
+    "sameOriginLabel": "Also inspect same-origin linked CSS/JS",
+    "autoRunLabel": "Auto-run safe whitelisted actions after scan",
+    "typedHeading": "2. Typed scan area",
+    "buttonsHeading": "3. Run",
+    "scanBtn": "Scan now",
+    "runBtn": "Run actions",
+    "exportBtn": "Export manifest",
+    "clearBtn": "Clear",
+    "rulesHeading": "Enabled rules",
+    "hostHeading": "Host document scan area",
+    "summaryHeading": "Scan summary",
+    "findingsHeading": "Findings",
+    "actionsHeading": "Action log",
+    "manifestHeading": "Manifest preview"
+  },
+  "scanProfiles": {
+    "field": {
+      "selectors": [
+        "input",
+        "textarea",
+        "select",
+        "[contenteditable='true']",
+        "[data-scan-field]",
+        "[data-scan-box]"
+      ]
+    },
+    "image": {
+      "selectors": [
+        "img",
+        "canvas",
+        "svg"
+      ]
+    },
+    "code": {
+      "selectors": [
+        "script",
+        "style",
+        "link[rel='stylesheet']"
+      ]
+    },
+    "dnd5e": {
+      "selectors": [
+        "[data-character-field]",
+        "[data-5e-field]",
+        "[data-dnd-field]",
+        "[data-spell]",
+        "[data-weapon]",
+        "[data-attack]",
+        "[data-feature]",
+        ".character-sheet input",
+        ".character-sheet textarea",
+        ".character-sheet select",
+        ".character-sheet [contenteditable='true']"
+      ],
+      "signals": [
+        "dnd5e-character-sheet",
+        "dice-roll-field",
+        "attack-bonus",
+        "damage-dice",
+        "skill-check",
+        "saving-throw",
+        "death-save-tracker",
+        "initiative",
+        "spell-attack",
+        "spell-save-dc",
+        "tool-proficiency",
+        "belavados-alignment-axis"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "field-overflow-repair",
+      "label": "Repair field and box overflow",
+      "whenAny": [
+        "overflow-x",
+        "overflow-y",
+        "long-unbroken-run",
+        "dense-content"
+      ],
+      "actions": [
+        "repairOverflow",
+        "addScrollContainment"
+      ],
+      "safeAutoRun": true
+    },
+    {
+      "id": "json-router",
+      "label": "Stage valid JSON for import handlers",
+      "whenAny": [
+        "valid-json",
+        "json-like"
+      ],
+      "actions": [
+        "stageJsonPayload",
+        "emitScanEvent"
+      ],
+      "safeAutoRun": true
+    },
+    {
+      "id": "html-router",
+      "label": "Index HTML forms, images, links, and embedded code",
+      "whenAny": [
+        "html-like",
+        "dom-fragment",
+        "field-markup"
+      ],
+      "actions": [
+        "indexMarkup",
+        "emitScanEvent"
+      ],
+      "safeAutoRun": true
+    },
+    {
+      "id": "image-router",
+      "label": "Index image dimensions and visual signals",
+      "whenAny": [
+        "image-file",
+        "image-element",
+        "transparent-image",
+        "high-contrast",
+        "mostly-dark",
+        "mostly-light"
+      ],
+      "actions": [
+        "indexImage",
+        "emitScanEvent"
+      ],
+      "safeAutoRun": true
+    },
+    {
+      "id": "code-safety-review",
+      "label": "Flag code that needs review before any function routing",
+      "whenAny": [
+        "eval-like",
+        "function-constructor",
+        "inline-event-handler",
+        "dynamic-html-write",
+        "network-call"
+      ],
+      "actions": [
+        "flagCodeReview",
+        "emitScanEvent"
+      ],
+      "safeAutoRun": true
+    },
+    {
+      "id": "custom-function-router",
+      "label": "Route matched scans to custom registered handlers",
+      "whenAny": [
+        "custom-handler-target",
+        "known-import-shape",
+        "recognized-schema"
+      ],
+      "actions": [
+        "routeToRegisteredHandlers",
+        "emitScanEvent"
+      ],
+      "safeAutoRun": false
+    },
+    {
+      "id": "dnd5e-roll-router",
+      "label": "Index D&D 5e roll-relevant sheet data",
+      "whenAny": [
+        "dice-expression",
+        "attack-bonus",
+        "damage-dice",
+        "skill-check",
+        "saving-throw",
+        "death-save-tracker",
+        "initiative",
+        "spell-attack",
+        "spell-save-dc",
+        "tool-proficiency",
+        "belavados-alignment-axis"
+      ],
+      "actions": [
+        "emitScanEvent",
+        "routeToRegisteredHandlers"
+      ],
+      "safeAutoRun": false
+    }
+  ],
+  "actionRegistry": {
+    "allowEval": false,
+    "allowFunctionConstructor": false,
+    "allowRemoteExecution": false,
+    "allowWhitelistedActionsOnly": true
+  }
+}
