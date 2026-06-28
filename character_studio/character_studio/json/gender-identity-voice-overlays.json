@@ -1,0 +1,8 @@
+{
+  "schema": "belavados.voice.placeholder.v1",
+  "status": "voice_runtime_removed",
+  "userFacingToolsPreserved": true,
+  "replacementHook": "window.BelavadosVoiceBridge.registerAdapter(adapter)",
+  "items": [],
+  "placeholderFor": "json/gender-identity-voice-overlays.json"
+}

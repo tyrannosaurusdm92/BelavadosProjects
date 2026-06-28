@@ -1,0 +1,7 @@
+{
+  "schema": "belavados.voice.placeholder.v1",
+  "status": "voice_manifest_removed",
+  "items": [],
+  "replacementHook": "window.BelavadosVoiceBridge.registerAdapter(adapter)",
+  "placeholderFor": "media/a/kept_files_manifest.json"
+}
