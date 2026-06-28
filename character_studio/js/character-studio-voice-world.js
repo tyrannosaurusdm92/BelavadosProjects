@@ -48,7 +48,7 @@ function ensureUi(){
     wrap.className = 'voice-world-grid';
     wrap.id = 'csVoiceWorldControls';
     wrap.innerHTML = `
-      <section class="voice-world-card voice-world-cache-card span-12">
+      <section class="voice-world-card voice-world-cache-card span-12 voice-world-wide-card">
         <h2>Three-Biome Character Voice Cache</h2>
         <p class="voice-world-mini">Cache up to three biomes for genetic and cultural voice diversity. The resulting crossover layers are weighted below.</p>
         <label>Add biome accent folder<select id="csVoiceBiomeCacheSelect"></select></label>
@@ -56,32 +56,32 @@ function ensureUi(){
         <div class="voice-world-chips" id="csBiomeCacheChips"></div>
         <div class="voice-world-status" id="csSelectedCrossover">No crossover selected yet.</div>
       </section>
-      <section class="voice-world-card voice-world-base-card half">
+      <section class="voice-world-card voice-world-base-card span-12 voice-world-wide-card">
         <h2>Single Accent / Base Layer</h2>
         <p class="voice-world-mini">For non-crossover characters, this chooses the canonical fantasy accent folder while typed lines remain English.</p>
         <label>Fantasy accent profile<select id="csAccentProfileSelect"></select></label>
         <label>Default model / reference route<select id="csSingleModelSelect"></select></label>
         <div class="voice-world-status" id="csAccentProfileCard"></div>
       </section>
-      <section class="voice-world-card voice-world-mixer-card span-12" style="grid-column:1/-1">
+      <section class="voice-world-card voice-world-mixer-card span-12 voice-world-wide-card" style="grid-column:1/-1">
         <h2>Weighted Crossover Layer Mixer</h2>
         <p class="voice-world-mini">Every suggested biome model starts enabled. Disable/re-enable layers or set custom intensities like 16% / 37% / 47%; normalized weights are calculated for the backend payload.</p>
         <div class="voice-world-actions"><button type="button" id="csNormalizeLayers">Normalize Enabled Layers</button><button type="button" id="csResetLayers">Reset Suggested Layers</button></div>
         <div id="csVoiceLayerMixer"></div>
       </section>
-      <section class="voice-world-card voice-world-influence-card half">
+      <section class="voice-world-card voice-world-influence-card span-12 voice-world-wide-card">
         <h2>Race, Class, and Delivery Influence</h2>
         <label>Race / ancestry overlay<select id="csVoiceRaceOverlay"></select></label>
         <label>Class / role overlay<select id="csVoiceClassOverlay"></select></label>
         <div class="voice-world-status" id="csInfluenceSummary"></div>
       </section>
-      <section class="voice-world-card voice-world-backend-card half">
+      <section class="voice-world-card voice-world-backend-card span-12 voice-world-wide-card">
         <h2>Backend + Preset Actions</h2>
         <p class="voice-world-secure-note">Backend routing is configured internally. The site does not display deployment details to players.</p>
         <div class="voice-world-actions"><button type="button" id="csBuildVoicePayload">Build Payload</button><button type="button" id="csSendVoiceJob">Send Voice Job</button><button type="button" id="csSaveVoicePreset">Save Browser Preset</button><button type="button" id="csLoadVoicePreset">Load Browser Preset</button></div>
         <div class="voice-world-status" id="csVoiceBackendStatus">Voice engine ready.</div>
       </section>
-      <section class="voice-world-card voice-world-payload-card" style="grid-column:1/-1">
+      <section class="voice-world-card voice-world-payload-card span-12 voice-world-wide-card" style="grid-column:1/-1">
         <h2>Character Voice Payload Preview</h2>
         <textarea id="csVoiceEnginePayload" class="voice-json" readonly></textarea>
       </section>`;
