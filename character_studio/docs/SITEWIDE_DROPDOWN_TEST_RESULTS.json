@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "builders": 2,
+    "page2Builder": 1,
+    "characterCategoryOptions": 23,
+    "voiceCategoryOptions": 23,
+    "page2CategoryOptions": 23,
+    "navCharacter": 1,
+    "navVoice": 1,
+    "navForge": 1,
+    "generatorGender": "Agender",
+    "generatorRace": "Human",
+    "voiceGender": "Agender",
+    "voiceRace": "Human",
+    "page2HideButton": 1,
+    "page2BlockHideButtons": 5,
+    "page2HiddenClass": 1
+  },
+  "errors": [
+    "JSDOM: Not implemented: HTMLMediaElement.prototype.load",
+    "JSDOM: Not implemented: HTMLMediaElement.prototype.load"
+  ]
+}
