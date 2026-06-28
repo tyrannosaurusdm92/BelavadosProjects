@@ -1,0 +1,18 @@
+{
+  "schema": "belavados.voiceStudio.chatgptEditingGuide.v1",
+  "generatedAt": "2026-06-28T04:46:30Z",
+  "coreRule": "Character Studio is the app; Voice Studio is resources + bot library.",
+  "exactAssetReturnOverridePhrase": "send me voice studio assets",
+  "doNotReturnUnlessOverride": [
+    "voice_studio/r/** audio/model/image/resource files",
+    "full raw Voice Studio repository resource payloads",
+    "duplicated Character Studio voice assets"
+  ],
+  "returnAllowed": [
+    "manifests",
+    "bridge/runtime files",
+    "Character Studio app files",
+    "docs/audits explaining linked resources"
+  ],
+  "sourceOfTruth": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/"
+}

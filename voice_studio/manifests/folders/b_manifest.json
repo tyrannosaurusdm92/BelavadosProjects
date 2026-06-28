@@ -1,0 +1,33 @@
+{
+  "schema": "belavados.voiceStudio.folderManifest.v1",
+  "manifestVersion": "2026-06-28-linked-library-no-return-assets-v1",
+  "generatedAt": "2026-06-28T04:47:23Z",
+  "folder": "voice_studio/b",
+  "role": "locked backend bridge/script resources",
+  "returnedZipPolicy": "Manifest/bridge is returned; heavy resources are omitted unless the user says exactly: send me voice studio assets.",
+  "githubBase": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/",
+  "summary": {
+    "fileCount": 1,
+    "directoryCount": 0,
+    "totalBytes": 714274,
+    "byExtension": {
+      "gs": 1
+    },
+    "byKind": {
+      "bot-or-runtime-code": 1
+    }
+  },
+  "entries": [
+    {
+      "path": "voice_studio/b/backend.gs",
+      "voiceStudioRelativePath": "b/backend.gs",
+      "filename": "backend.gs",
+      "extension": "gs",
+      "kind": "bot-or-runtime-code",
+      "bytes": 714274,
+      "mimeGuess": null,
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/b/backend.gs",
+      "sha256": "8c7f24ab8c5e431a9977f86363263a0dd6d16432f1aa0cf564bf5e9410ea4f9f"
+    }
+  ]
+}

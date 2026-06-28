@@ -1,0 +1,33 @@
+{
+  "schema": "belavados.voiceStudio.folderManifest.v1",
+  "manifestVersion": "2026-06-28-linked-library-no-return-assets-v1",
+  "generatedAt": "2026-06-28T04:47:23Z",
+  "folder": "voice_studio/x",
+  "role": "extra taxonomy/resource data",
+  "returnedZipPolicy": "Manifest/bridge is returned; heavy resources are omitted unless the user says exactly: send me voice studio assets.",
+  "githubBase": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/",
+  "summary": {
+    "fileCount": 1,
+    "directoryCount": 0,
+    "totalBytes": 241417,
+    "byExtension": {
+      "json": 1
+    },
+    "byKind": {
+      "data-manifest": 1
+    }
+  },
+  "entries": [
+    {
+      "path": "voice_studio/x/92b22d79__race-taxonomy.json",
+      "voiceStudioRelativePath": "x/92b22d79__race-taxonomy.json",
+      "filename": "92b22d79__race-taxonomy.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 241417,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/x/92b22d79__race-taxonomy.json",
+      "sha256": "61277916909f9b9e4ec3798ebf1097a2375850624ca81648952d833fa358f754"
+    }
+  ]
+}

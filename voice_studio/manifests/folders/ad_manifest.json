@@ -1,0 +1,44 @@
+{
+  "schema": "belavados.voiceStudio.folderManifest.v1",
+  "manifestVersion": "2026-06-28-linked-library-no-return-assets-v1",
+  "generatedAt": "2026-06-28T04:47:23Z",
+  "folder": "voice_studio/ad",
+  "role": "admin/build/orchestrator resources",
+  "returnedZipPolicy": "Manifest/bridge is returned; heavy resources are omitted unless the user says exactly: send me voice studio assets.",
+  "githubBase": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/",
+  "summary": {
+    "fileCount": 2,
+    "directoryCount": 0,
+    "totalBytes": 3209,
+    "byExtension": {
+      "py": 2
+    },
+    "byKind": {
+      "bot-or-runtime-code": 2
+    }
+  },
+  "entries": [
+    {
+      "path": "voice_studio/ad/24b24b4b__voice_studio_orchestrator.py",
+      "voiceStudioRelativePath": "ad/24b24b4b__voice_studio_orchestrator.py",
+      "filename": "24b24b4b__voice_studio_orchestrator.py",
+      "extension": "py",
+      "kind": "bot-or-runtime-code",
+      "bytes": 2214,
+      "mimeGuess": "text/x-python",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/ad/24b24b4b__voice_studio_orchestrator.py",
+      "sha256": "f08dda35011b98291e124ee76fd10b25c3a882151e496504633f2c4399c0b76d"
+    },
+    {
+      "path": "voice_studio/ad/b7c26424__build_voice_manifest.py",
+      "voiceStudioRelativePath": "ad/b7c26424__build_voice_manifest.py",
+      "filename": "b7c26424__build_voice_manifest.py",
+      "extension": "py",
+      "kind": "bot-or-runtime-code",
+      "bytes": 995,
+      "mimeGuess": "text/x-python",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/ad/b7c26424__build_voice_manifest.py",
+      "sha256": "507aa34563d3d2ca022bb2fb9213bec1b28b50b90d1e631abe94a86163889d58"
+    }
+  ]
+}

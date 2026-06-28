@@ -1,0 +1,235 @@
+{
+  "schema": "belavados.voiceStudio.folderManifest.v1",
+  "manifestVersion": "2026-06-28-linked-library-no-return-assets-v1",
+  "generatedAt": "2026-06-28T04:47:23Z",
+  "folder": "voice_studio/s",
+  "role": "Voice Studio bot/runtime bridge and source manifests used by Character Studio",
+  "returnedZipPolicy": "Manifest/bridge is returned; heavy resources are omitted unless the user says exactly: send me voice studio assets.",
+  "githubBase": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/",
+  "summary": {
+    "fileCount": 19,
+    "directoryCount": 0,
+    "totalBytes": 1368822,
+    "byExtension": {
+      "css": 1,
+      "js": 12,
+      "json": 6
+    },
+    "byKind": {
+      "bot-or-runtime-code": 12,
+      "data-manifest": 6,
+      "documentation-or-ui": 1
+    }
+  },
+  "entries": [
+    {
+      "path": "voice_studio/s/app.js",
+      "voiceStudioRelativePath": "s/app.js",
+      "filename": "app.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 26906,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/app.js",
+      "sha256": "63a1cbe9b30718c11a68221b5f5ec8a1ca4a2c2f8114971f827170239d3034ae"
+    },
+    {
+      "path": "voice_studio/s/audio-renderer.js",
+      "voiceStudioRelativePath": "s/audio-renderer.js",
+      "filename": "audio-renderer.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 6170,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/audio-renderer.js",
+      "sha256": "83df6fda633994ae4559227e6371794d0f0f0d96899b19379a127a49ef4ddb4f"
+    },
+    {
+      "path": "voice_studio/s/backend-client.js",
+      "voiceStudioRelativePath": "s/backend-client.js",
+      "filename": "backend-client.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 3492,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/backend-client.js",
+      "sha256": "c01dfd94cfc61dd3b570f6ce557a7f7f0bc62d8dc52983b633d87fc550c65b5a"
+    },
+    {
+      "path": "voice_studio/s/biomes.json",
+      "voiceStudioRelativePath": "s/biomes.json",
+      "filename": "biomes.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 13386,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/biomes.json",
+      "sha256": "7269397594177c068eff531225dcd98291fb74aaa8233f1e221b631bf5d2a016"
+    },
+    {
+      "path": "voice_studio/s/character-studio-voice-library.js",
+      "voiceStudioRelativePath": "s/character-studio-voice-library.js",
+      "filename": "character-studio-voice-library.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 10227,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/character-studio-voice-library.js",
+      "sha256": "50bff320cd2ba829a4aa634f0657bd99a5e6657b733b036d36876feb7d6586d1"
+    },
+    {
+      "path": "voice_studio/s/chatgpt-editing-guide.json",
+      "voiceStudioRelativePath": "s/chatgpt-editing-guide.json",
+      "filename": "chatgpt-editing-guide.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 699,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/chatgpt-editing-guide.json",
+      "sha256": "36e76e76f850b25e8816074e432319c9c522f19f6ff63ff85637fbb73e7a7b8c"
+    },
+    {
+      "path": "voice_studio/s/conversation-scanner-randomizer.js",
+      "voiceStudioRelativePath": "s/conversation-scanner-randomizer.js",
+      "filename": "conversation-scanner-randomizer.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 44019,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/conversation-scanner-randomizer.js",
+      "sha256": "896a29ca4b73ceadeacd7aabd7aa568ee35d32079b24445a0bde3e65f6383bb4"
+    },
+    {
+      "path": "voice_studio/s/data-loader.js",
+      "voiceStudioRelativePath": "s/data-loader.js",
+      "filename": "data-loader.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 1366,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/data-loader.js",
+      "sha256": "ed3a7ed1cce59d93eacbc47bb34a5392bb932de5633b592dfb54eb1a316f595e"
+    },
+    {
+      "path": "voice_studio/s/embedded-document-scanner-config.json",
+      "voiceStudioRelativePath": "s/embedded-document-scanner-config.json",
+      "filename": "embedded-document-scanner-config.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 5497,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/embedded-document-scanner-config.json",
+      "sha256": "7c1eec2c3921d7f7832d19edb89ee234f15ff2466e218911cac930d7ad31d352"
+    },
+    {
+      "path": "voice_studio/s/embedded-document-scanner.js",
+      "voiceStudioRelativePath": "s/embedded-document-scanner.js",
+      "filename": "embedded-document-scanner.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 41429,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/embedded-document-scanner.js",
+      "sha256": "eaf5a87478f15368b651fee5876ed4590898fffcce08f7cd04e6d66b6114445e"
+    },
+    {
+      "path": "voice_studio/s/races.json",
+      "voiceStudioRelativePath": "s/races.json",
+      "filename": "races.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 73540,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/races.json",
+      "sha256": "9017d5ceecd44967e90d0ce23b9b7d8aa4019a3f760c04b0f42a6b4ec534e827"
+    },
+    {
+      "path": "voice_studio/s/scanner-rules.json",
+      "voiceStudioRelativePath": "s/scanner-rules.json",
+      "filename": "scanner-rules.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 3049,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/scanner-rules.json",
+      "sha256": "3a860b57bf293fa7db201fcfaf576927d07e0751aff0b2732463d655da955929"
+    },
+    {
+      "path": "voice_studio/s/smart-assistants.js",
+      "voiceStudioRelativePath": "s/smart-assistants.js",
+      "filename": "smart-assistants.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 2556,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/smart-assistants.js",
+      "sha256": "3e7856d25adc528bd8574ad54b23c12199cdcfc08a0771ad4d45deecbe936b55"
+    },
+    {
+      "path": "voice_studio/s/style.css",
+      "voiceStudioRelativePath": "s/style.css",
+      "filename": "style.css",
+      "extension": "css",
+      "kind": "documentation-or-ui",
+      "bytes": 7539,
+      "mimeGuess": "text/css",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/style.css",
+      "sha256": "8b87c891a61082a4667958622ea517c4f5bb9eba62b8a6de2a3a17eeeb8504ce"
+    },
+    {
+      "path": "voice_studio/s/superbot-voice-brain.js",
+      "voiceStudioRelativePath": "s/superbot-voice-brain.js",
+      "filename": "superbot-voice-brain.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 14866,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/superbot-voice-brain.js",
+      "sha256": "efe24096c10b525fdd8547bee3bd9562d5b9b35df371f95756e819272983b627"
+    },
+    {
+      "path": "voice_studio/s/voice-profile.js",
+      "voiceStudioRelativePath": "s/voice-profile.js",
+      "filename": "voice-profile.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 9854,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/voice-profile.js",
+      "sha256": "4e7fbdedd672d4a7eed71a8654026d37c81b05f4eb1222dafdbf5d4843f7eaec"
+    },
+    {
+      "path": "voice_studio/s/voice-source-bot.js",
+      "voiceStudioRelativePath": "s/voice-source-bot.js",
+      "filename": "voice-source-bot.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 11173,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/voice-source-bot.js",
+      "sha256": "ef16affec834140d68495ae16ad21b6ba5b96d288c6c929fb940cf436ccf3cb9"
+    },
+    {
+      "path": "voice_studio/s/voices.json",
+      "voiceStudioRelativePath": "s/voices.json",
+      "filename": "voices.json",
+      "extension": "json",
+      "kind": "data-manifest",
+      "bytes": 1089861,
+      "mimeGuess": "application/json",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/voices.json",
+      "sha256": "d56d405f623d1743e722faf68f169e3aa6721f54bc50f68f9f8ace95fa1c251a"
+    },
+    {
+      "path": "voice_studio/s/zip-export.js",
+      "voiceStudioRelativePath": "s/zip-export.js",
+      "filename": "zip-export.js",
+      "extension": "js",
+      "kind": "bot-or-runtime-code",
+      "bytes": 3193,
+      "mimeGuess": "text/javascript",
+      "githubUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/voice_studio/s/zip-export.js",
+      "sha256": "a6bf55541b9b0be852179d75f6dcc26d33863d4bfe32aea53387acb5f1fc7d42"
+    }
+  ]
+}
