@@ -1,0 +1,18 @@
+/* Belavadös Character Studio — two-page backend/mobile shell. */
+:root{--bel-vh:100vh;--bel-cyan:#00FFFF;--bel-orange:#CA6309;--bel-dark:#001E24;}
+html,body{min-height:100%;overflow-x:hidden;}
+body{min-height:var(--bel-vh);}
+#page-character,#page-forge{max-width:100%;overflow-x:hidden;}
+#characterSheetFrame{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+#belBackendDock{position:fixed;right:12px;bottom:12px;z-index:99999;font-family:Verdana,Arial,sans-serif;color:#E8FFFF;}
+#belBackendToggle{border-radius:999px;border:2px solid var(--bel-cyan);background:linear-gradient(180deg,#003C42,#001E24);color:#E8FFFF;padding:9px 12px;box-shadow:0 6px 18px rgba(0,0,0,.45),0 0 16px rgba(0,255,255,.28);}
+#belBackendPanel{display:none;width:min(360px,calc(100vw - 24px));max-height:min(620px,calc(100vh - 90px));overflow:auto;margin-top:8px;padding:12px;border:2px solid var(--bel-cyan);border-radius:16px;background:linear-gradient(180deg,rgba(0,18,26,.97),rgba(0,5,10,.95));box-shadow:0 12px 36px rgba(0,0,0,.55);}
+#belBackendDock.open #belBackendPanel{display:block;}
+#belBackendPanel h3{margin:0 0 8px;color:#F7B36B;text-shadow:1px 1px #000;}
+#belBackendStatus{margin:0 0 10px;line-height:1.35;}
+#belBackendStatus[data-kind="ok"]{color:#BFFFFF;}#belBackendStatus[data-kind="warn"]{color:#FFE4B8;}#belBackendStatus[data-kind="error"]{color:#FFD1D1;}#belBackendStatus[data-kind="busy"]{color:#FFFFFF;}
+.backend-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.backend-grid .backend-secondary,.backend-grid a{display:flex;align-items:center;justify-content:center;text-align:center;min-height:38px;border:1px solid #00BFAF;border-radius:10px;background:#E8FFFF;color:#001E24;text-decoration:none;font-weight:bold;padding:6px;}
+.backend-grid button{min-height:38px;}
+#belBackendPanel small{display:block;margin-top:10px;color:#D7AA63;line-height:1.3;}
+@media(max-width:760px){#belBackendDock{left:8px;right:8px;bottom:8px;}#belBackendToggle{width:100%;}#belBackendPanel{width:100%;}.backend-grid{grid-template-columns:1fr;}}
