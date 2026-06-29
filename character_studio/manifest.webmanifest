@@ -1,0 +1,44 @@
+{
+  "name": "Belavad\u00f6s Character Studio",
+  "short_name": "Belavad\u00f6s",
+  "description": "Belavad\u00f6s Character Studio with backend saves, voice presets, and mobile/desktop app icon support.",
+  "id": "belavados-character-studio",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "any",
+  "theme_color": "#00ffff",
+  "background_color": "#050814",
+  "categories": [
+    "games",
+    "productivity",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "https://script.google.com/macros/s/AKfycbzoGmgKoNq_d-KorQsuBYYeJYQ0pAVk4a7Y3zFxdJncbU7GlMK_Dg2irgbR1zPfyiPr4g/exec?action=icon&size=192",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://script.google.com/macros/s/AKfycbzoGmgKoNq_d-KorQsuBYYeJYQ0pAVk4a7Y3zFxdJncbU7GlMK_Dg2irgbR1zPfyiPr4g/exec?action=icon&size=512",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Character Forge",
+      "short_name": "Forge",
+      "url": "./index.html#character-forge"
+    }
+  ]
+}
