@@ -27,3 +27,8 @@ Backend is locked in the frontend to:
 ## Split zip use
 
 Extract all parts into the same parent folder. Each part contains the shared root folder `Onyx_Autonomous_Encounter_Suite/`; allowing folders to merge will reconstruct the full package.
+
+
+## External assets rule
+
+This returned bundle intentionally omits real files from `assets/`. Onyx uses `js/onyx_asset_library.js`, `assets/asset_manifest_index.json`, and `assets/**/manifest.json` to reference the existing GitHub/local `assets/` folder. Do not return or duplicate real assets in future edits unless explicitly requested. See `assets/rules.json`.

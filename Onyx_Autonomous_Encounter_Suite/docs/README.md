@@ -21,3 +21,8 @@ Backend is locked to:
 ## Extracting the three parts
 
 The three output zips are split by file groups. Extract all three into the same folder. The files land directly into that folder; there are no zip files inside the zip files.
+
+
+## External asset wiring
+
+This returned build intentionally does not include real asset files under `assets/`. Only `assets/rules.json`, `assets/asset_manifest_index.json`, and generated `assets/**/manifest.json` files are included. Onyx uses these manifests to reference the existing GitHub/local assets at their same relative paths.
