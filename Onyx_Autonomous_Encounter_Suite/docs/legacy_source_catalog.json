@@ -1,0 +1,521 @@
+{
+  "policy": "Full legacy/source folders were not shipped. Active code was promoted into css/js/json/data/assets; unused/reference material is represented here as metadata only.",
+  "cataloged_items_count": 103,
+  "items": [
+    {
+      "path": "onyx_runtime/backend/Code.gs",
+      "size": 81328,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/frontend/assets/superbot.css",
+      "size": 5504,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/frontend/assets/superbot.js",
+      "size": 9267,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/frontend/data/dm_rules.json",
+      "size": 468,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/frontend/embed/superbot-widget.js",
+      "size": 3602,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/docs/AUDITS_TESTS_MERGED.md",
+      "size": 19192,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/docs/LICENSES_MERGED.md",
+      "size": 116951,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/docs/MANIFESTS_MERGED.json",
+      "size": 2352753,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/docs/README.md",
+      "size": 10827,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/docs/REVISION_NOTES_MERGED.md",
+      "size": 19354,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "onyx_runtime/docs/SOURCE_AND_BACKEND_REFERENCES_MERGED.txt",
+      "size": 69459942,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/JS_FOLDER_MERGE_REPORT.js",
+      "size": 4643,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/cannon.min.js",
+      "size": 67549,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice-bot-response-banks.js",
+      "size": 6476633,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice-main-bot.js",
+      "size": 8342,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice.js",
+      "size": 48775,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice_board_core.js",
+      "size": 143519,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice_bot_response_banks.js",
+      "size": 6476633,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice_main.js",
+      "size": 9322,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dice_server.js",
+      "size": 1897,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dnd-content-tools.js",
+      "size": 10804,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/dnd-repo-data.js",
+      "size": 1094363,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/encounters_minigame_runtime_core.js",
+      "size": 33042,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/floating-module-layout.js",
+      "size": 8481,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/npc-token-grid-clicks.js",
+      "size": 755,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/onyx-encounter-bridge.js",
+      "size": 1140,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/onyx_master_manifest.js",
+      "size": 572372,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-backend-lock.js",
+      "size": 1702,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-board.js",
+      "size": 80497,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-bot-personality-engine.js",
+      "size": 1647,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-death-assets.js",
+      "size": 4077,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-dice-roller.js",
+      "size": 3317,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-embedded-data.js",
+      "size": 414021,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-geometry-cutter.js",
+      "size": 3740,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/playerzone-superbot-dnd-ai.js",
+      "size": 10988,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/roleplay-toolbar-collapse.js",
+      "size": 1133,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/roleplaying-board.js",
+      "size": 9753,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/teal.js",
+      "size": 6684,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "js/three.min.js",
+      "size": 430630,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/background.svg",
+      "size": 9406,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Arcorven_Brasslock.png",
+      "size": 2868515,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Canielina_Dennose.png",
+      "size": 2748889,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Gheaririel_Luneglen.png",
+      "size": 2807496,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Joeari_Ravenwood.png",
+      "size": 2441294,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Kethazzun_Clawcoil.png",
+      "size": 3092199,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Nefumlith_Duskendirge.png",
+      "size": 3019788,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Nimu_dri_Ironvault.png",
+      "size": 2527528,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Ro_sabin_Merryroot.png",
+      "size": 2381985,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Sto_neudor_Stormbreath.png",
+      "size": 2998859,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Thalenael_Silverthorn.png",
+      "size": 2267392,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Tyrylina_Mirthwink.png",
+      "size": 2818302,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Urg_U_rgugar_Mudgrip.png",
+      "size": 2243173,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Valk_Minoorvar_Thunderheft.png",
+      "size": 2477370,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/dice-bots/tokens/Veyielven_Asharchf.png",
+      "size": 3304963,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/icon.png",
+      "size": 41129,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/nc93322.mp3",
+      "size": 29927,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/roll-audio/freesound_community-dice-throw-38476.mp3",
+      "size": 79680,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/roll-audio/freesound_community-rpg-dice-rolling-95182.mp3",
+      "size": 15840,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/roll-audio/u_ngsgp0r6zb-dice-roll-201898.mp3",
+      "size": 370311,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/assets/roll-audio/u_qpfzpydtro-dice-142528.mp3",
+      "size": 44544,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/background.svg",
+      "size": 9406,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/dice-bot-manifest.json",
+      "size": 5347,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/dice-bot-response-banks.js",
+      "size": 6476633,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/arcorven_brasslock_dnd_dice_bot_answers_3337 (2).json",
+      "size": 413137,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/canielina_dennose_dnd_dice_bot_answers_4024 (2).json",
+      "size": 2584685,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/gheaririel_luneglen_dnd_dice_bot_answers_2096 (1).json",
+      "size": 1173441,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/joeari_ravenwood_dnd_dice_bot_answers_1556 (1).json",
+      "size": 828924,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/kethazzun_clawcoil_dnd_dice_bot_answers_2692 (1).json",
+      "size": 336541,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/nefumlith_duskendirge_dnd_dice_bot_answers_3880 (1).json",
+      "size": 1310257,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/nimudri_ironvault_dnd_dice_bot_answers_5245 (1).json",
+      "size": 1907156,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/rosabin_merryroot_dnd_dice_bot_answers_3378 (1).json",
+      "size": 1258710,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/stoneudor_stormbreath_dnd_dice_bot_answers_5126 (2).json",
+      "size": 677008,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/thalenael_silverthorn_dnd_dice_bot_answers_2602 (1).json",
+      "size": 1445695,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/tyrylina_mirthwink_dnd_dice_bot_answers_3164 (1).json",
+      "size": 1714563,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/urg_urgugar_mudgrip_dnd_dice_bot_answers_3134 (1).json",
+      "size": 550464,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/valk_minoorvar_thunderheft_dnd_dice_bot_answers_3200 (1).json",
+      "size": 343436,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/responses/original-json/veyielven_asharchf_dnd_dice_bot_answers (1).json",
+      "size": 516141,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Arcorven_Brasslock.png",
+      "size": 2868515,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Canielina_Dennose.png",
+      "size": 2748889,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Gheaririel_Luneglen.png",
+      "size": 2807496,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Joeari_Ravenwood.png",
+      "size": 2441294,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Kethazzun_Clawcoil.png",
+      "size": 3092199,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Nefumlith_Duskendirge.png",
+      "size": 3019788,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Nimu_dri_Ironvault.png",
+      "size": 2527528,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Ro_sabin_Merryroot.png",
+      "size": 2381985,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Sto_neudor_Stormbreath.png",
+      "size": 2998859,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Thalenael_Silverthorn.png",
+      "size": 2267392,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Tyrylina_Mirthwink.png",
+      "size": 2818302,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Urg_U_rgugar_Mudgrip.png",
+      "size": 2243173,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Valk_Minoorvar_Thunderheft.png",
+      "size": 2477370,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-bots/tokens/Veyielven_Asharchf.png",
+      "size": 3304963,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice-main-bot.js",
+      "size": 8342,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/dice.js",
+      "size": 48775,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/icon.png",
+      "size": 41129,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/libs/cannon.min.js",
+      "size": 67549,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/libs/teal.js",
+      "size": 6684,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/libs/three.min.js",
+      "size": 430630,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/nc93322.mp3",
+      "size": 29927,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/roll-audio/freesound_community-dice-throw-38476.mp3",
+      "size": 79680,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/roll-audio/freesound_community-rpg-dice-rolling-95182.mp3",
+      "size": 15840,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/roll-audio/u_ngsgp0r6zb-dice-roll-201898.mp3",
+      "size": 370311,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/roll-audio/u_qpfzpydtro-dice-142528.mp3",
+      "size": 44544,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    },
+    {
+      "path": "assets/dice-main/styles.css",
+      "size": 3267,
+      "reason": "reference/source/duplicate material cataloged; active runtime code/assets were promoted into main folders where needed"
+    }
+  ]
+}
