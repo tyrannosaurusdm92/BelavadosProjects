@@ -1,0 +1,71 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Starter Pack 02",
+  "source_top_folder_relative_path_exact": "Starter Pack 02",
+  "json_group_name": "Starter_Pack_02",
+  "json_group_type": "top_folder_direct_files",
+  "covered_source_folders_exact": [
+    "Starter Pack 02"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02",
+    "d_drive_windows": "D:\\map_assets\\Starter Pack 02"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 2,
+    "covered_immediate_subfolder_count": 0,
+    "types": {
+      "document": 2
+    },
+    "extensions": {
+      ".url": 2
+    }
+  },
+  "files": [
+    {
+      "name": "License.url",
+      "asset_relative_path": "Starter Pack 02/License.url",
+      "folder_relative_path": "Starter Pack 02",
+      "type": "document",
+      "extension": ".url",
+      "size_bytes": 74,
+      "crc32": "f28df5b0",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\License.url",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\License.url"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack 02/License.url",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\License.url",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\License.url",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack%2002/License.url",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack%2002/License.url"
+      }
+    },
+    {
+      "name": "Patreon.url",
+      "asset_relative_path": "Starter Pack 02/Patreon.url",
+      "folder_relative_path": "Starter Pack 02",
+      "type": "document",
+      "extension": ".url",
+      "size_bytes": 59,
+      "crc32": "c69a4dd9",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Patreon.url",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Patreon.url"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack 02/Patreon.url",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Patreon.url",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Patreon.url",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack%2002/Patreon.url",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack%2002/Patreon.url"
+      }
+    }
+  ]
+}

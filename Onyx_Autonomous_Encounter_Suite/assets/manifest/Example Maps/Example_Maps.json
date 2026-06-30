@@ -1,0 +1,292 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Example Maps",
+  "source_top_folder_relative_path_exact": "Example Maps",
+  "json_group_name": "Example_Maps",
+  "json_group_type": "top_folder_direct_files",
+  "covered_source_folders_exact": [
+    "Example Maps"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps",
+    "d_drive_windows": "D:\\map_assets\\Example Maps"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 13,
+    "covered_immediate_subfolder_count": 0,
+    "types": {
+      "image": 13
+    },
+    "extensions": {
+      ".jpg": 11,
+      ".png": 2
+    }
+  },
+  "files": [
+    {
+      "name": "Example 1.png",
+      "asset_relative_path": "Example Maps/Example 1.png",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 9316264,
+      "crc32": "2d3c77e8",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 1.png",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 1.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 1.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 1.png",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 1.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%201.png",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%201.png"
+      }
+    },
+    {
+      "name": "Example 10.jpg",
+      "asset_relative_path": "Example Maps/Example 10.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 7141824,
+      "crc32": "4a82ebee",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 10.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 10.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 10.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 10.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 10.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%2010.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%2010.jpg"
+      }
+    },
+    {
+      "name": "Example 11.jpg",
+      "asset_relative_path": "Example Maps/Example 11.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 11890041,
+      "crc32": "9673f735",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 11.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 11.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 11.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 11.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 11.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%2011.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%2011.jpg"
+      }
+    },
+    {
+      "name": "Example 12.jpg",
+      "asset_relative_path": "Example Maps/Example 12.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 12388848,
+      "crc32": "349736a2",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 12.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 12.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 12.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 12.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 12.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%2012.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%2012.jpg"
+      }
+    },
+    {
+      "name": "Example 13.jpg",
+      "asset_relative_path": "Example Maps/Example 13.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 12853061,
+      "crc32": "e571b985",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 13.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 13.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 13.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 13.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 13.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%2013.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%2013.jpg"
+      }
+    },
+    {
+      "name": "Example 2.png",
+      "asset_relative_path": "Example Maps/Example 2.png",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 9077249,
+      "crc32": "7c619673",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 2.png",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 2.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 2.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 2.png",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 2.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%202.png",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%202.png"
+      }
+    },
+    {
+      "name": "Example 3.jpg",
+      "asset_relative_path": "Example Maps/Example 3.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5755719,
+      "crc32": "8d97b168",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 3.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 3.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 3.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 3.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 3.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%203.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%203.jpg"
+      }
+    },
+    {
+      "name": "Example 4.jpg",
+      "asset_relative_path": "Example Maps/Example 4.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 4462804,
+      "crc32": "39cddb67",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 4.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 4.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 4.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 4.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 4.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%204.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%204.jpg"
+      }
+    },
+    {
+      "name": "Example 5.jpg",
+      "asset_relative_path": "Example Maps/Example 5.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 4955431,
+      "crc32": "e664278d",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 5.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 5.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 5.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 5.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 5.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%205.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%205.jpg"
+      }
+    },
+    {
+      "name": "Example 6.jpg",
+      "asset_relative_path": "Example Maps/Example 6.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 3597787,
+      "crc32": "3944e338",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 6.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 6.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 6.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 6.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 6.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%206.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%206.jpg"
+      }
+    },
+    {
+      "name": "Example 7.jpg",
+      "asset_relative_path": "Example Maps/Example 7.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 4310548,
+      "crc32": "65bfbdf2",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 7.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 7.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 7.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 7.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 7.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%207.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%207.jpg"
+      }
+    },
+    {
+      "name": "Example 8.jpg",
+      "asset_relative_path": "Example Maps/Example 8.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 4390158,
+      "crc32": "7893f8e9",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 8.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 8.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 8.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 8.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 8.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%208.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%208.jpg"
+      }
+    },
+    {
+      "name": "Example 9.jpg",
+      "asset_relative_path": "Example Maps/Example 9.jpg",
+      "folder_relative_path": "Example Maps",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 4046178,
+      "crc32": "778b6207",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 9.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 9.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Example Maps/Example 9.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Example Maps\\Example 9.jpg",
+        "d_drive_windows": "D:\\map_assets\\Example Maps\\Example 9.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Example%20Maps/Example%209.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Example%20Maps/Example%209.jpg"
+      }
+    }
+  ]
+}

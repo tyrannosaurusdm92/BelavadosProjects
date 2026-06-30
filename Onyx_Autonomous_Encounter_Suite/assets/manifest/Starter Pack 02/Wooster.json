@@ -1,0 +1,93 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Starter Pack 02",
+  "source_top_folder_relative_path_exact": "Starter Pack 02",
+  "json_group_name": "Wooster",
+  "json_group_type": "immediate_subfolder_recursive",
+  "covered_source_folders_exact": [
+    "Starter Pack 02/Wooster"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02",
+    "d_drive_windows": "D:\\map_assets\\Starter Pack 02"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 3,
+    "covered_immediate_subfolder_count": 1,
+    "types": {
+      "document": 1,
+      "image": 2
+    },
+    "extensions": {
+      ".jpg": 2,
+      ".pdf": 1
+    }
+  },
+  "files": [
+    {
+      "name": "Wooster - no labels.jpg",
+      "asset_relative_path": "Starter Pack 02/Wooster/Wooster - no labels.jpg",
+      "folder_relative_path": "Starter Pack 02/Wooster",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 7039538,
+      "crc32": "b273357a",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Wooster\\Wooster - no labels.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Wooster\\Wooster - no labels.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack 02/Wooster/Wooster - no labels.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Wooster\\Wooster - no labels.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Wooster\\Wooster - no labels.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack%2002/Wooster/Wooster%20-%20no%20labels.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack%2002/Wooster/Wooster%20-%20no%20labels.jpg"
+      }
+    },
+    {
+      "name": "Wooster.jpg",
+      "asset_relative_path": "Starter Pack 02/Wooster/Wooster.jpg",
+      "folder_relative_path": "Starter Pack 02/Wooster",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 7238918,
+      "crc32": "8ece5d0e",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Wooster\\Wooster.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Wooster\\Wooster.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack 02/Wooster/Wooster.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Wooster\\Wooster.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Wooster\\Wooster.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack%2002/Wooster/Wooster.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack%2002/Wooster/Wooster.jpg"
+      }
+    },
+    {
+      "name": "Wooster.pdf",
+      "asset_relative_path": "Starter Pack 02/Wooster/Wooster.pdf",
+      "folder_relative_path": "Starter Pack 02/Wooster",
+      "type": "document",
+      "extension": ".pdf",
+      "size_bytes": 2549169,
+      "crc32": "d8895793",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Wooster\\Wooster.pdf",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Wooster\\Wooster.pdf"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack 02/Wooster/Wooster.pdf",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack 02\\Wooster\\Wooster.pdf",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack 02\\Wooster\\Wooster.pdf",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack%2002/Wooster/Wooster.pdf",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack%2002/Wooster/Wooster.pdf"
+      }
+    }
+  ]
+}

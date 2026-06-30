@@ -1,0 +1,274 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Starter Pack",
+  "source_top_folder_relative_path_exact": "Starter Pack",
+  "json_group_name": "Marketplace_Skirmish",
+  "json_group_type": "immediate_subfolder_recursive",
+  "covered_source_folders_exact": [
+    "Starter Pack/Marketplace Skirmish"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack",
+    "d_drive_windows": "D:\\map_assets\\Starter Pack"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 12,
+    "covered_immediate_subfolder_count": 1,
+    "types": {
+      "document": 1,
+      "image": 11
+    },
+    "extensions": {
+      ".jpg": 6,
+      ".pdf": 1,
+      ".png": 5
+    }
+  },
+  "files": [
+    {
+      "name": "East Building_1st Floor.png",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens/East Building_1st Floor.png",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 474151,
+      "crc32": "8ff133e9",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_1st Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_1st Floor.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Building Tokens/East Building_1st Floor.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_1st Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_1st Floor.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/East%20Building_1st%20Floor.png",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/East%20Building_1st%20Floor.png"
+      }
+    },
+    {
+      "name": "East Building_2nd Floor.png",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens/East Building_2nd Floor.png",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 424426,
+      "crc32": "defaeec7",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_2nd Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_2nd Floor.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Building Tokens/East Building_2nd Floor.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_2nd Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\East Building_2nd Floor.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/East%20Building_2nd%20Floor.png",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/East%20Building_2nd%20Floor.png"
+      }
+    },
+    {
+      "name": "South Building_1st Floor.png",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens/South Building_1st Floor.png",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 687264,
+      "crc32": "c87351eb",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_1st Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_1st Floor.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Building Tokens/South Building_1st Floor.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_1st Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_1st Floor.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/South%20Building_1st%20Floor.png",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/South%20Building_1st%20Floor.png"
+      }
+    },
+    {
+      "name": "South Building_2nd Floor.png",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens/South Building_2nd Floor.png",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 627297,
+      "crc32": "18accd09",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_2nd Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_2nd Floor.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Building Tokens/South Building_2nd Floor.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_2nd Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\South Building_2nd Floor.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/South%20Building_2nd%20Floor.png",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/South%20Building_2nd%20Floor.png"
+      }
+    },
+    {
+      "name": "West Building_1st Floor.png",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens/West Building_1st Floor.png",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish/Building Tokens",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 899455,
+      "crc32": "a24bfec3",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\West Building_1st Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\West Building_1st Floor.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Building Tokens/West Building_1st Floor.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\West Building_1st Floor.png",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Building Tokens\\West Building_1st Floor.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/West%20Building_1st%20Floor.png",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Building%20Tokens/West%20Building_1st%20Floor.png"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish.jpg",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish.jpg",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5309641,
+      "crc32": "a42f2444",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish.jpg"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish_empty.jpg",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish_empty.jpg",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5187905,
+      "crc32": "9b8c6735",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_empty.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_empty.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish_empty.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_empty.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_empty.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_empty.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_empty.jpg"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish_emptygridless.jpg",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish_emptygridless.jpg",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5072267,
+      "crc32": "0997d69c",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_emptygridless.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_emptygridless.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish_emptygridless.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_emptygridless.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_emptygridless.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_emptygridless.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_emptygridless.jpg"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish_gridless.jpg",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish_gridless.jpg",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5193882,
+      "crc32": "891a9fd3",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_gridless.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_gridless.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish_gridless.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_gridless.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_gridless.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_gridless.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_gridless.jpg"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish_night.jpg",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish_night.jpg",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5241045,
+      "crc32": "e9b733fb",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_night.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_night.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish_night.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_night.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_night.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_night.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_night.jpg"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish_print.pdf",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish_print.pdf",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "document",
+      "extension": ".pdf",
+      "size_bytes": 32597628,
+      "crc32": "122a7867",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_print.pdf",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_print.pdf"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish_print.pdf",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_print.pdf",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_print.pdf",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_print.pdf",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_print.pdf"
+      }
+    },
+    {
+      "name": "Marketplace Skirmish_VTT.jpg",
+      "asset_relative_path": "Starter Pack/Marketplace Skirmish/Marketplace Skirmish_VTT.jpg",
+      "folder_relative_path": "Starter Pack/Marketplace Skirmish",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 1745605,
+      "crc32": "823c2558",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_VTT.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_VTT.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Starter Pack/Marketplace Skirmish/Marketplace Skirmish_VTT.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_VTT.jpg",
+        "d_drive_windows": "D:\\map_assets\\Starter Pack\\Marketplace Skirmish\\Marketplace Skirmish_VTT.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_VTT.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Starter%20Pack/Marketplace%20Skirmish/Marketplace%20Skirmish_VTT.jpg"
+      }
+    }
+  ]
+}

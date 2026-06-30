@@ -1,0 +1,654 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Assets",
+  "source_top_folder_relative_path_exact": "Assets",
+  "json_group_name": "Audio",
+  "json_group_type": "immediate_subfolder_recursive",
+  "covered_source_folders_exact": [
+    "Assets/Audio"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets",
+    "d_drive_windows": "D:\\map_assets\\Assets"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 31,
+    "covered_immediate_subfolder_count": 1,
+    "types": {
+      "audio": 30,
+      "document": 1
+    },
+    "extensions": {
+      ".md": 1,
+      ".mp3": 23,
+      ".wav": 7
+    }
+  },
+  "files": [
+    {
+      "name": "Echos_-_Acoustic_Grand_Piano(1).wav",
+      "asset_relative_path": "Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano(1).wav",
+      "folder_relative_path": "Assets/Audio/BloodGore&More_V2/Music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 32682448,
+      "sha256": "f2ef996beab5e30716fc9a81b245efbcf55a8dbb2991893c0cbd8421c2fc4769",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano(1).wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano(1).wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano(1).wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano(1).wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano(1).wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano(1).wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano(1).wav"
+      }
+    },
+    {
+      "name": "Echos_-_Acoustic_Grand_Piano.wav",
+      "asset_relative_path": "Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano.wav",
+      "folder_relative_path": "Assets/Audio/BloodGore&More_V2/Music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 8052856,
+      "sha256": "057c79313597ad8f36c59655d4f9392849d94b03b6a968f8666bfa5d1df20159",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano.wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano.wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Acoustic_Grand_Piano.wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano.wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Acoustic_Grand_Piano.wav"
+      }
+    },
+    {
+      "name": "Echos_-_Instrument(1).wav",
+      "asset_relative_path": "Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument(1).wav",
+      "folder_relative_path": "Assets/Audio/BloodGore&More_V2/Music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 32252732,
+      "sha256": "9c8627deffb05930f1eadb6a4ba48242617990b1e221cf9c5a3150ceddd260dd",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument(1).wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument(1).wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument(1).wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument(1).wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument(1).wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument(1).wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument(1).wav"
+      }
+    },
+    {
+      "name": "Echos_-_Instrument.wav",
+      "asset_relative_path": "Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument.wav",
+      "folder_relative_path": "Assets/Audio/BloodGore&More_V2/Music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 8380452,
+      "sha256": "e280f7754f9d1cf935c36d214c6a529f5e9a5d3f85773df36efdecafb8e3327e",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument.wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument.wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\BloodGore&More_V2\\Music\\Echos_-_Instrument.wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument.wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/BloodGore&More_V2/Music/Echos_-_Instrument.wav"
+      }
+    },
+    {
+      "name": "music_combat.wav",
+      "asset_relative_path": "Assets/Audio/gamer-main/music/music_combat.wav",
+      "folder_relative_path": "Assets/Audio/gamer-main/music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 1467692,
+      "sha256": "26d08436863edc7840a911ef5d3eff6b3d2998f911b429a161dc52a6a6bd1ee1",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_combat.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_combat.wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/gamer-main/music/music_combat.wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_combat.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_combat.wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/gamer-main/music/music_combat.wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/gamer-main/music/music_combat.wav"
+      }
+    },
+    {
+      "name": "music_exploration.wav",
+      "asset_relative_path": "Assets/Audio/gamer-main/music/music_exploration.wav",
+      "folder_relative_path": "Assets/Audio/gamer-main/music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 2460800,
+      "sha256": "2353e7c2d89470584b5a952c2a37f4906b864b994f90e47c6c8d7458fe66f0be",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_exploration.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_exploration.wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/gamer-main/music/music_exploration.wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_exploration.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_exploration.wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/gamer-main/music/music_exploration.wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/gamer-main/music/music_exploration.wav"
+      }
+    },
+    {
+      "name": "music_menu.wav",
+      "asset_relative_path": "Assets/Audio/gamer-main/music/music_menu.wav",
+      "folder_relative_path": "Assets/Audio/gamer-main/music",
+      "type": "audio",
+      "extension": ".wav",
+      "size_bytes": 2575472,
+      "sha256": "0d905422ed2913c85eda6a391c4a6c118f931564d3ee51fea7883b3b9b9a2cb6",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_menu.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_menu.wav"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/gamer-main/music/music_menu.wav",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_menu.wav",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\gamer-main\\music\\music_menu.wav",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/gamer-main/music/music_menu.wav",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/gamer-main/music/music_menu.wav"
+      }
+    },
+    {
+      "name": "lock_3_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_0d3c0daf/lock/lock_3_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_0d3c0daf/lock",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 36823,
+      "sha256": "84531d16b2996f7701a4bc4e5f0130ccba787d4a1c08b935b5d5cbba8501486b",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0d3c0daf\\lock\\lock_3_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0d3c0daf\\lock\\lock_3_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_0d3c0daf/lock/lock_3_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0d3c0daf\\lock\\lock_3_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0d3c0daf\\lock\\lock_3_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_0d3c0daf/lock/lock_3_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_0d3c0daf/lock/lock_3_default.mp3"
+      }
+    },
+    {
+      "name": "creature_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_0e10c9d5/creature/creature_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_0e10c9d5/creature",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 68170,
+      "sha256": "b54b697b05e03151530895e792706e0abba30a539b1b0f64d5ddbe30bfc429f6",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0e10c9d5\\creature\\creature_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0e10c9d5\\creature\\creature_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_0e10c9d5/creature/creature_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0e10c9d5\\creature\\creature_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_0e10c9d5\\creature\\creature_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_0e10c9d5/creature/creature_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_0e10c9d5/creature/creature_1_default.mp3"
+      }
+    },
+    {
+      "name": "damage_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_121d654a/damage/damage_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_121d654a/damage",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 4285,
+      "sha256": "04264c7afc70b82ac10828f58f34c0764faed5da56d47d2d4508ddb8c5d66b5a",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_121d654a\\damage\\damage_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_121d654a\\damage\\damage_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_121d654a/damage/damage_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_121d654a\\damage\\damage_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_121d654a\\damage\\damage_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_121d654a/damage/damage_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_121d654a/damage/damage_default.mp3"
+      }
+    },
+    {
+      "name": "fire_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_18cd4a81/fire/fire_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_18cd4a81/fire",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 10727,
+      "sha256": "4aab315d1aa30a44b4bff902033a7b057375b9ff116632326ba8677c45a36ce0",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_18cd4a81\\fire\\fire_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_18cd4a81\\fire\\fire_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_18cd4a81/fire/fire_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_18cd4a81\\fire\\fire_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_18cd4a81\\fire\\fire_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_18cd4a81/fire/fire_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_18cd4a81/fire/fire_default.mp3"
+      }
+    },
+    {
+      "name": "nat_20_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_1c88b3fd/nat_20/nat_20_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_1c88b3fd/nat_20",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 27094,
+      "sha256": "e5aa621b15a714d3123701c5daa54145644dff98ea225f7c8b8e85f6f24d744f",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_1c88b3fd\\nat_20\\nat_20_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_1c88b3fd\\nat_20\\nat_20_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_1c88b3fd/nat_20/nat_20_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_1c88b3fd\\nat_20\\nat_20_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_1c88b3fd\\nat_20\\nat_20_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_1c88b3fd/nat_20/nat_20_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_1c88b3fd/nat_20/nat_20_default.mp3"
+      }
+    },
+    {
+      "name": "creature_2_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_236a3af9/creature/creature_2_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_236a3af9/creature",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 61901,
+      "sha256": "7721738251123a9a85f20b423087bf109514f0eac23854d28e232b0e80140032",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_236a3af9\\creature\\creature_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_236a3af9\\creature\\creature_2_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_236a3af9/creature/creature_2_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_236a3af9\\creature\\creature_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_236a3af9\\creature\\creature_2_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_236a3af9/creature/creature_2_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_236a3af9/creature/creature_2_default.mp3"
+      }
+    },
+    {
+      "name": "roll_3_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_351bfc06/roll/roll_3_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_351bfc06/roll",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 6166,
+      "sha256": "4bcf064980ede35897f4668493aa41338a62f7728a1a503fd37c238644e10246",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_351bfc06\\roll\\roll_3_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_351bfc06\\roll\\roll_3_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_351bfc06/roll/roll_3_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_351bfc06\\roll\\roll_3_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_351bfc06\\roll\\roll_3_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_351bfc06/roll/roll_3_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_351bfc06/roll/roll_3_default.mp3"
+      }
+    },
+    {
+      "name": "ranged_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_3c72e1f7/ranged/ranged_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_3c72e1f7/ranged",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 9056,
+      "sha256": "85441d6879298f3bbde81c505a3d25c1328b05cb772a9ee16823c5f94a5fa8ba",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_3c72e1f7\\ranged\\ranged_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_3c72e1f7\\ranged\\ranged_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_3c72e1f7/ranged/ranged_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_3c72e1f7\\ranged\\ranged_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_3c72e1f7\\ranged\\ranged_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_3c72e1f7/ranged/ranged_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_3c72e1f7/ranged/ranged_default.mp3"
+      }
+    },
+    {
+      "name": "initiative_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_4365a081/initiative/initiative_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_4365a081/initiative",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 125012,
+      "sha256": "48f8a762d9f73322af6847269389dbac37846365d1eb83138103592daa88da7f",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_4365a081\\initiative\\initiative_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_4365a081\\initiative\\initiative_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_4365a081/initiative/initiative_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_4365a081\\initiative\\initiative_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_4365a081\\initiative\\initiative_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_4365a081/initiative/initiative_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_4365a081/initiative/initiative_1_default.mp3"
+      }
+    },
+    {
+      "name": "heal_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_442eb09f/heal/heal_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_442eb09f/heal",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 19296,
+      "sha256": "60a4d31dedece55ecef134a042607f63ea0ee8f6487e535e1e516b838ba787b6",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_442eb09f\\heal\\heal_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_442eb09f\\heal\\heal_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_442eb09f/heal/heal_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_442eb09f\\heal\\heal_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_442eb09f\\heal\\heal_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_442eb09f/heal/heal_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_442eb09f/heal/heal_default.mp3"
+      }
+    },
+    {
+      "name": "creature_3_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_5a7b19a4/creature/creature_3_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_5a7b19a4/creature",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 69424,
+      "sha256": "7a13248b8fde8f2dfb73ba9ff54807f6593fec0bc1a93421293f4bc0aeb8a7a4",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_5a7b19a4\\creature\\creature_3_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_5a7b19a4\\creature\\creature_3_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_5a7b19a4/creature/creature_3_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_5a7b19a4\\creature\\creature_3_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_5a7b19a4\\creature\\creature_3_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_5a7b19a4/creature/creature_3_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_5a7b19a4/creature/creature_3_default.mp3"
+      }
+    },
+    {
+      "name": "roll_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_6ae386ae/roll/roll_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_6ae386ae/roll",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 12674,
+      "sha256": "eac386113158583863653892778bba541223b1ba93ea9b9585d61e8c41c573b4",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_6ae386ae\\roll\\roll_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_6ae386ae\\roll\\roll_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_6ae386ae/roll/roll_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_6ae386ae\\roll\\roll_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_6ae386ae\\roll\\roll_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_6ae386ae/roll/roll_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_6ae386ae/roll/roll_1_default.mp3"
+      }
+    },
+    {
+      "name": "eldritch_blast_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_7f3329f3/magic/eldritch_blast_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_7f3329f3/magic",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 24311,
+      "sha256": "f5f300b372833a00d6a8256014e52290973479a0dfefe7160faef65ed1d36a94",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_7f3329f3\\magic\\eldritch_blast_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_7f3329f3\\magic\\eldritch_blast_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_7f3329f3/magic/eldritch_blast_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_7f3329f3\\magic\\eldritch_blast_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_7f3329f3\\magic\\eldritch_blast_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_7f3329f3/magic/eldritch_blast_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_7f3329f3/magic/eldritch_blast_default.mp3"
+      }
+    },
+    {
+      "name": "attack_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_8e847c42/attack/attack_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_8e847c42/attack",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 36707,
+      "sha256": "8b0332519a9881a2eb299b5f02179937e3ab273323c63b3f36bc0ee29dd4a76a",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_8e847c42\\attack\\attack_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_8e847c42\\attack\\attack_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_8e847c42/attack/attack_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_8e847c42\\attack\\attack_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_8e847c42\\attack\\attack_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_8e847c42/attack/attack_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_8e847c42/attack/attack_default.mp3"
+      }
+    },
+    {
+      "name": "nat_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_a09c6498/nat_1/nat_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_a09c6498/nat_1",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 3622,
+      "sha256": "3d60356b4afb2c59509ab9b3e1a622a7d75606d4dfac3b22da1a1c0d2671765d",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a09c6498\\nat_1\\nat_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a09c6498\\nat_1\\nat_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_a09c6498/nat_1/nat_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a09c6498\\nat_1\\nat_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a09c6498\\nat_1\\nat_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_a09c6498/nat_1/nat_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_a09c6498/nat_1/nat_1_default.mp3"
+      }
+    },
+    {
+      "name": "lock_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_a66c1c93/lock/lock_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_a66c1c93/lock",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 20396,
+      "sha256": "8dd16f149d851c5bae80e32d7d418cd420591d678beb94f7db5eccaa9878eb43",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a66c1c93\\lock\\lock_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a66c1c93\\lock\\lock_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_a66c1c93/lock/lock_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a66c1c93\\lock\\lock_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_a66c1c93\\lock\\lock_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_a66c1c93/lock/lock_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_a66c1c93/lock/lock_1_default.mp3"
+      }
+    },
+    {
+      "name": "write_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_b08b89bc/write/write_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_b08b89bc/write",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 45356,
+      "sha256": "ce61e858ce9bf5460403e939656381018fd287be082e619cbc97f1d1123984ac",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b08b89bc\\write\\write_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b08b89bc\\write\\write_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_b08b89bc/write/write_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b08b89bc\\write\\write_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b08b89bc\\write\\write_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_b08b89bc/write/write_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_b08b89bc/write/write_1_default.mp3"
+      }
+    },
+    {
+      "name": "delete_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_b834cd30/delete/delete_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_b834cd30/delete",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 54377,
+      "sha256": "35ba8bf12f0d66bf4ace7d7e9facb2802a61f4817ed31344210ca780b27c2bf5",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b834cd30\\delete\\delete_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b834cd30\\delete\\delete_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_b834cd30/delete/delete_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b834cd30\\delete\\delete_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_b834cd30\\delete\\delete_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_b834cd30/delete/delete_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_b834cd30/delete/delete_1_default.mp3"
+      }
+    },
+    {
+      "name": "player_1_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_cc3d5206/player/player_1_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_cc3d5206/player",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 91158,
+      "sha256": "9ed5dfeb187690c65935c9bfc39b5e3f26028823febc489c3e9de1daa5e4d131",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_cc3d5206\\player\\player_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_cc3d5206\\player\\player_1_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_cc3d5206/player/player_1_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_cc3d5206\\player\\player_1_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_cc3d5206\\player\\player_1_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_cc3d5206/player/player_1_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_cc3d5206/player/player_1_default.mp3"
+      }
+    },
+    {
+      "name": "roll_2_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_d0475fdb/roll/roll_2_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_d0475fdb/roll",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 11564,
+      "sha256": "f249b271d29a7259c235349b272ea23b2d83435b0dee4de9a6bff00e0e60d5a3",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d0475fdb\\roll\\roll_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d0475fdb\\roll\\roll_2_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_d0475fdb/roll/roll_2_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d0475fdb\\roll\\roll_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d0475fdb\\roll\\roll_2_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_d0475fdb/roll/roll_2_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_d0475fdb/roll/roll_2_default.mp3"
+      }
+    },
+    {
+      "name": "lock_2_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_d3bc4cce/lock/lock_2_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_d3bc4cce/lock",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 9644,
+      "sha256": "ff231c6d3198c63689717184cde19d7a7e8f0ce8adc889dec845bc0ffd0336d3",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d3bc4cce\\lock\\lock_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d3bc4cce\\lock\\lock_2_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_d3bc4cce/lock/lock_2_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d3bc4cce\\lock\\lock_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_d3bc4cce\\lock\\lock_2_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_d3bc4cce/lock/lock_2_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_d3bc4cce/lock/lock_2_default.mp3"
+      }
+    },
+    {
+      "name": "write_2_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_dcc8fc7b/write/write_2_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_dcc8fc7b/write",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 21164,
+      "sha256": "0800ac97d78305679ab6bcd3ec69e4d1504c57fe8bb755b98c7a6531ab022b4e",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_dcc8fc7b\\write\\write_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_dcc8fc7b\\write\\write_2_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_dcc8fc7b/write/write_2_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_dcc8fc7b\\write\\write_2_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_dcc8fc7b\\write\\write_2_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_dcc8fc7b/write/write_2_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_dcc8fc7b/write/write_2_default.mp3"
+      }
+    },
+    {
+      "name": "sneaky_default.mp3",
+      "asset_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_df86f529/sneak/sneaky_default.mp3",
+      "folder_relative_path": "Assets/Audio/lenny-dnd-bot-main/assets/deep_df86f529/sneak",
+      "type": "audio",
+      "extension": ".mp3",
+      "size_bytes": 48344,
+      "sha256": "77c549f7ce90237f9a505bc227821939d7c418199f9bbf9a77b1fa73e6d3c92e",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_df86f529\\sneak\\sneaky_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_df86f529\\sneak\\sneaky_default.mp3"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/lenny-dnd-bot-main/assets/deep_df86f529/sneak/sneaky_default.mp3",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_df86f529\\sneak\\sneaky_default.mp3",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\lenny-dnd-bot-main\\assets\\deep_df86f529\\sneak\\sneaky_default.mp3",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_df86f529/sneak/sneaky_default.mp3",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/lenny-dnd-bot-main/assets/deep_df86f529/sneak/sneaky_default.mp3"
+      }
+    },
+    {
+      "name": "README_LOCAL_MUSIC_POINTER.md",
+      "asset_relative_path": "Assets/Audio/Music/README_LOCAL_MUSIC_POINTER.md",
+      "folder_relative_path": "Assets/Audio/Music",
+      "type": "document",
+      "extension": ".md",
+      "size_bytes": 648,
+      "sha256": "0065bfd8413e19779d80f157c535dffdf2226fe7b60123b90d1c5d5dbbb456ec",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\Music\\README_LOCAL_MUSIC_POINTER.md",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\Music\\README_LOCAL_MUSIC_POINTER.md"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Assets/Audio/Music/README_LOCAL_MUSIC_POINTER.md",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Assets\\Audio\\Music\\README_LOCAL_MUSIC_POINTER.md",
+        "d_drive_windows": "D:\\map_assets\\Assets\\Audio\\Music\\README_LOCAL_MUSIC_POINTER.md",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Assets/Audio/Music/README_LOCAL_MUSIC_POINTER.md",
+        "d_drive_file_url": "file:///D:/map_assets/Assets/Audio/Music/README_LOCAL_MUSIC_POINTER.md"
+      }
+    }
+  ]
+}

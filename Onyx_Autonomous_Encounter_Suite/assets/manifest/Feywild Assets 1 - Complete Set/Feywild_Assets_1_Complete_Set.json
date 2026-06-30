@@ -1,0 +1,284 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Feywild Assets 1 - Complete Set",
+  "source_top_folder_relative_path_exact": "Feywild Assets 1 - Complete Set",
+  "json_group_name": "Feywild_Assets_1_Complete_Set",
+  "json_group_type": "top_folder_direct_files",
+  "covered_source_folders_exact": [
+    "Feywild Assets 1 - Complete Set"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set",
+    "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 13,
+    "covered_immediate_subfolder_count": 0,
+    "types": {
+      "document": 3,
+      "image": 9,
+      "vtt_asset": 1
+    },
+    "extensions": {
+      ".dungeondraft_pack": 1,
+      ".jpg": 8,
+      ".pdf": 1,
+      ".png": 1,
+      ".url": 2
+    }
+  },
+  "files": [
+    {
+      "name": "Example 1.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Example 1.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6934996,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Example 1.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%201.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%201.jpg"
+      }
+    },
+    {
+      "name": "Example 1_nogrid.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Example 1_nogrid.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6869786,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1_nogrid.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1_nogrid.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Example 1_nogrid.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1_nogrid.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 1_nogrid.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%201_nogrid.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%201_nogrid.jpg"
+      }
+    },
+    {
+      "name": "Example 2.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Example 2.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6703354,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 2.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 2.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Example 2.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 2.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 2.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%202.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%202.jpg"
+      }
+    },
+    {
+      "name": "Example 3.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Example 3.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6603678,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 3.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 3.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Example 3.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Example 3.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Example 3.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%203.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Example%203.jpg"
+      }
+    },
+    {
+      "name": "Feywild Assets Read Me.pdf",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Feywild Assets Read Me.pdf",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "document",
+      "extension": ".pdf",
+      "size_bytes": 58826,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Assets Read Me.pdf",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Assets Read Me.pdf"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Feywild Assets Read Me.pdf",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Assets Read Me.pdf",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Assets Read Me.pdf",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Assets%20Read%20Me.pdf",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Assets%20Read%20Me.pdf"
+      }
+    },
+    {
+      "name": "Feywild Grass A.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Feywild Grass A.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6914609,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass A.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass A.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Feywild Grass A.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass A.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass A.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20A.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20A.jpg"
+      }
+    },
+    {
+      "name": "Feywild Grass B.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Feywild Grass B.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6166325,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass B.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass B.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Feywild Grass B.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass B.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass B.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20B.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20B.jpg"
+      }
+    },
+    {
+      "name": "Feywild Grass C.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Feywild Grass C.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6875401,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass C.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass C.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Feywild Grass C.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass C.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass C.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20C.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20C.jpg"
+      }
+    },
+    {
+      "name": "Feywild Grass D.jpg",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Feywild Grass D.jpg",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 6296509,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass D.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass D.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Feywild Grass D.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass D.jpg",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Feywild Grass D.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20D.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Feywild%20Grass%20D.jpg"
+      }
+    },
+    {
+      "name": "Grid.png",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Grid.png",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 45656,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Grid.png",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Grid.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Grid.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Grid.png",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Grid.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Grid.png",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Grid.png"
+      }
+    },
+    {
+      "name": "License.url",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/License.url",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "document",
+      "extension": ".url",
+      "size_bytes": 74,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\License.url",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\License.url"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/License.url",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\License.url",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\License.url",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/License.url",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/License.url"
+      }
+    },
+    {
+      "name": "Patreon.url",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Patreon.url",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "document",
+      "extension": ".url",
+      "size_bytes": 59,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Patreon.url",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Patreon.url"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Patreon.url",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Patreon.url",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Patreon.url",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Patreon.url",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Patreon.url"
+      }
+    },
+    {
+      "name": "Venatus Maps Feywild.dungeondraft_pack",
+      "asset_relative_path": "Feywild Assets 1 - Complete Set/Venatus Maps Feywild.dungeondraft_pack",
+      "folder_relative_path": "Feywild Assets 1 - Complete Set",
+      "type": "vtt_asset",
+      "extension": ".dungeondraft_pack",
+      "size_bytes": 61899637,
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Venatus Maps Feywild.dungeondraft_pack",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Venatus Maps Feywild.dungeondraft_pack"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Feywild Assets 1 - Complete Set/Venatus Maps Feywild.dungeondraft_pack",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Feywild Assets 1 - Complete Set\\Venatus Maps Feywild.dungeondraft_pack",
+        "d_drive_windows": "D:\\map_assets\\Feywild Assets 1 - Complete Set\\Venatus Maps Feywild.dungeondraft_pack",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Venatus%20Maps%20Feywild.dungeondraft_pack",
+        "d_drive_file_url": "file:///D:/map_assets/Feywild%20Assets%201%20-%20Complete%20Set/Venatus%20Maps%20Feywild.dungeondraft_pack"
+      }
+    }
+  ]
+}
