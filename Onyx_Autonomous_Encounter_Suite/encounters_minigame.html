@@ -1,0 +1,1713 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Belavadös Encounters Minigame</title>
+<style>
+:root{
+  --cyan:#00ffff;
+  --orange:#ca6309;
+  --ink:#06080d;
+  --panel:rgba(10,18,28,.88);
+  --panel2:rgba(16,27,42,.82);
+  --line:rgba(0,255,255,.26);
+  --text:#eefaff;
+  --muted:#a7c4ca;
+  --danger:#ff5577;
+  --good:#73ffba;
+  --warn:#ffc857;
+  --cell:38px;
+  --cols:24;
+  --rows:16;
+  --shadow:0 14px 45px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#05070d;color:var(--text);font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;background:
+  radial-gradient(circle at 12% 20%,rgba(0,255,255,.16),transparent 25%),
+  radial-gradient(circle at 82% 8%,rgba(202,99,9,.16),transparent 24%),
+  linear-gradient(135deg,#070916,#102035 52%,#090c12);z-index:-3}
+body:after{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 95%);z-index:-2;pointer-events:none}
+button,input,select,textarea{font:inherit;color:var(--text)}
+button{border:1px solid var(--line);background:linear-gradient(180deg,rgba(0,255,255,.13),rgba(0,0,0,.12));border-radius:12px;padding:.58rem .75rem;cursor:pointer;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04);transition:.15s ease}
+button:hover{border-color:rgba(0,255,255,.75);transform:translateY(-1px)}
+button:disabled{opacity:.45;cursor:not-allowed;transform:none}
+input,select,textarea{width:100%;border:1px solid rgba(0,255,255,.24);background:rgba(5,10,18,.78);border-radius:11px;padding:.55rem .65rem;outline:none}
+textarea{min-height:78px;resize:vertical;line-height:1.35}
+label{font-size:.78rem;color:var(--muted);display:block;margin:.35rem 0 .25rem}
+small{color:var(--muted)}
+.header{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:.75rem;justify-content:space-between;padding:.72rem .9rem;border-bottom:1px solid rgba(0,255,255,.22);background:rgba(5,8,13,.86);backdrop-filter:blur(14px);box-shadow:0 12px 30px rgba(0,0,0,.24)}
+.brand{display:flex;align-items:center;gap:.7rem;min-width:0}
+.logo{width:42px;height:42px;border-radius:13px;background:conic-gradient(from 215deg,var(--cyan),var(--orange),#1d2f41,var(--cyan));box-shadow:0 0 22px rgba(0,255,255,.34);display:grid;place-items:center;color:#001018;font-weight:900;text-shadow:0 1px rgba(255,255,255,.25)}
+.brand h1{font-size:1.02rem;line-height:1.1;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.brand span{display:block;color:var(--muted);font-size:.76rem;margin-top:.15rem}.top-actions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;justify-content:flex-end}.badge{border:1px solid rgba(0,255,255,.25);border-radius:999px;padding:.35rem .6rem;background:rgba(0,255,255,.08);font-size:.8rem;color:#dff}.badge.dm{border-color:rgba(202,99,9,.65);background:rgba(202,99,9,.13)}
+.app{display:grid;grid-template-columns:minmax(280px,360px) minmax(520px,1fr) minmax(320px,420px);gap:.8rem;padding:.8rem;align-items:start}.panel{background:var(--panel);border:1px solid rgba(0,255,255,.22);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}.panel h2,.panel h3{margin:0;font-size:.96rem;letter-spacing:.02em}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem;padding:.72rem .8rem;border-bottom:1px solid rgba(0,255,255,.16);background:linear-gradient(180deg,rgba(0,255,255,.08),rgba(255,255,255,.02))}.panel-body{padding:.8rem}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:.55rem}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem}.row{display:flex;gap:.5rem;align-items:center}.row.wrap{flex-wrap:wrap}.stack{display:grid;gap:.6rem}.divider{height:1px;background:rgba(0,255,255,.14);margin:.72rem 0}.pill{display:inline-flex;align-items:center;gap:.32rem;border:1px solid rgba(0,255,255,.2);border-radius:999px;padding:.24rem .46rem;font-size:.75rem;color:#dff;background:rgba(0,0,0,.22)}.pill.warn{border-color:rgba(255,200,87,.35);color:#ffe6a7}.pill.bad{border-color:rgba(255,85,119,.42);color:#ffc4d0}.pill.good{border-color:rgba(115,255,186,.35);color:#baffd8}.hidden{display:none!important}.dm-only{display:none}.dm-mode .dm-only{display:block}.dm-mode .dm-flex{display:flex}.dm-mode .dm-grid{display:grid}.player-only-note{display:block}.dm-mode .player-only-note{display:none}
+#battleShell{position:relative;overflow:auto;padding:.7rem;border-radius:18px;background:rgba(0,0,0,.22)}
+.board-wrap{position:relative;width:calc(var(--cols) * var(--cell));height:calc(var(--rows) * var(--cell));margin:auto;border:1px solid rgba(0,255,255,.26);border-radius:16px;overflow:hidden;background:
+  radial-gradient(circle at 30% 30%,rgba(202,99,9,.11),transparent 36%),
+  radial-gradient(circle at 70% 60%,rgba(0,255,255,.10),transparent 34%),
+  #101621;box-shadow:inset 0 0 60px rgba(0,0,0,.38),0 0 0 1px rgba(255,255,255,.04)}
+#gridLayer{position:absolute;inset:0;background-image:linear-gradient(rgba(0,255,255,.13) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,255,.13) 1px,transparent 1px);background-size:var(--cell) var(--cell);pointer-events:none;opacity:.72}.coord{position:absolute;font-size:9px;color:rgba(238,250,255,.32);padding:2px;pointer-events:none}.token{position:absolute;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;transform:translate(-50%,-50%);user-select:none;cursor:grab;font-weight:900;font-size:.78rem;z-index:4;border:2px solid rgba(255,255,255,.75);box-shadow:0 7px 14px rgba(0,0,0,.45),0 0 0 2px rgba(0,0,0,.35)}.token.pc{background:linear-gradient(145deg,var(--cyan),#17687c);color:#001216}.token.hostile{background:linear-gradient(145deg,#ff486d,#4b0714);color:#fff}.token.body{background:radial-gradient(circle,#7d0018,#1a060a);border-color:rgba(255,170,170,.75);color:#ffd8df}.token.object{border-radius:9px;background:linear-gradient(145deg,#88552a,#231507);color:#fff2dc}.token.selected{outline:3px solid var(--orange);box-shadow:0 0 0 4px rgba(202,99,9,.32),0 0 24px rgba(202,99,9,.5)}.token.turn{animation:pulseTurn 1.4s infinite}@keyframes pulseTurn{50%{filter:drop-shadow(0 0 12px var(--cyan));transform:translate(-50%,-50%) scale(1.08)}}.token.dead{filter:saturate(.5) brightness(.75);cursor:pointer}.token .hpbar{position:absolute;left:-4px;right:-4px;bottom:-8px;height:5px;border-radius:8px;background:rgba(0,0,0,.55);overflow:hidden;border:1px solid rgba(255,255,255,.18)}.token .hpbar i{display:block;height:100%;background:linear-gradient(90deg,var(--good),var(--warn),var(--danger));width:100%}.token .status-dot{position:absolute;right:-4px;top:-4px;width:12px;height:12px;border-radius:50%;background:var(--good);border:1px solid #fff}.token.down .status-dot{background:var(--danger)}.range-ring{position:absolute;border:1px dashed rgba(0,255,255,.55);border-radius:50%;pointer-events:none;z-index:2;transform:translate(-50%,-50%);background:rgba(0,255,255,.04)}
+#diceLayer{position:absolute;inset:0;pointer-events:none;background:transparent!important;z-index:30;overflow:hidden}.die{position:absolute;width:44px;height:44px;border-radius:12px;background:linear-gradient(145deg,#f8ffff,#9feef5);color:#041016;display:grid;place-items:center;font-weight:1000;box-shadow:0 16px 22px rgba(0,0,0,.35),inset -5px -5px 10px rgba(0,0,0,.12);animation:dieRoll 950ms cubic-bezier(.2,.9,.2,1) forwards}.die.d20{clip-path:polygon(50% 0,94% 25%,94% 75%,50% 100%,6% 75%,6% 25%)}.die.bad{background:linear-gradient(145deg,#ffc4d0,#ff5577);color:#25030b}.die.good{background:linear-gradient(145deg,#d6ffe9,#73ffba);color:#06200f}@keyframes dieRoll{0%{opacity:0;transform:translate(0,-70px) rotate(0deg) scale(.7)}35%{opacity:1}80%{opacity:1;transform:translate(var(--dx),var(--dy)) rotate(640deg) scale(1.05)}100%{opacity:0;transform:translate(var(--dx),calc(var(--dy) + 22px)) rotate(720deg) scale(.65)}}.bloodfx{position:absolute;width:110px;height:110px;pointer-events:none;transform:translate(-50%,-50%);z-index:25;border-radius:50%;background:radial-gradient(circle,#ff335c 0 8%,transparent 9%),radial-gradient(circle at 24% 37%,#bf001e 0 10%,transparent 11%),radial-gradient(circle at 74% 50%,#f50031 0 12%,transparent 13%),radial-gradient(circle at 53% 75%,#4d000b 0 11%,transparent 12%);filter:drop-shadow(0 0 20px rgba(255,0,44,.35));animation:bloodpop 800ms ease-out forwards}@keyframes bloodpop{0%{opacity:.95;scale:.2;rotate:0deg}70%{opacity:.9;scale:1.1;rotate:80deg}100%{opacity:0;scale:1.45;rotate:130deg}}
+.initbar{display:flex;gap:.45rem;overflow-x:auto;padding:.55rem}.init-node{min-width:120px;border:1px solid rgba(0,255,255,.18);border-radius:14px;padding:.45rem .5rem;background:rgba(0,0,0,.25)}.init-node.active{border-color:var(--orange);box-shadow:0 0 18px rgba(202,99,9,.22)}.init-node b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.init-node small{display:block}.cardlist{display:grid;gap:.55rem;max-height:330px;overflow:auto;padding-right:.25rem}.card{border:1px solid rgba(0,255,255,.16);background:rgba(0,0,0,.22);border-radius:14px;padding:.62rem}.card.active{border-color:var(--orange);background:rgba(202,99,9,.10)}.card b{display:block}.meters{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.42rem}.meter{height:7px;background:rgba(255,255,255,.13);border-radius:999px;overflow:hidden;min-width:70px;flex:1}.meter i{display:block;height:100%;background:linear-gradient(90deg,var(--danger),var(--warn),var(--good));width:50%}.log{height:245px;overflow:auto;padding:.75rem;background:rgba(0,0,0,.28);border-top:1px solid rgba(0,255,255,.14);font-size:.86rem;line-height:1.35}.log p{margin:.28rem 0}.log .sys{color:#bff}.log .hit{color:#ffbac7}.log .good{color:#baffd8}.log .warn{color:#ffe6a7}.radial-wrap{display:grid;place-items:center;gap:.55rem}.radial{position:relative;width:250px;height:250px;border-radius:50%;background:conic-gradient(from var(--rot,0deg),rgba(0,255,255,.32),rgba(202,99,9,.26),rgba(115,255,186,.25),rgba(255,85,119,.25),rgba(0,255,255,.32));border:2px solid rgba(0,255,255,.35);box-shadow:inset 0 0 45px rgba(0,0,0,.55),0 10px 30px rgba(0,0,0,.35);transition:transform 1.15s cubic-bezier(.2,.8,.2,1)}.radial:after{content:"✦";position:absolute;inset:82px;border-radius:50%;display:grid;place-items:center;background:rgba(5,8,12,.9);border:1px solid rgba(0,255,255,.25);font-size:2.3rem;color:var(--cyan);text-shadow:0 0 12px var(--cyan)}.action-chip{position:absolute;width:92px;min-height:42px;border-radius:15px;padding:.3rem .35rem;font-size:.68rem;line-height:1.05;text-align:center;background:rgba(6,12,20,.92);border:1px solid rgba(0,255,255,.24);display:grid;place-items:center;transform:translate(-50%,-50%);z-index:2}.action-chip:hover{border-color:var(--orange)}.action-chip.selected{background:rgba(202,99,9,.35);border-color:var(--orange)}.target-list{max-height:150px;overflow:auto;display:grid;gap:.35rem}.target-btn{text-align:left;font-size:.82rem;padding:.42rem .55rem}.target-btn.selected{border-color:var(--orange);background:rgba(202,99,9,.18)}.toast{position:fixed;right:18px;bottom:18px;z-index:100;background:rgba(5,10,18,.92);border:1px solid rgba(0,255,255,.35);border-radius:14px;padding:.75rem 1rem;box-shadow:var(--shadow);display:none;max-width:min(420px,calc(100vw - 32px))}.toast.show{display:block;animation:toast 2.4s ease forwards}@keyframes toast{0%{opacity:0;transform:translateY(12px)}10%,85%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(8px)}}.modal{position:fixed;inset:0;background:rgba(0,0,0,.68);z-index:90;display:none;place-items:center;padding:1rem}.modal.show{display:grid}.modal-card{width:min(720px,96vw);max-height:86vh;overflow:auto;background:#08111e;border:1px solid rgba(0,255,255,.3);border-radius:18px;box-shadow:var(--shadow)}.kbd{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;border:1px solid rgba(255,255,255,.18);border-bottom-width:2px;border-radius:6px;padding:.1rem .28rem;background:rgba(255,255,255,.07);font-size:.8rem}.object-meta{white-space:pre-wrap;background:rgba(0,0,0,.22);border:1px solid rgba(0,255,255,.14);border-radius:12px;padding:.55rem;min-height:54px}
+
+.creator-only{display:none!important}.creator-mode .creator-only{display:grid!important}.creator-mode button.creator-only,.creator-mode #exportBtn.creator-only,.creator-mode #backendSaveBtn.creator-only,.creator-mode #toggleDmBtn.creator-only{display:inline-flex!important}.creator-card{border:1px solid rgba(202,99,9,.32);background:rgba(202,99,9,.08);border-radius:14px;padding:.65rem}.player-import-card{border:1px solid rgba(0,255,255,.30);background:rgba(0,255,255,.07);border-radius:14px;padding:.65rem}.creator-mode .player-only-note{display:none}.mode-help{font-size:.72rem;color:var(--muted)}
+.radial-wrap{display:grid;place-items:center;gap:.55rem}.radial{position:relative;width:250px;height:250px;border-radius:50%;background:conic-gradient(from var(--rot,0deg),rgba(0,255,255,.32),rgba(202,99,9,.26),rgba(115,255,186,.25),rgba(255,85,119,.25),rgba(0,255,255,.32));border:2px solid rgba(0,255,255,.35);box-shadow:inset 0 0 45px rgba(0,0,0,.55),0 10px 30px rgba(0,0,0,.35);transition:transform .35s ease}.radial:after{content:"✦";position:absolute;inset:82px;border-radius:50%;display:grid;place-items:center;background:rgba(5,8,12,.9);border:1px solid rgba(0,255,255,.25);font-size:2.3rem;color:var(--cyan);text-shadow:0 0 12px var(--cyan)}
+.action-chip{touch-action:manipulation}
+
+@media (max-width:1180px){.app{grid-template-columns:1fr}.panel{max-width:100%}.board-wrap{margin:0}.header{align-items:flex-start}.brand h1{white-space:normal}.top-actions{justify-content:flex-start}.radial{width:230px;height:230px}.radial:after{inset:76px}.action-chip{width:86px}}
+@media (max-width:680px){:root{--cell:34px}.header{position:relative;display:block}.top-actions{margin-top:.55rem}.grid2,.grid3{grid-template-columns:1fr}.app{padding:.5rem}.panel-body{padding:.65rem}.board-wrap{width:calc(var(--cols) * var(--cell));height:calc(var(--rows) * var(--cell))}.radial{width:210px;height:210px}.radial:after{inset:70px}.action-chip{width:78px;font-size:.62rem}}
+
+@media (max-width:820px){
+  :root{--cell:36px}.header{border-radius:0 0 18px 18px}.brand h1{font-size:.95rem}.app{display:flex;flex-direction:column;padding:.45rem;gap:.55rem}.panel{border-radius:16px}.panel-head{padding:.62rem}.panel-body{padding:.62rem}#playersPanel{order:2}main.panel{order:1}.app>aside.panel:last-of-type{order:3}.log{height:150px}.radial{width:220px;height:220px}.radial:after{inset:72px}.action-chip{width:82px;min-height:40px;font-size:.62rem}.top-actions button,.top-actions .badge{font-size:.72rem;padding:.42rem .5rem}#battleShell{max-height:62vh}.board-wrap{margin:0}.row.wrap button{flex:1 1 auto;min-height:42px}.target-list{max-height:110px}.cardlist{max-height:190px}
+}
+
+
+/* FIXED FULL BUILD: real dice engine overlay restored from the working dice board asset tree. */
+.dice3d-frame-wrap{position:absolute;inset:0;z-index:31;pointer-events:none;background:transparent!important;overflow:hidden;border:0!important;box-shadow:none!important}
+.dice3d-frame{width:100%;height:100%;border:0;background:transparent!important;display:block;pointer-events:none;opacity:1;visibility:visible}
+.onyx-status-card{border:1px solid rgba(0,255,255,.24);background:rgba(0,255,255,.065);border-radius:14px;padding:.65rem;display:grid;gap:.35rem}
+.onyx-status-card code{font-size:.68rem;white-space:normal;word-break:break-all;color:#cfffff}
+body:not(.creator-mode) .creator-only{display:none!important}
+.player-import-card{display:grid!important}
+
+
+/* MERGED ENCOUNTERS MINIGAME PATCH: standalone board map/grid controls + game HUD polish. */
+#mapLayer{position:absolute;inset:0;z-index:0;pointer-events:none;background-position:center;background-repeat:no-repeat;background-size:cover;opacity:1;filter:saturate(1.05) contrast(1.02)}
+#gridLayer{z-index:1}.coord{z-index:2}#rangeLayer{position:absolute;inset:0;z-index:2;pointer-events:none}#objectLayer,#tokenLayer{position:absolute;inset:0;z-index:4;pointer-events:none}#objectLayer .token,#tokenLayer .token{pointer-events:auto}.game-hud-strip{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center;padding:.5rem .65rem;border-top:1px solid rgba(0,255,255,.14);background:linear-gradient(90deg,rgba(0,255,255,.06),rgba(202,99,9,.055))}.game-hud-strip .pill{font-weight:800}.scene-control-card input[type="file"]{padding:.45rem;background:rgba(0,255,255,.055)}.scene-control-card .tiny{font-size:.7rem;color:var(--muted)}#onyxOut{white-space:pre-wrap;max-height:220px;overflow:auto;background:rgba(0,0,0,.26);border:1px solid rgba(0,255,255,.16);border-radius:12px;padding:.55rem;font-size:.8rem}.mobile-game-tip{display:none}@media(max-width:820px){.mobile-game-tip{display:block}.game-hud-strip{position:sticky;bottom:0;z-index:40;backdrop-filter:blur(10px)}}
+
+
+/* 2026-06-30 revision: all board pieces now scale from --cell so any grid square size keeps tokens, objects, locks, doors, traps, HP bars, and targeting rings proportional. */
+:root{
+  --token-size:clamp(14px, calc(var(--cell) * .82), 190px);
+  --object-size:clamp(14px, calc(var(--cell) * .9), 210px);
+  --token-font:clamp(.56rem, calc(var(--cell) * .024), 1.55rem);
+  --status-size:clamp(7px, calc(var(--cell) * .22), 28px);
+}
+.token{width:var(--token-size)!important;height:var(--token-size)!important;font-size:var(--token-font)!important;border-width:clamp(1px,calc(var(--cell) * .045),5px)!important;}
+.token.object{width:var(--object-size)!important;height:var(--object-size)!important;border-radius:clamp(5px,calc(var(--cell) * .17),24px)!important;font-size:clamp(.72rem,calc(var(--cell) * .03),1.9rem)!important;}
+.token .hpbar{left:calc(var(--token-size) * -.12)!important;right:calc(var(--token-size) * -.12)!important;bottom:calc(var(--token-size) * -.24)!important;height:clamp(4px,calc(var(--cell) * .095),14px)!important;}
+.token .status-dot{width:var(--status-size)!important;height:var(--status-size)!important;right:calc(var(--status-size) * -.32)!important;top:calc(var(--status-size) * -.32)!important;}
+.coord{font-size:clamp(7px,calc(var(--cell) * .18),15px)!important;}
+.range-ring{border-width:clamp(1px,calc(var(--cell) * .025),4px)!important;}
+.bloodfx{width:calc(var(--cell) * 2.5)!important;height:calc(var(--cell) * 2.5)!important;}
+.die{display:none!important;}
+.dice-pref-card{border:1px solid rgba(0,255,255,.18);background:rgba(0,0,0,.2);border-radius:14px;padding:.65rem;}
+.dice-bot-line{min-height:42px;border:1px solid rgba(0,255,255,.16);border-radius:12px;background:rgba(0,255,255,.055);padding:.55rem;color:#dff;font-size:.84rem;line-height:1.35;}
+.dice-bot-avatar{width:46px;height:46px;object-fit:cover;border-radius:50%;border:1px solid rgba(0,255,255,.4);box-shadow:0 0 14px rgba(0,255,255,.18);}
+.dice-pref-row{display:grid;grid-template-columns:52px 1fr;gap:.55rem;align-items:center;}
+.autonomy-pill{border-color:rgba(115,255,186,.45)!important;background:rgba(115,255,186,.09)!important;color:#dfffdc!important;}
+@media(max-width:680px){:root{--token-size:clamp(14px, calc(var(--cell) * .86), 150px);}}
+
+
+.onyx-vault-card{border:1px solid rgba(0,255,255,.24);background:rgba(0,255,255,.055);border-radius:14px;padding:.65rem;display:grid;gap:.45rem}
+.onyx-vault-card code{font-size:.68rem;white-space:normal;word-break:break-all;color:#cfffff}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="brand">
+    <div class="logo">B</div>
+    <div><h1>Belavadös Encounters Minigame</h1><span>The Hungry Gods Await · desktop/mobile session game · Onyx autonomous encounter engine</span></div>
+  </div>
+  <div class="top-actions">
+    <span id="modeBadge" class="badge">Player Game</span>
+    <span id="backendBadge" class="badge">Backend locked</span>
+    <button id="toggleDmBtn" class="creator-only" title="Removes the DM/editor hash from the URL">Leave Creator Mode</button>
+    <button id="saveLocalBtn">Save Local</button>
+    <button id="exportHtmlBtn" class="creator-only">Export Mini-game HTML</button>
+    <button id="exportBtn" class="creator-only">Export JSON</button>
+    <button id="backendSaveBtn" class="creator-only">Sync Backend</button>
+  </div>
+</header>
+<div class="app" id="app">
+  <aside class="panel" id="playersPanel">
+    <div class="panel-head"><h2>Player Tokens</h2><span class="pill">max 3 each</span></div>
+    <div class="panel-body stack">
+      <div class="player-only-note card"><b>Choose or import your character token</b><small>Players can upload their own HTML/JSON character sheets here, then choose one of their imported tokens, choose a target, and use that character’s action radial. Token editing, radial setup, hostile setup, traps, locks, metadata, JSON board import/export, and backend sync stay behind the DM hashes.</small></div>
+      <section class="stack player-import-card">
+        <h3>Player Character Sheet Import</h3>
+        <small>Player-facing. Upload up to 3 character sheets for your player name. The board reads HP, AC, speed, abilities, spell slots, weapons, spells, and radial actions when those fields exist.</small>
+        <div><label>Your player name</label><input id="playerName" placeholder="Player name" value="Player 1"></div>
+        <label>Upload HTML or JSON character sheet(s)</label>
+        <input type="file" id="sheetUpload" accept=".html,.htm,.json,text/html,application/json" multiple>
+        <small id="importStatus">No sheet imported yet.</small>
+      </section>
+      <section class="stack dice-pref-card">
+        <h3>Player Dice Bot + Over-grid Dice</h3>
+        <small>Only the transparent over-grid 3D dice roller is used for dice mechanics. Pick one of the 14 restored dice bot personalities and a dice design for your rolls.</small>
+        <div class="dice-pref-row"><img id="diceBotAvatar" class="dice-bot-avatar" alt="Selected dice bot token"><div><label>Dice bot personality</label><select id="diceBotSelect"></select></div></div>
+        <div><label>Dice design</label><select id="diceDesignSelect"></select></div>
+        <div id="diceBotLine" class="dice-bot-line">Choose a dice bot and roll over the grid.</div>
+      </section>
+      <section class="onyx-status-card">
+        <b>Onyx Encounter Superbot: restored</b>
+        <small>Uses the locked backend and ships with the locked Onyx runtime package, tactics/rules knowledge, token/map/FX assets, and the original dice-board asset tree. Voice generation remains removed.</small>
+        <code>https://script.google.com/macros/s/AKfycbwK-F1BfXbkiVkQXFA0Z1acKxFJgeGU6zckChEmSc8ANqLA1mbqUOWSf6_H1CGFtwW7WA/exec</code>
+      </section>
+      <section class="creator-only stack creator-card">
+        <h3>Creator Tools: token setup</h3>
+        <small>Visible only with <span class="kbd">#dm-session</span> or <span class="kbd">#dm-editor</span>. Use this to create blank tokens, clear PC tokens, and set token color before creator edits. Sheet importing stays player-facing above.</small>
+        <div><label>Creator token color</label><input id="tokenColor" type="color" value="#00ffff" style="height:42px;padding:.2rem"></div>
+        <div class="row wrap">
+          <button id="addBlankCharacterBtn">Add Blank Character</button>
+          <button id="clearPlayersBtn">Clear PCs</button>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <div class="cardlist" id="characterList"></div>
+      <div id="selectedCharacterCard" class="card"><b>No character selected.</b><small>Click a character token or card.</small></div>
+    </div>
+  </aside>
+
+  <main class="panel">
+    <div class="panel-head"><h2>Battle Board</h2><span class="pill" id="roundBadge">Round 0</span></div>
+    <div class="initbar" id="initiativeBar"></div>
+    <div id="battleShell">
+      <div class="board-wrap" id="board">
+        <div id="mapLayer"></div>
+        <div id="gridLayer"></div>
+        <div id="rangeLayer"></div>
+        <div id="objectLayer"></div>
+        <div id="tokenLayer"></div>
+        <div id="diceLayer" aria-hidden="true"></div>
+        <div class="dice3d-frame-wrap" aria-hidden="true"><iframe id="dice3DFrame" class="dice3d-frame" title="Transparent 3D dice roller overlay" allowtransparency="true" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;base href=&quot;./&quot; /&gt;
+  &lt;title&gt;Belavadös 3D Dice Roller&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/dice-main/styles.css&quot; /&gt;
+  &lt;style&gt;
+    html,body{width:100%;height:100%;margin:0;overflow:hidden;background:transparent!important;color:#eef8ff;}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;}
+    #diceRoller{position:absolute;inset:0;z-index:0!important;overflow:hidden;background:transparent!important;}
+    canvas{background:transparent!important;opacity:1!important;visibility:visible!important;display:block!important;}
+    #diceRollerUI{position:absolute;inset:0;display:grid;grid-template-rows:auto 1fr auto;pointer-events:none;z-index:10;background:transparent!important;}
+    .top_field,.bottom_field,#instructions,#numPad,#result{display:none!important;background:transparent!important;}
+    #textInput{pointer-events:none;opacity:0;}
+    #diceLimit{display:none!important;}
+    *{box-shadow:none!important;}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body onload=&quot;main.init()&quot;&gt;
+  &lt;div id=&quot;diceRoller&quot;&gt;&lt;/div&gt;
+  &lt;main id=&quot;diceRollerUI&quot;&gt;
+    &lt;div class=&quot;top_field&quot;&gt;&lt;input type=&quot;text&quot; id=&quot;textInput&quot; spellcheck=&quot;false&quot; value=&quot;1d20&quot; /&gt;&lt;/div&gt;
+    &lt;div id=&quot;diceLimit&quot; style=&quot;display:none&quot;&gt;Too many dice&lt;/div&gt;
+    &lt;div id=&quot;center_div&quot; class=&quot;center_field&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;numPad&quot; class=&quot;center_field&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;bottom_field&quot;&gt;&lt;span id=&quot;result&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;/main&gt;
+  &lt;script src=&quot;js/dice-main/libs/three.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dice-main/libs/cannon.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dice-main/libs/teal.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dice-main/dice.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dice-main/dice-main-bot.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;"></iframe></div>
+      </div>
+    </div>
+
+    <div class="game-hud-strip" aria-label="Encounter game status">
+      <span class="pill" id="sceneHud">Scene: Untitled Encounter</span>
+      <span class="pill">1 square = 5 ft</span>
+      <span class="pill" id="boardHud">24 × 16 grid</span>
+      <span class="pill" id="diceHud">Dice: Joeari · Void Plasma Cyan</span>
+      <span class="pill good autonomy-pill" id="autonomyHud">Autonomous Onyx ON</span>
+      <span class="pill good">Map upload + Onyx hostile turns merged</span>
+    </div>
+    <div class="row wrap" style="padding:.65rem .75rem;border-top:1px solid rgba(0,255,255,.14)">
+      <button id="rollD20Btn">Roll d20</button>
+      <button id="rollDmgBtn">Roll Damage</button>
+      <button id="centerSelectedBtn">Center Selected</button>
+      <button id="endTurnBtn">End Turn</button>
+      <span class="pill" id="turnBadge">No turn running</span>
+    </div>
+    <div class="log" id="log"></div>
+  </main>
+
+  <aside class="panel">
+    <div class="panel-head"><h2>Actions + Session</h2><span class="pill warn">#dm-session gates hostiles</span></div>
+    <div class="panel-body stack">
+
+      <section class="creator-only stack creator-card scene-control-card">
+        <h3>Scene + Map Controls</h3>
+        <small>DM/editor only. Upload a map behind the 5 ft grid, size the play space, and keep the player-facing screen game-like.</small>
+        <div><label>Encounter / map name</label><input id="sceneName" placeholder="Untitled Encounter"></div>
+        <div><label>Upload map image behind grid</label><input id="mapUpload" type="file" accept="image/*"></div>
+        <div class="grid3">
+          <div><label>Columns</label><input id="boardCols" type="number" min="1" max="300" value="24"></div>
+          <div><label>Rows</label><input id="boardRows" type="number" min="1" max="300" value="16"></div>
+          <div><label>Square px</label><input id="cellSize" type="number" min="10" max="220" value="38"></div>
+        </div>
+        <div class="grid2">
+          <div><label>Grid preset</label><select id="gridPreset"><option value="custom">Custom / uploaded map</option><option value="17x22">Grid 17 × 22</option><option value="22x17">Grid 22 × 17</option><option value="8.5x11">Letter battle mat</option><option value="1x1">Seamless 1 × 1</option><option value="2x2">Seamless 2 × 2</option><option value="3x3">Seamless 3 × 3</option></select></div>
+          <div><label>Map fit</label><select id="mapMode"><option value="cover">Cover board</option><option value="contain">Fit full map</option><option value="stretch">Stretch to grid</option></select></div>
+        </div>
+        <div class="grid2">
+          <div><label>Grid opacity</label><input id="gridOpacity" type="range" min="0" max="1" step="0.05" value="0.72"></div>
+          <label class="pill autonomy-pill" style="justify-content:center;margin-top:1.45rem"><input id="autonomousMode" type="checkbox" checked style="width:auto;margin-right:.45rem"> Autonomous Onyx</label>
+        </div>
+        <div class="grid2"><button id="clearMapBtn" type="button">Clear Map</button><button id="applySceneBtn" type="button">Apply Scene</button></div>
+        <small class="tiny">This keeps a single openable HTML file while using the merged css/js/json/assets folders for dice, rules, Onyx DM, maps, tokens, and FX.</small>
+      </section>
+      <section class="dm-only stack creator-card">
+        <h3>Onyx DM Command</h3>
+        <small>DM-only backend helper merged from the locked Onyx package. It can advise hostile turns, rules, encounter pacing, and tactics without exposing creator tools to players.</small>
+        <textarea id="onyxPrompt" placeholder="Ask for encounter advice, hostile tactics, action economy, terrain ideas, or a rules reminder."></textarea>
+        <div class="grid2"><button id="onyxAskBtn" type="button">Ask Onyx DM</button><button id="onyxAdviceBtn" type="button">Advise Current Hostile</button></div>
+        <pre id="onyxOut">Onyx DM output will appear here.</pre>
+      </section>
+      <section class="dm-only stack onyx-vault-card">
+        <h3>Onyx Access Vault</h3>
+        <small>DM-only index of every merged code, JSON, data, asset, mood, rule, map, dice, and backend reference path available to Onyx.</small>
+        <div class="grid2"><button id="onyxVaultBtn" type="button">Open Onyx Access Index</button><button id="onyxRunAllBtn" type="button">Run All Onyx Hostiles</button></div>
+        <code id="onyxVaultSummary">Manifest loading…</code>
+      </section>
+      <section class="dm-only stack">
+        <h3>DM Hostile Controls</h3>
+        <div class="grid3">
+          <div><label>Hostiles</label><input id="hostileCount" type="number" min="0" max="60" value="4"></div>
+          <div><label>Template</label><select id="hostileTemplate"></select></div>
+          <div><label>Behavior</label><select id="hostileBehavior"><option value="tactical">Tactical</option><option value="brutal">Brutal focus fire</option><option value="guard">Guard objective</option><option value="skirmish">Skirmish and kite</option></select></div>
+        </div>
+        <div class="row wrap">
+          <button id="generateHostilesBtn">Set Hostiles</button>
+          <button id="startEncounterBtn">Roll Initiative</button>
+          <button id="onyxTurnBtn">Run Onyx Turn</button>
+          <button id="clearHostilesBtn">Clear Hostiles</button>
+        </div>
+        <div class="grid3">
+          <button id="addDoorBtn">Add Door</button>
+          <button id="addChestBtn">Add Chest</button>
+          <button id="addTrapBtn">Add Trap</button>
+        </div>
+        <details class="card" open>
+          <summary><b>Selected hostile/object editor</b></summary>
+          <div class="stack" style="margin-top:.55rem">
+            <div class="grid2"><div><label>Name</label><input id="selName"></div><div><label>AC / Lock DC</label><input id="selAcDc" type="number"></div></div>
+            <div class="grid2"><div><label>HP</label><input id="selHp" type="number"></div><div><label>Trap DC</label><input id="selTrapDc" type="number"></div></div>
+            <div><label>Lore drop / quest hook</label><textarea id="selLore" placeholder="Can be attached to bodies, loot, hostiles, doors, or chests."></textarea></div>
+            <div><label>Loot</label><textarea id="selLoot" placeholder="Coins, keys, map fragments, relics..."></textarea></div>
+            <div><label>Interrogation hook</label><textarea id="selInterrogate" placeholder="What this hostile can reveal if captured, charmed, persuaded, or threatened."></textarea></div>
+            <div class="grid2"><button id="saveSelectedMetaBtn">Save Selected Meta</button><button id="deleteSelectedBtn">Delete Selected</button></div>
+          </div>
+        </details>
+      </section>
+
+      <section class="stack">
+        <h3>Character Action Radial</h3>
+        <div class="target-list" id="targetList"></div>
+        <div class="radial-wrap">
+          <div class="radial" id="abilityRadial"></div>
+          <div class="row wrap"><button id="prevActionBtn" type="button">◀</button><button id="cycleRadialBtn" type="button">Next Action</button><button id="useActionBtn" type="button">Use Selected Action</button><button id="interactBtn" type="button">Search / Interrogate / Open</button></div>
+        </div>
+        <div id="actionDetails" class="card"><b>No action selected.</b><small>Select a character and target.</small></div>
+      </section>
+
+      <section class="creator-only stack creator-card" id="creatorRadialTools">
+        <h3>Creator Tools: token + radial setup</h3>
+        <small>Edit the selected character token and add/remove actions on that character’s radial. These controls are hidden from normal player view.</small>
+        <div class="grid2"><div><label>Token/name</label><input id="pcEditName" placeholder="Selected token name"></div><div><label>Token label</label><input id="pcEditToken" maxlength="4" placeholder="Initials or emoji"></div></div>
+        <div class="grid3"><div><label>Color</label><input id="pcEditColor" type="color" value="#00ffff" style="height:42px;padding:.2rem"></div><div><label>AC</label><input id="pcEditAc" type="number" min="1"></div><div><label>Current HP</label><input id="pcEditHp" type="number" min="0"></div></div>
+        <div class="grid3"><div><label>Max HP</label><input id="pcEditMaxHp" type="number" min="1"></div><div><label>Speed ft</label><input id="pcEditSpeed" type="number" min="0" step="5"></div><div><label>Level</label><input id="pcEditLevel" type="number" min="1" max="20"></div></div>
+        <button id="savePcTokenBtn" type="button">Save Selected Token</button>
+        <div class="divider"></div>
+        <div class="grid2"><div><label>Radial action name</label><input id="radialActionName" placeholder="Misty Step, Rapier, Fireball..."></div><div><label>Type</label><select id="radialActionType"><option value="attack">Attack</option><option value="spellAttack">Spell attack</option><option value="save">Saving throw spell</option><option value="heal">Healing</option><option value="dash">Dash</option><option value="dodge">Dodge</option><option value="help">Help</option></select></div></div>
+        <div class="grid3"><div><label>Range ft</label><input id="radialActionRange" type="number" min="0" step="5" value="5"></div><div><label>Attack bonus</label><input id="radialActionAttack" type="number" placeholder="+hit"></div><div><label>Save DC</label><input id="radialActionDc" type="number" placeholder="DC"></div></div>
+        <div class="grid3"><div><label>Damage dice</label><input id="radialActionDamage" placeholder="1d8+3"></div><div><label>Damage type</label><input id="radialActionDamageType" placeholder="slashing, fire..."></div><div><label>Spell slot level</label><input id="radialActionSlot" type="number" min="0" max="9" placeholder="0 = cantrip"></div></div>
+        <div><label>Description</label><textarea id="radialActionDesc" placeholder="Rules notes, save effect, condition, class feature note..."></textarea></div>
+        <div class="grid2"><button id="saveRadialActionBtn" type="button">Add / Update Radial Action</button><button id="removeRadialActionBtn" type="button">Remove Selected Action</button></div>
+      </section>
+
+      <section class="stack">
+        <h3>Session Tools</h3>
+        <div class="grid2 creator-only"><button id="importJsonBtn">Import JSON</button><button id="resetBoardBtn">Reset Board</button></div>
+        <input type="file" id="importJsonFile" accept="application/json,.json" class="hidden">
+        <div class="object-meta" id="objectInfo">Select a token, body, door, or chest to see lore, loot, locks, traps, and interrogation notes.</div>
+      </section>
+    </div>
+  </aside>
+</div>
+<div id="toast" class="toast"></div>
+<div id="modal" class="modal"><div class="modal-card"><div class="panel-head"><h2 id="modalTitle">Details</h2><button id="closeModalBtn">Close</button></div><div class="panel-body" id="modalBody"></div></div></div>
+<script id="belavadosExportState" type="application/json">null</script>
+<script src="javascript/onyx_master_manifest.js"></script>
+<script src="js/dice-bots/dice-bot-response-banks.js"></script>
+<script>
+(() => {
+'use strict';
+
+let dice3DReady = false;
+const dice3DQueue = [];
+function dice3DFrame(){ return document.getElementById('dice3DFrame'); }
+function postDice3D(payload){
+  const frame = dice3DFrame();
+  if(!frame || !frame.contentWindow) return false;
+  try{
+    const message = payload && payload.type && String(payload.type).startsWith('DICEBOT_') ? payload : {type:'DICEBOT_DICE_MAIN_ROLL', payload};
+    frame.contentWindow.postMessage(message, '*'); return true;
+  }catch(e){ return false; }
+}
+function send3DRoll(payload){
+  if(!payload || !payload.expression) return;
+  const clean = String(payload.expression).replace(/\s+/g,'');
+  payload.expression = clean || '1d20';
+  payload.stylePool = payload.stylePool || [selectedDiceStyle()];
+  payload.soundPool = payload.soundPool || [{name:'Dice Roll',url:'assets/dice-main/roll-audio/u_ngsgp0r6zb-dice-roll-201898.mp3',iframeUrl:'assets/dice-main/roll-audio/u_ngsgp0r6zb-dice-roll-201898.mp3'}];
+  payload.diceBot = payload.diceBot || selectedDiceBot();
+  payload.repeatLabel = payload.repeatLabel || ((payload.diceBot?.name || 'Dice bot') + ' rolling over the grid');
+  if(!dice3DReady){ dice3DQueue.push(payload); return; }
+  postDice3D(payload);
+}
+window.addEventListener('message', event => {
+  const data = event.data || {};
+  if(data.type === 'DICEBOT_DICE_MAIN_READY'){
+    dice3DReady = true;
+    syncDice3DConfig();
+    while(dice3DQueue.length) postDice3D(dice3DQueue.shift());
+  }
+  if(data.type === 'DICEBOT_DICE_MAIN_RESULT'){
+    announceDiceBot('roll_result', {notation:data.expression || data.renderedExpression || 'dice', total:data.displayTotal ?? '', rolls:data.notation?.resultString || ''});
+  }
+});
+function onyxLine(kind, vars={}){
+  const banks = window.DICE_BOT_RESPONSE_BANKS || {};
+  const bankIds = Object.keys(banks);
+  const preferred = (typeof state !== 'undefined' && state && state.diceBotId) ? state.diceBotId : 'joeari-ravenwood';
+  const bank = banks[preferred] || banks['joeari-ravenwood'] || banks[bankIds[0]] || null;
+  const intents = bank?.intents || {};
+  const keys = [kind, 'roll_result', 'attack_roll', 'damage_roll', 'roll_start', 'nat20', 'critical_success', 'critical_failure'];
+  let pool = [];
+  for(const key of keys){ if(Array.isArray(intents[key])) pool = pool.concat(intents[key]); }
+  if(!pool.length) return '';
+  let text = pool[Math.floor(Math.random()*pool.length)] || '';
+  const merged = Object.assign({actor:selectedDiceBot()?.name || 'Onyx DM',target:'the target',notation:'1d20',rolls:'',total:'',damage_type:'damage'}, vars);
+  return text.replace(/\{([a-zA-Z0-9_ -]+)\}/g, (_,k)=> merged[k.trim()] ?? merged[k.trim().toLowerCase().replace(/[ -]+/g,'_')] ?? '');
+}
+const BACKEND_URL = 'https://script.google.com/macros/s/AKfycbwK-F1BfXbkiVkQXFA0Z1acKxFJgeGU6zckChEmSc8ANqLA1mbqUOWSf6_H1CGFtwW7WA/exec';
+const ONYX_LOCKED_RUNTIME = {
+  backendUrl: BACKEND_URL,
+  packageRoot: 'onyx_runtime/',
+  knowledge: {
+    tactics: 'onyx_runtime/dm_knowledge/encounters/hostile_tactics_matrix.json',
+    actionEconomy: 'onyx_runtime/dm_knowledge/rules/dm_action_economy.json',
+    conditions: 'onyx_runtime/dm_knowledge/rules/conditions.json',
+    spells: 'onyx_runtime/dm_knowledge/rules/spells_catalog.json',
+    assetRegistry: 'onyx_runtime/dm_knowledge/assets/asset_registry.json'
+  },
+  voiceGeneration: false
+};
+
+const DICE_BOT_PERSONALITIES = [{"id": "joeari-ravenwood", "name": "Joeari Ravenwood", "file": "Joeari_Ravenwood.png", "url": "dice-main/assets/dice-bots/tokens/Joeari_Ravenwood.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Joeari_Ravenwood.png"}, {"id": "gheaririel-luneglen", "name": "Gheaririel Luneglen", "file": "Gheaririel_Luneglen.png", "url": "dice-main/assets/dice-bots/tokens/Gheaririel_Luneglen.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Gheaririel_Luneglen.png"}, {"id": "thalenael-silverthorn", "name": "Thalenael Silverthorn", "file": "Thalenael_Silverthorn.png", "url": "dice-main/assets/dice-bots/tokens/Thalenael_Silverthorn.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Thalenael_Silverthorn.png"}, {"id": "nimudri-ironvault", "name": "Nimudri Ironvault", "file": "Nimu_dri_Ironvault.png", "url": "dice-main/assets/dice-bots/tokens/Nimu_dri_Ironvault.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Nimu_dri_Ironvault.png"}, {"id": "rosabin-merryroot", "name": "Rosabin Merryroot", "file": "Ro_sabin_Merryroot.png", "url": "dice-main/assets/dice-bots/tokens/Ro_sabin_Merryroot.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Ro_sabin_Merryroot.png"}, {"id": "urg-urgugar-mudgrip", "name": "Urg Urgugar Mudgrip", "file": "Urg_U_rgugar_Mudgrip.png", "url": "dice-main/assets/dice-bots/tokens/Urg_U_rgugar_Mudgrip.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Urg_U_rgugar_Mudgrip.png"}, {"id": "valk-minoorvar-thunderheft", "name": "Valk Minoorvar Thunderheft", "file": "Valk_Minoorvar_Thunderheft.png", "url": "dice-main/assets/dice-bots/tokens/Valk_Minoorvar_Thunderheft.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Valk_Minoorvar_Thunderheft.png"}, {"id": "kethazzun-clawcoil", "name": "Kethazzun Clawcoil", "file": "Kethazzun_Clawcoil.png", "url": "dice-main/assets/dice-bots/tokens/Kethazzun_Clawcoil.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Kethazzun_Clawcoil.png"}, {"id": "veyielven-asharchf", "name": "Veyielven Asharchf", "file": "Veyielven_Asharchf.png", "url": "dice-main/assets/dice-bots/tokens/Veyielven_Asharchf.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Veyielven_Asharchf.png"}, {"id": "nefumlith-duskendirge", "name": "Nefumlith Duskendirge", "file": "Nefumlith_Duskendirge.png", "url": "dice-main/assets/dice-bots/tokens/Nefumlith_Duskendirge.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Nefumlith_Duskendirge.png"}, {"id": "tyrylina-mirthwink", "name": "Tyrylina Mirthwink", "file": "Tyrylina_Mirthwink.png", "url": "dice-main/assets/dice-bots/tokens/Tyrylina_Mirthwink.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Tyrylina_Mirthwink.png"}, {"id": "stoneudor-stormbreath", "name": "Stoneudor Stormbreath", "file": "Sto_neudor_Stormbreath.png", "url": "dice-main/assets/dice-bots/tokens/Sto_neudor_Stormbreath.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Sto_neudor_Stormbreath.png"}, {"id": "arcorven-brasslock", "name": "Arcorven Brasslock", "file": "Arcorven_Brasslock.png", "url": "dice-main/assets/dice-bots/tokens/Arcorven_Brasslock.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Arcorven_Brasslock.png"}, {"id": "canielina-dennose", "name": "Canielina Dennose", "file": "Canielina_Dennose.png", "url": "dice-main/assets/dice-bots/tokens/Canielina_Dennose.png", "assetUrl": "assets/dice-main/dice-bots/tokens/Canielina_Dennose.png"}];
+const DICE_DESIGNS = [{"number": 1, "slug": "plain-ivory", "name": "Plain Ivory", "description": "plain satin ivory with charcoal ink", "css": "css/dice-designs/sets/01-plain-ivory.css", "className": "dice-set--plain-ivory", "base": "#efe6d2", "base2": "#d6c8a8", "ink": "#24201a", "edge": "#8b7a57", "glow": "#ffffff"}, {"number": 2, "slug": "plain-onyx", "name": "Plain Onyx", "description": "plain black onyx with white ink", "css": "css/dice-designs/sets/02-plain-onyx.css", "className": "dice-set--plain-onyx", "base": "#08090c", "base2": "#1b1e26", "ink": "#f6f3e8", "edge": "#44495a", "glow": "#b7c2ff"}, {"number": 3, "slug": "plain-crimson-gold", "name": "Plain Crimson Gold", "description": "simple red body with gold numerals", "css": "css/dice-designs/sets/03-plain-crimson-gold.css", "className": "dice-set--plain-crimson-gold", "base": "#730b0b", "base2": "#b31919", "ink": "#ffd978", "edge": "#8f5d16", "glow": "#ffedb2"}, {"number": 4, "slug": "royal-red-gold", "name": "Royal Red Gold", "description": "deep royal red with gold engraved trim", "css": "css/dice-designs/sets/04-royal-red-gold.css", "className": "dice-set--royal-red-gold", "base": "#6d000c", "base2": "#a71925", "ink": "#f7c84b", "edge": "#c28b15", "glow": "#ffe5a1"}, {"number": 5, "slug": "sapphire-silver", "name": "Sapphire Silver", "description": "sapphire blue with silver inlay", "css": "css/dice-designs/sets/05-sapphire-silver.css", "className": "dice-set--sapphire-silver", "base": "#052d70", "base2": "#0c66d2", "ink": "#e7f2ff", "edge": "#7fa9cf", "glow": "#d7ecff"}, {"number": 6, "slug": "emerald-copper", "name": "Emerald Copper", "description": "emerald enamel with copper edging", "css": "css/dice-designs/sets/06-emerald-copper.css", "className": "dice-set--emerald-copper", "base": "#063b26", "base2": "#138a5f", "ink": "#ffc38e", "edge": "#b56b38", "glow": "#a7ffd1"}, {"number": 7, "slug": "amethyst-brass", "name": "Amethyst Brass", "description": "purple amethyst with antique brass numbers", "css": "css/dice-designs/sets/07-amethyst-brass.css", "className": "dice-set--amethyst-brass", "base": "#321052", "base2": "#7926b3", "ink": "#f4c970", "edge": "#ad7c31", "glow": "#e9c8ff"}, {"number": 8, "slug": "obsidian-ruby", "name": "Obsidian Ruby", "description": "black obsidian with ruby cuts", "css": "css/dice-designs/sets/08-obsidian-ruby.css", "className": "dice-set--obsidian-ruby", "base": "#040407", "base2": "#220b10", "ink": "#ff5e75", "edge": "#961b2b", "glow": "#ffb3c0"}, {"number": 9, "slug": "moonstone-blue-silver", "name": "Moonstone Blue Silver", "description": "opalescent pale blue with silver", "css": "css/dice-designs/sets/09-moonstone-blue-silver.css", "className": "dice-set--moonstone-blue-silver", "base": "#dfefff", "base2": "#8bb7e6", "ink": "#5a6f86", "edge": "#bfcad6", "glow": "#ffffff"}, {"number": 10, "slug": "jade-gold", "name": "Jade Gold", "description": "jade gemstone with gold numerals", "css": "css/dice-designs/sets/10-jade-gold.css", "className": "dice-set--jade-gold", "base": "#0d5a4a", "base2": "#2fb587", "ink": "#ffd568", "edge": "#b48a1e", "glow": "#a7ffe4"}, {"number": 11, "slug": "black-gold-metal", "name": "Black Gold Metal", "description": "black metal with gold bevels", "css": "css/dice-designs/sets/11-black-gold-metal.css", "className": "dice-set--black-gold-metal", "base": "#050505", "base2": "#1a1710", "ink": "#f4c044", "edge": "#a27719", "glow": "#ffe99c"}, {"number": 12, "slug": "silver-ancient", "name": "Silver Ancient", "description": "ancient brushed silver with dark engraved numbers", "css": "css/dice-designs/sets/12-silver-ancient.css", "className": "dice-set--silver-ancient", "base": "#b8b8ad", "base2": "#e8e8de", "ink": "#20201d", "edge": "#8f8f86", "glow": "#ffffff"}, {"number": 13, "slug": "purple-metal-silver", "name": "Purple Metal Silver", "description": "purple metal with silver runic edges", "css": "css/dice-designs/sets/13-purple-metal-silver.css", "className": "dice-set--purple-metal-silver", "base": "#2d1748", "base2": "#6b3ca3", "ink": "#e5e7f3", "edge": "#9da1b4", "glow": "#f1edff"}, {"number": 14, "slug": "bronze-dragon-scale", "name": "Bronze Dragon Scale", "description": "bronze dragon-scale texture", "css": "css/dice-designs/sets/14-bronze-dragon-scale.css", "className": "dice-set--bronze-dragon-scale", "base": "#4a2b0f", "base2": "#9b6122", "ink": "#ffe0a0", "edge": "#c98731", "glow": "#ffbd5c"}, {"number": 15, "slug": "red-dragon-scale-gold", "name": "Red Dragon Scale Gold", "description": "red dragon scales with gold numbers", "css": "css/dice-designs/sets/15-red-dragon-scale-gold.css", "className": "dice-set--red-dragon-scale-gold", "base": "#5f0505", "base2": "#b21d12", "ink": "#ffd861", "edge": "#a86916", "glow": "#ff9c68"}, {"number": 16, "slug": "blue-dragon-scale-silver", "name": "Blue Dragon Scale Silver", "description": "blue dragon scales with silver numerals", "css": "css/dice-designs/sets/16-blue-dragon-scale-silver.css", "className": "dice-set--blue-dragon-scale-silver", "base": "#061a45", "base2": "#0a57a8", "ink": "#edf8ff", "edge": "#7aa4cc", "glow": "#8eeaff"}, {"number": 17, "slug": "storm-galaxy-gold", "name": "Storm Galaxy Gold", "description": "dark galaxy storm with gold ink", "css": "css/dice-designs/sets/17-storm-galaxy-gold.css", "className": "dice-set--storm-galaxy-gold", "base": "#07091d", "base2": "#27378a", "ink": "#ffd86e", "edge": "#a89036", "glow": "#a7b8ff"}, {"number": 18, "slug": "nebula-night-silver", "name": "Nebula Night Silver", "description": "midnight nebula with silver numbers", "css": "css/dice-designs/sets/18-nebula-night-silver.css", "className": "dice-set--nebula-night-silver", "base": "#090016", "base2": "#311062", "ink": "#dfe7ff", "edge": "#7a82aa", "glow": "#c393ff"}, {"number": 19, "slug": "aurora-glass", "name": "Aurora Glass", "description": "aurora translucent glass", "css": "css/dice-designs/sets/19-aurora-glass.css", "className": "dice-set--aurora-glass", "base": "#0b2240", "base2": "#36d5c4", "ink": "#f5fbff", "edge": "#79d7da", "glow": "#b9fff4"}, {"number": 20, "slug": "ocean-swirl-gold", "name": "Ocean Swirl Gold", "description": "ocean blue and white swirl acrylic", "css": "css/dice-designs/sets/20-ocean-swirl-gold.css", "className": "dice-set--ocean-swirl-gold", "base": "#0b6ea8", "base2": "#9bdcff", "ink": "#ffd967", "edge": "#b58a23", "glow": "#ffffff"}, {"number": 21, "slug": "blue-white-acrylic-gold", "name": "Blue White Acrylic Gold", "description": "blue-white acrylic with gold font", "css": "css/dice-designs/sets/21-blue-white-acrylic-gold.css", "className": "dice-set--blue-white-acrylic-gold", "base": "#6bc7ff", "base2": "#ffffff", "ink": "#e0a82c", "edge": "#b78d20", "glow": "#ffffff"}, {"number": 22, "slug": "pink-flower-resin", "name": "Pink Flower Resin", "description": "pink floral resin look", "css": "css/dice-designs/sets/22-pink-flower-resin.css", "className": "dice-set--pink-flower-resin", "base": "#ff9cc7", "base2": "#f7d6ef", "ink": "#7a2657", "edge": "#e98abb", "glow": "#fff1f8"}, {"number": 23, "slug": "lemon-honey-resin", "name": "Lemon Honey Resin", "description": "transparent lemon honey resin", "css": "css/dice-designs/sets/23-lemon-honey-resin.css", "className": "dice-set--lemon-honey-resin", "base": "#ffd84e", "base2": "#fff3ad", "ink": "#745000", "edge": "#e0a000", "glow": "#fff7b0"}, {"number": 24, "slug": "arctic-ice-cyan", "name": "Arctic Ice Cyan", "description": "icy translucent cyan with white frost", "css": "css/dice-designs/sets/24-arctic-ice-cyan.css", "className": "dice-set--arctic-ice-cyan", "base": "#8eeaff", "base2": "#d7fbff", "ink": "#faffff", "edge": "#7edbed", "glow": "#ffffff"}, {"number": 25, "slug": "dark-ice-silver", "name": "Dark Ice Silver", "description": "dark ice blue with silver", "css": "css/dice-designs/sets/25-dark-ice-silver.css", "className": "dice-set--dark-ice-silver", "base": "#061222", "base2": "#163f74", "ink": "#e4eefb", "edge": "#7899b7", "glow": "#96d7ff"}, {"number": 26, "slug": "forest-moss-copper", "name": "Forest Moss Copper", "description": "deep moss gemstone with copper", "css": "css/dice-designs/sets/26-forest-moss-copper.css", "className": "dice-set--forest-moss-copper", "base": "#1b3d1b", "base2": "#4e7a34", "ink": "#ffbd83", "edge": "#9b5d2f", "glow": "#caff9e"}, {"number": 27, "slug": "red-green-gold-swirl", "name": "Red Green Gold Swirl", "description": "red green gold marbled swirl", "css": "css/dice-designs/sets/27-red-green-gold-swirl.css", "className": "dice-set--red-green-gold-swirl", "base": "#7b1514", "base2": "#19885e", "ink": "#ffd36d", "edge": "#bd8527", "glow": "#ffb86e"}, {"number": 28, "slug": "teal-wizard-silver", "name": "Teal Wizard Silver", "description": "teal wizard sharp-edge style", "css": "css/dice-designs/sets/28-teal-wizard-silver.css", "className": "dice-set--teal-wizard-silver", "base": "#008e94", "base2": "#20d8d2", "ink": "#eefcff", "edge": "#6fd2d2", "glow": "#b9fff7"}, {"number": 29, "slug": "warlock-violet-black", "name": "Warlock Violet Black", "description": "violet warlock pastel over black", "css": "css/dice-designs/sets/29-warlock-violet-black.css", "className": "dice-set--warlock-violet-black", "base": "#8153d2", "base2": "#d3a5ff", "ink": "#20051e", "edge": "#d5b4ff", "glow": "#f3d8ff"}, {"number": 30, "slug": "paladin-white-gold", "name": "Paladin White Gold", "description": "white paladin enamel with gold", "css": "css/dice-designs/sets/30-paladin-white-gold.css", "className": "dice-set--paladin-white-gold", "base": "#f7f1df", "base2": "#ffffff", "ink": "#8a6415", "edge": "#d6a62c", "glow": "#fff4bf"}, {"number": 31, "slug": "dwarf-green-glass", "name": "Dwarf Green Glass", "description": "dwarf-cut green glass", "css": "css/dice-designs/sets/31-dwarf-green-glass.css", "className": "dice-set--dwarf-green-glass", "base": "#0e8c39", "base2": "#45d96b", "ink": "#eaffef", "edge": "#79a867", "glow": "#d6ffdc"}, {"number": 32, "slug": "african-jade", "name": "African Jade", "description": "deep jade stone with gold marks", "css": "css/dice-designs/sets/32-african-jade.css", "className": "dice-set--african-jade", "base": "#0f594e", "base2": "#2f8f73", "ink": "#e8c26e", "edge": "#8b6b24", "glow": "#a5ffdc"}, {"number": 33, "slug": "saphrium-glass", "name": "Saphrium Glass", "description": "bright aqua blue glass", "css": "css/dice-designs/sets/33-saphrium-glass.css", "className": "dice-set--saphrium-glass", "base": "#12b7ff", "base2": "#8af1ff", "ink": "#f3fbff", "edge": "#56c3e7", "glow": "#c9ffff"}, {"number": 34, "slug": "tranquility-polyhedral", "name": "Tranquility Polyhedral", "description": "soft lavender aqua tranquility resin", "css": "css/dice-designs/sets/34-tranquility-polyhedral.css", "className": "dice-set--tranquility-polyhedral", "base": "#7964c9", "base2": "#5bd4d4", "ink": "#f4f1ff", "edge": "#94e1df", "glow": "#e7daff"}, {"number": 35, "slug": "liquid-core-galaxy", "name": "Liquid Core Galaxy", "description": "liquid-core galaxy illusion", "css": "css/dice-designs/sets/35-liquid-core-galaxy.css", "className": "dice-set--liquid-core-galaxy", "base": "#17101f", "base2": "#456cff", "ink": "#f3f7ff", "edge": "#7964ff", "glow": "#ffa7f7"}, {"number": 36, "slug": "glitter-rainbow", "name": "Glitter Rainbow", "description": "rainbow glitter dice", "css": "css/dice-designs/sets/36-glitter-rainbow.css", "className": "dice-set--glitter-rainbow", "base": "#f55d8a", "base2": "#55d6ff", "ink": "#fff5aa", "edge": "#e8c454", "glow": "#ffffff"}, {"number": 37, "slug": "scorched-rainbow", "name": "Scorched Rainbow", "description": "scorched rainbow metal", "css": "css/dice-designs/sets/37-scorched-rainbow.css", "className": "dice-set--scorched-rainbow", "base": "#37220f", "base2": "#cf3b22", "ink": "#ffe28a", "edge": "#ac7126", "glow": "#ff7ce7"}, {"number": 38, "slug": "hollow-purple-neon", "name": "Hollow Purple Neon", "description": "hollow purple neon inlay", "css": "css/dice-designs/sets/38-hollow-purple-neon.css", "className": "dice-set--hollow-purple-neon", "base": "#170524", "base2": "#5c1893", "ink": "#dba9ff", "edge": "#7334a2", "glow": "#ff4dff"}, {"number": 39, "slug": "gothic-mystic-starhorn", "name": "Gothic Mystic Starhorn", "description": "gothic black cyan starhorn", "css": "css/dice-designs/sets/39-gothic-mystic-starhorn.css", "className": "dice-set--gothic-mystic-starhorn", "base": "#061117", "base2": "#113a48", "ink": "#8ff6ff", "edge": "#19859a", "glow": "#b9ffff"}, {"number": 40, "slug": "norse-draugr-iron", "name": "Norse Draugr Iron", "description": "draugr iron with aged runes", "css": "css/dice-designs/sets/40-norse-draugr-iron.css", "className": "dice-set--norse-draugr-iron", "base": "#2b2b27", "base2": "#66665c", "ink": "#d7d1bd", "edge": "#80785f", "glow": "#f6ead0"}, {"number": 41, "slug": "queen-treasure-blue-gold", "name": "Queen Treasure Blue Gold", "description": "royal treasure blue with gold filigree", "css": "css/dice-designs/sets/41-queen-treasure-blue-gold.css", "className": "dice-set--queen-treasure-blue-gold", "base": "#004b82", "base2": "#0b8cb8", "ink": "#ffd75c", "edge": "#b68b24", "glow": "#c4f3ff"}, {"number": 42, "slug": "arcane-gold-blue", "name": "Arcane Gold Blue", "description": "arcane gold and blue layered metal", "css": "css/dice-designs/sets/42-arcane-gold-blue.css", "className": "dice-set--arcane-gold-blue", "base": "#0c2348", "base2": "#155c99", "ink": "#f0c05a", "edge": "#ae7b1b", "glow": "#8fe7ff"}, {"number": 43, "slug": "ancient-bone-ink", "name": "Ancient Bone Ink", "description": "bone-white dice with dark ink carvings", "css": "css/dice-designs/sets/43-ancient-bone-ink.css", "className": "dice-set--ancient-bone-ink", "base": "#d6c9a7", "base2": "#f1e3bd", "ink": "#211910", "edge": "#8c7850", "glow": "#fff9df"}, {"number": 44, "slug": "paper-parchment-sepia", "name": "Paper Parchment Sepia", "description": "paper parchment with sepia numerals", "css": "css/dice-designs/sets/44-paper-parchment-sepia.css", "className": "dice-set--paper-parchment-sepia", "base": "#c9b27a", "base2": "#efe1b2", "ink": "#3a2412", "edge": "#9c7a3f", "glow": "#fff0bc"}, {"number": 45, "slug": "candy-opal-pastel", "name": "Candy Opal Pastel", "description": "pink and cyan candy opal", "css": "css/dice-designs/sets/45-candy-opal-pastel.css", "className": "dice-set--candy-opal-pastel", "base": "#ff8fd3", "base2": "#85e7ff", "ink": "#ffffff", "edge": "#eaa8ff", "glow": "#fffaff"}, {"number": 46, "slug": "coral-rose-gold", "name": "Coral Rose Gold", "description": "coral resin with rose gold numbers", "css": "css/dice-designs/sets/46-coral-rose-gold.css", "className": "dice-set--coral-rose-gold", "base": "#f0646a", "base2": "#ffc7b6", "ink": "#ffe1ca", "edge": "#c77a57", "glow": "#fff2e8"}, {"number": 47, "slug": "void-plasma-cyan", "name": "Void Plasma Cyan", "description": "black void plasma with cyan numbers", "css": "css/dice-designs/sets/47-void-plasma-cyan.css", "className": "dice-set--void-plasma-cyan", "base": "#02040a", "base2": "#092033", "ink": "#6ffaff", "edge": "#0f9eb7", "glow": "#8ffeff"}, {"number": 48, "slug": "solar-brass", "name": "Solar Brass", "description": "solar orange brass layered metal", "css": "css/dice-designs/sets/48-solar-brass.css", "className": "dice-set--solar-brass", "base": "#c95b14", "base2": "#ffb13b", "ink": "#fff1a7", "edge": "#b57b21", "glow": "#ffd04d"}, {"number": 49, "slug": "lunar-steel", "name": "Lunar Steel", "description": "moonlit gray steel", "css": "css/dice-designs/sets/49-lunar-steel.css", "className": "dice-set--lunar-steel", "base": "#5e6978", "base2": "#c5d1dd", "ink": "#ffffff", "edge": "#8493a3", "glow": "#dce8ff"}, {"number": 50, "slug": "mermaid-aqua-gold", "name": "Mermaid Aqua Gold", "description": "mermaid aqua resin with gold", "css": "css/dice-designs/sets/50-mermaid-aqua-gold.css", "className": "dice-set--mermaid-aqua-gold", "base": "#04a0a0", "base2": "#7fffe6", "ink": "#ffd76a", "edge": "#bd8b22", "glow": "#c2fff6"}, {"number": 51, "slug": "dragonfly-teal-violet", "name": "Dragonfly Teal Violet", "description": "iridescent teal violet dragonfly", "css": "css/dice-designs/sets/51-dragonfly-teal-violet.css", "className": "dice-set--dragonfly-teal-violet", "base": "#008a9b", "base2": "#7d42d9", "ink": "#f0fff9", "edge": "#52e6d8", "glow": "#d9b0ff"}, {"number": 52, "slug": "bloodstone-red-black", "name": "Bloodstone Red Black", "description": "bloodstone red black polished stone", "css": "css/dice-designs/sets/52-bloodstone-red-black.css", "className": "dice-set--bloodstone-red-black", "base": "#4c0509", "base2": "#a31824", "ink": "#f0d0c7", "edge": "#842532", "glow": "#ffb4a8"}, {"number": 53, "slug": "lava-obsidian-orange", "name": "Lava Obsidian Orange", "description": "molten lava inside obsidian", "css": "css/dice-designs/sets/53-lava-obsidian-orange.css", "className": "dice-set--lava-obsidian-orange", "base": "#140806", "base2": "#ff5b14", "ink": "#ffd19c", "edge": "#b94c17", "glow": "#ff8a35"}, {"number": 54, "slug": "frosted-lavender", "name": "Frosted Lavender", "description": "frosted lavender resin", "css": "css/dice-designs/sets/54-frosted-lavender.css", "className": "dice-set--frosted-lavender", "base": "#ac8de6", "base2": "#eee5ff", "ink": "#ffffff", "edge": "#b6a5d9", "glow": "#f8efff"}, {"number": 55, "slug": "smoke-quartz-white", "name": "Smoke Quartz White", "description": "smoky quartz with white numbers", "css": "css/dice-designs/sets/55-smoke-quartz-white.css", "className": "dice-set--smoke-quartz-white", "base": "#45434d", "base2": "#aba9b0", "ink": "#f7f5ff", "edge": "#77757f", "glow": "#ffffff"}, {"number": 56, "slug": "copper-verdigris", "name": "Copper Verdigris", "description": "aged copper with turquoise verdigris", "css": "css/dice-designs/sets/56-copper-verdigris.css", "className": "dice-set--copper-verdigris", "base": "#8a4c20", "base2": "#31a79c", "ink": "#ffcf9e", "edge": "#b96d32", "glow": "#8ffff6"}, {"number": 57, "slug": "clockwork-steampunk", "name": "Clockwork Steampunk", "description": "clockwork brass and dark teal", "css": "css/dice-designs/sets/57-clockwork-steampunk.css", "className": "dice-set--clockwork-steampunk", "base": "#4a331a", "base2": "#0f5968", "ink": "#ffd184", "edge": "#ac7528", "glow": "#88e5f4"}, {"number": 58, "slug": "celestial-navy-gold", "name": "Celestial Navy Gold", "description": "navy celestial stars with gold", "css": "css/dice-designs/sets/58-celestial-navy-gold.css", "className": "dice-set--celestial-navy-gold", "base": "#020f30", "base2": "#0f3f75", "ink": "#ffe07d", "edge": "#b08a30", "glow": "#b3d5ff"}, {"number": 59, "slug": "ivory-lotus-mint", "name": "Ivory Lotus Mint", "description": "ivory lotus mint engraving", "css": "css/dice-designs/sets/59-ivory-lotus-mint.css", "className": "dice-set--ivory-lotus-mint", "base": "#f6ead7", "base2": "#b9e8d2", "ink": "#426a5b", "edge": "#d6b772", "glow": "#ffffff"}, {"number": 60, "slug": "black-ice-blue-gold", "name": "Black Ice Blue Gold", "description": "black ice with blue layers and gold ink", "css": "css/dice-designs/sets/60-black-ice-blue-gold.css", "className": "dice-set--black-ice-blue-gold", "base": "#050d18", "base2": "#0f6cad", "ink": "#ffd76a", "edge": "#80642d", "glow": "#7ecfff"}];
+const GRID_PRESETS = {
+  '17x22': {cols:17, rows:22, cellSize:38, map:'data/grids/Grid (17x22).png'},
+  '22x17': {cols:22, rows:17, cellSize:38, map:'data/grids/Grid (22x17).png'},
+  '8.5x11': {cols:17, rows:22, cellSize:38, map:'data/grids/Grid (8.5x11).png'},
+  '1x1': {cols:24, rows:16, cellSize:38, map:'data/grids/Seamless Grid Pattern (1x1).png'},
+  '2x2': {cols:32, rows:24, cellSize:34, map:'data/grids/Seamless Grid Pattern (2x2).png'},
+  '3x3': {cols:48, rows:36, cellSize:28, map:'data/grids/Seamless Grid Pattern (3x3).png'}
+};
+
+
+let GRID_COLS = 24;
+let GRID_ROWS = 16;
+const CELL_FEET = 5;
+const DEFAULT_SLOTS_BY_LEVEL = {
+  1:{1:2},2:{1:3},3:{1:4,2:2},4:{1:4,2:3},5:{1:4,2:3,3:2},6:{1:4,2:3,3:3},7:{1:4,2:3,3:3,4:1},8:{1:4,2:3,3:3,4:2},9:{1:4,2:3,3:3,4:3,5:1},10:{1:4,2:3,3:3,4:3,5:2},11:{1:4,2:3,3:3,4:3,5:2,6:1},12:{1:4,2:3,3:3,4:3,5:2,6:1},13:{1:4,2:3,3:3,4:3,5:2,6:1,7:1},14:{1:4,2:3,3:3,4:3,5:2,6:1,7:1},15:{1:4,2:3,3:3,4:3,5:2,6:1,7:1,8:1},16:{1:4,2:3,3:3,4:3,5:2,6:1,7:1,8:1},17:{1:4,2:3,3:3,4:3,5:2,6:1,7:1,8:1,9:1}
+};
+
+const SPELL_CATALOG = [
+  ['fire bolt',{name:'Fire Bolt',type:'spellAttack',range:120,attackBonus:6,damage:'2d10',damageType:'fire',spellLevel:0,description:'Cantrip ranged spell attack.'}],
+  ['eldritch blast',{name:'Eldritch Blast',type:'spellAttack',range:120,attackBonus:6,damage:'1d10',damageType:'force',spellLevel:0,description:'Cantrip ranged spell attack.'}],
+  ['sacred flame',{name:'Sacred Flame',type:'save',range:60,saveAbility:'dex',saveDC:14,damage:'2d8',damageType:'radiant',spellLevel:0,description:'Target makes Dex save; no half damage on success.'}],
+  ['toll the dead',{name:'Toll the Dead',type:'save',range:60,saveAbility:'wis',saveDC:14,damage:'2d8',damageType:'necrotic',spellLevel:0,description:'Wis save; wounded targets may use d12 at DM option.'}],
+  ['magic missile',{name:'Magic Missile',type:'autoHit',range:120,damage:'3d4+3',damageType:'force',spellLevel:1,description:'Automatically hits one target.'}],
+  ['guiding bolt',{name:'Guiding Bolt',type:'spellAttack',range:120,attackBonus:6,damage:'4d6',damageType:'radiant',spellLevel:1,description:'Hit grants next attack advantage narratively.'}],
+  ['cure wounds',{name:'Cure Wounds',type:'heal',range:5,healing:'1d8+3',spellLevel:1,description:'Touch healing spell.'}],
+  ['healing word',{name:'Healing Word',type:'heal',range:60,healing:'1d4+3',spellLevel:1,description:'Ranged bonus-action style healing; spends an action here for clarity.'}],
+  ['inflict wounds',{name:'Inflict Wounds',type:'spellAttack',range:5,attackBonus:6,damage:'3d10',damageType:'necrotic',spellLevel:1,description:'Melee spell attack.'}],
+  ['thunderwave',{name:'Thunderwave',type:'save',range:15,saveAbility:'con',saveDC:14,damage:'2d8',damageType:'thunder',spellLevel:1,description:'Con save, half on success; use against selected target.'}],
+  ['spiritual weapon',{name:'Spiritual Weapon',type:'spellAttack',range:60,attackBonus:6,damage:'1d8+3',damageType:'force',spellLevel:2,description:'Spectral weapon attack.'}],
+  ['shatter',{name:'Shatter',type:'save',range:60,saveAbility:'con',saveDC:14,damage:'3d8',damageType:'thunder',spellLevel:2,description:'Con save, half on success.'}],
+  ['fireball',{name:'Fireball',type:'save',range:150,saveAbility:'dex',saveDC:15,damage:'8d6',damageType:'fire',spellLevel:3,description:'Dex save, half on success. This board applies it to selected target.'}],
+  ['lightning bolt',{name:'Lightning Bolt',type:'save',range:100,saveAbility:'dex',saveDC:15,damage:'8d6',damageType:'lightning',spellLevel:3,description:'Dex save, half on success.'}],
+  ['revivify',{name:'Revivify',type:'heal',range:5,healing:'1',spellLevel:3,description:'Returns a downed creature to 1 HP on this board.'}]
+];
+const WEAPON_CATALOG = [
+  ['dagger',{name:'Dagger',type:'attack',range:20,attackBonus:5,damage:'1d4+3',damageType:'piercing',description:'Melee or thrown weapon attack.'}],
+  ['shortsword',{name:'Shortsword',type:'attack',range:5,attackBonus:5,damage:'1d6+3',damageType:'piercing',description:'Melee weapon attack.'}],
+  ['longsword',{name:'Longsword',type:'attack',range:5,attackBonus:5,damage:'1d8+3',damageType:'slashing',description:'Melee weapon attack.'}],
+  ['mace',{name:'Mace',type:'attack',range:5,attackBonus:5,damage:'1d6+3',damageType:'bludgeoning',description:'Melee weapon attack.'}],
+  ['warhammer',{name:'Warhammer',type:'attack',range:5,attackBonus:5,damage:'1d8+3',damageType:'bludgeoning',description:'Melee weapon attack.'}],
+  ['longbow',{name:'Longbow',type:'attack',range:150,attackBonus:5,damage:'1d8+3',damageType:'piercing',description:'Ranged weapon attack.'}],
+  ['shortbow',{name:'Shortbow',type:'attack',range:80,attackBonus:5,damage:'1d6+3',damageType:'piercing',description:'Ranged weapon attack.'}],
+  ['crossbow',{name:'Crossbow',type:'attack',range:80,attackBonus:5,damage:'1d8+3',damageType:'piercing',description:'Ranged weapon attack.'}],
+  ['unarmed',{name:'Unarmed Strike',type:'attack',range:5,attackBonus:5,damage:'1d4+3',damageType:'bludgeoning',description:'Close attack.'}]
+];
+const HOSTILE_TEMPLATES = {
+  goblin:{label:'Goblin Skirmisher',hp:7,ac:15,speed:30,dex:14,str:8,con:10,wis:8,int:10,cha:8,token:'G',color:'#ff5577',actions:[{name:'Scimitar',type:'attack',range:5,attackBonus:4,damage:'1d6+2',damageType:'slashing'},{name:'Shortbow',type:'attack',range:80,attackBonus:4,damage:'1d6+2',damageType:'piercing'}],loot:'Bent copper coins; crude arrows.',lore:'Their crude tattoos point toward a local gang boss.',interrogation:'Can reveal a hidden side entrance with a DC 12 Charisma check.'},
+  skeleton:{label:'Skeleton Guard',hp:13,ac:13,speed:30,dex:14,str:10,con:15,wis:8,int:6,cha:5,token:'S',color:'#d8e3df',actions:[{name:'Shortsword',type:'attack',range:5,attackBonus:4,damage:'1d6+2',damageType:'piercing'},{name:'Shortbow',type:'attack',range:80,attackBonus:4,damage:'1d6+2',damageType:'piercing'}],loot:'Rusty key ring; bone dust.',lore:'The bones are etched with an old oath to a sealed vault.',interrogation:'The corpse cannot speak unless magic is used; the jaw points toward the lock it served.'},
+  orc:{label:'Orc Brute',hp:15,ac:13,speed:30,dex:12,str:16,con:16,wis:11,int:7,cha:10,token:'O',color:'#ff7c4d',actions:[{name:'Greataxe',type:'attack',range:5,attackBonus:5,damage:'1d12+3',damageType:'slashing'},{name:'Javelin',type:'attack',range:30,attackBonus:5,damage:'1d6+3',damageType:'piercing'}],loot:'Iron tusk charm; battle rations.',lore:'The charm carries a clan mark tied to a missing caravan.',interrogation:'Knows who paid for the ambush, but demands mercy or proof of strength.'},
+  cultist:{label:'Cultist Acolyte',hp:12,ac:12,speed:30,dex:12,str:10,con:11,wis:13,int:10,cha:12,token:'C',color:'#bb64ff',actions:[{name:'Ritual Dagger',type:'attack',range:5,attackBonus:3,damage:'1d4+1',damageType:'piercing'},{name:'Dark Spark',type:'spellAttack',range:60,attackBonus:4,damage:'1d8+2',damageType:'necrotic',spellLevel:0}],loot:'Black candle; coded scrap.',lore:'The coded scrap names a ritual site beneath a civic building.',interrogation:'Can reveal the passphrase to a locked shrine door.'},
+  ghoul:{label:'Ghoul Husk',hp:22,ac:12,speed:30,dex:15,str:13,con:10,wis:10,int:7,cha:6,token:'H',color:'#8aff8a',actions:[{name:'Claws',type:'attack',range:5,attackBonus:4,damage:'2d4+2',damageType:'slashing'},{name:'Bite',type:'attack',range:5,attackBonus:2,damage:'2d6+2',damageType:'piercing'}],loot:'Blackened tooth; grave dirt.',lore:'Fresh mud under its nails hints a recent grave was emptied.',interrogation:'Only magical communication can draw an image of its last command.'},
+  shadow:{label:'Shadow Beast',hp:16,ac:13,speed:40,dex:16,str:12,con:13,wis:12,int:6,cha:8,token:'B',color:'#4b6bff',actions:[{name:'Umbral Bite',type:'attack',range:5,attackBonus:5,damage:'2d6+3',damageType:'necrotic'},{name:'Shadow Pounce',type:'attack',range:10,attackBonus:5,damage:'1d10+3',damageType:'slashing'}],loot:'Cold glass shard.',lore:'The shard reflects a room that is not on the current map.',interrogation:'If calmed, it can lead players toward the person feeding it.'},
+  bandit:{label:'Bandit Archer',hp:11,ac:12,speed:30,dex:14,str:11,con:12,wis:10,int:10,cha:10,token:'A',color:'#f4bb54',actions:[{name:'Scimitar',type:'attack',range:5,attackBonus:4,damage:'1d6+2',damageType:'slashing'},{name:'Light Crossbow',type:'attack',range:80,attackBonus:4,damage:'1d8+2',damageType:'piercing'}],loot:'Loaded dice; 9 sp.',lore:'The loaded dice carry the mark of a gambling den.',interrogation:'Knows where the stolen chest was taken.'}
+};
+
+const $ = (sel, root=document) => root.querySelector(sel);
+const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
+const uid = (prefix='id') => `${prefix}_${Math.random().toString(36).slice(2,8)}_${Date.now().toString(36).slice(-4)}`;
+const clamp = (n,min,max) => Math.max(min, Math.min(max, n));
+const esc = (s='') => String(s).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const deepCopy = obj => JSON.parse(JSON.stringify(obj));
+const d = sides => Math.floor(Math.random()*sides)+1;
+const mod = score => Math.floor((Number(score || 10)-10)/2);
+const distanceFeet = (a,b) => Math.max(Math.abs(a.x-b.x), Math.abs(a.y-b.y))*CELL_FEET;
+const nowStamp = () => new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+
+let state = loadExportedState() || loadLocal() || makeInitialState();
+let selectedActionIndex = 0;
+let drag = null;
+let lastTargetId = null;
+
+function makeInitialState(){
+  return {
+    version:'2026-06-30.encounters-minigame.onyx-autonomous-merged',
+    backendUrl: BACKEND_URL,
+    sceneName:'Untitled Encounter',
+    mapImage:'',
+    mapMode:'cover',
+    gridOpacity:0.72,
+    cellSize:38,
+    boardCols:24,
+    boardRows:16,
+    gridPreset:'custom',
+    autonomousMode:true,
+    diceBotId:'joeari-ravenwood',
+    diceDesignSlug:'void-plasma-cyan',
+    players: [],
+    tokens: [],
+    hostiles: [],
+    objects: [],
+    initiative: [],
+    turnIndex: -1,
+    round: 0,
+    selectedId: null,
+    targetId: null,
+    hostileBehavior:'tactical',
+    log: [],
+    dmNotes: ''
+  };
+}
+
+function defaultCharacter(name='New Character'){
+  const level = 8;
+  return {
+    id: uid('pc'), kind:'pc', name, owner: $('#playerName')?.value || 'Player 1', token: initials(name), color: $('#tokenColor')?.value || '#00ffff',
+    x: 3 + Math.floor(Math.random()*3), y: 11 + Math.floor(Math.random()*3),
+    level, className:'Adventurer', ac:14, hp:44, maxHp:44, speed:30,
+    str:10,dex:14,con:14,int:12,wis:12,cha:12,
+    spellSlots: slotsForLevel(level), actions: defaultActions(),
+    lore:'', loot:'', interrogation:'', conditions:[], alive:true, downed:false, movementLeft:30, actionUsed:false, reactionUsed:false
+  };
+}
+function defaultActions(){
+  return [
+    {name:'Weapon Attack',type:'attack',range:5,attackBonus:5,damage:'1d8+3',damageType:'weapon',description:'Basic weapon attack.'},
+    {name:'Ranged Attack',type:'attack',range:80,attackBonus:5,damage:'1d8+3',damageType:'piercing',description:'Basic ranged weapon attack.'},
+    {name:'Cantrip',type:'spellAttack',range:60,attackBonus:5,damage:'1d10',damageType:'force',spellLevel:0,description:'Generic cantrip; no slot cost.'},
+    {name:'Level 1 Spell',type:'spellAttack',range:60,attackBonus:5,damage:'2d8',damageType:'magic',spellLevel:1,description:'Generic spell; costs a 1st-level slot.'},
+    {name:'Heal',type:'heal',range:5,healing:'1d8+3',spellLevel:1,description:'Generic healing spell; costs a 1st-level slot.'},
+    {name:'Dash',type:'dash',range:0,description:'Gain movement equal to speed.'},
+    {name:'Dodge',type:'dodge',range:0,description:'Defensive action; attackers have disadvantage narratively until next turn.'},
+    {name:'Help',type:'help',range:5,description:'Grant an ally narrative advantage on the next action.'}
+  ];
+}
+function slotsForLevel(level){
+  const table = DEFAULT_SLOTS_BY_LEVEL[clamp(Number(level)||1,1,17)] || DEFAULT_SLOTS_BY_LEVEL[8];
+  const slots = {};
+  Object.keys(table).forEach(k => slots[k] = {max: table[k], used:0});
+  return slots;
+}
+function initials(name='?'){
+  return String(name).split(/\s+/).filter(Boolean).slice(0,2).map(p=>p[0]).join('').toUpperCase() || '?';
+}
+
+function log(message, type='sys'){
+  state.log.unshift({time:nowStamp(), message, type});
+  state.log = state.log.slice(0,180);
+  renderLog();
+}
+function toast(message){
+  const t = $('#toast'); t.textContent = message; t.classList.remove('show'); void t.offsetWidth; t.classList.add('show');
+}
+function renderLog(){
+  $('#log').innerHTML = state.log.map(l => `<p class="${esc(l.type)}"><small>${esc(l.time)}</small> ${esc(l.message)}</p>`).join('') || '<p class="sys">No session log yet.</p>';
+}
+
+function hashMode(){ return location.hash.toLowerCase(); }
+function isDmMode(){ return hashMode() === '#dm-session'; }
+function isEditorMode(){ return hashMode() === '#dm-editor'; }
+function isCreatorMode(){ return isDmMode() || isEditorMode(); }
+
+function ensureSceneState(){
+  state.sceneName = state.sceneName || 'Untitled Encounter';
+  state.mapImage = state.mapImage || '';
+  state.mapMode = state.mapMode || 'cover';
+  state.gridPreset = state.gridPreset || 'custom';
+  state.gridOpacity = Number.isFinite(Number(state.gridOpacity)) ? Number(state.gridOpacity) : 0.72;
+  state.cellSize = clamp(Number(state.cellSize || 38), 10, 220);
+  state.boardCols = clamp(Number(state.boardCols || 24), 1, 300);
+  state.boardRows = clamp(Number(state.boardRows || 16), 1, 300);
+  state.autonomousMode = state.autonomousMode !== false;
+  state.diceBotId = DICE_BOT_PERSONALITIES.some(b => b.id === state.diceBotId) ? state.diceBotId : 'joeari-ravenwood';
+  state.diceDesignSlug = DICE_DESIGNS.some(d => d.slug === state.diceDesignSlug) ? state.diceDesignSlug : 'void-plasma-cyan';
+}
+function syncBoardVisuals(){
+  ensureSceneState();
+  GRID_COLS = state.boardCols; GRID_ROWS = state.boardRows;
+  document.documentElement.style.setProperty('--cols', GRID_COLS);
+  document.documentElement.style.setProperty('--rows', GRID_ROWS);
+  document.documentElement.style.setProperty('--cell', state.cellSize + 'px');
+  const map = $('#mapLayer');
+  if(map){
+    map.style.backgroundImage = state.mapImage ? `url("${String(state.mapImage).replace(/"/g,'%22')}")` : '';
+    map.style.backgroundSize = state.mapMode === 'stretch' ? '100% 100%' : state.mapMode;
+  }
+  const grid = $('#gridLayer'); if(grid) grid.style.opacity = state.gridOpacity;
+  const sceneName = $('#sceneName'); if(sceneName && document.activeElement !== sceneName) sceneName.value = state.sceneName;
+  const mapMode = $('#mapMode'); if(mapMode) mapMode.value = state.mapMode;
+  const gridOpacity = $('#gridOpacity'); if(gridOpacity) gridOpacity.value = state.gridOpacity;
+  const gridPreset = $('#gridPreset'); if(gridPreset) gridPreset.value = state.gridPreset || 'custom';
+  const autonomousMode = $('#autonomousMode'); if(autonomousMode) autonomousMode.checked = state.autonomousMode !== false;
+  const cellSize = $('#cellSize'); if(cellSize && document.activeElement !== cellSize) cellSize.value = state.cellSize;
+  const boardCols = $('#boardCols'); if(boardCols && document.activeElement !== boardCols) boardCols.value = GRID_COLS;
+  const boardRows = $('#boardRows'); if(boardRows && document.activeElement !== boardRows) boardRows.value = GRID_ROWS;
+  const sceneHud = $('#sceneHud'); if(sceneHud) sceneHud.textContent = `Scene: ${state.sceneName}`;
+  const boardHud = $('#boardHud'); if(boardHud) boardHud.textContent = `${GRID_COLS} × ${GRID_ROWS} grid · ${state.cellSize}px squares`;
+}
+
+function selectedDiceBot(){
+  ensureSceneState();
+  return DICE_BOT_PERSONALITIES.find(b => b.id === state.diceBotId) || DICE_BOT_PERSONALITIES[0];
+}
+function selectedDiceDesign(){
+  ensureSceneState();
+  return DICE_DESIGNS.find(d => d.slug === state.diceDesignSlug) || DICE_DESIGNS[0];
+}
+function selectedDiceStyle(){
+  const dsg = selectedDiceDesign();
+  return {name:dsg.name, slug:dsg.slug, description:dsg.description, css:dsg.css, className:dsg.className, base:dsg.base, base2:dsg.base2, ink:dsg.ink, edge:dsg.edge, glow:dsg.glow};
+}
+function syncDice3DConfig(){
+  postDice3D({type:'DICEBOT_DICE_MAIN_CONFIG', payload:{stylePool:[selectedDiceStyle()], soundPool:[{name:'Dice Roll',url:'assets/dice-main/roll-audio/u_ngsgp0r6zb-dice-roll-201898.mp3',iframeUrl:'assets/dice-main/roll-audio/u_ngsgp0r6zb-dice-roll-201898.mp3'}]}});
+}
+function syncDiceControls(){
+  ensureSceneState();
+  const botSel = $('#diceBotSelect');
+  if(botSel && !botSel.options.length){
+    botSel.innerHTML = DICE_BOT_PERSONALITIES.map(b => `<option value="${esc(b.id)}">${esc(b.name)}</option>`).join('');
+  }
+  if(botSel && document.activeElement !== botSel) botSel.value = state.diceBotId;
+  const designSel = $('#diceDesignSelect');
+  if(designSel && !designSel.options.length){
+    designSel.innerHTML = DICE_DESIGNS.map(d => `<option value="${esc(d.slug)}">${String(d.number).padStart(2,'0')} · ${esc(d.name)}</option>`).join('');
+  }
+  if(designSel && document.activeElement !== designSel) designSel.value = state.diceDesignSlug;
+  const bot = selectedDiceBot();
+  const dsg = selectedDiceDesign();
+  const avatar = $('#diceBotAvatar');
+  if(avatar){ avatar.src = bot.assetUrl; avatar.title = bot.name; }
+  const diceHud = $('#diceHud'); if(diceHud) diceHud.textContent = `Dice: ${bot.name.split(' ')[0]} · ${dsg.name}`;
+  const autonomyHud = $('#autonomyHud'); if(autonomyHud) autonomyHud.textContent = state.autonomousMode ? 'Autonomous Onyx ON' : 'Autonomous Onyx OFF';
+  const auto = $('#autonomousMode'); if(auto && document.activeElement !== auto) auto.checked = state.autonomousMode !== false;
+}
+function announceDiceBot(kind, vars={}){
+  const line = onyxLine(kind, vars);
+  const el = $('#diceBotLine');
+  if(el && line) el.textContent = `${selectedDiceBot().name}: ${line}`;
+}
+
+function applySceneControls(){
+  ensureSceneState();
+  state.sceneName = ($('#sceneName')?.value || state.sceneName || 'Untitled Encounter').trim() || 'Untitled Encounter';
+  state.mapMode = $('#mapMode')?.value || state.mapMode || 'cover';
+  state.gridPreset = $('#gridPreset')?.value || state.gridPreset || 'custom';
+  const preset = GRID_PRESETS[state.gridPreset];
+  if(preset){
+    state.boardCols = preset.cols; state.boardRows = preset.rows; state.cellSize = preset.cellSize;
+    if(!state.mapImage) state.mapImage = preset.map;
+  } else {
+    state.cellSize = clamp(Number($('#cellSize')?.value || state.cellSize), 10, 220);
+    state.boardCols = clamp(Number($('#boardCols')?.value || state.boardCols), 1, 300);
+    state.boardRows = clamp(Number($('#boardRows')?.value || state.boardRows), 1, 300);
+  }
+  state.gridOpacity = clamp(Number($('#gridOpacity')?.value ?? state.gridOpacity), 0, 1);
+  state.autonomousMode = $('#autonomousMode') ? $('#autonomousMode').checked : state.autonomousMode !== false;
+  [...state.tokens, ...state.hostiles, ...state.objects].forEach(ent => { ent.x = clamp(Number(ent.x || 1), 1, state.boardCols); ent.y = clamp(Number(ent.y || 1), 1, state.boardRows); });
+  coordsRendered = false;
+  saveLocal(); render();
+  toast('Scene controls applied; pieces scale to the current grid square size.');
+}
+function handleMapUpload(files){
+  const f = files && files[0]; if(!f) return;
+  if(!/^image\//.test(f.type || '')) return toast('Please upload an image file for the map.');
+  const r = new FileReader();
+  r.onload = () => { state.mapImage = r.result; state.sceneName = state.sceneName || f.name.replace(/\.[^.]+$/,''); coordsRendered=false; saveLocal(); render(); log(`Map image loaded: ${f.name}.`, 'good'); };
+  r.readAsDataURL(f);
+}
+async function onyxBackendApi(payload){
+  const res = await fetch(BACKEND_URL, {method:'POST', body:new URLSearchParams({payload: JSON.stringify(payload)})});
+  const text = await res.text();
+  try { return JSON.parse(text); } catch(_err) { return {ok:false, raw:text}; }
+}
+function compactForPrompt(ent){
+  if(!ent) return null;
+  return {id:ent.id,name:ent.name,kind:ent.kind,hp:ent.hp,maxHp:ent.maxHp,ac:ent.ac,speed:ent.speed,x:ent.x,y:ent.y,actions:ent.actions,loot:ent.loot,lore:ent.lore,interrogation:ent.interrogation};
+}
+function nearestEnemy(actor){
+  const pool = actor?.kind === 'hostile' ? state.tokens.filter(p => p.alive !== false && !p.downed) : actor?.kind === 'pc' ? state.hostiles.filter(h => h.alive !== false) : allCombatants().filter(c => c.alive !== false && !c.downed);
+  if(!pool.length) return null;
+  if(!actor) return pool[0];
+  return [...pool].sort((a,b) => distanceFeet(actor,a) - distanceFeet(actor,b))[0];
+}
+async function askOnyxDM(adviceOnly=false){
+  if(!isDmMode()) return toast('Onyx DM command is only available in #dm-session.');
+  const out = $('#onyxOut'); if(out) out.textContent = 'Onyx is thinking…';
+  const actor = currentActor(); const target = findById(state.targetId) || nearestEnemy(actor);
+  const prompt = ($('#onyxPrompt')?.value || '').trim() || (adviceOnly ? 'Advise the current hostile turn using action economy, movement, and target priority.' : 'Give concise encounter advice for this board state.');
+  try{
+    const payload = {action:'bots.chat', botId:'onyx-encounter-superbot', conversationId:'encounters_minigame_dm', message: (adviceOnly ? 'Advise the current hostile turn. ' : '') + prompt, meta:{scene:state.sceneName, round:state.round, active:actor?.name || '', target:target?.name || '', actor:compactForPrompt(actor), targetState:compactForPrompt(target), backendContract:'TDM92 merged backend: bots.chat'}};
+    const r = await onyxBackendApi(payload);
+    const shown = r.reply || r.advice || r.result || r.error || JSON.stringify(r, null, 2);
+    if(out) out.textContent = typeof shown === 'string' ? shown : JSON.stringify(shown, null, 2);
+    log('Onyx backend advice returned.', r.ok === false ? 'warn' : 'good');
+  }catch(err){ if(out) out.textContent = 'Backend advice failed: ' + err.message; log(`Onyx backend advice failed: ${err.message}`, 'warn'); }
+}
+
+function syncMode(){
+  document.body.classList.toggle('dm-mode', isDmMode());
+  document.body.classList.toggle('creator-mode', isCreatorMode());
+  const label = isDmMode() ? 'DM Session' : (isEditorMode() ? 'DM Editor' : 'Player VTT');
+  $('#modeBadge').textContent = label;
+  $('#modeBadge').classList.toggle('dm', isCreatorMode());
+}
+
+function buildHostileTemplateSelect(){
+  const sel = $('#hostileTemplate');
+  sel.innerHTML = Object.entries(HOSTILE_TEMPLATES).map(([id,t]) => `<option value="${id}">${esc(t.label)}</option>`).join('');
+}
+
+function render(){
+  syncMode();
+  syncBoardVisuals();
+  syncDiceControls();
+  renderGridCoords();
+  renderCharacters();
+  renderBoard();
+  renderInitiative();
+  renderTargets();
+  renderRadial();
+  renderSelectionDetails();
+  renderCreatorEditors();
+  renderLog();
+  $('#roundBadge').textContent = `Round ${state.round || 0}`;
+  const actor = currentActor();
+  $('#turnBadge').textContent = actor ? `${actor.name}'s turn · ${actor.kind === 'hostile' ? 'hostile' : 'player'} · ${actor.movementLeft ?? actor.speed} ft left` : 'No turn running';
+}
+
+let coordsRendered = false;
+function renderGridCoords(){
+  if(coordsRendered) return;
+  const grid = $('#gridLayer');
+  grid.innerHTML = '';
+  for(let y=1;y<=GRID_ROWS;y++) for(let x=1;x<=GRID_COLS;x++){
+    const c = document.createElement('span'); c.className='coord'; c.style.left=((x-1)*cellPx()+3)+'px'; c.style.top=((y-1)*cellPx()+2)+'px'; c.textContent = `${x},${y}`; grid.appendChild(c);
+  }
+  coordsRendered = true;
+}
+function cellPx(){ return parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--cell')) || 38; }
+function posToStyle(entity){
+  const px = cellPx(); return `left:${(entity.x-.5)*px}px;top:${(entity.y-.5)*px}px;`;
+}
+function allCombatants(){ return [...state.tokens, ...state.hostiles]; }
+function allInteractables(){ return [...allCombatants(), ...state.objects]; }
+function findById(id){ return allInteractables().find(e => e.id === id) || null; }
+function currentActor(){
+  if(!state.initiative.length || state.turnIndex < 0) return null;
+  const node = state.initiative[state.turnIndex % state.initiative.length];
+  return allCombatants().find(c => c.id === node.id && c.alive !== false && !c.downed) || null;
+}
+function isCurrentActor(entity){ const a = currentActor(); return a && entity && a.id === entity.id; }
+
+function renderBoard(){
+  const tokenLayer = $('#tokenLayer');
+  const objectLayer = $('#objectLayer');
+  tokenLayer.innerHTML = '';
+  objectLayer.innerHTML = '';
+  const selected = state.selectedId;
+  for(const obj of state.objects){
+    const el = document.createElement('div');
+    el.className = `token object ${selected===obj.id?'selected':''}`;
+    el.style.cssText = posToStyle(obj);
+    el.title = objTooltip(obj);
+    el.dataset.id = obj.id;
+    el.textContent = obj.type === 'door' ? (obj.locked?'🚪🔒':'🚪') : obj.type === 'trap' ? (obj.trapArmed ? '⚠️' : '✖') : (obj.locked?'📦🔒':'📦');
+    wireToken(el,obj);
+    objectLayer.appendChild(el);
+  }
+  for(const ent of allCombatants()){
+    const dead = ent.alive === false || ent.downed;
+    const el = document.createElement('div');
+    el.className = `token ${ent.kind || 'pc'} ${dead?'down dead':''} ${selected===ent.id?'selected':''} ${isCurrentActor(ent)?'turn':''}`;
+    if(ent.alive === false && ent.kind === 'hostile') el.classList.add('body');
+    el.style.cssText = posToStyle(ent);
+    el.style.background = ent.alive === false ? '' : `linear-gradient(145deg,${ent.color || (ent.kind==='pc'?'#00ffff':'#ff5577')},#101018)`;
+    el.title = objTooltip(ent);
+    el.dataset.id = ent.id;
+    el.innerHTML = `<span>${esc(ent.token || initials(ent.name))}</span><span class="status-dot"></span><span class="hpbar"><i style="width:${clamp(((ent.hp||0)/(ent.maxHp||1))*100,0,100)}%"></i></span>`;
+    wireToken(el,ent);
+    tokenLayer.appendChild(el);
+  }
+  renderRange();
+}
+function objTooltip(e){
+  const bits = [e.name, `HP ${e.hp ?? '—'}/${e.maxHp ?? '—'}`, `AC ${e.ac ?? e.lockDC ?? '—'}`];
+  if(e.locked) bits.push(`Locked DC ${e.lockDC}`);
+  if(e.trapArmed) bits.push(`Trap DC ${e.trapDC}`);
+  return bits.filter(Boolean).join('\n');
+}
+function wireToken(el, ent){
+  el.addEventListener('pointerdown', ev => {
+    if(ev.button !== 0) return;
+    selectEntity(ent.id);
+    drag = {id:ent.id,startX:ent.x,startY:ent.y,offsetX:ev.offsetX,offsetY:ev.offsetY};
+    el.setPointerCapture(ev.pointerId);
+  });
+  el.addEventListener('pointermove', ev => {
+    if(!drag || drag.id !== ent.id) return;
+    const boardRect = $('#board').getBoundingClientRect();
+    const px = cellPx();
+    const nx = clamp(Math.floor((ev.clientX - boardRect.left)/px)+1,1,GRID_COLS);
+    const ny = clamp(Math.floor((ev.clientY - boardRect.top)/px)+1,1,GRID_ROWS);
+    el.style.left = ((nx-.5)*px)+'px'; el.style.top = ((ny-.5)*px)+'px';
+  });
+  el.addEventListener('pointerup', ev => {
+    if(!drag || drag.id !== ent.id) return;
+    const boardRect = $('#board').getBoundingClientRect();
+    const px = cellPx();
+    const nx = clamp(Math.floor((ev.clientX - boardRect.left)/px)+1,1,GRID_COLS);
+    const ny = clamp(Math.floor((ev.clientY - boardRect.top)/px)+1,1,GRID_ROWS);
+    moveEntity(ent, nx, ny, drag.startX, drag.startY);
+    drag = null;
+  });
+  el.addEventListener('dblclick', () => showEntityModal(ent));
+}
+function moveEntity(ent, nx, ny, sx=ent.x, sy=ent.y){
+  if(ent.kind === 'hostile' && !isDmMode() && !isCurrentActor(ent)) return toast('Only the DM or the active hostile turn can move that hostile.');
+  if(ent.kind === 'pc' && state.initiative.length && !isCurrentActor(ent) && !isDmMode()) return toast('That character is not the current turn.');
+  const feet = Math.max(Math.abs(nx-sx), Math.abs(ny-sy))*CELL_FEET;
+  if(!isDmMode() && state.initiative.length && isCurrentActor(ent)){
+    if(feet > (ent.movementLeft ?? ent.speed)) return toast(`Too far. ${ent.name} only has ${ent.movementLeft ?? ent.speed} ft left.`);
+    ent.movementLeft = Math.max(0, (ent.movementLeft ?? ent.speed) - feet);
+  }
+  if(ent.kind === 'pc'){
+    const blockingDoor = state.objects.find(o => o.type === 'door' && o.locked && Number(o.x) === nx && Number(o.y) === ny);
+    if(blockingDoor){
+      ent.x = sx; ent.y = sy; state.targetId = blockingDoor.id;
+      log(`${ent.name} bumps into ${blockingDoor.name}; the lock holds at DC ${blockingDoor.lockDC}.`, 'warn');
+      saveLocal(); render(); return;
+    }
+  }
+  ent.x = nx; ent.y = ny;
+  log(`${ent.name} moved ${feet} ft.`, 'sys');
+  if(ent.kind === 'pc') evaluateAutonomousObjects(ent);
+  saveLocal(); render();
+}
+function renderRange(){
+  const layer = $('#rangeLayer'); layer.innerHTML = '';
+  const actor = findById(state.selectedId);
+  const action = selectedAction(actor);
+  if(!actor || !action || !action.range) return;
+  const px = cellPx();
+  const diameter = (action.range/CELL_FEET*2+1)*px;
+  const ring = document.createElement('div');
+  ring.className = 'range-ring';
+  ring.style.left = `${(actor.x-.5)*px}px`; ring.style.top = `${(actor.y-.5)*px}px`; ring.style.width = `${diameter}px`; ring.style.height = `${diameter}px`;
+  layer.appendChild(ring);
+}
+
+function renderCharacters(){
+  const list = $('#characterList');
+  const pcs = state.tokens;
+  if(!pcs.length){
+    const msg = isCreatorMode() ? 'Upload HTML/JSON sheets or add a blank character.' : 'No character tokens are available yet. The DM can add them with #dm-session or #dm-editor.';
+    list.innerHTML = `<div class="card"><b>No character tokens loaded.</b><small>${esc(msg)}</small></div>`;
+    return;
+  }
+  list.innerHTML = pcs.map(pc => {
+    const slots = slotSummary(pc.spellSlots);
+    return `<div class="card ${state.selectedId===pc.id?'active':''}" data-pc-card="${pc.id}"><b>${esc(pc.name)}</b><small>${esc(pc.owner || 'Player')} · ${esc(pc.className || 'Adventurer')} · AC ${pc.ac} · HP ${pc.hp}/${pc.maxHp}</small><div class="meters"><span class="pill ${pc.downed?'bad':'good'}">${pc.downed?'downed':'active'}</span><span class="pill">${esc(slots || 'no slots')}</span></div></div>`;
+  }).join('');
+  $$('[data-pc-card]').forEach(c => c.addEventListener('click', () => selectEntity(c.dataset.pcCard)));
+}
+function slotSummary(slots={}){
+  return Object.entries(slots).map(([lvl,s]) => `L${lvl} ${Math.max(0,(s.max||0)-(s.used||0))}/${s.max||0}`).join(' · ');
+}
+function renderSelectionDetails(){
+  const ent = findById(state.selectedId);
+  const card = $('#selectedCharacterCard');
+  const info = $('#objectInfo');
+  if(!ent){
+    card.innerHTML = '<b>No character selected.</b><small>Click a token or card.</small>';
+    info.textContent = 'Select a token, body, door, or chest to see lore, loot, locks, traps, and interrogation notes.';
+    fillEditor(null);
+    return;
+  }
+  if(ent.kind === 'pc'){
+    card.innerHTML = `<b>${esc(ent.name)}</b><small>${esc(ent.className||'Adventurer')} · ${esc(ent.owner||'Player')} · Level ${ent.level || '?'}</small><div class="divider"></div><div class="grid2"><span class="pill">AC ${ent.ac}</span><span class="pill ${ent.hp <= 0 ? 'bad':'good'}">HP ${ent.hp}/${ent.maxHp}</span><span class="pill">Speed ${ent.speed} ft</span><span class="pill">Move left ${ent.movementLeft ?? ent.speed} ft</span></div><div class="divider"></div><small>Slots: ${esc(slotSummary(ent.spellSlots)||'none')}</small>`;
+  } else {
+    card.innerHTML = `<b>${esc(ent.name)}</b><small>${esc(ent.kind || ent.type)} · ${ent.alive === false ? 'body' : 'active'} · AC/DC ${ent.ac ?? ent.lockDC ?? '—'}</small><div class="divider"></div><small>${esc(ent.lore || 'No lore drop set yet.')}</small>`;
+  }
+  const meta = [];
+  if(ent.locked !== undefined) meta.push(`${ent.name} is ${ent.locked?'locked':'unlocked'}${ent.lockDC ? ` (DC ${ent.lockDC})`:''}.`);
+  if(ent.trapArmed) meta.push(`Trap armed: DC ${ent.trapDC || 12}, damage ${ent.trapDamage || '1d6'}.`);
+  if(ent.lore) meta.push(`Lore / quest hook: ${ent.lore}`);
+  if(ent.loot) meta.push(`Loot: ${ent.loot}`);
+  if(ent.interrogation) meta.push(`Interrogation: ${ent.interrogation}`);
+  if(ent.kind === 'hostile' && ent.alive === false) meta.unshift(`${ent.name}'s body can hold lore drops and loot.`);
+  info.textContent = meta.join('\n\n') || 'No lore, loot, lock, trap, or interrogation notes set for this selection.';
+  fillEditor(ent);
+}
+function fillEditor(ent){
+  $('#selName').value = ent?.name || '';
+  $('#selAcDc').value = ent ? (ent.ac ?? ent.lockDC ?? '') : '';
+  $('#selHp').value = ent?.hp ?? '';
+  $('#selTrapDc').value = ent?.trapDC ?? '';
+  $('#selLore').value = ent?.lore || '';
+  $('#selLoot').value = ent?.loot || '';
+  $('#selInterrogate').value = ent?.interrogation || '';
+}
+
+function renderInitiative(){
+  const bar = $('#initiativeBar');
+  if(!state.initiative.length){ bar.innerHTML = '<div class="init-node"><b>Initiative not rolled</b><small>DM can roll under #dm-session.</small></div>'; return; }
+  bar.innerHTML = state.initiative.map((n,i) => {
+    const ent = findById(n.id);
+    return `<div class="init-node ${i===state.turnIndex?'active':''}"><b>${esc(ent?.name || n.name)}</b><small>${n.roll} initiative · ${ent?.hp ?? '—'} HP</small></div>`;
+  }).join('');
+}
+function renderTargets(){
+  const actor = findById(state.selectedId) || currentActor();
+  const list = $('#targetList');
+  let targets = [];
+  if(actor?.kind === 'pc') targets = state.hostiles.filter(h => h.alive !== false);
+  else if(actor?.kind === 'hostile') targets = state.tokens.filter(p => p.alive !== false && !p.downed);
+  else targets = allCombatants().filter(c => c.alive !== false);
+  targets.push(...state.objects);
+  if(!targets.length){ list.innerHTML = '<small>No valid targets/interactables.</small>'; return; }
+  list.innerHTML = targets.map(t => `<button class="target-btn ${state.targetId===t.id?'selected':''}" data-target="${t.id}">${esc(t.name)} <small>${t.kind || t.type} · ${t.hp !== undefined ? `HP ${t.hp}/${t.maxHp}` : (t.locked?'locked':'object')}</small></button>`).join('');
+  $$('[data-target]').forEach(b => b.addEventListener('click', () => { state.targetId = b.dataset.target; lastTargetId = state.targetId; render(); }));
+}
+function selectedAction(actor=findById(state.selectedId)){ return actor?.actions?.[selectedActionIndex] || actor?.actions?.[0] || null; }
+function renderRadial(){
+  const actor = findById(state.selectedId) || currentActor();
+  const radial = $('#abilityRadial');
+  const details = $('#actionDetails');
+  if(!radial || !details) return;
+  radial.innerHTML = '';
+  if(!actor || !actor.actions?.length){ details.innerHTML = '<b>No action selected.</b><small>Select a character or hostile.</small>'; return; }
+  selectedActionIndex = clamp(selectedActionIndex,0,actor.actions.length-1);
+  const count = Math.min(actor.actions.length,10);
+  const radius = Math.max(82, radial.clientWidth * .43);
+  const center = Math.max(105, radial.clientWidth / 2);
+  actor.actions.slice(0,10).forEach((a,i) => {
+    const angle = (Math.PI*2*i/count) - Math.PI/2;
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = `action-chip ${i===selectedActionIndex?'selected':''}`;
+    chip.style.left = `${center + Math.cos(angle)*radius}px`;
+    chip.style.top = `${center + Math.sin(angle)*radius}px`;
+    chip.textContent = a.name;
+    chip.title = actionText(a);
+    chip.setAttribute('aria-label', `Choose radial action ${a.name}`);
+    chip.addEventListener('click', () => { selectedActionIndex = i; render(); });
+    radial.appendChild(chip);
+  });
+  const rotation = count ? -selectedActionIndex * (360/count) : 0;
+  radial.style.setProperty('--rot', `${rotation}deg`);
+  const a = selectedAction(actor);
+  details.innerHTML = `<b>${esc(a.name)}</b><small>${esc(actionText(a))}</small>`;
+}
+function actionText(a){
+  const cost = a.spellLevel > 0 ? `Costs level ${a.spellLevel} spell slot. ` : (a.spellLevel === 0 ? 'Cantrip; no slot cost. ' : '');
+  const dmg = a.damage ? `Damage ${a.damage} ${a.damageType || ''}. ` : '';
+  const heal = a.healing ? `Healing ${a.healing}. ` : '';
+  const rng = a.range ? `Range ${a.range} ft. ` : '';
+  return `${cost}${rng}${dmg}${heal}${a.description || ''}`.trim();
+}
+
+function selectEntity(id){
+  state.selectedId = id;
+  const ent = findById(id);
+  if(ent?.kind === 'pc' && !state.targetId) state.targetId = state.hostiles.find(h=>h.alive !== false)?.id || null;
+  if(ent?.kind === 'hostile' && !state.targetId) state.targetId = state.tokens.find(p=>p.alive !== false && !p.downed)?.id || null;
+  selectedActionIndex = 0;
+  render();
+}
+
+async function parseUploads(files){
+  const list = Array.from(files || []);
+  const status = $('#importStatus');
+  if(!list.length){ if(status) status.textContent = 'No file selected.'; return; }
+  let imported = 0;
+  for(const file of list){
+    const text = await file.text();
+    let pc;
+    try{
+      if(file.name.toLowerCase().endsWith('.json')) pc = characterFromJson(JSON.parse(text), file.name);
+      else pc = characterFromHtml(text, file.name);
+    }catch(err){
+      console.error(err); toast(`Could not parse ${file.name}; adding a blank shell.`); pc = defaultCharacter(file.name.replace(/\.[^.]+$/,''));
+    }
+    if(addCharacter(pc)) imported += 1;
+  }
+  if(status) status.textContent = imported ? `Imported ${imported} character sheet${imported === 1 ? '' : 's'} for ${($('#playerName')?.value || 'Player 1')}.` : 'No character sheets were imported. Check the 3-character limit.';
+  saveLocal(); render();
+}
+function addCharacter(pc){
+  const owner = pc.owner || $('#playerName').value || 'Player 1';
+  const ownerCount = state.tokens.filter(t => (t.owner||'Player 1') === owner).length;
+  if(ownerCount >= 3){ toast(`${owner} already has 3 character tokens.`); return false; }
+  pc.owner = owner; pc.kind = 'pc'; pc.id = pc.id || uid('pc'); pc.alive = pc.alive !== false; pc.downed = pc.hp <= 0;
+  if(!pc.x) pc.x = 3 + ownerCount; if(!pc.y) pc.y = 13;
+  state.tokens.push(pc); selectEntity(pc.id); log(`${pc.name} joined the board for ${owner}.`, 'good');
+  return true;
+}
+function characterFromJson(obj, filename='character.json'){
+  const flat = flattenObject(obj);
+  const pick = (...keys) => {
+    for(const k of Object.keys(flat)){
+      const lk = k.toLowerCase();
+      if(keys.some(key => lk.includes(key))) return flat[k];
+    }
+    return undefined;
+  };
+  const name = String(pick('charactername','character name','name') || filename.replace(/\.[^.]+$/,'') || 'Imported Character');
+  const level = Number(pick('level','totallevel')) || 8;
+  const pc = defaultCharacter(name);
+  pc.level = level;
+  pc.className = String(pick('class','classes','subclass') || 'Adventurer');
+  pc.ac = Number(pick('armorclass','armor class','ac')) || pc.ac;
+  pc.maxHp = Number(pick('maxhp','max hp','hitpointmaximum','hit points maximum','hpmax','hp')) || pc.maxHp;
+  pc.hp = Number(pick('currenthp','current hp','hitpoints','hit points','hp')) || pc.maxHp;
+  pc.speed = Number(pick('speed','walking')) || pc.speed;
+  for(const ab of ['str','dex','con','int','wis','cha']) pc[ab] = Number(pick(ab, abilityLong(ab))) || pc[ab];
+  pc.spellSlots = parseSlotsFromFlat(flat, level);
+  pc.actions = actionsFromText(JSON.stringify(obj), pc);
+  pc.token = initials(pc.name); pc.color = $('#tokenColor').value || pc.color;
+  return pc;
+}
+function flattenObject(obj, prefix='', out={}){
+  if(obj && typeof obj === 'object' && !Array.isArray(obj)){
+    for(const [k,v] of Object.entries(obj)) flattenObject(v, prefix ? `${prefix}.${k}` : k, out);
+  }else if(Array.isArray(obj)){
+    obj.forEach((v,i)=>flattenObject(v, `${prefix}.${i}`, out));
+  }else out[prefix] = obj;
+  return out;
+}
+function abilityLong(ab){ return ({str:'strength',dex:'dexterity',con:'constitution',int:'intelligence',wis:'wisdom',cha:'charisma'})[ab]; }
+function characterFromHtml(html, filename='character.html'){
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  let embedded = doc.querySelector('[type="application/json"], script[data-character-json]')?.textContent;
+  if(embedded){ try{return characterFromJson(JSON.parse(embedded), filename);}catch(e){} }
+  const fields = {};
+  $$('input,textarea,select', doc).forEach(el => {
+    const key = [el.name, el.id, el.getAttribute('aria-label'), el.placeholder, el.closest('label')?.textContent].filter(Boolean).join(' ').trim();
+    const val = el.value || el.textContent || el.getAttribute('value');
+    if(key && val) fields[key] = val;
+  });
+  const text = `${doc.body?.innerText || ''}\n${JSON.stringify(fields)}`.replace(/\s+/g,' ');
+  const grab = (regex, fallback='') => (text.match(regex)?.[1] || fallback).trim();
+  const titleName = doc.querySelector('h1,h2,title')?.textContent?.trim();
+  const name = grab(/(?:Character\s*Name|Belavad[oö]sProfile|Name)\s*[:\-]?\s*([A-Z][A-Za-z'’\- ]{1,60})/, titleName || filename.replace(/\.[^.]+$/,'')) || 'Imported Character';
+  const pc = defaultCharacter(name);
+  pc.level = Number(grab(/(?:Total\s*)?Level\s*[:\-]?\s*(\d{1,2})/i, '8')) || 8;
+  pc.className = grab(/(?:Class|Subclass)\s*[:\-]?\s*([A-Za-z /,&'’\-]{3,80})/i, 'Adventurer');
+  pc.ac = Number(grab(/(?:Armor\s*Class|\bAC\b)\s*[:\-]?\s*(\d{1,2})/i, '14')) || 14;
+  pc.maxHp = Number(grab(/(?:Max(?:imum)?\s*HP|Hit\s*Point\s*Maximum|Max\s*Hit\s*Points|HP\s*Max)\s*[:\-]?\s*(\d{1,3})/i, '')) || Number(grab(/(?:Hit\s*Points|\bHP\b)\s*[:\-]?\s*(\d{1,3})/i, '44')) || 44;
+  pc.hp = Number(grab(/(?:Current\s*HP|HP\s*Current)\s*[:\-]?\s*(\d{1,3})/i, String(pc.maxHp))) || pc.maxHp;
+  pc.speed = Number(grab(/(?:Walking\s*)?Speed\s*[:\-]?\s*(\d{1,3})/i, '30')) || 30;
+  for(const ab of ['str','dex','con','int','wis','cha']){
+    const long = abilityLong(ab);
+    pc[ab] = Number(grab(new RegExp(`(?:${long}|${ab})\\s*[:\\-]?\\s*(\\d{1,2})`, 'i'), String(pc[ab]))) || pc[ab];
+  }
+  pc.spellSlots = parseSlotsFromText(text, pc.level);
+  pc.actions = actionsFromText(text, pc);
+  pc.token = initials(pc.name); pc.color = $('#tokenColor').value || pc.color;
+  return pc;
+}
+function parseSlotsFromFlat(flat, level){
+  const text = JSON.stringify(flat);
+  return parseSlotsFromText(text, level);
+}
+function parseSlotsFromText(text, level){
+  const slots = slotsForLevel(level);
+  const patterns = [
+    /(?:level|lvl|spell\s*level)?\s*([1-9])(?:st|nd|rd|th)?\s*(?:spell)?\s*slots?\s*[:=\-]?\s*(\d)/ig,
+    /spellSlots?\D+([1-9])\D+(\d)/ig,
+    /slots?\s*([1-9])\s*\/\s*(\d)/ig
+  ];
+  for(const re of patterns){
+    let m; while((m = re.exec(text))){
+      const lvl = m[1], max = Number(m[2]);
+      if(max >= 0 && max <= 9) slots[lvl] = {max, used:0};
+    }
+  }
+  return slots;
+}
+function actionsFromText(text, pc){
+  const lower = String(text).toLowerCase();
+  const actions = [];
+  for(const [key, action] of WEAPON_CATALOG) if(lower.includes(key)) actions.push(scaleAction(action, pc));
+  for(const [key, action] of SPELL_CATALOG) if(lower.includes(key)) actions.push(scaleAction(action, pc));
+  if(!actions.length) actions.push(...defaultActions().map(a=>scaleAction(a,pc)));
+  for(const utility of defaultActions().slice(5)) if(!actions.some(a=>a.name === utility.name)) actions.push(utility);
+  return uniqueActions(actions).slice(0,10);
+}
+function scaleAction(action, pc){
+  const a = deepCopy(action);
+  const prof = proficiency(pc.level || 1);
+  const attackAbility = a.type?.includes('spell') || a.type === 'save' || a.type === 'heal' ? Math.max(mod(pc.int),mod(pc.wis),mod(pc.cha)) : Math.max(mod(pc.str),mod(pc.dex));
+  if(a.attackBonus !== undefined) a.attackBonus = prof + attackAbility;
+  if(a.saveDC !== undefined) a.saveDC = 8 + prof + attackAbility;
+  return a;
+}
+function uniqueActions(actions){
+  const seen = new Set();
+  return actions.filter(a => { const k = a.name.toLowerCase(); if(seen.has(k)) return false; seen.add(k); return true; });
+}
+function proficiency(level){ return Math.ceil((Number(level)||1)/4)+1; }
+
+function rollDice(expr='1d20', options={}){
+  expr = String(expr || '1d20').toLowerCase().replace(/\s+/g,'');
+  let total = 0, detail = [], requestedResults = [], renderedTerms = [];
+  const parts = expr.match(/[+-]?[^+-]+/g) || ['0'];
+  for(const part of parts){
+    const sign = part.startsWith('-') ? -1 : 1;
+    const clean = part.replace(/^[+-]/,'');
+    const m = clean.match(/(\d*)d(\d+)/);
+    if(m){
+      const count = Math.max(1, Number(m[1] || 1)), sides = Math.max(2, Number(m[2]));
+      const rolls = [];
+      for(let i=0;i<count;i++){ const r=d(sides); rolls.push(r); requestedResults.push(r); total += sign*r; }
+      detail.push(`${sign<0?'-':''}${count}d${sides}[${rolls.join(',')}]`);
+      renderedTerms.push(`${sign<0?'-':''}${count}d${sides}`);
+    }else{
+      const n = Number(clean)||0; total += sign*n; detail.push(`${sign<0?'-':''}${n}`);
+      if(n) renderedTerms.push(`${sign<0?'-':''}${Math.abs(n)}`);
+    }
+  }
+  const renderedExpression = renderedTerms.join('+').replace(/\+-/g,'-') || expr || '1d20';
+  const result = {total, detail:detail.join(' + '), requestedResults, expression:expr, renderedExpression};
+  if(options.animate !== false){
+    send3DRoll({expression: renderedExpression, displayExpression: expr, displayTotal: total, requestedResults, stylePool:[selectedDiceStyle()], diceBot:selectedDiceBot()});
+  }
+  return result;
+}
+function spawnDie(value, kind='d20', mood=''){
+  // Legacy 2D text dice are intentionally disabled. All dice mechanics route through rollDice() and the transparent over-grid 3D iframe roller.
+  if(kind && /^d\d+$/i.test(kind) && Number.isFinite(Number(value))){
+    announceDiceBot(mood === 'good' ? 'critical_success' : mood === 'bad' ? 'critical_failure' : 'roll_result', {notation:kind, total:value, rolls:String(value)});
+  }
+}
+function bloodFx(ent){
+  const fx = document.createElement('div'); fx.className = 'bloodfx';
+  const px = cellPx(); fx.style.left = `${(ent.x-.5)*px}px`; fx.style.top = `${(ent.y-.5)*px}px`;
+  $('#diceLayer').appendChild(fx); setTimeout(()=>fx.remove(), 900);
+}
+
+function generateHostiles(){
+  if(!isDmMode()) return toast('Hostiles can only be set in #dm-session.');
+  const count = clamp(Number($('#hostileCount').value)||0,0,60);
+  const templateKey = $('#hostileTemplate').value;
+  const tpl = HOSTILE_TEMPLATES[templateKey] || HOSTILE_TEMPLATES.goblin;
+  state.hostiles = [];
+  for(let i=0;i<count;i++){
+    const h = deepCopy(tpl);
+    h.id = uid('hostile'); h.kind = 'hostile'; h.name = `${tpl.label} ${i+1}`; h.maxHp = tpl.hp; h.hp = tpl.hp; h.ac = tpl.ac; h.level = 1;
+    h.x = 17 + (i % 6); h.y = 3 + Math.floor(i / 6); h.alive = true; h.downed = false; h.movementLeft = h.speed; h.actionUsed = false;
+    h.dexMod = mod(h.dex); h.lore = tpl.lore; h.loot = tpl.loot; h.interrogation = tpl.interrogation;
+    state.hostiles.push(h);
+  }
+  state.hostileBehavior = $('#hostileBehavior').value;
+  state.initiative = []; state.turnIndex = -1; state.round = 0;
+  log(`DM set ${count} hostile(s): ${tpl.label}.`, 'warn');
+  saveLocal(); render();
+}
+function clearHostiles(){
+  if(!isDmMode()) return toast('Hostiles can only be cleared in #dm-session.');
+  state.hostiles = []; state.initiative = []; state.turnIndex = -1; state.round = 0; log('Hostiles cleared.', 'warn'); saveLocal(); render();
+}
+function startEncounter(){
+  if(!isDmMode()) return toast('Initiative is DM-gated under #dm-session.');
+  const alive = allCombatants().filter(c => c.alive !== false && !c.downed);
+  if(!alive.length) return toast('Add at least one PC or hostile.');
+  state.initiative = alive.map(c => {
+    const dexBonus = mod(c.dex || 10); const dieRoll = rollDice('1d20'); const roll = dieRoll.total + dexBonus;
+    return {id:c.id,name:c.name,roll,dex:dexBonus,kind:c.kind};
+  }).sort((a,b)=> b.roll-a.roll || b.dex-a.dex);
+  state.turnIndex = 0; state.round = 1;
+  for(const c of alive) resetTurnResources(c);
+  const actor = currentActor(); if(actor) state.selectedId = actor.id;
+  log(`Initiative rolled. ${actor?.name || 'Someone'} acts first.`, 'good');
+  saveLocal(); render();
+  maybeRunHostileTurn();
+}
+function resetTurnResources(c){ c.movementLeft = c.speed || 30; c.actionUsed = false; c.reactionUsed = false; }
+function endTurn(){
+  if(!state.initiative.length) return toast('No encounter has started.');
+  let safety = 0;
+  do {
+    state.turnIndex++;
+    if(state.turnIndex >= state.initiative.length){ state.turnIndex = 0; state.round++; log(`Round ${state.round} begins.`, 'sys'); }
+    safety++;
+  } while(safety < state.initiative.length+2 && !currentActor());
+  const actor = currentActor();
+  if(actor){ resetTurnResources(actor); state.selectedId = actor.id; log(`${actor.name}'s turn begins.`, actor.kind==='hostile'?'warn':'good'); }
+  cleanupInitiative(); saveLocal(); render(); maybeRunHostileTurn();
+}
+function cleanupInitiative(){
+  state.initiative = state.initiative.filter(n => {
+    const e = allCombatants().find(c => c.id === n.id);
+    return e && e.alive !== false && !e.downed;
+  });
+  if(!state.initiative.length){ state.turnIndex = -1; }
+  else state.turnIndex = clamp(state.turnIndex,0,state.initiative.length-1);
+}
+function maybeRunHostileTurn(){
+  const actor = currentActor();
+  if(actor?.kind === 'hostile') setTimeout(() => onyxHostileTurn(actor.id), 450);
+}
+function onyxHostileTurn(id=currentActor()?.id){
+  const actor = findById(id);
+  if(!actor || actor.kind !== 'hostile' || actor.alive === false) return;
+  if(!isCurrentActor(actor) && state.initiative.length) return toast('That hostile is not the current turn.');
+  const targets = state.tokens.filter(p => p.alive !== false && !p.downed);
+  if(!targets.length){ log('The Onyx finds no standing player characters.', 'warn'); return; }
+  const target = chooseHostileTarget(actor, targets);
+  state.targetId = target.id;
+  const action = chooseHostileAction(actor, target);
+  const range = action?.range || 5;
+  const dist = distanceFeet(actor,target);
+  if(dist > range){
+    moveToward(actor, target, actor.movementLeft ?? actor.speed, range, state.hostileBehavior);
+    log(`Onyx moves ${actor.name} toward ${target.name}. ${onyxLine('movement', {actor:actor.name,target:target.name})}`, 'warn');
+  }
+  const updatedDist = distanceFeet(actor,target);
+  if(action && updatedDist <= range) resolveAction(actor, action, target, {autoEnd:true, byOnyx:true});
+  else { log(`${actor.name} cannot reach a target and holds position.`, 'warn'); endTurn(); }
+}
+function chooseHostileTarget(actor, targets){
+  const behavior = state.hostileBehavior || 'tactical';
+  const inRange = targets.filter(t => actor.actions.some(a => distanceFeet(actor,t) <= (a.range || 5)));
+  if(behavior === 'brutal') return [...targets].sort((a,b)=>(a.hp/a.maxHp)-(b.hp/b.maxHp) || distanceFeet(actor,a)-distanceFeet(actor,b))[0];
+  if(behavior === 'skirmish') return [...targets].sort((a,b)=>distanceFeet(actor,b)-distanceFeet(actor,a))[0] || targets[0];
+  return [...(inRange.length ? inRange : targets)].sort((a,b)=>distanceFeet(actor,a)-distanceFeet(actor,b) || a.hp-b.hp)[0];
+}
+function chooseHostileAction(actor,target){
+  const sorted = [...actor.actions].sort((a,b) => (distanceFeet(actor,target) <= (b.range||5) ? 1:0) - (distanceFeet(actor,target) <= (a.range||5) ? 1:0) || expectedDamage(b)-expectedDamage(a));
+  return sorted[0];
+}
+function expectedDamage(action){
+  if(!action.damage) return 0;
+  const m = String(action.damage).match(/(\d*)d(\d+)/); if(!m) return Number(action.damage)||0;
+  return Number(m[1]||1)*(Number(m[2])+1)/2;
+}
+function moveToward(actor,target,feet,desiredRange=5,behavior='tactical'){
+  let steps = Math.floor((feet || 30)/CELL_FEET);
+  while(steps-- > 0 && distanceFeet(actor,target) > desiredRange){
+    const dx = Math.sign(target.x - actor.x), dy = Math.sign(target.y - actor.y);
+    if(Math.abs(target.x-actor.x) >= Math.abs(target.y-actor.y)) actor.x = clamp(actor.x + dx,1,GRID_COLS);
+    else actor.y = clamp(actor.y + dy,1,GRID_ROWS);
+  }
+  if(behavior === 'skirmish'){
+    // keep distance if already in ranged range
+    const ranged = actor.actions.find(a => (a.range||0) >= 60);
+    if(ranged && distanceFeet(actor,target) < 30){
+      actor.x = clamp(actor.x - Math.sign(target.x-actor.x),1,GRID_COLS);
+      actor.y = clamp(actor.y - Math.sign(target.y-actor.y),1,GRID_ROWS);
+    }
+  }
+  actor.movementLeft = 0;
+}
+
+function resolveSelectedAction(){
+  const actor = findById(state.selectedId) || currentActor();
+  const target = findById(state.targetId || lastTargetId);
+  if(!actor) return toast('Select a character or hostile first.');
+  const action = selectedAction(actor);
+  if(!action) return toast('No action selected.');
+  resolveAction(actor, action, target, {autoEnd:false});
+}
+function resolveAction(actor, action, target, opts={}){
+  if(state.initiative.length && !isCurrentActor(actor) && !isDmMode()) return toast(`${actor.name} is not the current turn.`);
+  if(actor.actionUsed && !isDmMode()) return toast(`${actor.name} already used an action this turn.`);
+  if(['attack','spellAttack','save','autoHit'].includes(action.type) && !target) return toast('Select a target.');
+  if(action.type !== 'dash' && action.type !== 'dodge' && action.type !== 'help' && target && distanceFeet(actor,target) > (action.range || 5)) return toast(`${target.name} is out of range for ${action.name}.`);
+  if(action.spellLevel > 0 && !spendSlot(actor, action.spellLevel)) return toast(`${actor.name} has no level ${action.spellLevel} spell slots left.`);
+  let used = true;
+  if(action.type === 'dash'){
+    actor.movementLeft = (actor.movementLeft || 0) + (actor.speed || 30); log(`${actor.name} dashes and gains ${actor.speed || 30} ft movement.`, 'good');
+  } else if(action.type === 'dodge'){
+    actor.conditions = uniqueStrings([...(actor.conditions||[]),'dodging']); log(`${actor.name} takes the Dodge action.`, 'good');
+  } else if(action.type === 'help'){
+    log(`${actor.name} helps an ally. The next fitting roll can be treated with advantage by the DM.`, 'good');
+  } else if(action.type === 'heal'){
+    const healTarget = target?.kind === actor.kind ? target : actor;
+    const heal = rollDice(action.healing || '1d8').total;
+    healTarget.hp = clamp((healTarget.hp||0)+heal,0,healTarget.maxHp||heal);
+    if(healTarget.hp > 0){ healTarget.downed = false; healTarget.alive = true; }
+    spawnDie(heal,'d20','good'); log(`${actor.name} uses ${action.name}. ${healTarget.name} heals ${heal} HP.`, 'good');
+  } else if(action.type === 'autoHit'){
+    applyDamage(actor,target,action,rollDice(action.damage || '1').total,false,true);
+  } else if(action.type === 'save'){
+    const saveBonus = mod(target?.[action.saveAbility || 'dex'] || 10);
+    const saveD20 = rollDice('1d20'); const saveRoll = saveD20.total; const saveTotal = saveRoll + saveBonus;
+    spawnDie(saveRoll,'d20', saveRoll >= 18 ? 'good' : saveRoll <= 2 ? 'bad':'');
+    const dmgRoll = rollDice(action.damage || '1d6');
+    const failed = saveRoll === 1 || (saveRoll !== 20 && saveTotal < (action.saveDC || 12));
+    const dmg = failed ? dmgRoll.total : Math.floor(dmgRoll.total/2);
+    applyDamage(actor,target,action,dmg,!failed,false,`save ${saveTotal} vs DC ${action.saveDC || 12}`);
+  } else {
+    const attackD20 = rollDice('1d20');
+    const attackRoll = attackD20.total;
+    const attackTotal = attackRoll + (action.attackBonus || 0);
+    const crit = attackRoll === 20;
+    const miss = attackRoll === 1 || (!crit && attackTotal < (target.ac || 10));
+    spawnDie(attackRoll,'d20', crit ? 'good' : attackRoll === 1 ? 'bad':'');
+    if(miss){ log(`${actor.name} uses ${action.name}: d20 ${attackRoll} + ${action.attackBonus || 0} = ${attackTotal}, missing ${target.name}'s AC ${target.ac || 10}.`, 'hit'); }
+    else{
+      let dmgRoll = rollDice(action.damage || '1');
+      let dmg = dmgRoll.total;
+      if(crit){
+        const doubled = doubleDiceExpression(action.damage || '1');
+        dmgRoll = rollDice(doubled); dmg = dmgRoll.total;
+      }
+      applyDamage(actor,target,action,dmg,false,crit,`attack ${attackTotal} vs AC ${target.ac || 10}`);
+    }
+  }
+  if(used){ actor.actionUsed = true; }
+  saveLocal(); render();
+  if(opts.autoEnd) setTimeout(endTurn, 600);
+}
+function doubleDiceExpression(expr){ return String(expr).replace(/(\d*)d(\d+)/ig, (_,c,s)=>`${(Number(c||1)*2)}d${s}`); }
+function spendSlot(actor, level){
+  actor.spellSlots = actor.spellSlots || slotsForLevel(actor.level || 1);
+  const s = actor.spellSlots[String(level)];
+  if(!s || (s.used||0) >= (s.max||0)) return false;
+  s.used = (s.used||0)+1;
+  return true;
+}
+function applyDamage(actor,target,action,dmg,half=false,crit=false,rollNote=''){
+  if(!target) return;
+  target.hp = clamp((target.hp || 0) - dmg, 0, target.maxHp || 1);
+  const result = `${actor.name} uses ${action.name} on ${target.name}: ${rollNote}${rollNote?' · ':''}${half?'save succeeds, ':''}${crit?'CRITICAL HIT, ':''}${dmg} ${action.damageType || ''} damage. ${target.name} is at ${target.hp}/${target.maxHp} HP.`;
+  log(result, target.kind === 'pc' ? 'hit' : 'good');
+  if(target.hp <= 0) defeatEntity(target, actor);
+}
+function defeatEntity(target, actor){
+  target.hp = 0;
+  target.downed = true;
+  if(target.kind === 'hostile'){
+    target.alive = false;
+    target.name = target.name.replace(/ \(body\)$/,'') + ' (body)';
+    bloodFx(target);
+    log(`${target.name} drops. A body marker remains for loot, lore drops, and quest hooks.`, 'warn');
+  }else{
+    target.alive = true;
+    log(`${target.name} is downed at 0 HP. Healing can bring them back.`, 'hit');
+  }
+  cleanupInitiative();
+}
+
+function addMapObject(type){
+  if(!isDmMode()) return toast('Doors, chests, locks, and traps can only be placed in #dm-session.');
+  const centerX = clamp(Math.ceil(GRID_COLS/2),1,GRID_COLS), centerY = clamp(Math.ceil(GRID_ROWS/2),1,GRID_ROWS);
+  const labels = {door:'Locked Door', chest:'Locked Chest', trap:'Hidden Trap'};
+  const obj = {id:uid(type),kind:'object',type,name:labels[type] || 'Map Object',x:centerX,y:centerY,locked:type==='door'||type==='chest',lockDC:14,trapArmed:type==='trap'||type==='chest',trapDC:type==='trap'?14:13,trapDamage:type==='trap'?'2d8':'2d6',triggerRadiusFeet:type==='trap'?5:0,lore:'',loot:type==='chest'?'Add loot here.':'',interrogation:'',revealed:type!=='trap'};
+  state.objects.push(obj); selectEntity(obj.id); log(`DM placed ${obj.name}.`, 'warn'); saveLocal(); render();
+}
+function interact(){
+  const actor = findById(state.selectedId) || currentActor();
+  const target = findById(state.targetId || lastTargetId || state.selectedId);
+  if(!actor) return toast('Select a character first.');
+  if(!target) return toast('Select something to interact with.');
+  if(actor.id !== target.id && distanceFeet(actor,target) > 5 && target.kind !== 'hostile') return toast('Move within 5 ft to interact.');
+  if(target.kind === 'object') return interactObject(actor,target);
+  if(target.kind === 'hostile' && target.alive !== false){
+    const msg = target.interrogation || 'This hostile has no interrogation hook set yet.';
+    log(`${actor.name} interrogates ${target.name}: ${msg}`, 'sys');
+    return showModal('Interrogation Hook', `<p>${esc(msg)}</p>`);
+  }
+  if(target.kind === 'hostile' && target.alive === false){
+    const html = `<p><b>Lore / quest hook:</b></p><p>${esc(target.lore || 'No lore drop set yet.')}</p><p><b>Loot:</b></p><p>${esc(target.loot || 'No loot set yet.')}</p>`;
+    log(`${actor.name} searches ${target.name}.`, 'sys');
+    return showModal('Body Search', html);
+  }
+  toast('That target does not have an interaction hook.');
+}
+
+function evaluateAutonomousObjects(actor){
+  if(!state.autonomousMode || !actor || actor.kind !== 'pc') return;
+  for(const obj of state.objects){
+    if(obj.trapArmed && distanceFeet(actor,obj) <= (obj.triggerRadiusFeet ?? 5)){
+      autonomousTrapCheck(actor,obj);
+    }
+  }
+}
+function autonomousTrapCheck(actor,obj){
+  if(!obj.trapArmed) return;
+  const noticeRoll = rollDice('1d20').total;
+  const noticeTotal = noticeRoll + Math.max(mod(actor.wis||10), mod(actor.int||10));
+  if(noticeTotal >= (obj.trapDC || 13)){
+    obj.revealed = true;
+    obj.trapArmed = false;
+    log(`Autonomous Onyx: ${actor.name} notices and avoids ${obj.name} with ${noticeTotal} vs DC ${obj.trapDC}.`, 'good');
+    return;
+  }
+  const saveRoll = rollDice('1d20').total;
+  const saveTotal = saveRoll + mod(actor.dex || 10);
+  const dmgRoll = rollDice(obj.trapDamage || '1d6');
+  const dmg = saveTotal >= (obj.trapDC || 13) ? Math.floor(dmgRoll.total/2) : dmgRoll.total;
+  actor.hp = clamp((actor.hp||0)-dmg,0,actor.maxHp||1);
+  if(actor.hp <= 0){ actor.downed = true; }
+  obj.trapArmed = false; obj.revealed = true;
+  log(`Autonomous Onyx triggers ${obj.name}: ${actor.name} rolls ${noticeTotal} to notice, Dex save ${saveTotal}, takes ${dmg} damage.`, 'hit');
+}
+
+function interactObject(actor,obj){
+  if(obj.trapArmed){
+    const roll = rollDice('1d20').total, total = roll + mod(actor.dex || 10);
+    spawnDie(roll,'d20', total >= (obj.trapDC||12) ? 'good' : 'bad');
+    if(total < (obj.trapDC || 12)){
+      const dmg = rollDice(obj.trapDamage || '1d6').total;
+      actor.hp = clamp(actor.hp - dmg,0,actor.maxHp);
+      log(`${actor.name} triggers a trap on ${obj.name}: ${dmg} damage.`, 'hit');
+      if(actor.hp <= 0){ actor.downed = true; log(`${actor.name} is downed by the trap.`, 'hit'); }
+    }else log(`${actor.name} spots/disarms the trap on ${obj.name} with ${total}.`, 'good');
+    obj.trapArmed = false;
+  }
+  if(obj.locked){
+    const roll = rollDice('1d20').total, total = roll + Math.max(mod(actor.dex||10), mod(actor.int||10));
+    spawnDie(roll,'d20', total >= (obj.lockDC||14) ? 'good' : 'bad');
+    if(total >= (obj.lockDC || 14)){ obj.locked = false; log(`${actor.name} opens ${obj.name} with ${total} vs DC ${obj.lockDC}.`, 'good'); }
+    else { log(`${actor.name} fails to open ${obj.name}: ${total} vs DC ${obj.lockDC}.`, 'hit'); }
+  }
+  if(!obj.locked){
+    const html = `<p><b>Lore / quest hook:</b></p><p>${esc(obj.lore || 'No lore drop set yet.')}</p><p><b>Loot:</b></p><p>${esc(obj.loot || 'No loot set yet.')}</p>`;
+    showModal(`${obj.name} Opened`, html);
+  }
+  saveLocal(); render();
+}
+
+function renderCreatorEditors(){
+  const ent = findById(state.selectedId);
+  const pc = ent?.kind === 'pc' ? ent : null;
+  const setVal = (id,val='') => { const el = $('#'+id); if(el && document.activeElement !== el) el.value = val ?? ''; };
+  setVal('pcEditName', pc?.name || '');
+  setVal('pcEditToken', pc?.token || (pc ? initials(pc.name) : ''));
+  setVal('pcEditColor', pc?.color || '#00ffff');
+  setVal('pcEditAc', pc?.ac ?? '');
+  setVal('pcEditHp', pc?.hp ?? '');
+  setVal('pcEditMaxHp', pc?.maxHp ?? '');
+  setVal('pcEditSpeed', pc?.speed ?? '');
+  setVal('pcEditLevel', pc?.level ?? '');
+  const action = pc ? selectedAction(pc) : null;
+  setVal('radialActionName', action?.name || '');
+  setVal('radialActionType', action?.type || 'attack');
+  setVal('radialActionRange', action?.range ?? '');
+  setVal('radialActionAttack', action?.attackBonus ?? '');
+  setVal('radialActionDc', action?.saveDC ?? '');
+  setVal('radialActionDamage', action?.damage || action?.healing || '');
+  setVal('radialActionDamageType', action?.damageType || '');
+  setVal('radialActionSlot', action?.spellLevel ?? '');
+  setVal('radialActionDesc', action?.description || '');
+}
+function savePcTokenEdit(){
+  if(!isCreatorMode()) return toast('Add #dm-session or #dm-editor to edit character tokens.');
+  const pc = findById(state.selectedId);
+  if(!pc || pc.kind !== 'pc') return toast('Select a player character token first.');
+  pc.name = $('#pcEditName').value.trim() || pc.name;
+  pc.token = $('#pcEditToken').value.trim() || initials(pc.name);
+  pc.color = $('#pcEditColor').value || pc.color;
+  pc.ac = Number($('#pcEditAc').value) || pc.ac;
+  pc.maxHp = Math.max(1, Number($('#pcEditMaxHp').value) || pc.maxHp);
+  pc.hp = clamp(Number($('#pcEditHp').value) || pc.hp, 0, pc.maxHp);
+  pc.speed = Math.max(0, Number($('#pcEditSpeed').value) || pc.speed);
+  pc.level = clamp(Number($('#pcEditLevel').value) || pc.level || 1, 1, 20);
+  pc.downed = pc.hp <= 0;
+  log(`Creator updated token ${pc.name}.`, 'warn'); saveLocal(); render();
+}
+function saveRadialActionEdit(){
+  if(!isCreatorMode()) return toast('Add #dm-session or #dm-editor to edit radial actions.');
+  const pc = findById(state.selectedId);
+  if(!pc || pc.kind !== 'pc') return toast('Select a player character token first.');
+  pc.actions = Array.isArray(pc.actions) ? pc.actions : [];
+  const name = $('#radialActionName').value.trim();
+  if(!name) return toast('Radial action needs a name.');
+  const type = $('#radialActionType').value || 'attack';
+  const action = {name, type, range:Number($('#radialActionRange').value)||0, description:$('#radialActionDesc').value.trim()};
+  const attack = $('#radialActionAttack').value;
+  const dc = $('#radialActionDc').value;
+  const dmg = $('#radialActionDamage').value.trim();
+  const dmgType = $('#radialActionDamageType').value.trim();
+  const slot = $('#radialActionSlot').value;
+  if(attack !== '') action.attackBonus = Number(attack);
+  if(dc !== '') action.saveDC = Number(dc);
+  if(dmg){ if(type === 'heal') action.healing = dmg; else action.damage = dmg; }
+  if(dmgType) action.damageType = dmgType;
+  if(slot !== '') action.spellLevel = clamp(Number(slot),0,9);
+  const existing = pc.actions.findIndex(a => a.name.toLowerCase() === name.toLowerCase());
+  if(existing >= 0) { pc.actions[existing] = {...pc.actions[existing], ...action}; selectedActionIndex = existing; }
+  else { pc.actions.push(action); selectedActionIndex = pc.actions.length - 1; }
+  pc.actions = uniqueActions(pc.actions).slice(0,12);
+  log(`Creator saved ${name} to ${pc.name}'s radial.`, 'warn'); saveLocal(); render();
+}
+function removeRadialActionEdit(){
+  if(!isCreatorMode()) return toast('Add #dm-session or #dm-editor to edit radial actions.');
+  const pc = findById(state.selectedId);
+  if(!pc || pc.kind !== 'pc' || !pc.actions?.length) return toast('Select a player character radial action first.');
+  const removed = pc.actions.splice(selectedActionIndex,1)[0];
+  selectedActionIndex = clamp(selectedActionIndex,0,Math.max(0,pc.actions.length-1));
+  log(`Creator removed ${removed?.name || 'an action'} from ${pc.name}'s radial.`, 'warn'); saveLocal(); render();
+}
+
+function saveSelectedMeta(){
+  if(!isCreatorMode()) return toast('Add #dm-session or #dm-editor to use creator tools.');
+  const ent = findById(state.selectedId); if(!ent) return toast('Nothing selected.');
+  ent.name = $('#selName').value || ent.name;
+  const acdc = Number($('#selAcDc').value);
+  if(ent.kind === 'object') ent.lockDC = acdc || ent.lockDC; else ent.ac = acdc || ent.ac;
+  const hp = Number($('#selHp').value);
+  if(!Number.isNaN(hp) && hp >= 0 && ent.hp !== undefined){ ent.hp = hp; ent.maxHp = Math.max(ent.maxHp || hp, hp); ent.downed = hp <= 0; }
+  ent.trapDC = Number($('#selTrapDc').value) || ent.trapDC;
+  ent.lore = $('#selLore').value; ent.loot = $('#selLoot').value; ent.interrogation = $('#selInterrogate').value;
+  log(`DM updated metadata for ${ent.name}.`, 'warn'); saveLocal(); render();
+}
+function deleteSelected(){
+  if(!isCreatorMode()) return toast('Add #dm-session or #dm-editor to use creator tools.');
+  const id = state.selectedId; if(!id) return;
+  state.tokens = state.tokens.filter(e=>e.id!==id);
+  state.hostiles = state.hostiles.filter(e=>e.id!==id);
+  state.objects = state.objects.filter(e=>e.id!==id);
+  state.initiative = state.initiative.filter(e=>e.id!==id);
+  state.selectedId = null; log('DM deleted selected board item.', 'warn'); saveLocal(); render();
+}
+
+function showEntityModal(ent){
+  const fields = [`<p><b>${esc(ent.name)}</b></p>`, `<p>${esc(ent.kind || ent.type)} · HP ${ent.hp ?? '—'}/${ent.maxHp ?? '—'} · AC/DC ${ent.ac ?? ent.lockDC ?? '—'}</p>`];
+  if(ent.actions?.length) fields.push(`<p><b>Actions</b></p><ul>${ent.actions.map(a=>`<li>${esc(a.name)} — ${esc(actionText(a))}</li>`).join('')}</ul>`);
+  if(ent.lore) fields.push(`<p><b>Lore:</b> ${esc(ent.lore)}</p>`);
+  if(ent.loot) fields.push(`<p><b>Loot:</b> ${esc(ent.loot)}</p>`);
+  if(ent.interrogation) fields.push(`<p><b>Interrogation:</b> ${esc(ent.interrogation)}</p>`);
+  showModal(ent.name, fields.join(''));
+}
+function showModal(title, html){ $('#modalTitle').textContent = title; $('#modalBody').innerHTML = html; $('#modal').classList.add('show'); }
+
+function saveLocal(){ localStorage.setItem('belavados.onyx.encounter.board', JSON.stringify(state)); }
+function loadExportedState(){
+  try{
+    const tag = document.getElementById('belavadosExportState');
+    const raw = tag ? tag.textContent.trim() : '';
+    if(!raw || raw === 'null') return null;
+    const exported = JSON.parse(raw);
+    exported.backendUrl = BACKEND_URL;
+    exported.autonomousMode = exported.autonomousMode !== false;
+    return exported;
+  }catch(e){ return null; }
+}
+function loadLocal(){
+  try{ const raw = localStorage.getItem('belavados.onyx.encounter.board'); return raw ? JSON.parse(raw) : null; }catch(e){ return null; }
+}
+function resetBoard(){
+  if(!confirm('Reset the board state on this device?')) return;
+  state = makeInitialState(); selectedActionIndex = 0; localStorage.removeItem('belavados.onyx.encounter.board'); log('Board reset.', 'warn'); render();
+}
+
+function exportMiniGameHtml(){
+  if(!isCreatorMode()) return toast('Add #dm-session or #dm-editor to export a finished mini-game.');
+  ensureSceneState();
+  state.autonomousMode = true;
+  state.exportedAt = new Date().toISOString();
+  state.backendUrl = BACKEND_URL;
+  saveLocal();
+  const clone = document.documentElement.cloneNode(true);
+  const tag = clone.querySelector('#belavadosExportState');
+  if(tag) tag.textContent = JSON.stringify(state);
+  const htmlText = '<!doctype html>\n' + clone.outerHTML;
+  const d = new Date();
+  const yy = String(d.getFullYear()).slice(-2);
+  const filename = `encounters_minigame_${d.getMonth()+1}-${d.getDate()}-${yy}.html`;
+  const blob = new Blob([htmlText], {type:'text/html'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); URL.revokeObjectURL(a.href);
+  log(`Exported autonomous mini-game HTML as ${filename}.`, 'good');
+}
+
+function exportJson(){
+  const blob = new Blob([JSON.stringify(state,null,2)], {type:'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `belavados-dm-board-${new Date().toISOString().slice(0,10)}.json`; a.click(); URL.revokeObjectURL(a.href);
+}
+async function importJson(file){
+  try{ state = JSON.parse(await file.text()); state.backendUrl = BACKEND_URL; log('Imported board JSON.', 'good'); saveLocal(); render(); }
+  catch(e){ toast('Could not import that JSON.'); }
+}
+async function backendSync(){
+  const payload = {backend:'playerzone', action:'apiImportFullState', dmHash:'#dm-session', app:'BelavadosOnyxEncounterBoard', version:state.version, timestamp:new Date().toISOString(), state};
+  $('#backendBadge').textContent = 'Syncing...';
+  try{
+    const res = await fetch(BACKEND_URL, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:JSON.stringify(payload)});
+    $('#backendBadge').textContent = res.ok ? 'Backend synced' : `Backend ${res.status}`;
+    log(`Backend sync attempted: HTTP ${res.status}.`, res.ok?'good':'warn');
+  }catch(err){
+    $('#backendBadge').textContent = 'Backend offline/fallback';
+    log(`Backend sync could not complete from this browser: ${err.message}. Local save is intact.`, 'warn');
+  }
+}
+
+function showHelp(){
+  showModal('How this board works', `<div class="stack"><p><b>DM mode:</b> add <span class="kbd">#dm-session</span> to the URL. Hostile creation, traps, locks, metadata editing, initiative controls, blank-token creation, token editing, radial setup, JSON board import/export, and backend sync are hidden behind the hash. Character sheet importing is player-facing.</p><p><b>Players:</b> choose one of the available character tokens. Each player can upload and control up to 3 character tokens from HTML/JSON character sheets. Token editing and radial setup stay in creator mode. The board extracts AC, HP, level, ability scores, spell slots, weapons, and known spell names when present.</p><p><b>Map/minigame:</b> the DM can upload a map behind the 5 ft grid, resize the board, and keep the encounter screen feeling like a desktop/mobile game.</p><p><b>Rules:</b> initiative uses d20 + Dex modifier. Attacks roll d20 + attack bonus versus AC. Save actions roll target save vs DC. Spell actions with a level spend matching spell slots. Damage lowers HP. Player characters drop to 0 and become downed; hostiles leave body markers for loot and lore.</p><p><b>Onyx:</b> hostile turns pick targets, move within speed, choose an attack by range/damage, spend actions, and end turn automatically. Autonomous mode also checks player movement against traps and locked doors so the exported mini-game can run without the DM manually piloting hostiles, traps, locks, or doors.</p><p><b>Export:</b> DM/exporter mode downloads a dated autonomous HTML named <span class="kbd">encounters_minigame_M-D-YY.html</span>.</p></div>`);
+}
+
+function uniqueStrings(arr){ return [...new Set(arr.filter(Boolean))]; }
+
+function bindEvents(){
+  window.addEventListener('hashchange', render);
+  $('#toggleDmBtn').addEventListener('click', () => { location.hash = ''; setTimeout(render,0); });
+  $('#saveLocalBtn').addEventListener('click', () => { saveLocal(); toast('Saved on this device.'); });
+  $('#exportHtmlBtn')?.addEventListener('click', exportMiniGameHtml);
+  $('#exportBtn').addEventListener('click', exportJson);
+  $('#backendSaveBtn').addEventListener('click', backendSync);
+  $('#sheetUpload').addEventListener('change', e => parseUploads(e.target.files));
+
+  $('#mapUpload')?.addEventListener('change', e => handleMapUpload(e.target.files));
+  $('#applySceneBtn')?.addEventListener('click', applySceneControls);
+  $('#clearMapBtn')?.addEventListener('click', () => { state.mapImage=''; saveLocal(); render(); toast('Map image cleared.'); });
+  ['sceneName','mapMode','gridOpacity','cellSize','boardCols','boardRows','gridPreset','autonomousMode'].forEach(id => $('#'+id)?.addEventListener('change', applySceneControls));
+  $('#diceBotSelect')?.addEventListener('change', e => { state.diceBotId = e.target.value; saveLocal(); render(); announceDiceBot('roll_start', {notation:'your next roll'}); });
+  $('#diceDesignSelect')?.addEventListener('change', e => { state.diceDesignSlug = e.target.value; saveLocal(); syncDice3DConfig(); render(); toast('Dice design synced to the over-grid roller.'); });
+  $('#onyxAskBtn')?.addEventListener('click', () => askOnyxDM(false));
+  $('#onyxAdviceBtn')?.addEventListener('click', () => askOnyxDM(true));
+  $('#onyxVaultBtn')?.addEventListener('click', showOnyxAccessVault);
+  $('#onyxRunAllBtn')?.addEventListener('click', runAllOnyxHostiles);
+  $('#addBlankCharacterBtn').addEventListener('click', () => { addCharacter(defaultCharacter(`Character ${state.tokens.length+1}`)); saveLocal(); render(); });
+  $('#clearPlayersBtn').addEventListener('click', () => { if(isCreatorMode()){ state.tokens=[]; state.initiative=[]; log('PC tokens cleared.', 'warn'); saveLocal(); render(); } });
+  $('#generateHostilesBtn').addEventListener('click', generateHostiles);
+  $('#clearHostilesBtn').addEventListener('click', clearHostiles);
+  $('#startEncounterBtn').addEventListener('click', startEncounter);
+  $('#onyxTurnBtn').addEventListener('click', () => onyxHostileTurn());
+  $('#addDoorBtn').addEventListener('click', () => addMapObject('door'));
+  $('#addChestBtn').addEventListener('click', () => addMapObject('chest'));
+  $('#addTrapBtn')?.addEventListener('click', () => addMapObject('trap'));
+  $('#saveSelectedMetaBtn').addEventListener('click', saveSelectedMeta);
+  $('#deleteSelectedBtn').addEventListener('click', deleteSelected);
+  $('#prevActionBtn').addEventListener('click', () => {
+    const actor = findById(state.selectedId) || currentActor(); if(!actor?.actions?.length) return toast('Select a token with actions.');
+    selectedActionIndex = (selectedActionIndex - 1 + actor.actions.length) % actor.actions.length; render();
+  });
+  $('#cycleRadialBtn').addEventListener('click', () => {
+    const actor = findById(state.selectedId) || currentActor(); if(!actor?.actions?.length) return toast('Select a token with actions.');
+    selectedActionIndex = (selectedActionIndex + 1) % actor.actions.length; render();
+  });
+  $('#useActionBtn').addEventListener('click', resolveSelectedAction);
+  $('#interactBtn').addEventListener('click', interact);
+  $('#rollD20Btn').addEventListener('click', () => { const roll=rollDice('1d20'); const r=roll.total; spawnDie(r,'d20',r===20?'good':r===1?'bad':''); log(`Manual d20 roll: ${r}.`, 'sys'); });
+  $('#rollDmgBtn').addEventListener('click', () => { const a = selectedAction(); const expr = a?.damage || '1d8'; const r=rollDice(expr); spawnDie(r.total,'d20'); log(`Manual damage roll ${expr}: ${r.total} (${r.detail}).`, 'sys'); });
+  $('#centerSelectedBtn').addEventListener('click', () => { const ent=findById(state.selectedId); if(!ent) return; const px=cellPx(); $('#battleShell').scrollTo({left:Math.max(0,(ent.x-6)*px),top:Math.max(0,(ent.y-5)*px),behavior:'smooth'}); });
+  $('#endTurnBtn').addEventListener('click', endTurn);
+  $('#importJsonBtn').addEventListener('click', () => $('#importJsonFile').click());
+  $('#importJsonFile').addEventListener('change', e => e.target.files[0] && importJson(e.target.files[0]));
+  $('#resetBoardBtn').addEventListener('click', resetBoard);
+  $('#savePcTokenBtn').addEventListener('click', savePcTokenEdit);
+  $('#saveRadialActionBtn').addEventListener('click', saveRadialActionEdit);
+  $('#removeRadialActionBtn').addEventListener('click', removeRadialActionEdit);
+  $('#closeModalBtn').addEventListener('click', () => $('#modal').classList.remove('show'));
+  $('#modal').addEventListener('click', e => { if(e.target.id === 'modal') $('#modal').classList.remove('show'); });
+  document.addEventListener('keydown', e => {
+    if(e.key === '?' && !/input|textarea|select/i.test(document.activeElement.tagName)) showHelp();
+    if(e.key === 'Escape') $('#modal').classList.remove('show');
+  });
+}
+
+
+function onyxAccessIndex(){ return window.ONYX_MERGED_ACCESS_INDEX || {files:[], counts:{}}; }
+function updateOnyxVaultSummary(){
+  const el = $('#onyxVaultSummary'); if(!el) return;
+  const idx = onyxAccessIndex(); const c = idx.counts || {};
+  el.textContent = `Onyx can see ${c.files || (idx.files||[]).length || 0} merged files · ${c.json || 0} JSON · ${c.assets || 0} assets · backend ${BACKEND_URL}`;
+}
+function showOnyxAccessVault(){
+  if(!isDmMode()) return toast('Onyx access vault is DM-only behind #dm-session.');
+  const idx = onyxAccessIndex(); const files = (idx.files || []).slice(0, 360);
+  const groups = idx.groups || {};
+  const groupHtml = Object.keys(groups).sort().map(k => `<li><b>${esc(k)}</b>: ${groups[k]}</li>`).join('');
+  const listHtml = files.map(f => `<li><code>${esc(f.path || f)}</code>${f.bytes?` · ${f.bytes} bytes`:''}</li>`).join('');
+  showModal('Onyx Access Index', `<div class="stack"><p>Onyx is the single encounter superbot. This vault lists merged paths from the scalable grid build, Onyx identity/moods bundle, Among-Us-to-DnD rules, dice systems, assets, and backend reference.</p><ul>${groupHtml}</ul><details open><summary><b>First ${files.length} manifest paths</b></summary><ol>${listHtml}</ol></details><p><b>Backend:</b> <code>${esc(BACKEND_URL)}</code></p></div>`);
+}
+function runAllOnyxHostiles(){
+  const hostiles = state.hostiles.filter(h => h.alive !== false && !h.downed);
+  if(!hostiles.length) return toast('No living hostiles for Onyx to run.');
+  if(!state.autonomousMode) state.autonomousMode = true;
+  if(!state.initiative.length) startEncounter();
+  let ran = 0;
+  for(const h of hostiles){
+    const idx = state.initiative.findIndex(n => n.id === h.id);
+    if(idx >= 0) state.turnIndex = idx;
+    try{ onyxHostileTurn(h.id); ran++; }catch(err){ log(`Onyx could not run ${h.name}: ${err.message}`, 'warn'); }
+  }
+  saveLocal(); render();
+  log(`Onyx autonomous sweep ran ${ran} hostile turn(s).`, 'warn');
+  return ran;
+}
+function onyxAutonomousPulse(reason='manual'){
+  if(!state.autonomousMode) state.autonomousMode = true;
+  const actor = currentActor();
+  if(actor?.kind === 'hostile') return onyxHostileTurn(actor.id);
+  return runAllOnyxHostiles();
+}
+function exposeOnyxEncounterSuperbot(){
+  const api={
+    name:'Lord Onyx Encounter Superbot',
+    backend:BACKEND_URL,
+    runtime:'Onyx-only autonomous DnD encounter superbot controller',
+    get state(){return state;},
+    get accessIndex(){return onyxAccessIndex();},
+    startAutonomy(){state.autonomousMode=true; saveLocal(); render(); return true;},
+    pauseAutonomy(){state.autonomousMode=false; saveLocal(); render(); return true;},
+    runAutonomy(reason='api'){return onyxAutonomousPulse(reason);},
+    runHostileTurn(id){return onyxHostileTurn(id);},
+    runAllHostiles(){return runAllOnyxHostiles();},
+    showAccessVault(){return showOnyxAccessVault();},
+    setGrid(cols,rows,cellSize){state.boardCols=Number(cols)||state.boardCols;state.boardRows=Number(rows)||state.boardRows;state.cellSize=Number(cellSize)||state.cellSize;ensureSceneState();saveLocal();render();return {cols:state.boardCols,rows:state.boardRows,cellSize:state.cellSize};},
+    exportMiniGame(){return exportMiniGameHtml();},
+    syncBackend(){return backendSync();},
+    importState(next){state=next||state;state.backendUrl=BACKEND_URL;saveLocal();render();return state;}
+  };
+  window.OnyxEncounterSuperbot=api;
+  return api;
+}
+
+buildHostileTemplateSelect();
+bindEvents();
+exposeOnyxEncounterSuperbot();
+updateOnyxVaultSummary();
+if(!state.log.length) log('Onyx Encounters Minigame loaded. Press ? for help. Players can import sheets; DM creator tools appear only under #dm-session or #dm-editor. Standalone map/grid controls, the over-grid 3D dice roller is the only dice mechanic, all pieces scale to the selected grid size, autonomous traps/locks/hostiles are enabled, and the locked Onyx DM runtime is merged.', 'sys');
+render();
+})();
+</script>
+</body>
+</html>
