@@ -1,0 +1,2012 @@
+{
+  "dice_bot_manifest": {
+    "tokens": [
+      {
+        "id": "joeari-ravenwood",
+        "name": "Joeari Ravenwood",
+        "file": "Joeari_Ravenwood.png",
+        "url": "dice-main/assets/dice-bots/tokens/Joeari_Ravenwood.png"
+      },
+      {
+        "id": "gheaririel-luneglen",
+        "name": "Gheaririel Luneglen",
+        "file": "Gheaririel_Luneglen.png",
+        "url": "dice-main/assets/dice-bots/tokens/Gheaririel_Luneglen.png"
+      },
+      {
+        "id": "thalenael-silverthorn",
+        "name": "Thalenael Silverthorn",
+        "file": "Thalenael_Silverthorn.png",
+        "url": "dice-main/assets/dice-bots/tokens/Thalenael_Silverthorn.png"
+      },
+      {
+        "id": "nimudri-ironvault",
+        "name": "Nimudri Ironvault",
+        "file": "Nimu_dri_Ironvault.png",
+        "url": "dice-main/assets/dice-bots/tokens/Nimu_dri_Ironvault.png"
+      },
+      {
+        "id": "rosabin-merryroot",
+        "name": "Rosabin Merryroot",
+        "file": "Ro_sabin_Merryroot.png",
+        "url": "dice-main/assets/dice-bots/tokens/Ro_sabin_Merryroot.png"
+      },
+      {
+        "id": "urg-urgugar-mudgrip",
+        "name": "Urg Urgugar Mudgrip",
+        "file": "Urg_U_rgugar_Mudgrip.png",
+        "url": "dice-main/assets/dice-bots/tokens/Urg_U_rgugar_Mudgrip.png"
+      },
+      {
+        "id": "valk-minoorvar-thunderheft",
+        "name": "Valk Minoorvar Thunderheft",
+        "file": "Valk_Minoorvar_Thunderheft.png",
+        "url": "dice-main/assets/dice-bots/tokens/Valk_Minoorvar_Thunderheft.png"
+      },
+      {
+        "id": "kethazzun-clawcoil",
+        "name": "Kethazzun Clawcoil",
+        "file": "Kethazzun_Clawcoil.png",
+        "url": "dice-main/assets/dice-bots/tokens/Kethazzun_Clawcoil.png"
+      },
+      {
+        "id": "veyielven-asharchf",
+        "name": "Veyielven Asharchf",
+        "file": "Veyielven_Asharchf.png",
+        "url": "dice-main/assets/dice-bots/tokens/Veyielven_Asharchf.png"
+      },
+      {
+        "id": "nefumlith-duskendirge",
+        "name": "Nefumlith Duskendirge",
+        "file": "Nefumlith_Duskendirge.png",
+        "url": "dice-main/assets/dice-bots/tokens/Nefumlith_Duskendirge.png"
+      },
+      {
+        "id": "tyrylina-mirthwink",
+        "name": "Tyrylina Mirthwink",
+        "file": "Tyrylina_Mirthwink.png",
+        "url": "dice-main/assets/dice-bots/tokens/Tyrylina_Mirthwink.png"
+      },
+      {
+        "id": "stoneudor-stormbreath",
+        "name": "Stoneudor Stormbreath",
+        "file": "Sto_neudor_Stormbreath.png",
+        "url": "dice-main/assets/dice-bots/tokens/Sto_neudor_Stormbreath.png"
+      },
+      {
+        "id": "arcorven-brasslock",
+        "name": "Arcorven Brasslock",
+        "file": "Arcorven_Brasslock.png",
+        "url": "dice-main/assets/dice-bots/tokens/Arcorven_Brasslock.png"
+      },
+      {
+        "id": "canielina-dennose",
+        "name": "Canielina Dennose",
+        "file": "Canielina_Dennose.png",
+        "url": "dice-main/assets/dice-bots/tokens/Canielina_Dennose.png"
+      }
+    ],
+    "responses": [
+      {
+        "id": "joeari-ravenwood",
+        "sourceFile": "joeari_ravenwood_dnd_dice_bot_answers_1556 (1).json",
+        "responseCount": 1556,
+        "intentCount": 43
+      },
+      {
+        "id": "gheaririel-luneglen",
+        "sourceFile": "gheaririel_luneglen_dnd_dice_bot_answers_2096 (1).json",
+        "responseCount": 2096,
+        "intentCount": 76
+      },
+      {
+        "id": "thalenael-silverthorn",
+        "sourceFile": "thalenael_silverthorn_dnd_dice_bot_answers_2602 (1).json",
+        "responseCount": 2602,
+        "intentCount": 106
+      },
+      {
+        "id": "nimudri-ironvault",
+        "sourceFile": "nimudri_ironvault_dnd_dice_bot_answers_5245 (1).json",
+        "responseCount": 5245,
+        "intentCount": 110
+      },
+      {
+        "id": "rosabin-merryroot",
+        "sourceFile": "rosabin_merryroot_dnd_dice_bot_answers_3378 (1).json",
+        "responseCount": 3378,
+        "intentCount": 149
+      },
+      {
+        "id": "urg-urgugar-mudgrip",
+        "sourceFile": "urg_urgugar_mudgrip_dnd_dice_bot_answers_3134 (1).json",
+        "responseCount": 3134,
+        "intentCount": 180
+      },
+      {
+        "id": "valk-minoorvar-thunderheft",
+        "sourceFile": "valk_minoorvar_thunderheft_dnd_dice_bot_answers_3200 (1).json",
+        "responseCount": 3200,
+        "intentCount": 80
+      },
+      {
+        "id": "kethazzun-clawcoil",
+        "sourceFile": "kethazzun_clawcoil_dnd_dice_bot_answers_2692 (1).json",
+        "responseCount": 2692,
+        "intentCount": 137
+      },
+      {
+        "id": "veyielven-asharchf",
+        "sourceFile": "veyielven_asharchf_dnd_dice_bot_answers (1).json",
+        "responseCount": 3304,
+        "intentCount": 186
+      },
+      {
+        "id": "nefumlith-duskendirge",
+        "sourceFile": "nefumlith_duskendirge_dnd_dice_bot_answers_3880 (1).json",
+        "responseCount": 3880,
+        "intentCount": 107
+      },
+      {
+        "id": "tyrylina-mirthwink",
+        "sourceFile": "tyrylina_mirthwink_dnd_dice_bot_answers_3164 (1).json",
+        "responseCount": 3164,
+        "intentCount": 228
+      },
+      {
+        "id": "stoneudor-stormbreath",
+        "sourceFile": "stoneudor_stormbreath_dnd_dice_bot_answers_5126 (2).json",
+        "responseCount": 5126,
+        "intentCount": 241
+      },
+      {
+        "id": "arcorven-brasslock",
+        "sourceFile": "arcorven_brasslock_dnd_dice_bot_answers_3337 (2).json",
+        "responseCount": 3337,
+        "intentCount": 146
+      },
+      {
+        "id": "canielina-dennose",
+        "sourceFile": "canielina_dennose_dnd_dice_bot_answers_4024 (2).json",
+        "responseCount": 4024,
+        "intentCount": 182
+      }
+    ]
+  },
+  "dice_design_manifest": {
+    "package": "CSS-Only 3D Polyhedral Dice Set Designs",
+    "sets_total": 60,
+    "dice_per_set": [
+      "d4",
+      "d6",
+      "d8",
+      "d10",
+      "d12",
+      "d20"
+    ],
+    "css_per_set": true,
+    "javascript": false,
+    "images_included": false,
+    "external_dependencies": false,
+    "sets": [
+      {
+        "number": 1,
+        "slug": "plain-ivory",
+        "name": "Plain Ivory",
+        "description": "plain satin ivory with charcoal ink",
+        "css": "sets/01-plain-ivory.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 2,
+        "slug": "plain-onyx",
+        "name": "Plain Onyx",
+        "description": "plain black onyx with white ink",
+        "css": "sets/02-plain-onyx.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 3,
+        "slug": "plain-crimson-gold",
+        "name": "Plain Crimson Gold",
+        "description": "simple red body with gold numerals",
+        "css": "sets/03-plain-crimson-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 4,
+        "slug": "royal-red-gold",
+        "name": "Royal Red Gold",
+        "description": "deep royal red with gold engraved trim",
+        "css": "sets/04-royal-red-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 5,
+        "slug": "sapphire-silver",
+        "name": "Sapphire Silver",
+        "description": "sapphire blue with silver inlay",
+        "css": "sets/05-sapphire-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 6,
+        "slug": "emerald-copper",
+        "name": "Emerald Copper",
+        "description": "emerald enamel with copper edging",
+        "css": "sets/06-emerald-copper.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 7,
+        "slug": "amethyst-brass",
+        "name": "Amethyst Brass",
+        "description": "purple amethyst with antique brass numbers",
+        "css": "sets/07-amethyst-brass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 8,
+        "slug": "obsidian-ruby",
+        "name": "Obsidian Ruby",
+        "description": "black obsidian with ruby cuts",
+        "css": "sets/08-obsidian-ruby.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 9,
+        "slug": "moonstone-blue-silver",
+        "name": "Moonstone Blue Silver",
+        "description": "opalescent pale blue with silver",
+        "css": "sets/09-moonstone-blue-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 10,
+        "slug": "jade-gold",
+        "name": "Jade Gold",
+        "description": "jade gemstone with gold numerals",
+        "css": "sets/10-jade-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 11,
+        "slug": "black-gold-metal",
+        "name": "Black Gold Metal",
+        "description": "black metal with gold bevels",
+        "css": "sets/11-black-gold-metal.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 12,
+        "slug": "silver-ancient",
+        "name": "Silver Ancient",
+        "description": "ancient brushed silver with dark engraved numbers",
+        "css": "sets/12-silver-ancient.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 13,
+        "slug": "purple-metal-silver",
+        "name": "Purple Metal Silver",
+        "description": "purple metal with silver runic edges",
+        "css": "sets/13-purple-metal-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 14,
+        "slug": "bronze-dragon-scale",
+        "name": "Bronze Dragon Scale",
+        "description": "bronze dragon-scale texture",
+        "css": "sets/14-bronze-dragon-scale.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 15,
+        "slug": "red-dragon-scale-gold",
+        "name": "Red Dragon Scale Gold",
+        "description": "red dragon scales with gold numbers",
+        "css": "sets/15-red-dragon-scale-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 16,
+        "slug": "blue-dragon-scale-silver",
+        "name": "Blue Dragon Scale Silver",
+        "description": "blue dragon scales with silver numerals",
+        "css": "sets/16-blue-dragon-scale-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 17,
+        "slug": "storm-galaxy-gold",
+        "name": "Storm Galaxy Gold",
+        "description": "dark galaxy storm with gold ink",
+        "css": "sets/17-storm-galaxy-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 18,
+        "slug": "nebula-night-silver",
+        "name": "Nebula Night Silver",
+        "description": "midnight nebula with silver numbers",
+        "css": "sets/18-nebula-night-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 19,
+        "slug": "aurora-glass",
+        "name": "Aurora Glass",
+        "description": "aurora translucent glass",
+        "css": "sets/19-aurora-glass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 20,
+        "slug": "ocean-swirl-gold",
+        "name": "Ocean Swirl Gold",
+        "description": "ocean blue and white swirl acrylic",
+        "css": "sets/20-ocean-swirl-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 21,
+        "slug": "blue-white-acrylic-gold",
+        "name": "Blue White Acrylic Gold",
+        "description": "blue-white acrylic with gold font",
+        "css": "sets/21-blue-white-acrylic-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 22,
+        "slug": "pink-flower-resin",
+        "name": "Pink Flower Resin",
+        "description": "pink floral resin look",
+        "css": "sets/22-pink-flower-resin.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 23,
+        "slug": "lemon-honey-resin",
+        "name": "Lemon Honey Resin",
+        "description": "transparent lemon honey resin",
+        "css": "sets/23-lemon-honey-resin.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 24,
+        "slug": "arctic-ice-cyan",
+        "name": "Arctic Ice Cyan",
+        "description": "icy translucent cyan with white frost",
+        "css": "sets/24-arctic-ice-cyan.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 25,
+        "slug": "dark-ice-silver",
+        "name": "Dark Ice Silver",
+        "description": "dark ice blue with silver",
+        "css": "sets/25-dark-ice-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 26,
+        "slug": "forest-moss-copper",
+        "name": "Forest Moss Copper",
+        "description": "deep moss gemstone with copper",
+        "css": "sets/26-forest-moss-copper.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 27,
+        "slug": "red-green-gold-swirl",
+        "name": "Red Green Gold Swirl",
+        "description": "red green gold marbled swirl",
+        "css": "sets/27-red-green-gold-swirl.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 28,
+        "slug": "teal-wizard-silver",
+        "name": "Teal Wizard Silver",
+        "description": "teal wizard sharp-edge style",
+        "css": "sets/28-teal-wizard-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 29,
+        "slug": "warlock-violet-black",
+        "name": "Warlock Violet Black",
+        "description": "violet warlock pastel over black",
+        "css": "sets/29-warlock-violet-black.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 30,
+        "slug": "paladin-white-gold",
+        "name": "Paladin White Gold",
+        "description": "white paladin enamel with gold",
+        "css": "sets/30-paladin-white-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 31,
+        "slug": "dwarf-green-glass",
+        "name": "Dwarf Green Glass",
+        "description": "dwarf-cut green glass",
+        "css": "sets/31-dwarf-green-glass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 32,
+        "slug": "african-jade",
+        "name": "African Jade",
+        "description": "deep jade stone with gold marks",
+        "css": "sets/32-african-jade.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 33,
+        "slug": "saphrium-glass",
+        "name": "Saphrium Glass",
+        "description": "bright aqua blue glass",
+        "css": "sets/33-saphrium-glass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 34,
+        "slug": "tranquility-polyhedral",
+        "name": "Tranquility Polyhedral",
+        "description": "soft lavender aqua tranquility resin",
+        "css": "sets/34-tranquility-polyhedral.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 35,
+        "slug": "liquid-core-galaxy",
+        "name": "Liquid Core Galaxy",
+        "description": "liquid-core galaxy illusion",
+        "css": "sets/35-liquid-core-galaxy.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 36,
+        "slug": "glitter-rainbow",
+        "name": "Glitter Rainbow",
+        "description": "rainbow glitter dice",
+        "css": "sets/36-glitter-rainbow.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 37,
+        "slug": "scorched-rainbow",
+        "name": "Scorched Rainbow",
+        "description": "scorched rainbow metal",
+        "css": "sets/37-scorched-rainbow.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 38,
+        "slug": "hollow-purple-neon",
+        "name": "Hollow Purple Neon",
+        "description": "hollow purple neon inlay",
+        "css": "sets/38-hollow-purple-neon.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 39,
+        "slug": "gothic-mystic-starhorn",
+        "name": "Gothic Mystic Starhorn",
+        "description": "gothic black cyan starhorn",
+        "css": "sets/39-gothic-mystic-starhorn.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 40,
+        "slug": "norse-draugr-iron",
+        "name": "Norse Draugr Iron",
+        "description": "draugr iron with aged runes",
+        "css": "sets/40-norse-draugr-iron.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 41,
+        "slug": "queen-treasure-blue-gold",
+        "name": "Queen Treasure Blue Gold",
+        "description": "royal treasure blue with gold filigree",
+        "css": "sets/41-queen-treasure-blue-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 42,
+        "slug": "arcane-gold-blue",
+        "name": "Arcane Gold Blue",
+        "description": "arcane gold and blue layered metal",
+        "css": "sets/42-arcane-gold-blue.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 43,
+        "slug": "ancient-bone-ink",
+        "name": "Ancient Bone Ink",
+        "description": "bone-white dice with dark ink carvings",
+        "css": "sets/43-ancient-bone-ink.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 44,
+        "slug": "paper-parchment-sepia",
+        "name": "Paper Parchment Sepia",
+        "description": "paper parchment with sepia numerals",
+        "css": "sets/44-paper-parchment-sepia.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 45,
+        "slug": "candy-opal-pastel",
+        "name": "Candy Opal Pastel",
+        "description": "pink and cyan candy opal",
+        "css": "sets/45-candy-opal-pastel.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 46,
+        "slug": "coral-rose-gold",
+        "name": "Coral Rose Gold",
+        "description": "coral resin with rose gold numbers",
+        "css": "sets/46-coral-rose-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 47,
+        "slug": "void-plasma-cyan",
+        "name": "Void Plasma Cyan",
+        "description": "black void plasma with cyan numbers",
+        "css": "sets/47-void-plasma-cyan.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 48,
+        "slug": "solar-brass",
+        "name": "Solar Brass",
+        "description": "solar orange brass layered metal",
+        "css": "sets/48-solar-brass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 49,
+        "slug": "lunar-steel",
+        "name": "Lunar Steel",
+        "description": "moonlit gray steel",
+        "css": "sets/49-lunar-steel.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 50,
+        "slug": "mermaid-aqua-gold",
+        "name": "Mermaid Aqua Gold",
+        "description": "mermaid aqua resin with gold",
+        "css": "sets/50-mermaid-aqua-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 51,
+        "slug": "dragonfly-teal-violet",
+        "name": "Dragonfly Teal Violet",
+        "description": "iridescent teal violet dragonfly",
+        "css": "sets/51-dragonfly-teal-violet.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 52,
+        "slug": "bloodstone-red-black",
+        "name": "Bloodstone Red Black",
+        "description": "bloodstone red black polished stone",
+        "css": "sets/52-bloodstone-red-black.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 53,
+        "slug": "lava-obsidian-orange",
+        "name": "Lava Obsidian Orange",
+        "description": "molten lava inside obsidian",
+        "css": "sets/53-lava-obsidian-orange.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 54,
+        "slug": "frosted-lavender",
+        "name": "Frosted Lavender",
+        "description": "frosted lavender resin",
+        "css": "sets/54-frosted-lavender.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 55,
+        "slug": "smoke-quartz-white",
+        "name": "Smoke Quartz White",
+        "description": "smoky quartz with white numbers",
+        "css": "sets/55-smoke-quartz-white.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 56,
+        "slug": "copper-verdigris",
+        "name": "Copper Verdigris",
+        "description": "aged copper with turquoise verdigris",
+        "css": "sets/56-copper-verdigris.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 57,
+        "slug": "clockwork-steampunk",
+        "name": "Clockwork Steampunk",
+        "description": "clockwork brass and dark teal",
+        "css": "sets/57-clockwork-steampunk.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 58,
+        "slug": "celestial-navy-gold",
+        "name": "Celestial Navy Gold",
+        "description": "navy celestial stars with gold",
+        "css": "sets/58-celestial-navy-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 59,
+        "slug": "ivory-lotus-mint",
+        "name": "Ivory Lotus Mint",
+        "description": "ivory lotus mint engraving",
+        "css": "sets/59-ivory-lotus-mint.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 60,
+        "slug": "black-ice-blue-gold",
+        "name": "Black Ice Blue Gold",
+        "description": "black ice with blue layers and gold ink",
+        "css": "sets/60-black-ice-blue-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      }
+    ]
+  },
+  "source_dnd_dice_design_manifest": {
+    "package": "CSS-Only 3D Polyhedral Dice Set Designs",
+    "sets_total": 60,
+    "dice_per_set": [
+      "d4",
+      "d6",
+      "d8",
+      "d10",
+      "d12",
+      "d20"
+    ],
+    "css_per_set": true,
+    "javascript": false,
+    "images_included": false,
+    "external_dependencies": false,
+    "sets": [
+      {
+        "number": 1,
+        "slug": "plain-ivory",
+        "name": "Plain Ivory",
+        "description": "plain satin ivory with charcoal ink",
+        "css": "sets/01-plain-ivory.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 2,
+        "slug": "plain-onyx",
+        "name": "Plain Onyx",
+        "description": "plain black onyx with white ink",
+        "css": "sets/02-plain-onyx.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 3,
+        "slug": "plain-crimson-gold",
+        "name": "Plain Crimson Gold",
+        "description": "simple red body with gold numerals",
+        "css": "sets/03-plain-crimson-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 4,
+        "slug": "royal-red-gold",
+        "name": "Royal Red Gold",
+        "description": "deep royal red with gold engraved trim",
+        "css": "sets/04-royal-red-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 5,
+        "slug": "sapphire-silver",
+        "name": "Sapphire Silver",
+        "description": "sapphire blue with silver inlay",
+        "css": "sets/05-sapphire-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 6,
+        "slug": "emerald-copper",
+        "name": "Emerald Copper",
+        "description": "emerald enamel with copper edging",
+        "css": "sets/06-emerald-copper.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 7,
+        "slug": "amethyst-brass",
+        "name": "Amethyst Brass",
+        "description": "purple amethyst with antique brass numbers",
+        "css": "sets/07-amethyst-brass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 8,
+        "slug": "obsidian-ruby",
+        "name": "Obsidian Ruby",
+        "description": "black obsidian with ruby cuts",
+        "css": "sets/08-obsidian-ruby.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 9,
+        "slug": "moonstone-blue-silver",
+        "name": "Moonstone Blue Silver",
+        "description": "opalescent pale blue with silver",
+        "css": "sets/09-moonstone-blue-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 10,
+        "slug": "jade-gold",
+        "name": "Jade Gold",
+        "description": "jade gemstone with gold numerals",
+        "css": "sets/10-jade-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 11,
+        "slug": "black-gold-metal",
+        "name": "Black Gold Metal",
+        "description": "black metal with gold bevels",
+        "css": "sets/11-black-gold-metal.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 12,
+        "slug": "silver-ancient",
+        "name": "Silver Ancient",
+        "description": "ancient brushed silver with dark engraved numbers",
+        "css": "sets/12-silver-ancient.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 13,
+        "slug": "purple-metal-silver",
+        "name": "Purple Metal Silver",
+        "description": "purple metal with silver runic edges",
+        "css": "sets/13-purple-metal-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 14,
+        "slug": "bronze-dragon-scale",
+        "name": "Bronze Dragon Scale",
+        "description": "bronze dragon-scale texture",
+        "css": "sets/14-bronze-dragon-scale.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 15,
+        "slug": "red-dragon-scale-gold",
+        "name": "Red Dragon Scale Gold",
+        "description": "red dragon scales with gold numbers",
+        "css": "sets/15-red-dragon-scale-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 16,
+        "slug": "blue-dragon-scale-silver",
+        "name": "Blue Dragon Scale Silver",
+        "description": "blue dragon scales with silver numerals",
+        "css": "sets/16-blue-dragon-scale-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 17,
+        "slug": "storm-galaxy-gold",
+        "name": "Storm Galaxy Gold",
+        "description": "dark galaxy storm with gold ink",
+        "css": "sets/17-storm-galaxy-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 18,
+        "slug": "nebula-night-silver",
+        "name": "Nebula Night Silver",
+        "description": "midnight nebula with silver numbers",
+        "css": "sets/18-nebula-night-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 19,
+        "slug": "aurora-glass",
+        "name": "Aurora Glass",
+        "description": "aurora translucent glass",
+        "css": "sets/19-aurora-glass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 20,
+        "slug": "ocean-swirl-gold",
+        "name": "Ocean Swirl Gold",
+        "description": "ocean blue and white swirl acrylic",
+        "css": "sets/20-ocean-swirl-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 21,
+        "slug": "blue-white-acrylic-gold",
+        "name": "Blue White Acrylic Gold",
+        "description": "blue-white acrylic with gold font",
+        "css": "sets/21-blue-white-acrylic-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 22,
+        "slug": "pink-flower-resin",
+        "name": "Pink Flower Resin",
+        "description": "pink floral resin look",
+        "css": "sets/22-pink-flower-resin.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 23,
+        "slug": "lemon-honey-resin",
+        "name": "Lemon Honey Resin",
+        "description": "transparent lemon honey resin",
+        "css": "sets/23-lemon-honey-resin.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 24,
+        "slug": "arctic-ice-cyan",
+        "name": "Arctic Ice Cyan",
+        "description": "icy translucent cyan with white frost",
+        "css": "sets/24-arctic-ice-cyan.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 25,
+        "slug": "dark-ice-silver",
+        "name": "Dark Ice Silver",
+        "description": "dark ice blue with silver",
+        "css": "sets/25-dark-ice-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 26,
+        "slug": "forest-moss-copper",
+        "name": "Forest Moss Copper",
+        "description": "deep moss gemstone with copper",
+        "css": "sets/26-forest-moss-copper.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 27,
+        "slug": "red-green-gold-swirl",
+        "name": "Red Green Gold Swirl",
+        "description": "red green gold marbled swirl",
+        "css": "sets/27-red-green-gold-swirl.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 28,
+        "slug": "teal-wizard-silver",
+        "name": "Teal Wizard Silver",
+        "description": "teal wizard sharp-edge style",
+        "css": "sets/28-teal-wizard-silver.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 29,
+        "slug": "warlock-violet-black",
+        "name": "Warlock Violet Black",
+        "description": "violet warlock pastel over black",
+        "css": "sets/29-warlock-violet-black.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 30,
+        "slug": "paladin-white-gold",
+        "name": "Paladin White Gold",
+        "description": "white paladin enamel with gold",
+        "css": "sets/30-paladin-white-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 31,
+        "slug": "dwarf-green-glass",
+        "name": "Dwarf Green Glass",
+        "description": "dwarf-cut green glass",
+        "css": "sets/31-dwarf-green-glass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 32,
+        "slug": "african-jade",
+        "name": "African Jade",
+        "description": "deep jade stone with gold marks",
+        "css": "sets/32-african-jade.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 33,
+        "slug": "saphrium-glass",
+        "name": "Saphrium Glass",
+        "description": "bright aqua blue glass",
+        "css": "sets/33-saphrium-glass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 34,
+        "slug": "tranquility-polyhedral",
+        "name": "Tranquility Polyhedral",
+        "description": "soft lavender aqua tranquility resin",
+        "css": "sets/34-tranquility-polyhedral.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 35,
+        "slug": "liquid-core-galaxy",
+        "name": "Liquid Core Galaxy",
+        "description": "liquid-core galaxy illusion",
+        "css": "sets/35-liquid-core-galaxy.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 36,
+        "slug": "glitter-rainbow",
+        "name": "Glitter Rainbow",
+        "description": "rainbow glitter dice",
+        "css": "sets/36-glitter-rainbow.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 37,
+        "slug": "scorched-rainbow",
+        "name": "Scorched Rainbow",
+        "description": "scorched rainbow metal",
+        "css": "sets/37-scorched-rainbow.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 38,
+        "slug": "hollow-purple-neon",
+        "name": "Hollow Purple Neon",
+        "description": "hollow purple neon inlay",
+        "css": "sets/38-hollow-purple-neon.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 39,
+        "slug": "gothic-mystic-starhorn",
+        "name": "Gothic Mystic Starhorn",
+        "description": "gothic black cyan starhorn",
+        "css": "sets/39-gothic-mystic-starhorn.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 40,
+        "slug": "norse-draugr-iron",
+        "name": "Norse Draugr Iron",
+        "description": "draugr iron with aged runes",
+        "css": "sets/40-norse-draugr-iron.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 41,
+        "slug": "queen-treasure-blue-gold",
+        "name": "Queen Treasure Blue Gold",
+        "description": "royal treasure blue with gold filigree",
+        "css": "sets/41-queen-treasure-blue-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 42,
+        "slug": "arcane-gold-blue",
+        "name": "Arcane Gold Blue",
+        "description": "arcane gold and blue layered metal",
+        "css": "sets/42-arcane-gold-blue.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 43,
+        "slug": "ancient-bone-ink",
+        "name": "Ancient Bone Ink",
+        "description": "bone-white dice with dark ink carvings",
+        "css": "sets/43-ancient-bone-ink.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 44,
+        "slug": "paper-parchment-sepia",
+        "name": "Paper Parchment Sepia",
+        "description": "paper parchment with sepia numerals",
+        "css": "sets/44-paper-parchment-sepia.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 45,
+        "slug": "candy-opal-pastel",
+        "name": "Candy Opal Pastel",
+        "description": "pink and cyan candy opal",
+        "css": "sets/45-candy-opal-pastel.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 46,
+        "slug": "coral-rose-gold",
+        "name": "Coral Rose Gold",
+        "description": "coral resin with rose gold numbers",
+        "css": "sets/46-coral-rose-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 47,
+        "slug": "void-plasma-cyan",
+        "name": "Void Plasma Cyan",
+        "description": "black void plasma with cyan numbers",
+        "css": "sets/47-void-plasma-cyan.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 48,
+        "slug": "solar-brass",
+        "name": "Solar Brass",
+        "description": "solar orange brass layered metal",
+        "css": "sets/48-solar-brass.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 49,
+        "slug": "lunar-steel",
+        "name": "Lunar Steel",
+        "description": "moonlit gray steel",
+        "css": "sets/49-lunar-steel.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 50,
+        "slug": "mermaid-aqua-gold",
+        "name": "Mermaid Aqua Gold",
+        "description": "mermaid aqua resin with gold",
+        "css": "sets/50-mermaid-aqua-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 51,
+        "slug": "dragonfly-teal-violet",
+        "name": "Dragonfly Teal Violet",
+        "description": "iridescent teal violet dragonfly",
+        "css": "sets/51-dragonfly-teal-violet.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 52,
+        "slug": "bloodstone-red-black",
+        "name": "Bloodstone Red Black",
+        "description": "bloodstone red black polished stone",
+        "css": "sets/52-bloodstone-red-black.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 53,
+        "slug": "lava-obsidian-orange",
+        "name": "Lava Obsidian Orange",
+        "description": "molten lava inside obsidian",
+        "css": "sets/53-lava-obsidian-orange.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 54,
+        "slug": "frosted-lavender",
+        "name": "Frosted Lavender",
+        "description": "frosted lavender resin",
+        "css": "sets/54-frosted-lavender.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 55,
+        "slug": "smoke-quartz-white",
+        "name": "Smoke Quartz White",
+        "description": "smoky quartz with white numbers",
+        "css": "sets/55-smoke-quartz-white.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 56,
+        "slug": "copper-verdigris",
+        "name": "Copper Verdigris",
+        "description": "aged copper with turquoise verdigris",
+        "css": "sets/56-copper-verdigris.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 57,
+        "slug": "clockwork-steampunk",
+        "name": "Clockwork Steampunk",
+        "description": "clockwork brass and dark teal",
+        "css": "sets/57-clockwork-steampunk.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 58,
+        "slug": "celestial-navy-gold",
+        "name": "Celestial Navy Gold",
+        "description": "navy celestial stars with gold",
+        "css": "sets/58-celestial-navy-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 59,
+        "slug": "ivory-lotus-mint",
+        "name": "Ivory Lotus Mint",
+        "description": "ivory lotus mint engraving",
+        "css": "sets/59-ivory-lotus-mint.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      },
+      {
+        "number": 60,
+        "slug": "black-ice-blue-gold",
+        "name": "Black Ice Blue Gold",
+        "description": "black ice with blue layers and gold ink",
+        "css": "sets/60-black-ice-blue-gold.css",
+        "dice": [
+          "d4",
+          "d6",
+          "d8",
+          "d10",
+          "d12",
+          "d20"
+        ]
+      }
+    ]
+  }
+}
