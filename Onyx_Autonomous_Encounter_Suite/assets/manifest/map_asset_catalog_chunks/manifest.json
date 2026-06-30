@@ -1,0 +1,36 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/map_asset_catalog_chunks",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 1,
+  "recursive_file_count": 1,
+  "recursive_total_bytes": 2183,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 1
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "map_asset_catalog_chunks.json",
+      "stem": "map_asset_catalog_chunks",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/map_asset_catalog_chunks",
+      "relative_path": "assets/manifest/map_asset_catalog_chunks/map_asset_catalog_chunks.json",
+      "url": "assets/manifest/map_asset_catalog_chunks/map_asset_catalog_chunks.json",
+      "asset_relative_path": "manifest/map_asset_catalog_chunks/map_asset_catalog_chunks.json",
+      "size_bytes": 2183,
+      "sha256": "fad87ebe4104744414d44fc2fc4517a8928c0cca6d9b3be19ca1f026d3aebb00",
+      "search_terms": [
+        "map",
+        "catalog",
+        "chunks"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

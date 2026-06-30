@@ -1,0 +1,34 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Cave Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 1,
+  "recursive_file_count": 1,
+  "recursive_total_bytes": 1082,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 1
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Cave_Assets_1_Complete_Set.json",
+      "stem": "Cave_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Cave Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Cave Assets 1 - Complete Set/Cave_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Cave Assets 1 - Complete Set/Cave_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Cave Assets 1 - Complete Set/Cave_Assets_1_Complete_Set.json",
+      "size_bytes": 1082,
+      "sha256": "23bace1c9b1e04d1d041b9226bb1575feb89734cc5d14ca4f6349e8581746151",
+      "search_terms": [
+        "cave"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

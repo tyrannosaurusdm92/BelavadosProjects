@@ -1,0 +1,66 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Mountainside Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 235239,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Cliffsides.json",
+      "stem": "Cliffsides",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Mountainside Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Mountainside Assets 1 - Complete Set/Cliffsides.json",
+      "url": "assets/manifest/Mountainside Assets 1 - Complete Set/Cliffsides.json",
+      "asset_relative_path": "manifest/Mountainside Assets 1 - Complete Set/Cliffsides.json",
+      "size_bytes": 68287,
+      "sha256": "3f42ac36fd2a5f85660c3dbd5d98326043b3b588ee5be70f3d2d64de927a1884",
+      "search_terms": [
+        "cliffsides"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Mountainside_Assets_1_Complete_Set.json",
+      "stem": "Mountainside_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Mountainside Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Mountainside Assets 1 - Complete Set/Mountainside_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Mountainside Assets 1 - Complete Set/Mountainside_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Mountainside Assets 1 - Complete Set/Mountainside_Assets_1_Complete_Set.json",
+      "size_bytes": 11274,
+      "sha256": "36db44d653c04683bfcd0257d8074515fc45fb2f2d4e9687b2c7fdf629627554",
+      "search_terms": [
+        "mountainside"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Rocks.json",
+      "stem": "Rocks",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Mountainside Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Mountainside Assets 1 - Complete Set/Rocks.json",
+      "url": "assets/manifest/Mountainside Assets 1 - Complete Set/Rocks.json",
+      "asset_relative_path": "manifest/Mountainside Assets 1 - Complete Set/Rocks.json",
+      "size_bytes": 155678,
+      "sha256": "a9ea51195e5aa1b61f48d26064e5a120f1f9563276008592b6531c49102c56b8",
+      "search_terms": [
+        "rocks"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

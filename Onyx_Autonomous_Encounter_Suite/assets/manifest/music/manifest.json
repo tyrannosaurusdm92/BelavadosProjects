@@ -1,0 +1,68 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/music",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 160165,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Glitch_and_Machine.json",
+      "stem": "Glitch_and_Machine",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/music",
+      "relative_path": "assets/manifest/music/Glitch_and_Machine.json",
+      "url": "assets/manifest/music/Glitch_and_Machine.json",
+      "asset_relative_path": "manifest/music/Glitch_and_Machine.json",
+      "size_bytes": 11465,
+      "sha256": "3c95d82b88f7963b6df2e1a8586087ad70ae004f48fe70717e5e81c7160fd753",
+      "search_terms": [
+        "glitch",
+        "and",
+        "machine"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "music.json",
+      "stem": "music",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/music",
+      "relative_path": "assets/manifest/music/music.json",
+      "url": "assets/manifest/music/music.json",
+      "asset_relative_path": "manifest/music/music.json",
+      "size_bytes": 138701,
+      "sha256": "3ae18274861531aa887f86864256746246ad18bde544ba7d24bcc7f70192109f",
+      "search_terms": [
+        "music"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "oneshot.json",
+      "stem": "oneshot",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/music",
+      "relative_path": "assets/manifest/music/oneshot.json",
+      "url": "assets/manifest/music/oneshot.json",
+      "asset_relative_path": "manifest/music/oneshot.json",
+      "size_bytes": 9999,
+      "sha256": "91e48224992b8c0fd081b486f5dda1b1bd9b50e3db46f61638b084bc65a7ee92",
+      "search_terms": [
+        "oneshot"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Sewer Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 183832,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Sewer_Assets_1_Complete_Set.json",
+      "stem": "Sewer_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Sewer Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set.json",
+      "size_bytes": 11516,
+      "sha256": "ca5010d8c4cfd181f8cfa61d289f6e041225e14c6c7270329fc24752c994da2b",
+      "search_terms": [
+        "sewer"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Sewer_Assets_1_Complete_Set_Group_01.json",
+      "stem": "Sewer_Assets_1_Complete_Set_Group_01",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Sewer Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_01.json",
+      "url": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_01.json",
+      "asset_relative_path": "manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_01.json",
+      "size_bytes": 43726,
+      "sha256": "f91576b8c76d066f2cea113c0140a483ddf524fe6d8a84428217e9286511bf85",
+      "search_terms": [
+        "sewer",
+        "group",
+        "01"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Sewer_Assets_1_Complete_Set_Group_02.json",
+      "stem": "Sewer_Assets_1_Complete_Set_Group_02",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Sewer Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_02.json",
+      "url": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_02.json",
+      "asset_relative_path": "manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_02.json",
+      "size_bytes": 40741,
+      "sha256": "17e06566afeeb9e9264e32fbe2de4b3047b52f0449e765ec88e68ed808e265c1",
+      "search_terms": [
+        "sewer",
+        "group",
+        "02"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Sewer_Assets_1_Complete_Set_Group_03.json",
+      "stem": "Sewer_Assets_1_Complete_Set_Group_03",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Sewer Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_03.json",
+      "url": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_03.json",
+      "asset_relative_path": "manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_03.json",
+      "size_bytes": 28933,
+      "sha256": "0961168e8d985a6d0387490a8642a30fdab4a6013ba487db9a95c8061a0a5621",
+      "search_terms": [
+        "sewer",
+        "group",
+        "03"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Sewer_Assets_1_Complete_Set_Group_04.json",
+      "stem": "Sewer_Assets_1_Complete_Set_Group_04",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Sewer Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_04.json",
+      "url": "assets/manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_04.json",
+      "asset_relative_path": "manifest/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_04.json",
+      "size_bytes": 58916,
+      "sha256": "aa4014f2337f9f453eb30f166925bd7876d3443311cacd2d6cd1ef334e27d2c6",
+      "search_terms": [
+        "sewer",
+        "group",
+        "04"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

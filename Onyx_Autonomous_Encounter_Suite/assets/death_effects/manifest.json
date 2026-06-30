@@ -1,0 +1,68 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/death_effects",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 28598,
+  "type_counts_recursive": {
+    "effect_or_mood": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "blood_drop.png",
+      "stem": "blood_drop",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/death_effects",
+      "relative_path": "assets/death_effects/blood_drop.png",
+      "url": "assets/death_effects/blood_drop.png",
+      "asset_relative_path": "death_effects/blood_drop.png",
+      "size_bytes": 27762,
+      "sha256": "f09cda0ec65e072b9309a9b7e87acd4d0806822a0eb265080da47470cee05f73",
+      "search_terms": [
+        "blood",
+        "drop"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "bone.png",
+      "stem": "bone",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/death_effects",
+      "relative_path": "assets/death_effects/bone.png",
+      "url": "assets/death_effects/bone.png",
+      "asset_relative_path": "death_effects/bone.png",
+      "size_bytes": 398,
+      "sha256": "ae05959dd928260150ae9fc30a6fe44267ad76d5fdf365064f2b7157ef7d472a",
+      "search_terms": [
+        "bone"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "death_symbol.png",
+      "stem": "death_symbol",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/death_effects",
+      "relative_path": "assets/death_effects/death_symbol.png",
+      "url": "assets/death_effects/death_symbol.png",
+      "asset_relative_path": "death_effects/death_symbol.png",
+      "size_bytes": 438,
+      "sha256": "28c9b32185ab581eaea371257f0e61374f647f71738f09d068dd65f53adbf9bb",
+      "search_terms": [
+        "death",
+        "symbol"
+      ],
+      "mime_type": "image/png"
+    }
+  ]
+}

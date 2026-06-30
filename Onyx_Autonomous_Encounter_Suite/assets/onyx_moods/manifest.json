@@ -1,0 +1,204 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/onyx_moods",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 11,
+  "recursive_file_count": 11,
+  "recursive_total_bytes": 12945746,
+  "type_counts_recursive": {
+    "effect_or_mood": 11
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "hello",
+      "stem": "hello",
+      "extension": "",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/hello",
+      "url": "assets/onyx_moods/hello",
+      "asset_relative_path": "onyx_moods/hello",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "search_terms": [
+        "hello"
+      ]
+    },
+    {
+      "name": "onyx_advising_professor.png",
+      "stem": "onyx_advising_professor",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_advising_professor.png",
+      "url": "assets/onyx_moods/onyx_advising_professor.png",
+      "asset_relative_path": "onyx_moods/onyx_advising_professor.png",
+      "size_bytes": 1321840,
+      "sha256": "dc43cd21276d58313a439e80ab11162db3cb20b865e2854df3112d3379b065b4",
+      "search_terms": [
+        "onyx",
+        "advising",
+        "professor"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_caring.png",
+      "stem": "onyx_caring",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_caring.png",
+      "url": "assets/onyx_moods/onyx_caring.png",
+      "asset_relative_path": "onyx_moods/onyx_caring.png",
+      "size_bytes": 1254025,
+      "sha256": "78c460072750c1d07ed7113cb9fac0ac338b7d441e6fdf8f6ad87bc915015048",
+      "search_terms": [
+        "onyx",
+        "caring"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_hungry.png",
+      "stem": "onyx_hungry",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_hungry.png",
+      "url": "assets/onyx_moods/onyx_hungry.png",
+      "asset_relative_path": "onyx_moods/onyx_hungry.png",
+      "size_bytes": 1325684,
+      "sha256": "79a2cdc4963ff1ae6dbf7d0c766475ff67b446e08c18635ea7818033615f44db",
+      "search_terms": [
+        "onyx",
+        "hungry"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_judgmental.png",
+      "stem": "onyx_judgmental",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_judgmental.png",
+      "url": "assets/onyx_moods/onyx_judgmental.png",
+      "asset_relative_path": "onyx_moods/onyx_judgmental.png",
+      "size_bytes": 1298987,
+      "sha256": "ecbf08562c844cba4b10b18e7e6ad188e2a0bbfd3944112a2089341ecbba9c2d",
+      "search_terms": [
+        "onyx",
+        "judgmental"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_listening.png",
+      "stem": "onyx_listening",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_listening.png",
+      "url": "assets/onyx_moods/onyx_listening.png",
+      "asset_relative_path": "onyx_moods/onyx_listening.png",
+      "size_bytes": 1211660,
+      "sha256": "5d59944043e627076d843d5115d42e3bd7285b850e85d7e4e78d8921e99ea873",
+      "search_terms": [
+        "onyx",
+        "listening"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_purring.png",
+      "stem": "onyx_purring",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_purring.png",
+      "url": "assets/onyx_moods/onyx_purring.png",
+      "asset_relative_path": "onyx_moods/onyx_purring.png",
+      "size_bytes": 1269361,
+      "sha256": "bcc1955eb9d9eafe0e96814d8b4af8b264d9c94510f679ed75fab5f9fdd9ba13",
+      "search_terms": [
+        "onyx",
+        "purring"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_sleepy.png",
+      "stem": "onyx_sleepy",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_sleepy.png",
+      "url": "assets/onyx_moods/onyx_sleepy.png",
+      "asset_relative_path": "onyx_moods/onyx_sleepy.png",
+      "size_bytes": 1291607,
+      "sha256": "2a49c183ddb9d8f2406dc72536e9b1af195d6fc16742255e07f0f7fc3f66abcf",
+      "search_terms": [
+        "onyx",
+        "sleepy"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_snuggly.png",
+      "stem": "onyx_snuggly",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_snuggly.png",
+      "url": "assets/onyx_moods/onyx_snuggly.png",
+      "asset_relative_path": "onyx_moods/onyx_snuggly.png",
+      "size_bytes": 1306633,
+      "sha256": "e52c8004e1f1bb23c916d7455e7682bb05b86ea2003f0992c6718e480351e39e",
+      "search_terms": [
+        "onyx",
+        "snuggly"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_thinking.png",
+      "stem": "onyx_thinking",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_thinking.png",
+      "url": "assets/onyx_moods/onyx_thinking.png",
+      "asset_relative_path": "onyx_moods/onyx_thinking.png",
+      "size_bytes": 1328074,
+      "sha256": "b111f71d6435be577e0cd102493932aa95ce8fd99a52c9dafd920099be71b893",
+      "search_terms": [
+        "onyx",
+        "thinking"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "onyx_thoughtful.png",
+      "stem": "onyx_thoughtful",
+      "extension": ".png",
+      "type": "effect_or_mood",
+      "folder": "assets/onyx_moods",
+      "relative_path": "assets/onyx_moods/onyx_thoughtful.png",
+      "url": "assets/onyx_moods/onyx_thoughtful.png",
+      "asset_relative_path": "onyx_moods/onyx_thoughtful.png",
+      "size_bytes": 1337874,
+      "sha256": "5f6a6bd139f5b1b9fd9582e435ce3d7be94213895047f00536ca2926ff413574",
+      "search_terms": [
+        "onyx",
+        "thoughtful"
+      ],
+      "mime_type": "image/png"
+    }
+  ]
+}

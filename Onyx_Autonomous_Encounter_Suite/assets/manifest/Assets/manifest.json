@@ -1,0 +1,98 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Assets",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 12545343,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Audio.json",
+      "stem": "Audio",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Assets",
+      "relative_path": "assets/manifest/Assets/Audio.json",
+      "url": "assets/manifest/Assets/Audio.json",
+      "asset_relative_path": "manifest/Assets/Audio.json",
+      "size_bytes": 45878,
+      "sha256": "a73c0dcb304ae615413477f064f59b11f24f18573eb723309f2da442566df151",
+      "search_terms": [
+        "audio"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Code.json",
+      "stem": "Code",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Assets",
+      "relative_path": "assets/manifest/Assets/Code.json",
+      "url": "assets/manifest/Assets/Code.json",
+      "asset_relative_path": "manifest/Assets/Code.json",
+      "size_bytes": 1255807,
+      "sha256": "1dd962575542b54b324e0d30f452343bb51ac87c705d83121a77cc13ef272f54",
+      "search_terms": [
+        "code"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Docs.json",
+      "stem": "Docs",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Assets",
+      "relative_path": "assets/manifest/Assets/Docs.json",
+      "url": "assets/manifest/Assets/Docs.json",
+      "asset_relative_path": "manifest/Assets/Docs.json",
+      "size_bytes": 2402720,
+      "sha256": "27e8fae400c3a65fb0fd8f424533c8aa67d3cfc5adc330db884a762109e7d7f0",
+      "search_terms": [
+        "docs"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Images.json",
+      "stem": "Images",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Assets",
+      "relative_path": "assets/manifest/Assets/Images.json",
+      "url": "assets/manifest/Assets/Images.json",
+      "asset_relative_path": "manifest/Assets/Images.json",
+      "size_bytes": 7259246,
+      "sha256": "3441812ed332ae474f4028764bada019b3c88b9a24d22755a886b392812f730f",
+      "search_terms": [
+        "images"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tools.json",
+      "stem": "Tools",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Assets",
+      "relative_path": "assets/manifest/Assets/Tools.json",
+      "url": "assets/manifest/Assets/Tools.json",
+      "asset_relative_path": "manifest/Assets/Tools.json",
+      "size_bytes": 1581692,
+      "sha256": "de3921de2a9a0ddd291eece5edae79a63dc3d06ed7f10c03f0ed40b43110810c",
+      "search_terms": [
+        "tools"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

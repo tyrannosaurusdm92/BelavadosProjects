@@ -1,0 +1,1963 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/media/media 4",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 100,
+  "recursive_file_count": 100,
+  "recursive_total_bytes": 6595609,
+  "type_counts_recursive": {
+    "image": 100
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "gamer-main_b95b317390_robert-e-howard.jpg",
+      "stem": "gamer-main_b95b317390_robert-e-howard",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_b95b317390_robert-e-howard.jpg",
+      "url": "assets/media/media 4/gamer-main_b95b317390_robert-e-howard.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_b95b317390_robert-e-howard.jpg",
+      "size_bytes": 23964,
+      "sha256": "b95b317390611b8283bd845538cfb1aac66708ee680ea92303be7b7a42185951",
+      "search_terms": [
+        "gamer",
+        "b95b317390",
+        "robert",
+        "howard"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_ba34d8528e_038-valerian.png",
+      "stem": "gamer-main_ba34d8528e_038-valerian",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_ba34d8528e_038-valerian.png",
+      "url": "assets/media/media 4/gamer-main_ba34d8528e_038-valerian.png",
+      "asset_relative_path": "media/media 4/gamer-main_ba34d8528e_038-valerian.png",
+      "size_bytes": 79394,
+      "sha256": "ba34d8528e05b12388823de083f2081c54d9c4773e27b591d8d526e854432ee9",
+      "search_terms": [
+        "gamer",
+        "ba34d8528e",
+        "038",
+        "valerian"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_ba8f0ee48f_039-elric.png",
+      "stem": "gamer-main_ba8f0ee48f_039-elric",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_ba8f0ee48f_039-elric.png",
+      "url": "assets/media/media 4/gamer-main_ba8f0ee48f_039-elric.png",
+      "asset_relative_path": "media/media 4/gamer-main_ba8f0ee48f_039-elric.png",
+      "size_bytes": 74223,
+      "sha256": "ba8f0ee48fef1f5aeab9e4caa3ad2e9e121d89868ef34aa7c808dd5557f6a2f2",
+      "search_terms": [
+        "gamer",
+        "ba8f0ee48f",
+        "039",
+        "elric"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_bbff8f490b_ace-double-d-295-1958.png",
+      "stem": "gamer-main_bbff8f490b_ace-double-d-295-1958",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_bbff8f490b_ace-double-d-295-1958.png",
+      "url": "assets/media/media 4/gamer-main_bbff8f490b_ace-double-d-295-1958.png",
+      "asset_relative_path": "media/media 4/gamer-main_bbff8f490b_ace-double-d-295-1958.png",
+      "size_bytes": 56742,
+      "sha256": "bbff8f490bc11c06bd4cc20c9aa997576126903fedd08edb253430401ec75577",
+      "search_terms": [
+        "gamer",
+        "bbff8f490b",
+        "ace",
+        "double",
+        "295",
+        "1958"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_bc9a9d78b4_ace-double-d-413-1959.png",
+      "stem": "gamer-main_bc9a9d78b4_ace-double-d-413-1959",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_bc9a9d78b4_ace-double-d-413-1959.png",
+      "url": "assets/media/media 4/gamer-main_bc9a9d78b4_ace-double-d-413-1959.png",
+      "asset_relative_path": "media/media 4/gamer-main_bc9a9d78b4_ace-double-d-413-1959.png",
+      "size_bytes": 56099,
+      "sha256": "bc9a9d78b47bbe04ab157e85bca54af137be74ca07217bddc412da2f07e5d753",
+      "search_terms": [
+        "gamer",
+        "bc9a9d78b4",
+        "ace",
+        "double",
+        "413",
+        "1959"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_bd711a65e6_027-barsoom.png",
+      "stem": "gamer-main_bd711a65e6_027-barsoom",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_bd711a65e6_027-barsoom.png",
+      "url": "assets/media/media 4/gamer-main_bd711a65e6_027-barsoom.png",
+      "asset_relative_path": "media/media 4/gamer-main_bd711a65e6_027-barsoom.png",
+      "size_bytes": 77756,
+      "sha256": "bd711a65e6e5dfbbcbc1b57a81b140e109a8c4cd653a9a1602fcba54dd76bdf8",
+      "search_terms": [
+        "gamer",
+        "bd711a65e6",
+        "027",
+        "barsoom"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_bda78a304c_020-deckard.png",
+      "stem": "gamer-main_bda78a304c_020-deckard",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_bda78a304c_020-deckard.png",
+      "url": "assets/media/media 4/gamer-main_bda78a304c_020-deckard.png",
+      "asset_relative_path": "media/media 4/gamer-main_bda78a304c_020-deckard.png",
+      "size_bytes": 73016,
+      "sha256": "bda78a304cc7b27f812dae808bd6b4aadfd7c41c6f46e1281483b0aa9627aca2",
+      "search_terms": [
+        "gamer",
+        "bda78a304c",
+        "020",
+        "deckard"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_bde3373df1_066-avon.png",
+      "stem": "gamer-main_bde3373df1_066-avon",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_bde3373df1_066-avon.png",
+      "url": "assets/media/media 4/gamer-main_bde3373df1_066-avon.png",
+      "asset_relative_path": "media/media 4/gamer-main_bde3373df1_066-avon.png",
+      "size_bytes": 78397,
+      "sha256": "bde3373df160f80b421564b1cec800736d2a2bd0497dfa223dfb6a7eb9bec702",
+      "search_terms": [
+        "gamer",
+        "bde3373df1",
+        "066",
+        "avon"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_bf5e812a65_085-professor-pat-p.png",
+      "stem": "gamer-main_bf5e812a65_085-professor-pat-p",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_bf5e812a65_085-professor-pat-p.png",
+      "url": "assets/media/media 4/gamer-main_bf5e812a65_085-professor-pat-p.png",
+      "asset_relative_path": "media/media 4/gamer-main_bf5e812a65_085-professor-pat-p.png",
+      "size_bytes": 82983,
+      "sha256": "bf5e812a6534110e6e2641cf39075e6697c0c3e03d84ca91a2bd0e1256001706",
+      "search_terms": [
+        "gamer",
+        "bf5e812a65",
+        "085",
+        "professor",
+        "pat"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_c02dfcbc56_menu_portrait.png",
+      "stem": "gamer-main_c02dfcbc56_menu_portrait",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c02dfcbc56_menu_portrait.png",
+      "url": "assets/media/media 4/gamer-main_c02dfcbc56_menu_portrait.png",
+      "asset_relative_path": "media/media 4/gamer-main_c02dfcbc56_menu_portrait.png",
+      "size_bytes": 149523,
+      "sha256": "c02dfcbc56b351511cb2a2116172cfe483b4b65a6231b83e4a188875c25378f9",
+      "search_terms": [
+        "gamer",
+        "c02dfcbc56",
+        "menu",
+        "portrait"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_c086eadb76_037-gateway.png",
+      "stem": "gamer-main_c086eadb76_037-gateway",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c086eadb76_037-gateway.png",
+      "url": "assets/media/media 4/gamer-main_c086eadb76_037-gateway.png",
+      "asset_relative_path": "media/media 4/gamer-main_c086eadb76_037-gateway.png",
+      "size_bytes": 87486,
+      "sha256": "c086eadb7633bfc803ebab30fbf2afe547dd32fa26e13c43cc1482d4f3ac7e87",
+      "search_terms": [
+        "gamer",
+        "c086eadb76",
+        "037",
+        "gateway"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_c32fa09e7f_024-ankh-morpork.png",
+      "stem": "gamer-main_c32fa09e7f_024-ankh-morpork",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c32fa09e7f_024-ankh-morpork.png",
+      "url": "assets/media/media 4/gamer-main_c32fa09e7f_024-ankh-morpork.png",
+      "asset_relative_path": "media/media 4/gamer-main_c32fa09e7f_024-ankh-morpork.png",
+      "size_bytes": 78781,
+      "sha256": "c32fa09e7fc37e83310a3f480ffe3b499add4c8702495dfc843785105951e85e",
+      "search_terms": [
+        "gamer",
+        "c32fa09e7f",
+        "024",
+        "ankh",
+        "morpork"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_c4134e7c3e_labyrinth-1986.jpg",
+      "stem": "gamer-main_c4134e7c3e_labyrinth-1986",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c4134e7c3e_labyrinth-1986.jpg",
+      "url": "assets/media/media 4/gamer-main_c4134e7c3e_labyrinth-1986.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_c4134e7c3e_labyrinth-1986.jpg",
+      "size_bytes": 33753,
+      "sha256": "c4134e7c3e195be3be6502b01291cee91c1479aa6309aa546285ae317b7cb0da",
+      "search_terms": [
+        "gamer",
+        "c4134e7c3e",
+        "labyrinth",
+        "1986"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_c469f52a27_034-death-star.png",
+      "stem": "gamer-main_c469f52a27_034-death-star",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c469f52a27_034-death-star.png",
+      "url": "assets/media/media 4/gamer-main_c469f52a27_034-death-star.png",
+      "asset_relative_path": "media/media 4/gamer-main_c469f52a27_034-death-star.png",
+      "size_bytes": 83930,
+      "sha256": "c469f52a27b9339d03eb31361bfbec529b293ef9d55a15b4095b73e5cc683217",
+      "search_terms": [
+        "gamer",
+        "c469f52a27",
+        "034",
+        "death",
+        "star"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_c801d57209_noggin-the-nog-1959.png",
+      "stem": "gamer-main_c801d57209_noggin-the-nog-1959",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c801d57209_noggin-the-nog-1959.png",
+      "url": "assets/media/media 4/gamer-main_c801d57209_noggin-the-nog-1959.png",
+      "asset_relative_path": "media/media 4/gamer-main_c801d57209_noggin-the-nog-1959.png",
+      "size_bytes": 252119,
+      "sha256": "c801d57209b4202e461bb0ee7136cc843c86e4cf131d6fa3216fa6d2f171caac",
+      "search_terms": [
+        "gamer",
+        "c801d57209",
+        "noggin",
+        "the",
+        "nog",
+        "1959"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_c8d7ed6620_064-the-doctor.png",
+      "stem": "gamer-main_c8d7ed6620_064-the-doctor",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_c8d7ed6620_064-the-doctor.png",
+      "url": "assets/media/media 4/gamer-main_c8d7ed6620_064-the-doctor.png",
+      "asset_relative_path": "media/media 4/gamer-main_c8d7ed6620_064-the-doctor.png",
+      "size_bytes": 83730,
+      "sha256": "c8d7ed66209ff30fe13af99491bda87d8a755d5647413531068467f22393394e",
+      "search_terms": [
+        "gamer",
+        "c8d7ed6620",
+        "064",
+        "the",
+        "doctor"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_ca7b6fb9b9_edgar-rice-burroughs.jpg",
+      "stem": "gamer-main_ca7b6fb9b9_edgar-rice-burroughs",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_ca7b6fb9b9_edgar-rice-burroughs.jpg",
+      "url": "assets/media/media 4/gamer-main_ca7b6fb9b9_edgar-rice-burroughs.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_ca7b6fb9b9_edgar-rice-burroughs.jpg",
+      "size_bytes": 20734,
+      "sha256": "ca7b6fb9b96fc5af683de852572a51b348f0d3ba17b16d097a6bc265f940034d",
+      "search_terms": [
+        "gamer",
+        "ca7b6fb9b9",
+        "edgar",
+        "rice",
+        "burroughs"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_cbb3454a17_famous-robots.png",
+      "stem": "gamer-main_cbb3454a17_famous-robots",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_cbb3454a17_famous-robots.png",
+      "url": "assets/media/media 4/gamer-main_cbb3454a17_famous-robots.png",
+      "asset_relative_path": "media/media 4/gamer-main_cbb3454a17_famous-robots.png",
+      "size_bytes": 46514,
+      "sha256": "cbb3454a1791a16d6911bd924456d367c4c0d54e0ca101c9560553caa007629d",
+      "search_terms": [
+        "gamer",
+        "cbb3454a17",
+        "famous",
+        "robots"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_cc89d97003_021-selidor.png",
+      "stem": "gamer-main_cc89d97003_021-selidor",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_cc89d97003_021-selidor.png",
+      "url": "assets/media/media 4/gamer-main_cc89d97003_021-selidor.png",
+      "asset_relative_path": "media/media 4/gamer-main_cc89d97003_021-selidor.png",
+      "size_bytes": 72709,
+      "sha256": "cc89d970033694a0166b2f713b4879130d637b84bf7c451360f39cc663201ab8",
+      "search_terms": [
+        "gamer",
+        "cc89d97003",
+        "021",
+        "selidor"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_cc98397653_046-games-machine.png",
+      "stem": "gamer-main_cc98397653_046-games-machine",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_cc98397653_046-games-machine.png",
+      "url": "assets/media/media 4/gamer-main_cc98397653_046-games-machine.png",
+      "asset_relative_path": "media/media 4/gamer-main_cc98397653_046-games-machine.png",
+      "size_bytes": 73223,
+      "sha256": "cc98397653bb43efbb52df067581604c9db7e3bb4f36b4dcea85f9c942d21dc0",
+      "search_terms": [
+        "gamer",
+        "cc98397653",
+        "046",
+        "games",
+        "machine"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_cd45d0ce36_terry-pratchett.jpg",
+      "stem": "gamer-main_cd45d0ce36_terry-pratchett",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_cd45d0ce36_terry-pratchett.jpg",
+      "url": "assets/media/media 4/gamer-main_cd45d0ce36_terry-pratchett.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_cd45d0ce36_terry-pratchett.jpg",
+      "size_bytes": 39303,
+      "sha256": "cd45d0ce36cb74c6c46f1dd08f7adcabadbbe9ca1096dd1076706f9ab13623d0",
+      "search_terms": [
+        "gamer",
+        "cd45d0ce36",
+        "terry",
+        "pratchett"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_cefede2c9b_terry-pratchett.png",
+      "stem": "gamer-main_cefede2c9b_terry-pratchett",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_cefede2c9b_terry-pratchett.png",
+      "url": "assets/media/media 4/gamer-main_cefede2c9b_terry-pratchett.png",
+      "asset_relative_path": "media/media 4/gamer-main_cefede2c9b_terry-pratchett.png",
+      "size_bytes": 299902,
+      "sha256": "cefede2c9b6082cfbbb6b4a9456c77c8f11edc291f1a1d927da2b1f31fbc1e53",
+      "search_terms": [
+        "gamer",
+        "cefede2c9b",
+        "terry",
+        "pratchett"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_d0a354c011_061-lion-o.png",
+      "stem": "gamer-main_d0a354c011_061-lion-o",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_d0a354c011_061-lion-o.png",
+      "url": "assets/media/media 4/gamer-main_d0a354c011_061-lion-o.png",
+      "asset_relative_path": "media/media 4/gamer-main_d0a354c011_061-lion-o.png",
+      "size_bytes": 81397,
+      "sha256": "d0a354c0111ef3311b124375bca1457a50fb00666a5ae8eef940f0911ce000db",
+      "search_terms": [
+        "gamer",
+        "d0a354c011",
+        "061",
+        "lion"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e0f4e4826e_007-dol-guldur.png",
+      "stem": "gamer-main_e0f4e4826e_007-dol-guldur",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e0f4e4826e_007-dol-guldur.png",
+      "url": "assets/media/media 4/gamer-main_e0f4e4826e_007-dol-guldur.png",
+      "asset_relative_path": "media/media 4/gamer-main_e0f4e4826e_007-dol-guldur.png",
+      "size_bytes": 73996,
+      "sha256": "e0f4e4826e46972fa36e37dcfc4901777e2d63a88660f285be35c2ec3fdebaab",
+      "search_terms": [
+        "gamer",
+        "e0f4e4826e",
+        "007",
+        "dol",
+        "guldur"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e274af3c84_thundercats-1985.png",
+      "stem": "gamer-main_e274af3c84_thundercats-1985",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e274af3c84_thundercats-1985.png",
+      "url": "assets/media/media 4/gamer-main_e274af3c84_thundercats-1985.png",
+      "asset_relative_path": "media/media 4/gamer-main_e274af3c84_thundercats-1985.png",
+      "size_bytes": 82182,
+      "sha256": "e274af3c84a395fe398a2337ee6f2bc11fafaa1960b50a1730f144e221246876",
+      "search_terms": [
+        "gamer",
+        "e274af3c84",
+        "thundercats",
+        "1985"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e380c74943_013-brutalitops.png",
+      "stem": "gamer-main_e380c74943_013-brutalitops",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e380c74943_013-brutalitops.png",
+      "url": "assets/media/media 4/gamer-main_e380c74943_013-brutalitops.png",
+      "asset_relative_path": "media/media 4/gamer-main_e380c74943_013-brutalitops.png",
+      "size_bytes": 76655,
+      "sha256": "e380c749436759772fa7dce4217cfeb33ec412d8a37d721152e25160c4299f4c",
+      "search_terms": [
+        "gamer",
+        "e380c74943",
+        "013",
+        "brutalitops"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e3fb5595e1_splash_logo.png",
+      "stem": "gamer-main_e3fb5595e1_splash_logo",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e3fb5595e1_splash_logo.png",
+      "url": "assets/media/media 4/gamer-main_e3fb5595e1_splash_logo.png",
+      "asset_relative_path": "media/media 4/gamer-main_e3fb5595e1_splash_logo.png",
+      "size_bytes": 173484,
+      "sha256": "e3fb5595e11a80cf7d9803d6711fd0e344d33e3b04596778cf3a7beafcfe9d3e",
+      "search_terms": [
+        "gamer",
+        "e3fb5595e1",
+        "splash",
+        "logo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e43e04a36c_the-beastmaster-1982.png",
+      "stem": "gamer-main_e43e04a36c_the-beastmaster-1982",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e43e04a36c_the-beastmaster-1982.png",
+      "url": "assets/media/media 4/gamer-main_e43e04a36c_the-beastmaster-1982.png",
+      "asset_relative_path": "media/media 4/gamer-main_e43e04a36c_the-beastmaster-1982.png",
+      "size_bytes": 233287,
+      "sha256": "e43e04a36c7ff920d6640285e7fe5ba219fbe5633635ebe7b019694de26af76c",
+      "search_terms": [
+        "gamer",
+        "e43e04a36c",
+        "the",
+        "beastmaster",
+        "1982"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e7a03ea425_dragon_castle_preview2.png",
+      "stem": "gamer-main_e7a03ea425_dragon_castle_preview2",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e7a03ea425_dragon_castle_preview2.png",
+      "url": "assets/media/media 4/gamer-main_e7a03ea425_dragon_castle_preview2.png",
+      "asset_relative_path": "media/media 4/gamer-main_e7a03ea425_dragon_castle_preview2.png",
+      "size_bytes": 4969,
+      "sha256": "e7a03ea42599f2fdbfd1bffc636d32e8808a231f0406d1fb56ef117ee4e1f1e0",
+      "search_terms": [
+        "gamer",
+        "e7a03ea425",
+        "dragon",
+        "castle",
+        "preview2"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e7d527ca7b_d-d-module-1981.png",
+      "stem": "gamer-main_e7d527ca7b_d-d-module-1981",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e7d527ca7b_d-d-module-1981.png",
+      "url": "assets/media/media 4/gamer-main_e7d527ca7b_d-d-module-1981.png",
+      "asset_relative_path": "media/media 4/gamer-main_e7d527ca7b_d-d-module-1981.png",
+      "size_bytes": 53293,
+      "sha256": "e7d527ca7b37e4bab67144273a76de1676decff427753eeb620ce722af84b016",
+      "search_terms": [
+        "gamer",
+        "e7d527ca7b",
+        "module",
+        "1981"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e7e2e5a4bc_022-havnor.png",
+      "stem": "gamer-main_e7e2e5a4bc_022-havnor",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e7e2e5a4bc_022-havnor.png",
+      "url": "assets/media/media 4/gamer-main_e7e2e5a4bc_022-havnor.png",
+      "asset_relative_path": "media/media 4/gamer-main_e7e2e5a4bc_022-havnor.png",
+      "size_bytes": 74878,
+      "sha256": "e7e2e5a4bc6dd78bd6984afd798d41a07aa827746335f17e65facbecd8036a65",
+      "search_terms": [
+        "gamer",
+        "e7e2e5a4bc",
+        "022",
+        "havnor"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e7f48ad848_008-helm-s-deep.png",
+      "stem": "gamer-main_e7f48ad848_008-helm-s-deep",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e7f48ad848_008-helm-s-deep.png",
+      "url": "assets/media/media 4/gamer-main_e7f48ad848_008-helm-s-deep.png",
+      "asset_relative_path": "media/media 4/gamer-main_e7f48ad848_008-helm-s-deep.png",
+      "size_bytes": 78037,
+      "sha256": "e7f48ad8485e2063852c5c257b5439433a8df55bfdb972e380c37772f7ab8458",
+      "search_terms": [
+        "gamer",
+        "e7f48ad848",
+        "008",
+        "helm",
+        "deep"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e878677964_the-beastmaster-1982.jpg",
+      "stem": "gamer-main_e878677964_the-beastmaster-1982",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e878677964_the-beastmaster-1982.jpg",
+      "url": "assets/media/media 4/gamer-main_e878677964_the-beastmaster-1982.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_e878677964_the-beastmaster-1982.jpg",
+      "size_bytes": 30520,
+      "sha256": "e878677964e615ead347059138a112db2b2fb8688ed45dd8ba73ad8265560104",
+      "search_terms": [
+        "gamer",
+        "e878677964",
+        "the",
+        "beastmaster",
+        "1982"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_e92cdb568d_005-mount-doom.png",
+      "stem": "gamer-main_e92cdb568d_005-mount-doom",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e92cdb568d_005-mount-doom.png",
+      "url": "assets/media/media 4/gamer-main_e92cdb568d_005-mount-doom.png",
+      "asset_relative_path": "media/media 4/gamer-main_e92cdb568d_005-mount-doom.png",
+      "size_bytes": 77099,
+      "sha256": "e92cdb568de5f33b68b44e3614f2298dd904c97f871b16708ef301e4888d94c8",
+      "search_terms": [
+        "gamer",
+        "e92cdb568d",
+        "005",
+        "mount",
+        "doom"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e96873a3b9_ace-double-d-103-1955.png",
+      "stem": "gamer-main_e96873a3b9_ace-double-d-103-1955",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e96873a3b9_ace-double-d-103-1955.png",
+      "url": "assets/media/media 4/gamer-main_e96873a3b9_ace-double-d-103-1955.png",
+      "asset_relative_path": "media/media 4/gamer-main_e96873a3b9_ace-double-d-103-1955.png",
+      "size_bytes": 56714,
+      "sha256": "e96873a3b9894788a0a11887df22d684f41669f5be50d9e9b7683150f493c45e",
+      "search_terms": [
+        "gamer",
+        "e96873a3b9",
+        "ace",
+        "double",
+        "103",
+        "1955"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_e98115a426_029-atreyu.png",
+      "stem": "gamer-main_e98115a426_029-atreyu",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_e98115a426_029-atreyu.png",
+      "url": "assets/media/media 4/gamer-main_e98115a426_029-atreyu.png",
+      "asset_relative_path": "media/media 4/gamer-main_e98115a426_029-atreyu.png",
+      "size_bytes": 83986,
+      "sha256": "e98115a4264f56fec0a2fff1db707ce779335185344359643af7ddaa785b7e21",
+      "search_terms": [
+        "gamer",
+        "e98115a426",
+        "029",
+        "atreyu"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_eb4f3835b0_community.jpg",
+      "stem": "gamer-main_eb4f3835b0_community",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_eb4f3835b0_community.jpg",
+      "url": "assets/media/media 4/gamer-main_eb4f3835b0_community.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_eb4f3835b0_community.jpg",
+      "size_bytes": 21802,
+      "sha256": "eb4f3835b027d29b3b0c92f194fa7c3d35205415b18d47f9938bb758f1378f91",
+      "search_terms": [
+        "gamer",
+        "eb4f3835b0",
+        "community"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_ee3d712a27_roger-zelazny.jpg",
+      "stem": "gamer-main_ee3d712a27_roger-zelazny",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_ee3d712a27_roger-zelazny.jpg",
+      "url": "assets/media/media 4/gamer-main_ee3d712a27_roger-zelazny.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_ee3d712a27_roger-zelazny.jpg",
+      "size_bytes": 20838,
+      "sha256": "ee3d712a27a118609ed5249a4890c86750f4d37c5d42de2efdebfb9f84a9b784",
+      "search_terms": [
+        "gamer",
+        "ee3d712a27",
+        "roger",
+        "zelazny"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_ef31c32ac3_star-wars-1977.png",
+      "stem": "gamer-main_ef31c32ac3_star-wars-1977",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_ef31c32ac3_star-wars-1977.png",
+      "url": "assets/media/media 4/gamer-main_ef31c32ac3_star-wars-1977.png",
+      "asset_relative_path": "media/media 4/gamer-main_ef31c32ac3_star-wars-1977.png",
+      "size_bytes": 230332,
+      "sha256": "ef31c32ac37736644a55a15ad75a9110bee01958a6715ba61bae4c35658447b1",
+      "search_terms": [
+        "gamer",
+        "ef31c32ac3",
+        "star",
+        "wars",
+        "1977"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f00d51c998_067-ulysses.png",
+      "stem": "gamer-main_f00d51c998_067-ulysses",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f00d51c998_067-ulysses.png",
+      "url": "assets/media/media 4/gamer-main_f00d51c998_067-ulysses.png",
+      "asset_relative_path": "media/media 4/gamer-main_f00d51c998_067-ulysses.png",
+      "size_bytes": 79961,
+      "sha256": "f00d51c9986db023b0ba39df83670a7d72bf90065e1fcbbfbfbffeae87f8c0c8",
+      "search_terms": [
+        "gamer",
+        "f00d51c998",
+        "067",
+        "ulysses"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f01038fb73_alien-1979.png",
+      "stem": "gamer-main_f01038fb73_alien-1979",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f01038fb73_alien-1979.png",
+      "url": "assets/media/media 4/gamer-main_f01038fb73_alien-1979.png",
+      "asset_relative_path": "media/media 4/gamer-main_f01038fb73_alien-1979.png",
+      "size_bytes": 157704,
+      "sha256": "f01038fb736c3954a788c8bef4e9063e0d2151e9c481120b21defdf73f5073fd",
+      "search_terms": [
+        "gamer",
+        "f01038fb73",
+        "alien",
+        "1979"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f05fd77144_community.png",
+      "stem": "gamer-main_f05fd77144_community",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f05fd77144_community.png",
+      "url": "assets/media/media 4/gamer-main_f05fd77144_community.png",
+      "asset_relative_path": "media/media 4/gamer-main_f05fd77144_community.png",
+      "size_bytes": 160275,
+      "sha256": "f05fd77144835b034d6f9a58775d7955831b5dbdf63daba5e1738281834da57d",
+      "search_terms": [
+        "gamer",
+        "f05fd77144",
+        "community"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f28e51d518_035-hawk.png",
+      "stem": "gamer-main_f28e51d518_035-hawk",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f28e51d518_035-hawk.png",
+      "url": "assets/media/media 4/gamer-main_f28e51d518_035-hawk.png",
+      "asset_relative_path": "media/media 4/gamer-main_f28e51d518_035-hawk.png",
+      "size_bytes": 76070,
+      "sha256": "f28e51d518469fa4c8ec409a71edee97e09bfa71e9f177da62f4d5771555baa8",
+      "search_terms": [
+        "gamer",
+        "f28e51d518",
+        "035",
+        "hawk"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f2f1508054_he-man-1983.jpg",
+      "stem": "gamer-main_f2f1508054_he-man-1983",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f2f1508054_he-man-1983.jpg",
+      "url": "assets/media/media 4/gamer-main_f2f1508054_he-man-1983.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_f2f1508054_he-man-1983.jpg",
+      "size_bytes": 14922,
+      "sha256": "f2f1508054c8dda7fb143cc879633e2e21ee70572b7c4c60cd62cc628a978bca",
+      "search_terms": [
+        "gamer",
+        "f2f1508054",
+        "he",
+        "man",
+        "1983"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_f3108d1c2b_016-melnibone.png",
+      "stem": "gamer-main_f3108d1c2b_016-melnibone",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f3108d1c2b_016-melnibone.png",
+      "url": "assets/media/media 4/gamer-main_f3108d1c2b_016-melnibone.png",
+      "asset_relative_path": "media/media 4/gamer-main_f3108d1c2b_016-melnibone.png",
+      "size_bytes": 76833,
+      "sha256": "f3108d1c2b7b0b2df7baf71c722f3c30b24e2e09721de17e5d1cb7ba4f11eed9",
+      "search_terms": [
+        "gamer",
+        "f3108d1c2b",
+        "016",
+        "melnibone"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f3b6046f66_058-skeletor.png",
+      "stem": "gamer-main_f3b6046f66_058-skeletor",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f3b6046f66_058-skeletor.png",
+      "url": "assets/media/media 4/gamer-main_f3b6046f66_058-skeletor.png",
+      "asset_relative_path": "media/media 4/gamer-main_f3b6046f66_058-skeletor.png",
+      "size_bytes": 77698,
+      "sha256": "f3b6046f66013ec9282b2ada112789387e099e9a079531c7b1ead7c2a21f72cc",
+      "search_terms": [
+        "gamer",
+        "f3b6046f66",
+        "058",
+        "skeletor"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f4986974e4_futurama.png",
+      "stem": "gamer-main_f4986974e4_futurama",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f4986974e4_futurama.png",
+      "url": "assets/media/media 4/gamer-main_f4986974e4_futurama.png",
+      "asset_relative_path": "media/media 4/gamer-main_f4986974e4_futurama.png",
+      "size_bytes": 63900,
+      "sha256": "f4986974e4f443f75ba86ce0fed75b94f79251f958e358b694229bbfe20c95f9",
+      "search_terms": [
+        "gamer",
+        "f4986974e4",
+        "futurama"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f4b47f9a13_tolkien.png",
+      "stem": "gamer-main_f4b47f9a13_tolkien",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f4b47f9a13_tolkien.png",
+      "url": "assets/media/media 4/gamer-main_f4b47f9a13_tolkien.png",
+      "asset_relative_path": "media/media 4/gamer-main_f4b47f9a13_tolkien.png",
+      "size_bytes": 241414,
+      "sha256": "f4b47f9a1325d583dfe3989f8475659e16dc2ce66d7936c902abdda775e2257d",
+      "search_terms": [
+        "gamer",
+        "f4b47f9a13",
+        "tolkien"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f580f8cded_053-glinster-marsh.png",
+      "stem": "gamer-main_f580f8cded_053-glinster-marsh",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f580f8cded_053-glinster-marsh.png",
+      "url": "assets/media/media 4/gamer-main_f580f8cded_053-glinster-marsh.png",
+      "asset_relative_path": "media/media 4/gamer-main_f580f8cded_053-glinster-marsh.png",
+      "size_bytes": 71326,
+      "sha256": "f580f8cdedd937bedcb0b60ac3fff9a0ae81c52f980c0d67fbef9785cd2b7851",
+      "search_terms": [
+        "gamer",
+        "f580f8cded",
+        "053",
+        "glinster",
+        "marsh"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f59b6a3772_ace-double-d-096-1955.png",
+      "stem": "gamer-main_f59b6a3772_ace-double-d-096-1955",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f59b6a3772_ace-double-d-096-1955.png",
+      "url": "assets/media/media 4/gamer-main_f59b6a3772_ace-double-d-096-1955.png",
+      "asset_relative_path": "media/media 4/gamer-main_f59b6a3772_ace-double-d-096-1955.png",
+      "size_bytes": 56864,
+      "sha256": "f59b6a37720a3dc4b3a1b8b086092934272735c609afe93f56fa823fd6579891",
+      "search_terms": [
+        "gamer",
+        "f59b6a3772",
+        "ace",
+        "double",
+        "096",
+        "1955"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f7aa8b020f_splash.jpg",
+      "stem": "gamer-main_f7aa8b020f_splash",
+      "extension": ".jpg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f7aa8b020f_splash.jpg",
+      "url": "assets/media/media 4/gamer-main_f7aa8b020f_splash.jpg",
+      "asset_relative_path": "media/media 4/gamer-main_f7aa8b020f_splash.jpg",
+      "size_bytes": 112520,
+      "sha256": "f7aa8b020faf316c3ce6dd9803c5454c53b519386ff1a8eb6d0aee73fd43a7dd",
+      "search_terms": [
+        "gamer",
+        "f7aa8b020f",
+        "splash"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "gamer-main_f813983c2a_070-dogtanian.png",
+      "stem": "gamer-main_f813983c2a_070-dogtanian",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f813983c2a_070-dogtanian.png",
+      "url": "assets/media/media 4/gamer-main_f813983c2a_070-dogtanian.png",
+      "asset_relative_path": "media/media 4/gamer-main_f813983c2a_070-dogtanian.png",
+      "size_bytes": 84202,
+      "sha256": "f813983c2ae6fc28634bbb3d6809ec4665f9eff3bd59c1d831484bffd8124e1a",
+      "search_terms": [
+        "gamer",
+        "f813983c2a",
+        "070",
+        "dogtanian"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f8c6945104_willow-1988.png",
+      "stem": "gamer-main_f8c6945104_willow-1988",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f8c6945104_willow-1988.png",
+      "url": "assets/media/media 4/gamer-main_f8c6945104_willow-1988.png",
+      "asset_relative_path": "media/media 4/gamer-main_f8c6945104_willow-1988.png",
+      "size_bytes": 235270,
+      "sha256": "f8c6945104d13e335b73916a82332610db29c300512f216a778e962ec4ce562f",
+      "search_terms": [
+        "gamer",
+        "f8c6945104",
+        "willow",
+        "1988"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_f8cce7fc59_dan-dare-1950.png",
+      "stem": "gamer-main_f8cce7fc59_dan-dare-1950",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_f8cce7fc59_dan-dare-1950.png",
+      "url": "assets/media/media 4/gamer-main_f8cce7fc59_dan-dare-1950.png",
+      "asset_relative_path": "media/media 4/gamer-main_f8cce7fc59_dan-dare-1950.png",
+      "size_bytes": 247540,
+      "sha256": "f8cce7fc5993b347a1d1bea1a0cfdf685292130815a13e8e51b5a2618fa5a65b",
+      "search_terms": [
+        "gamer",
+        "f8cce7fc59",
+        "dan",
+        "dare",
+        "1950"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_fb0a3a2e40_017-tanelorn.png",
+      "stem": "gamer-main_fb0a3a2e40_017-tanelorn",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_fb0a3a2e40_017-tanelorn.png",
+      "url": "assets/media/media 4/gamer-main_fb0a3a2e40_017-tanelorn.png",
+      "asset_relative_path": "media/media 4/gamer-main_fb0a3a2e40_017-tanelorn.png",
+      "size_bytes": 74334,
+      "sha256": "fb0a3a2e40738e720cbed5e68f2cfc3eba3a3f97d11cb13cc529bc67cc8abf67",
+      "search_terms": [
+        "gamer",
+        "fb0a3a2e40",
+        "017",
+        "tanelorn"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_fb722621e1_082-pinky.png",
+      "stem": "gamer-main_fb722621e1_082-pinky",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_fb722621e1_082-pinky.png",
+      "url": "assets/media/media 4/gamer-main_fb722621e1_082-pinky.png",
+      "asset_relative_path": "media/media 4/gamer-main_fb722621e1_082-pinky.png",
+      "size_bytes": 82866,
+      "sha256": "fb722621e182c8c367253d972940afdb86b500332bb1f172586f7c166babeea7",
+      "search_terms": [
+        "gamer",
+        "fb722621e1",
+        "082",
+        "pinky"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_fbef52caa0_083-the-brain.png",
+      "stem": "gamer-main_fbef52caa0_083-the-brain",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_fbef52caa0_083-the-brain.png",
+      "url": "assets/media/media 4/gamer-main_fbef52caa0_083-the-brain.png",
+      "asset_relative_path": "media/media 4/gamer-main_fbef52caa0_083-the-brain.png",
+      "size_bytes": 81778,
+      "sha256": "fbef52caa0f5531dde344c0b73725152fdacfda52d95f228ebaf917eb5563b50",
+      "search_terms": [
+        "gamer",
+        "fbef52caa0",
+        "083",
+        "the",
+        "brain"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_fc71ea2a63_thundercats-1985.png",
+      "stem": "gamer-main_fc71ea2a63_thundercats-1985",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_fc71ea2a63_thundercats-1985.png",
+      "url": "assets/media/media 4/gamer-main_fc71ea2a63_thundercats-1985.png",
+      "asset_relative_path": "media/media 4/gamer-main_fc71ea2a63_thundercats-1985.png",
+      "size_bytes": 123247,
+      "sha256": "fc71ea2a639267640dd892bc12caca8c89d931fcdfd2e864ef47344a1b2046f5",
+      "search_terms": [
+        "gamer",
+        "fc71ea2a63",
+        "thundercats",
+        "1985"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_fe374a0777_ulysses-31-1981.png",
+      "stem": "gamer-main_fe374a0777_ulysses-31-1981",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_fe374a0777_ulysses-31-1981.png",
+      "url": "assets/media/media 4/gamer-main_fe374a0777_ulysses-31-1981.png",
+      "asset_relative_path": "media/media 4/gamer-main_fe374a0777_ulysses-31-1981.png",
+      "size_bytes": 101854,
+      "sha256": "fe374a077775e7ca01788b696b69fffd842165b6f96a92b1535a5d998f79fe42",
+      "search_terms": [
+        "gamer",
+        "fe374a0777",
+        "ulysses",
+        "31",
+        "1981"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "gamer-main_feb874b94c_cosgrove-hall-1981.png",
+      "stem": "gamer-main_feb874b94c_cosgrove-hall-1981",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/gamer-main_feb874b94c_cosgrove-hall-1981.png",
+      "url": "assets/media/media 4/gamer-main_feb874b94c_cosgrove-hall-1981.png",
+      "asset_relative_path": "media/media 4/gamer-main_feb874b94c_cosgrove-hall-1981.png",
+      "size_bytes": 64398,
+      "sha256": "feb874b94c5b6d986658e8acf4cc23010f9ccd5f4de422378d9767d6feb1d42d",
+      "search_terms": [
+        "gamer",
+        "feb874b94c",
+        "cosgrove",
+        "hall",
+        "1981"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "grimoire-master_eea801a3a0_calibre-viewer.png",
+      "stem": "grimoire-master_eea801a3a0_calibre-viewer",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/grimoire-master_eea801a3a0_calibre-viewer.png",
+      "url": "assets/media/media 4/grimoire-master_eea801a3a0_calibre-viewer.png",
+      "asset_relative_path": "media/media 4/grimoire-master_eea801a3a0_calibre-viewer.png",
+      "size_bytes": 36469,
+      "sha256": "eea801a3a01e980e5177f2c242beece88f5674e0b854f47ed52bb4b9e61264be",
+      "search_terms": [
+        "grimoire",
+        "eea801a3a0",
+        "calibre",
+        "viewer"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_15db500288_android-chrome-192x192.png",
+      "stem": "ogres-main_15db500288_android-chrome-192x192",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_15db500288_android-chrome-192x192.png",
+      "url": "assets/media/media 4/ogres-main_15db500288_android-chrome-192x192.png",
+      "asset_relative_path": "media/media 4/ogres-main_15db500288_android-chrome-192x192.png",
+      "size_bytes": 59064,
+      "sha256": "15db5002882b3cc4e599e43b4483cc48676a3bf301220acd7e2ddc447a108190",
+      "search_terms": [
+        "ogres",
+        "15db500288",
+        "android",
+        "chrome",
+        "192x192"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_2c622d58e6_ogres-media-collection.webp",
+      "stem": "ogres-main_2c622d58e6_ogres-media-collection",
+      "extension": ".webp",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_2c622d58e6_ogres-media-collection.webp",
+      "url": "assets/media/media 4/ogres-main_2c622d58e6_ogres-media-collection.webp",
+      "asset_relative_path": "media/media 4/ogres-main_2c622d58e6_ogres-media-collection.webp",
+      "size_bytes": 73044,
+      "sha256": "2c622d58e6469df54f6c2b6423d46f781a97730ff129a2582d947e29249378a3",
+      "search_terms": [
+        "ogres",
+        "2c622d58e6",
+        "ogres",
+        "media",
+        "collection"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "ogres-main_3a9d995233_android-chrome-512x512.png",
+      "stem": "ogres-main_3a9d995233_android-chrome-512x512",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_3a9d995233_android-chrome-512x512.png",
+      "url": "assets/media/media 4/ogres-main_3a9d995233_android-chrome-512x512.png",
+      "asset_relative_path": "media/media 4/ogres-main_3a9d995233_android-chrome-512x512.png",
+      "size_bytes": 31286,
+      "sha256": "3a9d995233281e6bed5d0a210c4ce792f76d6728c45ced0583515ed74ecb08b8",
+      "search_terms": [
+        "ogres",
+        "3a9d995233",
+        "android",
+        "chrome",
+        "512x512"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_50d5fd3578_pattern-fold.svg",
+      "stem": "ogres-main_50d5fd3578_pattern-fold",
+      "extension": ".svg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_50d5fd3578_pattern-fold.svg",
+      "url": "assets/media/media 4/ogres-main_50d5fd3578_pattern-fold.svg",
+      "asset_relative_path": "media/media 4/ogres-main_50d5fd3578_pattern-fold.svg",
+      "size_bytes": 185,
+      "sha256": "50d5fd35784306db35ccf4557c50c28c1c4ff64dbfe4e6b9b8a8ad487279b821",
+      "search_terms": [
+        "ogres",
+        "50d5fd3578",
+        "pattern",
+        "fold"
+      ],
+      "mime_type": "image/svg+xml"
+    },
+    {
+      "name": "ogres-main_64c021a205_icons.svg",
+      "stem": "ogres-main_64c021a205_icons",
+      "extension": ".svg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_64c021a205_icons.svg",
+      "url": "assets/media/media 4/ogres-main_64c021a205_icons.svg",
+      "asset_relative_path": "media/media 4/ogres-main_64c021a205_icons.svg",
+      "size_bytes": 74880,
+      "sha256": "64c021a205d9adf04cf2506db406cd6a69dfff6f3d81d2188438933f2248acfe",
+      "search_terms": [
+        "ogres",
+        "64c021a205",
+        "icons"
+      ],
+      "mime_type": "image/svg+xml"
+    },
+    {
+      "name": "ogres-main_7fbd95a4d8_mstile-150x150.png",
+      "stem": "ogres-main_7fbd95a4d8_mstile-150x150",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_7fbd95a4d8_mstile-150x150.png",
+      "url": "assets/media/media 4/ogres-main_7fbd95a4d8_mstile-150x150.png",
+      "asset_relative_path": "media/media 4/ogres-main_7fbd95a4d8_mstile-150x150.png",
+      "size_bytes": 32101,
+      "sha256": "7fbd95a4d87a29cb8b20c94a0d654aebae2af6399b603f308413e956afc92855",
+      "search_terms": [
+        "ogres",
+        "7fbd95a4d8",
+        "mstile",
+        "150x150"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_82550ce840_favicon-32x32.png",
+      "stem": "ogres-main_82550ce840_favicon-32x32",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_82550ce840_favicon-32x32.png",
+      "url": "assets/media/media 4/ogres-main_82550ce840_favicon-32x32.png",
+      "asset_relative_path": "media/media 4/ogres-main_82550ce840_favicon-32x32.png",
+      "size_bytes": 3345,
+      "sha256": "82550ce840a1fce49408c8b8b5b9e5aaeac733b4ee4d165eb2c741deec6fb2b9",
+      "search_terms": [
+        "ogres",
+        "82550ce840",
+        "favicon",
+        "32x32"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_87fbb63c9c_safari-pinned-tab.svg",
+      "stem": "ogres-main_87fbb63c9c_safari-pinned-tab",
+      "extension": ".svg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_87fbb63c9c_safari-pinned-tab.svg",
+      "url": "assets/media/media 4/ogres-main_87fbb63c9c_safari-pinned-tab.svg",
+      "asset_relative_path": "media/media 4/ogres-main_87fbb63c9c_safari-pinned-tab.svg",
+      "size_bytes": 26414,
+      "sha256": "87fbb63c9c36c8f6e10ab267841ec12326550fae48c6deaaf2b5125dde5b67f3",
+      "search_terms": [
+        "ogres",
+        "87fbb63c9c",
+        "safari",
+        "pinned",
+        "tab"
+      ],
+      "mime_type": "image/svg+xml"
+    },
+    {
+      "name": "ogres-main_8cab475999_ogres-mage-tower-initiative.webp",
+      "stem": "ogres-main_8cab475999_ogres-mage-tower-initiative",
+      "extension": ".webp",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_8cab475999_ogres-mage-tower-initiative.webp",
+      "url": "assets/media/media 4/ogres-main_8cab475999_ogres-mage-tower-initiative.webp",
+      "asset_relative_path": "media/media 4/ogres-main_8cab475999_ogres-mage-tower-initiative.webp",
+      "size_bytes": 146144,
+      "sha256": "8cab475999f62379efbeaa4192def05ee01468cfde434862e9bbee0aacc1f976",
+      "search_terms": [
+        "ogres",
+        "8cab475999",
+        "ogres",
+        "mage",
+        "tower",
+        "initiative"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "ogres-main_91f3d7d38c_apple-touch-icon.png",
+      "stem": "ogres-main_91f3d7d38c_apple-touch-icon",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_91f3d7d38c_apple-touch-icon.png",
+      "url": "assets/media/media 4/ogres-main_91f3d7d38c_apple-touch-icon.png",
+      "asset_relative_path": "media/media 4/ogres-main_91f3d7d38c_apple-touch-icon.png",
+      "size_bytes": 53480,
+      "sha256": "91f3d7d38c5d0e33a795707e071a15222571c8971f091f1c512cdd78f8bdbe4f",
+      "search_terms": [
+        "ogres",
+        "91f3d7d38c",
+        "apple",
+        "touch",
+        "icon"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_963192b06e_ogres-initiative-mobile.webp",
+      "stem": "ogres-main_963192b06e_ogres-initiative-mobile",
+      "extension": ".webp",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_963192b06e_ogres-initiative-mobile.webp",
+      "url": "assets/media/media 4/ogres-main_963192b06e_ogres-initiative-mobile.webp",
+      "asset_relative_path": "media/media 4/ogres-main_963192b06e_ogres-initiative-mobile.webp",
+      "size_bytes": 66678,
+      "sha256": "963192b06eb4ba7b3f69442aa69a242e79d915ac7de9001d39c1de391878f075",
+      "search_terms": [
+        "ogres",
+        "963192b06e",
+        "ogres",
+        "initiative",
+        "mobile"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "ogres-main_9deeed1e96_ogres-desert-catacombs-combat.webp",
+      "stem": "ogres-main_9deeed1e96_ogres-desert-catacombs-combat",
+      "extension": ".webp",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_9deeed1e96_ogres-desert-catacombs-combat.webp",
+      "url": "assets/media/media 4/ogres-main_9deeed1e96_ogres-desert-catacombs-combat.webp",
+      "asset_relative_path": "media/media 4/ogres-main_9deeed1e96_ogres-desert-catacombs-combat.webp",
+      "size_bytes": 125552,
+      "sha256": "9deeed1e96dd74bc11b69e2291660c2ec68fa5554040482ba6c923e0a14f40e7",
+      "search_terms": [
+        "ogres",
+        "9deeed1e96",
+        "ogres",
+        "desert",
+        "catacombs",
+        "combat"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "ogres-main_a6e2fb869f_favicon-16x16.png",
+      "stem": "ogres-main_a6e2fb869f_favicon-16x16",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_a6e2fb869f_favicon-16x16.png",
+      "url": "assets/media/media 4/ogres-main_a6e2fb869f_favicon-16x16.png",
+      "asset_relative_path": "media/media 4/ogres-main_a6e2fb869f_favicon-16x16.png",
+      "size_bytes": 1471,
+      "sha256": "a6e2fb869fac1d644b5a5e77f16e927f82834f0ee0dbdcf5a78bbd8ca41b1aac",
+      "search_terms": [
+        "ogres",
+        "a6e2fb869f",
+        "favicon",
+        "16x16"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "ogres-main_b9d40d688d_ogres-jail-cells-lighting.webp",
+      "stem": "ogres-main_b9d40d688d_ogres-jail-cells-lighting",
+      "extension": ".webp",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_b9d40d688d_ogres-jail-cells-lighting.webp",
+      "url": "assets/media/media 4/ogres-main_b9d40d688d_ogres-jail-cells-lighting.webp",
+      "asset_relative_path": "media/media 4/ogres-main_b9d40d688d_ogres-jail-cells-lighting.webp",
+      "size_bytes": 84960,
+      "sha256": "b9d40d688d16f5de8a3cede2fdaa8946fe03ecb44c6ee00a557f4107dbeef047",
+      "search_terms": [
+        "ogres",
+        "b9d40d688d",
+        "ogres",
+        "jail",
+        "cells",
+        "lighting"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "ogres-main_bd4f93f3c7_ogres-local-data.webp",
+      "stem": "ogres-main_bd4f93f3c7_ogres-local-data",
+      "extension": ".webp",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_bd4f93f3c7_ogres-local-data.webp",
+      "url": "assets/media/media 4/ogres-main_bd4f93f3c7_ogres-local-data.webp",
+      "asset_relative_path": "media/media 4/ogres-main_bd4f93f3c7_ogres-local-data.webp",
+      "size_bytes": 87080,
+      "sha256": "bd4f93f3c730751bcc568022875fdb950c26d63b07feebf29b8fa752a6237646",
+      "search_terms": [
+        "ogres",
+        "bd4f93f3c7",
+        "ogres",
+        "local",
+        "data"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "ogres-main_e2c0fd5a1c_pattern-grid.svg",
+      "stem": "ogres-main_e2c0fd5a1c_pattern-grid",
+      "extension": ".svg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/ogres-main_e2c0fd5a1c_pattern-grid.svg",
+      "url": "assets/media/media 4/ogres-main_e2c0fd5a1c_pattern-grid.svg",
+      "asset_relative_path": "media/media 4/ogres-main_e2c0fd5a1c_pattern-grid.svg",
+      "size_bytes": 1637,
+      "sha256": "e2c0fd5a1c84fd7484578315315d954b7e19aea80bb7981eeeaa96bea1537038",
+      "search_terms": [
+        "ogres",
+        "e2c0fd5a1c",
+        "pattern",
+        "grid"
+      ],
+      "mime_type": "image/svg+xml"
+    },
+    {
+      "name": "rpgtouchtable-master_0086458b19_triangle-red.svg",
+      "stem": "rpgtouchtable-master_0086458b19_triangle-red",
+      "extension": ".svg",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0086458b19_triangle-red.svg",
+      "url": "assets/media/media 4/rpgtouchtable-master_0086458b19_triangle-red.svg",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0086458b19_triangle-red.svg",
+      "size_bytes": 2236,
+      "sha256": "0086458b19e3006e9b32bbc4d358de5722cc629459f4d8a355ccc3248866d464",
+      "search_terms": [
+        "rpgtouchtable",
+        "0086458b19",
+        "triangle",
+        "red"
+      ],
+      "mime_type": "image/svg+xml"
+    },
+    {
+      "name": "rpgtouchtable-master_012b44a5a0_dngn_deep_water_murky2.png",
+      "stem": "rpgtouchtable-master_012b44a5a0_dngn_deep_water_murky2",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_012b44a5a0_dngn_deep_water_murky2.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_012b44a5a0_dngn_deep_water_murky2.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_012b44a5a0_dngn_deep_water_murky2.png",
+      "size_bytes": 754,
+      "sha256": "012b44a5a0fb8e0a73ca1c38ac76c7ffb9f8c28d14d0e1cf2a04f9994e754a48",
+      "search_terms": [
+        "rpgtouchtable",
+        "012b44a5a0",
+        "dngn",
+        "deep",
+        "water",
+        "murky2"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_01d325f549_sandstone_wall9.png",
+      "stem": "rpgtouchtable-master_01d325f549_sandstone_wall9",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_01d325f549_sandstone_wall9.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_01d325f549_sandstone_wall9.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_01d325f549_sandstone_wall9.png",
+      "size_bytes": 1225,
+      "sha256": "01d325f549d7e99f66690edf3ff89837b4132a51b86259a5ef876fbf3090f2a8",
+      "search_terms": [
+        "rpgtouchtable",
+        "01d325f549",
+        "sandstone",
+        "wall9"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_01d8553376_dngn_enter_tartarus.png",
+      "stem": "rpgtouchtable-master_01d8553376_dngn_enter_tartarus",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_01d8553376_dngn_enter_tartarus.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_01d8553376_dngn_enter_tartarus.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_01d8553376_dngn_enter_tartarus.png",
+      "size_bytes": 932,
+      "sha256": "01d8553376dfaf593624f2287f45e808a59da7892747b8cf0d547e28b400c333",
+      "search_terms": [
+        "rpgtouchtable",
+        "01d8553376",
+        "dngn",
+        "enter",
+        "tartarus"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_03377ac643_dngn_altar_xom3.png",
+      "stem": "rpgtouchtable-master_03377ac643_dngn_altar_xom3",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_03377ac643_dngn_altar_xom3.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_03377ac643_dngn_altar_xom3.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_03377ac643_dngn_altar_xom3.png",
+      "size_bytes": 1428,
+      "sha256": "03377ac64370faaf004b29a237bce93d7bd6f3cc1c9e4c45e10ed742a4db5a58",
+      "search_terms": [
+        "rpgtouchtable",
+        "03377ac643",
+        "dngn",
+        "altar",
+        "xom3"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_037ecbfe74_lair2.png",
+      "stem": "rpgtouchtable-master_037ecbfe74_lair2",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_037ecbfe74_lair2.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_037ecbfe74_lair2.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_037ecbfe74_lair2.png",
+      "size_bytes": 1418,
+      "sha256": "037ecbfe74ee14208215eee571fc5aa91491b389c6125a721d350a6d950e2846",
+      "search_terms": [
+        "rpgtouchtable",
+        "037ecbfe74",
+        "lair2"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_03826538a4_pedestal_se.png",
+      "stem": "rpgtouchtable-master_03826538a4_pedestal_se",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_03826538a4_pedestal_se.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_03826538a4_pedestal_se.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_03826538a4_pedestal_se.png",
+      "size_bytes": 1818,
+      "sha256": "03826538a466695848e4c75988cdebf3c842df635d7b3ea7bc03c9edd7d0cda9",
+      "search_terms": [
+        "rpgtouchtable",
+        "03826538a4",
+        "pedestal",
+        "se"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_03fcbd14ee_dngn_trap_arrow.png",
+      "stem": "rpgtouchtable-master_03fcbd14ee_dngn_trap_arrow",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_03fcbd14ee_dngn_trap_arrow.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_03fcbd14ee_dngn_trap_arrow.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_03fcbd14ee_dngn_trap_arrow.png",
+      "size_bytes": 530,
+      "sha256": "03fcbd14ee05911bcf532ffff54863a52050aba90d26ea4d45d8c3a284e9098c",
+      "search_terms": [
+        "rpgtouchtable",
+        "03fcbd14ee",
+        "dngn",
+        "trap",
+        "arrow"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_0418603fdf_urand_flash.png",
+      "stem": "rpgtouchtable-master_0418603fdf_urand_flash",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0418603fdf_urand_flash.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_0418603fdf_urand_flash.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0418603fdf_urand_flash.png",
+      "size_bytes": 655,
+      "sha256": "0418603fdf21b9cbf032e4b05164b0be9335547bc636dd2568eda5a613a51d5a",
+      "search_terms": [
+        "rpgtouchtable",
+        "0418603fdf",
+        "urand",
+        "flash"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_041e5742c3_dngn_deep_water_murky.png",
+      "stem": "rpgtouchtable-master_041e5742c3_dngn_deep_water_murky",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_041e5742c3_dngn_deep_water_murky.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_041e5742c3_dngn_deep_water_murky.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_041e5742c3_dngn_deep_water_murky.png",
+      "size_bytes": 692,
+      "sha256": "041e5742c3eab5782f84dc7c4d2447a6c00889cbd7faa72e7b1bf42625a27360",
+      "search_terms": [
+        "rpgtouchtable",
+        "041e5742c3",
+        "dngn",
+        "deep",
+        "water",
+        "murky"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_046320395d_grey_dirt1.png",
+      "stem": "rpgtouchtable-master_046320395d_grey_dirt1",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_046320395d_grey_dirt1.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_046320395d_grey_dirt1.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_046320395d_grey_dirt1.png",
+      "size_bytes": 1871,
+      "sha256": "046320395d08a2aca28ab663e634e85fe320542dc5b78130555a0284dcb23a47",
+      "search_terms": [
+        "rpgtouchtable",
+        "046320395d",
+        "grey",
+        "dirt1"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_047afd54e6_grey_dirt_br.png",
+      "stem": "rpgtouchtable-master_047afd54e6_grey_dirt_br",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_047afd54e6_grey_dirt_br.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_047afd54e6_grey_dirt_br.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_047afd54e6_grey_dirt_br.png",
+      "size_bytes": 760,
+      "sha256": "047afd54e6764d3f810177cf56e2593271d24b8c4c281e4cfdb8e19f3f8a4128",
+      "search_terms": [
+        "rpgtouchtable",
+        "047afd54e6",
+        "grey",
+        "dirt",
+        "br"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_04d150969c_transparent_flesh.png",
+      "stem": "rpgtouchtable-master_04d150969c_transparent_flesh",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_04d150969c_transparent_flesh.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_04d150969c_transparent_flesh.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_04d150969c_transparent_flesh.png",
+      "size_bytes": 1205,
+      "sha256": "04d150969c43fd2700a766920d0afd0e0c3e4a9434040883a08530664d6144ea",
+      "search_terms": [
+        "rpgtouchtable",
+        "04d150969c",
+        "transparent",
+        "flesh"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_052d69a040_elephant_statue.png",
+      "stem": "rpgtouchtable-master_052d69a040_elephant_statue",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_052d69a040_elephant_statue.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_052d69a040_elephant_statue.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_052d69a040_elephant_statue.png",
+      "size_bytes": 1965,
+      "sha256": "052d69a04019664bc1ffd377d53942f9258879a7fc2f49d7d6ce97d0ba7d2d34",
+      "search_terms": [
+        "rpgtouchtable",
+        "052d69a040",
+        "elephant",
+        "statue"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_067ffb00fc_scale_mail1.png",
+      "stem": "rpgtouchtable-master_067ffb00fc_scale_mail1",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_067ffb00fc_scale_mail1.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_067ffb00fc_scale_mail1.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_067ffb00fc_scale_mail1.png",
+      "size_bytes": 977,
+      "sha256": "067ffb00fcf8eaff32b1d68f46cf54bd34ea98b34d7e6d7e39df4a578b5f8cda",
+      "search_terms": [
+        "rpgtouchtable",
+        "067ffb00fc",
+        "scale",
+        "mail1"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_0743dc035e_grass_e.png",
+      "stem": "rpgtouchtable-master_0743dc035e_grass_e",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0743dc035e_grass_e.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_0743dc035e_grass_e.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0743dc035e_grass_e.png",
+      "size_bytes": 2907,
+      "sha256": "0743dc035e0be00b6dd360dffbde53b52fa09c14dc07ffa093fd991774611855",
+      "search_terms": [
+        "rpgtouchtable",
+        "0743dc035e",
+        "grass"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_0751d5706d_pebble_brown4.png",
+      "stem": "rpgtouchtable-master_0751d5706d_pebble_brown4",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0751d5706d_pebble_brown4.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_0751d5706d_pebble_brown4.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0751d5706d_pebble_brown4.png",
+      "size_bytes": 1423,
+      "sha256": "0751d5706d42ba65d1dea26034d7c25051ab1c43f9c97c2ffb4c35cea9a4c66a",
+      "search_terms": [
+        "rpgtouchtable",
+        "0751d5706d",
+        "pebble",
+        "brown4"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_0767686bb6_marble_floor6.png",
+      "stem": "rpgtouchtable-master_0767686bb6_marble_floor6",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0767686bb6_marble_floor6.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_0767686bb6_marble_floor6.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0767686bb6_marble_floor6.png",
+      "size_bytes": 946,
+      "sha256": "0767686bb602c0d4b4404de0a1e26005eb805a242490581982d8c3d39d9bc5c1",
+      "search_terms": [
+        "rpgtouchtable",
+        "0767686bb6",
+        "marble",
+        "floor6"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_0771f0eb62_i-mutation.png",
+      "stem": "rpgtouchtable-master_0771f0eb62_i-mutation",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0771f0eb62_i-mutation.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_0771f0eb62_i-mutation.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0771f0eb62_i-mutation.png",
+      "size_bytes": 307,
+      "sha256": "0771f0eb627485077bdae3ea85e4febeee76abbc43ac6a0f9fa322d7219039f1",
+      "search_terms": [
+        "rpgtouchtable",
+        "0771f0eb62",
+        "mutation"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_07c658717d_demon_pentagram2.png",
+      "stem": "rpgtouchtable-master_07c658717d_demon_pentagram2",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_07c658717d_demon_pentagram2.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_07c658717d_demon_pentagram2.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_07c658717d_demon_pentagram2.png",
+      "size_bytes": 1342,
+      "sha256": "07c658717df58952281773b4b1788decc9f0c80b660b042dcc3cf432ff469951",
+      "search_terms": [
+        "rpgtouchtable",
+        "07c658717d",
+        "demon",
+        "pentagram2"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_07e95ae683_ice1.png",
+      "stem": "rpgtouchtable-master_07e95ae683_ice1",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_07e95ae683_ice1.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_07e95ae683_ice1.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_07e95ae683_ice1.png",
+      "size_bytes": 1397,
+      "sha256": "07e95ae68340cdbd851b4b540d3763d5902e0d24f43f587152a4cfcb575a75b7",
+      "search_terms": [
+        "rpgtouchtable",
+        "07e95ae683",
+        "ice1"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_08c298dd4b_dngn_altar_cheibriados_02.png",
+      "stem": "rpgtouchtable-master_08c298dd4b_dngn_altar_cheibriados_02",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_08c298dd4b_dngn_altar_cheibriados_02.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_08c298dd4b_dngn_altar_cheibriados_02.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_08c298dd4b_dngn_altar_cheibriados_02.png",
+      "size_bytes": 1012,
+      "sha256": "08c298dd4b1ccc9424ef2df39552825063dceb98950a7167ece949b5dca1cf51",
+      "search_terms": [
+        "rpgtouchtable",
+        "08c298dd4b",
+        "dngn",
+        "altar",
+        "cheibriados",
+        "02"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "rpgtouchtable-master_0947a0fa2a_dngn_shoals_deep_water3_bubbles.png",
+      "stem": "rpgtouchtable-master_0947a0fa2a_dngn_shoals_deep_water3_bubbles",
+      "extension": ".png",
+      "type": "image",
+      "folder": "assets/media/media 4",
+      "relative_path": "assets/media/media 4/rpgtouchtable-master_0947a0fa2a_dngn_shoals_deep_water3_bubbles.png",
+      "url": "assets/media/media 4/rpgtouchtable-master_0947a0fa2a_dngn_shoals_deep_water3_bubbles.png",
+      "asset_relative_path": "media/media 4/rpgtouchtable-master_0947a0fa2a_dngn_shoals_deep_water3_bubbles.png",
+      "size_bytes": 1293,
+      "sha256": "0947a0fa2a89ffed208ed3ad407911e0e19c72444d2b457efca49336d54e2f55",
+      "search_terms": [
+        "rpgtouchtable",
+        "0947a0fa2a",
+        "dngn",
+        "shoals",
+        "deep",
+        "water3",
+        "bubbles"
+      ],
+      "mime_type": "image/png"
+    }
+  ]
+}

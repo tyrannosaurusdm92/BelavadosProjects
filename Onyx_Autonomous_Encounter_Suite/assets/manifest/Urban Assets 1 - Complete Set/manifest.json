@@ -1,0 +1,99 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Urban Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 803389,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Flags.json",
+      "stem": "Flags",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Urban Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Urban Assets 1 - Complete Set/Flags.json",
+      "url": "assets/manifest/Urban Assets 1 - Complete Set/Flags.json",
+      "asset_relative_path": "manifest/Urban Assets 1 - Complete Set/Flags.json",
+      "size_bytes": 47725,
+      "sha256": "ef9897991e4dd18d4cd40ecd0c0729a715e4dce97c3c312a5624cfb90637fff3",
+      "search_terms": [
+        "flags"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Landscape_Plots.json",
+      "stem": "Landscape_Plots",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Urban Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Urban Assets 1 - Complete Set/Landscape_Plots.json",
+      "url": "assets/manifest/Urban Assets 1 - Complete Set/Landscape_Plots.json",
+      "asset_relative_path": "manifest/Urban Assets 1 - Complete Set/Landscape_Plots.json",
+      "size_bytes": 36349,
+      "sha256": "df92d9126f0741ef4e3b8f0bab93856f82037005ff6b096e5aa1736d1546452c",
+      "search_terms": [
+        "landscape",
+        "plots"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Misc.json",
+      "stem": "Misc",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Urban Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Urban Assets 1 - Complete Set/Misc.json",
+      "url": "assets/manifest/Urban Assets 1 - Complete Set/Misc.json",
+      "asset_relative_path": "manifest/Urban Assets 1 - Complete Set/Misc.json",
+      "size_bytes": 23665,
+      "sha256": "7627835f087ebe8b7ccd6b3bb878d49c9748a89f95be28b97487bf714bc47ad2",
+      "search_terms": [
+        "misc"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Roofs.json",
+      "stem": "Roofs",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Urban Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Urban Assets 1 - Complete Set/Roofs.json",
+      "url": "assets/manifest/Urban Assets 1 - Complete Set/Roofs.json",
+      "asset_relative_path": "manifest/Urban Assets 1 - Complete Set/Roofs.json",
+      "size_bytes": 684072,
+      "sha256": "ca83127a44a57144d046a92882b3be2d629ae9c3becf271b3be7d96be418c26d",
+      "search_terms": [
+        "roofs"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Urban_Assets_1_Complete_Set.json",
+      "stem": "Urban_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Urban Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Urban Assets 1 - Complete Set/Urban_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Urban Assets 1 - Complete Set/Urban_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Urban Assets 1 - Complete Set/Urban_Assets_1_Complete_Set.json",
+      "size_bytes": 11578,
+      "sha256": "893a2bd1cb4a3f58305344f54e392780bb5dfc04f35747a2cc0522af8ff3598f",
+      "search_terms": [
+        "urban"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

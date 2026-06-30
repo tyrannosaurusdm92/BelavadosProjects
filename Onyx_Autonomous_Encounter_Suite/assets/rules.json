@@ -1,0 +1,38 @@
+{
+  "schema": "belavados.onyx.asset_rules.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "asset_root": "assets",
+  "asset_return_policy": {
+    "default": "Do not include, copy, zip, duplicate, or return real files from the assets/ folder in future ChatGPT edits.",
+    "exception": "Only include real assets when the user explicitly asks for specific asset files to be returned.",
+    "allowed_by_default": [
+      "assets/rules.json",
+      "assets/asset_manifest_index.json",
+      "assets/**/manifest.json"
+    ],
+    "not_allowed_by_default": [
+      "images",
+      "maps",
+      "tokens",
+      "audio",
+      "video",
+      "archives",
+      "binary assets",
+      "bulk copied asset folders"
+    ]
+  },
+  "path_policy": {
+    "preserve_folder_names": true,
+    "preserve_relative_paths": true,
+    "primary_runtime_base": "assets/",
+    "do_not_rewrite_existing_asset_paths": true,
+    "deployment_expectation": "The real assets remain in the GitHub/local assets folder at the exact paths listed in the manifests."
+  },
+  "future_chatgpt_edit_rules": [
+    "Treat assets/ as an external mounted asset library unless the user explicitly says to return assets.",
+    "When editing code, wire references to existing assets/ relative paths instead of embedding or copying files.",
+    "When sending zip bundles, include only manifest JSON files under assets/ unless the user explicitly requests actual asset files.",
+    "Keep every existing asset subfolder name intact.",
+    "Use assets/asset_manifest_index.json and assets/**/manifest.json to find valid asset paths."
+  ]
+}

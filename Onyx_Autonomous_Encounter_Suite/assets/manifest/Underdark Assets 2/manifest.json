@@ -1,0 +1,66 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Underdark Assets 2",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 345756,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Assets.json",
+      "stem": "Assets",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 2",
+      "relative_path": "assets/manifest/Underdark Assets 2/Assets.json",
+      "url": "assets/manifest/Underdark Assets 2/Assets.json",
+      "asset_relative_path": "manifest/Underdark Assets 2/Assets.json",
+      "size_bytes": 275904,
+      "sha256": "d50186ce8223fca3ecd1a8e688dff59bf854af99164527267a38615c9e9d65af",
+      "search_terms": [],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Cave_Color_Tiles.json",
+      "stem": "Cave_Color_Tiles",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 2",
+      "relative_path": "assets/manifest/Underdark Assets 2/Cave_Color_Tiles.json",
+      "url": "assets/manifest/Underdark Assets 2/Cave_Color_Tiles.json",
+      "asset_relative_path": "manifest/Underdark Assets 2/Cave_Color_Tiles.json",
+      "size_bytes": 44376,
+      "sha256": "76cf73cd0532113fcb9a0397f4d20267baaf6f6f029d3930870d119c168d9913",
+      "search_terms": [
+        "cave",
+        "color",
+        "tiles"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Textures.json",
+      "stem": "Textures",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 2",
+      "relative_path": "assets/manifest/Underdark Assets 2/Textures.json",
+      "url": "assets/manifest/Underdark Assets 2/Textures.json",
+      "asset_relative_path": "manifest/Underdark Assets 2/Textures.json",
+      "size_bytes": 25476,
+      "sha256": "f7b62cc28b9aa22c71af04029fbf6ed7fdefa534d1f21d1d14e89ca3c5e733ed",
+      "search_terms": [
+        "textures"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Feywild Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 792184,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Feywild_Assets_1_Complete_Set.json",
+      "stem": "Feywild_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Feywild Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set.json",
+      "size_bytes": 16374,
+      "sha256": "2a90d4d0ead1bc8914e76320fcd30985719b6b66d340356905758d2cbb997850",
+      "search_terms": [
+        "feywild"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Feywild_Assets_1_Complete_Set_Group_01.json",
+      "stem": "Feywild_Assets_1_Complete_Set_Group_01",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Feywild Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_01.json",
+      "url": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_01.json",
+      "asset_relative_path": "manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_01.json",
+      "size_bytes": 48165,
+      "sha256": "bb6c67ae29853f4ef3bc8daa6d90a46bdd1b18ba1fb92f34fa9473470120d08d",
+      "search_terms": [
+        "feywild",
+        "group",
+        "01"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Feywild_Assets_1_Complete_Set_Group_02.json",
+      "stem": "Feywild_Assets_1_Complete_Set_Group_02",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Feywild Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_02.json",
+      "url": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_02.json",
+      "asset_relative_path": "manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_02.json",
+      "size_bytes": 257603,
+      "sha256": "506625f1ee3d21c68c3fd5e8e28b87e9d69e704e736a8e03a423673842a489fe",
+      "search_terms": [
+        "feywild",
+        "group",
+        "02"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Feywild_Assets_1_Complete_Set_Group_03.json",
+      "stem": "Feywild_Assets_1_Complete_Set_Group_03",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Feywild Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_03.json",
+      "url": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_03.json",
+      "asset_relative_path": "manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_03.json",
+      "size_bytes": 36296,
+      "sha256": "d163b03da3092d79194bf5934e47297fb0e754f949f6ae72b695c09cb155af4d",
+      "search_terms": [
+        "feywild",
+        "group",
+        "03"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Feywild_Assets_1_Complete_Set_Group_04.json",
+      "stem": "Feywild_Assets_1_Complete_Set_Group_04",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Feywild Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_04.json",
+      "url": "assets/manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_04.json",
+      "asset_relative_path": "manifest/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_04.json",
+      "size_bytes": 433746,
+      "sha256": "f2d490397b99361671b03bf3cbeb8b2a27b36a4678e431ce9680f8b2e7681fe0",
+      "search_terms": [
+        "feywild",
+        "group",
+        "04"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

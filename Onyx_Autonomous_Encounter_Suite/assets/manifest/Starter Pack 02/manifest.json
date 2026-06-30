@@ -1,0 +1,105 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Starter Pack 02",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 54519,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Alchemist_s_Cave.json",
+      "stem": "Alchemist_s_Cave",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack 02",
+      "relative_path": "assets/manifest/Starter Pack 02/Alchemist_s_Cave.json",
+      "url": "assets/manifest/Starter Pack 02/Alchemist_s_Cave.json",
+      "asset_relative_path": "manifest/Starter Pack 02/Alchemist_s_Cave.json",
+      "size_bytes": 25516,
+      "sha256": "cc06d63c21bdca977f85594c113fe3de8c3c30100d83f227a99215809a7f4633",
+      "search_terms": [
+        "alchemist",
+        "cave"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Destroyed_Assets_7_Example_Map.json",
+      "stem": "Destroyed_Assets_7_Example_Map",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack 02",
+      "relative_path": "assets/manifest/Starter Pack 02/Destroyed_Assets_7_Example_Map.json",
+      "url": "assets/manifest/Starter Pack 02/Destroyed_Assets_7_Example_Map.json",
+      "asset_relative_path": "manifest/Starter Pack 02/Destroyed_Assets_7_Example_Map.json",
+      "size_bytes": 14096,
+      "sha256": "e57141e8000a4643743a2d7debe7f0e48409fe721f26197582dfe207f635b4ee",
+      "search_terms": [
+        "destroyed",
+        "example",
+        "map"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Starter_Pack_02.json",
+      "stem": "Starter_Pack_02",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack 02",
+      "relative_path": "assets/manifest/Starter Pack 02/Starter_Pack_02.json",
+      "url": "assets/manifest/Starter Pack 02/Starter_Pack_02.json",
+      "asset_relative_path": "manifest/Starter Pack 02/Starter_Pack_02.json",
+      "size_bytes": 2983,
+      "sha256": "31e80a5517b97a584dfab8394d199cd6288340d2a0703614d0fe1d4f7ae8809b",
+      "search_terms": [
+        "starter",
+        "pack",
+        "02"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Woodland_Assets_4_Example_Map.json",
+      "stem": "Woodland_Assets_4_Example_Map",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack 02",
+      "relative_path": "assets/manifest/Starter Pack 02/Woodland_Assets_4_Example_Map.json",
+      "url": "assets/manifest/Starter Pack 02/Woodland_Assets_4_Example_Map.json",
+      "asset_relative_path": "manifest/Starter Pack 02/Woodland_Assets_4_Example_Map.json",
+      "size_bytes": 7578,
+      "sha256": "3e86168c90e32c9de928920350aa6518b46589e8b4560cadacb6b2eaa54d49e0",
+      "search_terms": [
+        "woodland",
+        "example",
+        "map"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Wooster.json",
+      "stem": "Wooster",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack 02",
+      "relative_path": "assets/manifest/Starter Pack 02/Wooster.json",
+      "url": "assets/manifest/Starter Pack 02/Wooster.json",
+      "asset_relative_path": "manifest/Starter Pack 02/Wooster.json",
+      "size_bytes": 4346,
+      "sha256": "1aec6fa1a3509948aaebf52b3b7af40aebc1650436b30dd018ca9209d6d6839a",
+      "search_terms": [
+        "wooster"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

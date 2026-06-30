@@ -1,0 +1,261 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/dice_tokens",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 14,
+  "recursive_file_count": 14,
+  "recursive_total_bytes": 37997753,
+  "type_counts_recursive": {
+    "token": 14
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Arcorven_Brasslock.png",
+      "stem": "Arcorven_Brasslock",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Arcorven_Brasslock.png",
+      "url": "assets/dice_tokens/Arcorven_Brasslock.png",
+      "asset_relative_path": "dice_tokens/Arcorven_Brasslock.png",
+      "size_bytes": 2868515,
+      "sha256": "d740689f863c691c6628476b5d6432ff345b87fa17d0bf9447a9c9a66c1b835f",
+      "search_terms": [
+        "arcorven",
+        "brasslock"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Canielina_Dennose.png",
+      "stem": "Canielina_Dennose",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Canielina_Dennose.png",
+      "url": "assets/dice_tokens/Canielina_Dennose.png",
+      "asset_relative_path": "dice_tokens/Canielina_Dennose.png",
+      "size_bytes": 2748889,
+      "sha256": "f85cdc83268582b2da4134c02d9af142f5d7631a06d8601dd5d5e9ca5f6c14d0",
+      "search_terms": [
+        "canielina",
+        "dennose"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Gheaririel_Luneglen.png",
+      "stem": "Gheaririel_Luneglen",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Gheaririel_Luneglen.png",
+      "url": "assets/dice_tokens/Gheaririel_Luneglen.png",
+      "asset_relative_path": "dice_tokens/Gheaririel_Luneglen.png",
+      "size_bytes": 2807496,
+      "sha256": "ad3d229984c3befa3dcabfc9bd49cde819d15c5c2b34fe0a62f3e65b6a5f304d",
+      "search_terms": [
+        "gheaririel",
+        "luneglen"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Joeari_Ravenwood.png",
+      "stem": "Joeari_Ravenwood",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Joeari_Ravenwood.png",
+      "url": "assets/dice_tokens/Joeari_Ravenwood.png",
+      "asset_relative_path": "dice_tokens/Joeari_Ravenwood.png",
+      "size_bytes": 2441294,
+      "sha256": "35795a99b8777d7e856e8da2aea203fbbb67e7e246223f1143885a822fafaf3a",
+      "search_terms": [
+        "joeari",
+        "ravenwood"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Kethazzun_Clawcoil.png",
+      "stem": "Kethazzun_Clawcoil",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Kethazzun_Clawcoil.png",
+      "url": "assets/dice_tokens/Kethazzun_Clawcoil.png",
+      "asset_relative_path": "dice_tokens/Kethazzun_Clawcoil.png",
+      "size_bytes": 3092199,
+      "sha256": "e978a19ca90a3b908b562f320bc9391ba55995d59c09c16e18df88a0dcdb2a91",
+      "search_terms": [
+        "kethazzun",
+        "clawcoil"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Nefumlith_Duskendirge.png",
+      "stem": "Nefumlith_Duskendirge",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Nefumlith_Duskendirge.png",
+      "url": "assets/dice_tokens/Nefumlith_Duskendirge.png",
+      "asset_relative_path": "dice_tokens/Nefumlith_Duskendirge.png",
+      "size_bytes": 3019788,
+      "sha256": "71ce3d1a03b05bd9977c1bda03b6d8e80e49e492eee2b2786aff45d317af5a8b",
+      "search_terms": [
+        "nefumlith",
+        "duskendirge"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Nimu_dri_Ironvault.png",
+      "stem": "Nimu_dri_Ironvault",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Nimu_dri_Ironvault.png",
+      "url": "assets/dice_tokens/Nimu_dri_Ironvault.png",
+      "asset_relative_path": "dice_tokens/Nimu_dri_Ironvault.png",
+      "size_bytes": 2527528,
+      "sha256": "0ff636aa03580f1f6b2e26661e50e0d75e5a1a904dcb351678283a8151707507",
+      "search_terms": [
+        "nimu",
+        "dri",
+        "ironvault"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Ro_sabin_Merryroot.png",
+      "stem": "Ro_sabin_Merryroot",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Ro_sabin_Merryroot.png",
+      "url": "assets/dice_tokens/Ro_sabin_Merryroot.png",
+      "asset_relative_path": "dice_tokens/Ro_sabin_Merryroot.png",
+      "size_bytes": 2381985,
+      "sha256": "f44bc4c78834259476d7b4d8053ebd52fcd1cf412f309866cd76799c74432df6",
+      "search_terms": [
+        "ro",
+        "sabin",
+        "merryroot"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Sto_neudor_Stormbreath.png",
+      "stem": "Sto_neudor_Stormbreath",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Sto_neudor_Stormbreath.png",
+      "url": "assets/dice_tokens/Sto_neudor_Stormbreath.png",
+      "asset_relative_path": "dice_tokens/Sto_neudor_Stormbreath.png",
+      "size_bytes": 2998859,
+      "sha256": "16d7727d63663a1e530ef41e6fcb63c4edc4028c5eeb5e3a11827c28f72e63c5",
+      "search_terms": [
+        "sto",
+        "neudor",
+        "stormbreath"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Thalenael_Silverthorn.png",
+      "stem": "Thalenael_Silverthorn",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Thalenael_Silverthorn.png",
+      "url": "assets/dice_tokens/Thalenael_Silverthorn.png",
+      "asset_relative_path": "dice_tokens/Thalenael_Silverthorn.png",
+      "size_bytes": 2267392,
+      "sha256": "498e623cf0784c5f5262700732f38443242cd9d8764ae59f6b342e17623f66a3",
+      "search_terms": [
+        "thalenael",
+        "silverthorn"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Tyrylina_Mirthwink.png",
+      "stem": "Tyrylina_Mirthwink",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Tyrylina_Mirthwink.png",
+      "url": "assets/dice_tokens/Tyrylina_Mirthwink.png",
+      "asset_relative_path": "dice_tokens/Tyrylina_Mirthwink.png",
+      "size_bytes": 2818302,
+      "sha256": "957ad1d60764cb8ab7326f6f51a25fabc022349c93f50e1f7139edb2ef1b5053",
+      "search_terms": [
+        "tyrylina",
+        "mirthwink"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Urg_U_rgugar_Mudgrip.png",
+      "stem": "Urg_U_rgugar_Mudgrip",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Urg_U_rgugar_Mudgrip.png",
+      "url": "assets/dice_tokens/Urg_U_rgugar_Mudgrip.png",
+      "asset_relative_path": "dice_tokens/Urg_U_rgugar_Mudgrip.png",
+      "size_bytes": 2243173,
+      "sha256": "ee0c611a01d2764e2b2d49deee1c214ec99cff9eb4fad4eae833e74b89cf6460",
+      "search_terms": [
+        "urg",
+        "rgugar",
+        "mudgrip"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Valk_Minoorvar_Thunderheft.png",
+      "stem": "Valk_Minoorvar_Thunderheft",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Valk_Minoorvar_Thunderheft.png",
+      "url": "assets/dice_tokens/Valk_Minoorvar_Thunderheft.png",
+      "asset_relative_path": "dice_tokens/Valk_Minoorvar_Thunderheft.png",
+      "size_bytes": 2477370,
+      "sha256": "ed94bbb0d4114d451b10b528c5aa23456f72d9bf03fcd18f4266b8325a022fda",
+      "search_terms": [
+        "valk",
+        "minoorvar",
+        "thunderheft"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Veyielven_Asharchf.png",
+      "stem": "Veyielven_Asharchf",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/dice_tokens",
+      "relative_path": "assets/dice_tokens/Veyielven_Asharchf.png",
+      "url": "assets/dice_tokens/Veyielven_Asharchf.png",
+      "asset_relative_path": "dice_tokens/Veyielven_Asharchf.png",
+      "size_bytes": 3304963,
+      "sha256": "10199841f67e8dc78cc528117d45dcdf8ea602ea5e174e32c0fe482745f02dab",
+      "search_terms": [
+        "veyielven",
+        "asharchf"
+      ],
+      "mime_type": "image/png"
+    }
+  ]
+}

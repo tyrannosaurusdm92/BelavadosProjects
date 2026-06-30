@@ -1,0 +1,115 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/dice_audio",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 540302,
+  "type_counts_recursive": {
+    "sound_or_audio": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "dice_table_throw_nc93322.mp3",
+      "stem": "dice_table_throw_nc93322",
+      "extension": ".mp3",
+      "type": "sound_or_audio",
+      "folder": "assets/dice_audio",
+      "relative_path": "assets/dice_audio/dice_table_throw_nc93322.mp3",
+      "url": "assets/dice_audio/dice_table_throw_nc93322.mp3",
+      "asset_relative_path": "dice_audio/dice_table_throw_nc93322.mp3",
+      "size_bytes": 29927,
+      "sha256": "dbdc92cfa2a3fad32dca45c17ba28f470181b53330dd843d427ce5e90dc8f5d6",
+      "search_terms": [
+        "dice",
+        "table",
+        "throw",
+        "nc93322"
+      ],
+      "mime_type": "audio/mpeg"
+    },
+    {
+      "name": "freesound_community-dice-throw-38476.mp3",
+      "stem": "freesound_community-dice-throw-38476",
+      "extension": ".mp3",
+      "type": "sound_or_audio",
+      "folder": "assets/dice_audio",
+      "relative_path": "assets/dice_audio/freesound_community-dice-throw-38476.mp3",
+      "url": "assets/dice_audio/freesound_community-dice-throw-38476.mp3",
+      "asset_relative_path": "dice_audio/freesound_community-dice-throw-38476.mp3",
+      "size_bytes": 79680,
+      "sha256": "d3984ac3ffdee31d7d72dcb79781ad5f6ab57d5b722f7d4b8c7e06ae96ed32b2",
+      "search_terms": [
+        "freesound",
+        "community",
+        "dice",
+        "throw",
+        "38476"
+      ],
+      "mime_type": "audio/mpeg"
+    },
+    {
+      "name": "freesound_community-rpg-dice-rolling-95182.mp3",
+      "stem": "freesound_community-rpg-dice-rolling-95182",
+      "extension": ".mp3",
+      "type": "sound_or_audio",
+      "folder": "assets/dice_audio",
+      "relative_path": "assets/dice_audio/freesound_community-rpg-dice-rolling-95182.mp3",
+      "url": "assets/dice_audio/freesound_community-rpg-dice-rolling-95182.mp3",
+      "asset_relative_path": "dice_audio/freesound_community-rpg-dice-rolling-95182.mp3",
+      "size_bytes": 15840,
+      "sha256": "a0874599e7b53b2043bed860f048d0bb2e407630beee8b4e0d5ab8ce956512c1",
+      "search_terms": [
+        "freesound",
+        "community",
+        "rpg",
+        "dice",
+        "rolling",
+        "95182"
+      ],
+      "mime_type": "audio/mpeg"
+    },
+    {
+      "name": "u_ngsgp0r6zb-dice-roll-201898.mp3",
+      "stem": "u_ngsgp0r6zb-dice-roll-201898",
+      "extension": ".mp3",
+      "type": "sound_or_audio",
+      "folder": "assets/dice_audio",
+      "relative_path": "assets/dice_audio/u_ngsgp0r6zb-dice-roll-201898.mp3",
+      "url": "assets/dice_audio/u_ngsgp0r6zb-dice-roll-201898.mp3",
+      "asset_relative_path": "dice_audio/u_ngsgp0r6zb-dice-roll-201898.mp3",
+      "size_bytes": 370311,
+      "sha256": "52d8b8b0081dbb60586b236637c4ec605ece4dd14696f0df34fccc9f8cf8007a",
+      "search_terms": [
+        "ngsgp0r6zb",
+        "dice",
+        "roll",
+        "201898"
+      ],
+      "mime_type": "audio/mpeg"
+    },
+    {
+      "name": "u_qpfzpydtro-dice-142528.mp3",
+      "stem": "u_qpfzpydtro-dice-142528",
+      "extension": ".mp3",
+      "type": "sound_or_audio",
+      "folder": "assets/dice_audio",
+      "relative_path": "assets/dice_audio/u_qpfzpydtro-dice-142528.mp3",
+      "url": "assets/dice_audio/u_qpfzpydtro-dice-142528.mp3",
+      "asset_relative_path": "dice_audio/u_qpfzpydtro-dice-142528.mp3",
+      "size_bytes": 44544,
+      "sha256": "6a3d37146a9e0a116dc2c8a6663fe9a35c91642d2775eab239ceecdf065688e1",
+      "search_terms": [
+        "qpfzpydtro",
+        "dice",
+        "142528"
+      ],
+      "mime_type": "audio/mpeg"
+    }
+  ]
+}

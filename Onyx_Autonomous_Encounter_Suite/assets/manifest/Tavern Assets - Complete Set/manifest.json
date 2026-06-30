@@ -1,0 +1,106 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Tavern Assets - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 315977,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Tavern_Assets_Complete_Set.json",
+      "stem": "Tavern_Assets_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tavern Assets - Complete Set",
+      "relative_path": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set.json",
+      "url": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set.json",
+      "asset_relative_path": "manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set.json",
+      "size_bytes": 8018,
+      "sha256": "a0b51751759a91b1e1b51d443ff8a2f0cd6f7a7cbabb809d2d51707e4813613e",
+      "search_terms": [
+        "tavern"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tavern_Assets_Complete_Set_Group_01.json",
+      "stem": "Tavern_Assets_Complete_Set_Group_01",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tavern Assets - Complete Set",
+      "relative_path": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_01.json",
+      "url": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_01.json",
+      "asset_relative_path": "manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_01.json",
+      "size_bytes": 25367,
+      "sha256": "d9f46a2dba71614b3023d4a024424dc607913c929f9f4d63bb275d0c3cb8584a",
+      "search_terms": [
+        "tavern",
+        "group",
+        "01"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tavern_Assets_Complete_Set_Group_02.json",
+      "stem": "Tavern_Assets_Complete_Set_Group_02",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tavern Assets - Complete Set",
+      "relative_path": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_02.json",
+      "url": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_02.json",
+      "asset_relative_path": "manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_02.json",
+      "size_bytes": 216121,
+      "sha256": "92a0e0fde8c701ce45dcff2e07e762ba3b02a331391b47278cd9688bbd6fd8ca",
+      "search_terms": [
+        "tavern",
+        "group",
+        "02"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tavern_Assets_Complete_Set_Group_03.json",
+      "stem": "Tavern_Assets_Complete_Set_Group_03",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tavern Assets - Complete Set",
+      "relative_path": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_03.json",
+      "url": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_03.json",
+      "asset_relative_path": "manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_03.json",
+      "size_bytes": 38801,
+      "sha256": "83d20083a57c9e8be6d6255a87c754c8d4cc35bfb06070b4256b7436188a03cc",
+      "search_terms": [
+        "tavern",
+        "group",
+        "03"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tavern_Assets_Complete_Set_Group_04.json",
+      "stem": "Tavern_Assets_Complete_Set_Group_04",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tavern Assets - Complete Set",
+      "relative_path": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_04.json",
+      "url": "assets/manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_04.json",
+      "asset_relative_path": "manifest/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_04.json",
+      "size_bytes": 27670,
+      "sha256": "0eebcc8fb5f3a53fce796d8363e4de517b77b153d818fad543c438a08434e0a0",
+      "search_terms": [
+        "tavern",
+        "group",
+        "04"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

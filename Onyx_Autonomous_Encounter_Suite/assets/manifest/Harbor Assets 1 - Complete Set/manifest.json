@@ -1,0 +1,99 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Harbor Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 202342,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Docks.json",
+      "stem": "Docks",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Harbor Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Harbor Assets 1 - Complete Set/Docks.json",
+      "url": "assets/manifest/Harbor Assets 1 - Complete Set/Docks.json",
+      "asset_relative_path": "manifest/Harbor Assets 1 - Complete Set/Docks.json",
+      "size_bytes": 21236,
+      "sha256": "a8625b445df011dbddc0e4424424cf07c389e7d2e8a7598502b413e9d82c7980",
+      "search_terms": [
+        "docks"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Grounds.json",
+      "stem": "Grounds",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Harbor Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Harbor Assets 1 - Complete Set/Grounds.json",
+      "url": "assets/manifest/Harbor Assets 1 - Complete Set/Grounds.json",
+      "asset_relative_path": "manifest/Harbor Assets 1 - Complete Set/Grounds.json",
+      "size_bytes": 13837,
+      "sha256": "173c8a4f527e3de7981b315f93400cb8ea85c8f8722749b226b62c1c87cb8837",
+      "search_terms": [
+        "grounds"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Harbor_Assets_1_Complete_Set.json",
+      "stem": "Harbor_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Harbor Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Harbor Assets 1 - Complete Set/Harbor_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Harbor Assets 1 - Complete Set/Harbor_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Harbor Assets 1 - Complete Set/Harbor_Assets_1_Complete_Set.json",
+      "size_bytes": 8236,
+      "sha256": "16bb50ed13b61ad3f63acbc34565f54097e0dc9d2814f36ca2e1249eb3319506",
+      "search_terms": [
+        "harbor"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Harbor_Walls.json",
+      "stem": "Harbor_Walls",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Harbor Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Harbor Assets 1 - Complete Set/Harbor_Walls.json",
+      "url": "assets/manifest/Harbor Assets 1 - Complete Set/Harbor_Walls.json",
+      "asset_relative_path": "manifest/Harbor Assets 1 - Complete Set/Harbor_Walls.json",
+      "size_bytes": 76300,
+      "sha256": "90e86428367844887634b65c904270366a85b5c4d9aafd70cb8707ea256d628a",
+      "search_terms": [
+        "harbor",
+        "walls"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Props.json",
+      "stem": "Props",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Harbor Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Harbor Assets 1 - Complete Set/Props.json",
+      "url": "assets/manifest/Harbor Assets 1 - Complete Set/Props.json",
+      "asset_relative_path": "manifest/Harbor Assets 1 - Complete Set/Props.json",
+      "size_bytes": 82733,
+      "sha256": "cc8a0e278d952630d215c5eb1bac63510035eba539ec3920a9a30c05a4abc789",
+      "search_terms": [
+        "props"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

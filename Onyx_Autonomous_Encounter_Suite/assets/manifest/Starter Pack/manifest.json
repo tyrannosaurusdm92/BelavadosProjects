@@ -1,0 +1,104 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Starter Pack",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 46487,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Fire_Giant_Lava_Forge.json",
+      "stem": "Fire_Giant_Lava_Forge",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack",
+      "relative_path": "assets/manifest/Starter Pack/Fire_Giant_Lava_Forge.json",
+      "url": "assets/manifest/Starter Pack/Fire_Giant_Lava_Forge.json",
+      "asset_relative_path": "manifest/Starter Pack/Fire_Giant_Lava_Forge.json",
+      "size_bytes": 10883,
+      "sha256": "ae638fac65111594faee83be519dda405f33d578b62949f1714ee4769cec4093",
+      "search_terms": [
+        "fire",
+        "giant",
+        "lava",
+        "forge"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Marketplace_Skirmish.json",
+      "stem": "Marketplace_Skirmish",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack",
+      "relative_path": "assets/manifest/Starter Pack/Marketplace_Skirmish.json",
+      "url": "assets/manifest/Starter Pack/Marketplace_Skirmish.json",
+      "asset_relative_path": "manifest/Starter Pack/Marketplace_Skirmish.json",
+      "size_bytes": 17509,
+      "sha256": "0659d821244c595238a901dc14958911d0795a58c4ce02f498a300b48d1c613c",
+      "search_terms": [
+        "marketplace",
+        "skirmish"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Rockmount.json",
+      "stem": "Rockmount",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack",
+      "relative_path": "assets/manifest/Starter Pack/Rockmount.json",
+      "url": "assets/manifest/Starter Pack/Rockmount.json",
+      "asset_relative_path": "manifest/Starter Pack/Rockmount.json",
+      "size_bytes": 7774,
+      "sha256": "5b9c321ba9f220ed7b16c73a085d9b7c3795a7a535629e8ace6af35bfdff19bc",
+      "search_terms": [
+        "rockmount"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Starter_Pack.json",
+      "stem": "Starter_Pack",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack",
+      "relative_path": "assets/manifest/Starter Pack/Starter_Pack.json",
+      "url": "assets/manifest/Starter Pack/Starter_Pack.json",
+      "asset_relative_path": "manifest/Starter Pack/Starter_Pack.json",
+      "size_bytes": 2903,
+      "sha256": "14462f57dd64419ebf2c889cc672828f89095dae1bda4cbe7c2309439d6f70fd",
+      "search_terms": [
+        "starter",
+        "pack"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Waterfall_Campsite.json",
+      "stem": "Waterfall_Campsite",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Starter Pack",
+      "relative_path": "assets/manifest/Starter Pack/Waterfall_Campsite.json",
+      "url": "assets/manifest/Starter Pack/Waterfall_Campsite.json",
+      "asset_relative_path": "manifest/Starter Pack/Waterfall_Campsite.json",
+      "size_bytes": 7418,
+      "sha256": "6f3277d0fea2bad3584ef2488504581619d070adc5237d06112774fd14a3ec0c",
+      "search_terms": [
+        "waterfall",
+        "campsite"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

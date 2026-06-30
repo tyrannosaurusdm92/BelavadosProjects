@@ -1,0 +1,87 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Underdark Assets 1",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 4,
+  "recursive_file_count": 4,
+  "recursive_total_bytes": 515891,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 4
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Separate_Cave_Walls.json",
+      "stem": "Separate_Cave_Walls",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 1",
+      "relative_path": "assets/manifest/Underdark Assets 1/Separate_Cave_Walls.json",
+      "url": "assets/manifest/Underdark Assets 1/Separate_Cave_Walls.json",
+      "asset_relative_path": "manifest/Underdark Assets 1/Separate_Cave_Walls.json",
+      "size_bytes": 243885,
+      "sha256": "7f2e62ca85b623a0c61bf3f23b29107d1d86057abbbdd8436dac88a7eef0d759",
+      "search_terms": [
+        "separate",
+        "cave",
+        "walls"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Transparent_Tiles.json",
+      "stem": "Transparent_Tiles",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 1",
+      "relative_path": "assets/manifest/Underdark Assets 1/Transparent_Tiles.json",
+      "url": "assets/manifest/Underdark Assets 1/Transparent_Tiles.json",
+      "asset_relative_path": "manifest/Underdark Assets 1/Transparent_Tiles.json",
+      "size_bytes": 94029,
+      "sha256": "46f818f77ed7f49a12d7eceb56fcebf50245a8a3cfd9948e25b56dcddc91d8b9",
+      "search_terms": [
+        "transparent",
+        "tiles"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Underdark_Assets_1.json",
+      "stem": "Underdark_Assets_1",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 1",
+      "relative_path": "assets/manifest/Underdark Assets 1/Underdark_Assets_1.json",
+      "url": "assets/manifest/Underdark Assets 1/Underdark_Assets_1.json",
+      "asset_relative_path": "manifest/Underdark Assets 1/Underdark_Assets_1.json",
+      "size_bytes": 9822,
+      "sha256": "a4094dcd9d84a0fe5da0ecf0075f4f11230523c5ebbb22ededa1707a72a597cf",
+      "search_terms": [
+        "underdark"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Underdark_Color_Tiles.json",
+      "stem": "Underdark_Color_Tiles",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Underdark Assets 1",
+      "relative_path": "assets/manifest/Underdark Assets 1/Underdark_Color_Tiles.json",
+      "url": "assets/manifest/Underdark Assets 1/Underdark_Color_Tiles.json",
+      "asset_relative_path": "manifest/Underdark Assets 1/Underdark_Color_Tiles.json",
+      "size_bytes": 168155,
+      "sha256": "cd873105093212bef0b0ea148d33082fdc60e75acb45a88748ad681776afb1d2",
+      "search_terms": [
+        "underdark",
+        "color",
+        "tiles"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

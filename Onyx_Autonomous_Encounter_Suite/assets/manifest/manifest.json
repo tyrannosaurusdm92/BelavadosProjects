@@ -1,0 +1,225 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 104,
+  "recursive_total_bytes": 23611922,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 103,
+    "other": 1
+  },
+  "subfolders": [
+    {
+      "name": "Assets",
+      "relative_path": "assets/manifest/Assets",
+      "manifest": "assets/manifest/Assets/manifest.json"
+    },
+    {
+      "name": "Castle Assets - Complete Set",
+      "relative_path": "assets/manifest/Castle Assets - Complete Set",
+      "manifest": "assets/manifest/Castle Assets - Complete Set/manifest.json"
+    },
+    {
+      "name": "catalog",
+      "relative_path": "assets/manifest/catalog",
+      "manifest": "assets/manifest/catalog/manifest.json"
+    },
+    {
+      "name": "Cave Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Cave Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Cave Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "Chase Assets - Complete Set",
+      "relative_path": "assets/manifest/Chase Assets - Complete Set",
+      "manifest": "assets/manifest/Chase Assets - Complete Set/manifest.json"
+    },
+    {
+      "name": "City Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/City Assets 1 - Complete Set",
+      "manifest": "assets/manifest/City Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "City Walls Assets - Complete Set",
+      "relative_path": "assets/manifest/City Walls Assets - Complete Set",
+      "manifest": "assets/manifest/City Walls Assets - Complete Set/manifest.json"
+    },
+    {
+      "name": "Dungeon Assets Grab Bag",
+      "relative_path": "assets/manifest/Dungeon Assets Grab Bag",
+      "manifest": "assets/manifest/Dungeon Assets Grab Bag/manifest.json"
+    },
+    {
+      "name": "Example Maps",
+      "relative_path": "assets/manifest/Example Maps",
+      "manifest": "assets/manifest/Example Maps/manifest.json"
+    },
+    {
+      "name": "Feywild Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Feywild Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Feywild Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "Forest Assets - Complete Set",
+      "relative_path": "assets/manifest/Forest Assets - Complete Set",
+      "manifest": "assets/manifest/Forest Assets - Complete Set/manifest.json"
+    },
+    {
+      "name": "Furniture Assets Grab Bag",
+      "relative_path": "assets/manifest/Furniture Assets Grab Bag",
+      "manifest": "assets/manifest/Furniture Assets Grab Bag/manifest.json"
+    },
+    {
+      "name": "Harbor Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Harbor Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Harbor Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "images_maps",
+      "relative_path": "assets/manifest/images_maps",
+      "manifest": "assets/manifest/images_maps/manifest.json"
+    },
+    {
+      "name": "map_asset_catalog_chunks",
+      "relative_path": "assets/manifest/map_asset_catalog_chunks",
+      "manifest": "assets/manifest/map_asset_catalog_chunks/manifest.json"
+    },
+    {
+      "name": "Mountainside Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Mountainside Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Mountainside Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "music",
+      "relative_path": "assets/manifest/music",
+      "manifest": "assets/manifest/music/manifest.json"
+    },
+    {
+      "name": "River Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/River Assets 1 - Complete Set",
+      "manifest": "assets/manifest/River Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "Sewer Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Sewer Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Sewer Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "Ships & Sailing Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Ships & Sailing Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Ships & Sailing Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "Snow Assets - Complete Set",
+      "relative_path": "assets/manifest/Snow Assets - Complete Set",
+      "manifest": "assets/manifest/Snow Assets - Complete Set/manifest.json"
+    },
+    {
+      "name": "Starter Pack",
+      "relative_path": "assets/manifest/Starter Pack",
+      "manifest": "assets/manifest/Starter Pack/manifest.json"
+    },
+    {
+      "name": "Starter Pack 02",
+      "relative_path": "assets/manifest/Starter Pack 02",
+      "manifest": "assets/manifest/Starter Pack 02/manifest.json"
+    },
+    {
+      "name": "Swamp Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Swamp Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Swamp Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "TableClicks Maps",
+      "relative_path": "assets/manifest/TableClicks Maps",
+      "manifest": "assets/manifest/TableClicks Maps/manifest.json"
+    },
+    {
+      "name": "Tavern Assets - Complete Set",
+      "relative_path": "assets/manifest/Tavern Assets - Complete Set",
+      "manifest": "assets/manifest/Tavern Assets - Complete Set/manifest.json"
+    },
+    {
+      "name": "Tokens",
+      "relative_path": "assets/manifest/Tokens",
+      "manifest": "assets/manifest/Tokens/manifest.json"
+    },
+    {
+      "name": "Underdark Assets 1",
+      "relative_path": "assets/manifest/Underdark Assets 1",
+      "manifest": "assets/manifest/Underdark Assets 1/manifest.json"
+    },
+    {
+      "name": "Underdark Assets 2",
+      "relative_path": "assets/manifest/Underdark Assets 2",
+      "manifest": "assets/manifest/Underdark Assets 2/manifest.json"
+    },
+    {
+      "name": "Urban Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Urban Assets 1 - Complete Set",
+      "manifest": "assets/manifest/Urban Assets 1 - Complete Set/manifest.json"
+    },
+    {
+      "name": "Wilderness Assets Grab Bag",
+      "relative_path": "assets/manifest/Wilderness Assets Grab Bag",
+      "manifest": "assets/manifest/Wilderness Assets Grab Bag/manifest.json"
+    }
+  ],
+  "files": [
+    {
+      "name": "hello",
+      "stem": "hello",
+      "extension": "",
+      "type": "other",
+      "folder": "assets/manifest",
+      "relative_path": "assets/manifest/hello",
+      "url": "assets/manifest/hello",
+      "asset_relative_path": "manifest/hello",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "search_terms": [
+        "hello"
+      ]
+    },
+    {
+      "name": "map_assets_index.json",
+      "stem": "map_assets_index",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest",
+      "relative_path": "assets/manifest/map_assets_index.json",
+      "url": "assets/manifest/map_assets_index.json",
+      "asset_relative_path": "manifest/map_assets_index.json",
+      "size_bytes": 57124,
+      "sha256": "fc30eb20a7199cd0c228e7360788a156fba89da3b1af712fb0691ce099d1c5b2",
+      "search_terms": [
+        "map",
+        "index"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "map_assets_root_files.json",
+      "stem": "map_assets_root_files",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest",
+      "relative_path": "assets/manifest/map_assets_root_files.json",
+      "url": "assets/manifest/map_assets_root_files.json",
+      "asset_relative_path": "manifest/map_assets_root_files.json",
+      "size_bytes": 24251,
+      "sha256": "832cb7c40bf9bf9fe3487a11db69d2468f266fe99fceefdaea577fb901c380fa",
+      "search_terms": [
+        "map",
+        "root",
+        "files"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

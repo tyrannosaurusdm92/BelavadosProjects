@@ -1,0 +1,35 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/TableClicks Maps",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 1,
+  "recursive_file_count": 1,
+  "recursive_total_bytes": 15956,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 1
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "TableClicks_Maps.json",
+      "stem": "TableClicks_Maps",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/TableClicks Maps",
+      "relative_path": "assets/manifest/TableClicks Maps/TableClicks_Maps.json",
+      "url": "assets/manifest/TableClicks Maps/TableClicks_Maps.json",
+      "asset_relative_path": "manifest/TableClicks Maps/TableClicks_Maps.json",
+      "size_bytes": 15956,
+      "sha256": "4c8d437401ad7b55d82a66994bc7f31bfb01993470fd4999c769eff77b4199fd",
+      "search_terms": [
+        "tableclicks",
+        "maps"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

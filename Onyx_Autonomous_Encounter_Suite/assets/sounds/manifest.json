@@ -1,0 +1,135 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/sounds",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 7,
+  "recursive_file_count": 7,
+  "recursive_total_bytes": 113159,
+  "type_counts_recursive": {
+    "sound_or_audio": 7
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "alert_beep.wav",
+      "stem": "alert_beep",
+      "extension": ".wav",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/alert_beep.wav",
+      "url": "assets/sounds/alert_beep.wav",
+      "asset_relative_path": "sounds/alert_beep.wav",
+      "size_bytes": 30912,
+      "sha256": "f9451a625045b702cbaba244bf1d43798e37177e0a6fa30e6e54e6ce922c191a",
+      "search_terms": [
+        "alert",
+        "beep"
+      ],
+      "mime_type": "audio/x-wav"
+    },
+    {
+      "name": "door_unlock.wav",
+      "stem": "door_unlock",
+      "extension": ".wav",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/door_unlock.wav",
+      "url": "assets/sounds/door_unlock.wav",
+      "asset_relative_path": "sounds/door_unlock.wav",
+      "size_bytes": 15920,
+      "sha256": "bdf5b8b92d98da019b5334cc86f75fe1ce7451baeb757da4b343342414bfb1e0",
+      "search_terms": [
+        "door",
+        "unlock"
+      ],
+      "mime_type": "audio/x-wav"
+    },
+    {
+      "name": "hello",
+      "stem": "hello",
+      "extension": "",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/hello",
+      "url": "assets/sounds/hello",
+      "asset_relative_path": "sounds/hello",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "search_terms": [
+        "hello"
+      ]
+    },
+    {
+      "name": "initiative_chime.wav",
+      "stem": "initiative_chime",
+      "extension": ".wav",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/initiative_chime.wav",
+      "url": "assets/sounds/initiative_chime.wav",
+      "asset_relative_path": "sounds/initiative_chime.wav",
+      "size_bytes": 22094,
+      "sha256": "2253a9161089615223899a715373a70b84a32bfb05d8cb1c6b58a28786e1e54e",
+      "search_terms": [
+        "initiative",
+        "chime"
+      ],
+      "mime_type": "audio/x-wav"
+    },
+    {
+      "name": "task_success.wav",
+      "stem": "task_success",
+      "extension": ".wav",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/task_success.wav",
+      "url": "assets/sounds/task_success.wav",
+      "asset_relative_path": "sounds/task_success.wav",
+      "size_bytes": 19448,
+      "sha256": "2dfc5b4def3f10abdb08eedc2d7c9cffa3c74fc91bf0acbbeab3924f492e1449",
+      "search_terms": [
+        "task",
+        "success"
+      ],
+      "mime_type": "audio/x-wav"
+    },
+    {
+      "name": "trap_click.wav",
+      "stem": "trap_click",
+      "extension": ".wav",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/trap_click.wav",
+      "url": "assets/sounds/trap_click.wav",
+      "asset_relative_path": "sounds/trap_click.wav",
+      "size_bytes": 14156,
+      "sha256": "c9d61dcd46ab711a0e6b5ba5f62ada5415294f65f4cbe56ba91779349698a8ae",
+      "search_terms": [
+        "trap",
+        "click"
+      ],
+      "mime_type": "audio/x-wav"
+    },
+    {
+      "name": "ui_select.wav",
+      "stem": "ui_select",
+      "extension": ".wav",
+      "type": "sound_or_audio",
+      "folder": "assets/sounds",
+      "relative_path": "assets/sounds/ui_select.wav",
+      "url": "assets/sounds/ui_select.wav",
+      "asset_relative_path": "sounds/ui_select.wav",
+      "size_bytes": 10628,
+      "sha256": "59ea0f41ef4e251619658aa6cbdb3073d65f58bae9b00380dcadf87a08838d8e",
+      "search_terms": [
+        "ui",
+        "select"
+      ],
+      "mime_type": "audio/x-wav"
+    }
+  ]
+}

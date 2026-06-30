@@ -1,0 +1,35 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/images_maps",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 1,
+  "recursive_file_count": 1,
+  "recursive_total_bytes": 70355,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 1
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "images_maps.json",
+      "stem": "images_maps",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/images_maps",
+      "relative_path": "assets/manifest/images_maps/images_maps.json",
+      "url": "assets/manifest/images_maps/images_maps.json",
+      "asset_relative_path": "manifest/images_maps/images_maps.json",
+      "size_bytes": 70355,
+      "sha256": "a4e762f991a78bedd343275c59ee0ebb096bb651b263ef95a4a19928fad4d9ed",
+      "search_terms": [
+        "images",
+        "maps"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

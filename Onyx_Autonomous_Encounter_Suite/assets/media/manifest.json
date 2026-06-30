@@ -1,0 +1,95 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/media",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 1,
+  "recursive_file_count": 1184,
+  "recursive_total_bytes": 35219481,
+  "type_counts_recursive": {
+    "image": 1183,
+    "other": 1
+  },
+  "subfolders": [
+    {
+      "name": "media 1",
+      "relative_path": "assets/media/media 1",
+      "manifest": "assets/media/media 1/manifest.json"
+    },
+    {
+      "name": "media 10",
+      "relative_path": "assets/media/media 10",
+      "manifest": "assets/media/media 10/manifest.json"
+    },
+    {
+      "name": "media 11",
+      "relative_path": "assets/media/media 11",
+      "manifest": "assets/media/media 11/manifest.json"
+    },
+    {
+      "name": "media 12",
+      "relative_path": "assets/media/media 12",
+      "manifest": "assets/media/media 12/manifest.json"
+    },
+    {
+      "name": "media 2",
+      "relative_path": "assets/media/media 2",
+      "manifest": "assets/media/media 2/manifest.json"
+    },
+    {
+      "name": "media 3",
+      "relative_path": "assets/media/media 3",
+      "manifest": "assets/media/media 3/manifest.json"
+    },
+    {
+      "name": "media 4",
+      "relative_path": "assets/media/media 4",
+      "manifest": "assets/media/media 4/manifest.json"
+    },
+    {
+      "name": "media 5",
+      "relative_path": "assets/media/media 5",
+      "manifest": "assets/media/media 5/manifest.json"
+    },
+    {
+      "name": "media 6",
+      "relative_path": "assets/media/media 6",
+      "manifest": "assets/media/media 6/manifest.json"
+    },
+    {
+      "name": "media 7",
+      "relative_path": "assets/media/media 7",
+      "manifest": "assets/media/media 7/manifest.json"
+    },
+    {
+      "name": "media 8",
+      "relative_path": "assets/media/media 8",
+      "manifest": "assets/media/media 8/manifest.json"
+    },
+    {
+      "name": "media 9",
+      "relative_path": "assets/media/media 9",
+      "manifest": "assets/media/media 9/manifest.json"
+    }
+  ],
+  "files": [
+    {
+      "name": "hello",
+      "stem": "hello",
+      "extension": "",
+      "type": "other",
+      "folder": "assets/media",
+      "relative_path": "assets/media/hello",
+      "url": "assets/media/hello",
+      "asset_relative_path": "media/hello",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "search_terms": [
+        "hello"
+      ]
+    }
+  ]
+}

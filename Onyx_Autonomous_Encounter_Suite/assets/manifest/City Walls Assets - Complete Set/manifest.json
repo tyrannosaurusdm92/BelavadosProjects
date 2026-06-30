@@ -1,0 +1,68 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/City Walls Assets - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 172509,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "City_Walls_Assets_Complete_Set.json",
+      "stem": "City_Walls_Assets_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/City Walls Assets - Complete Set",
+      "relative_path": "assets/manifest/City Walls Assets - Complete Set/City_Walls_Assets_Complete_Set.json",
+      "url": "assets/manifest/City Walls Assets - Complete Set/City_Walls_Assets_Complete_Set.json",
+      "asset_relative_path": "manifest/City Walls Assets - Complete Set/City_Walls_Assets_Complete_Set.json",
+      "size_bytes": 9676,
+      "sha256": "29d43bf40f0cc13fa5a2d120438f6977a1fd463ab69bf0f5bd9b7a820290b9c6",
+      "search_terms": [
+        "city",
+        "walls"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "No_Shadow.json",
+      "stem": "No_Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/City Walls Assets - Complete Set",
+      "relative_path": "assets/manifest/City Walls Assets - Complete Set/No_Shadow.json",
+      "url": "assets/manifest/City Walls Assets - Complete Set/No_Shadow.json",
+      "asset_relative_path": "manifest/City Walls Assets - Complete Set/No_Shadow.json",
+      "size_bytes": 82381,
+      "sha256": "b79bdfdccff16a20873fa71c763a453c45912488402ceeb56d90d84e1e605182",
+      "search_terms": [
+        "no",
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Shadow.json",
+      "stem": "Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/City Walls Assets - Complete Set",
+      "relative_path": "assets/manifest/City Walls Assets - Complete Set/Shadow.json",
+      "url": "assets/manifest/City Walls Assets - Complete Set/Shadow.json",
+      "asset_relative_path": "manifest/City Walls Assets - Complete Set/Shadow.json",
+      "size_bytes": 80452,
+      "sha256": "fb9f551f5020bd30554c1001ca95da1135b26cd52ba5f437f77f38359a5b25af",
+      "search_terms": [
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

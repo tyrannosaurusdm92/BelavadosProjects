@@ -1,0 +1,69 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Dungeon Assets Grab Bag",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 111496,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Dungeon_Assets_Grab_Bag.json",
+      "stem": "Dungeon_Assets_Grab_Bag",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Dungeon Assets Grab Bag",
+      "relative_path": "assets/manifest/Dungeon Assets Grab Bag/Dungeon_Assets_Grab_Bag.json",
+      "url": "assets/manifest/Dungeon Assets Grab Bag/Dungeon_Assets_Grab_Bag.json",
+      "asset_relative_path": "manifest/Dungeon Assets Grab Bag/Dungeon_Assets_Grab_Bag.json",
+      "size_bytes": 3183,
+      "sha256": "7e44dd16651504f6239d43fa23d46090905e94e2d464276ad782b038aa10aaf2",
+      "search_terms": [
+        "dungeon",
+        "grab",
+        "bag"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "No_Shadow.json",
+      "stem": "No_Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Dungeon Assets Grab Bag",
+      "relative_path": "assets/manifest/Dungeon Assets Grab Bag/No_Shadow.json",
+      "url": "assets/manifest/Dungeon Assets Grab Bag/No_Shadow.json",
+      "asset_relative_path": "manifest/Dungeon Assets Grab Bag/No_Shadow.json",
+      "size_bytes": 54855,
+      "sha256": "0c5183d994c094526a5f0abe75182313f9a24b82b945cb0dd3d57c35189b365d",
+      "search_terms": [
+        "no",
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Shadow.json",
+      "stem": "Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Dungeon Assets Grab Bag",
+      "relative_path": "assets/manifest/Dungeon Assets Grab Bag/Shadow.json",
+      "url": "assets/manifest/Dungeon Assets Grab Bag/Shadow.json",
+      "asset_relative_path": "manifest/Dungeon Assets Grab Bag/Shadow.json",
+      "size_bytes": 53458,
+      "sha256": "72790082ed1f1d4e68113765841c7966bc79eb379a3f10368f913062d3a2f944",
+      "search_terms": [
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

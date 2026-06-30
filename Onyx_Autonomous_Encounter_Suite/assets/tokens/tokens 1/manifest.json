@@ -1,0 +1,1950 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/tokens/tokens 1",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 100,
+  "recursive_file_count": 100,
+  "recursive_total_bytes": 19711098,
+  "type_counts_recursive": {
+    "token": 100
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "D-DAssets-main_329b175d68_Bandit1Token.png",
+      "stem": "D-DAssets-main_329b175d68_Bandit1Token",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/D-DAssets-main_329b175d68_Bandit1Token.png",
+      "url": "assets/tokens/tokens 1/D-DAssets-main_329b175d68_Bandit1Token.png",
+      "asset_relative_path": "tokens/tokens 1/D-DAssets-main_329b175d68_Bandit1Token.png",
+      "size_bytes": 75182,
+      "sha256": "329b175d68e9cbc7f1ec8ff0edb18699b239bc04d6a6b8cf2cb56bc5093e78aa",
+      "search_terms": [
+        "dassets",
+        "329b175d68",
+        "bandit1token"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "D-DAssets-main_53c6099fd2_Bandit2Token.png",
+      "stem": "D-DAssets-main_53c6099fd2_Bandit2Token",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/D-DAssets-main_53c6099fd2_Bandit2Token.png",
+      "url": "assets/tokens/tokens 1/D-DAssets-main_53c6099fd2_Bandit2Token.png",
+      "asset_relative_path": "tokens/tokens 1/D-DAssets-main_53c6099fd2_Bandit2Token.png",
+      "size_bytes": 65872,
+      "sha256": "53c6099fd2019ace43f5a08c81db1abad89e31040129b406442251d64ca7e9fa",
+      "search_terms": [
+        "dassets",
+        "53c6099fd2",
+        "bandit2token"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "D-DAssets-main_9d95b6cd3a_Bandit3.png",
+      "stem": "D-DAssets-main_9d95b6cd3a_Bandit3",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/D-DAssets-main_9d95b6cd3a_Bandit3.png",
+      "url": "assets/tokens/tokens 1/D-DAssets-main_9d95b6cd3a_Bandit3.png",
+      "asset_relative_path": "tokens/tokens 1/D-DAssets-main_9d95b6cd3a_Bandit3.png",
+      "size_bytes": 71589,
+      "sha256": "9d95b6cd3ab4ea60c4f1e9f048ea4a329fb5fe7cb6c34a79547ea79b880026f2",
+      "search_terms": [
+        "dassets",
+        "9d95b6cd3a",
+        "bandit3"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_00ebcd9e22_Drider.webp",
+      "stem": "dnd-assets-main_00ebcd9e22_Drider",
+      "extension": ".webp",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_00ebcd9e22_Drider.webp",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_00ebcd9e22_Drider.webp",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_00ebcd9e22_Drider.webp",
+      "size_bytes": 324278,
+      "sha256": "00ebcd9e22487795139859f7ef2535f72114729cb497c0de1da8d625157016d4",
+      "search_terms": [
+        "dnd",
+        "00ebcd9e22",
+        "drider"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "dnd-assets-main_09f6e315fa_spider-purple.png",
+      "stem": "dnd-assets-main_09f6e315fa_spider-purple",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_09f6e315fa_spider-purple.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_09f6e315fa_spider-purple.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_09f6e315fa_spider-purple.png",
+      "size_bytes": 28499,
+      "sha256": "09f6e315fa44ba8c325a053e7bfe69beb90a5b73c75c4502dfedd0bbffbf2d8f",
+      "search_terms": [
+        "dnd",
+        "09f6e315fa",
+        "spider",
+        "purple"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_0e9affcc84_Nezznar.png",
+      "stem": "dnd-assets-main_0e9affcc84_Nezznar",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_0e9affcc84_Nezznar.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_0e9affcc84_Nezznar.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_0e9affcc84_Nezznar.png",
+      "size_bytes": 15058,
+      "sha256": "0e9affcc84f82e687570121179ed483eaaa2c18c46530ad70b50292154ea328a",
+      "search_terms": [
+        "dnd",
+        "0e9affcc84",
+        "nezznar"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_1934acc99c_Flameskull.png",
+      "stem": "dnd-assets-main_1934acc99c_Flameskull",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_1934acc99c_Flameskull.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_1934acc99c_Flameskull.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_1934acc99c_Flameskull.png",
+      "size_bytes": 40551,
+      "sha256": "1934acc99c82c2beb38ddd39e7ff8f2d15fb7652edd2d52735f6941dc1975bc4",
+      "search_terms": [
+        "dnd",
+        "1934acc99c",
+        "flameskull"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_1fe3ff079e_petra-full.png",
+      "stem": "dnd-assets-main_1fe3ff079e_petra-full",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_1fe3ff079e_petra-full.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_1fe3ff079e_petra-full.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_1fe3ff079e_petra-full.png",
+      "size_bytes": 387952,
+      "sha256": "1fe3ff079eee0163c24acc0d38d598f608c24929f5bfe9b93e63cd7ab857a95f",
+      "search_terms": [
+        "dnd",
+        "1fe3ff079e",
+        "petra",
+        "full"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_36e4665baf_spider-brown.png",
+      "stem": "dnd-assets-main_36e4665baf_spider-brown",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_36e4665baf_spider-brown.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_36e4665baf_spider-brown.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_36e4665baf_spider-brown.png",
+      "size_bytes": 29222,
+      "sha256": "36e4665bafade0bef8848e114103d486008fdb97fef12e72e4f2e9d54e968e46",
+      "search_terms": [
+        "dnd",
+        "36e4665baf",
+        "spider",
+        "brown"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_3c3648d874_goblin-hog-rider.png",
+      "stem": "dnd-assets-main_3c3648d874_goblin-hog-rider",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_3c3648d874_goblin-hog-rider.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_3c3648d874_goblin-hog-rider.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_3c3648d874_goblin-hog-rider.png",
+      "size_bytes": 41998,
+      "sha256": "3c3648d87460ac1231ba815c85f8f90fd50266210a7fa8486745557a1afcef85",
+      "search_terms": [
+        "dnd",
+        "3c3648d874",
+        "goblin",
+        "hog",
+        "rider"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_47692f4842_Gloomstalker-eyes.png",
+      "stem": "dnd-assets-main_47692f4842_Gloomstalker-eyes",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_47692f4842_Gloomstalker-eyes.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_47692f4842_Gloomstalker-eyes.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_47692f4842_Gloomstalker-eyes.png",
+      "size_bytes": 10880,
+      "sha256": "47692f4842a2a95a981571c0e08858266609e6f4317d8e2b3df8bf1280595e49",
+      "search_terms": [
+        "dnd",
+        "47692f4842",
+        "gloomstalker",
+        "eyes"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_49150d36e2_Gloomstalker-full.png",
+      "stem": "dnd-assets-main_49150d36e2_Gloomstalker-full",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_49150d36e2_Gloomstalker-full.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_49150d36e2_Gloomstalker-full.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_49150d36e2_Gloomstalker-full.png",
+      "size_bytes": 140088,
+      "sha256": "49150d36e298be7ad7fd1375688e60e5bb3a2a4bf3fbdf38332e67dd832db3b9",
+      "search_terms": [
+        "dnd",
+        "49150d36e2",
+        "gloomstalker",
+        "full"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_51a77ed266_Lob-Frog-Spawn.png",
+      "stem": "dnd-assets-main_51a77ed266_Lob-Frog-Spawn",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_51a77ed266_Lob-Frog-Spawn.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_51a77ed266_Lob-Frog-Spawn.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_51a77ed266_Lob-Frog-Spawn.png",
+      "size_bytes": 13669,
+      "sha256": "51a77ed26691f9aabc08d1dcc8d9975f17d95eccae64baea2d2e1a34ff737102",
+      "search_terms": [
+        "dnd",
+        "51a77ed266",
+        "lob",
+        "frog",
+        "spawn"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_5d08193298_Hazewing-Caterpillar.png",
+      "stem": "dnd-assets-main_5d08193298_Hazewing-Caterpillar",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_5d08193298_Hazewing-Caterpillar.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_5d08193298_Hazewing-Caterpillar.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_5d08193298_Hazewing-Caterpillar.png",
+      "size_bytes": 39221,
+      "sha256": "5d081932988ae760f70ebf0e4ab45ea3a7afb5e02805a75a0aa329afaba0e19c",
+      "search_terms": [
+        "dnd",
+        "5d08193298",
+        "hazewing",
+        "caterpillar"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_5eefcb7721_Gloomflyer.png",
+      "stem": "dnd-assets-main_5eefcb7721_Gloomflyer",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_5eefcb7721_Gloomflyer.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_5eefcb7721_Gloomflyer.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_5eefcb7721_Gloomflyer.png",
+      "size_bytes": 36135,
+      "sha256": "5eefcb772120f48d4946ca2ae533f1a304b57f46eec97674cbfd1ae61fb76b8d",
+      "search_terms": [
+        "dnd",
+        "5eefcb7721",
+        "gloomflyer"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_5f44d72ac4_Umber-Hulk.png",
+      "stem": "dnd-assets-main_5f44d72ac4_Umber-Hulk",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_5f44d72ac4_Umber-Hulk.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_5f44d72ac4_Umber-Hulk.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_5f44d72ac4_Umber-Hulk.png",
+      "size_bytes": 36227,
+      "sha256": "5f44d72ac43b81416c0e74271a1d6a82ce5c2c1324e96eca552248e267d90ed7",
+      "search_terms": [
+        "dnd",
+        "5f44d72ac4",
+        "umber",
+        "hulk"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_62fd868a28_gnoll-pack-lord.png",
+      "stem": "dnd-assets-main_62fd868a28_gnoll-pack-lord",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_62fd868a28_gnoll-pack-lord.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_62fd868a28_gnoll-pack-lord.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_62fd868a28_gnoll-pack-lord.png",
+      "size_bytes": 36162,
+      "sha256": "62fd868a280cb9a1ef2d9297b3b37c71d3047dd45ad4b71bd458523f9e66d38b",
+      "search_terms": [
+        "dnd",
+        "62fd868a28",
+        "gnoll",
+        "pack",
+        "lord"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_6e46378f41_owlbear.png",
+      "stem": "dnd-assets-main_6e46378f41_owlbear",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_6e46378f41_owlbear.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_6e46378f41_owlbear.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_6e46378f41_owlbear.png",
+      "size_bytes": 44162,
+      "sha256": "6e46378f41acc910ba194a0435002d18f85995649c7bb29a3612fa3c520c8ebe",
+      "search_terms": [
+        "dnd",
+        "6e46378f41",
+        "owlbear"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_8011a49e85_Gloomstalker-face.jpeg",
+      "stem": "dnd-assets-main_8011a49e85_Gloomstalker-face",
+      "extension": ".jpeg",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_8011a49e85_Gloomstalker-face.jpeg",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_8011a49e85_Gloomstalker-face.jpeg",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_8011a49e85_Gloomstalker-face.jpeg",
+      "size_bytes": 6887,
+      "sha256": "8011a49e8580bee40185ce6aca96f262f0505e5885ba8e7881c0ad40ed3eeece",
+      "search_terms": [
+        "dnd",
+        "8011a49e85",
+        "gloomstalker",
+        "face"
+      ],
+      "mime_type": "image/jpeg"
+    },
+    {
+      "name": "dnd-assets-main_829a6bda32_Hazewing-Moth-full.png",
+      "stem": "dnd-assets-main_829a6bda32_Hazewing-Moth-full",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_829a6bda32_Hazewing-Moth-full.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_829a6bda32_Hazewing-Moth-full.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_829a6bda32_Hazewing-Moth-full.png",
+      "size_bytes": 394022,
+      "sha256": "829a6bda322ff2d2ac0358ca3675efe49375086a295b111b1dce42572257b7b8",
+      "search_terms": [
+        "dnd",
+        "829a6bda32",
+        "hazewing",
+        "moth",
+        "full"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_8c02cf7c5d_goblin-hog-rider-full.png",
+      "stem": "dnd-assets-main_8c02cf7c5d_goblin-hog-rider-full",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_8c02cf7c5d_goblin-hog-rider-full.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_8c02cf7c5d_goblin-hog-rider-full.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_8c02cf7c5d_goblin-hog-rider-full.png",
+      "size_bytes": 425697,
+      "sha256": "8c02cf7c5d7d92652451552a3e0f9aae7c05afa47159a470a1b3adbea4b51d5c",
+      "search_terms": [
+        "dnd",
+        "8c02cf7c5d",
+        "goblin",
+        "hog",
+        "rider",
+        "full"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_8c0abb0be9_Torik.png",
+      "stem": "dnd-assets-main_8c0abb0be9_Torik",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_8c0abb0be9_Torik.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_8c0abb0be9_Torik.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_8c0abb0be9_Torik.png",
+      "size_bytes": 41139,
+      "sha256": "8c0abb0be9e7e68e7382a9ab5974522c510a8baebba687013db09a54ff68d0f8",
+      "search_terms": [
+        "dnd",
+        "8c0abb0be9",
+        "torik"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_8e35352923_spider-blue.png",
+      "stem": "dnd-assets-main_8e35352923_spider-blue",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_8e35352923_spider-blue.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_8e35352923_spider-blue.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_8e35352923_spider-blue.png",
+      "size_bytes": 28994,
+      "sha256": "8e3535292370e5d035be4f9f992f111d6dfa29650c9ea7ba7f4ab646f876546c",
+      "search_terms": [
+        "dnd",
+        "8e35352923",
+        "spider",
+        "blue"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_92137c3528_Hazewing-Moth.png",
+      "stem": "dnd-assets-main_92137c3528_Hazewing-Moth",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_92137c3528_Hazewing-Moth.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_92137c3528_Hazewing-Moth.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_92137c3528_Hazewing-Moth.png",
+      "size_bytes": 35756,
+      "sha256": "92137c3528a9b8dd4768cfc0d0827782f54b94bc956291412f904bda82ec12aa",
+      "search_terms": [
+        "dnd",
+        "92137c3528",
+        "hazewing",
+        "moth"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_93b115a380_Zath-Squid.png",
+      "stem": "dnd-assets-main_93b115a380_Zath-Squid",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_93b115a380_Zath-Squid.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_93b115a380_Zath-Squid.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_93b115a380_Zath-Squid.png",
+      "size_bytes": 20140,
+      "sha256": "93b115a3804532174480cf9781876275c7a2deb74b433d199784785cc95e7b69",
+      "search_terms": [
+        "dnd",
+        "93b115a380",
+        "zath",
+        "squid"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_a249fcfaa6_petra.png",
+      "stem": "dnd-assets-main_a249fcfaa6_petra",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_a249fcfaa6_petra.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_a249fcfaa6_petra.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_a249fcfaa6_petra.png",
+      "size_bytes": 38320,
+      "sha256": "a249fcfaa62cd11ac2e0285810f2f52a7e81eaa5d696042f86ab1fb81cd0cd62",
+      "search_terms": [
+        "dnd",
+        "a249fcfaa6",
+        "petra"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_abf1608410_Beholder.webp",
+      "stem": "dnd-assets-main_abf1608410_Beholder",
+      "extension": ".webp",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_abf1608410_Beholder.webp",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_abf1608410_Beholder.webp",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_abf1608410_Beholder.webp",
+      "size_bytes": 341860,
+      "sha256": "abf16084100d522b13e399907789b458b5a36619d08adba8016ef05a4bacd5bd",
+      "search_terms": [
+        "dnd",
+        "abf1608410",
+        "beholder"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "dnd-assets-main_b072b55f06_Lob-Frog.png",
+      "stem": "dnd-assets-main_b072b55f06_Lob-Frog",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_b072b55f06_Lob-Frog.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_b072b55f06_Lob-Frog.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_b072b55f06_Lob-Frog.png",
+      "size_bytes": 18903,
+      "sha256": "b072b55f0686d4b51fafc9f7c2759a840de49bda465ec6427f606130105f8274",
+      "search_terms": [
+        "dnd",
+        "b072b55f06",
+        "lob",
+        "frog"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_caeff1c200_Gloomstalker.webp",
+      "stem": "dnd-assets-main_caeff1c200_Gloomstalker",
+      "extension": ".webp",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_caeff1c200_Gloomstalker.webp",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_caeff1c200_Gloomstalker.webp",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_caeff1c200_Gloomstalker.webp",
+      "size_bytes": 33258,
+      "sha256": "caeff1c2002ed65249f369bba0ec0a997a6bf07900103ae3e9a76958376e69bc",
+      "search_terms": [
+        "dnd",
+        "caeff1c200",
+        "gloomstalker"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "dnd-assets-main_cefd39ecfe_Wraith.png",
+      "stem": "dnd-assets-main_cefd39ecfe_Wraith",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_cefd39ecfe_Wraith.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_cefd39ecfe_Wraith.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_cefd39ecfe_Wraith.png",
+      "size_bytes": 32447,
+      "sha256": "cefd39ecfead0ede84d671c3b9f09b43e4f7454685782085c72fb29d46f56f77",
+      "search_terms": [
+        "dnd",
+        "cefd39ecfe",
+        "wraith"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_d0fa7b22e4_gelatinous-cube-custom-no-outline.png",
+      "stem": "dnd-assets-main_d0fa7b22e4_gelatinous-cube-custom-no-outline",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_d0fa7b22e4_gelatinous-cube-custom-no-outline.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_d0fa7b22e4_gelatinous-cube-custom-no-outline.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_d0fa7b22e4_gelatinous-cube-custom-no-outline.png",
+      "size_bytes": 209638,
+      "sha256": "d0fa7b22e4c16fe1540ab0947c7c2c973670e26804045b794c692f4e55d42f04",
+      "search_terms": [
+        "dnd",
+        "d0fa7b22e4",
+        "gelatinous",
+        "cube",
+        "custom",
+        "no",
+        "outline"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_d5df362b78_gelatinous-cube-custom.png",
+      "stem": "dnd-assets-main_d5df362b78_gelatinous-cube-custom",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_d5df362b78_gelatinous-cube-custom.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_d5df362b78_gelatinous-cube-custom.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_d5df362b78_gelatinous-cube-custom.png",
+      "size_bytes": 172176,
+      "sha256": "d5df362b7854eaa19150bdfb036aab81af5a72f7bc67aecfed85d277091c10e5",
+      "search_terms": [
+        "dnd",
+        "d5df362b78",
+        "gelatinous",
+        "cube",
+        "custom"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_ea8bcf6aa8_imp-rat.png",
+      "stem": "dnd-assets-main_ea8bcf6aa8_imp-rat",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_ea8bcf6aa8_imp-rat.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_ea8bcf6aa8_imp-rat.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_ea8bcf6aa8_imp-rat.png",
+      "size_bytes": 35576,
+      "sha256": "ea8bcf6aa81764a2fa6c6ac2d22f71fdf83e21fa0e1f9885712df704135c049c",
+      "search_terms": [
+        "dnd",
+        "ea8bcf6aa8",
+        "imp",
+        "rat"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-assets-main_edadfc9b6b_Mummy.webp",
+      "stem": "dnd-assets-main_edadfc9b6b_Mummy",
+      "extension": ".webp",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_edadfc9b6b_Mummy.webp",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_edadfc9b6b_Mummy.webp",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_edadfc9b6b_Mummy.webp",
+      "size_bytes": 79970,
+      "sha256": "edadfc9b6b53249d15fbeb6a5e63764a8c973cec329182a3ccb2009c69002bd2",
+      "search_terms": [
+        "dnd",
+        "edadfc9b6b",
+        "mummy"
+      ],
+      "mime_type": "image/webp"
+    },
+    {
+      "name": "dnd-assets-main_f99da8d442_arcanith-full.png",
+      "stem": "dnd-assets-main_f99da8d442_arcanith-full",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-assets-main_f99da8d442_arcanith-full.png",
+      "url": "assets/tokens/tokens 1/dnd-assets-main_f99da8d442_arcanith-full.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-assets-main_f99da8d442_arcanith-full.png",
+      "size_bytes": 528477,
+      "sha256": "f99da8d442ebbda41eaa272bea6360b549c9d52845096dd19c09583b4a87cc49",
+      "search_terms": [
+        "dnd",
+        "f99da8d442",
+        "arcanith",
+        "full"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_0b3e5dbb15_tiefling.png",
+      "stem": "dnd-tabletop-main_0b3e5dbb15_tiefling",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_0b3e5dbb15_tiefling.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_0b3e5dbb15_tiefling.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_0b3e5dbb15_tiefling.png",
+      "size_bytes": 311170,
+      "sha256": "0b3e5dbb1553dfd7e32202bb768ea4ae1a3d0825060cf5b36b1987b078d36b9c",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "0b3e5dbb15",
+        "tiefling"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_1b44123ce7_lupo-mannaro.png",
+      "stem": "dnd-tabletop-main_1b44123ce7_lupo-mannaro",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_1b44123ce7_lupo-mannaro.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_1b44123ce7_lupo-mannaro.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_1b44123ce7_lupo-mannaro.png",
+      "size_bytes": 281009,
+      "sha256": "1b44123ce72bd311867f255a1d112d632033a1f2b897e613c91142df57b3b4c8",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "1b44123ce7",
+        "lupo",
+        "mannaro"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_1b99a5573a_kenku.png",
+      "stem": "dnd-tabletop-main_1b99a5573a_kenku",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_1b99a5573a_kenku.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_1b99a5573a_kenku.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_1b99a5573a_kenku.png",
+      "size_bytes": 295168,
+      "sha256": "1b99a5573a7896e78536d175b6033986060e989b09383aeb2436108c6d185bf0",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "1b99a5573a",
+        "kenku"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_1bb1314a0b_strahd.png",
+      "stem": "dnd-tabletop-main_1bb1314a0b_strahd",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_1bb1314a0b_strahd.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_1bb1314a0b_strahd.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_1bb1314a0b_strahd.png",
+      "size_bytes": 279307,
+      "sha256": "1bb1314a0b4ccafd78611d94879c06aa60c3a8ad65762c7cb633a495f9ae9d81",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "1bb1314a0b",
+        "strahd"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_1e2ce27a38_lupo.png",
+      "stem": "dnd-tabletop-main_1e2ce27a38_lupo",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_1e2ce27a38_lupo.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_1e2ce27a38_lupo.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_1e2ce27a38_lupo.png",
+      "size_bytes": 287956,
+      "sha256": "1e2ce27a389ed1db489c91f2cc8cd8a6b36295f3c61e35f4ac3cc08322b38a5e",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "1e2ce27a38",
+        "lupo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_25ed2e0236_scheletro.png",
+      "stem": "dnd-tabletop-main_25ed2e0236_scheletro",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_25ed2e0236_scheletro.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_25ed2e0236_scheletro.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_25ed2e0236_scheletro.png",
+      "size_bytes": 322787,
+      "sha256": "25ed2e0236cfcd61fd18ed3f18ac7366ef9727e52d473c77cf3aab6d8aeb8fe9",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "25ed2e0236",
+        "scheletro"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_3a57119125_goliath-pietra.png",
+      "stem": "dnd-tabletop-main_3a57119125_goliath-pietra",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_3a57119125_goliath-pietra.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_3a57119125_goliath-pietra.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_3a57119125_goliath-pietra.png",
+      "size_bytes": 312759,
+      "sha256": "3a57119125cf59d3e982cf82afc613b4332d00e5728fad7e527c01ab11f2b796",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "3a57119125",
+        "goliath",
+        "pietra"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_3b1b75a0d3_spettro.png",
+      "stem": "dnd-tabletop-main_3b1b75a0d3_spettro",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_3b1b75a0d3_spettro.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_3b1b75a0d3_spettro.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_3b1b75a0d3_spettro.png",
+      "size_bytes": 313009,
+      "sha256": "3b1b75a0d3af1c002e5213f19ed1a75c6edf275308eade4cabff2e849309e1c6",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "3b1b75a0d3",
+        "spettro"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_3d757bc9e9_ogre.png",
+      "stem": "dnd-tabletop-main_3d757bc9e9_ogre",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_3d757bc9e9_ogre.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_3d757bc9e9_ogre.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_3d757bc9e9_ogre.png",
+      "size_bytes": 294740,
+      "sha256": "3d757bc9e95beb5745c1086d61d7cd1a54ea6b38f2e3a4feb58f9b8f9c40f67e",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "3d757bc9e9",
+        "ogre"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_420bd2f31e_dragonide-cromatico.png",
+      "stem": "dnd-tabletop-main_420bd2f31e_dragonide-cromatico",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_420bd2f31e_dragonide-cromatico.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_420bd2f31e_dragonide-cromatico.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_420bd2f31e_dragonide-cromatico.png",
+      "size_bytes": 319180,
+      "sha256": "420bd2f31e7ad297dbc11439ac82f830a074e1aa01eef18ffad38f74e8893b19",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "420bd2f31e",
+        "dragonide",
+        "cromatico"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_42f8fccac1_dragonide-gemma.png",
+      "stem": "dnd-tabletop-main_42f8fccac1_dragonide-gemma",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_42f8fccac1_dragonide-gemma.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_42f8fccac1_dragonide-gemma.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_42f8fccac1_dragonide-gemma.png",
+      "size_bytes": 337993,
+      "sha256": "42f8fccac18d0eb89bb5961e4cc328b02b0c2508f02e1bcf214d87a22010689d",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "42f8fccac1",
+        "dragonide",
+        "gemma"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_4568401020_genasi.png",
+      "stem": "dnd-tabletop-main_4568401020_genasi",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_4568401020_genasi.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_4568401020_genasi.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_4568401020_genasi.png",
+      "size_bytes": 335805,
+      "sha256": "4568401020524d3b72b96b2be71f6ce2148a51eb946fd21409d2c69730e49cc5",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "4568401020",
+        "genasi"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_45c1b021be_tabaxi.png",
+      "stem": "dnd-tabletop-main_45c1b021be_tabaxi",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_45c1b021be_tabaxi.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_45c1b021be_tabaxi.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_45c1b021be_tabaxi.png",
+      "size_bytes": 320022,
+      "sha256": "45c1b021be9e33a84a55f5c4d7fc2c854981fbca02045427d7e77e9368295f61",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "45c1b021be",
+        "tabaxi"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_4d726f22e9_zombie.png",
+      "stem": "dnd-tabletop-main_4d726f22e9_zombie",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_4d726f22e9_zombie.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_4d726f22e9_zombie.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_4d726f22e9_zombie.png",
+      "size_bytes": 307970,
+      "sha256": "4d726f22e9bbe6c7cf7f322a76c687479f275b174420fc2c9963af3954db2570",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "4d726f22e9",
+        "zombie"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_4e28e50cd2_vampiro.png",
+      "stem": "dnd-tabletop-main_4e28e50cd2_vampiro",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_4e28e50cd2_vampiro.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_4e28e50cd2_vampiro.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_4e28e50cd2_vampiro.png",
+      "size_bytes": 295947,
+      "sha256": "4e28e50cd29d7ec348d7eb4bf66f8d6acccbb703c15b4708da25deeea4c7a5c8",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "4e28e50cd2",
+        "vampiro"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_523f8edcd2_firbolg.png",
+      "stem": "dnd-tabletop-main_523f8edcd2_firbolg",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_523f8edcd2_firbolg.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_523f8edcd2_firbolg.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_523f8edcd2_firbolg.png",
+      "size_bytes": 324770,
+      "sha256": "523f8edcd2a1b9d2f31d23a147d091f0f38e5447be33ff75e8c0555658c58a69",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "523f8edcd2",
+        "firbolg"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_5648008894_ghoul.png",
+      "stem": "dnd-tabletop-main_5648008894_ghoul",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_5648008894_ghoul.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_5648008894_ghoul.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_5648008894_ghoul.png",
+      "size_bytes": 300574,
+      "sha256": "56480088944fd6c857ddd5b03a1696f6c35891b174445a63452e1cf697656fde",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "5648008894",
+        "ghoul"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_5830291f8c_aasimar.png",
+      "stem": "dnd-tabletop-main_5830291f8c_aasimar",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_5830291f8c_aasimar.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_5830291f8c_aasimar.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_5830291f8c_aasimar.png",
+      "size_bytes": 356868,
+      "sha256": "5830291f8c94c93e83b9c5e4e5548f62c8789f84af22162be17265ac312d98ba",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "5830291f8c",
+        "aasimar"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_58d02dfdc6_halfling.png",
+      "stem": "dnd-tabletop-main_58d02dfdc6_halfling",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_58d02dfdc6_halfling.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_58d02dfdc6_halfling.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_58d02dfdc6_halfling.png",
+      "size_bytes": 306476,
+      "sha256": "58d02dfdc6d9c7dd15b64c479754d17d5ec0fa7670d0dbc78e803ce158bb766b",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "58d02dfdc6",
+        "halfling"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_6b4c180ccc_guardia.png",
+      "stem": "dnd-tabletop-main_6b4c180ccc_guardia",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_6b4c180ccc_guardia.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_6b4c180ccc_guardia.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_6b4c180ccc_guardia.png",
+      "size_bytes": 304451,
+      "sha256": "6b4c180ccc6d1616cd5a0d4a01aedfd23556b1a1acbc8bdf81e2f47384fe938c",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "6b4c180ccc",
+        "guardia"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_72118cbb7e_mezzelfo.png",
+      "stem": "dnd-tabletop-main_72118cbb7e_mezzelfo",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_72118cbb7e_mezzelfo.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_72118cbb7e_mezzelfo.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_72118cbb7e_mezzelfo.png",
+      "size_bytes": 296607,
+      "sha256": "72118cbb7ed301eb9fecebf3b2b8efb1bb7204b667da0584b692f1f7e8208402",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "72118cbb7e",
+        "mezzelfo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_764026772f_goliath.png",
+      "stem": "dnd-tabletop-main_764026772f_goliath",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_764026772f_goliath.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_764026772f_goliath.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_764026772f_goliath.png",
+      "size_bytes": 334572,
+      "sha256": "764026772f90df002792dafa0100f01a3562c4578a933aebea427c58add0c1dd",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "764026772f",
+        "goliath"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_7820000fc7_troll.png",
+      "stem": "dnd-tabletop-main_7820000fc7_troll",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_7820000fc7_troll.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_7820000fc7_troll.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_7820000fc7_troll.png",
+      "size_bytes": 296327,
+      "sha256": "7820000fc723ebfecc8e9c4ab54fa265d25e0bf27fc96a28a7ba0c0313ce8fb1",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "7820000fc7",
+        "troll"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_7bc75ed91f_dragonide.png",
+      "stem": "dnd-tabletop-main_7bc75ed91f_dragonide",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_7bc75ed91f_dragonide.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_7bc75ed91f_dragonide.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_7bc75ed91f_dragonide.png",
+      "size_bytes": 334371,
+      "sha256": "7bc75ed91fc8ba209a7aca6225c79d694c30f301f2e744baf9e1d1f078c4469e",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "7bc75ed91f",
+        "dragonide"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_8015ede89e_warforged.png",
+      "stem": "dnd-tabletop-main_8015ede89e_warforged",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_8015ede89e_warforged.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_8015ede89e_warforged.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_8015ede89e_warforged.png",
+      "size_bytes": 318800,
+      "sha256": "8015ede89e679b87ec8da9923a78d84d4d2fe35fe08e63f59750d6826d590921",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "8015ede89e",
+        "warforged"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_867900c042_shifter.png",
+      "stem": "dnd-tabletop-main_867900c042_shifter",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_867900c042_shifter.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_867900c042_shifter.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_867900c042_shifter.png",
+      "size_bytes": 287705,
+      "sha256": "867900c04204a65edc5fb992496a92de060abb24968a4065dcc1e08283dccde6",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "867900c042",
+        "shifter"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_8a6f39acf6_cultista.png",
+      "stem": "dnd-tabletop-main_8a6f39acf6_cultista",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_8a6f39acf6_cultista.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_8a6f39acf6_cultista.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_8a6f39acf6_cultista.png",
+      "size_bytes": 287906,
+      "sha256": "8a6f39acf638f046090a8ddfdc91fd87aa00081ab243e3e4ee7cadb7ee72ae64",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "8a6f39acf6",
+        "cultista"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_8df01c9e73_pipistrello.png",
+      "stem": "dnd-tabletop-main_8df01c9e73_pipistrello",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_8df01c9e73_pipistrello.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_8df01c9e73_pipistrello.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_8df01c9e73_pipistrello.png",
+      "size_bytes": 291274,
+      "sha256": "8df01c9e737c1cc6e3eae8041248c48a9fe1bebf7734680cfdce46a9f52ce51a",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "8df01c9e73",
+        "pipistrello"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_937f02abc9_kalashtar.png",
+      "stem": "dnd-tabletop-main_937f02abc9_kalashtar",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_937f02abc9_kalashtar.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_937f02abc9_kalashtar.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_937f02abc9_kalashtar.png",
+      "size_bytes": 334799,
+      "sha256": "937f02abc95bf7e8aea769cd71ae5e423b854f30526f8a59ff4830b0eed7813a",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "937f02abc9",
+        "kalashtar"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_9f6aeaa709_goblin.png",
+      "stem": "dnd-tabletop-main_9f6aeaa709_goblin",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_9f6aeaa709_goblin.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_9f6aeaa709_goblin.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_9f6aeaa709_goblin.png",
+      "size_bytes": 303950,
+      "sha256": "9f6aeaa709ecddf2e08e0042a03d248104be27c67999c58f503e7ac261d1016c",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "9f6aeaa709",
+        "goblin"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_a7424148bf_elfo.png",
+      "stem": "dnd-tabletop-main_a7424148bf_elfo",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_a7424148bf_elfo.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_a7424148bf_elfo.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_a7424148bf_elfo.png",
+      "size_bytes": 309569,
+      "sha256": "a7424148bf5ba111d3155a923f6d826285bb5611d04ded81e2b242a0a7fa7330",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "a7424148bf",
+        "elfo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_aa1418abae_dragonide-metallico.png",
+      "stem": "dnd-tabletop-main_aa1418abae_dragonide-metallico",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_aa1418abae_dragonide-metallico.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_aa1418abae_dragonide-metallico.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_aa1418abae_dragonide-metallico.png",
+      "size_bytes": 324187,
+      "sha256": "aa1418abaeee1c3874117b5ffb571d5192c76561317f36583edc3d1da6b35768",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "aa1418abae",
+        "dragonide",
+        "metallico"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_ab0cae560a_kobold.png",
+      "stem": "dnd-tabletop-main_ab0cae560a_kobold",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_ab0cae560a_kobold.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_ab0cae560a_kobold.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_ab0cae560a_kobold.png",
+      "size_bytes": 323444,
+      "sha256": "ab0cae560a1e27caf720c4d4fced76039c0df0f3d63f089910376d06e33c4830",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "ab0cae560a",
+        "kobold"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_ac84a0c6b7_ombra.png",
+      "stem": "dnd-tabletop-main_ac84a0c6b7_ombra",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_ac84a0c6b7_ombra.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_ac84a0c6b7_ombra.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_ac84a0c6b7_ombra.png",
+      "size_bytes": 284316,
+      "sha256": "ac84a0c6b7b4c4fc85973adf97187f9a130701faa679003ee2936312ddf9f2a3",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "ac84a0c6b7",
+        "ombra"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_b0d672c7b3_nano.png",
+      "stem": "dnd-tabletop-main_b0d672c7b3_nano",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_b0d672c7b3_nano.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_b0d672c7b3_nano.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_b0d672c7b3_nano.png",
+      "size_bytes": 305870,
+      "sha256": "b0d672c7b301c7415e0392b9dc52bc03d80c656b40bacd106bb62424ee6e4efe",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "b0d672c7b3",
+        "nano"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_b5004817e8_goblin-pg.png",
+      "stem": "dnd-tabletop-main_b5004817e8_goblin-pg",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_b5004817e8_goblin-pg.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_b5004817e8_goblin-pg.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_b5004817e8_goblin-pg.png",
+      "size_bytes": 306257,
+      "sha256": "b5004817e83cfa436c46b8ed0b12fdb4a1196a3f423cc1718a18d1ad11a75b0d",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "b5004817e8",
+        "goblin",
+        "pg"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_b63e0f4073_corvo.png",
+      "stem": "dnd-tabletop-main_b63e0f4073_corvo",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_b63e0f4073_corvo.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_b63e0f4073_corvo.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_b63e0f4073_corvo.png",
+      "size_bytes": 292167,
+      "sha256": "b63e0f4073716dcdc10efb6ec6025aa421fd9ea474b433878caf62c340970ad7",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "b63e0f4073",
+        "corvo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_b9093a276b_tortle.png",
+      "stem": "dnd-tabletop-main_b9093a276b_tortle",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_b9093a276b_tortle.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_b9093a276b_tortle.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_b9093a276b_tortle.png",
+      "size_bytes": 312380,
+      "sha256": "b9093a276b7df00e57013893b9683dac65d7e5080d07db4238771fdfb29651ba",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "b9093a276b",
+        "tortle"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_bb06453fd8_mezzorco.png",
+      "stem": "dnd-tabletop-main_bb06453fd8_mezzorco",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_bb06453fd8_mezzorco.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_bb06453fd8_mezzorco.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_bb06453fd8_mezzorco.png",
+      "size_bytes": 312252,
+      "sha256": "bb06453fd88f3378ef81ca5d2e6c61366cfd0b8bc0396329514c279df45c7fa2",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "bb06453fd8",
+        "mezzorco"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_bb16ad7914_gnomo.png",
+      "stem": "dnd-tabletop-main_bb16ad7914_gnomo",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_bb16ad7914_gnomo.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_bb16ad7914_gnomo.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_bb16ad7914_gnomo.png",
+      "size_bytes": 326498,
+      "sha256": "bb16ad7914205f4494fd1d8d44c1e50d4b07d44ed840c801de3fd165043322f7",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "bb16ad7914",
+        "gnomo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_bc8fc38167_bandito.png",
+      "stem": "dnd-tabletop-main_bc8fc38167_bandito",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_bc8fc38167_bandito.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_bc8fc38167_bandito.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_bc8fc38167_bandito.png",
+      "size_bytes": 287310,
+      "sha256": "bc8fc38167bc5acc3457628796201efeb0ad6e01114282a683710ba646d1f329",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "bc8fc38167",
+        "bandito"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_c46c4a4ef4_umano.png",
+      "stem": "dnd-tabletop-main_c46c4a4ef4_umano",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_c46c4a4ef4_umano.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_c46c4a4ef4_umano.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_c46c4a4ef4_umano.png",
+      "size_bytes": 309788,
+      "sha256": "c46c4a4ef469c8ecc874043cd26ea08742b06fc696a51341578f7303362db939",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "c46c4a4ef4",
+        "umano"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_cb8c16934d_bugbear-pg.png",
+      "stem": "dnd-tabletop-main_cb8c16934d_bugbear-pg",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_cb8c16934d_bugbear-pg.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_cb8c16934d_bugbear-pg.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_cb8c16934d_bugbear-pg.png",
+      "size_bytes": 303904,
+      "sha256": "cb8c16934de13fb894f3b5e3c7357ce062dcad01ab48453c29bf4a950bfc517c",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "cb8c16934d",
+        "bugbear",
+        "pg"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_dc9d48b5e5_yuan-ti.png",
+      "stem": "dnd-tabletop-main_dc9d48b5e5_yuan-ti",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_dc9d48b5e5_yuan-ti.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_dc9d48b5e5_yuan-ti.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_dc9d48b5e5_yuan-ti.png",
+      "size_bytes": 305381,
+      "sha256": "dc9d48b5e505401ddb251656a6199a3f76c8f2ddbb20aa7a5b467adaa6af3b36",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "dc9d48b5e5",
+        "yuan",
+        "ti"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_e8e040b4e7_ragno-gigante.png",
+      "stem": "dnd-tabletop-main_e8e040b4e7_ragno-gigante",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_e8e040b4e7_ragno-gigante.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_e8e040b4e7_ragno-gigante.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_e8e040b4e7_ragno-gigante.png",
+      "size_bytes": 302546,
+      "sha256": "e8e040b4e73b84539b0a305d7a7d170efaac578ca9da0bfc341ff78002916cfc",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "e8e040b4e7",
+        "ragno",
+        "gigante"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_f1fd138fc3_changeling.png",
+      "stem": "dnd-tabletop-main_f1fd138fc3_changeling",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_f1fd138fc3_changeling.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_f1fd138fc3_changeling.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_f1fd138fc3_changeling.png",
+      "size_bytes": 316236,
+      "sha256": "f1fd138fc3782fc1e56422b4d5be645fa9d7730dc52a1df2366d85dffe0fbfe1",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "f1fd138fc3",
+        "changeling"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_fae5acf72c_githyanki.png",
+      "stem": "dnd-tabletop-main_fae5acf72c_githyanki",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_fae5acf72c_githyanki.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_fae5acf72c_githyanki.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_fae5acf72c_githyanki.png",
+      "size_bytes": 304895,
+      "sha256": "fae5acf72c1c2b35efdcacf23546ddcbaeb671e74f195f2f5bda89885de94333",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "fae5acf72c",
+        "githyanki"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_fb46cc11f0_orco.png",
+      "stem": "dnd-tabletop-main_fb46cc11f0_orco",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_fb46cc11f0_orco.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_fb46cc11f0_orco.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_fb46cc11f0_orco.png",
+      "size_bytes": 295660,
+      "sha256": "fb46cc11f043473897db0ea7cdc9523ea2fe5a1b7ad350e25620539ebc978c54",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "fb46cc11f0",
+        "orco"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd-tabletop-main_fbf1a45c06_aarakocra.png",
+      "stem": "dnd-tabletop-main_fbf1a45c06_aarakocra",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd-tabletop-main_fbf1a45c06_aarakocra.png",
+      "url": "assets/tokens/tokens 1/dnd-tabletop-main_fbf1a45c06_aarakocra.png",
+      "asset_relative_path": "tokens/tokens 1/dnd-tabletop-main_fbf1a45c06_aarakocra.png",
+      "size_bytes": 330125,
+      "sha256": "fbf1a45c066ab3a4f1cbc79c5cc78366d8c4e5ea970fd5999cb5852233f64b63",
+      "search_terms": [
+        "dnd",
+        "tabletop",
+        "fbf1a45c06",
+        "aarakocra"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_00153cf14f_kruthik_young.png",
+      "stem": "dnd5e-companion-main_00153cf14f_kruthik_young",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_00153cf14f_kruthik_young.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_00153cf14f_kruthik_young.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_00153cf14f_kruthik_young.png",
+      "size_bytes": 29314,
+      "sha256": "00153cf14f5c27b9e4af7f388c485c6f1d42d4c759ec9839859fbcb14c8cf38a",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "00153cf14f",
+        "kruthik",
+        "young"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_0098445cc0_cone_45ft_straight.png",
+      "stem": "dnd5e-companion-main_0098445cc0_cone_45ft_straight",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_0098445cc0_cone_45ft_straight.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_0098445cc0_cone_45ft_straight.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_0098445cc0_cone_45ft_straight.png",
+      "size_bytes": 517,
+      "sha256": "0098445cc018a8f66373087065a32c774829a532a6086caab6d8f2e2b6b18e41",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "0098445cc0",
+        "cone",
+        "45ft",
+        "straight"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_015394cfef_lizardfolk_shaman.png",
+      "stem": "dnd5e-companion-main_015394cfef_lizardfolk_shaman",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_015394cfef_lizardfolk_shaman.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_015394cfef_lizardfolk_shaman.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_015394cfef_lizardfolk_shaman.png",
+      "size_bytes": 53044,
+      "sha256": "015394cfef47d479ca864e0341bc9aff72ac8fd01c3103f11b876c78db28b331",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "015394cfef",
+        "lizardfolk",
+        "shaman"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_0172bae121_devourer.png",
+      "stem": "dnd5e-companion-main_0172bae121_devourer",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_0172bae121_devourer.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_0172bae121_devourer.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_0172bae121_devourer.png",
+      "size_bytes": 60801,
+      "sha256": "0172bae121217c17a802ff6db21bd09c094c7189ae5a1f7a9b0c1d680f04e7d5",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "0172bae121",
+        "devourer"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_021d48087b_summon_fey_tricksy_5ft.png",
+      "stem": "dnd5e-companion-main_021d48087b_summon_fey_tricksy_5ft",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_021d48087b_summon_fey_tricksy_5ft.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_021d48087b_summon_fey_tricksy_5ft.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_021d48087b_summon_fey_tricksy_5ft.png",
+      "size_bytes": 41925,
+      "sha256": "021d48087b79186e921700c8ac1bb9473293a28055f5d730bce0a2aedd3fe90c",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "021d48087b",
+        "summon",
+        "fey",
+        "tricksy",
+        "5ft"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_026b2a1c3a_elf_priest_female.png",
+      "stem": "dnd5e-companion-main_026b2a1c3a_elf_priest_female",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_026b2a1c3a_elf_priest_female.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_026b2a1c3a_elf_priest_female.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_026b2a1c3a_elf_priest_female.png",
+      "size_bytes": 36309,
+      "sha256": "026b2a1c3a750393b4af24fd97fff9a4c83b02276d3a11272b41f90c7be5706b",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "026b2a1c3a",
+        "elf",
+        "priest",
+        "female"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_0271756ed4_dwarf_cultist_fanatic_female.png",
+      "stem": "dnd5e-companion-main_0271756ed4_dwarf_cultist_fanatic_female",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_0271756ed4_dwarf_cultist_fanatic_female.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_0271756ed4_dwarf_cultist_fanatic_female.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_0271756ed4_dwarf_cultist_fanatic_female.png",
+      "size_bytes": 40110,
+      "sha256": "0271756ed4c65b6599627d277fee2c3dcc35e2e9dfa3f93f239ccc3f0b5416b9",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "0271756ed4",
+        "dwarf",
+        "cultist",
+        "fanatic",
+        "female"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_0286ce0723_elemental_earth_myrmidon.png",
+      "stem": "dnd5e-companion-main_0286ce0723_elemental_earth_myrmidon",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_0286ce0723_elemental_earth_myrmidon.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_0286ce0723_elemental_earth_myrmidon.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_0286ce0723_elemental_earth_myrmidon.png",
+      "size_bytes": 58046,
+      "sha256": "0286ce07235a87996dbf47a88aa53824e6670159246192884862c8e6d86f688a",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "0286ce0723",
+        "elemental",
+        "earth",
+        "myrmidon"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_031a7d45aa_summon_undead_putrid_5ft.png",
+      "stem": "dnd5e-companion-main_031a7d45aa_summon_undead_putrid_5ft",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_031a7d45aa_summon_undead_putrid_5ft.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_031a7d45aa_summon_undead_putrid_5ft.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_031a7d45aa_summon_undead_putrid_5ft.png",
+      "size_bytes": 54539,
+      "sha256": "031a7d45aa0afc9e96c6a7428783591f40948e272f07814a38c0e484af3210f2",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "031a7d45aa",
+        "summon",
+        "undead",
+        "putrid",
+        "5ft"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_03221602b2_clockwork_bronze_scout.png",
+      "stem": "dnd5e-companion-main_03221602b2_clockwork_bronze_scout",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_03221602b2_clockwork_bronze_scout.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_03221602b2_clockwork_bronze_scout.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_03221602b2_clockwork_bronze_scout.png",
+      "size_bytes": 36030,
+      "sha256": "03221602b2c40a1d388259c35e0ea14b92cf9de0dc48c0363265f173dbf83bdc",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "03221602b2",
+        "clockwork",
+        "bronze",
+        "scout"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_0340123eab_genie_dao_female.png",
+      "stem": "dnd5e-companion-main_0340123eab_genie_dao_female",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_0340123eab_genie_dao_female.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_0340123eab_genie_dao_female.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_0340123eab_genie_dao_female.png",
+      "size_bytes": 68313,
+      "sha256": "0340123eabb975a057eacafb671c3ed28321670fadf53b358c81c3c5844da6c8",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "0340123eab",
+        "genie",
+        "dao",
+        "female"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_03449e5df9_elf_berserker_male.png",
+      "stem": "dnd5e-companion-main_03449e5df9_elf_berserker_male",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_03449e5df9_elf_berserker_male.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_03449e5df9_elf_berserker_male.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_03449e5df9_elf_berserker_male.png",
+      "size_bytes": 47656,
+      "sha256": "03449e5df940a75ba871b7d9ec3a6989fbbc8aebc0c9f83c878b2df9d3aae1cd",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "03449e5df9",
+        "elf",
+        "berserker",
+        "male"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_0360f7562d_svirfneblin_female.png",
+      "stem": "dnd5e-companion-main_0360f7562d_svirfneblin_female",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_0360f7562d_svirfneblin_female.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_0360f7562d_svirfneblin_female.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_0360f7562d_svirfneblin_female.png",
+      "size_bytes": 31639,
+      "sha256": "0360f7562db1f883beca0698e3834233e1a5a6bbee143c8da025fac739506a32",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "0360f7562d",
+        "svirfneblin",
+        "female"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_044378b360_sea_spawn.png",
+      "stem": "dnd5e-companion-main_044378b360_sea_spawn",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_044378b360_sea_spawn.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_044378b360_sea_spawn.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_044378b360_sea_spawn.png",
+      "size_bytes": 39669,
+      "sha256": "044378b36062d4064fcf30f0acfbb64d5b3a6d01231475eec58c47179ec50074",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "044378b360",
+        "sea",
+        "spawn"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_04757bbcc2_devil_nupperibo.png",
+      "stem": "dnd5e-companion-main_04757bbcc2_devil_nupperibo",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_04757bbcc2_devil_nupperibo.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_04757bbcc2_devil_nupperibo.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_04757bbcc2_devil_nupperibo.png",
+      "size_bytes": 46692,
+      "sha256": "04757bbcc2602a14b1d7cdd9b87678cd26754adf38191f0bdb0eff807a6d4dea",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "04757bbcc2",
+        "devil",
+        "nupperibo"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "dnd5e-companion-main_049f95e8e8_kobold_winged.png",
+      "stem": "dnd5e-companion-main_049f95e8e8_kobold_winged",
+      "extension": ".png",
+      "type": "token",
+      "folder": "assets/tokens/tokens 1",
+      "relative_path": "assets/tokens/tokens 1/dnd5e-companion-main_049f95e8e8_kobold_winged.png",
+      "url": "assets/tokens/tokens 1/dnd5e-companion-main_049f95e8e8_kobold_winged.png",
+      "asset_relative_path": "tokens/tokens 1/dnd5e-companion-main_049f95e8e8_kobold_winged.png",
+      "size_bytes": 39432,
+      "sha256": "049f95e8e85a57dc5885f7f3bff9e9d44c091859c8623d818568a84f6fd0fa8c",
+      "search_terms": [
+        "dnd5e",
+        "companion",
+        "049f95e8e8",
+        "kobold",
+        "winged"
+      ],
+      "mime_type": "image/png"
+    }
+  ]
+}

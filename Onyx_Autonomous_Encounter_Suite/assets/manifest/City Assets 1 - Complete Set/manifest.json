@@ -1,0 +1,34 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/City Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 1,
+  "recursive_file_count": 1,
+  "recursive_total_bytes": 1082,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 1
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "City_Assets_1_Complete_Set.json",
+      "stem": "City_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/City Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/City Assets 1 - Complete Set/City_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/City Assets 1 - Complete Set/City_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/City Assets 1 - Complete Set/City_Assets_1_Complete_Set.json",
+      "size_bytes": 1082,
+      "sha256": "5d086cb9d02cd0509c380e37c47ff199186ed57d93c1f4c3b7be3152b4c17d89",
+      "search_terms": [
+        "city"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

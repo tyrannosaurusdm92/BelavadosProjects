@@ -1,0 +1,106 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Swamp Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 140752,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Swamp_Assets_1_Complete_Set.json",
+      "stem": "Swamp_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Swamp Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set.json",
+      "size_bytes": 5783,
+      "sha256": "58b1ae39df66dc75bd262468eeff8c9b0f0c34bb2d0a6907aa327aa6792805fd",
+      "search_terms": [
+        "swamp"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Swamp_Assets_1_Complete_Set_Group_01.json",
+      "stem": "Swamp_Assets_1_Complete_Set_Group_01",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Swamp Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_01.json",
+      "url": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_01.json",
+      "asset_relative_path": "manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_01.json",
+      "size_bytes": 26506,
+      "sha256": "5b69ac25bc3eb87bea9848c14fac37a2244db0e8decf063b3825802dd3c52bc5",
+      "search_terms": [
+        "swamp",
+        "group",
+        "01"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Swamp_Assets_1_Complete_Set_Group_02.json",
+      "stem": "Swamp_Assets_1_Complete_Set_Group_02",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Swamp Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_02.json",
+      "url": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_02.json",
+      "asset_relative_path": "manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_02.json",
+      "size_bytes": 52258,
+      "sha256": "5dbb266c60e1744839cbf8e188d0b643cf8d064915f51e5e9b736228dcd9a855",
+      "search_terms": [
+        "swamp",
+        "group",
+        "02"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Swamp_Assets_1_Complete_Set_Group_03.json",
+      "stem": "Swamp_Assets_1_Complete_Set_Group_03",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Swamp Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_03.json",
+      "url": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_03.json",
+      "asset_relative_path": "manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_03.json",
+      "size_bytes": 11334,
+      "sha256": "a267d95fab60c165529d4891653edebd002867d97d9f168d893c5fe2e66ce435",
+      "search_terms": [
+        "swamp",
+        "group",
+        "03"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Swamp_Assets_1_Complete_Set_Group_04.json",
+      "stem": "Swamp_Assets_1_Complete_Set_Group_04",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Swamp Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_04.json",
+      "url": "assets/manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_04.json",
+      "asset_relative_path": "manifest/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_04.json",
+      "size_bytes": 44871,
+      "sha256": "6f41385fcebfcf9b570bdaf8ff2651bfe9fc874a535aa76eeae57fa68701e42f",
+      "search_terms": [
+        "swamp",
+        "group",
+        "04"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

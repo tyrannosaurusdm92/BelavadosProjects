@@ -1,0 +1,67 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/River Assets 1 - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 45522,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "No_Shadow.json",
+      "stem": "No_Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/River Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/River Assets 1 - Complete Set/No_Shadow.json",
+      "url": "assets/manifest/River Assets 1 - Complete Set/No_Shadow.json",
+      "asset_relative_path": "manifest/River Assets 1 - Complete Set/No_Shadow.json",
+      "size_bytes": 28056,
+      "sha256": "ab64308bab9589c1c2fc0e4623a8b4ab0c36bbd95c098c4ab6fce4784e2e0bee",
+      "search_terms": [
+        "no",
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "River_Assets_1_Complete_Set.json",
+      "stem": "River_Assets_1_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/River Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/River Assets 1 - Complete Set/River_Assets_1_Complete_Set.json",
+      "url": "assets/manifest/River Assets 1 - Complete Set/River_Assets_1_Complete_Set.json",
+      "asset_relative_path": "manifest/River Assets 1 - Complete Set/River_Assets_1_Complete_Set.json",
+      "size_bytes": 9238,
+      "sha256": "851cc403b18379497e9c67a9f6996158beb425c68dc8b3f87259df05e8e0feee",
+      "search_terms": [
+        "river"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Shadow.json",
+      "stem": "Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/River Assets 1 - Complete Set",
+      "relative_path": "assets/manifest/River Assets 1 - Complete Set/Shadow.json",
+      "url": "assets/manifest/River Assets 1 - Complete Set/Shadow.json",
+      "asset_relative_path": "manifest/River Assets 1 - Complete Set/Shadow.json",
+      "size_bytes": 8228,
+      "sha256": "64f9adfb67bf2149d9e3a18bef07915e1d78108710e306784dba74e9b746764c",
+      "search_terms": [
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

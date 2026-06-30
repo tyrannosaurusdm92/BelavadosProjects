@@ -1,0 +1,108 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Tokens",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 5,
+  "recursive_file_count": 5,
+  "recursive_total_bytes": 5622963,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 5
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Tokens_Group_01.json",
+      "stem": "Tokens_Group_01",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tokens",
+      "relative_path": "assets/manifest/Tokens/Tokens_Group_01.json",
+      "url": "assets/manifest/Tokens/Tokens_Group_01.json",
+      "asset_relative_path": "manifest/Tokens/Tokens_Group_01.json",
+      "size_bytes": 364561,
+      "sha256": "d644829d3818579749cd5368b79717ff54603aaab2cafc4c41de9e2dd65f5f1e",
+      "search_terms": [
+        "tokens",
+        "group",
+        "01"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tokens_Group_02.json",
+      "stem": "Tokens_Group_02",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tokens",
+      "relative_path": "assets/manifest/Tokens/Tokens_Group_02.json",
+      "url": "assets/manifest/Tokens/Tokens_Group_02.json",
+      "asset_relative_path": "manifest/Tokens/Tokens_Group_02.json",
+      "size_bytes": 1197623,
+      "sha256": "d7a96f9c32dd685635586f99a641751c291908f4bcaa3784062da9354499e207",
+      "search_terms": [
+        "tokens",
+        "group",
+        "02"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tokens_Group_03.json",
+      "stem": "Tokens_Group_03",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tokens",
+      "relative_path": "assets/manifest/Tokens/Tokens_Group_03.json",
+      "url": "assets/manifest/Tokens/Tokens_Group_03.json",
+      "asset_relative_path": "manifest/Tokens/Tokens_Group_03.json",
+      "size_bytes": 1285104,
+      "sha256": "97806420a2d5361d45b70b753b74e6ae181572489c3b54774dd20c274098ebe8",
+      "search_terms": [
+        "tokens",
+        "group",
+        "03"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tokens_Group_04.json",
+      "stem": "Tokens_Group_04",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tokens",
+      "relative_path": "assets/manifest/Tokens/Tokens_Group_04.json",
+      "url": "assets/manifest/Tokens/Tokens_Group_04.json",
+      "asset_relative_path": "manifest/Tokens/Tokens_Group_04.json",
+      "size_bytes": 1069442,
+      "sha256": "eee8027443f1dba7524540418eb0cc277a95ba066454cf33a43d6034a2777947",
+      "search_terms": [
+        "tokens",
+        "group",
+        "04"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Tokens_Group_05.json",
+      "stem": "Tokens_Group_05",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Tokens",
+      "relative_path": "assets/manifest/Tokens/Tokens_Group_05.json",
+      "url": "assets/manifest/Tokens/Tokens_Group_05.json",
+      "asset_relative_path": "manifest/Tokens/Tokens_Group_05.json",
+      "size_bytes": 1706233,
+      "sha256": "f46900e3072d658c613ec2edc20b006233cfc3a96ebdddb4de3ae66c18b99f50",
+      "search_terms": [
+        "tokens",
+        "group",
+        "05"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

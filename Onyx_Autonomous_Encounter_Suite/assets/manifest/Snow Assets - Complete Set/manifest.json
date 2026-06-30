@@ -1,0 +1,82 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Snow Assets - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 4,
+  "recursive_file_count": 4,
+  "recursive_total_bytes": 94725,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 4
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Foilage.json",
+      "stem": "Foilage",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Snow Assets - Complete Set",
+      "relative_path": "assets/manifest/Snow Assets - Complete Set/Foilage.json",
+      "url": "assets/manifest/Snow Assets - Complete Set/Foilage.json",
+      "asset_relative_path": "manifest/Snow Assets - Complete Set/Foilage.json",
+      "size_bytes": 31944,
+      "sha256": "c41296defe7da9433ee9031d4abd7e5c4768f1c145f49d199b8d12c3170c2bdf",
+      "search_terms": [
+        "foilage"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Misc.json",
+      "stem": "Misc",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Snow Assets - Complete Set",
+      "relative_path": "assets/manifest/Snow Assets - Complete Set/Misc.json",
+      "url": "assets/manifest/Snow Assets - Complete Set/Misc.json",
+      "asset_relative_path": "manifest/Snow Assets - Complete Set/Misc.json",
+      "size_bytes": 42107,
+      "sha256": "1ec9a76177a65a9c685496081c63bb488fe946aae3390123d9f79056630a60d2",
+      "search_terms": [
+        "misc"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Roads.json",
+      "stem": "Roads",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Snow Assets - Complete Set",
+      "relative_path": "assets/manifest/Snow Assets - Complete Set/Roads.json",
+      "url": "assets/manifest/Snow Assets - Complete Set/Roads.json",
+      "asset_relative_path": "manifest/Snow Assets - Complete Set/Roads.json",
+      "size_bytes": 12604,
+      "sha256": "1f0096d12288ea0e4b21e333654e868903568edcad02d44fea0e35f3f9abeac7",
+      "search_terms": [
+        "roads"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Snow_Assets_Complete_Set.json",
+      "stem": "Snow_Assets_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Snow Assets - Complete Set",
+      "relative_path": "assets/manifest/Snow Assets - Complete Set/Snow_Assets_Complete_Set.json",
+      "url": "assets/manifest/Snow Assets - Complete Set/Snow_Assets_Complete_Set.json",
+      "asset_relative_path": "manifest/Snow Assets - Complete Set/Snow_Assets_Complete_Set.json",
+      "size_bytes": 8070,
+      "sha256": "f0115a406078f00849d5ec27bc420aeb46a3a335c24e89bcd277b7369388798c",
+      "search_terms": [
+        "snow"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

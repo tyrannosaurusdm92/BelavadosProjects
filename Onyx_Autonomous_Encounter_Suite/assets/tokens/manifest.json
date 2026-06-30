@@ -1,0 +1,123 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/tokens",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 0,
+  "recursive_file_count": 2051,
+  "recursive_total_bytes": 94629277,
+  "type_counts_recursive": {
+    "token": 2051
+  },
+  "subfolders": [
+    {
+      "name": "tokens 1",
+      "relative_path": "assets/tokens/tokens 1",
+      "manifest": "assets/tokens/tokens 1/manifest.json"
+    },
+    {
+      "name": "tokens 10",
+      "relative_path": "assets/tokens/tokens 10",
+      "manifest": "assets/tokens/tokens 10/manifest.json"
+    },
+    {
+      "name": "tokens 11",
+      "relative_path": "assets/tokens/tokens 11",
+      "manifest": "assets/tokens/tokens 11/manifest.json"
+    },
+    {
+      "name": "tokens 12",
+      "relative_path": "assets/tokens/tokens 12",
+      "manifest": "assets/tokens/tokens 12/manifest.json"
+    },
+    {
+      "name": "tokens 13",
+      "relative_path": "assets/tokens/tokens 13",
+      "manifest": "assets/tokens/tokens 13/manifest.json"
+    },
+    {
+      "name": "tokens 14",
+      "relative_path": "assets/tokens/tokens 14",
+      "manifest": "assets/tokens/tokens 14/manifest.json"
+    },
+    {
+      "name": "tokens 15",
+      "relative_path": "assets/tokens/tokens 15",
+      "manifest": "assets/tokens/tokens 15/manifest.json"
+    },
+    {
+      "name": "tokens 16",
+      "relative_path": "assets/tokens/tokens 16",
+      "manifest": "assets/tokens/tokens 16/manifest.json"
+    },
+    {
+      "name": "tokens 17",
+      "relative_path": "assets/tokens/tokens 17",
+      "manifest": "assets/tokens/tokens 17/manifest.json"
+    },
+    {
+      "name": "tokens 18",
+      "relative_path": "assets/tokens/tokens 18",
+      "manifest": "assets/tokens/tokens 18/manifest.json"
+    },
+    {
+      "name": "tokens 19",
+      "relative_path": "assets/tokens/tokens 19",
+      "manifest": "assets/tokens/tokens 19/manifest.json"
+    },
+    {
+      "name": "tokens 2",
+      "relative_path": "assets/tokens/tokens 2",
+      "manifest": "assets/tokens/tokens 2/manifest.json"
+    },
+    {
+      "name": "tokens 20",
+      "relative_path": "assets/tokens/tokens 20",
+      "manifest": "assets/tokens/tokens 20/manifest.json"
+    },
+    {
+      "name": "tokens 21",
+      "relative_path": "assets/tokens/tokens 21",
+      "manifest": "assets/tokens/tokens 21/manifest.json"
+    },
+    {
+      "name": "tokens 3",
+      "relative_path": "assets/tokens/tokens 3",
+      "manifest": "assets/tokens/tokens 3/manifest.json"
+    },
+    {
+      "name": "tokens 4",
+      "relative_path": "assets/tokens/tokens 4",
+      "manifest": "assets/tokens/tokens 4/manifest.json"
+    },
+    {
+      "name": "tokens 5",
+      "relative_path": "assets/tokens/tokens 5",
+      "manifest": "assets/tokens/tokens 5/manifest.json"
+    },
+    {
+      "name": "tokens 6",
+      "relative_path": "assets/tokens/tokens 6",
+      "manifest": "assets/tokens/tokens 6/manifest.json"
+    },
+    {
+      "name": "tokens 7",
+      "relative_path": "assets/tokens/tokens 7",
+      "manifest": "assets/tokens/tokens 7/manifest.json"
+    },
+    {
+      "name": "tokens 8",
+      "relative_path": "assets/tokens/tokens 8",
+      "manifest": "assets/tokens/tokens 8/manifest.json"
+    },
+    {
+      "name": "tokens 9",
+      "relative_path": "assets/tokens/tokens 9",
+      "manifest": "assets/tokens/tokens 9/manifest.json"
+    }
+  ],
+  "files": []
+}

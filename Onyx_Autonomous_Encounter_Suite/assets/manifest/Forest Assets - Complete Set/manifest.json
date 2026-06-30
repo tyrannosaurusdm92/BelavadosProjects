@@ -1,0 +1,67 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/manifest/Forest Assets - Complete Set",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 3,
+  "recursive_file_count": 3,
+  "recursive_total_bytes": 206858,
+  "type_counts_recursive": {
+    "json_manifest_or_data": 3
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Forest_Assets_Complete_Set.json",
+      "stem": "Forest_Assets_Complete_Set",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Forest Assets - Complete Set",
+      "relative_path": "assets/manifest/Forest Assets - Complete Set/Forest_Assets_Complete_Set.json",
+      "url": "assets/manifest/Forest Assets - Complete Set/Forest_Assets_Complete_Set.json",
+      "asset_relative_path": "manifest/Forest Assets - Complete Set/Forest_Assets_Complete_Set.json",
+      "size_bytes": 9173,
+      "sha256": "13afc1571c4a6ec3e52103424a981be68e2fcfad1eab237224e844ee4f608851",
+      "search_terms": [
+        "forest"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "No_Shadow.json",
+      "stem": "No_Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Forest Assets - Complete Set",
+      "relative_path": "assets/manifest/Forest Assets - Complete Set/No_Shadow.json",
+      "url": "assets/manifest/Forest Assets - Complete Set/No_Shadow.json",
+      "asset_relative_path": "manifest/Forest Assets - Complete Set/No_Shadow.json",
+      "size_bytes": 100045,
+      "sha256": "b7a79b66dccfff299a4d4beb54340065dc78555a379675a03fc503590371df2d",
+      "search_terms": [
+        "no",
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    },
+    {
+      "name": "Shadow.json",
+      "stem": "Shadow",
+      "extension": ".json",
+      "type": "json_manifest_or_data",
+      "folder": "assets/manifest/Forest Assets - Complete Set",
+      "relative_path": "assets/manifest/Forest Assets - Complete Set/Shadow.json",
+      "url": "assets/manifest/Forest Assets - Complete Set/Shadow.json",
+      "asset_relative_path": "manifest/Forest Assets - Complete Set/Shadow.json",
+      "size_bytes": 97640,
+      "sha256": "92c3c54c04c95354e952d5e1b1f14e4609296a38846871bcb51fb54c89a3aa34",
+      "search_terms": [
+        "shadow"
+      ],
+      "mime_type": "application/json"
+    }
+  ]
+}

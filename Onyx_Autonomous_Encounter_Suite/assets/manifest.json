@@ -1,0 +1,90 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 0,
+  "recursive_file_count": 4535,
+  "recursive_total_bytes": 238971531,
+  "type_counts_recursive": {
+    "effect_or_mood": 618,
+    "image": 1183,
+    "item_or_object": 481,
+    "json_manifest_or_data": 103,
+    "map_or_grid": 71,
+    "other": 2,
+    "sound_or_audio": 12,
+    "token": 2065
+  },
+  "subfolders": [
+    {
+      "name": "aoe",
+      "relative_path": "assets/aoe",
+      "manifest": "assets/aoe/manifest.json"
+    },
+    {
+      "name": "death_effects",
+      "relative_path": "assets/death_effects",
+      "manifest": "assets/death_effects/manifest.json"
+    },
+    {
+      "name": "dice_audio",
+      "relative_path": "assets/dice_audio",
+      "manifest": "assets/dice_audio/manifest.json"
+    },
+    {
+      "name": "dice_tokens",
+      "relative_path": "assets/dice_tokens",
+      "manifest": "assets/dice_tokens/manifest.json"
+    },
+    {
+      "name": "fx",
+      "relative_path": "assets/fx",
+      "manifest": "assets/fx/manifest.json"
+    },
+    {
+      "name": "grids",
+      "relative_path": "assets/grids",
+      "manifest": "assets/grids/manifest.json"
+    },
+    {
+      "name": "items",
+      "relative_path": "assets/items",
+      "manifest": "assets/items/manifest.json"
+    },
+    {
+      "name": "manifest",
+      "relative_path": "assets/manifest",
+      "manifest": "assets/manifest/manifest.json"
+    },
+    {
+      "name": "maps",
+      "relative_path": "assets/maps",
+      "manifest": "assets/maps/manifest.json"
+    },
+    {
+      "name": "media",
+      "relative_path": "assets/media",
+      "manifest": "assets/media/manifest.json"
+    },
+    {
+      "name": "onyx_moods",
+      "relative_path": "assets/onyx_moods",
+      "manifest": "assets/onyx_moods/manifest.json"
+    },
+    {
+      "name": "sounds",
+      "relative_path": "assets/sounds",
+      "manifest": "assets/sounds/manifest.json"
+    },
+    {
+      "name": "tokens",
+      "relative_path": "assets/tokens",
+      "manifest": "assets/tokens/manifest.json"
+    }
+  ],
+  "files": []
+}

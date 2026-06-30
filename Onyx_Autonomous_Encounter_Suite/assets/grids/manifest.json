@@ -1,0 +1,126 @@
+{
+  "schema": "belavados.onyx.asset_folder_manifest.v1",
+  "generated_at": "2026-06-30T20:59:32+00:00",
+  "folder": "assets/grids",
+  "asset_root": "assets",
+  "asset_delivery": "external_reference_only_assets_not_included_in_this_returned_zip",
+  "runtime_rule": "The files listed here are expected to already exist at these relative assets/ paths in GitHub/local deployment. This package intentionally includes only JSON manifests under assets/.",
+  "rules_file": "assets/rules.json",
+  "direct_file_count": 6,
+  "recursive_file_count": 6,
+  "recursive_total_bytes": 371496,
+  "type_counts_recursive": {
+    "map_or_grid": 6
+  },
+  "subfolders": [],
+  "files": [
+    {
+      "name": "Grid_(17x22).png",
+      "stem": "Grid_(17x22)",
+      "extension": ".png",
+      "type": "map_or_grid",
+      "folder": "assets/grids",
+      "relative_path": "assets/grids/Grid_(17x22).png",
+      "url": "assets/grids/Grid_(17x22).png",
+      "asset_relative_path": "grids/Grid_(17x22).png",
+      "size_bytes": 146914,
+      "sha256": "5dd17524ba7b44a7ff667bafbb095686eb4c8eaa6693d5d629ab3116c3b011ae",
+      "search_terms": [
+        "grid",
+        "17x22"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Grid_(22x17).png",
+      "stem": "Grid_(22x17)",
+      "extension": ".png",
+      "type": "map_or_grid",
+      "folder": "assets/grids",
+      "relative_path": "assets/grids/Grid_(22x17).png",
+      "url": "assets/grids/Grid_(22x17).png",
+      "asset_relative_path": "grids/Grid_(22x17).png",
+      "size_bytes": 44658,
+      "sha256": "a6ffd06cafcdfc24148a37b708c440eaca1aa26d5f3e566a2f8629b6c3b42e14",
+      "search_terms": [
+        "grid",
+        "22x17"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Grid_(8.5x11).png",
+      "stem": "Grid_(8.5x11)",
+      "extension": ".png",
+      "type": "map_or_grid",
+      "folder": "assets/grids",
+      "relative_path": "assets/grids/Grid_(8.5x11).png",
+      "url": "assets/grids/Grid_(8.5x11).png",
+      "asset_relative_path": "grids/Grid_(8.5x11).png",
+      "size_bytes": 56517,
+      "sha256": "38d5098dd4033bb16c9eb23bdb20126a381a9821bbfa87c13f370f1f8c690ca7",
+      "search_terms": [
+        "grid",
+        "5x11"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Seamless_Grid_Pattern_(1x1).png",
+      "stem": "Seamless_Grid_Pattern_(1x1)",
+      "extension": ".png",
+      "type": "map_or_grid",
+      "folder": "assets/grids",
+      "relative_path": "assets/grids/Seamless_Grid_Pattern_(1x1).png",
+      "url": "assets/grids/Seamless_Grid_Pattern_(1x1).png",
+      "asset_relative_path": "grids/Seamless_Grid_Pattern_(1x1).png",
+      "size_bytes": 13744,
+      "sha256": "5d49bfc34b268df76e33a0c9483dfb305b8f00195c8c26b0be350906e1f28b13",
+      "search_terms": [
+        "seamless",
+        "grid",
+        "pattern",
+        "1x1"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Seamless_Grid_Pattern_(2x2).png",
+      "stem": "Seamless_Grid_Pattern_(2x2)",
+      "extension": ".png",
+      "type": "map_or_grid",
+      "folder": "assets/grids",
+      "relative_path": "assets/grids/Seamless_Grid_Pattern_(2x2).png",
+      "url": "assets/grids/Seamless_Grid_Pattern_(2x2).png",
+      "asset_relative_path": "grids/Seamless_Grid_Pattern_(2x2).png",
+      "size_bytes": 32548,
+      "sha256": "fe7d53714daa410d686dbb13f790a8b060d9d468084071cdc724bbecaff16293",
+      "search_terms": [
+        "seamless",
+        "grid",
+        "pattern",
+        "2x2"
+      ],
+      "mime_type": "image/png"
+    },
+    {
+      "name": "Seamless_Grid_Pattern_(3x3).png",
+      "stem": "Seamless_Grid_Pattern_(3x3)",
+      "extension": ".png",
+      "type": "map_or_grid",
+      "folder": "assets/grids",
+      "relative_path": "assets/grids/Seamless_Grid_Pattern_(3x3).png",
+      "url": "assets/grids/Seamless_Grid_Pattern_(3x3).png",
+      "asset_relative_path": "grids/Seamless_Grid_Pattern_(3x3).png",
+      "size_bytes": 77115,
+      "sha256": "3712dcec4254204d084689f2859310034cf0490f96e79223edfc9bf786a8ca54",
+      "search_terms": [
+        "seamless",
+        "grid",
+        "pattern",
+        "3x3"
+      ],
+      "mime_type": "image/png"
+    }
+  ]
+}
