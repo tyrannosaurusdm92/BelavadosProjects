@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>encounters_minigame</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="css/encounters_minigame.css" rel="stylesheet"/></head>
+<body>
+<!-- MERGE NOTE: Onyx index from encounters_minigame.html was used as logic/source reference; visual UI is preserved from roleplaying_board, with Onyx CSS stored under scoped encounter CSS (not globally loaded) but not loaded by default. Backend locked: https://script.google.com/macros/s/AKfycbwK-F1BfXbkiVkQXFA0Z1acKxFJgeGU6zckChEmSc8ANqLA1mbqUOWSf6_H1CGFtwW7WA/exec. -->
+
+<main class="dicebot-app-layout">
+<aside aria-label="Character and roll navigation" class="demo-sheet character-sheet dnd-character-sheet dicebot-side-nav">
+<h1>Sheet + Dice Setup</h1>
+<p class="nav-note">Left side rail: character/player stats, weapons, spells, and sheet data stay here. Dice sound and appearance moved to the right rail. Bot tools live in the movable module.</p>
+<details open="">
+<summary>Character</summary>
+<div class="side-grid">
+<label for="characterName">Name<input id="characterName" name="characterName" value="Ari Vey"/></label>
+<label for="characterClass">Class<input id="characterClass" name="characterClass" value="Monk 5 / Wizard 3"/></label>
+<label for="profBonus">Proficiency<input id="profBonus" name="profBonus" value="+3"/></label>
+<label for="initiative">Initiative<input id="initiative" name="initiative" value="+4"/></label>
+</div>
+</details>
+<details data-dicebot-ignore="" open="">
+<summary>Dice Styles + Roll Audio</summary>
+<p class="nav-note tiny">Choose one dice set and one roll sound. The dropdown selections apply to the next roll immediately; caches were removed.</p>
+<label for="diceStyleSelect">Dice set dropdown
+        <select aria-label="Choose dice visual set" data-dice-style-select="" id="diceStyleSelect">
+<option value="plain-ivory">01. Plain Ivory — plain satin ivory with charcoal ink</option>
+<option value="plain-onyx">02. Plain Onyx — plain black onyx with white ink</option>
+<option value="plain-crimson-gold">03. Plain Crimson Gold — simple red body with gold numerals</option>
+<option value="royal-red-gold">04. Royal Red Gold — deep royal red with gold engraved trim</option>
+<option value="sapphire-silver">05. Sapphire Silver — sapphire blue with silver inlay</option>
+<option value="emerald-copper">06. Emerald Copper — emerald enamel with copper edging</option>
+<option value="amethyst-brass">07. Amethyst Brass — purple amethyst with antique brass numbers</option>
+<option value="obsidian-ruby">08. Obsidian Ruby — black obsidian with ruby cuts</option>
+<option value="moonstone-blue-silver">09. Moonstone Blue Silver — opalescent pale blue with silver</option>
+<option value="jade-gold">10. Jade Gold — jade gemstone with gold numerals</option>
+<option value="black-gold-metal">11. Black Gold Metal — black metal with gold bevels</option>
+<option value="silver-ancient">12. Silver Ancient — ancient brushed silver with dark engraved numbers</option>
+<option value="purple-metal-silver">13. Purple Metal Silver — purple metal with silver runic edges</option>
+<option value="bronze-dragon-scale">14. Bronze Dragon Scale — bronze dragon-scale texture</option>
+<option value="red-dragon-scale-gold">15. Red Dragon Scale Gold — red dragon scales with gold numbers</option>
+<option value="blue-dragon-scale-silver">16. Blue Dragon Scale Silver — blue dragon scales with silver numerals</option>
+<option value="storm-galaxy-gold">17. Storm Galaxy Gold — dark galaxy storm with gold ink</option>
+<option value="nebula-night-silver">18. Nebula Night Silver — midnight nebula with silver numbers</option>
+<option value="aurora-glass">19. Aurora Glass — aurora translucent glass</option>
+<option value="ocean-swirl-gold">20. Ocean Swirl Gold — ocean blue and white swirl acrylic</option>
+<option value="blue-white-acrylic-gold">21. Blue White Acrylic Gold — blue-white acrylic with gold font</option>
+<option value="pink-flower-resin">22. Pink Flower Resin — pink floral resin look</option>
+<option value="lemon-honey-resin">23. Lemon Honey Resin — transparent lemon honey resin</option>
+<option value="arctic-ice-cyan">24. Arctic Ice Cyan — icy translucent cyan with white frost</option>
+<option value="dark-ice-silver">25. Dark Ice Silver — dark ice blue with silver</option>
+<option value="forest-moss-copper">26. Forest Moss Copper — deep moss gemstone with copper</option>
+<option value="red-green-gold-swirl">27. Red Green Gold Swirl — red green gold marbled swirl</option>
+<option value="teal-wizard-silver">28. Teal Wizard Silver — teal wizard sharp-edge style</option>
+<option value="warlock-violet-black">29. Warlock Violet Black — violet warlock pastel over black</option>
+<option value="paladin-white-gold">30. Paladin White Gold — white paladin enamel with gold</option>
+<option value="dwarf-green-glass">31. Dwarf Green Glass — dwarf-cut green glass</option>
+<option value="african-jade">32. African Jade — deep jade stone with gold marks</option>
+<option value="saphrium-glass">33. Saphrium Glass — bright aqua blue glass</option>
+<option value="tranquility-polyhedral">34. Tranquility Polyhedral — soft lavender aqua tranquility resin</option>
+<option value="liquid-core-galaxy">35. Liquid Core Galaxy — liquid-core galaxy illusion</option>
+<option value="glitter-rainbow">36. Glitter Rainbow — rainbow glitter dice</option>
+<option value="scorched-rainbow">37. Scorched Rainbow — scorched rainbow metal</option>
+<option value="hollow-purple-neon">38. Hollow Purple Neon — hollow purple neon inlay</option>
+<option value="gothic-mystic-starhorn">39. Gothic Mystic Starhorn — gothic black cyan starhorn</option>
+<option value="norse-draugr-iron">40. Norse Draugr Iron — draugr iron with aged runes</option>
+<option value="queen-treasure-blue-gold">41. Queen Treasure Blue Gold — royal treasure blue with gold filigree</option>
+<option value="arcane-gold-blue">42. Arcane Gold Blue — arcane gold and blue layered metal</option>
+<option value="ancient-bone-ink">43. Ancient Bone Ink — bone-white dice with dark ink carvings</option>
+<option value="paper-parchment-sepia">44. Paper Parchment Sepia — paper parchment with sepia numerals</option>
+<option value="candy-opal-pastel">45. Candy Opal Pastel — pink and cyan candy opal</option>
+<option value="coral-rose-gold">46. Coral Rose Gold — coral resin with rose gold numbers</option>
+<option value="void-plasma-cyan">47. Void Plasma Cyan — black void plasma with cyan numbers</option>
+<option value="solar-brass">48. Solar Brass — solar orange brass layered metal</option>
+<option value="lunar-steel">49. Lunar Steel — moonlit gray steel</option>
+<option value="mermaid-aqua-gold">50. Mermaid Aqua Gold — mermaid aqua resin with gold</option>
+<option value="dragonfly-teal-violet">51. Dragonfly Teal Violet — iridescent teal violet dragonfly</option>
+<option value="bloodstone-red-black">52. Bloodstone Red Black — bloodstone red black polished stone</option>
+<option value="lava-obsidian-orange">53. Lava Obsidian Orange — molten lava inside obsidian</option>
+<option value="frosted-lavender">54. Frosted Lavender — frosted lavender resin</option>
+<option value="smoke-quartz-white">55. Smoke Quartz White — smoky quartz with white numbers</option>
+<option value="copper-verdigris">56. Copper Verdigris — aged copper with turquoise verdigris</option>
+<option value="clockwork-steampunk">57. Clockwork Steampunk — clockwork brass and dark teal</option>
+<option value="celestial-navy-gold">58. Celestial Navy Gold — navy celestial stars with gold</option>
+<option value="ivory-lotus-mint">59. Ivory Lotus Mint — ivory lotus mint engraving</option>
+<option value="black-ice-blue-gold">60. Black Ice Blue Gold — black ice with blue layers and gold ink</option>
+</select>
+</label>
+<div class="style-cache-meter" data-dice-style-meter="">Active dice set applies to the next roll.</div>
+<label for="diceAudioSelect" style="margin-top:10px;">Roll sound dropdown
+        <select aria-label="Choose dice roll audio" data-dice-audio-select="" id="diceAudioSelect">
+<option value="assets/dice_audio/freesound_community-dice-throw-38476.mp3">01. Dice Throw 38476</option>
+<option value="assets/dice_audio/freesound_community-rpg-dice-rolling-95182.mp3">02. Rpg Dice Rolling 95182</option>
+<option value="assets/dice_audio/u_ngsgp0r6zb-dice-roll-201898.mp3">03. Dice Roll 201898</option>
+<option value="assets/dice_audio/u_qpfzpydtro-dice-142528.mp3">04. Dice 142528</option>
+</select>
+</label>
+<div class="style-cache-meter" data-dice-audio-status="">Active sound applies to the next roll. Only this one sound can play.</div>
+</details>
+<details>
+<summary>Stats</summary>
+<div class="side-grid two-col">
+<label for="strength">STR<input id="strength" name="strength" value="12"/></label>
+<label for="dexterity">DEX<input id="dexterity" name="dexterity" value="18"/></label>
+<label for="constitution">CON<input id="constitution" name="constitution" value="14"/></label>
+<label for="intelligence">INT<input id="intelligence" name="intelligence" value="16"/></label>
+<label for="wisdom">WIS<input id="wisdom" name="wisdom" value="16"/></label>
+<label for="charisma">CHA<input id="charisma" name="charisma" value="10"/></label>
+</div>
+</details>
+<details>
+<summary>Skills / Saves</summary>
+<div class="side-grid">
+<label for="perception">Perception<input id="perception" name="perception" value="+6"/></label>
+<label for="arcana">Arcana<input id="arcana" name="arcana" value="+6"/></label>
+<label for="stealth">Stealth<input id="stealth" name="stealth" value="+7"/></label>
+<label for="thieves">Thieves' Tools<input id="thieves" name="thievesTools" value="+7"/></label>
+<label for="spellAttack">Spell Attack Bonus<input id="spellAttack" name="spellAttack" value="+6"/></label>
+<label for="spellSave">Spell Save DC<input id="spellSave" name="spellSaveDc" value="14"/></label>
+</div>
+</details>
+<details open="">
+<summary>Weapon / Attacks</summary>
+<div aria-hidden="true" class="builder-head"><span>Name</span><span>+Hit</span><span>Type</span><span>#</span><span>Die</span><span>+Dmg</span></div>
+<div class="attack-builder-row" data-attack-kind="weapon" data-attack-row="">
+<input aria-label="Weapon 1 name" data-attack-name="" placeholder="Weapon name" value="Rapier"/>
+<input aria-label="Weapon 1 attack bonus" data-attack-bonus="" placeholder="+hit" value="+7"/>
+<select aria-label="Weapon 1 damage type" data-attack-damage-type=""><option value="acid">Acid</option><option value="bludgeoning">Bludgeoning</option><option value="cold">Cold</option><option value="fire">Fire</option><option value="force">Force</option><option value="lightning">Lightning</option><option value="necrotic">Necrotic</option><option selected="" value="piercing">Piercing</option><option value="poison">Poison</option><option value="psychic">Psychic</option><option value="radiant">Radiant</option><option value="slashing">Slashing</option><option value="thunder">Thunder</option><option value="healing">Healing</option><option value="untyped">Untyped</option></select>
+<select aria-label="Weapon 1 dice count" data-attack-dice-count=""><option value="0">0</option><option selected="" value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+<select aria-label="Weapon 1 die type" data-attack-die=""><option value="4">d4</option><option value="6">d6</option><option selected="" value="8">d8</option><option value="10">d10</option><option value="12">d12</option><option value="20">d20</option><option value="100">d100</option></select>
+<input aria-label="Weapon 1 flat damage" data-attack-flat="" placeholder="+mod" value="+4"/>
+</div>
+<button class="attack-add-row-button" data-add-attack-row="weapon" type="button">+ Add another weapon attack</button>
+</details>
+<details open="">
+<summary>Spell / Attacks</summary>
+<div aria-hidden="true" class="builder-head spell-head"><span>Name</span><span>+Hit</span><span>Type</span><span>#</span><span>Die</span><span>+Dmg</span><span>Lvl</span></div>
+<div class="attack-builder-row" data-attack-kind="spell" data-attack-row="">
+<input aria-label="Spell 1 name" data-attack-name="" placeholder="Spell name" value="Fire Bolt"/>
+<input aria-label="Spell 1 attack bonus" data-attack-bonus="" placeholder="+hit/DC blank" value="+6"/>
+<select aria-label="Spell 1 damage type" data-attack-damage-type=""><option value="acid">Acid</option><option value="bludgeoning">Bludgeoning</option><option value="cold">Cold</option><option selected="" value="fire">Fire</option><option value="force">Force</option><option value="lightning">Lightning</option><option value="necrotic">Necrotic</option><option value="piercing">Piercing</option><option value="poison">Poison</option><option value="psychic">Psychic</option><option value="radiant">Radiant</option><option value="slashing">Slashing</option><option value="thunder">Thunder</option><option value="healing">Healing</option><option value="untyped">Untyped</option></select>
+<select aria-label="Spell 1 dice count" data-attack-dice-count=""><option value="0">0</option><option value="1">1</option><option selected="" value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+<select aria-label="Spell 1 die type" data-attack-die=""><option value="4">d4</option><option value="6">d6</option><option value="8">d8</option><option selected="" value="10">d10</option><option value="12">d12</option><option value="20">d20</option><option value="100">d100</option></select>
+<input aria-label="Spell 1 flat damage" data-attack-flat="" placeholder="+mod" value="+0"/>
+<select aria-label="Spell 1 base level" data-attack-base-level=""><option selected="" value="0">—</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select>
+<input data-attack-scale-dice="" type="hidden" value="0"/>
+<input data-attack-scale-flat="" type="hidden" value="0"/>
+</div>
+<button class="attack-add-row-button" data-add-attack-row="spell" type="button">+ Add another spell attack</button>
+<p class="nav-note tiny">Spell level scaling is included for common upcast spells. Chat examples: “I cast Fireball at level 3”, “Rapier attack”, “Rapier damage”, “Guiding Bolt attack”.</p>
+</details>
+<div class="dicebot-style-preview-panel" data-dice-style-preview="" data-dicebot-ignore="">
+<div class="dicebot-preview-head"><strong>Selected dice preview</strong><span data-dice-style-preview-count="">Active dropdown set appears here.</span></div>
+<div class="dicebot-selected-preview-grid" data-dice-style-preview-grid=""></div>
+</div></aside>
+<section aria-label="Open roleplaying rolling board" class="dicebot-main-panel dicebot-board-panel">
+<!-- Dice Embeddable Chat Bot Assistant: paste this whole block inside your editable character sheet HTML -->
+<section class="dicebot-chatbot-placeholder dicebot-open-board-root" data-dicebot-chatbot="" id="dicebotChatbotAssistant">
+<script class="dicebot-chatbot-config" type="application/json">
+  {
+    "botName": "Dice Assistant",
+    "diceLimit": 100,
+    "maxSides": 1000,
+    "repeatLimit": 20,
+    "audioEnabled": true,
+    "audioVolume": 0.22,
+    "diceSoundUrl": "",
+    "diceMainFrameUrl": "srcdoc:main-js-dice",
+    "useDiceMainRoller": true,
+    "rollAnimationMs": 720,
+    "randomFlavor": true,
+    "autoScanOnInput": true,
+    "preferSheetBonuses": true,
+    "includeStaticCharacterText": true,
+    "scanSelector": "input, textarea, select, [contenteditable='true'], [data-character-field], [data-scan-field], [data-5e-field], [data-dnd-field]",
+    "scanTextSelector": "[data-character-text], [data-scan-text], [data-feature], [data-spell], [data-weapon], [data-attack], [data-action], .character-sheet [class*='spell'], .character-sheet [class*='weapon'], .character-sheet [class*='attack'], .character-sheet [class*='feature'], .dnd-character-sheet [class*='spell'], .dnd-character-sheet [class*='weapon'], .dnd-character-sheet [class*='attack'], .dnd-character-sheet [class*='feature']",
+    "backendUrl": "https://script.google.com/macros/s/AKfycbwK-F1BfXbkiVkQXFA0Z1acKxFJgeGU6zckChEmSc8ANqLA1mbqUOWSf6_H1CGFtwW7WA/exec",
+    "excludeSelector": "[data-dicebot-chatbot], script, style, button, input[type='button'], input[type='submit'], input[type='reset'], input[type='file'], input[type='password']"
+  }
+  </script><div class="dicebot-board-composite">
+<section aria-label="Roleplaying board with map grid under dice" class="roleplay-board-shell dicebot-center-board-shell">
+<div class="roleplay-board-toolbar no-print" id="roleplayBoardToolbar">
+<button aria-controls="roleplayBoardToolbar" aria-expanded="true" class="roleplay-toolbar-toggle" id="roleplayToolbarToggle" type="button">Hide board controls</button>
+<div class="roleplay-board-title"><strong>Live Rolling Board</strong><span class="mini">Dice land on this map/grid board. Each square counts as 5 ft by 5 ft.</span></div>
+<div aria-label="Roleplaying board zoom controls" class="roleplay-zoom-controls">
+<button data-roleplay-zoom="out" type="button">Zoom Out</button>
+<button data-roleplay-zoom="reset" type="button">100%</button>
+<button data-roleplay-zoom="in" type="button">Zoom In</button>
+<output id="roleplayZoomOutput">100%</output>
+<output class="roleplay-tile-output" id="roleplayTileOutput">Each tile = 5 ft</output>
+</div>
+<div class="roleplay-map-controls" hidden="" id="roleplayDmMapControls">
+<label class="roleplay-map-file">DM map image <input accept="image/*" id="roleplayMapFile" type="file"/></label>
+<label>Map fit <select id="roleplayMapFit"><option value="contain">Fit inside board</option><option value="cover">Fill board / crop</option><option value="stretch">Stretch to board</option><option value="tile">Repeat / tile</option><option value="actual">Actual size, top-left</option></select></label>
+<label class="roleplay-map-url">Map URL <input id="roleplayMapUrl" placeholder="Paste image URL or data URI" type="url"/></label>
+<button id="loadRoleplayMapUrl" type="button">Receive Map URL</button>
+<button id="clearRoleplayMap" type="button">Clear Map</button>
+<span class="roleplay-map-status" id="roleplayMapStatus">No map loaded</span>
+</div>
+</div>
+<div aria-label="Roleplaying map grid board, each tile is 5 feet by 5 feet" class="roleplay-board" id="roleplayBoard"></div>
+</section>
+<div aria-live="polite" class="dicebot-dice-stage" data-dice-stage="">
+<div class="dicebot-dice-stage-title" data-dice-stage-title="">3D dice table ready.</div>
+<div class="dicebot-dice-main-frame-wrap" data-dice-main-wrap="">
+<iframe class="dicebot-dice-main-frame" data-dice-main-frame="" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot; /&gt;
+  &lt;base href=&quot;./&quot; /&gt;
+  &lt;title&gt;Dice Bot-Controlled 3D Dice Roller&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/dice_main.css&quot; /&gt;
+  &lt;style&gt;
+    html,body{width:100%;height:100%;margin:0;overflow:hidden;background:transparent;color:#eef8ff;}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;}
+    #diceRoller{position:absolute;inset:0;z-index:0!important;overflow:hidden;background:transparent;}
+    #diceRollerUI{position:absolute;inset:0;display:grid;grid-template-rows:auto 1fr auto;pointer-events:none;z-index:10;}
+    .top_field{display:none!important;padding:0;text-align:center;}
+    #textInput{pointer-events:auto;max-width:min(92vw,760px);width:auto;min-width:120px;text-align:center;border:1px solid rgba(145,225,255,.38);border-radius:999px;background:rgba(0,0,0,.46);color:#e9fbff;font-weight:800;box-shadow:0 0 16px rgba(85,210,255,.16);}
+    #center_div{display:grid;place-items:center;}
+    #instructions{display:none!important;}
+    #numPad{display:none!important;}
+    .bottom_field{display:none!important;padding:0;text-align:center;background:transparent;}
+    #result{display:none!important;}
+    #result small{color:#bdd9e3;}
+    #diceLimit{position:absolute;top:55px;left:50%;transform:translateX(-50%);z-index:20;padding:8px 12px;border-radius:12px;background:rgba(70,0,0,.82);border:1px solid rgba(255,120,120,.5);color:#fff;}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body onload=&quot;main.init()&quot;&gt;
+  &lt;div id=&quot;diceRoller&quot;&gt;&lt;/div&gt;
+  &lt;main id=&quot;diceRollerUI&quot;&gt;
+    &lt;div class=&quot;top_field&quot;&gt;
+      &lt;input type=&quot;text&quot; id=&quot;textInput&quot; spellcheck=&quot;false&quot; inputmode=&quot;none&quot; virtualkeyboardpolicy=&quot;manual&quot; value=&quot;1d20&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;diceLimit&quot; style=&quot;display:none&quot;&gt;Wow that's a lot of dice!&lt;br&gt;[Limit: 20]&lt;/div&gt;
+    &lt;div id=&quot;center_div&quot; class=&quot;center_field&quot;&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;numPad&quot; class=&quot;center_field&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;bottom_field&quot;&gt;&lt;span id=&quot;result&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;/main&gt;
+  &lt;script src=&quot;js/three.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/cannon.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/teal.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dice.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/dice-main-bot.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;" title="Dice 3D dice roller"></iframe>
+<div aria-live="polite" class="dicebot-token-stage-overlay" data-dicebot-token-stage="">
+<img alt="Active dice bot rolling token" data-dicebot-active-token-img="" loading="lazy"/>
+<div class="dicebot-token-stage-name" data-dicebot-active-token-name="">Dice Bot</div>
+<div class="dicebot-token-stage-status" data-dicebot-active-token-status="">Ready to roll</div>
+</div>
+</div>
+</div></div>
+</section>
+
+
+
+</section>
+<aside aria-label="NPC tokens and dice rolling input" class="demo-sheet dicebot-side-nav dicebot-right-nav"><h2>NPC Tokens + Roll Input</h2><p class="nav-note">Right side rail: choose the speaking NPC token, roll from quick buttons or typed dice, and read every in-character response without covering the board.</p><section class="right-rail-card npc-token-rail"><h3>NPC / Bot Token</h3><div class="dicebot-persona-panel" data-dicebot-ignore="">
+<header><strong>NPC / Bot Selector</strong><span class="nav-note tiny">Token + full response bank active.</span></header>
+<div class="dicebot-persona-token-preview" data-dicebot-persona-token-preview="">
+<img alt="Selected dice bot token" data-dicebot-persona-preview-img="" loading="lazy"/>
+<div>
+<b data-dicebot-persona-preview-name="">Choose a bot</b>
+<span data-dicebot-persona-preview-bank="">Responses ready after selection.</span>
+</div>
+</div>
+<div class="dicebot-persona-controls">
+<label for="dicebotPersonaSelect">NPC / bot personality
+          <select aria-label="Choose dice bot personality" data-dicebot-ignore="" data-dicebot-personality-select="" id="dicebotPersonaSelect">
+<option value="joeari-ravenwood">Joeari Ravenwood</option>
+<option value="gheaririel-luneglen">Ghearir’iel Luneglen</option>
+<option value="thalenael-silverthorn">Thalenael Silverthorn</option>
+<option value="nimudri-ironvault">Nimu’dri Ironvault</option>
+<option value="rosabin-merryroot">Ro’sabin Merryroot</option>
+<option value="urg-urgugar-mudgrip">Urg-U’rgugar Mudgrip</option>
+<option value="valk-minoorvar-thunderheft">Valk-Minoorvar Thunderheft</option>
+<option value="kethazzun-clawcoil">Kethazzun Clawcoil</option>
+<option value="veyielven-asharchf">Veyielven Asharchf</option>
+<option value="nefumlith-duskendirge">Nefumlith Duskendirge</option>
+<option value="tyrylina-mirthwink">Tyrylina Mirthwink</option>
+<option value="stoneudor-stormbreath">Sto’neudor Stormbreath</option>
+<option value="arcorven-brasslock">Arcorven Brasslock</option>
+<option value="canielina-dennose">Canielina Dennose</option>
+</select>
+</label>
+<p class="nav-note tiny bot-personality-card" data-dicebot-ignore="" data-dicebot-personality-summary="">Choose an NPC/bot from this dropdown only. Selection applies immediately and introduces them in chat.</p>
+</div>
+</div><div aria-label="All NPC bot tokens" class="npc-token-grid"><button class="npc-token-button" data-side-token-select="joeari-ravenwood" title="Joeari Ravenwood" type="button"><img alt="Joeari Ravenwood token" loading="lazy" src="assets/dice_tokens/Joeari_Ravenwood.png"/><span>Joeari Ravenwood</span></button><button class="npc-token-button" data-side-token-select="gheaririel-luneglen" title="Ghearir’iel Luneglen" type="button"><img alt="Ghearir’iel Luneglen token" loading="lazy" src="assets/dice_tokens/Gheaririel_Luneglen.png"/><span>Ghearir’iel Luneglen</span></button><button class="npc-token-button" data-side-token-select="thalenael-silverthorn" title="Thalenael Silverthorn" type="button"><img alt="Thalenael Silverthorn token" loading="lazy" src="assets/dice_tokens/Thalenael_Silverthorn.png"/><span>Thalenael Silverthorn</span></button><button class="npc-token-button" data-side-token-select="nimudri-ironvault" title="Nimu’dri Ironvault" type="button"><img alt="Nimu’dri Ironvault token" loading="lazy" src="assets/dice_tokens/Nimu_dri_Ironvault.png"/><span>Nimu’dri Ironvault</span></button><button class="npc-token-button" data-side-token-select="rosabin-merryroot" title="Ro’sabin Merryroot" type="button"><img alt="Ro’sabin Merryroot token" loading="lazy" src="assets/dice_tokens/Ro_sabin_Merryroot.png"/><span>Ro’sabin Merryroot</span></button><button class="npc-token-button" data-side-token-select="urg-urgugar-mudgrip" title="Urg-U’rgugar Mudgrip" type="button"><img alt="Urg-U’rgugar Mudgrip token" loading="lazy" src="assets/dice_tokens/Urg_U_rgugar_Mudgrip.png"/><span>Urg-U’rgugar Mudgrip</span></button><button class="npc-token-button" data-side-token-select="valk-minoorvar-thunderheft" title="Valk-Minoorvar Thunderheft" type="button"><img alt="Valk-Minoorvar Thunderheft token" loading="lazy" src="assets/dice_tokens/Valk_Minoorvar_Thunderheft.png"/><span>Valk-Minoorvar Thunderheft</span></button><button class="npc-token-button" data-side-token-select="kethazzun-clawcoil" title="Kethazzun Clawcoil" type="button"><img alt="Kethazzun Clawcoil token" loading="lazy" src="assets/dice_tokens/Kethazzun_Clawcoil.png"/><span>Kethazzun Clawcoil</span></button><button class="npc-token-button" data-side-token-select="veyielven-asharchf" title="Veyielven Asharchf" type="button"><img alt="Veyielven Asharchf token" loading="lazy" src="assets/dice_tokens/Veyielven_Asharchf.png"/><span>Veyielven Asharchf</span></button><button class="npc-token-button" data-side-token-select="nefumlith-duskendirge" title="Nefumlith Duskendirge" type="button"><img alt="Nefumlith Duskendirge token" loading="lazy" src="assets/dice_tokens/Nefumlith_Duskendirge.png"/><span>Nefumlith Duskendirge</span></button><button class="npc-token-button" data-side-token-select="tyrylina-mirthwink" title="Tyrylina Mirthwink" type="button"><img alt="Tyrylina Mirthwink token" loading="lazy" src="assets/dice_tokens/Tyrylina_Mirthwink.png"/><span>Tyrylina Mirthwink</span></button><button class="npc-token-button" data-side-token-select="stoneudor-stormbreath" title="Sto’neudor Stormbreath" type="button"><img alt="Sto’neudor Stormbreath token" loading="lazy" src="assets/dice_tokens/Sto_neudor_Stormbreath.png"/><span>Sto’neudor Stormbreath</span></button><button class="npc-token-button" data-side-token-select="arcorven-brasslock" title="Arcorven Brasslock" type="button"><img alt="Arcorven Brasslock token" loading="lazy" src="assets/dice_tokens/Arcorven_Brasslock.png"/><span>Arcorven Brasslock</span></button><button class="npc-token-button" data-side-token-select="canielina-dennose" title="Canielina Dennose" type="button"><img alt="Canielina Dennose token" loading="lazy" src="assets/dice_tokens/Canielina_Dennose.png"/><span>Canielina Dennose</span></button></div></section><section class="right-rail-card roll-input-rail"><h3>Dice Rolling Input</h3><div aria-label="Quick dice roller buttons" class="dicebot-quick-rolls">
+<button data-quick-roll="1d20" type="button">d20</button>
+<button data-quick-roll="2d20kh1" type="button">Adv.</button>
+<button data-quick-roll="2d20kl1" type="button">Dis.</button>
+<button data-quick-roll="1d4" type="button">d4</button>
+<button data-quick-roll="1d6" type="button">d6</button>
+<button data-quick-roll="1d8" type="button">d8</button>
+<button data-quick-roll="1d10" type="button">d10</button>
+<button data-quick-roll="1d12" type="button">d12</button>
+<button data-quick-roll="1d100" type="button">d100</button>
+</div><form autocomplete="off" class="dicebot-chatbot-form" data-chat-form="">
+<textarea data-chat-input="" placeholder="Type 1d20+4, roll 2d4, 1d6, 3d8, rapier attack, rapier damage, I cast fireball at level 3, spell attack, death save..." rows="2" spellcheck="false"></textarea>
+<div class="dicebot-chatbot-actions">
+<button class="primary" type="submit">Send</button>
+<button data-scan-button="" type="button">Scan sheet</button>
+<button data-clear-button="" type="button">Clear</button>
+</div>
+</form><div class="dicebot-chatbot-status" data-chat-status="">Character sheet not scanned yet.</div><div aria-label="Text dice summary" class="dicebot-dice-row" data-dice-row=""></div></section><section class="right-rail-card roll-response-rail"><h3>Bot Roll Responses</h3><div aria-live="polite" class="dicebot-chatbot-log" data-chat-log=""></div></section></aside></main>
+
+
+
+<script src="js/encounters_minigame_runtime.js"></script></body>
+</html>
