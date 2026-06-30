@@ -1,0 +1,1493 @@
+{
+  "schema": "belavados.map_assets.flat_manifest_index.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "layout_rule": "Top-level map_assets folder names are preserved. No asset files are included. Each top-level folder contains JSON files only; nested manifest folders were flattened.",
+  "json_limit_rule": "Each top-level subfolder under map_assets contains no more than 5 JSON manifest files.",
+  "asset_root_candidates": [
+    {
+      "id": "public_pictures",
+      "priority": 1,
+      "windows_base_path": "C:\\Users\\Public\\Pictures\\map_assets",
+      "same_structure_required": true
+    },
+    {
+      "id": "d_drive",
+      "priority": 2,
+      "windows_base_path": "D:\\map_assets",
+      "same_structure_required": true,
+      "note": "Use D:\\map_assets only when it mirrors C:\\Users\\Public\\Pictures\\map_assets."
+    }
+  ],
+  "index_resolution_order": [
+    "relative_url_from_map_assets_index",
+    "public_pictures_windows",
+    "d_drive_windows",
+    "public_pictures_file_url",
+    "d_drive_file_url"
+  ],
+  "folders": [
+    {
+      "folder_name_exact": "Assets",
+      "folder_path_in_zip": "map_assets/Assets/",
+      "json_file_count": 5,
+      "asset_count": 8300,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 5,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Assets/Audio.json",
+          "json_path_in_zip": "map_assets/Assets/Audio.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Assets/Audio"
+          ],
+          "file_count": 31
+        },
+        {
+          "json_file": "Assets/Code.json",
+          "json_path_in_zip": "map_assets/Assets/Code.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Assets/Code"
+          ],
+          "file_count": 929
+        },
+        {
+          "json_file": "Assets/Docs.json",
+          "json_path_in_zip": "map_assets/Assets/Docs.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Assets/Docs"
+          ],
+          "file_count": 1586
+        },
+        {
+          "json_file": "Assets/Images.json",
+          "json_path_in_zip": "map_assets/Assets/Images.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Assets/Images"
+          ],
+          "file_count": 4643
+        },
+        {
+          "json_file": "Assets/Tools.json",
+          "json_path_in_zip": "map_assets/Assets/Tools.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Assets/Tools"
+          ],
+          "file_count": 1111
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Castle Assets - Complete Set",
+      "folder_path_in_zip": "map_assets/Castle Assets - Complete Set/",
+      "json_file_count": 1,
+      "asset_count": 0,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Castle Assets - Complete Set/Castle_Assets_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Castle Assets - Complete Set/Castle_Assets_Complete_Set.json",
+          "group_type": "empty_or_no_child_folder",
+          "covered_source_folders_exact": [
+            "Castle Assets - Complete Set"
+          ],
+          "file_count": 0
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "catalog",
+      "folder_path_in_zip": "map_assets/catalog/",
+      "json_file_count": 1,
+      "asset_count": 0,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "catalog/catalog.json",
+          "json_path_in_zip": "map_assets/catalog/catalog.json",
+          "group_type": "empty_or_no_child_folder",
+          "covered_source_folders_exact": [
+            "catalog"
+          ],
+          "file_count": 0
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Cave Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Cave Assets 1 - Complete Set/",
+      "json_file_count": 1,
+      "asset_count": 0,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Cave Assets 1 - Complete Set/Cave_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Cave Assets 1 - Complete Set/Cave_Assets_1_Complete_Set.json",
+          "group_type": "empty_or_no_child_folder",
+          "covered_source_folders_exact": [
+            "Cave Assets 1 - Complete Set"
+          ],
+          "file_count": 0
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Chase Assets - Complete Set",
+      "folder_path_in_zip": "map_assets/Chase Assets - Complete Set/",
+      "json_file_count": 3,
+      "asset_count": 175,
+      "direct_file_count": 7,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Chase Assets - Complete Set/Chase_Assets_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Chase Assets - Complete Set/Chase_Assets_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Chase Assets - Complete Set"
+          ],
+          "file_count": 7
+        },
+        {
+          "json_file": "Chase Assets - Complete Set/Texture_1.json",
+          "json_path_in_zip": "map_assets/Chase Assets - Complete Set/Texture_1.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Chase Assets - Complete Set/Texture 1"
+          ],
+          "file_count": 84
+        },
+        {
+          "json_file": "Chase Assets - Complete Set/Texture_2.json",
+          "json_path_in_zip": "map_assets/Chase Assets - Complete Set/Texture_2.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Chase Assets - Complete Set/Texture 2"
+          ],
+          "file_count": 84
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "City Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/City Assets 1 - Complete Set/",
+      "json_file_count": 1,
+      "asset_count": 0,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "City Assets 1 - Complete Set/City_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/City Assets 1 - Complete Set/City_Assets_1_Complete_Set.json",
+          "group_type": "empty_or_no_child_folder",
+          "covered_source_folders_exact": [
+            "City Assets 1 - Complete Set"
+          ],
+          "file_count": 0
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "City Walls Assets - Complete Set",
+      "folder_path_in_zip": "map_assets/City Walls Assets - Complete Set/",
+      "json_file_count": 3,
+      "asset_count": 131,
+      "direct_file_count": 7,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "City Walls Assets - Complete Set/City_Walls_Assets_Complete_Set.json",
+          "json_path_in_zip": "map_assets/City Walls Assets - Complete Set/City_Walls_Assets_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "City Walls Assets - Complete Set"
+          ],
+          "file_count": 7
+        },
+        {
+          "json_file": "City Walls Assets - Complete Set/No_Shadow.json",
+          "json_path_in_zip": "map_assets/City Walls Assets - Complete Set/No_Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "City Walls Assets - Complete Set/No Shadow"
+          ],
+          "file_count": 62
+        },
+        {
+          "json_file": "City Walls Assets - Complete Set/Shadow.json",
+          "json_path_in_zip": "map_assets/City Walls Assets - Complete Set/Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "City Walls Assets - Complete Set/Shadow"
+          ],
+          "file_count": 62
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Dungeon Assets Grab Bag",
+      "folder_path_in_zip": "map_assets/Dungeon Assets Grab Bag/",
+      "json_file_count": 3,
+      "asset_count": 92,
+      "direct_file_count": 2,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Dungeon Assets Grab Bag/Dungeon_Assets_Grab_Bag.json",
+          "json_path_in_zip": "map_assets/Dungeon Assets Grab Bag/Dungeon_Assets_Grab_Bag.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Dungeon Assets Grab Bag"
+          ],
+          "file_count": 2
+        },
+        {
+          "json_file": "Dungeon Assets Grab Bag/No_Shadow.json",
+          "json_path_in_zip": "map_assets/Dungeon Assets Grab Bag/No_Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Dungeon Assets Grab Bag/No Shadow"
+          ],
+          "file_count": 45
+        },
+        {
+          "json_file": "Dungeon Assets Grab Bag/Shadow.json",
+          "json_path_in_zip": "map_assets/Dungeon Assets Grab Bag/Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Dungeon Assets Grab Bag/Shadow"
+          ],
+          "file_count": 45
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Example Maps",
+      "folder_path_in_zip": "map_assets/Example Maps/",
+      "json_file_count": 1,
+      "asset_count": 13,
+      "direct_file_count": 13,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Example Maps/Example_Maps.json",
+          "json_path_in_zip": "map_assets/Example Maps/Example_Maps.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Example Maps"
+          ],
+          "file_count": 13
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Feywild Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Feywild Assets 1 - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 637,
+      "direct_file_count": 13,
+      "immediate_subfolder_count": 5,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Feywild Assets 1 - Complete Set"
+          ],
+          "file_count": 13
+        },
+        {
+          "json_file": "Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_01.json",
+          "json_path_in_zip": "map_assets/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_01.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Feywild Assets 1 - Complete Set/Flowers"
+          ],
+          "file_count": 39
+        },
+        {
+          "json_file": "Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_02.json",
+          "json_path_in_zip": "map_assets/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_02.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Feywild Assets 1 - Complete Set/Leaf Piles"
+          ],
+          "file_count": 198
+        },
+        {
+          "json_file": "Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_03.json",
+          "json_path_in_zip": "map_assets/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_03.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Feywild Assets 1 - Complete Set/Misc"
+          ],
+          "file_count": 29
+        },
+        {
+          "json_file": "Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_04.json",
+          "json_path_in_zip": "map_assets/Feywild Assets 1 - Complete Set/Feywild_Assets_1_Complete_Set_Group_04.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Feywild Assets 1 - Complete Set/Plants",
+            "Feywild Assets 1 - Complete Set/Trees"
+          ],
+          "file_count": 358
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Forest Assets - Complete Set",
+      "folder_path_in_zip": "map_assets/Forest Assets - Complete Set/",
+      "json_file_count": 3,
+      "asset_count": 163,
+      "direct_file_count": 7,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Forest Assets - Complete Set/Forest_Assets_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Forest Assets - Complete Set/Forest_Assets_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Forest Assets - Complete Set"
+          ],
+          "file_count": 7
+        },
+        {
+          "json_file": "Forest Assets - Complete Set/No_Shadow.json",
+          "json_path_in_zip": "map_assets/Forest Assets - Complete Set/No_Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Forest Assets - Complete Set/No Shadow"
+          ],
+          "file_count": 78
+        },
+        {
+          "json_file": "Forest Assets - Complete Set/Shadow.json",
+          "json_path_in_zip": "map_assets/Forest Assets - Complete Set/Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Forest Assets - Complete Set/Shadow"
+          ],
+          "file_count": 78
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Furniture Assets Grab Bag",
+      "folder_path_in_zip": "map_assets/Furniture Assets Grab Bag/",
+      "json_file_count": 3,
+      "asset_count": 92,
+      "direct_file_count": 2,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Furniture Assets Grab Bag/Furniture_Assets_Grab_Bag.json",
+          "json_path_in_zip": "map_assets/Furniture Assets Grab Bag/Furniture_Assets_Grab_Bag.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Furniture Assets Grab Bag"
+          ],
+          "file_count": 2
+        },
+        {
+          "json_file": "Furniture Assets Grab Bag/No_Shadow.json",
+          "json_path_in_zip": "map_assets/Furniture Assets Grab Bag/No_Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Furniture Assets Grab Bag/No Shadow"
+          ],
+          "file_count": 45
+        },
+        {
+          "json_file": "Furniture Assets Grab Bag/Shadow.json",
+          "json_path_in_zip": "map_assets/Furniture Assets Grab Bag/Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Furniture Assets Grab Bag/Shadow"
+          ],
+          "file_count": 45
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Harbor Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Harbor Assets 1 - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 151,
+      "direct_file_count": 6,
+      "immediate_subfolder_count": 4,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Harbor Assets 1 - Complete Set/Harbor_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Harbor Assets 1 - Complete Set/Harbor_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Harbor Assets 1 - Complete Set"
+          ],
+          "file_count": 6
+        },
+        {
+          "json_file": "Harbor Assets 1 - Complete Set/Docks.json",
+          "json_path_in_zip": "map_assets/Harbor Assets 1 - Complete Set/Docks.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Harbor Assets 1 - Complete Set/Docks"
+          ],
+          "file_count": 16
+        },
+        {
+          "json_file": "Harbor Assets 1 - Complete Set/Grounds.json",
+          "json_path_in_zip": "map_assets/Harbor Assets 1 - Complete Set/Grounds.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Harbor Assets 1 - Complete Set/Grounds"
+          ],
+          "file_count": 10
+        },
+        {
+          "json_file": "Harbor Assets 1 - Complete Set/Harbor_Walls.json",
+          "json_path_in_zip": "map_assets/Harbor Assets 1 - Complete Set/Harbor_Walls.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Harbor Assets 1 - Complete Set/Harbor Walls"
+          ],
+          "file_count": 54
+        },
+        {
+          "json_file": "Harbor Assets 1 - Complete Set/Props.json",
+          "json_path_in_zip": "map_assets/Harbor Assets 1 - Complete Set/Props.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Harbor Assets 1 - Complete Set/Props"
+          ],
+          "file_count": 65
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "images_maps",
+      "folder_path_in_zip": "map_assets/images_maps/",
+      "json_file_count": 1,
+      "asset_count": 67,
+      "direct_file_count": 67,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "images_maps/images_maps.json",
+          "json_path_in_zip": "map_assets/images_maps/images_maps.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "images_maps"
+          ],
+          "file_count": 67
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "map_asset_catalog_chunks",
+      "folder_path_in_zip": "map_assets/map_asset_catalog_chunks/",
+      "json_file_count": 1,
+      "asset_count": 1,
+      "direct_file_count": 1,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "map_asset_catalog_chunks/map_asset_catalog_chunks.json",
+          "json_path_in_zip": "map_assets/map_asset_catalog_chunks/map_asset_catalog_chunks.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "map_asset_catalog_chunks"
+          ],
+          "file_count": 1
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Mountainside Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Mountainside Assets 1 - Complete Set/",
+      "json_file_count": 3,
+      "asset_count": 181,
+      "direct_file_count": 8,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Mountainside Assets 1 - Complete Set/Mountainside_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Mountainside Assets 1 - Complete Set/Mountainside_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Mountainside Assets 1 - Complete Set"
+          ],
+          "file_count": 8
+        },
+        {
+          "json_file": "Mountainside Assets 1 - Complete Set/Cliffsides.json",
+          "json_path_in_zip": "map_assets/Mountainside Assets 1 - Complete Set/Cliffsides.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Mountainside Assets 1 - Complete Set/Cliffsides"
+          ],
+          "file_count": 48
+        },
+        {
+          "json_file": "Mountainside Assets 1 - Complete Set/Rocks.json",
+          "json_path_in_zip": "map_assets/Mountainside Assets 1 - Complete Set/Rocks.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Mountainside Assets 1 - Complete Set/Rocks"
+          ],
+          "file_count": 125
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "music",
+      "folder_path_in_zip": "map_assets/music/",
+      "json_file_count": 3,
+      "asset_count": 134,
+      "direct_file_count": 120,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "music/music.json",
+          "json_path_in_zip": "map_assets/music/music.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "music"
+          ],
+          "file_count": 120
+        },
+        {
+          "json_file": "music/Glitch_and_Machine.json",
+          "json_path_in_zip": "map_assets/music/Glitch_and_Machine.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "music/Glitch and Machine"
+          ],
+          "file_count": 8
+        },
+        {
+          "json_file": "music/oneshot.json",
+          "json_path_in_zip": "map_assets/music/oneshot.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "music/oneshot"
+          ],
+          "file_count": 6
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "River Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/River Assets 1 - Complete Set/",
+      "json_file_count": 3,
+      "asset_count": 35,
+      "direct_file_count": 7,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "River Assets 1 - Complete Set/River_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/River Assets 1 - Complete Set/River_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "River Assets 1 - Complete Set"
+          ],
+          "file_count": 7
+        },
+        {
+          "json_file": "River Assets 1 - Complete Set/No_Shadow.json",
+          "json_path_in_zip": "map_assets/River Assets 1 - Complete Set/No_Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "River Assets 1 - Complete Set/No Shadow"
+          ],
+          "file_count": 22
+        },
+        {
+          "json_file": "River Assets 1 - Complete Set/Shadow.json",
+          "json_path_in_zip": "map_assets/River Assets 1 - Complete Set/Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "River Assets 1 - Complete Set/Shadow"
+          ],
+          "file_count": 6
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Sewer Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Sewer Assets 1 - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 144,
+      "direct_file_count": 9,
+      "immediate_subfolder_count": 6,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Sewer Assets 1 - Complete Set"
+          ],
+          "file_count": 9
+        },
+        {
+          "json_file": "Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_01.json",
+          "json_path_in_zip": "map_assets/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_01.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Sewer Assets 1 - Complete Set/Props"
+          ],
+          "file_count": 36
+        },
+        {
+          "json_file": "Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_02.json",
+          "json_path_in_zip": "map_assets/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_02.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Sewer Assets 1 - Complete Set/Separated Walls",
+            "Sewer Assets 1 - Complete Set/Textures"
+          ],
+          "file_count": 30
+        },
+        {
+          "json_file": "Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_03.json",
+          "json_path_in_zip": "map_assets/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_03.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Sewer Assets 1 - Complete Set/Tiles (grid)"
+          ],
+          "file_count": 23
+        },
+        {
+          "json_file": "Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_04.json",
+          "json_path_in_zip": "map_assets/Sewer Assets 1 - Complete Set/Sewer_Assets_1_Complete_Set_Group_04.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Sewer Assets 1 - Complete Set/Tiles (no grid)",
+            "Sewer Assets 1 - Complete Set/Tiles (transparent)"
+          ],
+          "file_count": 46
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Ships & Sailing Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Ships & Sailing Assets 1 - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 262,
+      "direct_file_count": 10,
+      "immediate_subfolder_count": 4,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Ships & Sailing Assets 1 - Complete Set/Ships_and_Sailing_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Ships & Sailing Assets 1 - Complete Set/Ships_and_Sailing_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Ships & Sailing Assets 1 - Complete Set"
+          ],
+          "file_count": 10
+        },
+        {
+          "json_file": "Ships & Sailing Assets 1 - Complete Set/Decks.json",
+          "json_path_in_zip": "map_assets/Ships & Sailing Assets 1 - Complete Set/Decks.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Ships & Sailing Assets 1 - Complete Set/Decks"
+          ],
+          "file_count": 60
+        },
+        {
+          "json_file": "Ships & Sailing Assets 1 - Complete Set/Premade_Ships.json",
+          "json_path_in_zip": "map_assets/Ships & Sailing Assets 1 - Complete Set/Premade_Ships.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Ships & Sailing Assets 1 - Complete Set/Premade Ships"
+          ],
+          "file_count": 16
+        },
+        {
+          "json_file": "Ships & Sailing Assets 1 - Complete Set/Props.json",
+          "json_path_in_zip": "map_assets/Ships & Sailing Assets 1 - Complete Set/Props.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Ships & Sailing Assets 1 - Complete Set/Props"
+          ],
+          "file_count": 104
+        },
+        {
+          "json_file": "Ships & Sailing Assets 1 - Complete Set/Walls.json",
+          "json_path_in_zip": "map_assets/Ships & Sailing Assets 1 - Complete Set/Walls.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Ships & Sailing Assets 1 - Complete Set/Walls"
+          ],
+          "file_count": 72
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Snow Assets - Complete Set",
+      "folder_path_in_zip": "map_assets/Snow Assets - Complete Set/",
+      "json_file_count": 4,
+      "asset_count": 77,
+      "direct_file_count": 6,
+      "immediate_subfolder_count": 3,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Snow Assets - Complete Set/Snow_Assets_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Snow Assets - Complete Set/Snow_Assets_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Snow Assets - Complete Set"
+          ],
+          "file_count": 6
+        },
+        {
+          "json_file": "Snow Assets - Complete Set/Foilage.json",
+          "json_path_in_zip": "map_assets/Snow Assets - Complete Set/Foilage.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Snow Assets - Complete Set/Foilage"
+          ],
+          "file_count": 26
+        },
+        {
+          "json_file": "Snow Assets - Complete Set/Misc.json",
+          "json_path_in_zip": "map_assets/Snow Assets - Complete Set/Misc.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Snow Assets - Complete Set/Misc"
+          ],
+          "file_count": 35
+        },
+        {
+          "json_file": "Snow Assets - Complete Set/Roads.json",
+          "json_path_in_zip": "map_assets/Snow Assets - Complete Set/Roads.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Snow Assets - Complete Set/Roads"
+          ],
+          "file_count": 10
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Starter Pack",
+      "folder_path_in_zip": "map_assets/Starter Pack/",
+      "json_file_count": 5,
+      "asset_count": 33,
+      "direct_file_count": 2,
+      "immediate_subfolder_count": 4,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Starter Pack/Starter_Pack.json",
+          "json_path_in_zip": "map_assets/Starter Pack/Starter_Pack.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Starter Pack"
+          ],
+          "file_count": 2
+        },
+        {
+          "json_file": "Starter Pack/Fire_Giant_Lava_Forge.json",
+          "json_path_in_zip": "map_assets/Starter Pack/Fire_Giant_Lava_Forge.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack/Fire Giant Lava Forge"
+          ],
+          "file_count": 8
+        },
+        {
+          "json_file": "Starter Pack/Marketplace_Skirmish.json",
+          "json_path_in_zip": "map_assets/Starter Pack/Marketplace_Skirmish.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack/Marketplace Skirmish"
+          ],
+          "file_count": 12
+        },
+        {
+          "json_file": "Starter Pack/Rockmount.json",
+          "json_path_in_zip": "map_assets/Starter Pack/Rockmount.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack/Rockmount"
+          ],
+          "file_count": 6
+        },
+        {
+          "json_file": "Starter Pack/Waterfall_Campsite.json",
+          "json_path_in_zip": "map_assets/Starter Pack/Waterfall_Campsite.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack/Waterfall Campsite"
+          ],
+          "file_count": 5
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Starter Pack 02",
+      "folder_path_in_zip": "map_assets/Starter Pack 02/",
+      "json_file_count": 5,
+      "asset_count": 34,
+      "direct_file_count": 2,
+      "immediate_subfolder_count": 4,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Starter Pack 02/Starter_Pack_02.json",
+          "json_path_in_zip": "map_assets/Starter Pack 02/Starter_Pack_02.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Starter Pack 02"
+          ],
+          "file_count": 2
+        },
+        {
+          "json_file": "Starter Pack 02/Alchemist_s_Cave.json",
+          "json_path_in_zip": "map_assets/Starter Pack 02/Alchemist_s_Cave.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack 02/Alchemist's Cave"
+          ],
+          "file_count": 17
+        },
+        {
+          "json_file": "Starter Pack 02/Destroyed_Assets_7_Example_Map.json",
+          "json_path_in_zip": "map_assets/Starter Pack 02/Destroyed_Assets_7_Example_Map.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack 02/Destroyed Assets 7 Example Map"
+          ],
+          "file_count": 8
+        },
+        {
+          "json_file": "Starter Pack 02/Woodland_Assets_4_Example_Map.json",
+          "json_path_in_zip": "map_assets/Starter Pack 02/Woodland_Assets_4_Example_Map.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack 02/Woodland Assets 4 Example Map"
+          ],
+          "file_count": 4
+        },
+        {
+          "json_file": "Starter Pack 02/Wooster.json",
+          "json_path_in_zip": "map_assets/Starter Pack 02/Wooster.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Starter Pack 02/Wooster"
+          ],
+          "file_count": 3
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Swamp Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Swamp Assets 1 - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 108,
+      "direct_file_count": 4,
+      "immediate_subfolder_count": 6,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Swamp Assets 1 - Complete Set"
+          ],
+          "file_count": 4
+        },
+        {
+          "json_file": "Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_01.json",
+          "json_path_in_zip": "map_assets/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_01.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Swamp Assets 1 - Complete Set/Dead Trees"
+          ],
+          "file_count": 20
+        },
+        {
+          "json_file": "Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_02.json",
+          "json_path_in_zip": "map_assets/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_02.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Swamp Assets 1 - Complete Set/Docks",
+            "Swamp Assets 1 - Complete Set/Example Maps"
+          ],
+          "file_count": 41
+        },
+        {
+          "json_file": "Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_03.json",
+          "json_path_in_zip": "map_assets/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_03.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Swamp Assets 1 - Complete Set/Moors"
+          ],
+          "file_count": 9
+        },
+        {
+          "json_file": "Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_04.json",
+          "json_path_in_zip": "map_assets/Swamp Assets 1 - Complete Set/Swamp_Assets_1_Complete_Set_Group_04.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Swamp Assets 1 - Complete Set/Plants",
+            "Swamp Assets 1 - Complete Set/Textures"
+          ],
+          "file_count": 34
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "TableClicks Maps",
+      "folder_path_in_zip": "map_assets/TableClicks Maps/",
+      "json_file_count": 1,
+      "asset_count": 14,
+      "direct_file_count": 14,
+      "immediate_subfolder_count": 0,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "TableClicks Maps/TableClicks_Maps.json",
+          "json_path_in_zip": "map_assets/TableClicks Maps/TableClicks_Maps.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "TableClicks Maps"
+          ],
+          "file_count": 14
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Tavern Assets - Complete Set",
+      "folder_path_in_zip": "map_assets/Tavern Assets - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 233,
+      "direct_file_count": 6,
+      "immediate_subfolder_count": 8,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Tavern Assets - Complete Set/Tavern_Assets_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Tavern Assets - Complete Set"
+          ],
+          "file_count": 6
+        },
+        {
+          "json_file": "Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_01.json",
+          "json_path_in_zip": "map_assets/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_01.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tavern Assets - Complete Set/Brick Rooms",
+            "Tavern Assets - Complete Set/Cobble Rooms"
+          ],
+          "file_count": 20
+        },
+        {
+          "json_file": "Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_02.json",
+          "json_path_in_zip": "map_assets/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_02.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tavern Assets - Complete Set/Furniture (No Shadows)",
+            "Tavern Assets - Complete Set/Furniture (Shadows)"
+          ],
+          "file_count": 157
+        },
+        {
+          "json_file": "Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_03.json",
+          "json_path_in_zip": "map_assets/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_03.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tavern Assets - Complete Set/Texture Squares",
+            "Tavern Assets - Complete Set/Wall Parts (No Shadows)"
+          ],
+          "file_count": 29
+        },
+        {
+          "json_file": "Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_04.json",
+          "json_path_in_zip": "map_assets/Tavern Assets - Complete Set/Tavern_Assets_Complete_Set_Group_04.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tavern Assets - Complete Set/Wall Parts (Shadows)",
+            "Tavern Assets - Complete Set/Wood Rooms"
+          ],
+          "file_count": 21
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Tokens",
+      "folder_path_in_zip": "map_assets/Tokens/",
+      "json_file_count": 5,
+      "asset_count": 3814,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 17,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Tokens/Tokens_Group_01.json",
+          "json_path_in_zip": "map_assets/Tokens/Tokens_Group_01.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tokens/Monster",
+            "Tokens/Monster.zip",
+            "Tokens/Pictures old 1.zip"
+          ],
+          "file_count": 245
+        },
+        {
+          "json_file": "Tokens/Tokens_Group_02.json",
+          "json_path_in_zip": "map_assets/Tokens/Tokens_Group_02.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tokens/pictures old 11.zip",
+            "Tokens/pictures old 12.zip",
+            "Tokens/pictures old 13.zip"
+          ],
+          "file_count": 792
+        },
+        {
+          "json_file": "Tokens/Tokens_Group_03.json",
+          "json_path_in_zip": "map_assets/Tokens/Tokens_Group_03.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tokens/Pictures old 14.zip",
+            "Tokens/Pictures old 2.zip",
+            "Tokens/pictures old 3.zip",
+            "Tokens/pictures old 4.zip"
+          ],
+          "file_count": 861
+        },
+        {
+          "json_file": "Tokens/Tokens_Group_04.json",
+          "json_path_in_zip": "map_assets/Tokens/Tokens_Group_04.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tokens/pictures old 5.zip",
+            "Tokens/pictures old 6.zip",
+            "Tokens/pictures old 7.zip"
+          ],
+          "file_count": 720
+        },
+        {
+          "json_file": "Tokens/Tokens_Group_05.json",
+          "json_path_in_zip": "map_assets/Tokens/Tokens_Group_05.json",
+          "group_type": "grouped_immediate_subfolders_recursive",
+          "covered_source_folders_exact": [
+            "Tokens/pictures old 8.zip",
+            "Tokens/Pictures old 9.zip",
+            "Tokens/Player",
+            "Tokens/Player.zip"
+          ],
+          "file_count": 1196
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Underdark Assets 1",
+      "folder_path_in_zip": "map_assets/Underdark Assets 1/",
+      "json_file_count": 4,
+      "asset_count": 401,
+      "direct_file_count": 8,
+      "immediate_subfolder_count": 3,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Underdark Assets 1/Underdark_Assets_1.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 1/Underdark_Assets_1.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Underdark Assets 1"
+          ],
+          "file_count": 8
+        },
+        {
+          "json_file": "Underdark Assets 1/Separate_Cave_Walls.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 1/Separate_Cave_Walls.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Underdark Assets 1/Separate Cave Walls"
+          ],
+          "file_count": 181
+        },
+        {
+          "json_file": "Underdark Assets 1/Transparent_Tiles.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 1/Transparent_Tiles.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Underdark Assets 1/Transparent Tiles"
+          ],
+          "file_count": 78
+        },
+        {
+          "json_file": "Underdark Assets 1/Underdark_Color_Tiles.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 1/Underdark_Color_Tiles.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Underdark Assets 1/Underdark Color Tiles"
+          ],
+          "file_count": 134
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Underdark Assets 2",
+      "folder_path_in_zip": "map_assets/Underdark Assets 2/",
+      "json_file_count": 3,
+      "asset_count": 297,
+      "direct_file_count": 0,
+      "immediate_subfolder_count": 3,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Underdark Assets 2/Assets.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 2/Assets.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Underdark Assets 2/Assets"
+          ],
+          "file_count": 242
+        },
+        {
+          "json_file": "Underdark Assets 2/Cave_Color_Tiles.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 2/Cave_Color_Tiles.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Underdark Assets 2/Cave Color Tiles"
+          ],
+          "file_count": 36
+        },
+        {
+          "json_file": "Underdark Assets 2/Textures.json",
+          "json_path_in_zip": "map_assets/Underdark Assets 2/Textures.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Underdark Assets 2/Textures"
+          ],
+          "file_count": 19
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Urban Assets 1 - Complete Set",
+      "folder_path_in_zip": "map_assets/Urban Assets 1 - Complete Set/",
+      "json_file_count": 5,
+      "asset_count": 582,
+      "direct_file_count": 9,
+      "immediate_subfolder_count": 4,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Urban Assets 1 - Complete Set/Urban_Assets_1_Complete_Set.json",
+          "json_path_in_zip": "map_assets/Urban Assets 1 - Complete Set/Urban_Assets_1_Complete_Set.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Urban Assets 1 - Complete Set"
+          ],
+          "file_count": 9
+        },
+        {
+          "json_file": "Urban Assets 1 - Complete Set/Flags.json",
+          "json_path_in_zip": "map_assets/Urban Assets 1 - Complete Set/Flags.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Urban Assets 1 - Complete Set/Flags"
+          ],
+          "file_count": 40
+        },
+        {
+          "json_file": "Urban Assets 1 - Complete Set/Landscape_Plots.json",
+          "json_path_in_zip": "map_assets/Urban Assets 1 - Complete Set/Landscape_Plots.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Urban Assets 1 - Complete Set/Landscape Plots"
+          ],
+          "file_count": 26
+        },
+        {
+          "json_file": "Urban Assets 1 - Complete Set/Misc.json",
+          "json_path_in_zip": "map_assets/Urban Assets 1 - Complete Set/Misc.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Urban Assets 1 - Complete Set/Misc"
+          ],
+          "file_count": 19
+        },
+        {
+          "json_file": "Urban Assets 1 - Complete Set/Roofs.json",
+          "json_path_in_zip": "map_assets/Urban Assets 1 - Complete Set/Roofs.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Urban Assets 1 - Complete Set/Roofs"
+          ],
+          "file_count": 488
+        }
+      ]
+    },
+    {
+      "folder_name_exact": "Wilderness Assets Grab Bag",
+      "folder_path_in_zip": "map_assets/Wilderness Assets Grab Bag/",
+      "json_file_count": 3,
+      "asset_count": 92,
+      "direct_file_count": 2,
+      "immediate_subfolder_count": 2,
+      "max_json_limit_met": true,
+      "json_files": [
+        {
+          "json_file": "Wilderness Assets Grab Bag/Wilderness_Assets_Grab_Bag.json",
+          "json_path_in_zip": "map_assets/Wilderness Assets Grab Bag/Wilderness_Assets_Grab_Bag.json",
+          "group_type": "top_folder_direct_files",
+          "covered_source_folders_exact": [
+            "Wilderness Assets Grab Bag"
+          ],
+          "file_count": 2
+        },
+        {
+          "json_file": "Wilderness Assets Grab Bag/No_Shadow.json",
+          "json_path_in_zip": "map_assets/Wilderness Assets Grab Bag/No_Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Wilderness Assets Grab Bag/No Shadow"
+          ],
+          "file_count": 45
+        },
+        {
+          "json_file": "Wilderness Assets Grab Bag/Shadow.json",
+          "json_path_in_zip": "map_assets/Wilderness Assets Grab Bag/Shadow.json",
+          "group_type": "immediate_subfolder_recursive",
+          "covered_source_folders_exact": [
+            "Wilderness Assets Grab Bag/Shadow"
+          ],
+          "file_count": 45
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "source_zip": "map_assets (2).zip",
+    "source_assets_read": 16275,
+    "unique_logical_asset_paths": 16275,
+    "exact_duplicate_logical_paths_merged": 0,
+    "content_duplicate_groups_marked_not_removed": 646,
+    "top_level_folders_preserved": 31,
+    "root_level_direct_files_indexed": 24,
+    "json_files_written_total": 103,
+    "subfolder_json_limit": 5,
+    "folders_over_json_limit": []
+  },
+  "deduplication": {
+    "method": "Exact duplicate logical asset paths were merged. Same content in different folders was not removed because folder paths must stay intact; those are counted as content duplicate groups.",
+    "exact_duplicate_logical_paths_sample": {},
+    "content_duplicate_group_count": 646,
+    "content_duplicate_groups_sample": [
+      {
+        "key": "sha256:0065bfd8413e19779d80f157c535dffdf2226fe7b60123b90d1c5d5dbbb456ec",
+        "paths": [
+          "Assets/Audio/Music/README_LOCAL_MUSIC_POINTER.md",
+          "Assets/Images/Maps/README_LOCAL_IMAGES_MAPS_POINTER.md",
+          "music/README_LOCAL_FOLDER_POINTER.md"
+        ],
+        "count": 3
+      },
+      {
+        "key": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "paths": [
+          "Assets/Code/Buddy-App-avokeys-issue1/src/api/init_.py",
+          "Assets/Code/Buddy-App-avokeys-issue1/src/config/authController.js",
+          "Assets/Code/Buddy-App-avokeys-issue1/src/deep_9f3498ad/LoginComponents/serverstuff.js",
+          "Assets/Code/lenny-dnd-bot-main/test/test_commands/init_.py",
+          "Assets/Code/lenny-dnd-bot-main/test/test_context_menus/init_.py",
+          "Assets/Code/lenny-dnd-bot-main/test/test_embeds/init_.py",
+          "Assets/Code/lenny-dnd-bot-main/test/test_logic/init_.py",
+          "Assets/Docs/Sources/dnd_agenda-master/migrations/gitkeep",
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/Browser/link-files/Packs.txt",
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/Browser/link-files/Scripts.txt"
+        ],
+        "count": 18
+      },
+      {
+        "key": "sha256:8e62b99ea2f0e0f3f0c4cf74d295b66a8928cb574ae5b6bcfb7bdf7804240e70",
+        "paths": [
+          "Assets/Code/builder-main/index.css",
+          "Assets/Code/builder-main/tailwind.css"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:dd654ea9e7bb1f3b133a946d0f0eb7a0e2cd3ad6c2f3ec1eac8efccfc4461dee",
+        "paths": [
+          "Assets/Docs/Catalogues/map_assets_catalog.json",
+          "map_assets_catalog.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:1dd69256038d02aecaf75b0133795e426ac8cc302d669593731e39f655aa658a",
+        "paths": [
+          "Assets/Docs/Catalogues/map_assets_catalog_index.json",
+          "map_assets_catalog_index.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:2a241cc32af61a002042afb57364bb8927d75fa345dfb0c8f733d9b4e933165a",
+        "paths": [
+          "Assets/Docs/Catalogues/map_assets_catalog_manifest.json",
+          "map_assets_catalog_manifest.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:3cedb616cce71d9aaf219991663da51c28f032a27016f542dcde99864984bd82",
+        "paths": [
+          "Assets/Docs/Catalogues/README_MAP_ASSET_CATALOGS.md",
+          "README_MAP_ASSET_CATALOGS.md"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:a795fe76856a01c36ce382ca6dad472eb975a8a4f2d2f1c068714d580011c9c6",
+        "paths": [
+          "Assets/Docs/excluded_files_audit.json",
+          "excluded_files_audit.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:9729686a2f653b16c523ac2de0988ff04108b761630385d54b65bb519c8aca7b",
+        "paths": [
+          "Assets/Docs/local_and_github_directory_pointers.json",
+          "local_and_github_directory_pointers.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:7a1b6e0b5d44722737070964af6cedf739abef1ad3e36911d31b77a2be6aa68b",
+        "paths": [
+          "Assets/Docs/MANIFEST.txt",
+          "MANIFEST.txt"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:9d4d8aae393c159672e73548296b91c71e9589da91aeea7809d887336f8a9778",
+        "paths": [
+          "Assets/Docs/manifest_files.csv",
+          "manifest_files.csv"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:ad64ecb99e449d79ea593ab3d327af037bc1994458e55805b2080a73f74ca914",
+        "paths": [
+          "Assets/Docs/manifest_files.json",
+          "manifest_files.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:f5f3a8888f57d6e2424c398ff63d6c4ec7e458aefdd0cb92845d3ff947f4798a",
+        "paths": [
+          "Assets/Docs/manifest_summary.json",
+          "manifest_summary.json"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+        "paths": [
+          "Assets/Docs/Sources/dnd-asset-manager-main/gitattributes",
+          "Assets/Tools/Token_Tools/too-many-online-tokens-dnd-main/gitattributes"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "paths": [
+          "Assets/Docs/Sources/Lib_SpellLibrary-main/LICENSE",
+          "Assets/Docs/Sources/scene-hp-tools-main/LICENSE",
+          "Assets/Docs/Sources/Token_Tools/nimble-dnd5e-tokens-main/LICENSE.md"
+        ],
+        "count": 3
+      },
+      {
+        "key": "sha256:8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+        "paths": [
+          "Assets/Docs/Sources/ogres-main/LICENSE",
+          "Assets/Docs/Sources/Token_Tools/token-placer-main/LICENSE.md"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:d5a0861262ea2001a490a37c6c79b3404da2208da3d6abea8383275eab40b004",
+        "paths": [
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/Browser/link-files/Aarakocra.txt",
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/link-files/Aarakocra.txt"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:0b2459d173081fc5526a1124cf6a77cc9bcf9a25b2f894d775a97236132b7a73",
+        "paths": [
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/Browser/link-files/Aboleth.txt",
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/link-files/Aboleth.txt"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:c0755a2fcdbb4e465c530cefb597e502fbdb15d8c40588712956a3ae941855f5",
+        "paths": [
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/Browser/link-files/Abominable_Yeti.txt",
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/link-files/Abominable_Yeti.txt"
+        ],
+        "count": 2
+      },
+      {
+        "key": "sha256:131aa148c56b5a11bc9f5172a09052b7b96bc966d00291dd303beeb752f1c2ba",
+        "paths": [
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/Browser/link-files/Acolyte.txt",
+          "Assets/Docs/Sources/Token_Tools/too-many-online-tokens-dnd-main/link-files/Acolyte.txt"
+        ],
+        "count": 2
+      }
+    ]
+  }
+}

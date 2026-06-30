@@ -1,0 +1,156 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "Tavern Assets - Complete Set",
+  "source_top_folder_relative_path_exact": "Tavern Assets - Complete Set",
+  "json_group_name": "Tavern_Assets_Complete_Set",
+  "json_group_type": "top_folder_direct_files",
+  "covered_source_folders_exact": [
+    "Tavern Assets - Complete Set"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set",
+    "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 6,
+    "covered_immediate_subfolder_count": 0,
+    "types": {
+      "document": 2,
+      "image": 3,
+      "vtt_asset": 1
+    },
+    "extensions": {
+      ".dungeondraft_pack": 1,
+      ".jpg": 2,
+      ".png": 1,
+      ".url": 2
+    }
+  },
+  "files": [
+    {
+      "name": "Example.jpg",
+      "asset_relative_path": "Tavern Assets - Complete Set/Example.jpg",
+      "folder_relative_path": "Tavern Assets - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5755719,
+      "crc32": "8d97b168",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Example.jpg",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Example.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Tavern Assets - Complete Set/Example.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Example.jpg",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Example.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Tavern%20Assets%20-%20Complete%20Set/Example.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Tavern%20Assets%20-%20Complete%20Set/Example.jpg"
+      }
+    },
+    {
+      "name": "Grid.png",
+      "asset_relative_path": "Tavern Assets - Complete Set/Grid.png",
+      "folder_relative_path": "Tavern Assets - Complete Set",
+      "type": "image",
+      "extension": ".png",
+      "size_bytes": 281487,
+      "crc32": "7d58185b",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Grid.png",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Grid.png"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Tavern Assets - Complete Set/Grid.png",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Grid.png",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Grid.png",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Tavern%20Assets%20-%20Complete%20Set/Grid.png",
+        "d_drive_file_url": "file:///D:/map_assets/Tavern%20Assets%20-%20Complete%20Set/Grid.png"
+      }
+    },
+    {
+      "name": "License.url",
+      "asset_relative_path": "Tavern Assets - Complete Set/License.url",
+      "folder_relative_path": "Tavern Assets - Complete Set",
+      "type": "document",
+      "extension": ".url",
+      "size_bytes": 74,
+      "crc32": "f28df5b0",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\License.url",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\License.url"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Tavern Assets - Complete Set/License.url",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\License.url",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\License.url",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Tavern%20Assets%20-%20Complete%20Set/License.url",
+        "d_drive_file_url": "file:///D:/map_assets/Tavern%20Assets%20-%20Complete%20Set/License.url"
+      }
+    },
+    {
+      "name": "Patreon.url",
+      "asset_relative_path": "Tavern Assets - Complete Set/Patreon.url",
+      "folder_relative_path": "Tavern Assets - Complete Set",
+      "type": "document",
+      "extension": ".url",
+      "size_bytes": 59,
+      "crc32": "c69a4dd9",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Patreon.url",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Patreon.url"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Tavern Assets - Complete Set/Patreon.url",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Patreon.url",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Patreon.url",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Tavern%20Assets%20-%20Complete%20Set/Patreon.url",
+        "d_drive_file_url": "file:///D:/map_assets/Tavern%20Assets%20-%20Complete%20Set/Patreon.url"
+      }
+    },
+    {
+      "name": "Read Me.jpg",
+      "asset_relative_path": "Tavern Assets - Complete Set/Read Me.jpg",
+      "folder_relative_path": "Tavern Assets - Complete Set",
+      "type": "image",
+      "extension": ".jpg",
+      "size_bytes": 5235997,
+      "crc32": "c802d487",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Read Me.jpg",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Read Me.jpg"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Tavern Assets - Complete Set/Read Me.jpg",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Read Me.jpg",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Read Me.jpg",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Tavern%20Assets%20-%20Complete%20Set/Read%20Me.jpg",
+        "d_drive_file_url": "file:///D:/map_assets/Tavern%20Assets%20-%20Complete%20Set/Read%20Me.jpg"
+      }
+    },
+    {
+      "name": "Venatus Maps Tavern.dungeondraft_pack",
+      "asset_relative_path": "Tavern Assets - Complete Set/Venatus Maps Tavern.dungeondraft_pack",
+      "folder_relative_path": "Tavern Assets - Complete Set",
+      "type": "vtt_asset",
+      "extension": ".dungeondraft_pack",
+      "size_bytes": 4614780,
+      "crc32": "24e4cc31",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Venatus Maps Tavern.dungeondraft_pack",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Venatus Maps Tavern.dungeondraft_pack"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./Tavern Assets - Complete Set/Venatus Maps Tavern.dungeondraft_pack",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\Tavern Assets - Complete Set\\Venatus Maps Tavern.dungeondraft_pack",
+        "d_drive_windows": "D:\\map_assets\\Tavern Assets - Complete Set\\Venatus Maps Tavern.dungeondraft_pack",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/Tavern%20Assets%20-%20Complete%20Set/Venatus%20Maps%20Tavern.dungeondraft_pack",
+        "d_drive_file_url": "file:///D:/map_assets/Tavern%20Assets%20-%20Complete%20Set/Venatus%20Maps%20Tavern.dungeondraft_pack"
+      }
+    }
+  ]
+}

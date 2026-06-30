@@ -1,0 +1,26 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "catalog",
+  "source_top_folder_relative_path_exact": "catalog",
+  "json_group_name": "catalog",
+  "json_group_type": "empty_or_no_child_folder",
+  "covered_source_folders_exact": [
+    "catalog"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\catalog",
+    "d_drive_windows": "D:\\map_assets\\catalog"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 0,
+    "covered_immediate_subfolder_count": 0,
+    "types": {},
+    "extensions": {}
+  },
+  "files": []
+}

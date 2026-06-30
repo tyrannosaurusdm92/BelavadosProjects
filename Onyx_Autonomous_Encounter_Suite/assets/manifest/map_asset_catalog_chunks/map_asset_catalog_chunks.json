@@ -1,0 +1,51 @@
+{
+  "schema": "belavados.map_assets.flat_folder_manifest.v4",
+  "generated_at_utc": "2026-06-30T19:59:17Z",
+  "manifest_only": true,
+  "assets_included_in_this_zip": false,
+  "folder_names_preserved": true,
+  "source_top_folder_name_exact": "map_asset_catalog_chunks",
+  "source_top_folder_relative_path_exact": "map_asset_catalog_chunks",
+  "json_group_name": "map_asset_catalog_chunks",
+  "json_group_type": "top_folder_direct_files",
+  "covered_source_folders_exact": [
+    "map_asset_catalog_chunks"
+  ],
+  "true_root_candidates": {
+    "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\map_asset_catalog_chunks",
+    "d_drive_windows": "D:\\map_assets\\map_asset_catalog_chunks"
+  },
+  "resolution_note": "Use relative_url_from_map_assets_index when index.html is in C:\\Users\\Public\\Pictures\\map_assets or D:\\map_assets. Otherwise use the shown C/D Windows paths with a local file picker/server.",
+  "counts": {
+    "files": 1,
+    "covered_immediate_subfolder_count": 0,
+    "types": {
+      "document": 1
+    },
+    "extensions": {
+      ".md": 1
+    }
+  },
+  "files": [
+    {
+      "name": "README.md",
+      "asset_relative_path": "map_asset_catalog_chunks/README.md",
+      "folder_relative_path": "map_asset_catalog_chunks",
+      "type": "document",
+      "extension": ".md",
+      "size_bytes": 163,
+      "sha256": "8842ea331aad4ace10a922995baf91999da755c633451819fc270818edf13339",
+      "true_path_candidates": {
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\map_asset_catalog_chunks\\README.md",
+        "d_drive_windows": "D:\\map_assets\\map_asset_catalog_chunks\\README.md"
+      },
+      "lookup": {
+        "relative_url_from_map_assets_index": "./map_asset_catalog_chunks/README.md",
+        "public_pictures_windows": "C:\\Users\\Public\\Pictures\\map_assets\\map_asset_catalog_chunks\\README.md",
+        "d_drive_windows": "D:\\map_assets\\map_asset_catalog_chunks\\README.md",
+        "public_pictures_file_url": "file:///C:/Users/Public/Pictures/map_assets/map_asset_catalog_chunks/README.md",
+        "d_drive_file_url": "file:///D:/map_assets/map_asset_catalog_chunks/README.md"
+      }
+    }
+  ]
+}
