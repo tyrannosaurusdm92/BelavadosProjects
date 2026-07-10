@@ -1,0 +1,136 @@
+{
+  "type": "FeatureCollection",
+  "name": "named_parallels",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "named-coordinate-line",
+        "coordinateType": "Latitude / Parallel",
+        "line": "60° N",
+        "name": "Fleysetl's Northern Underworld Gate",
+        "longitude": null,
+        "latitude": 60.0,
+        "isEquator": false,
+        "source": "user-specified line table"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -180,
+            60.0
+          ],
+          [
+            180,
+            60.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "named-coordinate-line",
+        "coordinateType": "Latitude / Parallel",
+        "line": "25° N",
+        "name": "Raeshkul's Thoughtline",
+        "longitude": null,
+        "latitude": 25.0,
+        "isEquator": false,
+        "source": "user-specified line table"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -180,
+            25.0
+          ],
+          [
+            180,
+            25.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "named-coordinate-line",
+        "coordinateType": "Latitude / Parallel",
+        "line": "0°",
+        "name": "Equator",
+        "longitude": null,
+        "latitude": 0.0,
+        "isEquator": true,
+        "source": "user-specified line table"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -180,
+            0.0
+          ],
+          [
+            180,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "named-coordinate-line",
+        "coordinateType": "Latitude / Parallel",
+        "line": "30° S",
+        "name": "Bastveg's Deepwater Passage",
+        "longitude": null,
+        "latitude": -30.0,
+        "isEquator": false,
+        "source": "user-specified line table"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -180,
+            -30.0
+          ],
+          [
+            180,
+            -30.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "named-coordinate-line",
+        "coordinateType": "Latitude / Parallel",
+        "line": "65° S",
+        "name": "Thoryn-Rahek's Southern Underworld Gate",
+        "longitude": null,
+        "latitude": -65.0,
+        "isEquator": false,
+        "source": "user-specified line table"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -180,
+            -65.0
+          ],
+          [
+            180,
+            -65.0
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+{
+  "type": "FeatureCollection",
+  "name": "earth_utc_geometric_time_zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-12:00",
+        "utcOffsetCompact": "UTC-12",
+        "utcOffsetHours": -12,
+        "utcOffsetMinutes": -720,
+        "centralMeridian": -180.0,
+        "westLongitude": -180.0,
+        "eastLongitude": -172.5,
+        "zoneWidthDegrees": 7.5,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180.0,
+              -90
+            ],
+            [
+              -172.5,
+              -90
+            ],
+            [
+              -172.5,
+              90
+            ],
+            [
+              -180.0,
+              90
+            ],
+            [
+              -180.0,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-11:00",
+        "utcOffsetCompact": "UTC-11",
+        "utcOffsetHours": -11,
+        "utcOffsetMinutes": -660,
+        "centralMeridian": -165.0,
+        "westLongitude": -172.5,
+        "eastLongitude": -157.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -172.5,
+              -90
+            ],
+            [
+              -157.5,
+              -90
+            ],
+            [
+              -157.5,
+              90
+            ],
+            [
+              -172.5,
+              90
+            ],
+            [
+              -172.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-10:00",
+        "utcOffsetCompact": "UTC-10",
+        "utcOffsetHours": -10,
+        "utcOffsetMinutes": -600,
+        "centralMeridian": -150.0,
+        "westLongitude": -157.5,
+        "eastLongitude": -142.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -157.5,
+              -90
+            ],
+            [
+              -142.5,
+              -90
+            ],
+            [
+              -142.5,
+              90
+            ],
+            [
+              -157.5,
+              90
+            ],
+            [
+              -157.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-09:00",
+        "utcOffsetCompact": "UTC-9",
+        "utcOffsetHours": -9,
+        "utcOffsetMinutes": -540,
+        "centralMeridian": -135.0,
+        "westLongitude": -142.5,
+        "eastLongitude": -127.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -142.5,
+              -90
+            ],
+            [
+              -127.5,
+              -90
+            ],
+            [
+              -127.5,
+              90
+            ],
+            [
+              -142.5,
+              90
+            ],
+            [
+              -142.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-08:00",
+        "utcOffsetCompact": "UTC-8",
+        "utcOffsetHours": -8,
+        "utcOffsetMinutes": -480,
+        "centralMeridian": -120.0,
+        "westLongitude": -127.5,
+        "eastLongitude": -112.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -127.5,
+              -90
+            ],
+            [
+              -112.5,
+              -90
+            ],
+            [
+              -112.5,
+              90
+            ],
+            [
+              -127.5,
+              90
+            ],
+            [
+              -127.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-07:00",
+        "utcOffsetCompact": "UTC-7",
+        "utcOffsetHours": -7,
+        "utcOffsetMinutes": -420,
+        "centralMeridian": -105.0,
+        "westLongitude": -112.5,
+        "eastLongitude": -97.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.5,
+              -90
+            ],
+            [
+              -97.5,
+              -90
+            ],
+            [
+              -97.5,
+              90
+            ],
+            [
+              -112.5,
+              90
+            ],
+            [
+              -112.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-06:00",
+        "utcOffsetCompact": "UTC-6",
+        "utcOffsetHours": -6,
+        "utcOffsetMinutes": -360,
+        "centralMeridian": -90.0,
+        "westLongitude": -97.5,
+        "eastLongitude": -82.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.5,
+              -90
+            ],
+            [
+              -82.5,
+              -90
+            ],
+            [
+              -82.5,
+              90
+            ],
+            [
+              -97.5,
+              90
+            ],
+            [
+              -97.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-05:00",
+        "utcOffsetCompact": "UTC-5",
+        "utcOffsetHours": -5,
+        "utcOffsetMinutes": -300,
+        "centralMeridian": -75.0,
+        "westLongitude": -82.5,
+        "eastLongitude": -67.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.5,
+              -90
+            ],
+            [
+              -67.5,
+              -90
+            ],
+            [
+              -67.5,
+              90
+            ],
+            [
+              -82.5,
+              90
+            ],
+            [
+              -82.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-04:00",
+        "utcOffsetCompact": "UTC-4",
+        "utcOffsetHours": -4,
+        "utcOffsetMinutes": -240,
+        "centralMeridian": -60.0,
+        "westLongitude": -67.5,
+        "eastLongitude": -52.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -67.5,
+              -90
+            ],
+            [
+              -52.5,
+              -90
+            ],
+            [
+              -52.5,
+              90
+            ],
+            [
+              -67.5,
+              90
+            ],
+            [
+              -67.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-03:00",
+        "utcOffsetCompact": "UTC-3",
+        "utcOffsetHours": -3,
+        "utcOffsetMinutes": -180,
+        "centralMeridian": -45.0,
+        "westLongitude": -52.5,
+        "eastLongitude": -37.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.5,
+              -90
+            ],
+            [
+              -37.5,
+              -90
+            ],
+            [
+              -37.5,
+              90
+            ],
+            [
+              -52.5,
+              90
+            ],
+            [
+              -52.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-02:00",
+        "utcOffsetCompact": "UTC-2",
+        "utcOffsetHours": -2,
+        "utcOffsetMinutes": -120,
+        "centralMeridian": -30.0,
+        "westLongitude": -37.5,
+        "eastLongitude": -22.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -37.5,
+              -90
+            ],
+            [
+              -22.5,
+              -90
+            ],
+            [
+              -22.5,
+              90
+            ],
+            [
+              -37.5,
+              90
+            ],
+            [
+              -37.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC-01:00",
+        "utcOffsetCompact": "UTC-1",
+        "utcOffsetHours": -1,
+        "utcOffsetMinutes": -60,
+        "centralMeridian": -15.0,
+        "westLongitude": -22.5,
+        "eastLongitude": -7.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.5,
+              -90
+            ],
+            [
+              -7.5,
+              -90
+            ],
+            [
+              -7.5,
+              90
+            ],
+            [
+              -22.5,
+              90
+            ],
+            [
+              -22.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+00:00",
+        "utcOffsetCompact": "UTC+0",
+        "utcOffsetHours": 0,
+        "utcOffsetMinutes": 0,
+        "centralMeridian": 0.0,
+        "westLongitude": -7.5,
+        "eastLongitude": 7.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.5,
+              -90
+            ],
+            [
+              7.5,
+              -90
+            ],
+            [
+              7.5,
+              90
+            ],
+            [
+              -7.5,
+              90
+            ],
+            [
+              -7.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+01:00",
+        "utcOffsetCompact": "UTC+1",
+        "utcOffsetHours": 1,
+        "utcOffsetMinutes": 60,
+        "centralMeridian": 15.0,
+        "westLongitude": 7.5,
+        "eastLongitude": 22.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5,
+              -90
+            ],
+            [
+              22.5,
+              -90
+            ],
+            [
+              22.5,
+              90
+            ],
+            [
+              7.5,
+              90
+            ],
+            [
+              7.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+02:00",
+        "utcOffsetCompact": "UTC+2",
+        "utcOffsetHours": 2,
+        "utcOffsetMinutes": 120,
+        "centralMeridian": 30.0,
+        "westLongitude": 22.5,
+        "eastLongitude": 37.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.5,
+              -90
+            ],
+            [
+              37.5,
+              -90
+            ],
+            [
+              37.5,
+              90
+            ],
+            [
+              22.5,
+              90
+            ],
+            [
+              22.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+03:00",
+        "utcOffsetCompact": "UTC+3",
+        "utcOffsetHours": 3,
+        "utcOffsetMinutes": 180,
+        "centralMeridian": 45.0,
+        "westLongitude": 37.5,
+        "eastLongitude": 52.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.5,
+              -90
+            ],
+            [
+              52.5,
+              -90
+            ],
+            [
+              52.5,
+              90
+            ],
+            [
+              37.5,
+              90
+            ],
+            [
+              37.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+04:00",
+        "utcOffsetCompact": "UTC+4",
+        "utcOffsetHours": 4,
+        "utcOffsetMinutes": 240,
+        "centralMeridian": 60.0,
+        "westLongitude": 52.5,
+        "eastLongitude": 67.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.5,
+              -90
+            ],
+            [
+              67.5,
+              -90
+            ],
+            [
+              67.5,
+              90
+            ],
+            [
+              52.5,
+              90
+            ],
+            [
+              52.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+05:00",
+        "utcOffsetCompact": "UTC+5",
+        "utcOffsetHours": 5,
+        "utcOffsetMinutes": 300,
+        "centralMeridian": 75.0,
+        "westLongitude": 67.5,
+        "eastLongitude": 82.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              67.5,
+              -90
+            ],
+            [
+              82.5,
+              -90
+            ],
+            [
+              82.5,
+              90
+            ],
+            [
+              67.5,
+              90
+            ],
+            [
+              67.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+06:00",
+        "utcOffsetCompact": "UTC+6",
+        "utcOffsetHours": 6,
+        "utcOffsetMinutes": 360,
+        "centralMeridian": 90.0,
+        "westLongitude": 82.5,
+        "eastLongitude": 97.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.5,
+              -90
+            ],
+            [
+              97.5,
+              -90
+            ],
+            [
+              97.5,
+              90
+            ],
+            [
+              82.5,
+              90
+            ],
+            [
+              82.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+07:00",
+        "utcOffsetCompact": "UTC+7",
+        "utcOffsetHours": 7,
+        "utcOffsetMinutes": 420,
+        "centralMeridian": 105.0,
+        "westLongitude": 97.5,
+        "eastLongitude": 112.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.5,
+              -90
+            ],
+            [
+              112.5,
+              -90
+            ],
+            [
+              112.5,
+              90
+            ],
+            [
+              97.5,
+              90
+            ],
+            [
+              97.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+08:00",
+        "utcOffsetCompact": "UTC+8",
+        "utcOffsetHours": 8,
+        "utcOffsetMinutes": 480,
+        "centralMeridian": 120.0,
+        "westLongitude": 112.5,
+        "eastLongitude": 127.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.5,
+              -90
+            ],
+            [
+              127.5,
+              -90
+            ],
+            [
+              127.5,
+              90
+            ],
+            [
+              112.5,
+              90
+            ],
+            [
+              112.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+09:00",
+        "utcOffsetCompact": "UTC+9",
+        "utcOffsetHours": 9,
+        "utcOffsetMinutes": 540,
+        "centralMeridian": 135.0,
+        "westLongitude": 127.5,
+        "eastLongitude": 142.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              127.5,
+              -90
+            ],
+            [
+              142.5,
+              -90
+            ],
+            [
+              142.5,
+              90
+            ],
+            [
+              127.5,
+              90
+            ],
+            [
+              127.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+10:00",
+        "utcOffsetCompact": "UTC+10",
+        "utcOffsetHours": 10,
+        "utcOffsetMinutes": 600,
+        "centralMeridian": 150.0,
+        "westLongitude": 142.5,
+        "eastLongitude": 157.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              142.5,
+              -90
+            ],
+            [
+              157.5,
+              -90
+            ],
+            [
+              157.5,
+              90
+            ],
+            [
+              142.5,
+              90
+            ],
+            [
+              142.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+11:00",
+        "utcOffsetCompact": "UTC+11",
+        "utcOffsetHours": 11,
+        "utcOffsetMinutes": 660,
+        "centralMeridian": 165.0,
+        "westLongitude": 157.5,
+        "eastLongitude": 172.5,
+        "zoneWidthDegrees": 15.0,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              157.5,
+              -90
+            ],
+            [
+              172.5,
+              -90
+            ],
+            [
+              172.5,
+              90
+            ],
+            [
+              157.5,
+              90
+            ],
+            [
+              157.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureKind": "earth-utc-geometric-zone",
+        "utcOffset": "UTC+12:00",
+        "utcOffsetCompact": "UTC+12",
+        "utcOffsetHours": 12,
+        "utcOffsetMinutes": 720,
+        "centralMeridian": 180.0,
+        "westLongitude": 172.5,
+        "eastLongitude": 180.0,
+        "zoneWidthDegrees": 7.5,
+        "assignmentMethod": "geometric longitude band, 15° per hour, centered on 0° UTC",
+        "notes": "Longitude-only UTC band for fantasy/project mapping; not political/IANA boundary data."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.5,
+              -90
+            ],
+            [
+              180.0,
+              -90
+            ],
+            [
+              180.0,
+              90
+            ],
+            [
+              172.5,
+              90
+            ],
+            [
+              172.5,
+              -90
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
