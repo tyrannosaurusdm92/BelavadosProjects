@@ -18,7 +18,7 @@ vec3 geoPosition(vec3 geo){
   float lon=geo.x+(uProjection==0?uRotation:0.0), lat=geo.y, elev=geo.z;
   if(uProjection==0){
     float c=cos(lat); vec3 d=vec3(c*cos(lon),sin(lat),c*sin(lon));
-    return d*(1.0+elev/uRadiusM*uExaggeration*38.0);
+    return d*(1.0+elev/uRadiusM*uExaggeration*10.0);
   }
   return vec3(lon/PI*2.42,elev/10000.0*uExaggeration*0.24,lat/(PI*.5)*1.22);
 }
@@ -63,8 +63,9 @@ out vec4 outColor;
 void main(){
   if(vDepth>5.0) discard;
   float deep=clamp(-vDepth/9000.0,0.0,1.0); float fres=pow(1.0-abs(dot(normalize(uEye-vWorld),normalize(vWorld))),2.4);
-  vec3 c=mix(vec3(.015,.32,.43),vec3(.006,.055,.18),deep); c+=fres*vec3(.18,.45,.48)+vWave*.018;
-  outColor=vec4(c,uOpacity*(.58+fres*.3));
+  float shelf=1.0-smoothstep(.02,.42,deep),foam=shelf*max(vWave,0.0)*.22;
+  vec3 c=mix(vec3(.025,.43,.55),vec3(.004,.035,.15),pow(deep,.78));c+=fres*vec3(.20,.48,.52)+vWave*.022+foam*vec3(.35,.62,.58);
+  outColor=vec4(c,uOpacity*(.68+fres*.24));
 }`;
 const ATMOS_VS = `#version 300 es
 precision highp float;
@@ -78,17 +79,30 @@ const LINE_VS = `#version 300 es
 precision highp float;
 layout(location=0) in vec3 aGeo; uniform mat4 uViewProj; uniform int uProjection; uniform float uRotation; uniform float uRadiusM; uniform float uExaggeration;
 const float PI=3.141592653589793;
-void main(){float lon=aGeo.x+(uProjection==0?uRotation:0.0),lat=aGeo.y,e=aGeo.z+20.0;vec3 p;if(uProjection==0){float c=cos(lat);p=vec3(c*cos(lon),sin(lat),c*sin(lon))*(1.002+e/uRadiusM*uExaggeration*38.0);}else p=vec3(lon/PI*2.42,e/10000.0*uExaggeration*.24+.003,lat/(PI*.5)*1.22);gl_Position=uViewProj*vec4(p,1.0);}`;
+void main(){float lon=aGeo.x+(uProjection==0?uRotation:0.0),lat=aGeo.y,e=aGeo.z+20.0;vec3 p;if(uProjection==0){float c=cos(lat);p=vec3(c*cos(lon),sin(lat),c*sin(lon))*(1.002+e/uRadiusM*uExaggeration*10.0);}else p=vec3(lon/PI*2.42,e/10000.0*uExaggeration*.24+.003,lat/(PI*.5)*1.22);gl_Position=uViewProj*vec4(p,1.0);}`;
 const LINE_FS = `#version 300 es
 precision highp float; uniform vec4 uColor; out vec4 outColor; void main(){outColor=uColor;}`;
 const LOCAL_VS = `#version 300 es
 precision highp float;
-layout(location=0) in vec3 aPosition; layout(location=1) in vec3 aColor; uniform mat4 uViewProj; out vec3 vColor; out vec3 vWorld;
-void main(){vColor=aColor;vWorld=aPosition;gl_Position=uViewProj*vec4(aPosition,1.0);}`;
+layout(location=0) in vec3 aPosition; layout(location=1) in vec3 aColor; uniform mat4 uViewProj; uniform int uEnvironment; uniform float uTime; out vec3 vColor; out vec3 vWorld;
+void main(){
+  vec3 p=aPosition;
+  if(uEnvironment==1){float current=sin(uTime*.72+p.x*.41+p.z*.27);float fine=sin(uTime*1.18+p.x*1.13-p.z*.83);float flexible=smoothstep(-4.5,5.2,p.y);p.x+=(current*.035+fine*.012)*(.35+flexible);p.z+=cos(uTime*.63+p.z*.36)*.018*flexible;}
+  vColor=aColor;vWorld=p;gl_Position=uViewProj*vec4(p,1.0);
+}`;
 const LOCAL_FS = `#version 300 es
 precision highp float;
-in vec3 vColor; in vec3 vWorld; uniform vec3 uEye; out vec4 outColor;
-void main(){vec3 n=normalize(cross(dFdx(vWorld),dFdy(vWorld)));if(!gl_FrontFacing)n=-n;float d=max(dot(n,normalize(vec3(.4,.8,.25))),.08);float fog=clamp(length(uEye-vWorld)/75.0,0.0,.7);vec3 c=vColor*(.35+d*.82);outColor=vec4(mix(c,vec3(.04,.09,.11),fog),1.0);}`;
+in vec3 vColor; in vec3 vWorld; uniform vec3 uEye; uniform int uEnvironment; uniform float uTime; out vec4 outColor;
+void main(){
+  vec3 n=normalize(cross(dFdx(vWorld),dFdy(vWorld)));if(!gl_FrontFacing)n=-n;
+  float d=max(dot(n,normalize(vec3(.4,.8,.25))),.08),distanceFog=clamp(length(uEye-vWorld)/75.0,0.0,.82);
+  vec3 c=vColor*(.35+d*.82);
+  if(uEnvironment==1){
+    float caustic=(sin(vWorld.x*1.7+uTime*1.1)+sin(vWorld.z*1.35-uTime*.8)+sin((vWorld.x+vWorld.z)*.72+uTime*.55))/3.0;
+    c*=.76+max(caustic,0.0)*.22;float depthFog=clamp((-vWorld.y+1.0)/18.0,0.0,.72);vec3 waterFog=mix(vec3(.018,.15,.21),vec3(.004,.035,.09),depthFog);c=mix(c,waterFog,max(distanceFog*.74,depthFog*.48));
+  }else if(uEnvironment==2){c=mix(c,vec3(.035,.024,.042),distanceFog*.78);}else c=mix(c,vec3(.04,.09,.11),distanceFog*.62);
+  outColor=vec4(c,1.0);
+}`;
 const LOCAL_WATER_VS = `#version 300 es
 precision highp float;
 layout(location=0) in vec3 aPosition; uniform mat4 uViewProj; uniform float uTime; uniform float uSpeed; uniform float uLevel; out vec3 vWorld;
@@ -103,6 +117,13 @@ void main(){vec4 p=uViewProj*vec4(aPosition,1.0);gl_Position=p;gl_PointSize=clam
 const POINT_FS = `#version 300 es
 precision highp float; in vec3 vColor; out vec4 outColor;
 void main(){vec2 q=gl_PointCoord-.5;float d=dot(q,q);if(d>.25)discard;float a=smoothstep(.25,.04,d);outColor=vec4(vColor,a);}`;
+const CLOUD_FS = `#version 300 es
+precision highp float; in vec3 vColor; out vec4 outColor;
+void main(){
+  vec2 q=(gl_PointCoord-.5)*2.0;q.x*=.72;float d=dot(q,q);if(d>1.0)discard;
+  float lobes=.72+.18*sin(gl_PointCoord.x*19.0)+.10*sin(gl_PointCoord.y*27.0+gl_PointCoord.x*8.0),edge=1.0-smoothstep(.42,1.0,d),core=1.0-smoothstep(.08,.75,d);
+  float alpha=edge*(.20+.32*core)*lobes;outColor=vec4(vColor*(.82+.18*core),alpha);
+}`;
 
 function shader(gl,type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s;}
 function program(gl,vs,fs){const p=gl.createProgram();gl.attachShader(p,shader(gl,gl.VERTEX_SHADER,vs));gl.attachShader(p,shader(gl,gl.FRAGMENT_SHADER,fs));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(p));return p;}
@@ -126,10 +147,10 @@ export class WorldRenderer {
     this.canvas=canvas; this.gl=canvas.getContext('webgl2',{antialias:true,alpha:false,powerPreference:'high-performance'});
     if(!this.gl)throw new Error('WebGL2 is required.');
     const gl=this.gl;
-    this.programs={terrain:program(gl,WORLD_VS,TERRAIN_FS),water:program(gl,WATER_VS,WATER_FS),atmos:program(gl,ATMOS_VS,ATMOS_FS),line:program(gl,LINE_VS,LINE_FS),local:program(gl,LOCAL_VS,LOCAL_FS),localWater:program(gl,LOCAL_WATER_VS,LOCAL_WATER_FS),point:program(gl,POINT_VS,POINT_FS)};
-    this.world={vao:null,count:0}; this.surfaceTexture=null; this.useSurfaceTexture=false; this.lines={vao:null,count:0}; this.local={vao:null,count:0}; this.structures={vao:null,count:0}; this.life={vao:null,count:0,positions:null,velocities:null,posBuffer:null}; this.localObjectMesh={vao:null,count:0}; this.localObjects=[]; this.points={vao:null,count:0};
-    this.model=null; this.features=[]; this.geoLines=[]; this.scene='world'; this.projection='globe'; this.exaggeration=1.6; this.timeSpeed=1;
-    this.flags={water:true,atmosphere:true,features:true,life:true,rotation:true,eruption:false};
+    this.programs={terrain:program(gl,WORLD_VS,TERRAIN_FS),water:program(gl,WATER_VS,WATER_FS),atmos:program(gl,ATMOS_VS,ATMOS_FS),line:program(gl,LINE_VS,LINE_FS),local:program(gl,LOCAL_VS,LOCAL_FS),localWater:program(gl,LOCAL_WATER_VS,LOCAL_WATER_FS),point:program(gl,POINT_VS,POINT_FS),weather:program(gl,POINT_VS,CLOUD_FS)};
+    this.world={vao:null,count:0}; this.ocean={vao:null,count:0}; this.weatherClouds={vao:null,count:0}; this.weatherParticles=[]; this.surfaceTexture=null; this.useSurfaceTexture=false; this.lines={vao:null,count:0}; this.local={vao:null,count:0}; this.structures={vao:null,count:0}; this.life={vao:null,count:0,positions:null,velocities:null,posBuffer:null}; this.localObjectMesh={vao:null,count:0}; this.localObjects=[]; this.points={vao:null,count:0};
+    this.model=null; this.features=[]; this.geoLines=[]; this.scene='world'; this.projection='globe'; this.exaggeration=1.0; this.timeSpeed=1;
+    this.flags={water:true,atmosphere:true,weather:true,features:false,life:true,rotation:true,eruption:false};
     this.time=0; this.rotation=0; this.eye=v3(0,0,3.25); this.target=v3(0,0,0); this.yaw=.68; this.pitch=.25; this.distance=3.25;
     this.localWaterLevel=0; this.localEnvironment='surface'; this.selectedFeature=null; this.selectedLocalObject=null; this.keys=new Set(); this.drag=null; this.clickHandler=null; this.doubleClickHandler=null;
     this.eruption=[]; this.stars=this.makeStars(1200); this.waterPlane=this.makeWaterPlane();
@@ -186,26 +207,39 @@ export class WorldRenderer {
     else if(this.scene==='cave'){this.distance=24;this.yaw=.7;this.pitch=.2;}
     else{this.distance=27;this.yaw=.72;this.pitch=.42;}
   }
-  async setWorldModel(model,segments=192,rings=96){
-    this.model=model; const gl=this.gl,geo=[],colors=[],indices=[];
+  async setWorldModel(model,segments=224,rings=112){
+    this.model=model; const gl=this.gl,geo=[],colors=[],indices=[],oceanIndices=[],elevations=[],waters=[];
     for(let y=0;y<=rings;y++){
       const lat=-90+y/rings*180;
       for(let x=0;x<=segments;x++){
         const lon=-180+x/segments*360,e=model.elevationAt(lat,lon),b=model.biomeAt(lat,lon,e);
-        geo.push(degToRad(lon),degToRad(lat),e);colors.push(...b.color);
+        geo.push(degToRad(lon),degToRad(lat),e);elevations.push(e);waters.push(model.waterAt?model.waterAt(lat,lon):(e<=model.seaLevelM?1:0));colors.push(...b.color);
       }
-      if(y%10===0)await new Promise(r=>setTimeout(r,0));
+      if(y%8===0)await new Promise(r=>setTimeout(r,0));
     }
     for(let y=0;y<rings;y++)for(let x=0;x<segments;x++){
       const a=y*(segments+1)+x,b=a+1,c=a+segments+1,d=c+1;indices.push(a,c,b,b,c,d);
+      const wa=waters[a]>.48||elevations[a]<=model.seaLevelM+5,wb=waters[b]>.48||elevations[b]<=model.seaLevelM+5,wc=waters[c]>.48||elevations[c]<=model.seaLevelM+5,wd=waters[d]>.48||elevations[d]<=model.seaLevelM+5;
+      if(wa||wb||wc)oceanIndices.push(a,c,b);if(wb||wc||wd)oceanIndices.push(b,c,d);
     }
-    if(this.world.vao)gl.deleteVertexArray(this.world.vao);
-    const vao=gl.createVertexArray();gl.bindVertexArray(vao);
-    const gb=buffer(gl,new Float32Array(geo));gl.bindBuffer(gl.ARRAY_BUFFER,gb);gl.enableVertexAttribArray(0);gl.vertexAttribPointer(0,3,gl.FLOAT,false,0,0);
-    const cb=buffer(gl,new Float32Array(colors));gl.bindBuffer(gl.ARRAY_BUFFER,cb);gl.enableVertexAttribArray(1);gl.vertexAttribPointer(1,3,gl.FLOAT,false,0,0);
-    const ib=buffer(gl,new Uint32Array(indices),gl.ELEMENT_ARRAY_BUFFER);
-    this.world={vao,count:indices.length,geoBuffer:gb,colorBuffer:cb,indexBuffer:ib};gl.bindVertexArray(null);
-    this.setFeatures(model.features||[]);this.setGeoLines(this.geoLines);
+    if(this.world.vao)gl.deleteVertexArray(this.world.vao);if(this.ocean.vao)gl.deleteVertexArray(this.ocean.vao);
+    const gb=buffer(gl,new Float32Array(geo)),cb=buffer(gl,new Float32Array(colors));
+    const vao=gl.createVertexArray();gl.bindVertexArray(vao);gl.bindBuffer(gl.ARRAY_BUFFER,gb);gl.enableVertexAttribArray(0);gl.vertexAttribPointer(0,3,gl.FLOAT,false,0,0);gl.bindBuffer(gl.ARRAY_BUFFER,cb);gl.enableVertexAttribArray(1);gl.vertexAttribPointer(1,3,gl.FLOAT,false,0,0);const ib=buffer(gl,new Uint32Array(indices),gl.ELEMENT_ARRAY_BUFFER);gl.bindVertexArray(null);
+    const ovao=gl.createVertexArray();gl.bindVertexArray(ovao);gl.bindBuffer(gl.ARRAY_BUFFER,gb);gl.enableVertexAttribArray(0);gl.vertexAttribPointer(0,3,gl.FLOAT,false,0,0);gl.bindBuffer(gl.ARRAY_BUFFER,cb);gl.enableVertexAttribArray(1);gl.vertexAttribPointer(1,3,gl.FLOAT,false,0,0);const oib=buffer(gl,new Uint32Array(oceanIndices),gl.ELEMENT_ARRAY_BUFFER);gl.bindVertexArray(null);
+    this.world={vao,count:indices.length,geoBuffer:gb,colorBuffer:cb,indexBuffer:ib};this.ocean={vao:ovao,count:oceanIndices.length,indexBuffer:oib,coverage:oceanIndices.length/Math.max(1,indices.length)};
+    this.setFeatures(model.features||[]);this.setGeoLines(this.geoLines);this.updateWeatherClouds();
+  }
+  setWeatherSystems(systems=[]){
+    this.weatherParticles=[];
+    for(const cell of systems){const intensity=clamp(Number(cell.intensity??cell.weatherPattern?.intensity??.35),0,1),seed=String(cell.id||cell.name||'weather').split('').reduce((a,c)=>(a*33+c.charCodeAt(0))>>>0,5381),count=32+Math.round(intensity*62);let n=seed||1;const rnd=()=>((n=Math.imul(n^n>>>15,1|n)+0x6D2B79F5|0),(n^n>>>14)>>>0)/4294967296;
+      for(let i=0;i<count;i++){const radial=Math.sqrt(rnd()),angle=rnd()*Math.PI*2;this.weatherParticles.push({lat:Number(cell.lat||0)+Math.sin(angle)*radial*(3.2+intensity*7.5),lon:Number(cell.lon||0)+Math.cos(angle)*radial*(5.8+intensity*13),height:1.019+rnd()*.012+intensity*.006,color:[.70+intensity*.12,.76+intensity*.12,.83+intensity*.12],size:12+rnd()*18+intensity*18,drift:Number(cell.drift||0)});}
+    }
+    this.updateWeatherClouds(true);
+  }
+  updateWeatherClouds(force=false){
+    if(!this.weatherParticles.length){this.weatherClouds.count=0;return;}const pos=new Float32Array(this.weatherParticles.length*3),colors=new Float32Array(this.weatherParticles.length*3),sizes=new Float32Array(this.weatherParticles.length);
+    for(let i=0;i<this.weatherParticles.length;i++){const q=this.weatherParticles[i],lat=degToRad(q.lat),lon=degToRad(q.lon+q.drift*this.time*180)+(this.projection==='globe'?this.rotation:0);if(this.projection==='globe'){const c=Math.cos(lat);pos.set([c*Math.cos(lon)*q.height,Math.sin(lat)*q.height,c*Math.sin(lon)*q.height],i*3);}else pos.set([lon/Math.PI*2.42,.035+q.height*.01,lat/(Math.PI*.5)*1.22],i*3);colors.set(q.color,i*3);sizes[i]=q.size;}
+    if(this.weatherClouds.count===this.weatherParticles.length&&this.weatherClouds.posBuffer&&!force){this.weatherClouds.positions=pos;const gl=this.gl;gl.bindBuffer(gl.ARRAY_BUFFER,this.weatherClouds.posBuffer);gl.bufferSubData(gl.ARRAY_BUFFER,0,pos);}else this.weatherClouds=this.createPointMesh(pos,colors,sizes,this.weatherClouds||{});
   }
   setFeatures(features){this.features=features||[];this.updateFeaturePoints();}
   setGeoLines(lines){
@@ -231,7 +265,7 @@ export class WorldRenderer {
   featurePosition(f){
     const lat=degToRad(f.lat||0),lon=degToRad(f.lon||0)+(this.projection==='globe'?this.rotation:0),e=f.elevation_m??this.model?.elevationAt(f.lat,f.lon)??0;
     if(this.scene!=='world')return v3(0,1,0);
-    if(this.projection==='globe'){const c=Math.cos(lat),r=1.006+e/(this.model.radiusKm*1e3)*this.exaggeration*38;return v3(c*Math.cos(lon)*r,Math.sin(lat)*r,c*Math.sin(lon)*r);}
+    if(this.projection==='globe'){const c=Math.cos(lat),r=1.006+e/(this.model.radiusKm*1e3)*this.exaggeration*10;return v3(c*Math.cos(lon)*r,Math.sin(lat)*r,c*Math.sin(lon)*r);}
     return v3(lon/Math.PI*2.42,e/10000*this.exaggeration*.24+.018,lat/(Math.PI*.5)*1.22);
   }
   createPointMesh(positions,colors,sizes,old={}){
@@ -251,7 +285,8 @@ export class WorldRenderer {
   }
   setLocalObjects(objects=[]){
     this.localObjects=objects;const positions=[],colors=[],sizes=[];
-    for(const o of objects){positions.push(...o.position);colors.push(...(o.color||colorForType(o.type)));sizes.push(o.size||8);}
+    for(const o of objects){if(o.renderAsPoint===false)continue;positions.push(...o.position);colors.push(...(o.color||colorForType(o.type)));sizes.push(o.size||8);}
+    if(!positions.length){if(this.localObjectMesh?.vao)this.gl.deleteVertexArray(this.localObjectMesh.vao);this.localObjectMesh={vao:null,count:0};return;}
     this.localObjectMesh=this.createPointMesh(new Float32Array(positions),new Float32Array(colors),new Float32Array(sizes),this.localObjectMesh||{});
   }
   setLocalScene(mesh,life,mode='local',extras={}){
@@ -317,19 +352,19 @@ export class WorldRenderer {
   }
   uniform(p,name){return this.gl.getUniformLocation(p,name);}
   setCommonWorldUniforms(p,vp){const gl=this.gl;gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);const locEye=this.uniform(p,'uEye');if(locEye)gl.uniform3fv(locEye,this.eye);const locProj=this.uniform(p,'uProjection');if(locProj)gl.uniform1i(locProj,this.projection==='globe'?0:1);const locEx=this.uniform(p,'uExaggeration');if(locEx)gl.uniform1f(locEx,this.exaggeration);const locR=this.uniform(p,'uRadiusM');if(locR)gl.uniform1f(locR,(this.model?.radiusKm||6371)*1000);const locRot=this.uniform(p,'uRotation');if(locRot)gl.uniform1f(locRot,this.rotation);}
-  drawPoints(mesh,vp){if(!mesh?.count)return;const gl=this.gl,p=this.programs.point;gl.useProgram(p);gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);gl.bindVertexArray(mesh.vao);gl.drawArrays(gl.POINTS,0,mesh.count);}
+  drawPoints(mesh,vp,pointProgram=this.programs.point){if(!mesh?.count)return;const gl=this.gl,p=pointProgram;gl.useProgram(p);gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);gl.bindVertexArray(mesh.vao);gl.drawArrays(gl.POINTS,0,mesh.count);}
   drawWorld(vp){
     const gl=this.gl;if(!this.world.count)return;
     gl.enable(gl.DEPTH_TEST);gl.enable(gl.CULL_FACE);gl.cullFace(gl.BACK);
     let p=this.programs.terrain;gl.useProgram(p);this.setCommonWorldUniforms(p,vp);gl.uniform1f(this.uniform(p,'uTime'),this.time);gl.uniform1i(this.uniform(p,'uUseSurface'),this.useSurfaceTexture&&this.surfaceTexture?1:0);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,this.surfaceTexture);gl.uniform1i(this.uniform(p,'uSurfaceMap'),0);gl.bindVertexArray(this.world.vao);gl.drawElements(gl.TRIANGLES,this.world.count,gl.UNSIGNED_INT,0);
-    if(this.flags.water){p=this.programs.water;gl.useProgram(p);this.setCommonWorldUniforms(p,vp);gl.uniform1f(this.uniform(p,'uTime'),this.time);gl.uniform1f(this.uniform(p,'uSpeed'),this.timeSpeed);gl.uniform1f(this.uniform(p,'uOpacity'),.8);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);gl.drawElements(gl.TRIANGLES,this.world.count,gl.UNSIGNED_INT,0);gl.depthMask(true);gl.disable(gl.BLEND);}
+    if(this.flags.water&&this.ocean.count){p=this.programs.water;gl.useProgram(p);this.setCommonWorldUniforms(p,vp);gl.uniform1f(this.uniform(p,'uTime'),this.time);gl.uniform1f(this.uniform(p,'uSpeed'),this.timeSpeed);gl.uniform1f(this.uniform(p,'uOpacity'),.92);gl.bindVertexArray(this.ocean.vao);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);gl.drawElements(gl.TRIANGLES,this.ocean.count,gl.UNSIGNED_INT,0);gl.depthMask(true);gl.disable(gl.BLEND);}
     if(this.lines.count){p=this.programs.line;gl.useProgram(p);this.setCommonWorldUniforms(p,vp);gl.uniform4f(this.uniform(p,'uColor'),.12,.78,1,.72);gl.bindVertexArray(this.lines.vao);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);gl.drawArrays(gl.LINES,0,this.lines.count);gl.disable(gl.BLEND);}
     if(this.flags.atmosphere&&this.projection==='globe'){p=this.programs.atmos;gl.useProgram(p);gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);gl.uniform1f(this.uniform(p,'uRotation'),this.rotation);gl.uniform3fv(this.uniform(p,'uEye'),this.eye);gl.bindVertexArray(this.world.vao);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);gl.depthMask(false);gl.cullFace(gl.FRONT);gl.drawElements(gl.TRIANGLES,this.world.count,gl.UNSIGNED_INT,0);gl.cullFace(gl.BACK);gl.depthMask(true);gl.disable(gl.BLEND);}
-    if(this.flags.features){this.updateFeaturePoints();gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);this.drawPoints(this.points,vp);gl.disable(gl.BLEND);}
+    if(this.flags.weather&&this.weatherClouds.count){this.updateWeatherClouds();gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);this.drawPoints(this.weatherClouds,vp,this.programs.weather);gl.disable(gl.BLEND);}if(this.flags.features){this.updateFeaturePoints();gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);this.drawPoints(this.points,vp);gl.disable(gl.BLEND);}
   }
   drawLocal(vp){
     const gl=this.gl;if(!this.local.count)return;gl.enable(gl.DEPTH_TEST);if(this.scene==='cave')gl.disable(gl.CULL_FACE);else{gl.enable(gl.CULL_FACE);gl.cullFace(gl.BACK);}
-    let p=this.programs.local;gl.useProgram(p);gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);gl.uniform3fv(this.uniform(p,'uEye'),this.eye);gl.bindVertexArray(this.local.vao);gl.drawElements(gl.TRIANGLES,this.local.count,gl.UNSIGNED_INT,0);
+    let p=this.programs.local;gl.useProgram(p);gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);gl.uniform3fv(this.uniform(p,'uEye'),this.eye);gl.uniform1i(this.uniform(p,'uEnvironment'),this.localEnvironment==='underwater'?1:this.localEnvironment==='cave'?2:0);gl.uniform1f(this.uniform(p,'uTime'),this.time);gl.bindVertexArray(this.local.vao);gl.drawElements(gl.TRIANGLES,this.local.count,gl.UNSIGNED_INT,0);
     if(this.structures?.count){gl.bindVertexArray(this.structures.vao);gl.drawElements(gl.TRIANGLES,this.structures.count,gl.UNSIGNED_INT,0);}
     if(this.flags.water&&this.scene!=='cave'&&this.localWaterLevel>-900){p=this.programs.localWater;gl.useProgram(p);gl.uniformMatrix4fv(this.uniform(p,'uViewProj'),false,vp);gl.uniform3fv(this.uniform(p,'uEye'),this.eye);gl.uniform1f(this.uniform(p,'uTime'),this.time);gl.uniform1f(this.uniform(p,'uSpeed'),this.timeSpeed);gl.uniform1f(this.uniform(p,'uLevel'),this.localWaterLevel);gl.bindVertexArray(this.waterPlane.vao);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);gl.depthMask(true);gl.disable(gl.BLEND);}
     if(this.flags.life&&this.life.count){gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE);this.drawPoints(this.life,vp);gl.disable(gl.BLEND);}
@@ -352,7 +387,7 @@ export class WorldRenderer {
     const p=this.featurePosition(f),vp=this.viewProjection(),clip=transformPoint(vp,[p[0],p[1],p[2],1]);if(clip[3]<=0)return null;const x=(clip[0]/clip[3]*.5+.5)*this.canvas.clientWidth,y=(-clip[1]/clip[3]*.5+.5)*this.canvas.clientHeight;return{x,y,z:clip[2]/clip[3]};
   }
   nearestFeature(clientX,clientY,maxPx=24){
-    let best=null,bd=maxPx;for(const f of this.features){const p=this.projectFeature(f);if(!p||p.z>1)continue;const d=Math.hypot(p.x-clientX,p.y-clientY);if(d<bd){bd=d;best=f;}}return best;
+    if(!this.flags.features)return null;let best=null,bd=maxPx;for(const f of this.features){const p=this.projectFeature(f);if(!p||p.z>1)continue;const d=Math.hypot(p.x-clientX,p.y-clientY);if(d<bd){bd=d;best=f;}}return best;
   }
   focusFeature(f){
     this.selectedFeature=f;if(this.scene!=='world')return;const p=this.featurePosition(f);this.target.set(p);this.distance=this.projection==='globe'?.48:.6;this.yaw+=.03;this.pitch=.18;

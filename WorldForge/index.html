@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   <meta name="theme-color" content="#07121d">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://script.google.com https://script.googleusercontent.com; worker-src 'self' blob:;">
-  <title>WorldForge Immersive Globe Creator</title>
+  <title>WorldForge Immersive Globe Creator — Continuous Terrain Edition</title>
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
       <div class="brand-orb">◉</div>
       <div>
         <h1>WorldForge Immersive Globe Creator</h1>
-        <p>Full 3D topography, explorable caves, patterned weather, living oceans, settlements, source merging, and standalone exports</p>
+        <p>Continuous coast-to-summit terrain, visible oceans, explorable caves, patterned weather, living ecosystems, and standalone exports</p>
       </div>
     </div>
     <div class="status-strip">
@@ -67,8 +67,8 @@
           <option value="cave">Cave / cavern</option>
         </select>
       </label>
-      <label>Vertical exaggeration <output id="exaggeration-value">1.6×</output>
-        <input id="exaggeration" type="range" min="0.2" max="7" value="1.6" step="0.1">
+      <label>Vertical exaggeration <output id="exaggeration-value">1.0×</output>
+        <input id="exaggeration" type="range" min="0.25" max="4" value="1.0" step="0.05">
       </label>
       <label>World activity speed <output id="time-value">Real time</output>
         <select id="time-speed">
@@ -84,7 +84,8 @@
       <div class="toggle-grid">
         <label><input id="toggle-water" type="checkbox" checked> Water</label>
         <label><input id="toggle-atmosphere" type="checkbox" checked> Atmosphere</label>
-        <label><input id="toggle-features" type="checkbox" checked> Features</label>
+        <label><input id="toggle-weather" type="checkbox" checked> Weather clouds</label>
+        <label><input id="toggle-features" type="checkbox"> Pins / point overlays</label>
         <label><input id="toggle-life" type="checkbox" checked> Life / objects</label>
         <label><input id="toggle-rotation" type="checkbox" checked> Rotation</label>
         <label><input id="toggle-eruption" type="checkbox"> Eruptions</label>
@@ -102,6 +103,7 @@
 
     <section>
       <h2>Import geological data</h2>
+      <p class="hint">Surface, height, depth, and bathymetry images are fused into a gradual continuous field. Single-pixel cliffs are slope-limited before rendering.</p>
       <div id="drop-zone" class="drop-zone" tabindex="0">
         <strong>Drop files or folders here</strong>
         <span>JSON · GeoJSON · images · ZIP · DOCX · SVG · CSS · JavaScript · HTML · models · entire folders</span>
@@ -163,6 +165,7 @@
 
     <section>
       <h2>Coordinates & terrain</h2>
+      <div id="terrain-quality" class="compact-status"><span>Continuous terrain</span><span>No raw grayscale spikes</span></div>
       <dl class="readout">
         <div><dt>Latitude</dt><dd id="read-lat">0.000°</dd></div>
         <div><dt>Longitude</dt><dd id="read-lon">0.000°</dd></div>
