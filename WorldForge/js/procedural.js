@@ -80,7 +80,7 @@ export class WorldModel {
     this.profile = null;
     this.random = seededRandom(this.seed);
   }
-  setHeightmap(map){ this.heightmap=map; this.terrainDiagnostics=map?.diagnostics||null; }
+  setHeightmap(map){ this.heightmap=map; }
   setProfile(profile){ this.profile=profile; }
   sampleHeightmap(lat,lon){
     const h=this.heightmap;
@@ -88,32 +88,31 @@ export class WorldModel {
     const u=((lon+180)/360)*(h.width-1), v=((90-lat)/180)*(h.height-1);
     const x0=Math.floor(u), y0=Math.floor(v), x1=Math.min(h.width-1,x0+1), y1=Math.min(h.height-1,y0+1);
     const tx=u-x0, ty=v-y0;
-    const i=(x,y)=>h.values[y*h.width+x];
-    const val=lerp(lerp(i(x0,y0),i(x1,y0),tx),lerp(i(x0,y1),i(x1,y1),tx),ty);
-    return h.meters===true ? val : lerp(h.minElevationM, h.maxElevationM, val);
-  }
-  waterAt(lat,lon){
-    const h=this.heightmap;
-    if(h?.waterMask?.length===h.width*h.height){
-      const u=((lon+180)/360)*(h.width-1),v=((90-lat)/180)*(h.height-1),x0=Math.floor(u),y0=Math.floor(v),x1=Math.min(h.width-1,x0+1),y1=Math.min(h.height-1,y0+1),tx=u-x0,ty=v-y0,i=(x,y)=>h.waterMask[y*h.width+x];
-      return clamp(lerp(lerp(i(x0,y0),i(x1,y0),tx),lerp(i(x0,y1),i(x1,y1),tx),ty),0,1);
+    const i=(x,y)=>h.values[Math.max(0,Math.min(h.height-1,y))*h.width+Math.max(0,Math.min(h.width-1,x))];
+    const bilerp=lerp(lerp(i(x0,y0),i(x1,y0),tx),lerp(i(x0,y1),i(x1,y1),tx),ty);
+    let acc=bilerp*4, weight=4;
+    for(let oy=-1;oy<=1;oy++)for(let ox=-1;ox<=1;ox++){
+      if(!ox&&!oy)continue;
+      const w=(Math.abs(ox)+Math.abs(oy)===2)?.5:1;
+      acc+=i(Math.round(u)+ox,Math.round(v)+oy)*w; weight+=w;
     }
-    return this.elevationAt(lat,lon)<=this.seaLevelM?1:0;
+    const val=acc/weight;
+    return lerp(h.minElevationM, h.maxElevationM, val);
   }
   baseField(lat,lon){
     const x=(lon+180)/55, y=(lat+90)/48;
-    const n=fbm(x,y,this.seed,6), detail=fbm(x*4.2,y*4.2,this.seed+77,4);
+    const continental=fbm(x,y,this.seed,5), regional=fbm(x*.6,y*.6,this.seed+431,4), detail=fbm(x*2.6,y*2.6,this.seed+77,3);
     if(this.preset==='earth'){
       let c=-.72;
       for(const [clat,clon,rlat,rlon,w] of EARTH_CONTINENTS) c += gaussianGeo(lat,lon,clat,clon,rlat,rlon)*w;
-      c += n*.31 + detail*.06;
+      c += continental*.26 + regional*.18 + detail*.04;
       return c;
     }
     const waterBias=(this.waterPercent-50)/50;
-    let c=n*.92 + fbm(x*.35,y*.35,this.seed+431,5)*.58 - waterBias*.68;
-    if(this.preset==='oceanic') c-=.42;
-    if(this.preset==='verdant') c+=.12;
-    if(this.preset==='volcanic') c+=ridge(fbm(x*1.8,y*1.8,this.seed+99,4))*.18-.08;
+    let c=continental*.68 + regional*.34 + detail*.08 - waterBias*.62;
+    if(this.preset==='oceanic') c-=.36;
+    if(this.preset==='verdant') c+=.10;
+    if(this.preset==='volcanic') c+=ridge(fbm(x*1.4,y*1.4,this.seed+99,4))*.12-.04;
     return c;
   }
   elevationAt(lat,lon){
@@ -123,27 +122,27 @@ export class WorldModel {
     const shoreThreshold=this.preset==='earth' ? 0 : .02;
     let elevation;
     if(field>shoreThreshold){
-      const inland=smoothstep(shoreThreshold,1.2,field);
+      const inland=smoothstep(shoreThreshold,1.1,field);
       const x=(lon+180)/23, y=(lat+90)/23;
-      const rugged=ridge(fbm(x,y,this.seed+200,5));
-      elevation=80 + inland*2800 + Math.pow(rugged,4)*inland*1800;
+      const rugged=ridge(fbm(x,y,this.seed+200,4));
+      const foothills=smoothstep(.03,.18,field);
+      elevation=lerp(20,220,inland)+inland*2200 + Math.pow(rugged,3.2)*foothills*1200;
       if(this.preset==='earth'){
         let ranges=0;
         for(const [clat,clon,rlat,rlon,w] of EARTH_RANGES) ranges=Math.max(ranges,gaussianGeo(lat,lon,clat,clon,rlat,rlon)*w);
-        elevation+=Math.pow(ranges,1.6)*6200;
+        elevation+=Math.pow(ranges,1.45)*5200;
       }
-      if(this.preset==='volcanic') elevation+=Math.pow(ridge(fbm(x*1.4,y*1.4,this.seed+910,4)),8)*4200;
+      if(this.preset==='volcanic') elevation+=Math.pow(ridge(fbm(x*1.15,y*1.15,this.seed+910,4)),7)*3200;
     } else {
-      const depth=smoothstep(shoreThreshold,-1.3,field);
-      const trench=Math.pow(ridge(fbm((lon+180)/17,(lat+90)/17,this.seed+500,5)),10);
-      elevation=-40-depth*5600-trench*depth*3900;
+      const shelf=smoothstep(shoreThreshold,-.08,field);
+      const basin=smoothstep(-.18,-1.3,field);
+      const trench=Math.pow(ridge(fbm((lon+180)/17,(lat+90)/17,this.seed+500,4)),8);
+      elevation=-(18 + shelf*260 + basin*5200 + trench*basin*2400);
     }
     for(const f of this.features){
-      if(typeof f.lat!=='number'||typeof f.lon!=='number'||typeof f.elevation_m!=='number')continue;
-      const type=String(f.type||f.feature_type||'').toLowerCase(),explicit=f.terrainInfluence===true,geological=/mountain|range|volcano|caldera|trench|canyon|valley|ridge|plate|basin|seamount/.test(type),overlay=/pin|marker|settlement|province|capital|city|town|village|weather|storm|cloud|npc|creature|route|label/.test(type);
-      if(overlay||(!explicit&&!geological))continue;
-      const radiusLat=Math.max(4,Number(f.influence_lat)||6.5),radiusLon=Math.max(4,Number(f.influence_lon)||6.5),influence=gaussianGeo(lat,lon,Number(f.lat),Number(f.lon),radiusLat,radiusLon);
-      if(influence>.001){const blend=Math.min(.72,Math.pow(influence,1.55)*.62);elevation=lerp(elevation,Number(f.elevation_m),blend);}
+      if(typeof f.lat!=='number'||typeof f.lon!=='number'||typeof f.elevation_m!=='number') continue;
+      const influence=gaussianGeo(lat,lon,f.lat,f.lon,f.influence_lat||2.2,f.influence_lon||2.2);
+      if(influence>.002) elevation=lerp(elevation,f.elevation_m,Math.pow(influence,2.1));
     }
     return clamp(elevation,this.minElevationM,this.maxElevationM);
   }
@@ -157,10 +156,10 @@ export class WorldModel {
     return {temperature,moisture};
   }
   biomeAt(lat,lon,elevation=this.elevationAt(lat,lon)){
-    const {temperature,moisture}=this.climateAt(lat,lon,elevation),water=this.heightmap?this.waterAt(lat,lon):(elevation<this.seaLevelM?1:0);
+    const {temperature,moisture}=this.climateAt(lat,lon,elevation);
     let name;
-    if(water>.56&&elevation < -2500) name='Deep ocean';
-    else if(water>.50||elevation < -25) name=temperature>18&&moisture>.75?'Ocean with reefs':'Deep ocean';
+    if(elevation < -2500) name='Deep ocean';
+    else if(elevation < -25) name=temperature>18&&moisture>.75?'Ocean with reefs':'Deep ocean';
     else if(elevation < 45) name=moisture>.72?'Beach and reefs with water':'Beach and grass with water';
     else if(Math.abs(lat)>73) name='Ice cap';
     else if(elevation>4200||temperature<-8) name='Ice cap';
@@ -183,7 +182,7 @@ export class WorldModel {
     return {
       schema:'worlddepth.world.v1', name:this.name, preset:this.preset, seed:this.seed, radius_km:this.radiusKm,
       water_percent:this.waterPercent, sea_level_m:this.seaLevelM, min_elevation_m:this.minElevationM,
-      max_elevation_m:this.maxElevationM, features:this.features, active_settlement_profile:this.profile?.name||null, terrain_diagnostics:this.terrainDiagnostics||null
+      max_elevation_m:this.maxElevationM, features:this.features, active_settlement_profile:this.profile?.name||null
     };
   }
 }
@@ -200,24 +199,38 @@ export function worldOptionsForPreset(preset,seed,waterPercent){
 export function makeLocalTerrain(model, focus, mode='local', profile=null, resolution=128){
   const size=30, verts=[], colors=[], indices=[];
   const biomeNames=profile?.biomes?.map(b=>b.name)||[];
+  const cache=new Map();
+  const smoothedElevation=(lat,lon)=>{
+    const key=`${lat.toFixed(4)}:${lon.toFixed(4)}`;
+    if(cache.has(key))return cache.get(key);
+    const offsets=[[0,0,4],[-.012,0,1],[.012,0,1],[0,-.012,1],[0,.012,1],[-.008,-.008,.7],[.008,-.008,.7],[-.008,.008,.7],[.008,.008,.7]];
+    let acc=0,w=0;
+    for(const [dy,dx,wt] of offsets){acc+=model.elevationAt(lat+dy,lon+dx)*wt;w+=wt;}
+    const val=acc/w; cache.set(key,val); return val;
+  };
+  const center=smoothedElevation(focus.lat,focus.lon);
   for(let z=0;z<=resolution;z++){
     for(let x=0;x<=resolution;x++){
       const px=(x/resolution-.5)*size, pz=(z/resolution-.5)*size;
       const lat=focus.lat+pz*.018, lon=focus.lon+px*.018/Math.max(.25,Math.cos(degToRad(focus.lat)));
-      let elev=model.elevationAt(lat,lon);
-      const broad=fbm(px/12,pz/12,model.seed+1700,5),medium=fbm(px/5.5,pz/5.5,model.seed+1800,4),fine=fbm(px/2.8,pz/2.8,model.seed+1900,3);
-      const localNoise=broad*185+medium*72+fine*18;
-      if(mode==='underwater') elev=Math.min(-120,elev)-localNoise*.42;
-      else elev=elev+localNoise;
-      const center=model.elevationAt(focus.lat,focus.lon);
-      let y=(elev-center)/420;
-      if(mode==='underwater') y=(elev-Math.min(-120,center))/520-4.2;
+      let elev=smoothedElevation(lat,lon);
+      const broad=fbm(px/12,pz/12,model.seed+1700,4)*110;
+      const detail=fbm(px/5,pz/5,model.seed+1800,3)*24;
+      if(mode==='underwater') elev=Math.min(-120,elev)+broad*.22+detail*.12;
+      else elev=elev+broad*.28+detail*.12;
+      let y=(elev-center)/520;
+      if(mode==='underwater') y=(elev+Math.abs(Math.min(-180,center)))/520-3.6;
       const b=model.biomeAt(lat,lon,elev);
       let color=b.color;
+      if(mode==='underwater'){
+        const depth=Math.max(0,-elev/9000);
+        color=depth>.65?[.10,.22,.30]:depth>.3?[.14,.28,.24]:[.36,.42,.26];
+        if(/reef/i.test(b.name)) color=[.42,.38,.24];
+      }
       if(biomeNames.length){
         const t=(fbm(px/6,pz/6,model.seed+2200,4)+1)/2;
         const chosen=biomeCatalog.find(v=>v.name===biomeNames[Math.min(biomeNames.length-1,Math.floor(t*biomeNames.length))]);
-        if(chosen) color=chosen.color;
+        if(chosen&&mode!=='underwater') color=chosen.color;
       }
       verts.push(px,y,pz); colors.push(...color);
     }
@@ -226,7 +239,7 @@ export function makeLocalTerrain(model, focus, mode='local', profile=null, resol
     const a=z*(resolution+1)+x,b=a+1,c=a+resolution+1,d=c+1;
     indices.push(a,c,b,b,c,d);
   }
-  return {positions:new Float32Array(verts),colors:new Float32Array(colors),indices:new Uint32Array(indices),size,centerElevation:model.elevationAt(focus.lat,focus.lon)};
+  return {positions:new Float32Array(verts),colors:new Float32Array(colors),indices:new Uint32Array(indices),size,centerElevation:center};
 }
 
 export function makeLifePoints(model, focus, mode='local', profile=null, count=850){
@@ -236,14 +249,14 @@ export function makeLifePoints(model, focus, mode='local', profile=null, count=8
     const x=(rnd()-.5)*28,z=(rnd()-.5)*28;
     if(mode==='underwater'){
       const y=-3.7+rnd()*5.2;
-      positions.push(x,y,z); colors.push(.22+rnd()*.35,.65+rnd()*.25,.72+rnd()*.25); sizes.push(3+rnd()*7); velocities.push((rnd()-.5)*.15,(rnd()-.5)*.04,(rnd()-.5)*.15);
+      positions.push(x,y,z); colors.push(.22+rnd()*.35,.65+rnd()*.25,.72+rnd()*.25); sizes.push(1.5+rnd()*3.2); velocities.push((rnd()-.5)*.15,(rnd()-.5)*.04,(rnd()-.5)*.15);
     }else{
       const y=-.1+rnd()*.7;
       positions.push(x,y,z);
       const forest=profile?.biomes?.some(b=>/forest|rainforest|tree/i.test(b.name));
       if(forest) colors.push(.05+rnd()*.08,.28+rnd()*.25,.09+rnd()*.08);
       else colors.push(.35+rnd()*.28,.55+rnd()*.3,.13+rnd()*.12);
-      sizes.push(2+rnd()*5); velocities.push(0,0,0);
+      sizes.push(1.2+rnd()*2.4); velocities.push(0,0,0);
     }
   }
   return {positions:new Float32Array(positions),colors:new Float32Array(colors),sizes:new Float32Array(sizes),velocities:new Float32Array(velocities)};

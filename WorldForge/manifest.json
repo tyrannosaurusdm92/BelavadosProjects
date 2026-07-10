@@ -1,14 +1,13 @@
 {
-  "schema": "worldforge.build_manifest.v4",
-  "project": "WorldForge Immersive 3D Globe Creator",
-  "edition": "Ocean & Continuous Terrain Correction",
-  "version": "3.2.0",
-  "generatedAtUtc": "2026-07-10T22:11:09.816854Z",
+  "schema": "worldforge.build_manifest.v2",
+  "project": "WorldForge 3D Map App",
+  "version": "2.0.0-integrated",
+  "generatedAtUtc": "2026-07-10T19:29:39.446001+00:00",
   "entrypoints": [
     "index.html",
     "WorldForge.html"
   ],
-  "runtime": "Static browser app using WebGL2 and ES modules; bundled Python static server; single-file standalone globe and settlement exporters",
+  "runtime": "Static browser app using WebGL2 and ES modules; bundled Python static server",
   "buildFree": true,
   "networkRuntimeDependencies": [],
   "backend": {
@@ -17,97 +16,89 @@
     "endpoint": "https://script.google.com/macros/s/AKfycbxe3P6MBofPEhPfTAaz05TWEYhScX9QgpHzBKCdwPGnvzvVoyfllu0bAghZKqHs4E3hGg/exec",
     "config": "config/backend_lock.json"
   },
-  "overridePolicy": {
-    "specialistPackagesOverrideOlderIntegrationCode": true,
-    "manifest": "docs/AUTHORITATIVE_OVERRIDE_MANIFEST.json"
+  "canon": {
+    "provinces": 28,
+    "settlements": 279,
+    "maximumBiomesPerSettlement": 3,
+    "authoritativeSource": "settlements.zip"
   },
   "capabilities": [
-    "No synthetic or bundled point-marker injection into newly generated worlds",
-    "Hidden point overlays cannot intercept globe clicks or deform terrain",
-    "Adaptive image scanning for surface maps, height maps, bathymetry, and topographic references",
-    "Continuous coast-to-summit and shelf-to-trench terrain with two-stage slope limiting",
-    "Separate animated water-mask-driven ocean surface above the bathymetric floor",
-    "Geometry-based reef, shelf, slope, abyss, and trench marine ecosystems",
-    "Explorable local terrain, oceans, caves, caverns, and generated settlements",
-    "Deterministic volcano activity and daily, weekly, monthly, and annual weather patterns",
-    "Soft cloud rendering separated from feature-point rendering",
-    "Globe and flat 3D projections with drag, pan, wheel zoom, WASD, click, double-click entry, and Center Globe",
-    "JSON, GeoJSON, image, SVG, ZIP, nested ZIP, folder, source repository, and DOCX ingestion",
-    "Safe CSS, JavaScript, HTML-control, shader, schema, texture, and model source absorption",
-    "Standalone single-file globe and settlement HTML exports preserving terrain and water masks"
+    "3D globe and equirectangular flat 3D map modes",
+    "Earth default plus seeded science-fiction planet presets",
+    "elevation, bathymetry, mountain, valley, trench and cave terrain",
+    "animated oceans, underwater exploration and moving marine life",
+    "daily, weekly, monthly and annual moving weather systems",
+    "volcano focus and eruption effects",
+    "procedural 3D settlement maps derived from globe geology and up to three biomes",
+    "click, focus and inspect settlements, NPCs, creatures, weather and landmarks",
+    "real-time and accelerated simulation speeds",
+    "JSON, GeoJSON, image, ZIP and DOCX ingestion",
+    "LifeSimulator world and life synchronization hooks"
   ],
-  "authoritativeUploads": [
+  "integratedSourceArchives": [
     {
-      "file": "abyssal_atelier_3d_ocean_floor_creator (1).zip",
-      "role": "ocean floor, bathymetry, underwater traversal, marine ecosystems",
+      "archive": "abyssal_atelier_3d_ocean_floor_creator.zip",
+      "name": "Abyssal Atelier 3D Ocean Floor Creator",
+      "role": "underwater terrain, marine life and ocean exploration reference",
       "bytes": 1138705,
       "sha256": "569909f36de46ecb7d009af95b76319d6ca06750efa43057be7d6a0f82947173"
     },
     {
-      "file": "fantasy_map_scanner_merged_3d (1).zip",
-      "role": "image scanning, terrain reconstruction, gradual topography",
-      "bytes": 15102344,
-      "sha256": "52bad810c569ae7d0777b9baf131fab1a95741ed1742ac0919e8313a8cc1db80"
-    },
-    {
-      "file": "planetary_3d_weather_creator (1).zip",
-      "role": "predictable weather and geological climate systems",
+      "archive": "planetary_3d_weather_creator.zip",
+      "name": "Planetary 3D Weather Creator",
+      "role": "weather systems, time scaling and geological climate reference",
       "bytes": 92111,
       "sha256": "c0151b4706da3d368d987bd6b3d60837393914388400e8d6f5336039cecbf99d"
     },
     {
-      "file": "WorldForge_3D_Map_App (1).zip",
-      "role": "globe renderer, scene navigation, import and interaction behavior",
-      "bytes": 49941170,
-      "sha256": "9d1e37d831796267802dfa45dccb198397cba67fd365359b91a9bbc0d2eb36ee"
+      "archive": "WorldDepth_3D_Map_Studio.zip",
+      "name": "WorldDepth 3D Map Studio",
+      "role": "WebGL2 globe, flat map, terrain, cave and import foundation",
+      "bytes": 175488,
+      "sha256": "dd0d9731106a6b6521f8e66a3cc579f037400d63feb4f011f8f65fa7aacdaf5a"
+    },
+    {
+      "archive": "WorldForge_settlement_map_generator.zip",
+      "name": "WorldForge Settlement Map Generator",
+      "role": "legacy LifeSimulator hooks and reaction/map assets; legacy settlement data not authoritative",
+      "bytes": 86566385,
+      "sha256": "c0ef850a2f9710c3fa261a90b92023c40ffb2c6e63371a20e5a90d1d43f3f11c"
+    },
+    {
+      "archive": "settlements.zip",
+      "name": "Current settlements package",
+      "role": "authoritative 28-province, 279-settlement and NPC canon",
+      "bytes": 12825420,
+      "sha256": "c807463278a076fdbd349226d0e2898523b49d0d4bd7221540e7e2ddacb131db"
+    },
+    {
+      "archive": "fantasy_map_scanner_merged_3d.zip",
+      "name": "Fantasy Map Scanner Merged 3D",
+      "role": "map scanning, terrain classification and topography helpers",
+      "bytes": 15102344,
+      "sha256": "52bad810c569ae7d0777b9baf131fab1a95741ed1742ac0919e8313a8cc1db80"
     }
   ],
-  "validation": {
-    "base": "docs/VALIDATION_REPORT.json",
-    "immersive": "docs/IMMERSIVE_VALIDATION_REPORT.json",
-    "oceanTerrainCorrection": "docs/OCEAN_TERRAIN_CORRECTION_VALIDATION.json",
-    "uiReferences": "docs/UI_REFERENCE_VALIDATION.json"
-  },
   "criticalFiles": [
     {
       "path": "index.html",
-      "bytes": 10770,
-      "sha256": "8bb9c9c1d29636065f574e6d2b84c51460b41842f630fabc5762bf47415cd198"
+      "bytes": 9181,
+      "sha256": "7b86b02930fe8af1edc1794d6bf675f170fca9724a5d3bfead7b401108ada7fb"
     },
     {
       "path": "WorldForge.html",
-      "bytes": 10770,
-      "sha256": "8bb9c9c1d29636065f574e6d2b84c51460b41842f630fabc5762bf47415cd198"
+      "bytes": 9181,
+      "sha256": "7b86b02930fe8af1edc1794d6bf675f170fca9724a5d3bfead7b401108ada7fb"
     },
     {
       "path": "js/app.js",
-      "bytes": 41343,
-      "sha256": "cb724ddb3a5f0801b129f93a426c0ba38c686c2d35206d26316691d337626763"
+      "bytes": 31215,
+      "sha256": "a667370e7cf0c602563687b1356417506a4de5be8b2ecc4418489588c4db3222"
     },
     {
       "path": "js/renderer.js",
-      "bytes": 35956,
-      "sha256": "87e21acb71e1cb6b1faaf4785a08d83c08e4be8c3b7a1debb7515d27e98df2e4"
-    },
-    {
-      "path": "js/procedural.js",
-      "bytes": 14559,
-      "sha256": "070f42d6c5ead7cce038d2586459cd989f309be4c62a3c0f828573e6dfaa3a21"
-    },
-    {
-      "path": "js/terrain-fusion.js",
-      "bytes": 12550,
-      "sha256": "7730e30b9cc16016e1ebc10a10d6ba51ea715289149279226f6094904b1e69d3"
-    },
-    {
-      "path": "js/immersive-systems.js",
-      "bytes": 11800,
-      "sha256": "c40732e51a308e70cf5984928a6fb32e65d1e9db202e3eaa0c7508f7f77b233e"
-    },
-    {
-      "path": "js/standalone-exporter.js",
-      "bytes": 16547,
-      "sha256": "4fed82cb90528a4adc2eb949b1456cdd02f32d60ed69830a1b45f5488db274ac"
+      "bytes": 29116,
+      "sha256": "0000da0b28ae5b90e6c31cd9613d47063f49daf8e8402a89037c7080ccca4576"
     },
     {
       "path": "js/backend-lock.js",
@@ -115,26 +106,32 @@
       "sha256": "6b6781742dbeb25e31a89c4b8ec938f16b6277b237081374cbeb215f3a86f968"
     },
     {
+      "path": "js/settlement-engine.js",
+      "bytes": 8830,
+      "sha256": "4e141b9c109fb0477b694088d3fef2f8a1a42ad73fb1f6fd05d70348bc76e295"
+    },
+    {
+      "path": "js/simulation-engine.js",
+      "bytes": 3255,
+      "sha256": "ce062494d59cf2e6522aa23edb708f355f9f4a80024a45d9c1523e62220181e4"
+    },
+    {
+      "path": "data/settlement_catalog.json",
+      "bytes": 1118660,
+      "sha256": "ea67c97c1393723aa1f7f2ba7f59bc64a32ae5bc63ac444a469b5f0702a6d5f7"
+    },
+    {
       "path": "config/backend_lock.json",
       "bytes": 617,
       "sha256": "d866cfd242ff13eb928b31bd50cfc21e3472873cafcc5e2446b8c3751ffbaab3"
     },
     {
-      "path": "docs/OCEAN_TERRAIN_CORRECTION.md",
-      "bytes": 4625,
-      "sha256": "f1259e2a9757f23bf173f5e8598e93fb14124fd3ba6e7320ebb8f95b4da23527"
-    },
-    {
-      "path": "docs/OCEAN_TERRAIN_CORRECTION_VALIDATION.json",
-      "bytes": 2650,
-      "sha256": "ad8b0a9cecd7765d487093689b25a6a89bb6307983b50d6f199f4785047ce21e"
-    },
-    {
-      "path": "docs/AUTHORITATIVE_OVERRIDE_MANIFEST.json",
-      "bytes": 1968,
-      "sha256": "afb2db3316b11beb58ab4b898680a59f40492dd5ac119413cc43e2733c812f6e"
+      "path": "docs/VALIDATION_REPORT.json",
+      "bytes": 2934,
+      "sha256": "09b3fe63c821ca6255815cfb64c69ca1953d00dd148f22ef7ed6976d81007014"
     }
   ],
-  "fileCount": 1338,
-  "payloadBytes": 149126216
+  "fileCount": 1198,
+  "payloadBytes": 139720609,
+  "validation": "docs/VALIDATION_REPORT.json"
 }

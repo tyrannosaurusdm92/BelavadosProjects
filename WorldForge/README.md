@@ -1,20 +1,8 @@
-# WorldForge Immersive 3D Globe Creator — Ocean & Continuous Terrain Correction
+# WorldForge Immersive 3D Globe Creator
 
 Open `index.html` through the included local server (`launch_worldforge.bat`, `launch_worldforge.sh`, or `python start_server.py`).
 
-WorldForge merges the reusable globe creator with the corrected map, scanner, ocean-floor, and weather systems. This edition removes cross-world marker pollution, reconstructs gradual coast-to-summit topography, renders a separate visible ocean above the bathymetric floor, and builds geometry-based marine ecosystems.
-
-
-## Critical corrections in this edition
-
-- New worlds do **not** inherit bundled settlement pins, random point markers, or weather pins.
-- Point overlays are hidden by default and cannot alter the terrain or intercept clicks while hidden.
-- Surface art, height maps, bathymetry, and topography are fused with adaptive water classification and two-stage slope limiting.
-- The ocean is a separate animated mesh driven by the compiled water mask.
-- Marine creatures, reefs, kelp, vents, currents, and seabed structures render as scene geometry instead of circular markers.
-- Standalone HTML exports retain corrected elevation and water-mask data.
-
-See `docs/OCEAN_TERRAIN_CORRECTION.md` and `docs/OCEAN_TERRAIN_CORRECTION_VALIDATION.json`.
+WorldForge merges the reusable globe creator with the immersive 3D map application. It builds displaced WebGL globes, local terrain, settlements, caves, oceans, weather, volcanoes, life systems, and browser-portable standalone HTML exports.
 
 ## Core controls
 

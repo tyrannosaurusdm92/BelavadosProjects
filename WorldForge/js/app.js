@@ -8,7 +8,6 @@ import { backendClient, backendLock } from './backend-lock.js';
 import { SourceAbsorber } from './source-absorber.js';
 import { StandaloneExporter } from './standalone-exporter.js';
 import { PatternedWeatherSystem, MarineEcosystem, CaveExplorerSystem, VolcanoSystem } from './immersive-systems.js';
-import { compileTerrainFromSources, smoothElevationGrid } from './terrain-fusion.js';
 
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const canvas=$('#world-canvas');
@@ -23,7 +22,6 @@ const standaloneExporter=new StandaloneExporter({log:message=>logImport(message)
 let earthData,caveData,profiles=[],activeProfile=null,model,focus={lat:0,lon:0},selectedFeature=null,geoLines=[];
 let settlementCatalog={provinces:[],settlements:[]},activeSettlement=null,activeSettlementData=null,activeNpcData=null,activeSettlementScene=null;
 let weatherFeatures=[],selectedLocalObject=null,toastTimer,lastWeatherUpdate=0,marineSystem=null,surfaceImageBlob=null,surfaceImageName='',nestedZipDepth=0;
-let terrainSources={surface:null,height:null,depth:null,topography:null},worldSettlements=[],worldFeatureSource='bundled-earth';
 
 
 function updateAbsorberUI(){
@@ -91,29 +89,36 @@ function renderProfile(){
     const d=document.createElement('div');d.className='biome-pill';d.style.setProperty('--pill',`rgb(${rgb})`);d.textContent=`${i===0?'Primary':i===1?'Secondary':'Tertiary'} · ${b.name}`;box.append(d);
   }
 }
-function makePlanetFeatures(){
-  // Generated worlds intentionally start without synthetic point markers. Geological
-  // shapes are represented by the terrain itself; points only come from explicit data.
-  return [];
+function makePlanetFeatures(currentModel){
+  const rnd=seededRandom(currentModel.seed+441),types=['mountain','ocean trench','volcano','cave','river delta','ancient forest'];
+  return types.map((type,i)=>{const lat=-65+rnd()*130,lon=-180+rnd()*360;let elevation=currentModel.elevationAt(lat,lon);if(type==='mountain')elevation=Math.max(4200,elevation);if(type==='ocean trench')elevation=Math.min(-7200,elevation);if(type==='volcano')elevation=Math.max(2100,elevation);return{name:`${currentModel.name.split(' ')[0]} ${['Crown','Abyss','Caldera','Hollows','Fan','Wilds'][i]}`,type,lat,lon,elevation_m:elevation,description:`Procedurally generated ${type} marker. Import authoritative geological data to replace or refine it.`};});
 }
 function settlementFeatures(){
-  return worldSettlements.map(s=>({id:`settlement:${s.id}`,name:s.name,type:`settlement · ${s.type||'settlement'}`,lat:Number(s.lat),lon:Number(s.lon),elevation_m:Number(s.elevationM)||0,description:`${s.name}${s.province?`, ${s.province}`:''}. ${s.terrainRule||''}`,settlementRecord:s,source:'current-world'}));
+  return settlementCatalog.settlements.map(s=>({id:`settlement:${s.id}`,name:s.name,type:`settlement · ${s.type}`,lat:Number(s.lat),lon:Number(s.lon),elevation_m:Number(s.elevationM)||0,description:`${s.name}, ${s.province}. ${s.terrainRule||''}`,settlementRecord:s}));
 }
-function resetWorldAttachments(){
-  worldSettlements=[];weatherFeatures=[];geoLines=[];selectedFeature=null;worldFeatureSource='generated';
+function provinceCenterFeatures(){
+  return (settlementCatalog.provinces||[]).map((province,idx)=>{
+    const settlements=settlementCatalog.settlements.filter(s=>s.province===province.name&&Number.isFinite(Number(s.lat))&&Number.isFinite(Number(s.lon)));
+    if(!settlements.length)return null;
+    const lat=settlements.reduce((a,b)=>a+Number(b.lat||0),0)/settlements.length;
+    const lon=settlements.reduce((a,b)=>a+Number(b.lon||0),0)/settlements.length;
+    const elevation=model?model.elevationAt(lat,lon):0;
+    return {id:`province-center:${province.name}:${idx}`,name:`${province.name} province center`,type:'province center',lat,lon,elevation_m:elevation,description:`Generated province center for ${province.name} based on the centroid of imported settlement coordinates.`,provinceRecord:province};
+  }).filter(Boolean);
 }
-function uniqueFeatures(features=[]){
-  const seen=new Set(),out=[];for(const f of features){const lat=Number(f.lat),lon=Number(f.lon);if(!Number.isFinite(lat)||!Number.isFinite(lon)||Math.abs(lat)>90||Math.abs(lon)>180)continue;const key=`${String(f.id||f.name||f.type||'feature').toLowerCase()}|${lat.toFixed(5)}|${lon.toFixed(5)}`;if(seen.has(key))continue;seen.add(key);out.push({...f,lat,lon});}return out;
+function pointFeatureAllowedOnGlobe(feature){
+  const type=String(feature?.type||'').toLowerCase();
+  return type.includes('settlement')||type.includes('province center')||type==='province center';
 }
 async function rebuildWorld(options,features=null){
   $('#loading').classList.remove('hidden');await new Promise(r=>requestAnimationFrame(r));
   model=new WorldModel({...options,features:[]});
-  const geological=uniqueFeatures((features&&features.length)?features:makePlanetFeatures(model));
-  weatherFeatures=patternedWeather.worldCells({settlements:worldSettlements});
-  model.features=uniqueFeatures([...geological,...settlementFeatures()]);
-  model.setProfile(activeProfile);marineSystem=new MarineEcosystem(model);await renderer.setWorldModel(model);renderer.setWeatherSystems?.(weatherFeatures);if(surfaceImageBlob){try{await renderer.setSurfaceTexture(surfaceImageBlob);}catch(error){logImport(`Surface texture warning: ${error.message}`);}}renderer.setGeoLines(geoLines);renderer.projection=$('[data-projection].active')?.dataset.projection||'globe';renderer.scene='world';renderer.resetCamera();
+  const geological=(features&&features.length)?features:makePlanetFeatures(model);
+  weatherFeatures=patternedWeather.worldCells(settlementCatalog);
+  model.features=[...geological,...provinceCenterFeatures(),...settlementFeatures(),...weatherFeatures];
+  model.setProfile(activeProfile);marineSystem=new MarineEcosystem(model);await renderer.setWorldModel(model);if(surfaceImageBlob){try{await renderer.setSurfaceTexture(surfaceImageBlob);}catch(error){logImport(`Surface texture warning: ${error.message}`);}}renderer.setGeoLines(geoLines);renderer.projection=$('[data-projection].active')?.dataset.projection||'globe';renderer.scene='world';renderer.resetCamera();
   $('#dataset-status').textContent=model.name;$('#scene-mode').value='world';setSceneButtons('world');updateFeatureUI();
-  $('#loading').classList.add('hidden');$('#underwater-tint').classList.remove('active');toast(`${model.name} is ready. ${worldSettlements.length} current-world settlement overlay(s); point overlays remain hidden until enabled.`);
+  $('#loading').classList.add('hidden');$('#underwater-tint').classList.remove('active');toast(`${model.name} is ready with ${settlementCatalog.settlementCount||0} canonical settlements.`);
 }
 function setSceneButtons(scene){$$('.scene-chip[data-scene]').forEach(b=>b.classList.toggle('active',b.dataset.scene===scene));$('#scene-status').textContent=scene==='world'?(renderer.projection==='globe'?'Globe':'Flat 3D'):scene==='settlement'?'Settlement 3D':scene[0].toUpperCase()+scene.slice(1);}
 async function switchScene(scene){
@@ -121,8 +126,8 @@ async function switchScene(scene){
   if(scene==='world'){renderer.setScene('world');$('#underwater-tint').classList.remove('active');return;}
   if(scene==='settlement'){await buildSelectedSettlement();return;}
   if(scene==='cave'){const mesh=makeCaveMesh(caveData,16),objects=new CaveExplorerSystem(caveData).points();renderer.setCaveScene(mesh);renderer.setLocalObjects(objects);populateLocalObjects(objects);$('#underwater-tint').classList.remove('active');return;}
-  const terrain=makeLocalTerrain(model,focus,scene,activeProfile,scene==='underwater'?168:144),life=scene==='underwater'?null:makeLifePoints(model,focus,scene,activeProfile,820);terrain.hasWater=activeProfile?.biomes?.some(b=>/water|ocean|reef|marsh|swamp|beach/i.test(b.name))||terrain.centerElevation<80;
-  const oceanScene=scene==='underwater'?(marineSystem||new MarineEcosystem(model)).buildScene(focus,activeProfile,1450):null,ecosystem=oceanScene?.objects||[];renderer.setLocalScene(terrain,life,scene,{environment:scene,structures:oceanScene?.mesh,objects:ecosystem,waterLevel:scene==='underwater'?5.4:undefined});$('#underwater-tint').classList.toggle('active',scene==='underwater');if(ecosystem.length){populateLocalObjects(ecosystem);logImport(`✓ Living ocean scene: ${oceanScene.stats.creatures} creatures plus ${oceanScene.stats.habitatObjects} reef, kelp, vent, rock, and current structures.`);}else clearLocalObjects();
+  const terrain=makeLocalTerrain(model,focus,scene,activeProfile,scene==='underwater'?168:144),life=makeLifePoints(model,focus,scene,activeProfile,scene==='underwater'?1600:820);terrain.hasWater=activeProfile?.biomes?.some(b=>/water|ocean|reef|marsh|swamp|beach/i.test(b.name))||terrain.centerElevation<80;
+  const ecosystem=scene==='underwater'?(marineSystem||new MarineEcosystem(model)).build(focus,activeProfile,1450):[];renderer.setLocalScene(terrain,life,scene,{environment:scene,objects:ecosystem,waterLevel:scene==='underwater'?5.4:undefined});$('#underwater-tint').classList.toggle('active',scene==='underwater');if(ecosystem.length)populateLocalObjects(ecosystem);else clearLocalObjects();
   if(selectedFeature?.type?.toLowerCase().includes('volcano'))renderer.spawnEruption();
 }
 function enterSelected(){
@@ -176,7 +181,7 @@ function updateWeatherPanel(){
 }
 function updateClock(){
   const now=performance.now(),dt=simulation.tick(now);$('#simulation-time').textContent=simulation.label();
-  if(now-lastWeatherUpdate>900){lastWeatherUpdate=now;if(simulation.updateWeatherFeatures(weatherFeatures,dt*60)){renderer.setWeatherSystems?.(weatherFeatures);}if(selectedFeature&&/volcano/i.test(selectedFeature.type||'')){const state=volcanoSystem.state(selectedFeature);renderer.setFlags({eruption:state.erupting});$('#toggle-eruption').checked=state.erupting;if(state.erupting&&!renderer.eruption.length)renderer.spawnEruption();}updateWeatherPanel();}
+  if(now-lastWeatherUpdate>900){lastWeatherUpdate=now;if(simulation.updateWeatherFeatures(weatherFeatures,dt*60)){renderer.updateFeaturePoints();}if(selectedFeature&&/volcano/i.test(selectedFeature.type||'')){const state=volcanoSystem.state(selectedFeature);renderer.setFlags({eruption:state.erupting});$('#toggle-eruption').checked=state.erupting;if(state.erupting&&!renderer.eruption.length)renderer.spawnEruption();}updateWeatherPanel();}
   requestAnimationFrame(updateClock);
 }
 function bindUI(){
@@ -195,13 +200,13 @@ function bindUI(){
   $('#reset-camera').addEventListener('click',()=>renderer.resetCamera());
   $('#exaggeration').addEventListener('input',e=>{renderer.exaggeration=Number(e.target.value);$('#exaggeration-value').textContent=`${Number(e.target.value).toFixed(1)}×`;renderer.updateFeaturePoints();});
   $('#time-speed').addEventListener('change',e=>{simulation.setSpeed(Number(e.target.value));renderer.timeSpeed=Math.min(128,Math.sqrt(simulation.speed||0));$('#time-value').textContent=e.target.options[e.target.selectedIndex].text;});
-  const flagMap={'toggle-water':'water','toggle-atmosphere':'atmosphere','toggle-weather':'weather','toggle-features':'features','toggle-life':'life','toggle-rotation':'rotation','toggle-eruption':'eruption'};for(const [id,key] of Object.entries(flagMap))$('#'+id).addEventListener('change',e=>renderer.setFlags({[key]:e.target.checked}));
+  const flagMap={'toggle-water':'water','toggle-atmosphere':'atmosphere','toggle-features':'features','toggle-life':'life','toggle-rotation':'rotation','toggle-eruption':'eruption'};for(const [id,key] of Object.entries(flagMap))$('#'+id).addEventListener('change',e=>renderer.setFlags({[key]:e.target.checked}));
   $('#feature-select').addEventListener('change',e=>selectFeature(model.features[Number(e.target.value)],false));$('#focus-feature').addEventListener('click',()=>selectFeature(selectedFeature,true));$('#enter-feature').addEventListener('click',enterSelected);
   $('#settlement-profile').addEventListener('change',e=>{activeProfile=profiles[Number(e.target.value)];model.setProfile(activeProfile);renderProfile();});$('#apply-profile').addEventListener('click',()=>{if(renderer.scene==='settlement')buildSelectedSettlement();else switchScene('local');toast(`${activeProfile?.name||'Profile'} applied.`);});
   $('#settlement-select').addEventListener('change',e=>selectSettlementById(e.target.value,true));$('#build-settlement').addEventListener('click',buildSelectedSettlement);
   $('#object-select').addEventListener('change',e=>selectLocalObject(renderer.localObjects[Number(e.target.value)],false));$('#focus-object').addEventListener('click',()=>selectLocalObject(selectedLocalObject,true));
   $('#forecast-horizon').addEventListener('change',()=>{updateWeatherPanel();if(renderer.scene==='settlement')buildSelectedSettlement();});
-  $('#generate-world').addEventListener('click',()=>{resetWorldAttachments();terrainSources={surface:null,height:null,depth:null,topography:null};surfaceImageBlob=null;surfaceImageName='';renderer.clearSurfaceTexture?.();const preset=$('#world-preset').value,seed=Number($('#planet-seed').value),water=Number($('#water-level').value);rebuildWorld(worldOptionsForPreset(preset,seed,water));});
+  $('#generate-world').addEventListener('click',()=>{const preset=$('#world-preset').value,seed=Number($('#planet-seed').value),water=Number($('#water-level').value);rebuildWorld(worldOptionsForPreset(preset,seed,water));});
   $('#world-preset').addEventListener('change',e=>{const levels={earth:67,verdant:58,oceanic:88,volcanic:42,custom:67};$('#water-level').value=levels[e.target.value]??67;});
   $('#toggle-ui').addEventListener('click',()=>document.body.classList.toggle('ui-hidden'));
   $('#browse-files').addEventListener('click',()=>$('#file-input').click());$('#file-input').addEventListener('change',e=>handleFiles([...e.target.files]));$('#browse-folder').addEventListener('click',()=>$('#folder-input').click());$('#folder-input').addEventListener('change',e=>handleFiles([...e.target.files]));
@@ -211,15 +216,38 @@ function bindUI(){
   $('#sync-world').addEventListener('click',async()=>{try{toast('Syncing world package…');const r=await backendClient.saveWorld(exportPayload());toast(r.ok===false?'Backend returned a warning.':'World package synced.');}catch(e){toast(`World sync failed: ${e.message}`);}});
   $('#sync-life').addEventListener('click',async()=>{if(!activeSettlement)return toast('Choose a settlement first.');try{toast('Syncing LifeSimulator state…');const p=simulation.lifePayload(activeSettlement,activeNpcData,selectedLocalObject);const r=await backendClient.syncLifeSimulator(p);toast(r.ok===false?'Backend returned a warning.':'LifeSimulator state synced.');}catch(e){toast(`LifeSimulator sync failed: ${e.message}`);}});
 }
-function exportPayload(){return {...model.serialize(),schema:'worldforge.immersive-world.v4',features:model.features.filter(f=>!f.type?.includes('weather system')),weather_systems:weatherFeatures,geojson_lines:geoLines,settlement_profile:activeProfile,active_settlement:activeSettlement,simulation_time_utc:simulation.date().toISOString(),systems:{caves:'explorable survey mesh',volcanoes:'deterministic eruption cycles',weather:'daily weekly monthly annual deterministic patterns',marine:'reef shelf slope abyss trench ecosystem'},source_absorption:sourceAbsorber.summary(),surface_texture:surfaceImageName||null,backend_lock:{lockId:backendLock.lockId,endpoint:backendLock.endpoint}};}
+function exportPayload(){return {...model.serialize(),schema:'worldforge.immersive-world.v3',features:model.features.filter(f=>!f.type?.includes('weather system')),weather_systems:weatherFeatures,geojson_lines:geoLines,settlement_profile:activeProfile,active_settlement:activeSettlement,simulation_time_utc:simulation.date().toISOString(),systems:{caves:'explorable survey mesh',volcanoes:'deterministic eruption cycles',weather:'daily weekly monthly annual deterministic patterns',marine:'reef shelf slope abyss trench ecosystem'},source_absorption:sourceAbsorber.summary(),surface_texture:surfaceImageName||null,backend_lock:{lockId:backendLock.lockId,endpoint:backendLock.endpoint}};}
 function exportWorld(){const blob=new Blob([JSON.stringify(exportPayload(),null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`${model.name.replace(/[^a-z0-9]+/gi,'_').toLowerCase()}_worldforge.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
-async function rebuildTerrainFromImages(reason='terrain sources'){
-  const compiled=await compileTerrainFromSources(terrainSources,{minElevationM:model.minElevationM,maxElevationM:model.maxElevationM,maxWidth:1024,maxHeight:512,maxNeighborDeltaM:420,slopeIterations:28,targetWaterPercent:model.waterPercent});
-  model.setHeightmap(compiled);await renderer.setWorldModel(model,224,112);renderer.setGeoLines(geoLines);renderer.setWeatherSystems?.(weatherFeatures);renderer.setFlags({features:$('#toggle-features').checked});
-  const d=compiled.diagnostics;logImport(`✓ Continuous terrain compiled from ${d.sources.join(' + ')}: ${compiled.width}×${compiled.height}; ocean ${d.classifiedWaterCoveragePercent?.toFixed?.(1)??d.waterCoveragePercent.toFixed(1)}%; max neighbor change ${Math.round(d.maxNeighborDeltaMeters)} m; ${d.remainingSpikeEdges} spike edges remain.`);toast('Gradual, shoreline-aware terrain rebuilt.');
-}
-async function imageToHeightmap(blob,name,role='height'){
-  terrainSources[role]=blob;await rebuildTerrainFromImages(name);
+async function imageToHeightmap(blob,name){
+  const bitmap=await createImageBitmap(blob),max=768,scale=Math.min(1,max/Math.max(bitmap.width,bitmap.height)),w=Math.max(2,Math.round(bitmap.width*scale)),h=Math.max(2,Math.round(bitmap.height*scale));
+  const c=document.createElement('canvas');c.width=w;c.height=h;const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(bitmap,0,0,w,h);
+  const px=ctx.getImageData(0,0,w,h).data,raw=new Float32Array(w*h);
+  for(let i=0;i<raw.length;i++) raw[i]=(px[i*4]*.2126+px[i*4+1]*.7152+px[i*4+2]*.0722)/255;
+  let values=raw;
+  for(let pass=0;pass<2;pass++){
+    const next=new Float32Array(values.length);
+    for(let y=0;y<h;y++)for(let x=0;x<w;x++){
+      let acc=0,wt=0;
+      for(let oy=-1;oy<=1;oy++)for(let ox=-1;ox<=1;ox++){
+        const xx=Math.max(0,Math.min(w-1,x+ox)),yy=Math.max(0,Math.min(h-1,y+oy));
+        const wgt=(ox===0&&oy===0)?4:(Math.abs(ox)+Math.abs(oy)===2?.75:1.25);
+        acc+=values[yy*w+xx]*wgt; wt+=wgt;
+      }
+      next[y*w+x]=acc/wt;
+    }
+    values=next;
+  }
+  const sorted=Array.from(values).sort((a,b)=>a-b);
+  const waterPercent=Math.max(0,Math.min(100,Number($('#water-level')?.value||model.waterPercent||67)));
+  const seaIndex=Math.max(0,Math.min(sorted.length-1,Math.floor(sorted.length*(waterPercent/100))));
+  const seaLevel=sorted[seaIndex];
+  const remapped=new Float32Array(values.length);
+  for(let i=0;i<values.length;i++){
+    const v=values[i];
+    remapped[i]=v<=seaLevel?((seaLevel<=0)?0:(v/seaLevel)*0.48):0.52+((v-seaLevel)/Math.max(1e-6,1-seaLevel))*0.48;
+  }
+  model.setHeightmap({width:w,height:h,values:remapped,minElevationM:model.minElevationM,maxElevationM:model.maxElevationM});
+  await renderer.setWorldModel(model);renderer.setGeoLines(geoLines);logImport(`✓ Heightmap ${name}: ${w}×${h}, smoothed and sea-balanced for gradual topography.`);toast('Heightmap applied with smoothed slopes and inferred sea level.');
 }
 function flattenCoordinates(geometry,lines,points,properties={}){
   if(!geometry)return;
@@ -240,26 +268,26 @@ function flattenCoordinates(geometry,lines,points,properties={}){
     (geometry.geometries||[]).forEach(g=>flattenCoordinates(g,lines,points,properties));
   }
 }
-async function applyGeoJSON(data,name){const lines=[],points=[];const list=data.type==='FeatureCollection'?data.features:data.type==='Feature'?[data]:[{geometry:data,properties:{}}];for(const item of list){const p=item.properties||{},type=p.type||p.feature_type||'imported landmark';flattenCoordinates(item.geometry,lines,points,{name:p.name||p.title||`Imported ${type}`,type,description:p.description||`Imported from ${name}.`,...p});}geoLines.push(...lines);const clean=points.filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)).map(p=>{const type=String(p.type||'').toLowerCase(),geological=/mountain|range|volcano|caldera|trench|canyon|valley|ridge|plate|basin|seamount/.test(type),overlay=/pin|marker|settlement|province|capital|city|town|village|weather|storm|cloud|npc|creature|route|label/.test(type);return{...p,terrainInfluence:p.terrainInfluence===true||(!overlay&&geological)};});model.features.push(...clean);renderer.setFeatures(model.features);renderer.setGeoLines(geoLines);updateFeatureUI();logImport(`✓ GeoJSON ${name}: ${clean.length} point overlays (hidden by default), ${lines.length} paths. Only broad geological features may influence terrain.`);}
+async function applyGeoJSON(data,name){const lines=[],points=[];const list=data.type==='FeatureCollection'?data.features:data.type==='Feature'?[data]:[{geometry:data,properties:{}}];for(const item of list){const p=item.properties||{};flattenCoordinates(item.geometry,lines,points,{name:p.name||p.title||`Imported ${p.type||'feature'}`,type:p.type||p.feature_type||'imported landmark',description:p.description||`Imported from ${name}.`,...p});}geoLines.push(...lines);const approved=points.filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)&&pointFeatureAllowedOnGlobe(p));const discarded=points.length-approved.length;if(approved.length)model.features.push(...approved);renderer.setFeatures(model.features);renderer.setGeoLines(geoLines);updateFeatureUI();logImport(`✓ GeoJSON ${name}: ${approved.length} allowed points, ${lines.length} paths.${discarded?` ${discarded} non-settlement / non-province-center point features were absorbed but not rendered as globe pins.`:''}`);}
 async function applyJSON(data,name,path=''){
   if(data.type==='FeatureCollection'||data.type==='Feature'||data.coordinates){await applyGeoJSON(data,name);return;}
-  if(data.schema==='belavados.settlement.v1'&&data.settlement){const s=data.settlement;const record={id:s.id,name:s.name,province:s.province,type:s.settlementType||s.type,lat:s.lat,lon:s.lon,population:s.population,biomes:s.biomes||[],primaryBiome:s.primaryBiome,transportation:s.transportation||[],elevationM:data.topographyWeatherCanon?.heightAndDepthBySeaLevel?.displayZMeters||0,terrainRule:data.topographyWeatherCanon?.localTopographicRule,weatherName:data.topographyWeatherCanon?.weather?.namedWeather,climateBelt:data.topographyWeatherCanon?.weather?.climateBelt,anchorMode:data.topographyWeatherCanon?.heightAndDepthBySeaLevel?.anchorMode,pinPlacement:data.topographyWeatherCanon?.pinPlacement,landformAtlas:data.topographyWeatherCanon?.provinceLandformAtlas,waterAtlas:data.topographyWeatherCanon?.provinceWaterAtlas};if(!settlementCatalog.settlements.some(x=>x.id===record.id))settlementCatalog.settlements.push(record);if(!worldSettlements.some(x=>x.id===record.id))worldSettlements.push(record);settlementCatalog.settlementCount=settlementCatalog.settlements.length;populateSettlementSelectors();logImport(`✓ Settlement ${record.name} imported for the current world.`);return;}
-  if(data.schema?.startsWith('worlddepth.world')||data.schema?.startsWith('worldforge.world')||data.radius_km){resetWorldAttachments();geoLines=data.geojson_lines||[];worldSettlements=Array.isArray(data.settlements)?data.settlements:[];worldFeatureSource=name;const opts={name:data.name||name,preset:data.preset||'custom',seed:data.seed||93714,radiusKm:data.radius_km||6371,waterPercent:data.water_percent||67,seaLevelM:data.sea_level_m||0,minElevationM:data.min_elevation_m||-11000,maxElevationM:data.max_elevation_m||9000};await rebuildWorld(opts,data.features||[]);renderer.setGeoLines(geoLines);logImport(`✓ World dataset ${name} loaded without bundled cross-world pins.`);return;}
-  if(data.height_grid||data.values&&data.width&&data.height||data.surfaceElevationMeters){const h=data.height_grid||data,flat=h.surfaceElevationMeters||h.values,raw=Float32Array.from((Array.isArray(flat?.[0])?flat.flat():flat||[]).map(Number)),min=Number(h.min_elevation_m??h.minElevationM??model.minElevationM),max=Number(h.max_elevation_m??h.maxElevationM??model.maxElevationM),normalized=raw.length&&raw.every(v=>v>=0&&v<=1.00001),meters=normalized?Float32Array.from(raw,v=>min+(max-min)*v):raw,compiled=smoothElevationGrid(meters,Number(h.width),Number(h.height),{minElevationM:min,maxElevationM:max,maxNeighborDeltaM:420,slopeIterations:28});model.setHeightmap(compiled);await renderer.setWorldModel(model,224,112);renderer.setGeoLines(geoLines);renderer.setWeatherSystems?.(weatherFeatures);logImport(`✓ Spike-safe elevation grid ${name}: ${h.width}×${h.height}; ${compiled.diagnostics.remainingSpikeEdges} spike edges.`);return;}
+  if(data.schema==='belavados.settlement.v1'&&data.settlement){const s=data.settlement;const record={id:s.id,name:s.name,province:s.province,type:s.settlementType||s.type,lat:s.lat,lon:s.lon,population:s.population,biomes:s.biomes||[],primaryBiome:s.primaryBiome,transportation:s.transportation||[],elevationM:data.topographyWeatherCanon?.heightAndDepthBySeaLevel?.displayZMeters||0,terrainRule:data.topographyWeatherCanon?.localTopographicRule,weatherName:data.topographyWeatherCanon?.weather?.namedWeather,climateBelt:data.topographyWeatherCanon?.weather?.climateBelt,anchorMode:data.topographyWeatherCanon?.heightAndDepthBySeaLevel?.anchorMode,pinPlacement:data.topographyWeatherCanon?.pinPlacement,landformAtlas:data.topographyWeatherCanon?.provinceLandformAtlas,waterAtlas:data.topographyWeatherCanon?.provinceWaterAtlas};settlementCatalog.settlements.push(record);settlementCatalog.settlementCount=settlementCatalog.settlements.length;populateSettlementSelectors();logImport(`✓ Settlement ${record.name} imported.`);return;}
+  if(data.schema?.startsWith('worlddepth.world')||data.schema?.startsWith('worldforge.world')||data.radius_km){geoLines=data.geojson_lines||[];const opts={name:data.name||name,preset:data.preset||'custom',seed:data.seed||93714,radiusKm:data.radius_km||6371,waterPercent:data.water_percent||67,seaLevelM:data.sea_level_m||0,minElevationM:data.min_elevation_m||-11000,maxElevationM:data.max_elevation_m||9000};await rebuildWorld(opts,data.features||[]);renderer.setGeoLines(geoLines);logImport(`✓ World dataset ${name} loaded.`);return;}
+  if(data.height_grid||data.values&&data.width&&data.height){const h=data.height_grid||data;const values=Float32Array.from((Array.isArray(h.values[0])?h.values.flat():h.values).map(Number));model.setHeightmap({width:Number(h.width),height:Number(h.height),values,minElevationM:Number(h.min_elevation_m??h.minElevationM??model.minElevationM),maxElevationM:Number(h.max_elevation_m??h.maxElevationM??model.maxElevationM)});await renderer.setWorldModel(model);renderer.setGeoLines(geoLines);logImport(`✓ Elevation grid ${name}: ${h.width}×${h.height}.`);return;}
   if(data.stations&&Array.isArray(data.stations)){caveData=data;logImport(`✓ Cave survey ${name}: ${data.stations.length} stations.`);return;}
   if(data.biomes&&Array.isArray(data.biomes)){const p={name:data.name||path.split('/').filter(Boolean).slice(-2,-1)[0]||name,biomes:data.biomes,blending:data.blending||data.biome_blending||{}};profiles.push(p);updateProfileUI();logImport(`✓ Biome profile ${p.name}.`);return;}
-  if(Array.isArray(data.features)){const imported=data.features.map(f=>{const type=String(f.type||f.feature_type||'').toLowerCase(),geological=/mountain|range|volcano|caldera|trench|canyon|valley|ridge|plate|basin|seamount/.test(type),overlay=/pin|marker|settlement|province|capital|city|town|village|weather|storm|cloud|npc|creature|route|label/.test(type);return{...f,terrainInfluence:f.terrainInfluence===true||(!overlay&&geological)};});model.features.push(...imported);renderer.setFeatures(model.features);updateFeatureUI();logImport(`✓ ${imported.length} point overlays from ${name}; overlays remain hidden unless enabled.`);return;}logImport(`• Read JSON ${name}; no recognized terrain schema.`);
+  if(Array.isArray(data.features)){const approved=data.features.filter(pointFeatureAllowedOnGlobe);model.features.push(...approved);renderer.setFeatures(model.features);updateFeatureUI();logImport(`✓ ${approved.length} renderable globe point features from ${name}.`);if(data.features.length>approved.length)logImport(`• ${data.features.length-approved.length} additional point features were retained internally by source absorption but not rendered as globe pins.`);return;}logImport(`• Read JSON ${name}; no recognized terrain schema.`);
 }
 async function processNamedBlob(name,blob,path=name,{absorb=true}={}){
   const lower=path.toLowerCase();
   if(absorb)await sourceAbsorber.ingestBlob(blob,path,{modified:blob.lastModified});
   if(lower.endsWith('.json')||lower.endsWith('.geojson')){try{await applyJSON(JSON.parse(await blob.text()),name,path);}catch(e){logImport(`✕ ${path}: invalid JSON (${e.message}).`);}return;}
   if(/\.(png|jpe?g|webp|gif|bmp)$/i.test(lower)){
-    const terrainRole=/bathym|depth|trench|ocean.?floor|seafloor|abyss/i.test(path)?'depth':/height|elevation|dem|displacement/i.test(path)?'height':/topograph|relief|contour|plate/i.test(path)?'topography':null;
-    if(terrainRole){await imageToHeightmap(blob,name,terrainRole);return;}
+    const terrainMap=/height|elevation|dem|bathym|depth|displacement/i.test(path);
+    if(terrainMap){await imageToHeightmap(blob,name);return;}
     try{
       const bitmap=await createImageBitmap(blob),ratio=bitmap.width/Math.max(1,bitmap.height),surfaceName=/world|globe|surface|planet|earth|realistic|albedo|basemap|blue.?marble|biome/i.test(path);
-      if((surfaceName||ratio>1.72&&ratio<2.28)&&bitmap.width>=512){surfaceImageBlob=blob;surfaceImageName=path;terrainSources.surface=blob;const info=await renderer.setSurfaceTexture(blob);await rebuildTerrainFromImages(path);logImport(`✓ Surface image ${path}: ${info.width}×${info.height}, analyzed for coastlines and UV-molded onto gradual topography.`);toast('Surface image scanned and molded to the globe topography.');}
+      if((surfaceName||ratio>1.72&&ratio<2.28)&&bitmap.width>=512){surfaceImageBlob=blob;surfaceImageName=path;const info=await renderer.setSurfaceTexture(blob);logImport(`✓ Surface image ${path}: ${info.width}×${info.height}, UV-molded onto displaced topography.`);toast('Surface image molded to the globe topography.');}
       else logImport(`• Texture/reference image retained by source absorber: ${path}.`);
     }catch(e){logImport(`• Image retained but could not be previewed: ${path} (${e.message}).`);}return;
   }
@@ -293,7 +321,7 @@ async function init(){
     activeProfile=profiles[0];populateSettlementSelectors();bindUI();updateProfileUI();updateAbsorberUI();simulation.setSpeed(Number($('#time-speed').value));
     $('#backend-lock-id').textContent=backendLock.lockId;$('#backend-endpoint').textContent=backendLock.endpoint;
     await rebuildWorld(worldOptionsForPreset('earth',93714,67),earthData.features);renderer.start();showReadout(model.describeAt(0,0));
-    activeSettlement=null;activeSettlementData=null;activeNpcData=null;updateClock();
+    if(settlementCatalog.settlements.length)await selectSettlementById(settlementCatalog.settlements[0].id,false);updateClock();
   }catch(e){console.error(e);$('#loading h2').textContent='Unable to start WorldForge';$('#loading p').textContent=e.message+' — run this folder through the included local server.';}
 }
 init();

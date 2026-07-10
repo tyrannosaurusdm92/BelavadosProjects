@@ -109,6 +109,21 @@ function makeSettlementObjects(record,npcData,weatherSnapshot){
       objects.push(objectRecord({id:`${record.id}:creature:${i}`,name:`${sp[0].toUpperCase()+sp.slice(1)} ${i+1}`,type:'Sea creature',description:`A simulated ${sp} moving with local currents.`,position:[(rnd()-.5)*27,under?-2.5+rnd()*7:-.6+rnd()*2.2,(rnd()-.5)*27],color:[.18+rnd()*.5,.55+rnd()*.38,.64+rnd()*.34],size:8+rnd()*10,velocity:[(rnd()-.5)*.12,(rnd()-.5)*.025,(rnd()-.5)*.12],bounds:[14,under?5:2.4,14],source:'Abyssal Atelier integration'}));
     }
   }
+  const biomeText=(record.biomes||[]).join(' ').toLowerCase();
+  if(/forest|rainforest|grass|farming|prairie|swamp|marsh|tree/i.test(biomeText)){
+    const flora=biomeText.includes('farming')?['field crop','orchard tree','hedgerow cluster']:biomeText.includes('swamp')||biomeText.includes('marsh')?['mangrove stand','reed bed','wetland cypress']:['oak tree','pine cluster','fern grove','brush patch'];
+    for(let i=0;i<56;i++){
+      const sp=flora[i%flora.length];
+      objects.push(objectRecord({id:`${record.id}:flora:${i}`,name:`${sp[0].toUpperCase()+sp.slice(1)} ${i+1}`,type:'Plant life',description:`Mapped ${sp} placed according to the local biome blend.`,position:[(rnd()-.5)*28,.06,(rnd()-.5)*28],color:[.16+rnd()*.18,.42+rnd()*.34,.10+rnd()*.12],size:7+rnd()*10,source:'WorldForge biome vegetation synthesis'}));
+    }
+  }
+  if(env==='underwater'||/reef|ocean|water|coast|beach/i.test(biomeText)){
+    const benthic=['coral colony','kelp stand','sea grass bed','anemone patch','vent ecosystem'];
+    for(let i=0;i<34;i++){
+      const sp=benthic[i%benthic.length],under=env==='underwater';
+      objects.push(objectRecord({id:`${record.id}:benthic:${i}`,name:`${sp[0].toUpperCase()+sp.slice(1)} ${i+1}`,type:'Marine ecosystem producer',description:`Stationary ${sp} supporting the local marine food web.`,position:[(rnd()-.5)*27,under?-3.4+rnd()*1.1:-.4+rnd()*.3,(rnd()-.5)*27],color:sp.includes('coral')?[.88,.46+rnd()*.2,.58]:sp.includes('kelp')?[.16,.58+rnd()*.22,.20]:[.66,.78,.84],size:6+rnd()*9,source:'Abyssal Atelier integration'}));
+    }
+  }
   const weatherCount=weatherSnapshot?.intensity>0.45?24:12;
   for(let i=0;i<weatherCount;i++)objects.push(objectRecord({id:`${record.id}:weather:${i}`,name:`${weatherSnapshot?.name||record.weatherName||'Weather'} cell ${i+1}`,type:'Weather system',description:weatherSnapshot?.summary||record.climateBelt||'Animated local weather cell.',position:[(rnd()-.5)*25,5+rnd()*3,(rnd()-.5)*25],color:[.67+rnd()*.2,.78+rnd()*.18,.92+rnd()*.08],size:13+rnd()*15,velocity:[.015+weatherSnapshot?.windSpeed*0.0006,0,(rnd()-.5)*.02],bounds:[15,10,15],source:'Planetary 3D Weather integration'}));
   const landform=record.landformAtlas||{};
