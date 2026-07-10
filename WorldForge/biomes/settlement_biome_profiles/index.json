@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Triple Ocean Settlement",
+    "biomes": [
+      {
+        "name": "Beach and reefs with water",
+        "coverage": 0.28
+      },
+      {
+        "name": "Ocean Surface - floating settlement",
+        "coverage": 0.34
+      },
+      {
+        "name": "Underwater with reefs",
+        "coverage": 0.38
+      }
+    ],
+    "blending": {
+      "transition_zones": "reef shelves connect beaches to floating platforms",
+      "water_connections": "continuous surface and submerged navigation",
+      "settlement_adaptation": "buoyant foundations, pressure-safe underwater districts"
+    }
+  },
+  {
+    "name": "Coastal Farming Settlement",
+    "biomes": [
+      {
+        "name": "Beach and grass with water",
+        "coverage": 0.27
+      },
+      {
+        "name": "Hybrid farming forest grassland",
+        "coverage": 0.48
+      },
+      {
+        "name": "Marshes and swamps",
+        "coverage": 0.25
+      }
+    ],
+    "blending": {
+      "transition_zones": "dunes grade into farms and tidal wetlands",
+      "water_connections": "canals and drainage channels",
+      "settlement_adaptation": "raised roads and salt-tolerant fields"
+    }
+  },
+  {
+    "name": "Rainforest Canopy Wetland Settlement",
+    "biomes": [
+      {
+        "name": "Marshes and swamps",
+        "coverage": 0.3
+      },
+      {
+        "name": "Rainforest",
+        "coverage": 0.42
+      },
+      {
+        "name": "Treetops - treehouses",
+        "coverage": 0.28
+      }
+    ],
+    "blending": {
+      "transition_zones": "wetland roots rise into dense canopy",
+      "water_connections": "boardwalks and flooded channels",
+      "settlement_adaptation": "elevated canopy structures"
+    }
+  },
+  {
+    "name": "Mountain Valley Settlement",
+    "biomes": [
+      {
+        "name": "Mountain range",
+        "coverage": 0.38
+      },
+      {
+        "name": "Valley",
+        "coverage": 0.37
+      },
+      {
+        "name": "Deep cavern",
+        "coverage": 0.25
+      }
+    ],
+    "blending": {
+      "transition_zones": "valley floor narrows into cliffs and cave mouths",
+      "elevation_and_depth_rules": "surface districts follow terraces; subterranean districts follow surveyed passages",
+      "settlement_adaptation": "switchback paths, lifts, and cavern ventilation"
+    }
+  },
+  {
+    "name": "Forest Floor Settlement",
+    "biomes": [
+      {
+        "name": "Deep forest",
+        "coverage": 0.4
+      },
+      {
+        "name": "Hybrid tree and forest floor",
+        "coverage": 0.35
+      },
+      {
+        "name": "Partial forest",
+        "coverage": 0.25
+      }
+    ],
+    "blending": {
+      "transition_zones": "dense old growth opens gradually around paths and buildings",
+      "vegetation_blending": "canopy, understory, and clearings share seed zones",
+      "settlement_adaptation": "root-safe foundations and elevated walkways"
+    }
+  }
+]
