@@ -1,0 +1,20 @@
+{
+  "schema": "worlddepth.features.v1",
+  "name": "Earth demonstration landmarks",
+  "accuracy_note": "Feature elevations are representative reference values. The procedural surface between imported observations is illustrative, not survey-grade.",
+  "features": [
+    {"name":"Mount Everest","type":"mountain summit","lat":27.9881,"lon":86.9250,"elevation_m":8848.86,"influence_lat":1.8,"influence_lon":1.8,"description":"Highest mapped point above mean sea level in the default Earth landmark set."},
+    {"name":"Challenger Deep","type":"ocean trench","lat":11.35,"lon":142.20,"elevation_m":-10935,"influence_lat":2.0,"influence_lon":2.0,"description":"Deep reference point in the Mariana Trench."},
+    {"name":"Mount Damavand","type":"volcano","lat":35.9513,"lon":52.1092,"elevation_m":5610,"influence_lat":1.2,"influence_lon":1.2,"description":"Volcanic exploration marker inspired by the attached Damavand terrain repository."},
+    {"name":"Mammoth Cave","type":"cave system","lat":37.1870,"lon":-86.1000,"elevation_m":220,"description":"Entry marker for the cave-survey demonstration environment."},
+    {"name":"Amazon River Delta","type":"river delta","lat":0.8,"lon":-49.4,"elevation_m":4,"description":"River and wetland transition demonstration."},
+    {"name":"Great Barrier Reef","type":"ocean with reefs","lat":-18.2871,"lon":147.6992,"elevation_m":-35,"description":"Reef-biome and underwater-life demonstration."},
+    {"name":"Grand Canyon","type":"valley and canyon","lat":36.1069,"lon":-112.1129,"elevation_m":800,"description":"Local terrain descent and valley demonstration."},
+    {"name":"Congo Rainforest","type":"deep forest","lat":-1.5,"lon":23.5,"elevation_m":430,"description":"Dense vegetation and rainforest biome marker."},
+    {"name":"Dead Sea Shore","type":"lowest exposed land","lat":31.5,"lon":35.5,"elevation_m":-430,"description":"Low exposed continental surface reference."},
+    {"name":"Denali","type":"mountain summit","lat":63.0695,"lon":-151.0074,"elevation_m":6190,"influence_lat":1.5,"influence_lon":1.5,"description":"High-latitude mountain terrain demonstration."},
+    {"name":"Nile Delta","type":"river delta","lat":31.1,"lon":30.9,"elevation_m":6,"description":"Delta, farming, marsh, and coastal blending marker."},
+    {"name":"Sundarbans","type":"marshes and swamps","lat":21.9497,"lon":89.1833,"elevation_m":3,"description":"Coastal wetland biome marker."},
+    {"name":"Floating Ocean Settlement Demo","type":"settlement","lat":-8.2,"lon":-142.5,"elevation_m":0,"description":"Demonstrates an ocean-surface, reef, and underwater three-biome settlement."}
+  ]
+}

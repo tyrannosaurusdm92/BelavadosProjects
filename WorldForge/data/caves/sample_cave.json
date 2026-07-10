@@ -1,0 +1,22 @@
+{
+  "schema":"worlddepth.cave-survey.v1",
+  "name":"WorldDepth Demonstration Cavern",
+  "units":"meters",
+  "stations":[
+    {"id":"ENT","x":-13,"y":0,"z":4,"width":2.8,"height":2.4},
+    {"id":"A1","x":-9,"y":-1,"z":2,"width":3.2,"height":2.5},
+    {"id":"A2","x":-5,"y":-2,"z":0,"width":4.2,"height":3.4},
+    {"id":"A3","x":-1,"y":-3,"z":-3,"width":5.8,"height":4.8},
+    {"id":"A4","x":4,"y":-5,"z":-1,"width":3.6,"height":3.0},
+    {"id":"A5","x":8,"y":-7,"z":3,"width":2.5,"height":2.2},
+    {"id":"A6","x":12,"y":-9,"z":5,"width":4.0,"height":3.2},
+    {"id":"A7","x":10,"y":-12,"z":10,"width":5.2,"height":4.6},
+    {"id":"A8","x":5,"y":-14,"z":13,"width":3.2,"height":2.8},
+    {"id":"A9","x":0,"y":-16,"z":11,"width":2.4,"height":2.1},
+    {"id":"A10","x":-4,"y":-18,"z":7,"width":6.2,"height":5.3},
+    {"id":"A11","x":-8,"y":-19,"z":3,"width":3.5,"height":3.0},
+    {"id":"A12","x":-6,"y":-21,"z":-3,"width":2.8,"height":2.4},
+    {"id":"A13","x":-1,"y":-23,"z":-7,"width":4.5,"height":3.8},
+    {"id":"A14","x":5,"y":-25,"z":-8,"width":5.5,"height":4.2}
+  ]
+}
