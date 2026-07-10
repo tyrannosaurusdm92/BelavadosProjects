@@ -1,0 +1,877 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "vaelmyrith:Whispergrove",
+  "settlement": "Whispergrove",
+  "provinceKey": "vaelmyrith",
+  "province": "Vaelmyrith",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Vaelmyrith/Whispergrove/Whispergrove_Vaelmyrith.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "vaelmyrith:Whispergrove",
+    "provinceKey": "vaelmyrith",
+    "province": "Vaelmyrith",
+    "settlement": "Whispergrove",
+    "type": "City",
+    "biomes": [
+      "Partial forest",
+      "Deep forest",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Partial forest; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 1010.4,
+        "y": 226.125,
+        "ix": 1010,
+        "iy": 226
+      },
+      "exactPaintedHex": "#7F954F",
+      "biomeCategoryId": 11,
+      "biomeCategory": "Treetops - treehouses",
+      "biomePath": "Forest/Treetops - treehouses",
+      "verticalBandId": 1,
+      "verticalBand": "surface_hills_220_1200m",
+      "regionKey": 111,
+      "heightRaw16": 51657,
+      "heightRaw8Azgaar": 201,
+      "surfaceMetersAboveSeaLevel": 963.86,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 963.86
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 963.86,
+      "surfaceAnchorZMeters": 964,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 964,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        56.8124914,
+        50.2514648,
+        963.86
+      ],
+      "surfaceAnchorCoordinates": [
+        56.8124914,
+        50.2514648,
+        964
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Vaelmyrith",
+      "Named river / delta / canal / lake": "Vaelmyrith Amethyst Sea",
+      "Named bay / gulf / sea / sound": "Vaelmyrith Starfall Gulf",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Deep forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Vaelmyrith",
+      "Mountain range / highland": "Amethyst Crownrange",
+      "Volcano / vent / caldera": "Amethyst Firecup",
+      "Forest / swamp / landmark": "Vaelmyrith Gloomwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Vaelmyrith",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Mountain range; Deep cavern; Deep forest",
+      "Named weather": "Starfall Violet Haze",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Vaelmyrith is centered at 65.987651, 36.153483 under Council Republic, with 40,897,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Vaelmyrith occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Deep forest. Velkynwood and Sylthéra-Vael carry the mountain record: Velkynwood is a deep mountain settlement opening into forest, and Sylthéra-Vael is both deep mountain and built from the mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Ishtanora, Enkirael, Freyseth, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 25 recorded four-province geography group links, including 22 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 9
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 8
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 7
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 5
+        },
+        {
+          "name": "Triton",
+          "count": 5
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Locathah",
+          "count": 5
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 3
+        },
+        {
+          "name": "Kender",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Enkirael",
+          "count": 11
+        },
+        {
+          "name": "Freyseth",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 9
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 6
+        },
+        {
+          "name": "Eirzunet",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 6
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Prairie",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Sylthéra-Vael: Sylthéra-Vael is both a deep mountain settlement and a village built from the side of the mountain.",
+        "Velkynwood: Velkynwood is a deep mountain settlement that opens into a forest."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Starfall Violet Haze",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "emp-maldrik-graveborn",
+      "name": "Maldrik Graveborn",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Engineer",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "home",
+      "settlement": "Whispergrove",
+      "province": "Vaelmyrith",
+      "settlementKey": "vaelmyrith:Whispergrove",
+      "provinceKey": "vaelmyrith"
+    },
+    {
+      "id": "side-noryn-brassfern-31-0",
+      "name": "Noryn Brassfern",
+      "sourceType": "transportation_side_npc",
+      "role": "cousin",
+      "faction": null,
+      "settlement": "Whispergrove",
+      "province": "Vaelmyrith",
+      "settlementKey": "vaelmyrith:Whispergrove",
+      "provinceKey": "vaelmyrith",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-orris-tidebrook-31-1",
+      "name": "Orris Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "role": "best friend",
+      "faction": null,
+      "settlement": "Whispergrove",
+      "province": "Vaelmyrith",
+      "settlementKey": "vaelmyrith:Whispergrove",
+      "provinceKey": "vaelmyrith",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-maldrik-graveborn",
+      "name": "Maldrik Graveborn",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 68,
+      "race": "Reborn",
+      "genderIdentity": "Agender",
+      "pronouns": "They / Them",
+      "occupation": "Skyship Engineer",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Neutral - Lawful - Cooperative - Neutral",
+      "currentMood": "Happy",
+      "homeProvince": "Vaelmyrith",
+      "homeProvinceKey": "vaelmyrith",
+      "homeSettlement": "Whispergrove",
+      "homeSettlementKey": "vaelmyrith:Whispergrove",
+      "workProvince": "El'dravire Riverrealm",
+      "workProvinceKey": "eldravireriverrealm",
+      "workSettlement": "Veloraskkis",
+      "workSettlementKey": "eldravireriverrealm:Veloraskkis",
+      "homeLocation": {
+        "province": "Vaelmyrith",
+        "settlement": "Whispergrove",
+        "x": 1347.199951171875,
+        "y": 226.125,
+        "lat": 50.25146484375,
+        "lon": 56.81249141693115,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT+04",
+          "timeZoneName": "Eastern Bell Time 4",
+          "offsetHoursFromBMT": 4,
+          "offsetMinutesFromBMT": 240,
+          "longitudeBandDegrees": [
+            52.5,
+            67.5
+          ],
+          "certifiedLatitude": 50.251465,
+          "certifiedLongitude": 56.812491,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Veloraskkis Skyship Port",
+        "province": "El'dravire Riverrealm",
+        "settlement": "Veloraskkis",
+        "mode": "skyship",
+        "x": 1577.5999755859375,
+        "y": 525.3250122070312,
+        "lat": -2.342287302017212,
+        "lon": 97.31249570846558,
+        "provinceKey": "el'dravire_riverrealm",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "BMT+06",
+          "timeZoneName": "Eastern Bell Time 6",
+          "offsetHoursFromBMT": 6,
+          "offsetMinutesFromBMT": 360,
+          "longitudeBandDegrees": [
+            82.5,
+            97.5
+          ],
+          "certifiedLatitude": -2.342287,
+          "certifiedLongitude": 97.312496,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "coverageWorkDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Tharos Grimtalon",
+          "type": "Coworker",
+          "score": 51
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "cousin",
+            "name": "Noryn Brassfern",
+            "sideNpcId": "side-noryn-brassfern-31-0",
+            "livesIn": "Whispergrove"
+          },
+          {
+            "kind": "best friend",
+            "name": "Orris Tidebrook",
+            "sideNpcId": "side-orris-tidebrook-31-1",
+            "livesIn": "Whispergrove"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Ulwyn",
+            "province": "Aelwynora",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Ulwyn",
+            "province": "Aelwynora",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Maldrik Graveborn is a Reborn — Graveborn Thread transportation employee (They / Them) and a skyship engineer whose public work is transportation, but their tracked life begins at home in Whispergrove, Vaelmyrith. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "quietly funny",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Reborn",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Reborn",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Reborn"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "vaelmyrith:Whispergrove",
+      "workplaceSettlementId": "eldravire_riverrealm:Veloraskkis",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Whispergrove",
+        "province": "Vaelmyrith",
+        "settlementKey": "vaelmyrith:Whispergrove",
+        "provinceKey": "vaelmyrith",
+        "serviceMode": "Skyship"
+      }
+    },
+    {
+      "id": "side-noryn-brassfern-31-0",
+      "name": "Noryn Brassfern",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "cousin",
+      "employeeId": "emp-maldrik-graveborn",
+      "employeeName": "Maldrik Graveborn",
+      "raceCategory": "Primitive, Tribal, and Wilderness Humanoids",
+      "race": "Laneshi",
+      "genderIdentity": "Cis-Male",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "First Person Plural",
+        "subject": "We",
+        "object": "Us",
+        "possessiveDeterminer": "Our",
+        "possessivePronoun": "Ours",
+        "reflexive": "Ourselves",
+        "example": "We brought our books."
+      },
+      "honorific": "Aunt",
+      "province": "Vaelmyrith",
+      "provinceKey": "vaelmyrith",
+      "settlement": "Whispergrove",
+      "settlementKey": "vaelmyrith:Whispergrove",
+      "homeLocation": {
+        "province": "Vaelmyrith",
+        "settlement": "Whispergrove",
+        "x": 1347.199951171875,
+        "y": 226.125
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Laneshi",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Whispergrove",
+        "province": "Vaelmyrith",
+        "settlementKey": "vaelmyrith:Whispergrove",
+        "provinceKey": "vaelmyrith"
+      }
+    },
+    {
+      "id": "side-orris-tidebrook-31-1",
+      "name": "Orris Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "best friend",
+      "employeeId": "emp-maldrik-graveborn",
+      "employeeName": "Maldrik Graveborn",
+      "raceCategory": "Miscellaneous and Hard-to-Classify Races",
+      "race": "Jaspey",
+      "genderIdentity": "Demi-Female",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "She / Her",
+        "subject": "She",
+        "object": "Her",
+        "possessiveDeterminer": "Her",
+        "possessivePronoun": "Hers",
+        "reflexive": "Herself",
+        "example": "She packed her bag."
+      },
+      "honorific": "Sprog",
+      "province": "Vaelmyrith",
+      "provinceKey": "vaelmyrith",
+      "settlement": "Whispergrove",
+      "settlementKey": "vaelmyrith:Whispergrove",
+      "homeLocation": {
+        "province": "Vaelmyrith",
+        "settlement": "Whispergrove",
+        "x": 1347.199951171875,
+        "y": 226.125
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Jaspey",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Whispergrove",
+        "province": "Vaelmyrith",
+        "settlementKey": "vaelmyrith:Whispergrove",
+        "provinceKey": "vaelmyrith"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
