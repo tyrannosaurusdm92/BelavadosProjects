@@ -1,0 +1,3627 @@
+{
+  "schema": "belavados.settlement.v1",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "sourceWorldZip": "Belavados_World_Player_Map_FINAL_UNBROKEN_LOCKED.zip",
+  "sourceHybridCacheZip": "belavados_hybrid_location_cache_pages.zip",
+  "htmlFileName": "Yivanyr_Eldravire.html",
+  "sourceMapHtmlFileName": "Yivanyr_Eldravire_Riverrealm.html",
+  "settlementJsonFileName": "Yivanyr_Eldravire.json",
+  "provinceFolder": "Eldravire",
+  "settlementFolder": "Yivanyr",
+  "template": {
+    "size": "City",
+    "folder": "cities",
+    "biomeCacheUsed": [
+      "Partial forest",
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "sourceTemplateFile": "cities/partial-forest__beach-and-grass-with-water__beach-and-reefs-with-water.html",
+    "sourceSettlementBiomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Partial forest"
+    ]
+  },
+  "settlement": {
+    "id": "eldravire_riverrealm:Yi’vanyr",
+    "scope": "settlement",
+    "province": "El'dravire Riverrealm",
+    "provinceKey": "eldravireriverrealm",
+    "provinceFolder": "Eldravire",
+    "settlement": "Yi’vanyr",
+    "name": "Yi’vanyr",
+    "type": "City",
+    "settlementType": "City",
+    "x": 1246.4000244140625,
+    "y": 659.7249755859375,
+    "lat": -25.967280864715576,
+    "lon": 39.093754291534424,
+    "latitude": -25.967280864715576,
+    "longitude": 39.093754291534424,
+    "population": 355967628,
+    "squareMiles": 438122.3814,
+    "squareKilometers": 1134732.5866,
+    "tags": [
+      "maritime",
+      "forest",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:elf-parent-race-and-elf-bloodlines",
+      "race:fey-and-trickster-folk",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "race:plantfolk-and-nature-bound-races",
+      "danger:high",
+      "government:parliamentary-government",
+      "type:city",
+      "water-class:coastal-or-mixed-water",
+      "alignment:altruistic",
+      "alignment:neutral",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:caravan",
+      "transit:train",
+      "transit:rail",
+      "transit:steamship",
+      "transit:submarine",
+      "transit:skyship",
+      "faction:the-black-maw-myriad"
+    ],
+    "races": [
+      "Human",
+      "Halfling — Lightfoot Halfling",
+      "Elf — Wood Elf",
+      "Elf — Eladrin",
+      "Fey-Folk — Faerie",
+      "Satyr",
+      "Changeling",
+      "Tabaxi",
+      "Bearfolk",
+      "Harengon",
+      "Mandrake",
+      "Mycelian",
+      "Dril'thar — Rainforest",
+      "Elf — Sea Elf",
+      "Tortle",
+      "Genasi — Water Genasi"
+    ],
+    "raceCategories": [
+      "Humans, Near-Humans, and Mixed Heritage",
+      "Halfling and Smallfolk",
+      "Elf Parent Race and Elf Bloodlines",
+      "Fey and Trickster Folk",
+      "Animalfolk and Mammalian Anthropomorphs",
+      "Plantfolk and Nature-Bound Races",
+      "Amphibious and Aquatic Peoples",
+      "Draconic and Reptilian Races",
+      "Elemental and Energy-Born Peoples"
+    ],
+    "deitiesWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Thalunesh",
+      "Iskareth",
+      "Hathruna",
+      "Bastveig",
+      "Valkhamesh",
+      "Horundar",
+      "Thoryn-Rahek"
+    ],
+    "danger": "High",
+    "alignmentAxes": {
+      "altruism": "Altruistic",
+      "lawfulness": "Neutral",
+      "cooperation": "Cooperative",
+      "honor": "Honorable"
+    },
+    "transportation": [
+      "Caravan",
+      "Train",
+      "Steamship",
+      "Submarine",
+      "Skyship"
+    ],
+    "htmlFileName": "Yivanyr_Eldravire.html",
+    "htmlFile": "Yivanyr_Eldravire.html",
+    "provinceGovernment": "Parliamentary Government",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Partial forest"
+    ],
+    "biomePaths": [
+      "Hybrid/Beach and grass with water",
+      "Hybrid/Beach and reefs with water",
+      "Forest/Partial forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "scannerDominantBiome": "Beach and grass with water",
+    "scannerBiomeTypes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Partial forest"
+    ],
+    "manualWaterLandClass": "coastal_or_mixed_water",
+    "hexBiomeScan": {
+      "xImage": 934.8,
+      "yImage": 659.725,
+      "sourceProjection": "lat/lon -> 1536x1024 hexcode map; original pin x/y are 2048x1024 and scale by 0.75 on x",
+      "exactHex": "#D6D8CE",
+      "exactBiomePath": "Hybrid/Beach and grass with water",
+      "exactBiome": "Beach and grass with water",
+      "dominantBiome": "Beach and grass with water",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "biomePaths": [
+        "Hybrid/Beach and grass with water",
+        "Hybrid/Beach and reefs with water",
+        "Forest/Partial forest"
+      ],
+      "landWaterClass": "coastal_or_mixed_water",
+      "localBiomePercentsRadius25": {
+        "Beach and grass with water": 0.3226,
+        "Underwater with reefs": 0.1949,
+        "Beach and reefs with water": 0.173,
+        "Partial forest": 0.0804,
+        "Ocean Surface floating settlement": 0.0704,
+        "Farming": 0.0358,
+        "Treetops - treehouses": 0.0338,
+        "Marshes and swamps": 0.0308
+      },
+      "localBiomePercentsRadius40": {
+        "Underwater with reefs": 0.2852,
+        "Beach and grass with water": 0.2131,
+        "Beach and reefs with water": 0.1492,
+        "Ocean Surface floating settlement": 0.1212,
+        "Partial forest": 0.0802,
+        "Marshes and swamps": 0.0395,
+        "Farming": 0.0312,
+        "Treetops - treehouses": 0.0245
+      },
+      "localWaterPercentRadius25": 0.2653,
+      "localLandHybridPercentRadius25": 0.7347,
+      "manualHexAuthority": true,
+      "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Subcombined settlement classification requires dominant subcombined/ocean hexcodes, not proximity to water."
+    },
+    "raceCommunities": [
+      {
+        "raceId": "human",
+        "raceName": "Human",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Human",
+        "categoryId": "humans_near_humans_and_mixed_heritage",
+        "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+        "categoryNumber": 1,
+        "creatorGod": "Nebyrr",
+        "deityWorshipped": "Nebyrr",
+        "presence": "common"
+      },
+      {
+        "raceId": "halfling",
+        "raceName": "Halfling",
+        "lineageId": "halfling__lightfoot_halfling_lineage",
+        "lineageName": "Lightfoot Halfling",
+        "displayName": "Halfling — Lightfoot Halfling",
+        "categoryId": "halfling_and_smallfolk",
+        "categoryName": "Halfling and Smallfolk",
+        "categoryNumber": 4,
+        "creatorGod": "Ishtanora",
+        "deityWorshipped": "Ishtanora",
+        "presence": "common"
+      },
+      {
+        "raceId": "elf",
+        "raceName": "Elf",
+        "lineageId": "wood_elf",
+        "lineageName": "Wood Elf",
+        "displayName": "Elf — Wood Elf",
+        "categoryId": "elf_parent_race_and_elf_bloodlines",
+        "categoryName": "Elf Parent Race and Elf Bloodlines",
+        "categoryNumber": 2,
+        "creatorGod": "Sigrananna",
+        "deityWorshipped": "Sigrananna",
+        "presence": "major"
+      },
+      {
+        "raceId": "elf",
+        "raceName": "Elf",
+        "lineageId": "eladrin",
+        "lineageName": "Eladrin",
+        "displayName": "Elf — Eladrin",
+        "categoryId": "elf_parent_race_and_elf_bloodlines",
+        "categoryName": "Elf Parent Race and Elf Bloodlines",
+        "categoryNumber": 2,
+        "creatorGod": "Sigrananna",
+        "deityWorshipped": "Sigrananna",
+        "presence": "common"
+      },
+      {
+        "raceId": "fey_folk",
+        "raceName": "Fey-Folk",
+        "lineageId": "faerie_lineage",
+        "lineageName": "Faerie",
+        "displayName": "Fey-Folk — Faerie",
+        "categoryId": "fey_and_trickster_folk",
+        "categoryName": "Fey and Trickster Folk",
+        "categoryNumber": 10,
+        "creatorGod": "Thalunesh",
+        "deityWorshipped": "Thalunesh",
+        "presence": "common"
+      },
+      {
+        "raceId": "satyr",
+        "raceName": "Satyr",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Satyr",
+        "categoryId": "fey_and_trickster_folk",
+        "categoryName": "Fey and Trickster Folk",
+        "categoryNumber": 10,
+        "creatorGod": "Thalunesh",
+        "deityWorshipped": "Thalunesh",
+        "presence": "common"
+      },
+      {
+        "raceId": "changeling",
+        "raceName": "Changeling",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Changeling",
+        "categoryId": "fey_and_trickster_folk",
+        "categoryName": "Fey and Trickster Folk",
+        "categoryNumber": 10,
+        "creatorGod": "Thalunesh",
+        "deityWorshipped": "Thalunesh",
+        "presence": "minority"
+      },
+      {
+        "raceId": "tabaxi",
+        "raceName": "Tabaxi",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Tabaxi",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "common"
+      },
+      {
+        "raceId": "bearfolk",
+        "raceName": "Bearfolk",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Bearfolk",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "minority"
+      },
+      {
+        "raceId": "harengon",
+        "raceName": "Harengon",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Harengon",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "common"
+      },
+      {
+        "raceId": "mandrake",
+        "raceName": "Mandrake",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Mandrake",
+        "categoryId": "plantfolk_and_nature_bound_races",
+        "categoryName": "Plantfolk and Nature-Bound Races",
+        "categoryNumber": 18,
+        "creatorGod": "Hathruna",
+        "deityWorshipped": "Hathruna",
+        "presence": "minority"
+      },
+      {
+        "raceId": "mycelian",
+        "raceName": "Mycelian",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Mycelian",
+        "categoryId": "plantfolk_and_nature_bound_races",
+        "categoryName": "Plantfolk and Nature-Bound Races",
+        "categoryNumber": 18,
+        "creatorGod": "Hathruna",
+        "deityWorshipped": "Hathruna",
+        "presence": "minority"
+      },
+      {
+        "raceId": "dril_thar",
+        "raceName": "Dril'thar",
+        "lineageId": "rainforest",
+        "lineageName": "Rainforest",
+        "displayName": "Dril'thar — Rainforest",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "minority"
+      },
+      {
+        "raceId": "elf",
+        "raceName": "Elf",
+        "lineageId": "sea_elf",
+        "lineageName": "Sea Elf",
+        "displayName": "Elf — Sea Elf",
+        "categoryId": "elf_parent_race_and_elf_bloodlines",
+        "categoryName": "Elf Parent Race and Elf Bloodlines",
+        "categoryNumber": 2,
+        "creatorGod": "Sigrananna",
+        "deityWorshipped": "Sigrananna",
+        "presence": "common"
+      },
+      {
+        "raceId": "tortle",
+        "raceName": "Tortle",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Tortle",
+        "categoryId": "draconic_and_reptilian_races",
+        "categoryName": "Draconic and Reptilian Races",
+        "categoryNumber": 7,
+        "creatorGod": "Valkhamesh",
+        "deityWorshipped": "Valkhamesh",
+        "presence": "common"
+      },
+      {
+        "raceId": "genasi",
+        "raceName": "Genasi",
+        "lineageId": "water_genasi_lineage",
+        "lineageName": "Water Genasi",
+        "displayName": "Genasi — Water Genasi",
+        "categoryId": "elemental_and_energy_born_peoples",
+        "categoryName": "Elemental and Energy-Born Peoples",
+        "categoryNumber": 11,
+        "creatorGod": "Horundar",
+        "deityWorshipped": "Horundar",
+        "presence": "minority"
+      }
+    ],
+    "raceCategoryIds": [
+      "humans_near_humans_and_mixed_heritage",
+      "halfling_and_smallfolk",
+      "elf_parent_race_and_elf_bloodlines",
+      "fey_and_trickster_folk",
+      "animalfolk_and_mammalian_anthropomorphs",
+      "plantfolk_and_nature_bound_races",
+      "amphibious_and_aquatic_peoples",
+      "draconic_and_reptilian_races",
+      "elemental_and_energy_born_peoples"
+    ],
+    "dangerLevel": "High",
+    "dangerScore": 4.78,
+    "preferredAlignment": "Altruistic - Neutral - Cooperative - Honorable",
+    "publicTransit": [
+      "Caravan",
+      "Train",
+      "Steamship",
+      "Submarine",
+      "Skyship"
+    ],
+    "publicTransportation": [
+      "Caravan",
+      "Train",
+      "Steamship",
+      "Submarine",
+      "Skyship"
+    ],
+    "manualAssignmentLock": true,
+    "manualAssignmentSource": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "correctedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "updatedAt": "2026-07-01T00:00:00-04:00",
+    "scannerLandmarks": [
+      "reef",
+      "forest"
+    ],
+    "terrainInfo": {
+      "scannerDominantBiome": "Beach and grass with water",
+      "scannerBiomeTypes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "hexBiomeScan": {
+        "xImage": 934.8,
+        "yImage": 659.725,
+        "sourceProjection": "lat/lon -> 1536x1024 hexcode map; original pin x/y are 2048x1024 and scale by 0.75 on x",
+        "exactHex": "#D6D8CE",
+        "exactBiomePath": "Hybrid/Beach and grass with water",
+        "exactBiome": "Beach and grass with water",
+        "dominantBiome": "Beach and grass with water",
+        "biomes": [
+          "Beach and grass with water",
+          "Beach and reefs with water",
+          "Partial forest"
+        ],
+        "biomePaths": [
+          "Hybrid/Beach and grass with water",
+          "Hybrid/Beach and reefs with water",
+          "Forest/Partial forest"
+        ],
+        "landWaterClass": "coastal_or_mixed_water",
+        "localBiomePercentsRadius25": {
+          "Beach and grass with water": 0.3226,
+          "Underwater with reefs": 0.1949,
+          "Beach and reefs with water": 0.173,
+          "Partial forest": 0.0804,
+          "Ocean Surface floating settlement": 0.0704,
+          "Farming": 0.0358,
+          "Treetops - treehouses": 0.0338,
+          "Marshes and swamps": 0.0308
+        },
+        "localBiomePercentsRadius40": {
+          "Underwater with reefs": 0.2852,
+          "Beach and grass with water": 0.2131,
+          "Beach and reefs with water": 0.1492,
+          "Ocean Surface floating settlement": 0.1212,
+          "Partial forest": 0.0802,
+          "Marshes and swamps": 0.0395,
+          "Farming": 0.0312,
+          "Treetops - treehouses": 0.0245
+        },
+        "localWaterPercentRadius25": 0.2653,
+        "localLandHybridPercentRadius25": 0.7347,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Subcombined settlement classification requires dominant subcombined/ocean hexcodes, not proximity to water."
+      },
+      "scannerEvidenceMode": "manual hexcode authority pass v4; scanner guesses are advisory only",
+      "correctedBy": "Manual hexcode authority pass v4",
+      "landWaterClass": "coastal_or_mixed_water"
+    },
+    "settlementScan": {
+      "scannerDominantBiome": "Beach and grass with water",
+      "scannerBiomeTypes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "hexBiomeScan": {
+        "xImage": 934.8,
+        "yImage": 659.725,
+        "sourceProjection": "lat/lon -> 1536x1024 hexcode map; original pin x/y are 2048x1024 and scale by 0.75 on x",
+        "exactHex": "#D6D8CE",
+        "exactBiomePath": "Hybrid/Beach and grass with water",
+        "exactBiome": "Beach and grass with water",
+        "dominantBiome": "Beach and grass with water",
+        "biomes": [
+          "Beach and grass with water",
+          "Beach and reefs with water",
+          "Partial forest"
+        ],
+        "biomePaths": [
+          "Hybrid/Beach and grass with water",
+          "Hybrid/Beach and reefs with water",
+          "Forest/Partial forest"
+        ],
+        "landWaterClass": "coastal_or_mixed_water",
+        "localBiomePercentsRadius25": {
+          "Beach and grass with water": 0.3226,
+          "Underwater with reefs": 0.1949,
+          "Beach and reefs with water": 0.173,
+          "Partial forest": 0.0804,
+          "Ocean Surface floating settlement": 0.0704,
+          "Farming": 0.0358,
+          "Treetops - treehouses": 0.0338,
+          "Marshes and swamps": 0.0308
+        },
+        "localBiomePercentsRadius40": {
+          "Underwater with reefs": 0.2852,
+          "Beach and grass with water": 0.2131,
+          "Beach and reefs with water": 0.1492,
+          "Ocean Surface floating settlement": 0.1212,
+          "Partial forest": 0.0802,
+          "Marshes and swamps": 0.0395,
+          "Farming": 0.0312,
+          "Treetops - treehouses": 0.0245
+        },
+        "localWaterPercentRadius25": 0.2653,
+        "localLandHybridPercentRadius25": 0.7347,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Subcombined settlement classification requires dominant subcombined/ocean hexcodes, not proximity to water."
+      },
+      "correctedBy": "Manual hexcode authority pass v4"
+    },
+    "transitRuleV5": {
+      "source": "manual transit correction v5 from user rule",
+      "railLabelInData": "Train",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Submarine",
+        "Steamship"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "ferryRule": "Ferry is assigned when local hexcode water evidence indicates a short/local crossing; larger water exposure uses Steamship/Submarine.",
+      "localWaterPercentRadius25": 0.2653,
+      "shortFerryWaterProxy": false,
+      "expandedWaterProxy": true,
+      "classification": "coastal_or_mixed_water",
+      "isLandBased": true,
+      "isCoastal": true,
+      "isDeepWater": false
+    },
+    "factions": [
+      {
+        "id": "fac_black_maw_myriad",
+        "name": "The Black-Maw Myriad",
+        "subtitle": "ichor-mutated swarm culture and wetland brood network",
+        "primarySeat": "Greenmire, Nalvessir",
+        "atTableRole": "Use for ecological body horror, adaptive enemies, river infestations, steamship and ferry scares, and tragic consequences of ichor pollution.",
+        "publicFace": "The Myriad has no normal public program; negotiable clades may demand survival space, cleaner rivers, or protection from those who created them.",
+        "hiddenTeeth": "Pure ichor creates command-nodes that can learn voices, tactics, prayers, and eventually the language of civilization itself.",
+        "patrons": [
+          "Thoryn-Rahek",
+          "Bastveig",
+          "Hathruna",
+          "Oskar'enlil",
+          "Iskareth"
+        ],
+        "alignmentTendency": {
+          "Altruism": 900,
+          "Lawfulness": 700,
+          "Cooperation": 2500,
+          "Honor": 500
+        },
+        "riskModifier": 1.8,
+        "influenceLevel": "province-influence",
+        "locationNetwork": [
+          {
+            "province": "El'dravire Riverrealm",
+            "primaryUTC": "UTC+4",
+            "displayUTCs": [
+              "UTC+4",
+              "UTC+5"
+            ],
+            "listedSites": [
+              "Lorangriel",
+              "Merrinthal",
+              "Murethash",
+              "Or’lythae"
+            ]
+          }
+        ],
+        "portalEligibility": {
+          "likelyAtaCategory": "Normally ineligible",
+          "tier3TitleOptions": "None; negotiable clades may use escorts",
+          "passRisk": "Any portal contact risks contamination review."
+        },
+        "publicPressure": "Legal-crime brokers, salvage crews, registered violence, smuggling paperwork, and Thalryss-style plausible deniability."
+      }
+    ],
+    "associatedFactions": [
+      "The Black-Maw Myriad"
+    ],
+    "associatedFactionIds": [
+      "fac_black_maw_myriad"
+    ],
+    "factionInfluenceLevels": {
+      "fac_black_maw_myriad": "province-influence"
+    },
+    "factionPatronDeities": [
+      "Thoryn-Rahek",
+      "Bastveig"
+    ],
+    "godsWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Thalunesh",
+      "Iskareth",
+      "Hathruna",
+      "Bastveig",
+      "Valkhamesh",
+      "Horundar",
+      "Thoryn-Rahek"
+    ],
+    "dangerRating": "High danger",
+    "dangerComputation": {
+      "baseManualRaceGovernmentScore": 4.2,
+      "preferredAlignmentModifier": -0.8,
+      "alignmentComponents": [
+        [
+          "altruism",
+          "altruistic",
+          -0.4
+        ],
+        [
+          "lawfulness",
+          "neutral",
+          0.1
+        ],
+        [
+          "cooperation",
+          "cooperative",
+          -0.3
+        ],
+        [
+          "honor",
+          "honorable",
+          -0.2
+        ]
+      ],
+      "provinceGovernment": "Parliamentary Government",
+      "provinceGovernmentModifier": -0.2,
+      "settlementTypeModifier": 0.5,
+      "raceModifier": 0.2,
+      "raceNotes": [
+        "draconic/reptilian/amphibious pressure",
+        "aquatic frontier pressure",
+        "diverse civic redundancy"
+      ],
+      "associatedFactionModifier": 0.63,
+      "associatedFactionComponents": [
+        {
+          "faction": "The Black-Maw Myriad",
+          "level": "province-influence",
+          "modifier": 0.63
+        }
+      ],
+      "factionConflictModifier": 0.0,
+      "waterClass": "coastal_or_mixed_water",
+      "waterClassModifier": 0.25,
+      "formula": "previous locked race/government score + preferred alignment + province government + settlement type + race pressure + associated faction influence + faction conflict + water/frontier modifier",
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)"
+    },
+    "contentLocked": true,
+    "worldCanonLocked": true,
+    "playerEditable": false,
+    "lockedFields": [
+      "dangerLevel",
+      "dangerScore",
+      "danger",
+      "races",
+      "raceCategories",
+      "raceCommunities",
+      "transportation",
+      "publicTransit",
+      "publicTransportation",
+      "deitiesWorshipped",
+      "godsWorshipped",
+      "biomes",
+      "biomePaths",
+      "primaryBiome",
+      "settlementTags",
+      "tags",
+      "factions",
+      "associatedFactions",
+      "preferredAlignment",
+      "alignmentAxes",
+      "provinceGovernment"
+    ],
+    "lockPolicy": {
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+      "editing": "disabled in player-facing map and data records",
+      "pinMovement": "disabled",
+      "borderMovement": "disabled"
+    },
+    "draggable": false,
+    "pinRenderMode": "live-static-svg-pin",
+    "pinStorageMode": "locked-coordinate-record",
+    "cssClass": "settlement-pin live-js-css-pin locked-settlement-pin",
+    "transitRuleFinal": {
+      "source": "Final lock pass from user rule",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Steamship",
+        "Submarine",
+        "Train",
+        "Caravan"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "classification": "coastal_or_mixed_water",
+      "locked": true
+    },
+    "generatedHtmlFileName": "Yivanyr_Eldravire.html",
+    "sourceMapHtmlFileName": "Yivanyr_Eldravire_Riverrealm.html",
+    "settlementFolder": "Yivanyr",
+    "templateBiomeCacheUsed": [
+      "Partial forest",
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "templateSourceFile": "cities/partial-forest__beach-and-grass-with-water__beach-and-reefs-with-water.html",
+    "generatedJsonFileName": "Yivanyr_Eldravire.json",
+    "playerFacingMapPlaceholder": {
+      "type": "locked-coordinate-svg-placeholder",
+      "editable": false,
+      "x": 1246.4000244140625,
+      "y": 659.7249755859375,
+      "latitude": -25.967280864715576,
+      "longitude": 39.093754291534424
+    },
+    "utcOffset": 3,
+    "utcLabel": "UTC+3",
+    "provinceWater": {
+      "inlandWater": "El’dravire Great River and Seven-Mouth Delta",
+      "baySeaSound": "Riverrealm Inner Sea",
+      "waterTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandmarks": {
+      "highland": "El’dravire Floodwall Hills",
+      "volcanoOrVent": "Thornsteam Basin",
+      "forestOrSwamp": "Reedcrown Marshwoods"
+    },
+    "provinceWeather": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "namedWeather": "Seven-Mouth Monsoon",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "weatherNotes": [
+      {
+        "label": "Reef weather",
+        "description": "Clear warm water, reef glare, spawning tides, and sudden storm surge.",
+        "response": "Reef law, current pilots, coral masonry, and moonlit closures."
+      }
+    ],
+    "topographyWeatherCanon": {
+      "schema": "belavados.settlement_topography_weather_canon.v1",
+      "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+      "sourceDocuments": [
+        "Belavadös Canonical Topography guide.docx",
+        "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+        "full_world_height_map.json"
+      ],
+      "settlementKey": "eldravire_riverrealm:Yi’vanyr",
+      "provinceKey": "eldravireriverrealm",
+      "province": "El'dravire Riverrealm",
+      "settlement": "Yi’vanyr",
+      "type": "City",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "primaryBiome": "Beach and grass with water",
+      "pinPlacement": "surface-land-pin",
+      "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+      "localRasterSample": {
+        "pixel": {
+          "x": 934.8,
+          "y": 659.725,
+          "ix": 935,
+          "iy": 660
+        },
+        "exactPaintedHex": "#D6D8CE",
+        "biomeCategoryId": 13,
+        "biomeCategory": "Beach and grass with water",
+        "biomePath": "Hybrid/Beach and grass with water",
+        "verticalBandId": 0,
+        "verticalBand": "surface_lowland_0_220m",
+        "regionKey": 130,
+        "heightRaw16": 25443,
+        "heightRaw8Azgaar": 99,
+        "surfaceMetersAboveSeaLevel": 43.02,
+        "depthMetersBelowSeaLevel": 48.27,
+        "zMetersFor3D": 43.02
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 43.02,
+        "surfaceAnchorZMeters": 43,
+        "subsurfaceDepthMeters": 48,
+        "subsurfaceAnchorZMeters": -48,
+        "maxHeightMetersAboveSeaLevel": 43,
+        "maxDepthMetersBelowSeaLevel": 48,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          39.0937543,
+          -25.9672809,
+          43.02
+        ],
+        "surfaceAnchorCoordinates": [
+          39.0937543,
+          -25.9672809,
+          43
+        ],
+        "subsurfaceAnchorCoordinates": [
+          39.0937543,
+          -25.9672809,
+          -48
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "provinceWaterAtlas": {
+        "Province": "El'dravire Riverrealm",
+        "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+        "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+        "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+      },
+      "provinceLandformAtlas": {
+        "Province": "El'dravire Riverrealm",
+        "Mountain range / highland": "El’dravire Floodwall Hills",
+        "Volcano / vent / caldera": "Thornsteam Basin",
+        "Forest / swamp / landmark": "Reedcrown Marshwoods"
+      },
+      "provinceClimateAtlas": {
+        "Province": "El'dravire Riverrealm",
+        "Climate belt": "Sunbelt reef-wet belt",
+        "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+        "Named weather": "Seven-Mouth Monsoon",
+        "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+      },
+      "provinceDeepAtlasProfile": {
+        "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+        "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+        "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+        "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+        "dominantRaceCategories": [
+          {
+            "name": "Humans, Near-Humans, and Mixed Heritage",
+            "count": 12
+          },
+          {
+            "name": "Halfling and Smallfolk",
+            "count": 12
+          },
+          {
+            "name": "Animalfolk and Mammalian Anthropomorphs",
+            "count": 12
+          },
+          {
+            "name": "Elf Parent Race and Elf Bloodlines",
+            "count": 9
+          },
+          {
+            "name": "Amphibious and Aquatic Peoples",
+            "count": 6
+          },
+          {
+            "name": "Fey and Trickster Folk",
+            "count": 5
+          },
+          {
+            "name": "Plantfolk and Nature-Bound Races",
+            "count": 5
+          },
+          {
+            "name": "Draconic and Reptilian Races",
+            "count": 5
+          }
+        ],
+        "dominantRaces": [
+          {
+            "name": "Human",
+            "count": 12
+          },
+          {
+            "name": "Halfling — Lightfoot Halfling",
+            "count": 12
+          },
+          {
+            "name": "Harengon",
+            "count": 9
+          },
+          {
+            "name": "Elf — Wood Elf",
+            "count": 5
+          },
+          {
+            "name": "Elf — Eladrin",
+            "count": 5
+          },
+          {
+            "name": "Fey-Folk — Faerie",
+            "count": 5
+          },
+          {
+            "name": "Satyr",
+            "count": 5
+          },
+          {
+            "name": "Changeling",
+            "count": 5
+          },
+          {
+            "name": "Tabaxi",
+            "count": 5
+          },
+          {
+            "name": "Bearfolk",
+            "count": 5
+          },
+          {
+            "name": "Mandrake",
+            "count": 5
+          },
+          {
+            "name": "Mycelian",
+            "count": 5
+          }
+        ],
+        "dominantFactions": [
+          {
+            "name": "The Black-Maw Myriad",
+            "count": 12
+          }
+        ],
+        "dominantDeities": [
+          {
+            "name": "Nebyrr",
+            "count": 12
+          },
+          {
+            "name": "Ishtanora",
+            "count": 12
+          },
+          {
+            "name": "Iskareth",
+            "count": 12
+          },
+          {
+            "name": "Thoryn-Rahek",
+            "count": 12
+          },
+          {
+            "name": "Bastveig",
+            "count": 12
+          },
+          {
+            "name": "Sigrananna",
+            "count": 9
+          },
+          {
+            "name": "Hathruna",
+            "count": 9
+          },
+          {
+            "name": "Thalunesh",
+            "count": 5
+          },
+          {
+            "name": "Valkhamesh",
+            "count": 5
+          },
+          {
+            "name": "Horundar",
+            "count": 5
+          }
+        ],
+        "dangerSpread": [
+          {
+            "name": "Moderate",
+            "count": 3
+          },
+          {
+            "name": "High",
+            "count": 3
+          },
+          {
+            "name": "Low",
+            "count": 3
+          },
+          {
+            "name": "Severe",
+            "count": 2
+          },
+          {
+            "name": "Elevated",
+            "count": 1
+          }
+        ],
+        "settlementTypeSpread": [
+          {
+            "name": "Town",
+            "count": 4
+          },
+          {
+            "name": "City",
+            "count": 4
+          },
+          {
+            "name": "Village",
+            "count": 3
+          },
+          {
+            "name": "Capital City",
+            "count": 1
+          }
+        ],
+        "transitModeSpread": [
+          {
+            "name": "Train / Rail",
+            "count": 11
+          },
+          {
+            "name": "Caravan",
+            "count": 11
+          },
+          {
+            "name": "Steamship",
+            "count": 11
+          },
+          {
+            "name": "Submarine",
+            "count": 11
+          },
+          {
+            "name": "Ferry",
+            "count": 5
+          },
+          {
+            "name": "Skyship",
+            "count": 5
+          },
+          {
+            "name": "Portal",
+            "count": 1
+          }
+        ],
+        "primaryBiomeSpread": [
+          {
+            "name": "Beach and grass with water",
+            "count": 7
+          },
+          {
+            "name": "Farming",
+            "count": 2
+          },
+          {
+            "name": "Marshes and swamps",
+            "count": 1
+          },
+          {
+            "name": "Beach and reefs with water",
+            "count": 1
+          },
+          {
+            "name": "Ocean Surface floating settlement",
+            "count": 1
+          }
+        ]
+      },
+      "weather": {
+        "namedWeather": "Seven-Mouth Monsoon",
+        "climateBelt": "Sunbelt reef-wet belt",
+        "verticalNote": "highest settled weather band 220 m; deepest recorded route 240 m",
+        "globalNamedWeatherDefinitions": [
+          {
+            "Weather name": "Copper-Silver King Tide",
+            "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+          },
+          {
+            "Weather name": "Hushed Neap",
+            "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+          },
+          {
+            "Weather name": "Storm-Stack Tide",
+            "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+          },
+          {
+            "Weather name": "Bastveig Drawdown",
+            "What it means": "A sudden retreat of water before trench-fed surge returns."
+          },
+          {
+            "Weather name": "Horundar Wall",
+            "What it means": "A black-green wall of rain that crosses whole coasts."
+          },
+          {
+            "Weather name": "Nannara Bead Squalls",
+            "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+          },
+          {
+            "Weather name": "Seleneš Silver Fog",
+            "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+          },
+          {
+            "Weather name": "Dragon-Anvil Cloud",
+            "What it means": "A towering thunderhead that forms over heated highlands."
+          },
+          {
+            "Weather name": "Hag-Lantern Mist",
+            "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+          },
+          {
+            "Weather name": "Cockatrice Still",
+            "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+          },
+          {
+            "Weather name": "Beholder’s Eye Cyclone",
+            "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+          },
+          {
+            "Weather name": "Goblin Drum Thunder",
+            "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+          },
+          {
+            "Weather name": "Kobold Sump Breath",
+            "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+          },
+          {
+            "Weather name": "Spiderweb Rain",
+            "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+          },
+          {
+            "Weather name": "Basilisk Glass Haze",
+            "What it means": "Shimmering heat that turns distance into false water and false stone."
+          },
+          {
+            "Weather name": "Chimera Crosswind",
+            "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+          },
+          {
+            "Weather name": "Kraken-Surge",
+            "What it means": "A steep, dark swell pushed by far-off pressure changes."
+          },
+          {
+            "Weather name": "Trollwash Rot-Rain",
+            "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+          },
+          {
+            "Weather name": "Owlbear Dusk Gust",
+            "What it means": "A sudden evening wind that turns forest travel loud and blind."
+          },
+          {
+            "Weather name": "Manticore Dusthook",
+            "What it means": "A hooked dust plume ahead of dryline storms."
+          },
+          {
+            "Weather name": "Wyvern Ridge Lightning",
+            "What it means": "Highland lightning that walks along exposed ridges."
+          },
+          {
+            "Weather name": "Gelatinous Roadmire",
+            "What it means": "Rain-soaked clay roads that swallow carts and boots."
+          },
+          {
+            "Weather name": "Mimic Puddle Season",
+            "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+          },
+          {
+            "Weather name": "Ghoulwind",
+            "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+          },
+          {
+            "Weather name": "Griffon Updraft",
+            "What it means": "A clean mountain lift used by skyships and great birds."
+          },
+          {
+            "Weather name": "Sahuagin Undertow",
+            "What it means": "A fast pull beneath reef water during strong tide shifts."
+          },
+          {
+            "Weather name": "Banshee Rain",
+            "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+          },
+          {
+            "Weather name": "Hydra Floodpulse",
+            "What it means": "One storm-fed river splits into several dangerous surges."
+          },
+          {
+            "Weather name": "Wyrmcoil Current",
+            "What it means": "A spiraling river or sea current that turns boats sideways."
+          },
+          {
+            "Weather name": "Moonmoth Bloom",
+            "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+          }
+        ]
+      },
+      "biomeRenderRule": {
+        "id": 13,
+        "group": "Hybrid",
+        "category": "Beach and grass with water",
+        "path": "Hybrid/Beach and grass with water",
+        "preview_color": "#E1D395"
+      },
+      "renderRules": {
+        "provinceBordersAndPins": "hidden until province dropdown selection",
+        "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+        "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+        "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+        "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+      }
+    },
+    "localRasterSample": {
+      "pixel": {
+        "x": 934.8,
+        "y": 659.725,
+        "ix": 935,
+        "iy": 660
+      },
+      "exactPaintedHex": "#D6D8CE",
+      "biomeCategoryId": 13,
+      "biomeCategory": "Beach and grass with water",
+      "biomePath": "Hybrid/Beach and grass with water",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 130,
+      "heightRaw16": 25443,
+      "heightRaw8Azgaar": 99,
+      "surfaceMetersAboveSeaLevel": 43.02,
+      "depthMetersBelowSeaLevel": 48.27,
+      "zMetersFor3D": 43.02
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 43.02,
+      "surfaceAnchorZMeters": 43,
+      "subsurfaceDepthMeters": 48,
+      "subsurfaceAnchorZMeters": -48,
+      "maxHeightMetersAboveSeaLevel": 43,
+      "maxDepthMetersBelowSeaLevel": 48,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        39.0937543,
+        -25.9672809,
+        43.02
+      ],
+      "surfaceAnchorCoordinates": [
+        39.0937543,
+        -25.9672809,
+        43
+      ],
+      "subsurfaceAnchorCoordinates": [
+        39.0937543,
+        -25.9672809,
+        -48
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "pinPlacement": "surface-land-pin",
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+      "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Mountain range / highland": "El’dravire Floodwall Hills",
+      "Volcano / vent / caldera": "Thornsteam Basin",
+      "Forest / swamp / landmark": "Reedcrown Marshwoods"
+    },
+    "provinceClimateAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Seven-Mouth Monsoon",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+      "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 12
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 12
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 12
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 12
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 12
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Fey-Folk — Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 12
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 12
+        },
+        {
+          "name": "Ishtanora",
+          "count": 12
+        },
+        {
+          "name": "Iskareth",
+          "count": 12
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 12
+        },
+        {
+          "name": "Bastveig",
+          "count": 12
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Hathruna",
+          "count": 9
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 11
+        },
+        {
+          "name": "Submarine",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 7
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 1
+        }
+      ]
+    },
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "weatherDetails": {
+      "namedWeather": "Seven-Mouth Monsoon",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 240 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "topographyDetails": {
+      "localRasterSample": {
+        "pixel": {
+          "x": 934.8,
+          "y": 659.725,
+          "ix": 935,
+          "iy": 660
+        },
+        "exactPaintedHex": "#D6D8CE",
+        "biomeCategoryId": 13,
+        "biomeCategory": "Beach and grass with water",
+        "biomePath": "Hybrid/Beach and grass with water",
+        "verticalBandId": 0,
+        "verticalBand": "surface_lowland_0_220m",
+        "regionKey": 130,
+        "heightRaw16": 25443,
+        "heightRaw8Azgaar": 99,
+        "surfaceMetersAboveSeaLevel": 43.02,
+        "depthMetersBelowSeaLevel": 48.27,
+        "zMetersFor3D": 43.02
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 43.02,
+        "surfaceAnchorZMeters": 43,
+        "subsurfaceDepthMeters": 48,
+        "subsurfaceAnchorZMeters": -48,
+        "maxHeightMetersAboveSeaLevel": 43,
+        "maxDepthMetersBelowSeaLevel": 48,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          39.0937543,
+          -25.9672809,
+          43.02
+        ],
+        "surfaceAnchorCoordinates": [
+          39.0937543,
+          -25.9672809,
+          43
+        ],
+        "subsurfaceAnchorCoordinates": [
+          39.0937543,
+          -25.9672809,
+          -48
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "biomeRenderRule": {
+        "id": 13,
+        "group": "Hybrid",
+        "category": "Beach and grass with water",
+        "path": "Hybrid/Beach and grass with water",
+        "preview_color": "#E1D395"
+      }
+    }
+  },
+  "geojsonFeature": {
+    "type": "Feature",
+    "properties": {
+      "name": "Yi’vanyr",
+      "type": "City",
+      "settlementType": "City",
+      "lat": -25.967280864715576,
+      "lon": 39.093754291534424,
+      "population": 355967628,
+      "squareMiles": 438122.3814,
+      "squareKilometers": 1134732.5866,
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "tags": [
+        "maritime",
+        "forest",
+        "race:humans-near-humans-and-mixed-heritage",
+        "race:halfling-and-smallfolk",
+        "race:elf-parent-race-and-elf-bloodlines",
+        "race:fey-and-trickster-folk",
+        "race:animalfolk-and-mammalian-anthropomorphs",
+        "race:plantfolk-and-nature-bound-races",
+        "danger:high",
+        "government:parliamentary-government",
+        "type:city",
+        "water-class:coastal-or-mixed-water",
+        "alignment:altruistic",
+        "alignment:neutral",
+        "alignment:cooperative",
+        "alignment:honorable",
+        "transit:caravan",
+        "transit:train",
+        "transit:rail",
+        "transit:steamship",
+        "transit:submarine",
+        "transit:skyship",
+        "faction:the-black-maw-myriad"
+      ],
+      "terrainInfo": {
+        "provinceDominantTerrain": "River",
+        "provinceDetectedFeatureTypes": [
+          "river",
+          "lake",
+          "marsh",
+          "mountain",
+          "forest",
+          "island",
+          "hill",
+          "water",
+          "delta",
+          "plateau",
+          "valley",
+          "reef",
+          "grassland",
+          "coast",
+          "unknown"
+        ],
+        "localCoordinates": {
+          "lat": -25.967280864715576,
+          "lon": 39.093754291534424
+        },
+        "scannerDominantBiome": "Beach and grass with water",
+        "scannerBiomeTypes": [
+          "Beach and grass with water",
+          "Beach and reefs with water",
+          "Partial forest"
+        ],
+        "scannerLandmarks": [
+          "water",
+          "coast",
+          "mountain",
+          "marsh",
+          "forest",
+          "island",
+          "valley",
+          "reef"
+        ],
+        "scannerEvidenceMode": "manual hexcode authority pass v4; scanner guesses are advisory only",
+        "scannerLocalScores": [
+          {
+            "terrain": "water",
+            "score": 5.521
+          },
+          {
+            "terrain": "coast",
+            "score": 3.239
+          },
+          {
+            "terrain": "mountain",
+            "score": 0.672
+          },
+          {
+            "terrain": "marsh",
+            "score": 0.282
+          },
+          {
+            "terrain": "forest",
+            "score": 0.279
+          },
+          {
+            "terrain": "island",
+            "score": 0.185
+          },
+          {
+            "terrain": "valley",
+            "score": 0.115
+          },
+          {
+            "terrain": "reef",
+            "score": 0.083
+          },
+          {
+            "terrain": "grassland",
+            "score": 0.066
+          },
+          {
+            "terrain": "desert",
+            "score": 0.001
+          }
+        ],
+        "correctedBy": "Manual hexcode authority pass v4",
+        "scannerContext": {
+          "landScore": 1.287,
+          "waterScore": 9.099,
+          "inWater": true,
+          "nearWater": true,
+          "nearLand": true,
+          "reefStrong": false,
+          "coastStrong": true,
+          "nearestPx": {
+            "land": 223.2,
+            "water": 215.2,
+            "coast": 343.2,
+            "reef": 215.2,
+            "island": 223.2,
+            "marsh": 247.2,
+            "forest": 255.2,
+            "mountain": 223.2,
+            "farm": null,
+            "grassland": 263.2,
+            "prairie": null,
+            "valley": 227.2,
+            "cavern": null
+          },
+          "insideFeaturePercent": {}
+        },
+        "hexBiomeScan": {
+          "xImage": 934.8,
+          "yImage": 659.725,
+          "sourceProjection": "lat/lon -> 1536x1024 hexcode map; original pin x/y are 2048x1024 and scale by 0.75 on x",
+          "exactHex": "#D6D8CE",
+          "exactBiomePath": "Hybrid/Beach and grass with water",
+          "exactBiome": "Beach and grass with water",
+          "dominantBiome": "Beach and grass with water",
+          "biomes": [
+            "Beach and grass with water",
+            "Beach and reefs with water",
+            "Partial forest"
+          ],
+          "biomePaths": [
+            "Hybrid/Beach and grass with water",
+            "Hybrid/Beach and reefs with water",
+            "Forest/Partial forest"
+          ],
+          "landWaterClass": "coastal_or_mixed_water",
+          "localBiomePercentsRadius25": {
+            "Beach and grass with water": 0.3226,
+            "Underwater with reefs": 0.1949,
+            "Beach and reefs with water": 0.173,
+            "Partial forest": 0.0804,
+            "Ocean Surface floating settlement": 0.0704,
+            "Farming": 0.0358,
+            "Treetops - treehouses": 0.0338,
+            "Marshes and swamps": 0.0308
+          },
+          "localBiomePercentsRadius40": {
+            "Underwater with reefs": 0.2852,
+            "Beach and grass with water": 0.2131,
+            "Beach and reefs with water": 0.1492,
+            "Ocean Surface floating settlement": 0.1212,
+            "Partial forest": 0.0802,
+            "Marshes and swamps": 0.0395,
+            "Farming": 0.0312,
+            "Treetops - treehouses": 0.0245
+          },
+          "localWaterPercentRadius25": 0.2653,
+          "localLandHybridPercentRadius25": 0.7347,
+          "manualHexAuthority": true,
+          "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Subcombined settlement classification requires dominant subcombined/ocean hexcodes, not proximity to water."
+        },
+        "landWaterClass": "coastal_or_mixed_water"
+      },
+      "danger": "High",
+      "alignmentAxes": {
+        "altruism": "Altruistic",
+        "lawfulness": "Neutral",
+        "cooperation": "Cooperative",
+        "honor": "Honorable"
+      },
+      "transportation": [
+        "Caravan",
+        "Train",
+        "Steamship",
+        "Submarine",
+        "Skyship"
+      ],
+      "races": [
+        "Human",
+        "Halfling — Lightfoot Halfling",
+        "Elf — Wood Elf",
+        "Elf — Eladrin",
+        "Fey-Folk — Faerie",
+        "Satyr",
+        "Changeling",
+        "Tabaxi",
+        "Bearfolk",
+        "Harengon",
+        "Mandrake",
+        "Mycelian",
+        "Dril'thar — Rainforest",
+        "Elf — Sea Elf",
+        "Tortle",
+        "Genasi — Water Genasi"
+      ],
+      "raceCategories": [
+        "Humans, Near-Humans, and Mixed Heritage",
+        "Halfling and Smallfolk",
+        "Elf Parent Race and Elf Bloodlines",
+        "Fey and Trickster Folk",
+        "Animalfolk and Mammalian Anthropomorphs",
+        "Plantfolk and Nature-Bound Races",
+        "Amphibious and Aquatic Peoples",
+        "Draconic and Reptilian Races",
+        "Elemental and Energy-Born Peoples"
+      ],
+      "deitiesWorshipped": [
+        "Nebyrr",
+        "Ishtanora",
+        "Sigrananna",
+        "Thalunesh",
+        "Iskareth",
+        "Hathruna",
+        "Bastveig",
+        "Valkhamesh",
+        "Horundar",
+        "Thoryn-Rahek"
+      ],
+      "htmlFileName": "Yivanyr_Eldravire_Riverrealm.html",
+      "color": "#40e0d0",
+      "scannerOriginalType": "City",
+      "scannerBiomeTypes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "scannerDominantBiome": "Beach and grass with water",
+      "scannerLandmarks": [
+        "reef",
+        "forest"
+      ],
+      "scannerCorrection": {
+        "changedType": true,
+        "changedBiomes": true,
+        "source": "v4 canon v2 water sensitivity + v3 land protection; honors max 3 biome combination rules",
+        "maxBiomeLabels": 3,
+        "manualOverrideRespected": false
+      },
+      "id": "eldravire_riverrealm:Yi’vanyr",
+      "scope": "settlement",
+      "province": "El'dravire Riverrealm",
+      "provinceKey": "eldravireriverrealm",
+      "provinceFolder": "Eldravire",
+      "settlement": "Yi’vanyr",
+      "latitude": -25.967280864715576,
+      "longitude": 39.093754291534424,
+      "htmlFile": "Yivanyr_Eldravire_Riverrealm.html",
+      "correctedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+      "provinceGovernment": "Parliamentary Government",
+      "biomePaths": [
+        "Hybrid/Beach and grass with water",
+        "Hybrid/Beach and reefs with water",
+        "Forest/Partial forest"
+      ],
+      "primaryBiome": "Beach and grass with water",
+      "manualWaterLandClass": "coastal_or_mixed_water",
+      "hexBiomeScan": {
+        "xImage": 934.8,
+        "yImage": 659.725,
+        "sourceProjection": "lat/lon -> 1536x1024 hexcode map; original pin x/y are 2048x1024 and scale by 0.75 on x",
+        "exactHex": "#D6D8CE",
+        "exactBiomePath": "Hybrid/Beach and grass with water",
+        "exactBiome": "Beach and grass with water",
+        "dominantBiome": "Beach and grass with water",
+        "biomes": [
+          "Beach and grass with water",
+          "Beach and reefs with water",
+          "Partial forest"
+        ],
+        "biomePaths": [
+          "Hybrid/Beach and grass with water",
+          "Hybrid/Beach and reefs with water",
+          "Forest/Partial forest"
+        ],
+        "landWaterClass": "coastal_or_mixed_water",
+        "localBiomePercentsRadius25": {
+          "Beach and grass with water": 0.3226,
+          "Underwater with reefs": 0.1949,
+          "Beach and reefs with water": 0.173,
+          "Partial forest": 0.0804,
+          "Ocean Surface floating settlement": 0.0704,
+          "Farming": 0.0358,
+          "Treetops - treehouses": 0.0338,
+          "Marshes and swamps": 0.0308
+        },
+        "localBiomePercentsRadius40": {
+          "Underwater with reefs": 0.2852,
+          "Beach and grass with water": 0.2131,
+          "Beach and reefs with water": 0.1492,
+          "Ocean Surface floating settlement": 0.1212,
+          "Partial forest": 0.0802,
+          "Marshes and swamps": 0.0395,
+          "Farming": 0.0312,
+          "Treetops - treehouses": 0.0245
+        },
+        "localWaterPercentRadius25": 0.2653,
+        "localLandHybridPercentRadius25": 0.7347,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Subcombined settlement classification requires dominant subcombined/ocean hexcodes, not proximity to water."
+      },
+      "raceCommunities": [
+        {
+          "raceId": "human",
+          "raceName": "Human",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Human",
+          "categoryId": "humans_near_humans_and_mixed_heritage",
+          "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+          "categoryNumber": 1,
+          "creatorGod": "Nebyrr",
+          "deityWorshipped": "Nebyrr",
+          "presence": "common"
+        },
+        {
+          "raceId": "halfling",
+          "raceName": "Halfling",
+          "lineageId": "halfling__lightfoot_halfling_lineage",
+          "lineageName": "Lightfoot Halfling",
+          "displayName": "Halfling — Lightfoot Halfling",
+          "categoryId": "halfling_and_smallfolk",
+          "categoryName": "Halfling and Smallfolk",
+          "categoryNumber": 4,
+          "creatorGod": "Ishtanora",
+          "deityWorshipped": "Ishtanora",
+          "presence": "common"
+        },
+        {
+          "raceId": "elf",
+          "raceName": "Elf",
+          "lineageId": "wood_elf",
+          "lineageName": "Wood Elf",
+          "displayName": "Elf — Wood Elf",
+          "categoryId": "elf_parent_race_and_elf_bloodlines",
+          "categoryName": "Elf Parent Race and Elf Bloodlines",
+          "categoryNumber": 2,
+          "creatorGod": "Sigrananna",
+          "deityWorshipped": "Sigrananna",
+          "presence": "major"
+        },
+        {
+          "raceId": "elf",
+          "raceName": "Elf",
+          "lineageId": "eladrin",
+          "lineageName": "Eladrin",
+          "displayName": "Elf — Eladrin",
+          "categoryId": "elf_parent_race_and_elf_bloodlines",
+          "categoryName": "Elf Parent Race and Elf Bloodlines",
+          "categoryNumber": 2,
+          "creatorGod": "Sigrananna",
+          "deityWorshipped": "Sigrananna",
+          "presence": "common"
+        },
+        {
+          "raceId": "fey_folk",
+          "raceName": "Fey-Folk",
+          "lineageId": "faerie_lineage",
+          "lineageName": "Faerie",
+          "displayName": "Fey-Folk — Faerie",
+          "categoryId": "fey_and_trickster_folk",
+          "categoryName": "Fey and Trickster Folk",
+          "categoryNumber": 10,
+          "creatorGod": "Thalunesh",
+          "deityWorshipped": "Thalunesh",
+          "presence": "common"
+        },
+        {
+          "raceId": "satyr",
+          "raceName": "Satyr",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Satyr",
+          "categoryId": "fey_and_trickster_folk",
+          "categoryName": "Fey and Trickster Folk",
+          "categoryNumber": 10,
+          "creatorGod": "Thalunesh",
+          "deityWorshipped": "Thalunesh",
+          "presence": "common"
+        },
+        {
+          "raceId": "changeling",
+          "raceName": "Changeling",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Changeling",
+          "categoryId": "fey_and_trickster_folk",
+          "categoryName": "Fey and Trickster Folk",
+          "categoryNumber": 10,
+          "creatorGod": "Thalunesh",
+          "deityWorshipped": "Thalunesh",
+          "presence": "minority"
+        },
+        {
+          "raceId": "tabaxi",
+          "raceName": "Tabaxi",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Tabaxi",
+          "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+          "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+          "categoryNumber": 15,
+          "creatorGod": "Iskareth",
+          "deityWorshipped": "Iskareth",
+          "presence": "common"
+        },
+        {
+          "raceId": "bearfolk",
+          "raceName": "Bearfolk",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Bearfolk",
+          "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+          "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+          "categoryNumber": 15,
+          "creatorGod": "Iskareth",
+          "deityWorshipped": "Iskareth",
+          "presence": "minority"
+        },
+        {
+          "raceId": "harengon",
+          "raceName": "Harengon",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Harengon",
+          "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+          "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+          "categoryNumber": 15,
+          "creatorGod": "Iskareth",
+          "deityWorshipped": "Iskareth",
+          "presence": "common"
+        },
+        {
+          "raceId": "mandrake",
+          "raceName": "Mandrake",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Mandrake",
+          "categoryId": "plantfolk_and_nature_bound_races",
+          "categoryName": "Plantfolk and Nature-Bound Races",
+          "categoryNumber": 18,
+          "creatorGod": "Hathruna",
+          "deityWorshipped": "Hathruna",
+          "presence": "minority"
+        },
+        {
+          "raceId": "mycelian",
+          "raceName": "Mycelian",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Mycelian",
+          "categoryId": "plantfolk_and_nature_bound_races",
+          "categoryName": "Plantfolk and Nature-Bound Races",
+          "categoryNumber": 18,
+          "creatorGod": "Hathruna",
+          "deityWorshipped": "Hathruna",
+          "presence": "minority"
+        },
+        {
+          "raceId": "dril_thar",
+          "raceName": "Dril'thar",
+          "lineageId": "rainforest",
+          "lineageName": "Rainforest",
+          "displayName": "Dril'thar — Rainforest",
+          "categoryId": "amphibious_and_aquatic_peoples",
+          "categoryName": "Amphibious and Aquatic Peoples",
+          "categoryNumber": 16,
+          "creatorGod": "Bastveig",
+          "deityWorshipped": "Bastveig",
+          "presence": "minority"
+        },
+        {
+          "raceId": "elf",
+          "raceName": "Elf",
+          "lineageId": "sea_elf",
+          "lineageName": "Sea Elf",
+          "displayName": "Elf — Sea Elf",
+          "categoryId": "elf_parent_race_and_elf_bloodlines",
+          "categoryName": "Elf Parent Race and Elf Bloodlines",
+          "categoryNumber": 2,
+          "creatorGod": "Sigrananna",
+          "deityWorshipped": "Sigrananna",
+          "presence": "common"
+        },
+        {
+          "raceId": "tortle",
+          "raceName": "Tortle",
+          "lineageId": null,
+          "lineageName": null,
+          "displayName": "Tortle",
+          "categoryId": "draconic_and_reptilian_races",
+          "categoryName": "Draconic and Reptilian Races",
+          "categoryNumber": 7,
+          "creatorGod": "Valkhamesh",
+          "deityWorshipped": "Valkhamesh",
+          "presence": "common"
+        },
+        {
+          "raceId": "genasi",
+          "raceName": "Genasi",
+          "lineageId": "water_genasi_lineage",
+          "lineageName": "Water Genasi",
+          "displayName": "Genasi — Water Genasi",
+          "categoryId": "elemental_and_energy_born_peoples",
+          "categoryName": "Elemental and Energy-Born Peoples",
+          "categoryNumber": 11,
+          "creatorGod": "Horundar",
+          "deityWorshipped": "Horundar",
+          "presence": "minority"
+        }
+      ],
+      "raceCategoryIds": [
+        "humans_near_humans_and_mixed_heritage",
+        "halfling_and_smallfolk",
+        "elf_parent_race_and_elf_bloodlines",
+        "fey_and_trickster_folk",
+        "animalfolk_and_mammalian_anthropomorphs",
+        "plantfolk_and_nature_bound_races",
+        "amphibious_and_aquatic_peoples",
+        "draconic_and_reptilian_races",
+        "elemental_and_energy_born_peoples"
+      ],
+      "dangerLevel": "High",
+      "dangerScore": 4.78,
+      "preferredAlignment": "Altruistic - Neutral - Cooperative - Honorable",
+      "publicTransit": [
+        "Caravan",
+        "Train",
+        "Steamship",
+        "Submarine",
+        "Skyship"
+      ],
+      "publicTransportation": [
+        "Caravan",
+        "Train",
+        "Steamship",
+        "Submarine",
+        "Skyship"
+      ],
+      "manualAssignmentLock": true,
+      "manualAssignmentSource": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+      "updatedAt": "2026-07-01T00:00:00-04:00",
+      "settlementScan": {
+        "scannerDominantBiome": "Beach and grass with water",
+        "scannerBiomeTypes": [
+          "Beach and grass with water",
+          "Beach and reefs with water",
+          "Partial forest"
+        ],
+        "hexBiomeScan": {
+          "xImage": 934.8,
+          "yImage": 659.725,
+          "sourceProjection": "lat/lon -> 1536x1024 hexcode map; original pin x/y are 2048x1024 and scale by 0.75 on x",
+          "exactHex": "#D6D8CE",
+          "exactBiomePath": "Hybrid/Beach and grass with water",
+          "exactBiome": "Beach and grass with water",
+          "dominantBiome": "Beach and grass with water",
+          "biomes": [
+            "Beach and grass with water",
+            "Beach and reefs with water",
+            "Partial forest"
+          ],
+          "biomePaths": [
+            "Hybrid/Beach and grass with water",
+            "Hybrid/Beach and reefs with water",
+            "Forest/Partial forest"
+          ],
+          "landWaterClass": "coastal_or_mixed_water",
+          "localBiomePercentsRadius25": {
+            "Beach and grass with water": 0.3226,
+            "Underwater with reefs": 0.1949,
+            "Beach and reefs with water": 0.173,
+            "Partial forest": 0.0804,
+            "Ocean Surface floating settlement": 0.0704,
+            "Farming": 0.0358,
+            "Treetops - treehouses": 0.0338,
+            "Marshes and swamps": 0.0308
+          },
+          "localBiomePercentsRadius40": {
+            "Underwater with reefs": 0.2852,
+            "Beach and grass with water": 0.2131,
+            "Beach and reefs with water": 0.1492,
+            "Ocean Surface floating settlement": 0.1212,
+            "Partial forest": 0.0802,
+            "Marshes and swamps": 0.0395,
+            "Farming": 0.0312,
+            "Treetops - treehouses": 0.0245
+          },
+          "localWaterPercentRadius25": 0.2653,
+          "localLandHybridPercentRadius25": 0.7347,
+          "manualHexAuthority": true,
+          "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Subcombined settlement classification requires dominant subcombined/ocean hexcodes, not proximity to water."
+        },
+        "correctedBy": "Manual hexcode authority pass v4"
+      },
+      "transitRuleV5": {
+        "source": "manual transit correction v5 from user rule",
+        "railLabelInData": "Train",
+        "landBasedRequires": [
+          "Train",
+          "Caravan"
+        ],
+        "deepWaterRequires": [
+          "Submarine"
+        ],
+        "coastalRequires": [
+          "Submarine",
+          "Steamship"
+        ],
+        "cityRequires": [
+          "Skyship"
+        ],
+        "capitalRequires": [
+          "Skyship",
+          "Portal"
+        ],
+        "ferryRule": "Ferry is assigned when local hexcode water evidence indicates a short/local crossing; larger water exposure uses Steamship/Submarine.",
+        "localWaterPercentRadius25": 0.2653,
+        "shortFerryWaterProxy": false,
+        "expandedWaterProxy": true,
+        "classification": "coastal_or_mixed_water",
+        "isLandBased": true,
+        "isCoastal": true,
+        "isDeepWater": false
+      },
+      "godsWorshipped": [
+        "Nebyrr",
+        "Ishtanora",
+        "Sigrananna",
+        "Thalunesh",
+        "Iskareth",
+        "Hathruna",
+        "Bastveig",
+        "Valkhamesh",
+        "Horundar",
+        "Thoryn-Rahek"
+      ],
+      "dangerRating": "High danger",
+      "dangerComputation": {
+        "baseManualRaceGovernmentScore": 4.2,
+        "preferredAlignmentModifier": -0.8,
+        "alignmentComponents": [
+          [
+            "altruism",
+            "altruistic",
+            -0.4
+          ],
+          [
+            "lawfulness",
+            "neutral",
+            0.1
+          ],
+          [
+            "cooperation",
+            "cooperative",
+            -0.3
+          ],
+          [
+            "honor",
+            "honorable",
+            -0.2
+          ]
+        ],
+        "provinceGovernment": "Parliamentary Government",
+        "provinceGovernmentModifier": -0.2,
+        "settlementTypeModifier": 0.5,
+        "raceModifier": 0.2,
+        "raceNotes": [
+          "draconic/reptilian/amphibious pressure",
+          "aquatic frontier pressure",
+          "diverse civic redundancy"
+        ],
+        "associatedFactionModifier": 0.63,
+        "associatedFactionComponents": [
+          {
+            "faction": "The Black-Maw Myriad",
+            "level": "province-influence",
+            "modifier": 0.63
+          }
+        ],
+        "factionConflictModifier": 0.0,
+        "waterClass": "coastal_or_mixed_water",
+        "waterClassModifier": 0.25,
+        "formula": "previous locked race/government score + preferred alignment + province government + settlement type + race pressure + associated faction influence + faction conflict + water/frontier modifier",
+        "lockedAt": "2026-07-01T00:00:00-04:00",
+        "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)"
+      },
+      "factions": [
+        {
+          "id": "fac_black_maw_myriad",
+          "name": "The Black-Maw Myriad",
+          "subtitle": "ichor-mutated swarm culture and wetland brood network",
+          "primarySeat": "Greenmire, Nalvessir",
+          "atTableRole": "Use for ecological body horror, adaptive enemies, river infestations, steamship and ferry scares, and tragic consequences of ichor pollution.",
+          "publicFace": "The Myriad has no normal public program; negotiable clades may demand survival space, cleaner rivers, or protection from those who created them.",
+          "hiddenTeeth": "Pure ichor creates command-nodes that can learn voices, tactics, prayers, and eventually the language of civilization itself.",
+          "patrons": [
+            "Thoryn-Rahek",
+            "Bastveig",
+            "Hathruna",
+            "Oskar'enlil",
+            "Iskareth"
+          ],
+          "alignmentTendency": {
+            "Altruism": 900,
+            "Lawfulness": 700,
+            "Cooperation": 2500,
+            "Honor": 500
+          },
+          "riskModifier": 1.8,
+          "influenceLevel": "province-influence",
+          "locationNetwork": [
+            {
+              "province": "El'dravire Riverrealm",
+              "primaryUTC": "UTC+4",
+              "displayUTCs": [
+                "UTC+4",
+                "UTC+5"
+              ],
+              "listedSites": [
+                "Lorangriel",
+                "Merrinthal",
+                "Murethash",
+                "Or’lythae"
+              ]
+            }
+          ]
+        }
+      ],
+      "associatedFactions": [
+        "The Black-Maw Myriad"
+      ],
+      "associatedFactionIds": [
+        "fac_black_maw_myriad"
+      ],
+      "factionInfluenceLevels": {
+        "fac_black_maw_myriad": "province-influence"
+      },
+      "factionPatronDeities": [
+        "Thoryn-Rahek",
+        "Bastveig"
+      ],
+      "contentLocked": true,
+      "worldCanonLocked": true,
+      "playerEditable": false,
+      "lockedFields": [
+        "dangerLevel",
+        "dangerScore",
+        "danger",
+        "races",
+        "raceCategories",
+        "raceCommunities",
+        "transportation",
+        "publicTransit",
+        "publicTransportation",
+        "deitiesWorshipped",
+        "godsWorshipped",
+        "biomes",
+        "biomePaths",
+        "primaryBiome",
+        "settlementTags",
+        "tags",
+        "factions",
+        "associatedFactions",
+        "preferredAlignment",
+        "alignmentAxes",
+        "provinceGovernment"
+      ],
+      "lockPolicy": {
+        "lockedAt": "2026-07-01T00:00:00-04:00",
+        "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+        "editing": "disabled in player-facing map and data records",
+        "pinMovement": "disabled",
+        "borderMovement": "disabled"
+      },
+      "transitRuleFinal": {
+        "source": "Final lock pass from user rule",
+        "landBasedRequires": [
+          "Train",
+          "Caravan"
+        ],
+        "deepWaterRequires": [
+          "Submarine"
+        ],
+        "coastalRequires": [
+          "Steamship",
+          "Submarine",
+          "Train",
+          "Caravan"
+        ],
+        "cityRequires": [
+          "Skyship"
+        ],
+        "capitalRequires": [
+          "Skyship",
+          "Portal"
+        ],
+        "classification": "coastal_or_mixed_water",
+        "locked": true
+      },
+      "x": 1246.4000244140625,
+      "y": 659.7249755859375,
+      "draggable": false,
+      "pinRenderMode": "live-static-svg-pin",
+      "pinStorageMode": "locked-coordinate-record",
+      "cssClass": "settlement-pin live-js-css-pin locked-settlement-pin",
+      "topographyWeatherCanon": {
+        "schema": "belavados.settlement_topography_weather_canon.v1",
+        "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+        "sourceDocuments": [
+          "Belavadös Canonical Topography guide.docx",
+          "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+          "full_world_height_map.json"
+        ],
+        "settlementKey": "eldravire_riverrealm:Yi’vanyr",
+        "provinceKey": "eldravireriverrealm",
+        "province": "El'dravire Riverrealm",
+        "settlement": "Yi’vanyr",
+        "type": "City",
+        "biomes": [
+          "Beach and grass with water",
+          "Beach and reefs with water",
+          "Partial forest"
+        ],
+        "primaryBiome": "Beach and grass with water",
+        "pinPlacement": "surface-land-pin",
+        "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+        "localRasterSample": {
+          "pixel": {
+            "x": 934.8,
+            "y": 659.725,
+            "ix": 935,
+            "iy": 660
+          },
+          "exactPaintedHex": "#D6D8CE",
+          "biomeCategoryId": 13,
+          "biomeCategory": "Beach and grass with water",
+          "biomePath": "Hybrid/Beach and grass with water",
+          "verticalBandId": 0,
+          "verticalBand": "surface_lowland_0_220m",
+          "regionKey": 130,
+          "heightRaw16": 25443,
+          "heightRaw8Azgaar": 99,
+          "surfaceMetersAboveSeaLevel": 43.02,
+          "depthMetersBelowSeaLevel": 48.27,
+          "zMetersFor3D": 43.02
+        },
+        "heightAndDepthBySeaLevel": {
+          "displayZMeters": 43.02,
+          "surfaceAnchorZMeters": 43,
+          "subsurfaceDepthMeters": 48,
+          "subsurfaceAnchorZMeters": -48,
+          "maxHeightMetersAboveSeaLevel": 43,
+          "maxDepthMetersBelowSeaLevel": 48,
+          "anchorMode": "surface_anchor",
+          "pinPlacement": "surface-land-pin",
+          "hasUnderworldRumor": false,
+          "verticalRangeSourceText": "",
+          "terrainRole": null,
+          "terrainFact": null
+        },
+        "vertical3D": {
+          "displayCoordinates": [
+            39.0937543,
+            -25.9672809,
+            43.02
+          ],
+          "surfaceAnchorCoordinates": [
+            39.0937543,
+            -25.9672809,
+            43
+          ],
+          "subsurfaceAnchorCoordinates": [
+            39.0937543,
+            -25.9672809,
+            -48
+          ],
+          "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+          "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+        },
+        "docxMountainCanon": null,
+        "docxVerticalTableRecord": null,
+        "provinceWaterAtlas": {
+          "Province": "El'dravire Riverrealm",
+          "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+          "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+          "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+        },
+        "provinceLandformAtlas": {
+          "Province": "El'dravire Riverrealm",
+          "Mountain range / highland": "El’dravire Floodwall Hills",
+          "Volcano / vent / caldera": "Thornsteam Basin",
+          "Forest / swamp / landmark": "Reedcrown Marshwoods"
+        },
+        "provinceClimateAtlas": {
+          "Province": "El'dravire Riverrealm",
+          "Climate belt": "Sunbelt reef-wet belt",
+          "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+          "Named weather": "Seven-Mouth Monsoon",
+          "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+        },
+        "provinceDeepAtlasProfile": {
+          "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+          "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+          "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+          "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+          "dominantRaceCategories": [
+            {
+              "name": "Humans, Near-Humans, and Mixed Heritage",
+              "count": 12
+            },
+            {
+              "name": "Halfling and Smallfolk",
+              "count": 12
+            },
+            {
+              "name": "Animalfolk and Mammalian Anthropomorphs",
+              "count": 12
+            },
+            {
+              "name": "Elf Parent Race and Elf Bloodlines",
+              "count": 9
+            },
+            {
+              "name": "Amphibious and Aquatic Peoples",
+              "count": 6
+            },
+            {
+              "name": "Fey and Trickster Folk",
+              "count": 5
+            },
+            {
+              "name": "Plantfolk and Nature-Bound Races",
+              "count": 5
+            },
+            {
+              "name": "Draconic and Reptilian Races",
+              "count": 5
+            }
+          ],
+          "dominantRaces": [
+            {
+              "name": "Human",
+              "count": 12
+            },
+            {
+              "name": "Halfling — Lightfoot Halfling",
+              "count": 12
+            },
+            {
+              "name": "Harengon",
+              "count": 9
+            },
+            {
+              "name": "Elf — Wood Elf",
+              "count": 5
+            },
+            {
+              "name": "Elf — Eladrin",
+              "count": 5
+            },
+            {
+              "name": "Fey-Folk — Faerie",
+              "count": 5
+            },
+            {
+              "name": "Satyr",
+              "count": 5
+            },
+            {
+              "name": "Changeling",
+              "count": 5
+            },
+            {
+              "name": "Tabaxi",
+              "count": 5
+            },
+            {
+              "name": "Bearfolk",
+              "count": 5
+            },
+            {
+              "name": "Mandrake",
+              "count": 5
+            },
+            {
+              "name": "Mycelian",
+              "count": 5
+            }
+          ],
+          "dominantFactions": [
+            {
+              "name": "The Black-Maw Myriad",
+              "count": 12
+            }
+          ],
+          "dominantDeities": [
+            {
+              "name": "Nebyrr",
+              "count": 12
+            },
+            {
+              "name": "Ishtanora",
+              "count": 12
+            },
+            {
+              "name": "Iskareth",
+              "count": 12
+            },
+            {
+              "name": "Thoryn-Rahek",
+              "count": 12
+            },
+            {
+              "name": "Bastveig",
+              "count": 12
+            },
+            {
+              "name": "Sigrananna",
+              "count": 9
+            },
+            {
+              "name": "Hathruna",
+              "count": 9
+            },
+            {
+              "name": "Thalunesh",
+              "count": 5
+            },
+            {
+              "name": "Valkhamesh",
+              "count": 5
+            },
+            {
+              "name": "Horundar",
+              "count": 5
+            }
+          ],
+          "dangerSpread": [
+            {
+              "name": "Moderate",
+              "count": 3
+            },
+            {
+              "name": "High",
+              "count": 3
+            },
+            {
+              "name": "Low",
+              "count": 3
+            },
+            {
+              "name": "Severe",
+              "count": 2
+            },
+            {
+              "name": "Elevated",
+              "count": 1
+            }
+          ],
+          "settlementTypeSpread": [
+            {
+              "name": "Town",
+              "count": 4
+            },
+            {
+              "name": "City",
+              "count": 4
+            },
+            {
+              "name": "Village",
+              "count": 3
+            },
+            {
+              "name": "Capital City",
+              "count": 1
+            }
+          ],
+          "transitModeSpread": [
+            {
+              "name": "Train / Rail",
+              "count": 11
+            },
+            {
+              "name": "Caravan",
+              "count": 11
+            },
+            {
+              "name": "Steamship",
+              "count": 11
+            },
+            {
+              "name": "Submarine",
+              "count": 11
+            },
+            {
+              "name": "Ferry",
+              "count": 5
+            },
+            {
+              "name": "Skyship",
+              "count": 5
+            },
+            {
+              "name": "Portal",
+              "count": 1
+            }
+          ],
+          "primaryBiomeSpread": [
+            {
+              "name": "Beach and grass with water",
+              "count": 7
+            },
+            {
+              "name": "Farming",
+              "count": 2
+            },
+            {
+              "name": "Marshes and swamps",
+              "count": 1
+            },
+            {
+              "name": "Beach and reefs with water",
+              "count": 1
+            },
+            {
+              "name": "Ocean Surface floating settlement",
+              "count": 1
+            }
+          ]
+        },
+        "weather": {
+          "namedWeather": "Seven-Mouth Monsoon",
+          "climateBelt": "Sunbelt reef-wet belt",
+          "verticalNote": "highest settled weather band 220 m; deepest recorded route 240 m",
+          "globalNamedWeatherDefinitions": [
+            {
+              "Weather name": "Copper-Silver King Tide",
+              "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+            },
+            {
+              "Weather name": "Hushed Neap",
+              "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+            },
+            {
+              "Weather name": "Storm-Stack Tide",
+              "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+            },
+            {
+              "Weather name": "Bastveig Drawdown",
+              "What it means": "A sudden retreat of water before trench-fed surge returns."
+            },
+            {
+              "Weather name": "Horundar Wall",
+              "What it means": "A black-green wall of rain that crosses whole coasts."
+            },
+            {
+              "Weather name": "Nannara Bead Squalls",
+              "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+            },
+            {
+              "Weather name": "Seleneš Silver Fog",
+              "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+            },
+            {
+              "Weather name": "Dragon-Anvil Cloud",
+              "What it means": "A towering thunderhead that forms over heated highlands."
+            },
+            {
+              "Weather name": "Hag-Lantern Mist",
+              "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+            },
+            {
+              "Weather name": "Cockatrice Still",
+              "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+            },
+            {
+              "Weather name": "Beholder’s Eye Cyclone",
+              "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+            },
+            {
+              "Weather name": "Goblin Drum Thunder",
+              "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+            },
+            {
+              "Weather name": "Kobold Sump Breath",
+              "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+            },
+            {
+              "Weather name": "Spiderweb Rain",
+              "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+            },
+            {
+              "Weather name": "Basilisk Glass Haze",
+              "What it means": "Shimmering heat that turns distance into false water and false stone."
+            },
+            {
+              "Weather name": "Chimera Crosswind",
+              "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+            },
+            {
+              "Weather name": "Kraken-Surge",
+              "What it means": "A steep, dark swell pushed by far-off pressure changes."
+            },
+            {
+              "Weather name": "Trollwash Rot-Rain",
+              "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+            },
+            {
+              "Weather name": "Owlbear Dusk Gust",
+              "What it means": "A sudden evening wind that turns forest travel loud and blind."
+            },
+            {
+              "Weather name": "Manticore Dusthook",
+              "What it means": "A hooked dust plume ahead of dryline storms."
+            },
+            {
+              "Weather name": "Wyvern Ridge Lightning",
+              "What it means": "Highland lightning that walks along exposed ridges."
+            },
+            {
+              "Weather name": "Gelatinous Roadmire",
+              "What it means": "Rain-soaked clay roads that swallow carts and boots."
+            },
+            {
+              "Weather name": "Mimic Puddle Season",
+              "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+            },
+            {
+              "Weather name": "Ghoulwind",
+              "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+            },
+            {
+              "Weather name": "Griffon Updraft",
+              "What it means": "A clean mountain lift used by skyships and great birds."
+            },
+            {
+              "Weather name": "Sahuagin Undertow",
+              "What it means": "A fast pull beneath reef water during strong tide shifts."
+            },
+            {
+              "Weather name": "Banshee Rain",
+              "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+            },
+            {
+              "Weather name": "Hydra Floodpulse",
+              "What it means": "One storm-fed river splits into several dangerous surges."
+            },
+            {
+              "Weather name": "Wyrmcoil Current",
+              "What it means": "A spiraling river or sea current that turns boats sideways."
+            },
+            {
+              "Weather name": "Moonmoth Bloom",
+              "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+            }
+          ]
+        },
+        "biomeRenderRule": {
+          "id": 13,
+          "group": "Hybrid",
+          "category": "Beach and grass with water",
+          "path": "Hybrid/Beach and grass with water",
+          "preview_color": "#E1D395"
+        },
+        "renderRules": {
+          "provinceBordersAndPins": "hidden until province dropdown selection",
+          "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+          "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+          "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+          "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+        }
+      },
+      "localRasterSample": {
+        "pixel": {
+          "x": 934.8,
+          "y": 659.725,
+          "ix": 935,
+          "iy": 660
+        },
+        "exactPaintedHex": "#D6D8CE",
+        "biomeCategoryId": 13,
+        "biomeCategory": "Beach and grass with water",
+        "biomePath": "Hybrid/Beach and grass with water",
+        "verticalBandId": 0,
+        "verticalBand": "surface_lowland_0_220m",
+        "regionKey": 130,
+        "heightRaw16": 25443,
+        "heightRaw8Azgaar": 99,
+        "surfaceMetersAboveSeaLevel": 43.02,
+        "depthMetersBelowSeaLevel": 48.27,
+        "zMetersFor3D": 43.02
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 43.02,
+        "surfaceAnchorZMeters": 43,
+        "subsurfaceDepthMeters": 48,
+        "subsurfaceAnchorZMeters": -48,
+        "maxHeightMetersAboveSeaLevel": 43,
+        "maxDepthMetersBelowSeaLevel": 48,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          39.0937543,
+          -25.9672809,
+          43.02
+        ],
+        "surfaceAnchorCoordinates": [
+          39.0937543,
+          -25.9672809,
+          43
+        ],
+        "subsurfaceAnchorCoordinates": [
+          39.0937543,
+          -25.9672809,
+          -48
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "pinPlacement": "surface-land-pin",
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "provinceWaterAtlas": {
+        "Province": "El'dravire Riverrealm",
+        "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+        "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+        "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+      },
+      "provinceLandformAtlas": {
+        "Province": "El'dravire Riverrealm",
+        "Mountain range / highland": "El’dravire Floodwall Hills",
+        "Volcano / vent / caldera": "Thornsteam Basin",
+        "Forest / swamp / landmark": "Reedcrown Marshwoods"
+      },
+      "provinceClimateAtlas": {
+        "Province": "El'dravire Riverrealm",
+        "Climate belt": "Sunbelt reef-wet belt",
+        "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+        "Named weather": "Seven-Mouth Monsoon",
+        "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        39.093754291534424,
+        -25.967280864715576
+      ]
+    }
+  },
+  "canonicalFileName": "Yivanyr_Eldravire.json",
+  "canonicalHtmlFileName": "Yivanyr_Eldravire.html",
+  "canonicalPath": "shared/settlements/Eldravire/Yivanyr/Yivanyr_Eldravire.json",
+  "canonicalHtmlPath": "shared/settlements/Eldravire/Yivanyr/Yivanyr_Eldravire.html",
+  "provinceCanonicalPath": "shared/settlements/Eldravire/Eldravire.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "eldravire_riverrealm:Yi’vanyr",
+    "provinceKey": "eldravireriverrealm",
+    "province": "El'dravire Riverrealm",
+    "settlement": "Yi’vanyr",
+    "type": "City",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Partial forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 934.8,
+        "y": 659.725,
+        "ix": 935,
+        "iy": 660
+      },
+      "exactPaintedHex": "#D6D8CE",
+      "biomeCategoryId": 13,
+      "biomeCategory": "Beach and grass with water",
+      "biomePath": "Hybrid/Beach and grass with water",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 130,
+      "heightRaw16": 25443,
+      "heightRaw8Azgaar": 99,
+      "surfaceMetersAboveSeaLevel": 43.02,
+      "depthMetersBelowSeaLevel": 48.27,
+      "zMetersFor3D": 43.02
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 43.02,
+      "surfaceAnchorZMeters": 43,
+      "subsurfaceDepthMeters": 48,
+      "subsurfaceAnchorZMeters": -48,
+      "maxHeightMetersAboveSeaLevel": 43,
+      "maxDepthMetersBelowSeaLevel": 48,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        39.0937543,
+        -25.9672809,
+        43.02
+      ],
+      "surfaceAnchorCoordinates": [
+        39.0937543,
+        -25.9672809,
+        43
+      ],
+      "subsurfaceAnchorCoordinates": [
+        39.0937543,
+        -25.9672809,
+        -48
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+      "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Mountain range / highland": "El’dravire Floodwall Hills",
+      "Volcano / vent / caldera": "Thornsteam Basin",
+      "Forest / swamp / landmark": "Reedcrown Marshwoods"
+    },
+    "provinceClimateAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Seven-Mouth Monsoon",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+      "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 12
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 12
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 12
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 12
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 12
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Fey-Folk — Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 12
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 12
+        },
+        {
+          "name": "Ishtanora",
+          "count": 12
+        },
+        {
+          "name": "Iskareth",
+          "count": 12
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 12
+        },
+        {
+          "name": "Bastveig",
+          "count": 12
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Hathruna",
+          "count": 9
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 11
+        },
+        {
+          "name": "Submarine",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 7
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Seven-Mouth Monsoon",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 240 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  }
+}

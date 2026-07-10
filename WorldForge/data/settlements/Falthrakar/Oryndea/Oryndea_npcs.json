@@ -1,0 +1,554 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "falthrakar:Oryndéa",
+  "settlement": "Oryndéa",
+  "provinceKey": "falthrakar",
+  "province": "Falthrakar",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Falthrakar/Oryndea/Oryndea_Falthrakar.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "falthrakar:Oryndéa",
+    "provinceKey": "falthrakar",
+    "province": "Falthrakar",
+    "settlement": "Oryndéa",
+    "type": "Village",
+    "biomes": [
+      "Partial forest",
+      "Treetops - treehouses",
+      "Farming"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Partial forest; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 840.6,
+        "y": 316.525,
+        "ix": 841,
+        "iy": 317
+      },
+      "exactPaintedHex": "#293915",
+      "biomeCategoryId": 12,
+      "biomeCategory": "Marshes and swamps",
+      "biomePath": "Forest/Marshes and swamps",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 120,
+      "heightRaw16": 56026,
+      "heightRaw8Azgaar": 218,
+      "surfaceMetersAboveSeaLevel": 147.45,
+      "depthMetersBelowSeaLevel": 24.57,
+      "zMetersFor3D": 147.45
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 147.45,
+      "surfaceAnchorZMeters": 147,
+      "subsurfaceDepthMeters": 25,
+      "subsurfaceAnchorZMeters": -25,
+      "maxHeightMetersAboveSeaLevel": 147,
+      "maxDepthMetersBelowSeaLevel": 25,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        17.0156336,
+        34.3608409,
+        147.45
+      ],
+      "surfaceAnchorCoordinates": [
+        17.0156336,
+        34.3608409,
+        147
+      ],
+      "subsurfaceAnchorCoordinates": [
+        17.0156336,
+        34.3608409,
+        -25
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Falthrakar",
+      "Named river / delta / canal / lake": "Falthrakar Inland Strait",
+      "Named bay / gulf / sea / sound": "Gorathkar Trade Sea",
+      "Terrain that feeds the water": "Partial forest; Beach and grass with water; Marshes and swamps"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Falthrakar",
+      "Mountain range / highland": "Falthrakar Greenstone Wall",
+      "Volcano / vent / caldera": "Verdant Forge",
+      "Forest / swamp / landmark": "Gorathkar Deepleaf"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Falthrakar",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Partial forest; Beach and grass with water; Marshes and swamps",
+      "Named weather": "Greenwall Rainshadow",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Falthrakar is centered at 32.804753, -5.451203 under Diarchy, with 118,613,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Falthrakar occupies 6,829,353.14 sq mi / 17,687,943.45 sq km of modeled Earth-sized territory, about 3.467776% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Beach and grass with water and Marshes and swamps define its broad terrain, while its settlements intensify into Beach and grass with water, Partial forest, Grassland, Marshes and swamps and Farming. Population density is 6.706 people/sq km / 17.368 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Fey and Trickster Folk, Amphibious and Aquatic Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, Harengon, and 4 more. Faction visibility leans toward The Crucible Wardens, with worship and patronage records naming Nebyrr, Ishtanora, Marduthor, Setrimir, Sigrananna, Iskareth, Thalunesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 12 recorded four-province geography group links, including 10 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 7
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 8
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk — Faerie",
+          "count": 7
+        },
+        {
+          "name": "Satyr",
+          "count": 7
+        },
+        {
+          "name": "Changeling",
+          "count": 7
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 5
+        },
+        {
+          "name": "Kender",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Marduthor",
+          "count": 11
+        },
+        {
+          "name": "Setrimir",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Thalunesh",
+          "count": 7
+        },
+        {
+          "name": "Bastveig",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Hathruna",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 4
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 7
+        },
+        {
+          "name": "Steamship",
+          "count": 7
+        },
+        {
+          "name": "Submarine",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 5
+        },
+        {
+          "name": "Partial forest",
+          "count": 3
+        },
+        {
+          "name": "Grassland",
+          "count": 1
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Greenwall Rainshadow",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 180 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "kessler-gate",
+      "name": "Kessler Gate",
+      "sourceType": "immersive_npc_roster",
+      "role": "Caravan Mayor",
+      "faction": "The Brass Concordat",
+      "settlement": "Oryndéa",
+      "province": "Falthrakar",
+      "settlementKey": "falthrakar:Oryndéa",
+      "provinceKey": "falthrakar",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "kessler-gate",
+      "name": "Kessler Gate",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Falthrakar",
+      "provinceKey": "falthrakar",
+      "settlement": "Oryndéa",
+      "settlementKey": "falthrakar:Oryndéa",
+      "description": "Kessler Gate is a practical Laneshi caravan mayor who keeps Oryndea moving through favors, tolls, quiet threats, and the kind of smile that means she has already counted the exits. The Brass Concordat trusts her because she understands that trade hubs survive on neutrality, controlled gossip, and hard decisions made before raiders, zealots, or hungry officials arrive. She is protective of caravan folk and refugees, but she will absolutely bury a scandal if exposing it would collapse the market that feeds them.",
+      "settlementAndAncestryTexture": "Oryndéa is a Village in Falthrakar, under Diarchy, with low danger, Partial forest, Treetops - treehouses, Farming terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Laneshi reads through the Laneshi entry of the race compendium, within Primitive, Tribal, and Wilderness Humanoids, marked by Asethyr. River-and-steppe nomads who follow migratory patterns of both herds and seasons. They are adaptable storytellers and skilled hunters. Table cues: Awakened Mind, Psychic Spirit, Amphibious, Darkvision; starting tendency Neutral - Chaotic - Cooperative - Honorable.",
+      "rumors": [
+        "Kessler Gate knows why an ichor ledger changed hands last Nebday.",
+        "Kessler Gate has a contact in Soltharyn Basin who will deny everything."
+      ],
+      "plotHooks": [
+        "Kessler Gate asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Kessler Gate's public story is incomplete."
+      ],
+      "profileId": "npc_0084_kessler_gate",
+      "race": "Laneshi",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Ward",
+      "residence": "Oryndéa - Safehouse",
+      "workplace": "Oryndéa Watch Office",
+      "job": "Caravan Mayor",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0084_kessler_gate",
+        "race": "Laneshi",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Ward",
+        "province": "Falthrakar",
+        "settlement": "Oryndéa",
+        "residence": "Oryndéa - Safehouse",
+        "workplace": "Oryndéa Watch Office",
+        "job": "Caravan Mayor",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 82,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Oryndéa",
+        "province": "Falthrakar",
+        "settlementKey": "falthrakar:Oryndéa",
+        "provinceKey": "falthrakar"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}

@@ -1,0 +1,624 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "iazethas:Cyr'ethael",
+  "settlement": "Cyr'ethael",
+  "provinceKey": "iazethas",
+  "province": "Iazethas",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Iazethas/Cyrethael/Cyrethael_Iazethas.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "iazethas:Cyr'ethael",
+    "provinceKey": "iazethas",
+    "province": "Iazethas",
+    "settlement": "Cyr'ethael",
+    "type": "Town",
+    "biomes": [
+      "Beach and grass with water",
+      "Farming",
+      "Partial forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 175.8,
+        "y": 634.925,
+        "ix": 176,
+        "iy": 635
+      },
+      "exactPaintedHex": "#5A6113",
+      "biomeCategoryId": 12,
+      "biomeCategory": "Marshes and swamps",
+      "biomePath": "Forest/Marshes and swamps",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 120,
+      "heightRaw16": 22873,
+      "heightRaw8Azgaar": 89,
+      "surfaceMetersAboveSeaLevel": 23.94,
+      "depthMetersBelowSeaLevel": 3.99,
+      "zMetersFor3D": 23.94
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 23.94,
+      "surfaceAnchorZMeters": 24,
+      "subsurfaceDepthMeters": 4,
+      "subsurfaceAnchorZMeters": -4,
+      "maxHeightMetersAboveSeaLevel": 24,
+      "maxDepthMetersBelowSeaLevel": 4,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -138.7968734,
+        -21.6079187,
+        23.94
+      ],
+      "surfaceAnchorCoordinates": [
+        -138.7968734,
+        -21.6079187,
+        24
+      ],
+      "subsurfaceAnchorCoordinates": [
+        -138.7968734,
+        -21.6079187,
+        -4
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Iazethas",
+      "Named river / delta / canal / lake": "Iazethas Brownwater Gulf",
+      "Named bay / gulf / sea / sound": "Mostrerah Marsh Bay",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Deep forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Iazethas",
+      "Mountain range / highland": "Iazethas Mudstone Teeth",
+      "Volcano / vent / caldera": "Mudglass Cone",
+      "Forest / swamp / landmark": "Bleasacia Blackfen"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Iazethas",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Mountain range; Deep cavern; Deep forest",
+      "Named weather": "Brownwater Thunder",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Iazethas is centered at -14.170558, -146.861304 under Triumvirate, with 105,112,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Iazethas occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Deep forest. Bleasacia, Streccea, Myr'ethûn, and Pokbith form the mountain record: the first, second, and fourth are deep mountain settlements, while Myr'ethûn descends through caverns with underworld rumors.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Draconic Peoples, Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Dragonborn, Dragonborn — Black Dragonborn, Dragonborn — Blue Dragonborn, Dragonborn — Brass Dragonborn, Dragonborn — Bronze Dragonborn, Dragonborn — Copper Dragonborn, Dragonborn — Gold Dragonborn, Dragonborn — Green Dragonborn, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 3 recorded four-province geography group links, including 1 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Draconic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Black Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Blue Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Brass Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Bronze Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Copper Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Gold Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Green Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Red Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Silver Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — White Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Human",
+          "count": 10
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Sokhivar",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Thalunesh",
+          "count": 3
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Mountain range",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 2
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Bleasacia: Bleasacia is a deep mountain city in Iazethas.",
+        "Myr'ethûn: Myr'ethûn is a deep mountain cavern village beneath Iazethas, with halls so low that underworld access is rumored within.",
+        "Pokbith: Pokbith is a deep mountain village in Iazethas.",
+        "Streccea: Streccea is a deep mountain city in Iazethas."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Brownwater Thunder",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 2
+  },
+  "locationRoleCounts": {
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "magda-black",
+      "name": "Magda Black",
+      "sourceType": "immersive_npc_roster",
+      "role": "Operator Boss",
+      "faction": "The Nefaric Veil",
+      "settlement": "Cyr'ethael",
+      "province": "Iazethas",
+      "settlementKey": "iazethas:Cyr'ethael",
+      "provinceKey": "iazethas",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "piera-wrightquill",
+      "name": "Piera Wrightquill",
+      "sourceType": "immersive_npc_roster",
+      "role": "Broadsheet Reporter",
+      "faction": "The Brass Concordat",
+      "settlement": "Cyr'ethael",
+      "province": "Iazethas",
+      "settlementKey": "iazethas:Cyr'ethael",
+      "provinceKey": "iazethas",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "magda-black",
+      "name": "Magda Black",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Iazethas",
+      "provinceKey": "iazethas",
+      "settlement": "Cyr'ethael",
+      "settlementKey": "iazethas:Cyr'ethael",
+      "description": "Magda Black is an Orc Operator boss who treats raiding like finance with better knives. In Cyr'ethael, she helps the Nefaric Veil turn tribute, fear, protection rackets, and luxury theft into a polished business model, preferring clean profit over messy slaughter. She is elegant, calculating, and cruel in the way of someone who thinks mercy is acceptable only when it earns interest.",
+      "settlementAndAncestryTexture": "Cyr'ethael is a Town in Iazethas, under Triumvirate, with low danger, Beach and grass with water, Farming, Partial forest terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Orc reads through the Human entry of the race compendium, within Humans, Near-Humans, and Mixed Heritage, marked by Nebyrr. The local form is read through Half-Orc (Human + Orc Lineage). Humans are highly adaptable and found in nearly every environment across the world. They are known for their cultural diversity, short generational cycles, and unmatched versatility among mortal races. Table cues: Resourceful, Skillful, Versatile; starting tendency Neutral - Neutral - Neutral - Neutral.",
+      "rumors": [
+        "Magda Black knows why an ichor ledger changed hands last Valkhaday.",
+        "Magda Black has a contact in Vorathûn who will deny everything."
+      ],
+      "plotHooks": [
+        "Magda Black asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Magda Black's public story is incomplete."
+      ],
+      "profileId": "npc_0111_magda_black",
+      "race": "Orc",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Hidden Resident",
+      "residence": "Cyr'ethael - Market Apartment",
+      "workplace": "Cyr'ethael Workshop",
+      "job": "Operator Boss",
+      "faction": "The Nefaric Veil",
+      "profileTable": {
+        "id": "npc_0111_magda_black",
+        "race": "Orc",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Hidden Resident",
+        "province": "Iazethas",
+        "settlement": "Cyr'ethael",
+        "residence": "Cyr'ethael - Market Apartment",
+        "workplace": "Cyr'ethael Workshop",
+        "job": "Operator Boss",
+        "faction": "The Nefaric Veil"
+      },
+      "quickIndexNumber": 109,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Cyr'ethael",
+        "province": "Iazethas",
+        "settlementKey": "iazethas:Cyr'ethael",
+        "provinceKey": "iazethas"
+      }
+    },
+    {
+      "id": "piera-wrightquill",
+      "name": "Piera Wrightquill",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Iazethas",
+      "provinceKey": "iazethas",
+      "settlement": "Cyr'ethael",
+      "settlementKey": "iazethas:Cyr'ethael",
+      "description": "Piera Wrightquill is a relentless lunar elf reporter with a talent for turning rumor, ledgers, overheard threats, and inconvenient witnesses into public scandal. Her moonlit elven instincts make her curious, adaptable, and difficult to intimidate, while Sigrananna’s influence gives her a sharp hunter’s patience when stalking a corrupt official through paper trails instead of forests.\nIn Cyr'ethael, a town in dragon-ruled Iazethas, Piera’s broadsheets regularly challenge draconic law, civic silence, price-fixing, poisoned canals, militia corruption, and anyone powerful enough to think truth should stay buried. She is sarcastic, lonely, brave to the point of recklessness, and deeply protective of her household, using the Public Broadsheet Office and the Brass Concordat to expose rot before it becomes accepted law.",
+      "settlementAndAncestryTexture": "Cyr'ethael is a Town in Iazethas, under Triumvirate, with low danger, Beach and grass with water, Farming, Partial forest terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Lunar Elf reads through the Elf entry of the race compendium, within Elf Parent Race and Elf Bloodlines, marked by Sigrananna. Elves are long-lived, graceful beings deeply attuned to magic, nature, and art. Their societies often value tradition, beauty, and refined mastery of specialized skills. They are broadly divided across many cultural a. Table cues: Darkvision, Elven Lineage, Fey Ancestry, Keen Senses; starting tendency Altruistic - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Piera Wrightquill knows why an ichor ledger changed hands last Ishtaday.",
+        "Piera Wrightquill has a contact in Turyne who will deny everything."
+      ],
+      "plotHooks": [
+        "Piera Wrightquill asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Piera Wrightquill's public story is incomplete."
+      ],
+      "profileId": "npc_0009_piera_wrightquill",
+      "race": "Lunar Elf",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Household Guard",
+      "residence": "Cyr'ethael - Canal Flat",
+      "workplace": "Public Broadsheet Office",
+      "job": "Broadsheet Reporter",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0009_piera_wrightquill",
+        "race": "Lunar Elf",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Household Guard",
+        "province": "Iazethas",
+        "settlement": "Cyr'ethael",
+        "residence": "Cyr'ethael - Canal Flat",
+        "workplace": "Public Broadsheet Office",
+        "job": "Broadsheet Reporter",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 9,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Cyr'ethael",
+        "province": "Iazethas",
+        "settlementKey": "iazethas:Cyr'ethael",
+        "provinceKey": "iazethas"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}

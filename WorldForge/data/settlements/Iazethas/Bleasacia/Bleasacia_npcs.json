@@ -1,0 +1,895 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "iazethas:Bleasacia",
+  "settlement": "Bleasacia",
+  "provinceKey": "iazethas",
+  "province": "Iazethas",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Iazethas/Bleasacia/Bleasacia_Iazethas.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "iazethas:Bleasacia",
+    "provinceKey": "iazethas",
+    "province": "Iazethas",
+    "settlement": "Bleasacia",
+    "type": "City",
+    "biomes": [
+      "Mountain range",
+      "Deep cavern",
+      "Marshes and swamps"
+    ],
+    "primaryBiome": "Mountain range",
+    "pinPlacement": "deep-mountain-pin",
+    "localTopographicRule": "Deep mountain/cavern settlement: draw a surface anchor at +4600 m and an inhabited/display point at -1500.0 m, with a vertical leader line and solid mountain volume around it.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 162.0,
+        "y": 528.525,
+        "ix": 162,
+        "iy": 529
+      },
+      "exactPaintedHex": "#C3B886",
+      "biomeCategoryId": 5,
+      "biomeCategory": "Farming",
+      "biomePath": "Plains/Farming",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 50,
+      "heightRaw16": 55255,
+      "heightRaw8Azgaar": 215,
+      "surfaceMetersAboveSeaLevel": 170.67,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 170.67
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": -1500.0,
+      "surfaceAnchorZMeters": 4600,
+      "subsurfaceDepthMeters": 1500,
+      "subsurfaceAnchorZMeters": -1500,
+      "maxHeightMetersAboveSeaLevel": 4600,
+      "maxDepthMetersBelowSeaLevel": 1500,
+      "anchorMode": "inside_mountain_anchor",
+      "pinPlacement": "deep-mountain-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "up to 4600 m above; down to 1500 m below",
+      "terrainRole": "deep mountain city",
+      "terrainFact": "Deep mountain settlement."
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -142.03125,
+        -2.9047894,
+        -1500.0
+      ],
+      "surfaceAnchorCoordinates": [
+        -142.03125,
+        -2.9047894,
+        4600
+      ],
+      "subsurfaceAnchorCoordinates": [
+        -142.03125,
+        -2.9047894,
+        -1500
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": {
+      "Province": "Iazethas",
+      "Settlement": "Bleasacia",
+      "Terrain role": "deep mountain city",
+      "Vertical range": "up to 4600 m above; down to 1500 m below",
+      "Terrain fact": "Deep mountain settlement."
+    },
+    "docxVerticalTableRecord": {
+      "Settlement": "Bleasacia",
+      "Province": "Iazethas",
+      "Type": "City",
+      "Height / depth note": "up to 4600 m above; down to 1500 m below",
+      "Depth / height note": "down to 1500 m below; up to 4600 m above"
+    },
+    "provinceWaterAtlas": {
+      "Province": "Iazethas",
+      "Named river / delta / canal / lake": "Iazethas Brownwater Gulf",
+      "Named bay / gulf / sea / sound": "Mostrerah Marsh Bay",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Deep forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Iazethas",
+      "Mountain range / highland": "Iazethas Mudstone Teeth",
+      "Volcano / vent / caldera": "Mudglass Cone",
+      "Forest / swamp / landmark": "Bleasacia Blackfen"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Iazethas",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Mountain range; Deep cavern; Deep forest",
+      "Named weather": "Brownwater Thunder",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Iazethas is centered at -14.170558, -146.861304 under Triumvirate, with 105,112,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Iazethas occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Deep forest. Bleasacia, Streccea, Myr'ethûn, and Pokbith form the mountain record: the first, second, and fourth are deep mountain settlements, while Myr'ethûn descends through caverns with underworld rumors.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Draconic Peoples, Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Dragonborn, Dragonborn — Black Dragonborn, Dragonborn — Blue Dragonborn, Dragonborn — Brass Dragonborn, Dragonborn — Bronze Dragonborn, Dragonborn — Copper Dragonborn, Dragonborn — Gold Dragonborn, Dragonborn — Green Dragonborn, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 3 recorded four-province geography group links, including 1 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Draconic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Black Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Blue Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Brass Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Bronze Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Copper Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Gold Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Green Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Red Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Silver Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — White Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Human",
+          "count": 10
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Sokhivar",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Thalunesh",
+          "count": 3
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Mountain range",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 2
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Bleasacia: Bleasacia is a deep mountain city in Iazethas.",
+        "Myr'ethûn: Myr'ethûn is a deep mountain cavern village beneath Iazethas, with halls so low that underworld access is rumored within.",
+        "Pokbith: Pokbith is a deep mountain village in Iazethas.",
+        "Streccea: Streccea is a deep mountain city in Iazethas."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Brownwater Thunder",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 6,
+      "group": "Mountains",
+      "category": "Mountain range",
+      "path": "Mountains/Mountain range",
+      "preview_color": "#DCDAC6"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-jasper-duskhollow-54-1",
+      "name": "Jasper Duskhollow",
+      "sourceType": "transportation_side_npc",
+      "role": "parent",
+      "faction": null,
+      "settlement": "Bleasacia",
+      "province": "Iazethas",
+      "settlementKey": "iazethas:Bleasacia",
+      "provinceKey": "iazethas",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-raviel-duskrend",
+      "name": "Raviel Duskrend",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Bleasacia",
+      "province": "Iazethas",
+      "settlementKey": "iazethas:Bleasacia",
+      "provinceKey": "iazethas"
+    },
+    {
+      "id": "side-tovin-amberrail-54-0",
+      "name": "Tovin Amberrail",
+      "sourceType": "transportation_side_npc",
+      "role": "sibling",
+      "faction": null,
+      "settlement": "Bleasacia",
+      "province": "Iazethas",
+      "settlementKey": "iazethas:Bleasacia",
+      "provinceKey": "iazethas",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-jasper-duskhollow-54-1",
+      "name": "Jasper Duskhollow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "parent",
+      "employeeId": "emp-raviel-duskrend",
+      "employeeName": "Raviel Duskrend",
+      "raceCategory": "Fey and Trickster Folk",
+      "race": "Satyr",
+      "genderIdentity": "Trans-Male",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "No Pronouns / Name Only",
+        "subject": "Name",
+        "object": "Name",
+        "possessiveDeterminer": "Name’s",
+        "possessivePronoun": "Name’s",
+        "reflexive": "Nameself / Name",
+        "example": "Pippin brought Pippin’s book."
+      },
+      "honorific": "Kitten",
+      "province": "Iazethas",
+      "provinceKey": "iazethas",
+      "settlement": "Bleasacia",
+      "settlementKey": "iazethas:Bleasacia",
+      "homeLocation": {
+        "province": "Iazethas",
+        "settlement": "Bleasacia",
+        "x": 216.0,
+        "y": 528.5250244140625
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Satyr",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Bleasacia",
+        "province": "Iazethas",
+        "settlementKey": "iazethas:Bleasacia",
+        "provinceKey": "iazethas"
+      }
+    },
+    {
+      "id": "emp-raviel-duskrend",
+      "name": "Raviel Duskrend",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 43,
+      "race": "Ravenfolk",
+      "genderIdentity": "Trans-Male",
+      "pronouns": "He / They",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Altruistic - Lawful - Cooperative - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Iazethas",
+      "homeProvinceKey": "iazethas",
+      "homeSettlement": "Bleasacia",
+      "homeSettlementKey": "iazethas:Bleasacia",
+      "workProvince": "Drakmorren",
+      "workProvinceKey": "drakmorren",
+      "workSettlement": "Vaelorûn",
+      "workSettlementKey": "drakmorren:Vaelorûn",
+      "homeLocation": {
+        "province": "Iazethas",
+        "settlement": "Bleasacia",
+        "x": 216.0,
+        "y": 528.5250244140625,
+        "lat": -2.904789447784424,
+        "lon": -142.03125,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT-09",
+          "timeZoneName": "Western Bell Time 9",
+          "offsetHoursFromBMT": -9,
+          "offsetMinutesFromBMT": -540,
+          "longitudeBandDegrees": [
+            -142.5,
+            -127.5
+          ],
+          "certifiedLatitude": -2.904789,
+          "certifiedLongitude": -142.03125,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Vaelorûn Train Station / Rail Platform",
+        "province": "Drakmorren",
+        "settlement": "Vaelorûn",
+        "mode": "rail",
+        "x": 1725.8133544921875,
+        "y": 104.78266906738281,
+        "lat": 71.58117145299911,
+        "lon": 123.36562871932983,
+        "provinceKey": "drakmorren",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "BMT+09",
+          "timeZoneName": "Eastern Bell Time 9",
+          "offsetHoursFromBMT": 9,
+          "offsetMinutesFromBMT": 540,
+          "longitudeBandDegrees": [
+            127.5,
+            142.5
+          ],
+          "certifiedLatitude": 51.592561,
+          "certifiedLongitude": 134.948158,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Early",
+        "start": "05:00",
+        "break": "09:00",
+        "end": "14:00"
+      },
+      "workDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "coverageWorkDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Alune Starweaver",
+          "type": "Coworker",
+          "score": 49
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "sibling",
+            "name": "Tovin Amberrail",
+            "sideNpcId": "side-tovin-amberrail-54-0",
+            "livesIn": "Bleasacia"
+          },
+          {
+            "kind": "parent",
+            "name": "Jasper Duskhollow",
+            "sideNpcId": "side-jasper-duskhollow-54-1",
+            "livesIn": "Bleasacia"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Mossirueth",
+            "province": "Jor’maelis",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Mossirueth",
+            "province": "Jor’maelis",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Raviel Duskrend is a Ravenfolk — Duskrend Rookline transportation employee (He / They) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Bleasacia, Iazethas. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "protective and direct",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Ravenfolk",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Ravenfolk",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Ravenfolk"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "iazethas:Bleasacia",
+      "workplaceSettlementId": "drakmorren:Vaelorûn",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Bleasacia",
+        "province": "Iazethas",
+        "settlementKey": "iazethas:Bleasacia",
+        "provinceKey": "iazethas",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-tovin-amberrail-54-0",
+      "name": "Tovin Amberrail",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "sibling",
+      "employeeId": "emp-raviel-duskrend",
+      "employeeName": "Raviel Duskrend",
+      "raceCategory": "Undead and Death-Touched Races",
+      "race": "Shade",
+      "genderIdentity": "Trans-Female",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Sun / Sunself",
+        "subject": "Sun",
+        "object": "Sun",
+        "possessiveDeterminer": "Sun’s",
+        "possessivePronoun": "Sun’s",
+        "reflexive": "Sunself",
+        "example": "Sun trusted sunself."
+      },
+      "honorific": "Starling",
+      "province": "Iazethas",
+      "provinceKey": "iazethas",
+      "settlement": "Bleasacia",
+      "settlementKey": "iazethas:Bleasacia",
+      "homeLocation": {
+        "province": "Iazethas",
+        "settlement": "Bleasacia",
+        "x": 216.0,
+        "y": 528.5250244140625
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Shade",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Bleasacia",
+        "province": "Iazethas",
+        "settlementKey": "iazethas:Bleasacia",
+        "provinceKey": "iazethas"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
