@@ -1,0 +1,29 @@
+{
+  "project": "WorldDepth 3D Map Studio",
+  "version": "1.0.0-prototype",
+  "generated": "2026-07-10",
+  "runtime": "Browser WebGL2; Python local static server",
+  "external_runtime_dependencies": [],
+  "attached_repository_references": [
+    {"archive":"cavewhere-master.zip","project":"CaveWhere","license_detected":"GPL-3.0","used_for":"cave survey and underground visualization architecture","source_copied":false},
+    {"archive":"orbitra-main.zip","project":"Orbitra","license_detected":"MIT","used_for":"globe focus and discovery interaction reference","source_copied":false},
+    {"archive":"ICanSeeMyHouseFromHere-master.zip","project":"I Can See My House From Here","license_detected":"none found in supplied archive","used_for":"browser globe coordinate and interaction reference","source_copied":false},
+    {"archive":"osgearth-master.zip","project":"osgEarth","license_detected":"MIT","used_for":"layered geospatial and elevation architecture reference","source_copied":false},
+    {"archive":"damavand-volcano-master.zip","project":"PyVista Damavand Volcano","license_detected":"MIT","used_for":"volcanic terrain and exploration reference","source_copied":false},
+    {"archive":"cesium-main.zip","project":"CesiumJS","license_detected":"Apache-2.0","used_for":"globe/flat geospatial rendering and production tiling reference","source_copied":false},
+    {"archive":"hello-terrain-main.zip","project":"hello-terrain","license_detected":"none found at archive root","used_for":"quadtree LOD, cube-sphere, and GPU terrain architecture reference","source_copied":false},
+    {"archive":"Terrain3D-main.zip","project":"Terrain3D","license_detected":"MIT","used_for":"heightmaps, terrain holes, foliage, and local terrain editing reference","source_copied":false}
+  ],
+  "features": [
+    "3D globe and flat 3D projection",
+    "elevation and bathymetry displacement",
+    "animated water and underwater environment",
+    "local terrain exploration",
+    "cave survey tube generation",
+    "volcano eruption particles",
+    "moving biome life points",
+    "JSON, GeoJSON, image, ZIP, and DOCX ingestion",
+    "one-to-three-biome settlement profiles",
+    "seeded custom planet generation"
+  ]
+}

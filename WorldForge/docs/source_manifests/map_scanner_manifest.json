@@ -1,0 +1,30 @@
+{
+  "package": "fantasy_map_scanner_merged_3d",
+  "version": "2026-07-10",
+  "openingFile": "index.html",
+  "offline": true,
+  "sourcePackages": [
+    "fantasy_map_scanner_generator (2).zip",
+    "fantasy_file_map_scanner_80_threshold.zip",
+    "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip"
+  ],
+  "modules": {
+    "scanner": "app.js",
+    "fileMatcher": "file_matcher.js",
+    "terrainCore": "terrain_core.js",
+    "terrainRenderer": "terrain3d.js",
+    "topographyRuntime": "topography_data.js"
+  },
+  "verticalLimitsMeters": {
+    "lowest": -8200,
+    "highest": 5200
+  },
+  "spikeProtection": [
+    "subsurface cavern separation",
+    "median outlier rejection",
+    "biome-aware bilateral smoothing",
+    "coastline blending",
+    "neighbor slope limiting",
+    "broad extrema anchoring"
+  ]
+}

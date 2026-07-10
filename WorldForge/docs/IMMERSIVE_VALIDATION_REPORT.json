@@ -1,0 +1,124 @@
+{
+  "schema": "worldforge.immersive-validation.v3",
+  "generatedAtUtc": "2026-07-10T20:54:59.920Z",
+  "ok": true,
+  "checks": [
+    {
+      "name": "deterministic annual weather",
+      "ok": true,
+      "dayOfYear": 191,
+      "intensity": 0.5172400820083952,
+      "pressureHpa": 1022.773888690629
+    },
+    {
+      "name": "seasonal weather changes by date",
+      "ok": true,
+      "julyTemperature": 7.770446142499409,
+      "octoberTemperature": 9.481143176906826
+    },
+    {
+      "name": "marine ecosystem population",
+      "ok": true,
+      "objects": 1580,
+      "zones": [
+        "shelf",
+        "slope",
+        "reef",
+        "trench",
+        "abyss"
+      ]
+    },
+    {
+      "name": "marine ecological depth zones",
+      "ok": true,
+      "zones": [
+        "shelf",
+        "slope",
+        "reef",
+        "trench",
+        "abyss"
+      ]
+    },
+    {
+      "name": "clickable cave survey stations",
+      "ok": true,
+      "stations": 15,
+      "clickableObjects": 15
+    },
+    {
+      "name": "deterministic volcano cycle",
+      "ok": true,
+      "cycleDays": 90,
+      "phase": 0.36666666666666664,
+      "activity": 0.4351326028413952,
+      "erupting": false,
+      "plumeHeightM": 7832.386851145114,
+      "lavaFlowKm": 5.221591234096742,
+      "summary": "Elevated unrest"
+    },
+    {
+      "name": "UI control #export-standalone-globe",
+      "ok": true
+    },
+    {
+      "name": "UI control #export-standalone-settlement",
+      "ok": true
+    },
+    {
+      "name": "UI control #browse-folder",
+      "ok": true
+    },
+    {
+      "name": "UI control #absorbed-modules",
+      "ok": true
+    },
+    {
+      "name": "UI control #reset-camera",
+      "ok": true
+    },
+    {
+      "name": "surface UV texture shader",
+      "ok": true
+    },
+    {
+      "name": "source repository absorption",
+      "ok": true
+    },
+    {
+      "name": "living ocean wired to scene",
+      "ok": true
+    },
+    {
+      "name": "cave explorer wired to scene",
+      "ok": true
+    },
+    {
+      "name": "center globe wired",
+      "ok": true
+    },
+    {
+      "name": "single locked backend endpoint",
+      "ok": true,
+      "found": [
+        "https://script.google.com/macros/s/AKfycbxe3P6MBofPEhPfTAaz05TWEYhScX9QgpHzBKCdwPGnvzvVoyfllu0bAghZKqHs4E3hGg/exec"
+      ]
+    },
+    {
+      "name": "backend lock checksum",
+      "ok": true,
+      "expectedHash": "9d8abb3ef8ebb347b320497ebbe202a178020d3889364e38f029885c9aa25e5a",
+      "actual": "9d8abb3ef8ebb347b320497ebbe202a178020d3889364e38f029885c9aa25e5a"
+    },
+    {
+      "name": "standalone WebGL module graph compiles",
+      "ok": true,
+      "htmlBytes": 147870,
+      "mainBytes": 5110
+    },
+    {
+      "name": "standalone HTML under 24 MiB without user imagery",
+      "ok": true,
+      "htmlBytes": 147870
+    }
+  ]
+}
