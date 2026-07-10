@@ -1,8 +1,0 @@
-{
-  "type":"FeatureCollection",
-  "features":[
-    {"type":"Feature","properties":{"name":"Sample Volcano","type":"volcano","elevation_m":4100},"geometry":{"type":"Point","coordinates":[-18,36,4100]}},
-    {"type":"Feature","properties":{"name":"Sample River","type":"river"},"geometry":{"type":"LineString","coordinates":[[-22,42],[-20,39],[-18,36],[-15,32],[-12,29]]}},
-    {"type":"Feature","properties":{"name":"Sample Wetland Boundary","type":"marsh"},"geometry":{"type":"Polygon","coordinates":[[[-14,29],[-10,29],[-9,25],[-13,24],[-14,29]]]}}
-  ]
-}
