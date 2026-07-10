@@ -1,0 +1,938 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "jormaelis:Utch’myrith",
+  "settlement": "Utch’myrith",
+  "provinceKey": "jormaelis",
+  "province": "Jor’maelis",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Jormaelis/Utchmyrith/Utchmyrith_Jormaelis.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "jormaelis:Utch’myrith",
+    "provinceKey": "jormaelis",
+    "province": "Jor’maelis",
+    "settlement": "Utch’myrith",
+    "type": "City",
+    "biomes": [
+      "Beach and grass with water",
+      "Farming",
+      "Partial forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 1403.4,
+        "y": 682.125,
+        "ix": 1403,
+        "iy": 682
+      },
+      "exactPaintedHex": "#EEF4DF",
+      "biomeCategoryId": 6,
+      "biomeCategory": "Mountain range",
+      "biomePath": "Mountains/Mountain range",
+      "verticalBandId": 2,
+      "verticalBand": "surface_highland_1200_4600m",
+      "regionKey": 62,
+      "heightRaw16": 33153,
+      "heightRaw8Azgaar": 129,
+      "surfaceMetersAboveSeaLevel": 2069.57,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 2069.57
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 2069.57,
+      "surfaceAnchorZMeters": 2070,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 2070,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        148.9218664,
+        -29.9047852,
+        2069.57
+      ],
+      "surfaceAnchorCoordinates": [
+        148.9218664,
+        -29.9047852,
+        2070
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Jor’maelis",
+      "Named river / delta / canal / lake": "Jor’maelis Sunlit Sea",
+      "Named bay / gulf / sea / sound": "Caelorynth Bright Gulf",
+      "Terrain that feeds the water": "Underwater without reefs; Beach and grass with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Jor’maelis",
+      "Mountain range / highland": "Jor’maelis Pale Peaks",
+      "Volcano / vent / caldera": "Sunlance Vent",
+      "Forest / swamp / landmark": "Lilyfire Coastwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Jor’maelis",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "Named weather": "Sunlance Cyclone Bands",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Jor’maelis is centered at -46.374220, 130.627031 under Communalism, with 105,431,000 people across 13 settlements.",
+      "extremeAtlasDescription": "Jor’maelis occupies 10,194,632.18 sq mi / 26,403,976.13 sq km of modeled Earth-sized territory, about 5.176582% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Underwater without reefs, Beach and grass with water and Partial forest define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Underwater without reefs, Partial forest and Farming. Population density is 3.993 people/sq km / 10.342 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Merfolk, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nefarokir, Eirzunet, Nebyrr, Ishtanora, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Triton",
+          "count": 8
+        },
+        {
+          "name": "Merfolk",
+          "count": 7
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 6
+        },
+        {
+          "name": "Tortle",
+          "count": 6
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 6
+        },
+        {
+          "name": "Locathah",
+          "count": 6
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Reef",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 13
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nefarokir",
+          "count": 13
+        },
+        {
+          "name": "Eirzunet",
+          "count": 13
+        },
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 4
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 12
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 7
+        },
+        {
+          "name": "Caravan",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 2
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Sunlance Cyclone Bands",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 4,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 3
+  },
+  "npcReferences": [
+    {
+      "id": "emp-fenra-hollowbranch",
+      "name": "Fenra Hollowbranch",
+      "sourceType": "transportation_employee",
+      "role": "Station Groundskeeper",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Utch’myrith",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "provinceKey": "jormaelis"
+    },
+    {
+      "id": "side-nalia-thornvalve-17-1",
+      "name": "Nalia Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "role": "cousin",
+      "faction": null,
+      "settlement": "Utch’myrith",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "provinceKey": "jormaelis",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-quill-moonspoke-17-0",
+      "name": "Quill Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "role": "child",
+      "faction": null,
+      "settlement": "Utch’myrith",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "provinceKey": "jormaelis",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "rook-macready",
+      "name": "Rook MacReady",
+      "sourceType": "immersive_npc_roster",
+      "role": "Contract Scout",
+      "faction": "The Brass Concordat",
+      "settlement": "Utch’myrith",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "provinceKey": "jormaelis",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-fenra-hollowbranch",
+      "name": "Fenra Hollowbranch",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 26,
+      "race": "Mandrake",
+      "genderIdentity": "Agender",
+      "pronouns": "They / Them",
+      "occupation": "Station Groundskeeper",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Exhausted",
+      "homeProvince": "Jor’maelis",
+      "homeProvinceKey": "jormaelis",
+      "homeSettlement": "Utch’myrith",
+      "homeSettlementKey": "jormaelis:Utch’myrith",
+      "workProvince": "Aelwynora",
+      "workProvinceKey": "aelwynora",
+      "workSettlement": "Yl'varessa",
+      "workSettlementKey": "aelwynora:Yl'varessa",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Utch’myrith",
+        "x": 1871.199951171875,
+        "y": 682.125,
+        "lat": -29.90478515625,
+        "lon": 148.92186641693115,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT+10",
+          "timeZoneName": "Eastern Bell Time 10",
+          "offsetHoursFromBMT": 10,
+          "offsetMinutesFromBMT": 600,
+          "longitudeBandDegrees": [
+            142.5,
+            157.5
+          ],
+          "certifiedLatitude": -29.904785,
+          "certifiedLongitude": 148.921866,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Yl'varessa Train Station / Rail Platform",
+        "province": "Aelwynora",
+        "settlement": "Yl'varessa",
+        "mode": "rail",
+        "x": 999.2000122070312,
+        "y": 45.32499694824219,
+        "lat": 82.0327153801918,
+        "lon": -4.359372854232788,
+        "provinceKey": "aelwynora",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "BMT-01",
+          "timeZoneName": "Western Bell Time 1",
+          "offsetHoursFromBMT": -1,
+          "offsetMinutesFromBMT": -60,
+          "longitudeBandDegrees": [
+            -22.5,
+            -7.5
+          ],
+          "certifiedLatitude": 74.720214,
+          "certifiedLongitude": -16.453121,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "coverageWorkDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Quillik Tinkersnap",
+          "type": "Coworker",
+          "score": 62
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "child",
+            "name": "Quill Moonspoke",
+            "sideNpcId": "side-quill-moonspoke-17-0",
+            "livesIn": "Utch’myrith"
+          },
+          {
+            "kind": "cousin",
+            "name": "Nalia Thornvalve",
+            "sideNpcId": "side-nalia-thornvalve-17-1",
+            "livesIn": "Utch’myrith"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Vaelorûn",
+            "province": "Drakmorren",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Vaelorûn",
+            "province": "Drakmorren",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Fenra Hollowbranch is a Mandrake — Hollowbranch Rootline transportation employee (They / Them) and a station groundskeeper whose public work is transportation, but their tracked life begins at home in Utch’myrith, Jor’maelis. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "methodical and patient",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Mandrake",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Mandrake",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Mandrake"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "jormaelis:Utch’myrith",
+      "workplaceSettlementId": "aelwynora:Yl'varessa",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Utch’myrith",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Utch’myrith",
+        "provinceKey": "jormaelis",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-nalia-thornvalve-17-1",
+      "name": "Nalia Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "cousin",
+      "employeeId": "emp-fenra-hollowbranch",
+      "employeeName": "Fenra Hollowbranch",
+      "raceCategory": "Birdfolk and Avian Races",
+      "race": "Kenku",
+      "genderIdentity": "Demi-Female",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Moss / Mosself",
+        "subject": "Moss",
+        "object": "Moss",
+        "possessiveDeterminer": "Moss’s",
+        "possessivePronoun": "Moss’s",
+        "reflexive": "Mosself",
+        "example": "Moss sat by mosself."
+      },
+      "honorific": "Papa",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "settlement": "Utch’myrith",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Utch’myrith",
+        "x": 1871.199951171875,
+        "y": 682.125
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Kenku",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Utch’myrith",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Utch’myrith",
+        "provinceKey": "jormaelis"
+      }
+    },
+    {
+      "id": "side-quill-moonspoke-17-0",
+      "name": "Quill Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "child",
+      "employeeId": "emp-fenra-hollowbranch",
+      "employeeName": "Fenra Hollowbranch",
+      "raceCategory": "Constructed and Artificial Beings",
+      "race": "Geppettin",
+      "genderIdentity": "Cis-Male",
+      "pronounSet": {
+        "group": "Common Neopronouns",
+        "name": "Co / Co",
+        "subject": "Co",
+        "object": "Co",
+        "possessiveDeterminer": "Cos",
+        "possessivePronoun": "Cos",
+        "reflexive": "Coself",
+        "example": "Co made cos choice."
+      },
+      "honorific": "Mom",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "settlement": "Utch’myrith",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Utch’myrith",
+        "x": 1871.199951171875,
+        "y": 682.125
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Geppettin",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Utch’myrith",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Utch’myrith",
+        "provinceKey": "jormaelis"
+      }
+    },
+    {
+      "id": "rook-macready",
+      "name": "Rook MacReady",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "settlement": "Utch’myrith",
+      "settlementKey": "jormaelis:Utch’myrith",
+      "description": "Rook MacReady is a dry, guarded Minotaur scout with a practiced mercenary’s eye, a parent’s desperation, and a code of restraint he clings to harder than he admits. As an Anubaldir-shaped Minotaur, he carries endurance, instinctual navigation, stubborn honor, and relentless pursuit in his bones, making him ideal for long-range scouting, caravan overwatch, and finding safe routes through bad country.\nHe works contracts through the Caravan Contract Desk in Utch’myrith, taking dangerous jobs across Jor’maelis so he can send coin home to the sibling caring for his sick child. Rook is sarcastic, careful with violence, and ashamed of some past contracts, but every shot he takes now is measured against one question: whether it gets him closer to a cure without turning him back into the kind of hired killer his child should never have to know.",
+      "settlementAndAncestryTexture": "Utch’myrith is a City in Jor’maelis, under Communalism, with moderate danger, Beach and grass with water, Farming, Partial forest terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Minotoar does not have a close ancestry entry in the open roster index, so table behavior should follow the local settlement record.",
+      "rumors": [
+        "Rook MacReady knows why an ichor ledger changed hands last Marduday.",
+        "Rook MacReady has a contact in Faeloryth who will deny everything."
+      ],
+      "plotHooks": [
+        "Rook MacReady asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Rook MacReady's public story is incomplete."
+      ],
+      "profileId": "npc_0010_rook_macready",
+      "race": "Minotoar",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Elder",
+      "residence": "Utch’myrith - Boarding House",
+      "workplace": "Caravan Contract Desk",
+      "job": "Contract Scout",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0010_rook_macready",
+        "race": "Minotoar",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Elder",
+        "province": "Jor’maelis",
+        "settlement": "Utch’myrith",
+        "residence": "Utch’myrith - Boarding House",
+        "workplace": "Caravan Contract Desk",
+        "job": "Contract Scout",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 10,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Utch’myrith",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Utch’myrith",
+        "provinceKey": "jormaelis"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}

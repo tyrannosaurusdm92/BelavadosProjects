@@ -1,0 +1,554 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "kharvathen:Zarveng",
+  "settlement": "Zarveng",
+  "provinceKey": "kharvathen",
+  "province": "Kharvathen",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Kharvathen/Zarveng/Zarveng_Kharvathen.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "kharvathen:Zarveng",
+    "provinceKey": "kharvathen",
+    "province": "Kharvathen",
+    "settlement": "Zarveng",
+    "type": "Town",
+    "biomes": [
+      "Farming",
+      "Partial forest",
+      "Deep forest"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Farming; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 520.8,
+        "y": 514.125,
+        "ix": 521,
+        "iy": 514
+      },
+      "exactPaintedHex": "#8DA63B",
+      "biomeCategoryId": 11,
+      "biomeCategory": "Treetops - treehouses",
+      "biomePath": "Forest/Treetops - treehouses",
+      "verticalBandId": 1,
+      "verticalBand": "surface_hills_220_1200m",
+      "regionKey": 111,
+      "heightRaw16": 32639,
+      "heightRaw8Azgaar": 127,
+      "surfaceMetersAboveSeaLevel": 526.99,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 526.99
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 526.99,
+      "surfaceAnchorZMeters": 527,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 527,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -57.9374957,
+        -0.3735352,
+        526.99
+      ],
+      "surfaceAnchorCoordinates": [
+        -57.9374957,
+        -0.3735352,
+        527
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Kharvathen",
+      "Named river / delta / canal / lake": "Kharvathen Reedwater Canal",
+      "Named bay / gulf / sea / sound": "Kharvathen Greenblue Shoals",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kharvathen",
+      "Mountain range / highland": "Kharvathen Highfolds",
+      "Volcano / vent / caldera": "Moonmouth Kharvath",
+      "Forest / swamp / landmark": "Kharvathen Glassfern"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kharvathen",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Mountain range; Deep cavern; Grassland",
+      "Named weather": "Reedglass Rainbursts",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kharvathen is centered at -2.057905, -44.076840 under Oligarchy, with 143,961,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kharvathen occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Grassland. Dorghalun and Rivenwild carry the mountain record: Dorghalun is deep mountain, and Rivenwild is a hybrid settlement partly perched on a mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Halfling — Stout Halfling, Kender, Kithkin, Centaur, Giff, and 4 more. Faction visibility leans toward The Crucible Wardens and The Cog-Sanctum Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Setrimir, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 7
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 4
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 1
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 8
+        },
+        {
+          "name": "Kender",
+          "count": 8
+        },
+        {
+          "name": "Kithkin",
+          "count": 8
+        },
+        {
+          "name": "Centaur",
+          "count": 8
+        },
+        {
+          "name": "Giff",
+          "count": 8
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 8
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 6
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 9
+        },
+        {
+          "name": "The Cog-Sanctum Synod",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Setrimir",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 5
+        },
+        {
+          "name": "Mountain range",
+          "count": 2
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Dorghalun: Dorghalun is a deep mountain city in Kharvathen.",
+        "Rivenwild: Rivenwild is a hybrid village partly perched on a mountain side."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Reedglass Rainbursts",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 4800 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "geneva-clerkglass",
+      "name": "Geneva Clerkglass",
+      "sourceType": "immersive_npc_roster",
+      "role": "City Clerk",
+      "faction": "The Brass Concordat",
+      "settlement": "Zarveng",
+      "province": "Kharvathen",
+      "settlementKey": "kharvathen:Zarveng",
+      "provinceKey": "kharvathen",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "geneva-clerkglass",
+      "name": "Geneva Clerkglass",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Kharvathen",
+      "provinceKey": "kharvathen",
+      "settlement": "Zarveng",
+      "settlementKey": "kharvathen:Zarveng",
+      "description": "Geneva Clerkglass is a polished Giff city clerk whose manners are so controlled that people forget she decides who reaches the desk, the door, the warrant, and the mayor. At the Zarveng Guild Desk, she manages appointments, sealed correspondence, civic filings, and the small procedural delays that can save a life or ruin one. She is not openly cruel, but she is deeply institutional: if the truth threatens the city’s stability, Geneva will first ask whether the truth has filed the proper form.",
+      "settlementAndAncestryTexture": "Zarveng is a Town in Kharvathen, under Oligarchy, with moderate danger, Farming, Partial forest, Deep forest terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Giff reads through the Giff entry of the race compendium, within Animalfolk and Mammalian Anthropomorphs, marked by Iskareth. Giff are stout, hippo-like humanoids with a fascination for firearms and disciplined martial structure. They are known for combining military precision with cultural rigidity and humor. Table cues: Astral Spark, Firearms Mastery, Hippo Build; starting tendency Neutral - Lawful - Neutral - Honorable.",
+      "rumors": [
+        "Geneva Clerkglass knows why an ichor ledger changed hands last Enkirday.",
+        "Geneva Clerkglass has a contact in Thal'véra who will deny everything."
+      ],
+      "plotHooks": [
+        "Geneva Clerkglass asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Geneva Clerkglass's public story is incomplete."
+      ],
+      "profileId": "npc_0088_geneva_clerkglass",
+      "race": "Giff",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Co-Head of Household",
+      "residence": "Zarveng - Boarding House",
+      "workplace": "Zarveng Guild Desk",
+      "job": "City Clerk",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0088_geneva_clerkglass",
+        "race": "Giff",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Co-Head of Household",
+        "province": "Kharvathen",
+        "settlement": "Zarveng",
+        "residence": "Zarveng - Boarding House",
+        "workplace": "Zarveng Guild Desk",
+        "job": "City Clerk",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 86,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Zarveng",
+        "province": "Kharvathen",
+        "settlementKey": "kharvathen:Zarveng",
+        "provinceKey": "kharvathen"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}

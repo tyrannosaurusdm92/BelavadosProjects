@@ -1,0 +1,791 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "kaelvorrin:Mistval",
+  "settlement": "Mistval",
+  "provinceKey": "kaelvorrin",
+  "province": "Kaelvorrin",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Kaelvorrin/Mistval/Mistval_Kaelvorrin.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "kaelvorrin:Mistval",
+    "provinceKey": "kaelvorrin",
+    "province": "Kaelvorrin",
+    "settlement": "Mistval",
+    "type": "City",
+    "biomes": [
+      "Farming",
+      "Treetops - treehouses",
+      "Grassland"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Farming; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 863.4,
+        "y": 482.925,
+        "ix": 863,
+        "iy": 483
+      },
+      "exactPaintedHex": "#C8C74B",
+      "biomeCategoryId": 5,
+      "biomeCategory": "Farming",
+      "biomePath": "Plains/Farming",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 50,
+      "heightRaw16": 44718,
+      "heightRaw8Azgaar": 174,
+      "surfaceMetersAboveSeaLevel": 116.0,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 116.0
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 116.0,
+      "surfaceAnchorZMeters": 116,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 116,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        22.3593664,
+        5.1108313,
+        116.0
+      ],
+      "surfaceAnchorCoordinates": [
+        22.3593664,
+        5.1108313,
+        116
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Kaelvorrin",
+      "Named river / delta / canal / lake": "Kaelvorrin Bloodmere",
+      "Named bay / gulf / sea / sound": "Kaelvorrin Inner Red Bay",
+      "Terrain that feeds the water": "Farming; Partial forest; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kaelvorrin",
+      "Mountain range / highland": "Bloodstone Saddle",
+      "Volcano / vent / caldera": "Bloodwake Caldera",
+      "Forest / swamp / landmark": "Redroot Basinwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kaelvorrin",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Farming; Partial forest; Grassland",
+      "Named weather": "Redwall Pressure Fall",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kaelvorrin is centered at 6.383293, 5.827743 under Consensus Democracy, with 133,180,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kaelvorrin occupies 5,610,032.72 sq mi / 14,529,918.04 sq km of modeled Earth-sized territory, about 2.848636% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Partial forest and Grassland define its broad terrain, while its settlements intensify into Farming and Partial forest. Population density is 9.166 people/sq km / 23.740 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 1 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Raeshkul, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 7
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 9
+        },
+        {
+          "name": "Kender",
+          "count": 9
+        },
+        {
+          "name": "Kithkin",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Centaur",
+          "count": 9
+        },
+        {
+          "name": "Giff",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 7
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 7
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Nephthysra",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 7
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Steamship",
+          "count": 1
+        },
+        {
+          "name": "Submarine",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 7
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Redwall Pressure Fall",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1,
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "emp-mogruk-bonehammer",
+      "name": "Mogruk Bonehammer",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Cargo Master",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "workplace",
+      "settlement": "Mistval",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Mistval",
+      "provinceKey": "kaelvorrin"
+    },
+    {
+      "id": "rufin-rubens",
+      "name": "Rufin Rubens",
+      "sourceType": "immersive_npc_roster",
+      "role": "Repairman",
+      "faction": "The Brass Concordat",
+      "settlement": "Mistval",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Mistval",
+      "provinceKey": "kaelvorrin",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-mogruk-bonehammer",
+      "name": "Mogruk Bonehammer",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 49,
+      "race": "Gnoll",
+      "genderIdentity": "Cis-Male",
+      "pronouns": "He / Him",
+      "occupation": "Skyship Cargo Master",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Senior",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Altruistic - Neutral - Cooperative - Honorable",
+      "currentMood": "Calm",
+      "homeProvince": "Jor’maelis",
+      "homeProvinceKey": "jormaelis",
+      "homeSettlement": "Lythéra",
+      "homeSettlementKey": "jormaelis:Lythéra",
+      "workProvince": "Kaelvorrin",
+      "workProvinceKey": "kaelvorrin",
+      "workSettlement": "Mistval",
+      "workSettlementKey": "kaelvorrin:Mistval",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Lythéra",
+        "x": 1528.0,
+        "y": 748.5250244140625,
+        "lat": -41.576664447784424,
+        "lon": 88.59375,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT+06",
+          "timeZoneName": "Eastern Bell Time 6",
+          "offsetHoursFromBMT": 6,
+          "offsetMinutesFromBMT": 360,
+          "longitudeBandDegrees": [
+            82.5,
+            97.5
+          ],
+          "certifiedLatitude": -41.576664,
+          "certifiedLongitude": 88.59375,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Mistval Skyship Port",
+        "province": "Kaelvorrin",
+        "settlement": "Mistval",
+        "mode": "skyship",
+        "x": 1151.199951171875,
+        "y": 482.925048828125,
+        "lat": 5.110831260681152,
+        "lon": 22.359366416931152,
+        "provinceKey": "kaelvorrin",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "BMT-01",
+          "timeZoneName": "Western Bell Time 1",
+          "offsetHoursFromBMT": -1,
+          "offsetMinutesFromBMT": -60,
+          "longitudeBandDegrees": [
+            -22.5,
+            -7.5
+          ],
+          "certifiedLatitude": 12.563966,
+          "certifiedLongitude": -8.015621,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Cyra Lanternmist",
+          "type": "Apprentice",
+          "score": 51
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "child",
+            "name": "Keth Brassfern",
+            "sideNpcId": "side-keth-brassfern-56-0",
+            "livesIn": "Lythéra"
+          },
+          {
+            "kind": "cousin",
+            "name": "Briar Tidebrook",
+            "sideNpcId": "side-briar-tidebrook-56-1",
+            "livesIn": "Lythéra"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Auralisthra",
+            "province": "Lun’tharavé",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Auralisthra",
+            "province": "Lun’tharavé",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Mogruk Bonehammer is a Gnoll — Bonehammer Pack transportation employee (He / Him) and a skyship cargo master whose public work is transportation, but their tracked life begins at home in Lythéra, Jor’maelis. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "dramatic in a charming way",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Gnoll",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Gnoll",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Gnoll"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "jormaelis:Lythéra",
+      "workplaceSettlementId": "kaelvorrin:Mistval",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Mistval",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Mistval",
+        "provinceKey": "kaelvorrin",
+        "serviceMode": "Skyship"
+      }
+    },
+    {
+      "id": "rufin-rubens",
+      "name": "Rufin Rubens",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Kaelvorrin",
+      "provinceKey": "kaelvorrin",
+      "settlement": "Mistval",
+      "settlementKey": "kaelvorrin:Mistval",
+      "description": "Rufin Rubens is a Dwarf repairman with nimble hands, tavern gossip, and a talent for finding uses for machines everyone else left rusting in basements. He fixes locks, boilers, drink lines, lift gears, caravan carts, and temperamental constructs for the Brass Concordat, usually while pretending the job is easier than it is. Rufin is practical and friendly, but when old machines are tied to ichor, alcohol, or missing people, he starts asking questions no one hired him to ask.",
+      "settlementAndAncestryTexture": "Mistval is a City in Kaelvorrin, under Consensus Democracy, with low danger, Farming, Treetops - treehouses, Grassland terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Dwarf reads through the Dwarf entry of the race compendium, within Dwarven and Gnomish Kin, marked by Marduthor. Dwarves are stout, resilient folk deeply tied to stone, craft, and ancestral tradition. They value honor, craftsmanship, and enduring legacies over fleeting trends. Table cues: Darkvision, Dwarven Resilience, Dwarven Toughness, Stonecunning; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Rufin can identify a tavern's owner by the shortcuts in its pipe repairs.",
+        "He has a list of old brewing constructs that were never properly decommissioned."
+      ],
+      "plotHooks": [
+        "Rufin sends the party to retrieve a mobile brewer before its recipes poison an entire inn district.",
+        "A broken service construct recognizes Rufin and accuses him of abandoning a delivery decades ago."
+      ],
+      "profileId": "npc_0062_rufin_rubens",
+      "race": "Dwarf",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guardian",
+      "residence": "Mistval - Workshop Loft",
+      "workplace": "Mistval Transit Yard",
+      "job": "Repairman",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0062_rufin_rubens",
+        "race": "Dwarf",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guardian",
+        "province": "Kaelvorrin",
+        "settlement": "Mistval",
+        "residence": "Mistval - Workshop Loft",
+        "workplace": "Mistval Transit Yard",
+        "job": "Repairman",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 62,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Mistval",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Mistval",
+        "provinceKey": "kaelvorrin"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
