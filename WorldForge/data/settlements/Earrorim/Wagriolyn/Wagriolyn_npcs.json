@@ -1,0 +1,1082 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "earrorim:Wagriolyn",
+  "settlement": "Wagriolyn",
+  "provinceKey": "earrorim",
+  "province": "Earrorim",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Earrorim/Wagriolyn/Wagriolyn_Earrorim.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "earrorim:Wagriolyn",
+    "provinceKey": "earrorim",
+    "province": "Earrorim",
+    "settlement": "Wagriolyn",
+    "type": "City",
+    "biomes": [
+      "Farming",
+      "Beach and reefs with water",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Farming; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 363.6,
+        "y": 279.725,
+        "ix": 364,
+        "iy": 280
+      },
+      "exactPaintedHex": "#B8D3D7",
+      "biomeCategoryId": 14,
+      "biomeCategory": "Beach and reefs with water",
+      "biomePath": "Hybrid/Beach and reefs with water",
+      "verticalBandId": 4,
+      "verticalBand": "shallow_water_0_180m_below",
+      "regionKey": 144,
+      "heightRaw16": 2313,
+      "heightRaw8Azgaar": 9,
+      "surfaceMetersAboveSeaLevel": 0.0,
+      "depthMetersBelowSeaLevel": 1.0,
+      "zMetersFor3D": -1.0
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 1,
+      "subsurfaceAnchorZMeters": -1,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 1,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -94.7812468,
+        40.8295941,
+        0.0
+      ],
+      "surfaceAnchorCoordinates": [
+        -94.7812468,
+        40.8295941,
+        0
+      ],
+      "subsurfaceAnchorCoordinates": [
+        -94.7812468,
+        40.8295941,
+        -1
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Earrorim",
+      "Named river / delta / canal / lake": "Earrorim Crimson Reach",
+      "Named bay / gulf / sea / sound": "Marrowynd Westmere",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Earrorim",
+      "Mountain range / highland": "Crimson Tailbacks",
+      "Volcano / vent / caldera": "Redfang Smoke",
+      "Forest / swamp / landmark": "Earrorim Spicewood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Earrorim",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Crimson Dustburst",
+      "Vertical note": "highest settled weather band 180 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Earrorim is centered at 35.304809, -101.696678 under Federal Republic, with 67,529,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Earrorim occupies 6,220,096.85 sq mi / 16,109,976.88 sq km of modeled Earth-sized territory, about 3.158411% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Partial forest, Farming and Beach and reefs with water. Population density is 4.192 people/sq km / 10.857 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Harengon, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Regent Lattice, with worship and patronage records naming Nebyrr, Ishtanora, Sigrananna, Iskareth, Raeshkul, Bastveig, Thalunesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 8 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 4
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Fey-Folk — Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 4
+        },
+        {
+          "name": "Bearfolk",
+          "count": 4
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 4
+        },
+        {
+          "name": "Tortle",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Regent Lattice",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Eirzunet",
+          "count": 5
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 5
+        },
+        {
+          "name": "Enkirael",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 9
+        },
+        {
+          "name": "Submarine",
+          "count": 9
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Crimson Dustburst",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 180 m; deepest recorded route 4800 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 2
+  },
+  "locationRoleCounts": {
+    "settlement": 1,
+    "workplace": 2
+  },
+  "npcReferences": [
+    {
+      "id": "emp-cyra-lanternmist",
+      "name": "Cyra Lanternmist",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "workplace",
+      "settlement": "Wagriolyn",
+      "province": "Earrorim",
+      "settlementKey": "earrorim:Wagriolyn",
+      "provinceKey": "earrorim"
+    },
+    {
+      "id": "emp-isolde-gloamwing",
+      "name": "Isolde Gloamwing",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Captain",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "workplace",
+      "settlement": "Wagriolyn",
+      "province": "Earrorim",
+      "settlementKey": "earrorim:Wagriolyn",
+      "provinceKey": "earrorim"
+    },
+    {
+      "id": "tedd-wright",
+      "name": "Tedd Wright",
+      "sourceType": "immersive_npc_roster",
+      "role": "Physician",
+      "faction": "The Choral Synod",
+      "settlement": "Wagriolyn",
+      "province": "Earrorim",
+      "settlementKey": "earrorim:Wagriolyn",
+      "provinceKey": "earrorim",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-cyra-lanternmist",
+      "name": "Cyra Lanternmist",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 23,
+      "race": "Geppettin",
+      "genderIdentity": "Gender-Fluid",
+      "pronouns": "She / They",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Neutral - Cooperative - Neutral",
+      "currentMood": "Calm",
+      "homeProvince": "Marrowynd",
+      "homeProvinceKey": "marrowynd",
+      "homeSettlement": "Myrkwake",
+      "homeSettlementKey": "marrowynd:Myrkwake",
+      "workProvince": "Earrorim",
+      "workProvinceKey": "earrorim",
+      "workSettlement": "Wagriolyn",
+      "workSettlementKey": "earrorim:Wagriolyn",
+      "homeLocation": {
+        "province": "Marrowynd",
+        "settlement": "Myrkwake",
+        "x": 337.6000061035156,
+        "y": 98.92503356933594,
+        "lat": 72.61083394289017,
+        "lon": -120.6562489271164,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT-08",
+          "timeZoneName": "Western Bell Time 8",
+          "offsetHoursFromBMT": -8,
+          "offsetMinutesFromBMT": -480,
+          "longitudeBandDegrees": [
+            -127.5,
+            -112.5
+          ],
+          "certifiedLatitude": 72.610834,
+          "certifiedLongitude": -120.656249,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Wagriolyn Train Station / Rail Platform",
+        "province": "Earrorim",
+        "settlement": "Wagriolyn",
+        "mode": "rail",
+        "x": 484.8000183105469,
+        "y": 279.7249755859375,
+        "lat": 40.829594135284424,
+        "lon": -94.78124678134918,
+        "provinceKey": "earrorim",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "BMT-06",
+          "timeZoneName": "Western Bell Time 6",
+          "offsetHoursFromBMT": -6,
+          "offsetMinutesFromBMT": -360,
+          "longitudeBandDegrees": [
+            -97.5,
+            -82.5
+          ],
+          "certifiedLatitude": 40.829594,
+          "certifiedLongitude": -94.781247,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Sylri Whisperwind",
+          "type": "Apprentice",
+          "score": 58
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "grandparent",
+            "name": "Vel Starbarrow",
+            "sideNpcId": "side-vel-starbarrow-63-0",
+            "livesIn": "Myrkwake"
+          },
+          {
+            "kind": "chosen family",
+            "name": "Fenna Glimmerlock",
+            "sideNpcId": "side-fenna-glimmerlock-63-1",
+            "livesIn": "Myrkwake"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Everwake",
+            "province": "Aelvanyr",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Everwake",
+            "province": "Aelvanyr",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Cyra Lanternmist is a Geppettin — Lanternmist Marionette Line transportation employee (She / They) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Myrkwake, Marrowynd. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "curious and observant",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Geppettin",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Geppettin",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Geppettin"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "marrowynd:Myrkwake",
+      "workplaceSettlementId": "earrorim:Wagriolyn",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Wagriolyn",
+        "province": "Earrorim",
+        "settlementKey": "earrorim:Wagriolyn",
+        "provinceKey": "earrorim",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "emp-isolde-gloamwing",
+      "name": "Isolde Gloamwing",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 56,
+      "race": "Owlin",
+      "genderIdentity": "Cis-Female",
+      "pronouns": "She / Her",
+      "occupation": "Skyship Captain",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Lead",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Neutral - Neutral - Cooperative - Neutral",
+      "currentMood": "Calm",
+      "homeProvince": "Sylvavéryn",
+      "homeProvinceKey": "sylvaveryn",
+      "homeSettlement": "Myrvaelûn",
+      "homeSettlementKey": "sylvaveryn:Myrvaelûn",
+      "workProvince": "Earrorim",
+      "workProvinceKey": "earrorim",
+      "workSettlement": "Wagriolyn",
+      "workSettlementKey": "earrorim:Wagriolyn",
+      "homeLocation": {
+        "province": "Sylvavéryn",
+        "settlement": "Myrvaelûn",
+        "x": 505.331808,
+        "y": 501.521922,
+        "lat": 1.8418496484375027,
+        "lon": -91.17214312499999,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT-06",
+          "timeZoneName": "Western Bell Time 6",
+          "offsetHoursFromBMT": -6,
+          "offsetMinutesFromBMT": -360,
+          "longitudeBandDegrees": [
+            -97.5,
+            -82.5
+          ],
+          "certifiedLatitude": 1.84185,
+          "certifiedLongitude": -91.172143,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Wagriolyn Skyship Port",
+        "province": "Earrorim",
+        "settlement": "Wagriolyn",
+        "mode": "skyship",
+        "x": 484.8000183105469,
+        "y": 279.7249755859375,
+        "lat": 40.829594135284424,
+        "lon": -94.78124678134918,
+        "provinceKey": "earrorim",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "BMT-06",
+          "timeZoneName": "Western Bell Time 6",
+          "offsetHoursFromBMT": -6,
+          "offsetMinutesFromBMT": -360,
+          "longitudeBandDegrees": [
+            -97.5,
+            -82.5
+          ],
+          "certifiedLatitude": 40.829594,
+          "certifiedLongitude": -94.781247,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "coverageWorkDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Jorveth Redtusk",
+          "type": "Coworker",
+          "score": 47
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "partner",
+            "name": "Mira Moonspoke",
+            "sideNpcId": "side-mira-moonspoke-27-0",
+            "livesIn": "Myrvaelûn"
+          },
+          {
+            "kind": "sibling",
+            "name": "Pava Thornvalve",
+            "sideNpcId": "side-pava-thornvalve-27-1",
+            "livesIn": "Myrvaelûn"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Oravélyn",
+            "province": "Vaelmyrith",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Oravélyn",
+            "province": "Vaelmyrith",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Isolde Gloamwing is a Owlin — Gloamwing Nightline transportation employee (She / Her) and a skyship captain whose public work is transportation, but their tracked life begins at home in Myrvaelûn, Sylvavéryn. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "methodical and patient",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Owlin",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Owlin",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Owlin"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "sylvaveryn:Myrvaelûn",
+      "workplaceSettlementId": "earrorim:Wagriolyn",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Wagriolyn",
+        "province": "Earrorim",
+        "settlementKey": "earrorim:Wagriolyn",
+        "provinceKey": "earrorim",
+        "serviceMode": "Skyship"
+      }
+    },
+    {
+      "id": "tedd-wright",
+      "name": "Tedd Wright",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Earrorim",
+      "provinceKey": "earrorim",
+      "settlement": "Wagriolyn",
+      "settlementKey": "earrorim:Wagriolyn",
+      "description": "Tedd Wright is a Dwarf physician who has patched up too many fog-bitten sailors, sick children, zealot converts, and ichor-burned fools to waste breath on melodrama. At the Wagriolyn Tavern, he treats wounds, addiction, exposure, and bad decisions with equal steadiness, keeping his patients alive even when he disapproves of how they got hurt. Tedd is kind in the unromantic way of exhausted doctors: he will scold you while saving your life and then make sure someone walks you home.",
+      "settlementAndAncestryTexture": "Wagriolyn is a City in Earrorim, under Federal Republic, with elevated danger, Farming, Beach and reefs with water, Beach and grass with water terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Dwarf reads through the Dwarf entry of the race compendium, within Dwarven and Gnomish Kin, marked by Marduthor. Dwarves are stout, resilient folk deeply tied to stone, craft, and ancestral tradition. They value honor, craftsmanship, and enduring legacies over fleeting trends. Table cues: Darkvision, Dwarven Resilience, Dwarven Toughness, Stonecunning; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Tedd Wright knows why an ichor ledger changed hands last Sigranday.",
+        "Tedd Wright has a contact in Abyrros who will deny everything."
+      ],
+      "plotHooks": [
+        "Tedd Wright asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Tedd Wright's public story is incomplete."
+      ],
+      "profileId": "npc_0106_tedd_wright",
+      "race": "Dwarf",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Ward",
+      "residence": "Wagriolyn - Hidden Room",
+      "workplace": "Wagriolyn Tavern",
+      "job": "Physician",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0106_tedd_wright",
+        "race": "Dwarf",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Ward",
+        "province": "Earrorim",
+        "settlement": "Wagriolyn",
+        "residence": "Wagriolyn - Hidden Room",
+        "workplace": "Wagriolyn Tavern",
+        "job": "Physician",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 104,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Wagriolyn",
+        "province": "Earrorim",
+        "settlementKey": "earrorim:Wagriolyn",
+        "provinceKey": "earrorim"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
