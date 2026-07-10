@@ -1,0 +1,554 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "aelwynora:Sylvéraith",
+  "settlement": "Sylvéraith",
+  "provinceKey": "aelwynora",
+  "province": "Aelwynora",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Aelwynora/Sylveraith/Sylveraith_Aelwynora.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "aelwynora:Sylvéraith",
+    "provinceKey": "aelwynora",
+    "province": "Aelwynora",
+    "settlement": "Sylvéraith",
+    "type": "Town",
+    "biomes": [
+      "Beach and grass with water",
+      "Partial forest",
+      "Marshes and swamps"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 765.6,
+        "y": 143.725,
+        "ix": 766,
+        "iy": 144
+      },
+      "exactPaintedHex": "#446238",
+      "biomeCategoryId": 12,
+      "biomeCategory": "Marshes and swamps",
+      "biomePath": "Forest/Marshes and swamps",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 120,
+      "heightRaw16": 27242,
+      "heightRaw8Azgaar": 106,
+      "surfaceMetersAboveSeaLevel": 40.21,
+      "depthMetersBelowSeaLevel": 6.7,
+      "zMetersFor3D": 40.21
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 40.21,
+      "surfaceAnchorZMeters": 40,
+      "subsurfaceDepthMeters": 7,
+      "subsurfaceAnchorZMeters": -7,
+      "maxHeightMetersAboveSeaLevel": 40,
+      "maxDepthMetersBelowSeaLevel": 7,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -0.5625021,
+        64.7358388,
+        40.21
+      ],
+      "surfaceAnchorCoordinates": [
+        -0.5625021,
+        64.7358388,
+        40
+      ],
+      "subsurfaceAnchorCoordinates": [
+        -0.5625021,
+        64.7358388,
+        -7
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Aelwynora",
+      "Named river / delta / canal / lake": "Seleneš Glasswater Sea",
+      "Named bay / gulf / sea / sound": "Elarithen Pearl Bay",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Ocean Surface floating settlement"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Aelwynora",
+      "Mountain range / highland": "Aelwynora Moonback Hills",
+      "Volcano / vent / caldera": "Wilsara Bluevent",
+      "Forest / swamp / landmark": "Sylvarûn Saltleaf Groves"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Aelwynora",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Ocean Surface floating settlement",
+      "Named weather": "Silver-Salt Fog",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Aelwynora is centered at 61.114097, -25.982066 under Consensus Democracy, with 47,825,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Aelwynora occupies 5,226,112.83 sq mi / 13,535,570.09 sq km of modeled Earth-sized territory, about 2.653691% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Ocean Surface floating settlement define its broad terrain, while its settlements intensify into Beach and grass with water, Ocean Surface floating settlement, Farming, Hybrid tree and forest floor and Beach and reefs with water. Population density is 3.533 people/sq km / 9.151 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Choral Synod and The Regent Lattice, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Raeshkul, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 21 recorded four-province geography group links, including 18 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Fey-Folk — Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Tortle",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 11
+        },
+        {
+          "name": "The Regent Lattice",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Bastveig",
+          "count": 11
+        },
+        {
+          "name": "Sokhivar",
+          "count": 11
+        },
+        {
+          "name": "Raeshkul",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Ferry",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 6
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Silver-Salt Fog",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "dr-justen-ayo",
+      "name": "Dr. Justen Ayo",
+      "sourceType": "immersive_npc_roster",
+      "role": "Bureau Chief",
+      "faction": "The Glasswell Institute",
+      "settlement": "Sylvéraith",
+      "province": "Aelwynora",
+      "settlementKey": "aelwynora:Sylvéraith",
+      "provinceKey": "aelwynora",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "dr-justen-ayo",
+      "name": "Dr. Justen Ayo",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Aelwynora",
+      "provinceKey": "aelwynora",
+      "settlement": "Sylvéraith",
+      "settlementKey": "aelwynora:Sylvéraith",
+      "description": "Dr. Justen Ayo is a hard-shelled Tortle bureau chief who treats empathy as a security flaw and fugitives as misplaced inventory. He oversees Glasswell Institute retrieval files, memory compliance, and internal suspicion with patient cruelty, preferring paperwork that makes violence look like procedure. Justen is not reckless; he is methodical, vindictive, and convinced that the world is safer when people are too afraid to run.",
+      "settlementAndAncestryTexture": "Sylvéraith is a Town in Aelwynora, under Consensus Democracy, with moderate danger, Beach and grass with water, Partial forest, Marshes and swamps terrain. Local records favor Altruistic, Neutral, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie. Tortle reads through the Tortle entry of the race compendium, within Draconic and Reptilian Races, marked by Valkhamesh. Shelled, turtle-like humanoids who carry their homes and traditions upon their backs. They are calm, patient, and deeply tied to cycles of land and sea. Table cues: Claws, Hold Breath, Natural Armor, Nature's Intuition; starting tendency Neutral - Lawful - Neutral - Honorable.",
+      "rumors": [
+        "Justen can ruin a person with three stamps and a missing witness form.",
+        "His agents carry ichor-scented restraint wax that marks targets even after disguise magic fades."
+      ],
+      "plotHooks": [
+        "Justen offers the party legal immunity if they surrender a fugitive he insists is too dangerous to remain free.",
+        "A Directorate clerk begs the party to expose Justen's false retrieval orders before another safehouse is emptied."
+      ],
+      "profileId": "npc_0051_dr_justen_ayo",
+      "race": "Tortle",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Boarder",
+      "residence": "Sylvéraith - Hidden Room",
+      "workplace": "Sylvéraith Tavern",
+      "job": "Bureau Chief",
+      "faction": "The Glasswell Institute",
+      "profileTable": {
+        "id": "npc_0051_dr_justen_ayo",
+        "race": "Tortle",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Boarder",
+        "province": "Aelwynora",
+        "settlement": "Sylvéraith",
+        "residence": "Sylvéraith - Hidden Room",
+        "workplace": "Sylvéraith Tavern",
+        "job": "Bureau Chief",
+        "faction": "The Glasswell Institute"
+      },
+      "quickIndexNumber": 51,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Sylvéraith",
+        "province": "Aelwynora",
+        "settlementKey": "aelwynora:Sylvéraith",
+        "provinceKey": "aelwynora"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
