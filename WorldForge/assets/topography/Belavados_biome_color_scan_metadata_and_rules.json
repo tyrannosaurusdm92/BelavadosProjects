@@ -1,0 +1,698 @@
+{
+  "source_file": "Belavados_realistic.zip",
+  "map_image": "Belavados_realistic.png",
+  "source_topography_docx": "Belavadös Canonical Topography guide.docx",
+  "image_size": {
+    "width": 1536,
+    "height": 1024,
+    "pixels": 1572864
+  },
+  "alpha_channels_present": {
+    "source_image_mode": "RGB",
+    "all_pixels_alpha_255": true
+  },
+  "unique_rgb_hex_count": 361719,
+  "classification_note": "Each unique RGB hex from the new realism image is assigned to the biome category and estimated region key that the majority of its same-coordinate pixels matched. Biome matching uses the existing Belavadös categorical preview on the identical 1536x1024 grid. Estimated region keys/bands are constrained to the exact region-key pixel counts in the topography guide and ranked by realism-image luminance inside each biome. This preserves the topography guide proportions while updating the hexcodes to the new realism art.",
+  "topography_note": "The attached topography guide supplies region-key, biome, vertical-band, and z-range rules. A separate per-pixel z raster was not present in the hexcode zip, so region-key assignment in these hex tables is deterministic/guide-constrained rather than a replacement for a future true height raster.",
+  "biome_categories": [
+    {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    {
+      "id": 1,
+      "group": "Ocean",
+      "category": "Underwater with reefs",
+      "path": "Ocean/Underwater with reefs",
+      "preview_color": "#60CFD8"
+    },
+    {
+      "id": 2,
+      "group": "Ocean",
+      "category": "Underwater without reefs",
+      "path": "Ocean/Underwater without reefs",
+      "preview_color": "#09529B"
+    },
+    {
+      "id": 3,
+      "group": "Plains",
+      "category": "Grassland",
+      "path": "Plains/Grassland",
+      "preview_color": "#ACCD5E"
+    },
+    {
+      "id": 4,
+      "group": "Plains",
+      "category": "Prairie",
+      "path": "Plains/Prairie",
+      "preview_color": "#D3C070"
+    },
+    {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    {
+      "id": 6,
+      "group": "Mountains",
+      "category": "Mountain range",
+      "path": "Mountains/Mountain range",
+      "preview_color": "#DCDAC6"
+    },
+    {
+      "id": 7,
+      "group": "Mountains",
+      "category": "Valley",
+      "path": "Mountains/Valley",
+      "preview_color": "#AB9A6E"
+    },
+    {
+      "id": 8,
+      "group": "Mountains",
+      "category": "Deep cavern",
+      "path": "Mountains/Deep cavern",
+      "preview_color": "#32302F"
+    },
+    {
+      "id": 9,
+      "group": "Forest",
+      "category": "Deep forest",
+      "path": "Forest/Deep forest",
+      "preview_color": "#164616"
+    },
+    {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    {
+      "id": 11,
+      "group": "Forest",
+      "category": "Treetops - treehouses",
+      "path": "Forest/Treetops - treehouses",
+      "preview_color": "#719D2A"
+    },
+    {
+      "id": 12,
+      "group": "Forest",
+      "category": "Marshes and swamps",
+      "path": "Forest/Marshes and swamps",
+      "preview_color": "#465B2B"
+    },
+    {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    {
+      "id": 14,
+      "group": "Hybrid",
+      "category": "Beach and reefs with water",
+      "path": "Hybrid/Beach and reefs with water",
+      "preview_color": "#A3DFD8"
+    },
+    {
+      "id": 15,
+      "group": "Hybrid",
+      "category": "Hybrid tree and forest floor",
+      "path": "Hybrid/Hybrid tree and forest floor",
+      "preview_color": "#66522D"
+    },
+    {
+      "id": 16,
+      "group": "Hybrid",
+      "category": "Hybrid farming forest grassland",
+      "path": "Hybrid/Hybrid farming forest grassland",
+      "preview_color": "#B5B153"
+    }
+  ],
+  "summary_by_biome_path": [
+    {
+      "biome_path": "Ocean/Ocean Surface floating settlement",
+      "pixel_count": 331532,
+      "pixel_percent": 21.078237,
+      "dominant_unique_hex_count": 56445,
+      "preview_color": "#1F97E5",
+      "dominant_realism_hex": "#012441",
+      "canonical_vertical_bands": "4, 5, 6",
+      "canonical_z_range": "0 to 0 m",
+      "canonical_region_keys": "4, 5, 6"
+    },
+    {
+      "biome_path": "Ocean/Underwater with reefs",
+      "pixel_count": 216479,
+      "pixel_percent": 13.763364,
+      "dominant_unique_hex_count": 68577,
+      "preview_color": "#60CFD8",
+      "dominant_realism_hex": "#012B46",
+      "canonical_vertical_bands": "4",
+      "canonical_z_range": "-180 to -1 m",
+      "canonical_region_keys": "14"
+    },
+    {
+      "biome_path": "Ocean/Underwater without reefs",
+      "pixel_count": 272347,
+      "pixel_percent": 17.315356,
+      "dominant_unique_hex_count": 31539,
+      "preview_color": "#09529B",
+      "dominant_realism_hex": "#01223E",
+      "canonical_vertical_bands": "4, 5, 6",
+      "canonical_z_range": "-8200 to -180 m",
+      "canonical_region_keys": "24, 25, 26"
+    },
+    {
+      "biome_path": "Plains/Grassland",
+      "pixel_count": 45808,
+      "pixel_percent": 2.912394,
+      "dominant_unique_hex_count": 16954,
+      "preview_color": "#ACCD5E",
+      "dominant_realism_hex": "#0C231E",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "0 to 1200 m",
+      "canonical_region_keys": "30, 31"
+    },
+    {
+      "biome_path": "Plains/Prairie",
+      "pixel_count": 9810,
+      "pixel_percent": 0.623703,
+      "dominant_unique_hex_count": 3401,
+      "preview_color": "#D3C070",
+      "dominant_realism_hex": "#202D2D",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "0 to 1200 m",
+      "canonical_region_keys": "40, 41"
+    },
+    {
+      "biome_path": "Plains/Farming",
+      "pixel_count": 148852,
+      "pixel_percent": 9.463755,
+      "dominant_unique_hex_count": 60533,
+      "preview_color": "#E8D354",
+      "dominant_realism_hex": "#112821",
+      "canonical_vertical_bands": "0",
+      "canonical_z_range": "0 to 220 m",
+      "canonical_region_keys": "50"
+    },
+    {
+      "biome_path": "Mountains/Mountain range",
+      "pixel_count": 23498,
+      "pixel_percent": 1.493963,
+      "dominant_unique_hex_count": 7290,
+      "preview_color": "#DCDAC6",
+      "dominant_realism_hex": "#063959",
+      "canonical_vertical_bands": "1, 2, 3",
+      "canonical_z_range": "1200 to 5200 m",
+      "canonical_region_keys": "61, 62, 63"
+    },
+    {
+      "biome_path": "Mountains/Valley",
+      "pixel_count": 3009,
+      "pixel_percent": 0.191307,
+      "dominant_unique_hex_count": 897,
+      "preview_color": "#AB9A6E",
+      "dominant_realism_hex": "#003E4D",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "220 to 1200 m",
+      "canonical_region_keys": "70, 71"
+    },
+    {
+      "biome_path": "Mountains/Deep cavern",
+      "pixel_count": 524,
+      "pixel_percent": 0.033315,
+      "dominant_unique_hex_count": 147,
+      "preview_color": "#32302F",
+      "dominant_realism_hex": "#012634",
+      "canonical_vertical_bands": "7",
+      "canonical_z_range": "-4800 to -180 m",
+      "canonical_region_keys": "87"
+    },
+    {
+      "biome_path": "Forest/Deep forest",
+      "pixel_count": 58758,
+      "pixel_percent": 3.735733,
+      "dominant_unique_hex_count": 15463,
+      "preview_color": "#164616",
+      "dominant_realism_hex": "#2C3E2C",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "0 to 1200 m",
+      "canonical_region_keys": "90, 91"
+    },
+    {
+      "biome_path": "Forest/Partial forest",
+      "pixel_count": 103928,
+      "pixel_percent": 6.607564,
+      "dominant_unique_hex_count": 27644,
+      "preview_color": "#3E742E",
+      "dominant_realism_hex": "#192E23",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "0 to 1200 m",
+      "canonical_region_keys": "100, 101"
+    },
+    {
+      "biome_path": "Forest/Treetops - treehouses",
+      "pixel_count": 42140,
+      "pixel_percent": 2.679189,
+      "dominant_unique_hex_count": 8721,
+      "preview_color": "#719D2A",
+      "dominant_realism_hex": "#192D22",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "220 to 1200 m",
+      "canonical_region_keys": "110, 111"
+    },
+    {
+      "biome_path": "Forest/Marshes and swamps",
+      "pixel_count": 69050,
+      "pixel_percent": 4.390081,
+      "dominant_unique_hex_count": 14513,
+      "preview_color": "#465B2B",
+      "dominant_realism_hex": "#152D23",
+      "canonical_vertical_bands": "0",
+      "canonical_z_range": "0 to 180 m",
+      "canonical_region_keys": "120"
+    },
+    {
+      "biome_path": "Hybrid/Beach and grass with water",
+      "pixel_count": 165772,
+      "pixel_percent": 10.5395,
+      "dominant_unique_hex_count": 35767,
+      "preview_color": "#E1D395",
+      "dominant_realism_hex": "#012C46",
+      "canonical_vertical_bands": "0",
+      "canonical_z_range": "0 to 220 m",
+      "canonical_region_keys": "130"
+    },
+    {
+      "biome_path": "Hybrid/Beach and reefs with water",
+      "pixel_count": 60013,
+      "pixel_percent": 3.815524,
+      "dominant_unique_hex_count": 9961,
+      "preview_color": "#A3DFD8",
+      "dominant_realism_hex": "#033C4C",
+      "canonical_vertical_bands": "4",
+      "canonical_z_range": "-180 to -1 m",
+      "canonical_region_keys": "144"
+    },
+    {
+      "biome_path": "Hybrid/Hybrid tree and forest floor",
+      "pixel_count": 20994,
+      "pixel_percent": 1.334763,
+      "dominant_unique_hex_count": 3801,
+      "preview_color": "#66522D",
+      "dominant_realism_hex": "#233534",
+      "canonical_vertical_bands": "0, 1",
+      "canonical_z_range": "0 to 1200 m",
+      "canonical_region_keys": "150, 151"
+    },
+    {
+      "biome_path": "Hybrid/Hybrid farming forest grassland",
+      "pixel_count": 350,
+      "pixel_percent": 0.022252,
+      "dominant_unique_hex_count": 66,
+      "preview_color": "#B5B153",
+      "dominant_realism_hex": "#054B6B",
+      "canonical_vertical_bands": "0",
+      "canonical_z_range": "0 to 220 m",
+      "canonical_region_keys": "160"
+    }
+  ],
+  "region_key_coverage": [
+    {
+      "region_key": 4,
+      "biome_path": "Ocean/Ocean Surface floating settlement",
+      "band_id": 4,
+      "guide_pixels": 7966,
+      "estimated_pixels_in_update": 7966,
+      "world_percent": "0.5065%",
+      "z_min": 0.0,
+      "z_mean": 0.0,
+      "z_max": 0.0,
+      "physical_meaning": "open blue water, floating routes, harbors, and warm sea roads"
+    },
+    {
+      "region_key": 5,
+      "biome_path": "Ocean/Ocean Surface floating settlement",
+      "band_id": 5,
+      "guide_pixels": 259871,
+      "estimated_pixels_in_update": 259871,
+      "world_percent": "16.5222%",
+      "z_min": 0.0,
+      "z_mean": 0.0,
+      "z_max": 0.0,
+      "physical_meaning": "open blue water, floating routes, harbors, and warm sea roads"
+    },
+    {
+      "region_key": 6,
+      "biome_path": "Ocean/Ocean Surface floating settlement",
+      "band_id": 6,
+      "guide_pixels": 63695,
+      "estimated_pixels_in_update": 63695,
+      "world_percent": "4.0496%",
+      "z_min": 0.0,
+      "z_mean": 0.0,
+      "z_max": 0.0,
+      "physical_meaning": "open blue water, floating routes, harbors, and warm sea roads"
+    },
+    {
+      "region_key": 14,
+      "biome_path": "Ocean/Underwater with reefs",
+      "band_id": 4,
+      "guide_pixels": 216479,
+      "estimated_pixels_in_update": 216479,
+      "world_percent": "13.7634%",
+      "z_min": -180.0,
+      "z_mean": -27.4,
+      "z_max": -1.0,
+      "physical_meaning": "reef shelves, luminous shallows, spawning water, coral towns"
+    },
+    {
+      "region_key": 24,
+      "biome_path": "Ocean/Underwater without reefs",
+      "band_id": 4,
+      "guide_pixels": 3237,
+      "estimated_pixels_in_update": 3237,
+      "world_percent": "0.2058%",
+      "z_min": -180.0,
+      "z_mean": -180.0,
+      "z_max": -180.0,
+      "physical_meaning": "deep water, trenches, abyss roads, pressure hazards"
+    },
+    {
+      "region_key": 25,
+      "biome_path": "Ocean/Underwater without reefs",
+      "band_id": 5,
+      "guide_pixels": 56450,
+      "estimated_pixels_in_update": 56450,
+      "world_percent": "3.5890%",
+      "z_min": -4554.6,
+      "z_mean": -3128.0,
+      "z_max": -909.1,
+      "physical_meaning": "deep water, trenches, abyss roads, pressure hazards"
+    },
+    {
+      "region_key": 26,
+      "biome_path": "Ocean/Underwater without reefs",
+      "band_id": 6,
+      "guide_pixels": 212660,
+      "estimated_pixels_in_update": 212660,
+      "world_percent": "13.5206%",
+      "z_min": -8200.0,
+      "z_mean": -6443.2,
+      "z_max": -5283.6,
+      "physical_meaning": "deep water, trenches, abyss roads, pressure hazards"
+    },
+    {
+      "region_key": 30,
+      "biome_path": "Plains/Grassland",
+      "band_id": 0,
+      "guide_pixels": 7201,
+      "estimated_pixels_in_update": 7201,
+      "world_percent": "0.4578%",
+      "z_min": 0.0,
+      "z_mean": 126.5,
+      "z_max": 204.7,
+      "physical_meaning": "herd plains, storm grass, grazing fire belts"
+    },
+    {
+      "region_key": 31,
+      "biome_path": "Plains/Grassland",
+      "band_id": 1,
+      "guide_pixels": 38607,
+      "estimated_pixels_in_update": 38607,
+      "world_percent": "2.4546%",
+      "z_min": 225.9,
+      "z_mean": 637.8,
+      "z_max": 1200.0,
+      "physical_meaning": "herd plains, storm grass, grazing fire belts"
+    },
+    {
+      "region_key": 40,
+      "biome_path": "Plains/Prairie",
+      "band_id": 0,
+      "guide_pixels": 994,
+      "estimated_pixels_in_update": 994,
+      "world_percent": "0.0632%",
+      "z_min": 0.0,
+      "z_mean": 102.2,
+      "z_max": 217.6,
+      "physical_meaning": "dry grass, dustlight, fire season, long winds"
+    },
+    {
+      "region_key": 41,
+      "biome_path": "Plains/Prairie",
+      "band_id": 1,
+      "guide_pixels": 8816,
+      "estimated_pixels_in_update": 8816,
+      "world_percent": "0.5605%",
+      "z_min": 237.4,
+      "z_mean": 789.6,
+      "z_max": 1200.0,
+      "physical_meaning": "dry grass, dustlight, fire season, long winds"
+    },
+    {
+      "region_key": 50,
+      "biome_path": "Plains/Farming",
+      "band_id": 0,
+      "guide_pixels": 148852,
+      "estimated_pixels_in_update": 148852,
+      "world_percent": "9.4638%",
+      "z_min": 0.0,
+      "z_mean": 110.9,
+      "z_max": 220.0,
+      "physical_meaning": "settled food land, terraces, canals, orchards, grain towns"
+    },
+    {
+      "region_key": 61,
+      "biome_path": "Mountains/Mountain range",
+      "band_id": 1,
+      "guide_pixels": 262,
+      "estimated_pixels_in_update": 262,
+      "world_percent": "0.0167%",
+      "z_min": 1200.0,
+      "z_mean": 1200.0,
+      "z_max": 1200.0,
+      "physical_meaning": "rain-making ridges, lightning, landslides, rare high ice"
+    },
+    {
+      "region_key": 62,
+      "biome_path": "Mountains/Mountain range",
+      "band_id": 2,
+      "guide_pixels": 19195,
+      "estimated_pixels_in_update": 19195,
+      "world_percent": "1.2204%",
+      "z_min": 1274.5,
+      "z_mean": 3286.5,
+      "z_max": 4554.0,
+      "physical_meaning": "rain-making ridges, lightning, landslides, rare high ice"
+    },
+    {
+      "region_key": 63,
+      "biome_path": "Mountains/Mountain range",
+      "band_id": 3,
+      "guide_pixels": 4041,
+      "estimated_pixels_in_update": 4041,
+      "world_percent": "0.2569%",
+      "z_min": 4628.6,
+      "z_mean": 4956.7,
+      "z_max": 5200.0,
+      "physical_meaning": "rain-making ridges, lightning, landslides, rare high ice"
+    },
+    {
+      "region_key": 70,
+      "biome_path": "Mountains/Valley",
+      "band_id": 0,
+      "guide_pixels": 58,
+      "estimated_pixels_in_update": 58,
+      "world_percent": "0.0037%",
+      "z_min": 220.0,
+      "z_mean": 220.0,
+      "z_max": 220.0,
+      "physical_meaning": "fog bowls, river villages, fruit belts, protected crossings"
+    },
+    {
+      "region_key": 71,
+      "biome_path": "Mountains/Valley",
+      "band_id": 1,
+      "guide_pixels": 2951,
+      "estimated_pixels_in_update": 2951,
+      "world_percent": "0.1876%",
+      "z_min": 230.3,
+      "z_mean": 841.0,
+      "z_max": 1200.0,
+      "physical_meaning": "fog bowls, river villages, fruit belts, protected crossings"
+    },
+    {
+      "region_key": 87,
+      "biome_path": "Mountains/Deep cavern",
+      "band_id": 7,
+      "guide_pixels": 524,
+      "estimated_pixels_in_update": 524,
+      "world_percent": "0.0333%",
+      "z_min": -4800.0,
+      "z_mean": -3172.8,
+      "z_max": -180.0,
+      "physical_meaning": "under-roads, fungal lamps, mineral rivers, breathless dark"
+    },
+    {
+      "region_key": 90,
+      "biome_path": "Forest/Deep forest",
+      "band_id": 0,
+      "guide_pixels": 17166,
+      "estimated_pixels_in_update": 17166,
+      "world_percent": "1.0914%",
+      "z_min": 0.0,
+      "z_mean": 131.3,
+      "z_max": 208.4,
+      "physical_meaning": "canopy thunder, rot, roots, old shade, hidden roads"
+    },
+    {
+      "region_key": 91,
+      "biome_path": "Forest/Deep forest",
+      "band_id": 1,
+      "guide_pixels": 41592,
+      "estimated_pixels_in_update": 41592,
+      "world_percent": "2.6443%",
+      "z_min": 229.9,
+      "z_mean": 601.2,
+      "z_max": 1200.0,
+      "physical_meaning": "canopy thunder, rot, roots, old shade, hidden roads"
+    },
+    {
+      "region_key": 100,
+      "biome_path": "Forest/Partial forest",
+      "band_id": 0,
+      "guide_pixels": 29578,
+      "estimated_pixels_in_update": 29578,
+      "world_percent": "1.8805%",
+      "z_min": 0.0,
+      "z_mean": 139.2,
+      "z_max": 217.5,
+      "physical_meaning": "farm-forest edges, hunting roads, timber villages"
+    },
+    {
+      "region_key": 101,
+      "biome_path": "Forest/Partial forest",
+      "band_id": 1,
+      "guide_pixels": 74350,
+      "estimated_pixels_in_update": 74350,
+      "world_percent": "4.7270%",
+      "z_min": 231.6,
+      "z_mean": 569.8,
+      "z_max": 1200.0,
+      "physical_meaning": "farm-forest edges, hunting roads, timber villages"
+    },
+    {
+      "region_key": 110,
+      "biome_path": "Forest/Treetops - treehouses",
+      "band_id": 0,
+      "guide_pixels": 447,
+      "estimated_pixels_in_update": 447,
+      "world_percent": "0.0284%",
+      "z_min": 220.0,
+      "z_mean": 220.0,
+      "z_max": 220.0,
+      "physical_meaning": "high homes, bridge-canopies, cloud leaves, flying messengers"
+    },
+    {
+      "region_key": 111,
+      "biome_path": "Forest/Treetops - treehouses",
+      "band_id": 1,
+      "guide_pixels": 41693,
+      "estimated_pixels_in_update": 41693,
+      "world_percent": "2.6508%",
+      "z_min": 237.7,
+      "z_mean": 623.4,
+      "z_max": 1200.0,
+      "physical_meaning": "high homes, bridge-canopies, cloud leaves, flying messengers"
+    },
+    {
+      "region_key": 120,
+      "biome_path": "Forest/Marshes and swamps",
+      "band_id": 0,
+      "guide_pixels": 69050,
+      "estimated_pixels_in_update": 69050,
+      "world_percent": "4.3901%",
+      "z_min": 0.0,
+      "z_mean": 69.3,
+      "z_max": 180.0,
+      "physical_meaning": "blackwater, reed law, fever fog, amphibious towns"
+    },
+    {
+      "region_key": 130,
+      "biome_path": "Hybrid/Beach and grass with water",
+      "band_id": 0,
+      "guide_pixels": 165772,
+      "estimated_pixels_in_update": 165772,
+      "world_percent": "10.5395%",
+      "z_min": 0.0,
+      "z_mean": 58.9,
+      "z_max": 220.0,
+      "physical_meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "region_key": 144,
+      "biome_path": "Hybrid/Beach and reefs with water",
+      "band_id": 4,
+      "guide_pixels": 60013,
+      "estimated_pixels_in_update": 60013,
+      "world_percent": "3.8155%",
+      "z_min": -180.0,
+      "z_mean": -54.9,
+      "z_max": -1.0,
+      "physical_meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "region_key": 150,
+      "biome_path": "Hybrid/Hybrid tree and forest floor",
+      "band_id": 0,
+      "guide_pixels": 2464,
+      "estimated_pixels_in_update": 2464,
+      "world_percent": "0.1567%",
+      "z_min": 0.0,
+      "z_mean": 133.4,
+      "z_max": 218.8,
+      "physical_meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "region_key": 151,
+      "biome_path": "Hybrid/Hybrid tree and forest floor",
+      "band_id": 1,
+      "guide_pixels": 18530,
+      "estimated_pixels_in_update": 18530,
+      "world_percent": "1.1781%",
+      "z_min": 232.0,
+      "z_mean": 686.7,
+      "z_max": 1200.0,
+      "physical_meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "region_key": 160,
+      "biome_path": "Hybrid/Hybrid farming forest grassland",
+      "band_id": 0,
+      "guide_pixels": 350,
+      "estimated_pixels_in_update": 350,
+      "world_percent": "0.0223%",
+      "z_min": 0.0,
+      "z_mean": 80.4,
+      "z_max": 220.0,
+      "physical_meaning": "mixed coast, hybrid terrain, changing weather"
+    }
+  ],
+  "outputs": {
+    "full_unique_hex_table_csv": "Belavados_FULL_unique_hex_biome_table.csv",
+    "top_5000_hexes_csv": "Belavados_top_5000_hexes_by_pixel_count.csv",
+    "biome_summary_csv": "Belavados_biome_color_summary.csv",
+    "xlsx_summary": "Belavados_biome_hex_summary.xlsx",
+    "biome_category_preview_png": "Belavados_biome_category_preview.png",
+    "realism_overlay_preview_png": "Belavados_realism_biome_overlay_preview.png",
+    "region_key_topography_rules_csv": "Belavados_region_key_topography_rules.csv"
+  }
+}

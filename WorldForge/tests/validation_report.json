@@ -1,0 +1,42 @@
+{
+  "project": "WorldDepth 3D Map Studio",
+  "date": "2026-07-10",
+  "status": "passed",
+  "checks": {
+    "javascript_syntax": {
+      "status": "passed",
+      "files": 5
+    },
+    "json_parse": {
+      "status": "passed",
+      "files": 156
+    },
+    "python_server_compile": {
+      "status": "passed"
+    },
+    "html_local_references": {
+      "status": "passed",
+      "missing": []
+    },
+    "browser_ui_integration": {
+      "status": "passed",
+      "verified": [
+        "initial Earth load",
+        "13 default features",
+        "5 settlement profiles",
+        "highest/lowest mapped readouts",
+        "globe/flat switch",
+        "local/underwater/cave scene switches",
+        "seeded volcanic world generation",
+        "GeoJSON point/line/polygon import",
+        "deflated ZIP import",
+        "settlement profile inference from ZIP folder structure"
+      ]
+    },
+    "gpu_rendering_in_container": {
+      "status": "not_available",
+      "note": "The execution container disables WebGL contexts. Renderer code and shaders are included; run in a WebGL2-capable browser with hardware acceleration."
+    }
+  },
+  "errors": []
+}
