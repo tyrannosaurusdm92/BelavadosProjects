@@ -1,0 +1,879 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "zaltharuun:Keth'varûn",
+  "settlement": "Keth'varûn",
+  "provinceKey": "zaltharuun",
+  "province": "Zal’tharuun",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Zaltharuun/Kethvarun/Kethvarun_Zaltharuun.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "zaltharuun:Keth'varûn",
+    "provinceKey": "zaltharuun",
+    "province": "Zal’tharuun",
+    "settlement": "Keth'varûn",
+    "type": "Town",
+    "biomes": [
+      "Ocean Surface floating settlement"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "ocean-surface-floating-pin",
+    "localTopographicRule": "Floating ocean-surface settlement: render at z=0 with under-docks, moorings, wave exposure, and bathymetry down to 4719 m beneath.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 432.6,
+        "y": 925.325,
+        "ix": 433,
+        "iy": 925
+      },
+      "exactPaintedHex": "#39A7E6",
+      "biomeCategoryId": 0,
+      "biomeCategory": "Ocean Surface floating settlement",
+      "biomePath": "Ocean/Ocean Surface floating settlement",
+      "verticalBandId": 5,
+      "verticalBand": "deep_water_180_4800m_below",
+      "regionKey": 5,
+      "heightRaw16": 6168,
+      "heightRaw8Azgaar": 24,
+      "surfaceMetersAboveSeaLevel": 0.0,
+      "depthMetersBelowSeaLevel": 4719.2,
+      "zMetersFor3D": 0.0
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 4719,
+      "subsurfaceAnchorZMeters": -4719,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 4719,
+      "anchorMode": "floating_surface_anchor",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -78.6093771,
+        -72.6547873,
+        0.0
+      ],
+      "surfaceAnchorCoordinates": [
+        -78.6093771,
+        -72.6547873,
+        0
+      ],
+      "subsurfaceAnchorCoordinates": [
+        -78.6093771,
+        -72.6547873,
+        -4719
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Zal’tharuun",
+      "Named river / delta / canal / lake": "Zal’tharuun Abyssal River",
+      "Named bay / gulf / sea / sound": "Zal’tharuun Blackwater Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Ocean Surface floating settlement; Farming"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Zal’tharuun",
+      "Mountain range / highland": "Zal’tharuun Ironribs",
+      "Volcano / vent / caldera": "Ironrind Caldera",
+      "Forest / swamp / landmark": "Blackmoss Tangle"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Zal’tharuun",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Ocean Surface floating settlement; Farming",
+      "Named weather": "Blackwater Storm-Stack",
+      "Vertical note": "highest settled weather band 180 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Zal’tharuun is centered at -60.995070, -104.773998 under Tribal Confederation, with 81,309,000 people across 14 settlements.",
+      "extremeAtlasDescription": "Zal’tharuun occupies 10,763,398.02 sq mi / 27,877,072.91 sq km of modeled Earth-sized territory, about 5.465387% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Ocean Surface floating settlement and Farming define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Hybrid tree and forest floor, Underwater without reefs, Partial forest, and 1 more. Population density is 2.917 people/sq km / 7.554 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Merfolk, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Enkirael, Freyseth, Ishtanora, Iskareth, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 5 recorded four-province geography group links, including 4 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 14
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 13
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 13
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 11
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 10
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 13
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 13
+        },
+        {
+          "name": "Triton",
+          "count": 8
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 7
+        },
+        {
+          "name": "Tortle",
+          "count": 7
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 7
+        },
+        {
+          "name": "Hadozee",
+          "count": 7
+        },
+        {
+          "name": "Merfolk",
+          "count": 7
+        },
+        {
+          "name": "Locathah",
+          "count": 7
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 6
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 6
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 14
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 14
+        },
+        {
+          "name": "Enkirael",
+          "count": 14
+        },
+        {
+          "name": "Freyseth",
+          "count": 14
+        },
+        {
+          "name": "Ishtanora",
+          "count": 13
+        },
+        {
+          "name": "Iskareth",
+          "count": 13
+        },
+        {
+          "name": "Bastveig",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 5
+        },
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 5
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 4
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 14
+        },
+        {
+          "name": "Steamship",
+          "count": 13
+        },
+        {
+          "name": "Train / Rail",
+          "count": 7
+        },
+        {
+          "name": "Caravan",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 6
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Blackwater Storm-Stack",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 180 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-briar-lanternreed-35-0",
+      "name": "Briar Lanternreed",
+      "sourceType": "transportation_side_npc",
+      "role": "apprentice",
+      "faction": null,
+      "settlement": "Keth'varûn",
+      "province": "Zal’tharuun",
+      "settlementKey": "zaltharuun:Keth'varûn",
+      "provinceKey": "zaltharuun",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-vesper-nullsong",
+      "name": "Vesper Nullsong",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Keth'varûn",
+      "province": "Zal’tharuun",
+      "settlementKey": "zaltharuun:Keth'varûn",
+      "provinceKey": "zaltharuun"
+    },
+    {
+      "id": "side-ysol-mireglass-35-1",
+      "name": "Ysol Mireglass",
+      "sourceType": "transportation_side_npc",
+      "role": "aunt/uncle",
+      "faction": null,
+      "settlement": "Keth'varûn",
+      "province": "Zal’tharuun",
+      "settlementKey": "zaltharuun:Keth'varûn",
+      "provinceKey": "zaltharuun",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-briar-lanternreed-35-0",
+      "name": "Briar Lanternreed",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "apprentice",
+      "employeeId": "emp-vesper-nullsong",
+      "employeeName": "Vesper Nullsong",
+      "raceCategory": "Undead and Death-Touched Races",
+      "race": "Arisen",
+      "genderIdentity": "Gender-Fluid",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "They / Them",
+        "subject": "They",
+        "object": "Them",
+        "possessiveDeterminer": "Their",
+        "possessivePronoun": "Theirs",
+        "reflexive": "Themself / Themselves",
+        "example": "They found their map."
+      },
+      "honorific": "Sprog",
+      "province": "Zal’tharuun",
+      "provinceKey": "zaltharuun",
+      "settlement": "Keth'varûn",
+      "settlementKey": "zaltharuun:Keth'varûn",
+      "homeLocation": {
+        "province": "Zal’tharuun",
+        "settlement": "Keth'varûn",
+        "x": 576.7999877929688,
+        "y": 925.3250122070312
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Arisen",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Keth'varûn",
+        "province": "Zal’tharuun",
+        "settlementKey": "zaltharuun:Keth'varûn",
+        "provinceKey": "zaltharuun"
+      }
+    },
+    {
+      "id": "emp-vesper-nullsong",
+      "name": "Vesper Nullsong",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 33,
+      "race": "Shade",
+      "genderIdentity": "Gender-Less",
+      "pronouns": "They / None",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Neutral",
+      "homeProvince": "Zal’tharuun",
+      "homeProvinceKey": "zaltharuun",
+      "homeSettlement": "Keth'varûn",
+      "homeSettlementKey": "zaltharuun:Keth'varûn",
+      "workProvince": "Bravelyn",
+      "workProvinceKey": "bravelyn",
+      "workSettlement": "Solvaryn",
+      "workSettlementKey": "bravelyn:Solvaryn",
+      "homeLocation": {
+        "province": "Zal’tharuun",
+        "settlement": "Keth'varûn",
+        "x": 576.7999877929688,
+        "y": 925.3250122070312,
+        "lat": -72.65478730201721,
+        "lon": -78.60937714576721,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT-05",
+          "timeZoneName": "Western Bell Time 5",
+          "offsetHoursFromBMT": -5,
+          "offsetMinutesFromBMT": -300,
+          "longitudeBandDegrees": [
+            -82.5,
+            -67.5
+          ],
+          "certifiedLatitude": -72.654787,
+          "certifiedLongitude": -78.609377,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Solvaryn Train Station / Rail Platform",
+        "province": "Bravelyn",
+        "settlement": "Solvaryn",
+        "mode": "rail",
+        "x": 810.4000244140625,
+        "y": 852.5250244140625,
+        "lat": -59.857914447784424,
+        "lon": -37.546870708465576,
+        "provinceKey": "bravelyn",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "BMT-03",
+          "timeZoneName": "Western Bell Time 3",
+          "offsetHoursFromBMT": -3,
+          "offsetMinutesFromBMT": -180,
+          "longitudeBandDegrees": [
+            -52.5,
+            -37.5
+          ],
+          "certifiedLatitude": -59.857914,
+          "certifiedLongitude": -37.546871,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Day",
+        "start": "08:00",
+        "break": "12:00",
+        "end": "17:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Kaevik Runecoil",
+          "type": "Apprentice",
+          "score": 55
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "apprentice",
+            "name": "Briar Lanternreed",
+            "sideNpcId": "side-briar-lanternreed-35-0",
+            "livesIn": "Keth'varûn"
+          },
+          {
+            "kind": "aunt/uncle",
+            "name": "Ysol Mireglass",
+            "sideNpcId": "side-ysol-mireglass-35-1",
+            "livesIn": "Keth'varûn"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Harvestmere",
+            "province": "Eldermere",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Harvestmere",
+            "province": "Eldermere",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Vesper Nullsong is a Shade — Nullsong Shadowline transportation employee (They / None) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Keth'varûn, Zal’tharuun. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "gentle under pressure",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Shade",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Shade",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Shade"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "zaltharuun:Keth'varûn",
+      "workplaceSettlementId": "bravelyn:Solvaryn",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Keth'varûn",
+        "province": "Zal’tharuun",
+        "settlementKey": "zaltharuun:Keth'varûn",
+        "provinceKey": "zaltharuun",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-ysol-mireglass-35-1",
+      "name": "Ysol Mireglass",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "aunt/uncle",
+      "employeeId": "emp-vesper-nullsong",
+      "employeeName": "Vesper Nullsong",
+      "raceCategory": "Fey and Trickster Folk",
+      "race": "Changeling",
+      "genderIdentity": "Gender-Less",
+      "pronounSet": {
+        "group": "Common Neopronouns",
+        "name": "Ze / Zir",
+        "subject": "Ze",
+        "object": "Zir",
+        "possessiveDeterminer": "Zir",
+        "possessivePronoun": "Zirs",
+        "reflexive": "Zirself",
+        "example": "Ze finished zir work zirself."
+      },
+      "honorific": "Grandparent",
+      "province": "Zal’tharuun",
+      "provinceKey": "zaltharuun",
+      "settlement": "Keth'varûn",
+      "settlementKey": "zaltharuun:Keth'varûn",
+      "homeLocation": {
+        "province": "Zal’tharuun",
+        "settlement": "Keth'varûn",
+        "x": 576.7999877929688,
+        "y": 925.3250122070312
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Changeling",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Keth'varûn",
+        "province": "Zal’tharuun",
+        "settlementKey": "zaltharuun:Keth'varûn",
+        "provinceKey": "zaltharuun"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}

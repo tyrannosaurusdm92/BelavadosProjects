@@ -1,0 +1,674 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "virelport:Bronzewake",
+  "settlement": "Bronzewake",
+  "provinceKey": "virelport",
+  "province": "Virelport",
+  "settlementType": "Capital City",
+  "settlementJsonPath": "shared/settlements/Virelport/Bronzewake/Bronzewake_Virelport.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "virelport:Bronzewake",
+    "provinceKey": "virelport",
+    "province": "Virelport",
+    "settlement": "Bronzewake",
+    "type": "Capital City",
+    "biomes": [
+      "Beach and grass with water",
+      "Mountain range",
+      "Beach and reefs with water"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 1125.6,
+        "y": 75.725,
+        "ix": 1126,
+        "iy": 76
+      },
+      "exactPaintedHex": "#768844",
+      "biomeCategoryId": 10,
+      "biomeCategory": "Partial forest",
+      "biomePath": "Forest/Partial forest",
+      "verticalBandId": 1,
+      "verticalBand": "surface_hills_220_1200m",
+      "regionKey": 101,
+      "heightRaw16": 33153,
+      "heightRaw8Azgaar": 129,
+      "surfaceMetersAboveSeaLevel": 357.89,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 357.89
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 357.89,
+      "surfaceAnchorZMeters": 358,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 358,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        83.8125086,
+        76.6889691,
+        357.89
+      ],
+      "surfaceAnchorCoordinates": [
+        83.8125086,
+        76.6889691,
+        358
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Virelport",
+      "Named river / delta / canal / lake": "Virelport Sailroad Sea",
+      "Named bay / gulf / sea / sound": "Virelport Open Gulf",
+      "Terrain that feeds the water": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Virelport",
+      "Mountain range / highland": "Virelport Dockcliffs",
+      "Volcano / vent / caldera": "Harborfire Vent",
+      "Forest / swamp / landmark": "Saltmarket Palms"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Virelport",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "Named weather": "Port-Mast Squalls",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Virelport is centered at 74.860836, 82.978230 under City-State League, with 41,250,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Virelport occupies 3,416,648.08 sq mi / 8,849,077.91 sq km of modeled Earth-sized territory, about 1.734889% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Beach and reefs with water and Partial forest define its broad terrain, while its settlements intensify into Beach and grass with water, Partial forest, Deep cavern, Beach and reefs with water and Underwater without reefs. Population density is 4.662 people/sq km / 12.073 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Triton, Merfolk, Locathah, and 4 more. Faction visibility leans toward The Crucible Wardens, with worship and patronage records naming Marduthor, Setrimir, Nebyrr, Ishtanora, Iskareth, Bastveig, Valkhamesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 25 recorded four-province geography group links, including 22 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 7
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 7
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 6
+        },
+        {
+          "name": "Tortle",
+          "count": 6
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Triton",
+          "count": 5
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Locathah",
+          "count": 5
+        },
+        {
+          "name": "Hadozee",
+          "count": 4
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 4
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 3
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Setrimir",
+          "count": 9
+        },
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 7
+        },
+        {
+          "name": "Horundar",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 4
+        },
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 9
+        },
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 8
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 2
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Port-Mast Squalls",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 3
+  },
+  "locationRoleCounts": {
+    "settlement": 3
+  },
+  "npcReferences": [
+    {
+      "id": "cogsworth-brasswell",
+      "name": "Cogsworth Brasswell",
+      "sourceType": "immersive_npc_roster",
+      "role": "Household Steward",
+      "faction": "The Freeblade Veil",
+      "settlement": "Bronzewake",
+      "province": "Virelport",
+      "settlementKey": "virelport:Bronzewake",
+      "provinceKey": "virelport",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "pammora-loom",
+      "name": "Pammora Loom",
+      "sourceType": "immersive_npc_roster",
+      "role": "Predictive Oracle",
+      "faction": "The Freeblade Veil",
+      "settlement": "Bronzewake",
+      "province": "Virelport",
+      "settlementKey": "virelport:Bronzewake",
+      "provinceKey": "virelport",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "ser-dain-calvorr",
+      "name": "Ser Dain Calvorr",
+      "sourceType": "immersive_npc_roster",
+      "role": "Skyship Paladin",
+      "faction": "The Crucible Wardens",
+      "settlement": "Bronzewake",
+      "province": "Virelport",
+      "settlementKey": "virelport:Bronzewake",
+      "provinceKey": "virelport",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "cogsworth-brasswell",
+      "name": "Cogsworth Brasswell",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Virelport",
+      "provinceKey": "virelport",
+      "settlement": "Bronzewake",
+      "settlementKey": "virelport:Bronzewake",
+      "description": "Cogsworth Brasswell is a polished, fussy, heartbreakingly loyal Warforged steward built for domestic care, household order, childcare, gardening, and ceremonial hospitality. As one of Setrimir’s awakened constructs, he clings to routine because routine is how he proves love: every swept hall, mended kettle, trimmed hedge, and warmed hearth becomes an act of devotion rather than mere programming. Beneath his bright manners and brass-button propriety is a lonely, anxious soul terrified that the people he cares for may never come home, so he pretends the household can still be saved if he simply keeps everything ready. In Bronzewake, he serves with the Freeblade Veil, restoring abandoned homes and ruined family estates for refugees, heirs, debtors, and displaced households. His work at the Old Household Manse makes him part steward, part caretaker, part grief counselor, and part walking emergency protocol for families trying to rebuild in Virelport’s capital.",
+      "settlementAndAncestryTexture": "Bronzewake is a Capital City in Virelport, under City-State League, with severe danger, Beach and grass with water, Mountain range, Beach and reefs with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Dwarf — Mountain Dwarf, Gnome — Rock Gnome, Goliath. Warforged reads through the Warforged entry of the race compendium, within Constructed and Artificial Beings, marked by Setrimir. Created for purpose but awakened into autonomy, Warforged are living constructs of metal and magic. They often struggle to define identity beyond their original function. Table cues: Construct Resilience, Integrated Protection, Sentry's Rest, Specialized Design; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Cogsworth Brasswell knows why an ichor ledger changed hands last Ishtaday.",
+        "Cogsworth Brasswell has a contact in Zelvarûn who will deny everything."
+      ],
+      "plotHooks": [
+        "Cogsworth Brasswell asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Cogsworth Brasswell's public story is incomplete."
+      ],
+      "profileId": "npc_0002_cogsworth_brasswell",
+      "race": "Warforged",
+      "genderAndPronouns": "Gender-Less • he/they",
+      "householdRole": "Co-Head of Household",
+      "residence": "Bronzewake - Market Apartment",
+      "workplace": "Old Household Manse",
+      "job": "Household Steward",
+      "faction": "The Freeblade Veil",
+      "profileTable": {
+        "id": "npc_0002_cogsworth_brasswell",
+        "race": "Warforged",
+        "gender_pronouns": "Gender-Less • he/they",
+        "household_role": "Co-Head of Household",
+        "province": "Virelport",
+        "settlement": "Bronzewake",
+        "residence": "Bronzewake - Market Apartment",
+        "workplace": "Old Household Manse",
+        "job": "Household Steward",
+        "faction": "The Freeblade Veil"
+      },
+      "quickIndexNumber": 2,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Bronzewake",
+        "province": "Virelport",
+        "settlementKey": "virelport:Bronzewake",
+        "provinceKey": "virelport"
+      }
+    },
+    {
+      "id": "pammora-loom",
+      "name": "Pammora Loom",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Virelport",
+      "provinceKey": "virelport",
+      "settlement": "Bronzewake",
+      "settlementKey": "virelport:Bronzewake",
+      "description": "Pammora Loom is a calm, unnerving Golynn oracle who speaks in probability threads instead of prophecy, mapping danger through repeated names, train delays, ration shortages, and ichor purchase patterns. The Freeblade Veil relies on them to predict raids before agents have evidence, though their warnings often sound absurd until the ambush happens exactly where they said it would. Pammora is gentle with frightened people and merciless with bad data.",
+      "settlementAndAncestryTexture": "Bronzewake is a Capital City in Virelport, under City-State League, with severe danger, Beach and grass with water, Mountain range, Beach and reefs with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Dwarf — Mountain Dwarf, Gnome — Rock Gnome, Goliath. Golynn reads through the Golynn entry of the race compendium, within Miscellaneous and Hard-to-Classify Races, marked by Nephthysra. Elegant, crystalline-featured beings associated with resonance, memory, and harmonic magic. They often serve as historians, performers, or arcane scholars. Table cues: Constitution +2, Strength +1, Natural Armour, Powerful Build; starting tendency Altruistic - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Pammora predicted three safehouse raids from a tavern's missing laundry receipts.",
+        "Some agents believe Pammora dreams in transit ledgers and wakes up knowing who will die."
+      ],
+      "plotHooks": [
+        "Pammora sends the party to prevent a crime that has not happened yet and cannot explain without changing the odds.",
+        "A rival faction steals one of Pammora's probability looms and starts staging disasters to make the predictions true."
+      ],
+      "profileId": "npc_0046_pammora_loom",
+      "race": "Golynn",
+      "genderAndPronouns": "Gender-Less • they/them",
+      "householdRole": "Ward",
+      "residence": "Bronzewake - Tavern Room",
+      "workplace": "Bronzewake Archive",
+      "job": "Predictive Oracle",
+      "faction": "The Freeblade Veil",
+      "profileTable": {
+        "id": "npc_0046_pammora_loom",
+        "race": "Golynn",
+        "gender_pronouns": "Gender-Less • they/them",
+        "household_role": "Ward",
+        "province": "Virelport",
+        "settlement": "Bronzewake",
+        "residence": "Bronzewake - Tavern Room",
+        "workplace": "Bronzewake Archive",
+        "job": "Predictive Oracle",
+        "faction": "The Freeblade Veil"
+      },
+      "quickIndexNumber": 46,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Bronzewake",
+        "province": "Virelport",
+        "settlementKey": "virelport:Bronzewake",
+        "provinceKey": "virelport"
+      }
+    },
+    {
+      "id": "ser-dain-calvorr",
+      "name": "Ser Dain Calvorr",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Virelport",
+      "provinceKey": "virelport",
+      "settlement": "Bronzewake",
+      "settlementKey": "virelport:Bronzewake",
+      "description": "Ser Dain Calvorr is a disciplined Warforged skyship paladin whose whole identity was built around order, honorable command, and the belief that dangerous relics belong under armed custody. His crisis is not weakness but personhood: if he was forged, altered, or lied to by the very order he served, then every oath he has sworn must be chosen again rather than merely obeyed. The Crucible Wardens still see him as a weapon and symbol, but he is slowly becoming someone who can decide whether loyalty means obedience, protection, or refusal.",
+      "settlementAndAncestryTexture": "Bronzewake is a Capital City in Virelport, under City-State League, with severe danger, Beach and grass with water, Mountain range, Beach and reefs with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Dwarf — Mountain Dwarf, Gnome — Rock Gnome, Goliath. Warforged reads through the Warforged entry of the race compendium, within Constructed and Artificial Beings, marked by Setrimir. Created for purpose but awakened into autonomy, Warforged are living constructs of metal and magic. They often struggle to define identity beyond their original function. Table cues: Construct Resilience, Integrated Protection, Sentry's Rest, Specialized Design; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Ser Dain Calvorr's armor records do not match his birth records, and the Crucible Wardens sealed both files.",
+        "A skyship chaplain claims Dain once spared a construct fugitive after recognizing too much of himself in them."
+      ],
+      "plotHooks": [
+        "Dain asks the party to recover a restricted service ledger before the Custodians use it to brand him property.",
+        "A Crucible patrol demands that the party surrender Dain for a loyalty audit that looks more like disassembly."
+      ],
+      "profileId": "npc_0001_ser_dain_calvorr",
+      "race": "Warforged",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guardian",
+      "residence": "Bronzewake - Market Apartment",
+      "workplace": "Crucible Skyship Dock",
+      "job": "Skyship Paladin",
+      "faction": "The Crucible Wardens",
+      "profileTable": {
+        "id": "npc_0001_ser_dain_calvorr",
+        "race": "Warforged",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guardian",
+        "province": "Virelport",
+        "settlement": "Bronzewake",
+        "residence": "Bronzewake - Market Apartment",
+        "workplace": "Crucible Skyship Dock",
+        "job": "Skyship Paladin",
+        "faction": "The Crucible Wardens"
+      },
+      "quickIndexNumber": 1,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Bronzewake",
+        "province": "Virelport",
+        "settlementKey": "virelport:Bronzewake",
+        "provinceKey": "virelport"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
