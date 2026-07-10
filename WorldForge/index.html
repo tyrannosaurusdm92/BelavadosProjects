@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <meta name="theme-color" content="#07121d">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://script.google.com https://script.googleusercontent.com; worker-src 'self' blob:;">
+  <title>WorldForge Immersive Globe Creator</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <canvas id="world-canvas" aria-label="Interactive 3D world"></canvas>
+  <div id="underwater-tint" aria-hidden="true"></div>
+
+  <header class="topbar glass">
+    <div class="brand">
+      <div class="brand-orb">◉</div>
+      <div>
+        <h1>WorldForge Immersive Globe Creator</h1>
+        <p>Full 3D topography, explorable caves, patterned weather, living oceans, settlements, source merging, and standalone exports</p>
+      </div>
+    </div>
+    <div class="status-strip">
+      <span id="fps-status">0 FPS</span>
+      <span id="scene-status">Globe</span>
+      <span id="dataset-status">Procedural Earth</span>
+      <span id="simulation-time">2026-01-01 00:00 UTC</span>
+    </div>
+    <button id="toggle-ui" class="icon-button" title="Hide interface">✦</button>
+  </header>
+
+  <aside class="sidebar left glass" id="left-panel">
+    <section>
+      <h2>World generator</h2>
+      <label>World preset
+        <select id="world-preset">
+          <option value="earth">Earth — geological demo</option>
+          <option value="verdant">Verdant exoplanet</option>
+          <option value="oceanic">Ocean world</option>
+          <option value="volcanic">Volcanic world</option>
+          <option value="custom">Custom seeded planet</option>
+        </select>
+      </label>
+      <div class="grid-2">
+        <label>Seed<input id="planet-seed" type="number" value="93714"></label>
+        <label>Water %<input id="water-level" type="number" min="5" max="95" value="67"></label>
+      </div>
+      <button id="generate-world" class="primary">Generate planet</button>
+      <div class="extreme-strip">
+        <div><span>Highest mapped</span><strong id="highest-mapped">—</strong></div>
+        <div><span>Lowest mapped</span><strong id="lowest-mapped">—</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>View & simulation</h2>
+      <div class="segmented" id="projection-buttons">
+        <button data-projection="globe" class="active">3D globe</button>
+        <button data-projection="flat">Flat 3D</button>
+      </div>
+      <label>Environment
+        <select id="scene-mode">
+          <option value="world">Whole world</option>
+          <option value="settlement">Generated settlement</option>
+          <option value="local">Local terrain</option>
+          <option value="underwater">Underwater</option>
+          <option value="cave">Cave / cavern</option>
+        </select>
+      </label>
+      <label>Vertical exaggeration <output id="exaggeration-value">1.6×</output>
+        <input id="exaggeration" type="range" min="0.2" max="7" value="1.6" step="0.1">
+      </label>
+      <label>World activity speed <output id="time-value">Real time</output>
+        <select id="time-speed">
+          <option value="0">Paused</option>
+          <option value="0.0166666667" selected>Real time</option>
+          <option value="1">1 real minute = 1 hour</option>
+          <option value="24">1 real minute = 1 day</option>
+          <option value="168">1 real minute = 1 week</option>
+          <option value="720">1 real minute = 1 month</option>
+          <option value="8760">1 real minute = 1 year</option>
+        </select>
+      </label>
+      <div class="toggle-grid">
+        <label><input id="toggle-water" type="checkbox" checked> Water</label>
+        <label><input id="toggle-atmosphere" type="checkbox" checked> Atmosphere</label>
+        <label><input id="toggle-features" type="checkbox" checked> Features</label>
+        <label><input id="toggle-life" type="checkbox" checked> Life / objects</label>
+        <label><input id="toggle-rotation" type="checkbox" checked> Rotation</label>
+        <label><input id="toggle-eruption" type="checkbox"> Eruptions</label>
+      </div>
+    </section>
+
+    <section>
+      <h2>Canonical settlement forge</h2>
+      <label>Province<select id="province-select"></select></label>
+      <label>Settlement<select id="settlement-select"></select></label>
+      <button id="build-settlement" class="primary">Build full 3D settlement</button>
+      <div class="compact-status"><span id="npc-count">0 tracked NPCs</span><span>279 canonical settlements</span></div>
+      <div id="settlement-summary" class="feature-card"><p>Select a settlement to load its biomes, vertical geology, weather, transit, and NPC data.</p></div>
+    </section>
+
+    <section>
+      <h2>Import geological data</h2>
+      <div id="drop-zone" class="drop-zone" tabindex="0">
+        <strong>Drop files or folders here</strong>
+        <span>JSON · GeoJSON · images · ZIP · DOCX · SVG · CSS · JavaScript · HTML · models · entire folders</span>
+      </div>
+      <input id="file-input" type="file" multiple accept=".json,.geojson,.png,.jpg,.jpeg,.webp,.gif,.zip,.docx,.svg,.css,.js,.mjs,.html,.htm,.glb,.gltf,.obj,.vert,.frag,.glsl" hidden>
+      <input id="folder-input" type="file" webkitdirectory multiple hidden>
+      <div class="button-row"><button id="browse-files">Choose files</button><button id="browse-folder">Choose folder</button></div>
+      <button id="export-world">Export current WorldForge JSON</button>
+      <button id="export-standalone-globe" class="primary">Export standalone globe HTML</button>
+      <button id="export-standalone-settlement">Export standalone settlement HTML</button>
+      <div id="import-log" class="mini-log">No imported files yet.</div>
+    </section>
+  </aside>
+
+  <aside class="sidebar right glass" id="right-panel">
+    <section>
+      <h2>Absorbed source modules</h2>
+      <p class="hint">WorldForge interprets compatible CSS, HTML controls, JavaScript DOM hooks, shaders, JSON schemas, GeoJSON, and repository structures. Uploaded scripts are classified and mapped to safe native controls instead of being executed blindly.</p>
+      <div id="absorber-stats" class="compact-status"><span>0 source files</span><span>0 merged controls</span></div>
+      <div id="absorbed-modules"><p class="hint">Drop globe projects or repository folders to merge their compatible menus, sliders, toggles, visual variables, and data layers.</p></div>
+    </section>
+
+    <section>
+      <h2>World explorer</h2>
+      <label>Focus feature<select id="feature-select"></select></label>
+      <div class="button-row">
+        <button id="focus-feature" class="primary">Focus</button>
+        <button id="enter-feature">Enter</button>
+      </div>
+      <div id="feature-card" class="feature-card"></div>
+    </section>
+
+    <section>
+      <h2>Object explorer</h2>
+      <label>Resident, creature, weather, or landmark<select id="object-select"><option value="">No settlement loaded</option></select></label>
+      <button id="focus-object" class="primary full-width">Focus selected object</button>
+      <div id="object-card" class="feature-card"><p>Generate a settlement or enter an ocean to inspect simulated objects.</p></div>
+    </section>
+
+    <section>
+      <h2>Weather systems</h2>
+      <label>Forecast model
+        <select id="forecast-horizon">
+          <option value="daily">Daily</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="annual">Annual</option>
+        </select>
+      </label>
+      <div id="weather-card" class="feature-card"><p>Select a settlement to calculate local weather.</p></div>
+    </section>
+
+    <section>
+      <h2>Settlement biome profile</h2>
+      <label>Loaded profile<select id="settlement-profile"></select></label>
+      <div id="biome-stack" class="biome-stack"></div>
+      <button id="apply-profile" class="full-width">Apply to local terrain</button>
+    </section>
+
+    <section>
+      <h2>Coordinates & terrain</h2>
+      <dl class="readout">
+        <div><dt>Latitude</dt><dd id="read-lat">0.000°</dd></div>
+        <div><dt>Longitude</dt><dd id="read-lon">0.000°</dd></div>
+        <div><dt>Elevation</dt><dd id="read-elevation">0 m</dd></div>
+        <div><dt>Biome</dt><dd id="read-biome">—</dd></div>
+        <div><dt>Moisture</dt><dd id="read-moisture">—</dd></div>
+        <div><dt>Temperature</dt><dd id="read-temperature">—</dd></div>
+      </dl>
+      <p class="hint">Click the world or any visible object to inspect it. Double-click a world location to descend, or double-click an object to focus. Drag to orbit, right-drag to pan, wheel to zoom, and use WASD to travel.</p>
+    </section>
+
+    <section>
+      <h2>Locked backend & LifeSimulator</h2>
+      <div class="lock-card">
+        <strong id="backend-lock-id">Loading lock…</strong>
+        <span id="backend-endpoint">Backend endpoint</span>
+        <span id="backend-status">Runtime lock active</span>
+      </div>
+      <div class="button-row three">
+        <button id="backend-ping">Check</button>
+        <button id="sync-world">Sync world</button>
+        <button id="sync-life" class="primary">Sync Life</button>
+      </div>
+    </section>
+  </aside>
+
+  <div class="bottom-center glass">
+    <button data-scene="world" class="scene-chip active">◎ World</button>
+    <button data-scene="settlement" class="scene-chip">▦ Settlement</button>
+    <button data-scene="local" class="scene-chip">⌁ Surface</button>
+    <button data-scene="underwater" class="scene-chip">≈ Living ocean</button>
+    <button data-scene="cave" class="scene-chip">◇ Explore caverns</button>
+    <button id="reset-camera" class="scene-chip">↺ Center globe</button>
+  </div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="loading" class="loading-screen">
+    <div class="loader-orbit"><i></i><i></i><i></i></div>
+    <h2>Forging world systems</h2>
+    <p>Preparing globe, terrain, oceans, caves, weather, settlements, and LifeSimulator hooks…</p>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

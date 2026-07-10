@@ -1,0 +1,10 @@
+WORLDFORGE — START HERE
+
+Windows: double-click launch_worldforge.bat
+macOS/Linux: run ./launch_worldforge.sh
+Any platform: python start_server.py
+
+Open the printed local address in a WebGL2-capable browser.
+The main page is index.html; WorldForge.html is an identical named entry page.
+
+The active Apps Script endpoint is locked in js/backend-lock.js and config/backend_lock.json.
