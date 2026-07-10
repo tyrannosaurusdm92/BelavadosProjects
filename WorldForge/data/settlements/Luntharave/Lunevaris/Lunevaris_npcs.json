@@ -1,0 +1,991 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "luntharave:Lunévaris",
+  "settlement": "Lunévaris",
+  "provinceKey": "luntharave",
+  "province": "Lun’tharavé",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Luntharave/Lunevaris/Lunevaris_Luntharave.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "luntharave:Lunévaris",
+    "provinceKey": "luntharave",
+    "province": "Lun’tharavé",
+    "settlement": "Lunévaris",
+    "type": "Village",
+    "biomes": [
+      "Farming",
+      "Beach and grass with water",
+      "Mountain range"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Farming; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 781.2,
+        "y": 903.725,
+        "ix": 781,
+        "iy": 904
+      },
+      "exactPaintedHex": "#EBF0D8",
+      "biomeCategoryId": 6,
+      "biomeCategory": "Mountain range",
+      "biomePath": "Mountains/Mountain range",
+      "verticalBandId": 2,
+      "verticalBand": "surface_highland_1200_4600m",
+      "regionKey": 62,
+      "heightRaw16": 39064,
+      "heightRaw8Azgaar": 152,
+      "surfaceMetersAboveSeaLevel": 2640.99,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 2640.99
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 2640.99,
+      "surfaceAnchorZMeters": 2641,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 2641,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        3.0937457,
+        -68.8579059,
+        2640.99
+      ],
+      "surfaceAnchorCoordinates": [
+        3.0937457,
+        -68.8579059,
+        2641
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Lun’tharavé",
+      "Named river / delta / canal / lake": "Lun’tharavé Pinkwater Lakes",
+      "Named bay / gulf / sea / sound": "Moonlet Bead Bay",
+      "Terrain that feeds the water": "Beach and grass with water; Farming; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Lun’tharavé",
+      "Mountain range / highland": "Lun’tharavé Rosethorns",
+      "Volcano / vent / caldera": "Roseglass Vent",
+      "Forest / swamp / landmark": "Roselight Canopy"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Lun’tharavé",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Farming; Partial forest",
+      "Named weather": "Copper-Bead Rain",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Lun’tharavé is centered at -70.777906, 16.816239 under Participatory Democracy, with 35,306,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Lun’tharavé occupies 3,690,965.16 sq mi / 9,559,555.87 sq km of modeled Earth-sized territory, about 1.874181% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Farming and Partial forest define its broad terrain, while its settlements intensify into Farming, Beach and grass with water and Beach and reefs with water. Population density is 3.693 people/sq km / 9.566 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 11 recorded four-province geography group links, including 8 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Sokhivar",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 5
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Steamship",
+          "count": 7
+        },
+        {
+          "name": "Submarine",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 5
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Copper-Bead Rain",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 5,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 2,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 4
+  },
+  "npcReferences": [
+    {
+      "id": "bobbin-nosenil",
+      "name": "Bobbin Nosenil",
+      "sourceType": "immersive_npc_roster",
+      "role": "Tunnel Criminal",
+      "faction": "The Brass Concordat",
+      "settlement": "Lunévaris",
+      "province": "Lun’tharavé",
+      "settlementKey": "luntharave:Lunévaris",
+      "provinceKey": "luntharave",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-mira-thornvalve-22-1",
+      "name": "Mira Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "role": "aunt/uncle",
+      "faction": null,
+      "settlement": "Lunévaris",
+      "province": "Lun’tharavé",
+      "settlementKey": "luntharave:Lunévaris",
+      "provinceKey": "luntharave",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-nalia-moonspoke-22-0",
+      "name": "Nalia Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "role": "apprentice",
+      "faction": null,
+      "settlement": "Lunévaris",
+      "province": "Lun’tharavé",
+      "settlementKey": "luntharave:Lunévaris",
+      "provinceKey": "luntharave",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "the-brass-penitent",
+      "name": "The Brass Penitent",
+      "sourceType": "immersive_npc_roster",
+      "role": "Masked Mechanist",
+      "faction": "The Regent Lattice",
+      "settlement": "Lunévaris",
+      "province": "Lun’tharavé",
+      "settlementKey": "luntharave:Lunévaris",
+      "provinceKey": "luntharave",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-tovik-emberclaw",
+      "name": "Tovik Emberclaw",
+      "sourceType": "transportation_employee",
+      "role": "Rail Engineer",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Lunévaris",
+      "province": "Lun’tharavé",
+      "settlementKey": "luntharave:Lunévaris",
+      "provinceKey": "luntharave"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "bobbin-nosenil",
+      "name": "Bobbin Nosenil",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Lun’tharavé",
+      "provinceKey": "luntharave",
+      "settlement": "Lunévaris",
+      "settlementKey": "luntharave:Lunévaris",
+      "description": "Bobbin Nosenil is a Gandirosha tunnel criminal with a quick grin, quicker lies, and a habit of selling impossible jobs as if they were errands. She survives through charm, luck, secret passages, and the confidence that everyone else is either greedy, bored, or easier to fool than she is. Bobbin is funny until the cave-in starts; then it becomes clear her plans always reserve the safest exit for herself.",
+      "settlementAndAncestryTexture": "Lunévaris is a Village in Lun’tharavé, under Participatory Democracy, with low danger, Farming, Beach and grass with water, Mountain range terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Gandirosha reads through the Fey-Folk entry of the race compendium, within Fey and Trickster Folk, marked by Thalunesh. Fey-Folk are peoples shaped by glamour, luck, tiny or otherworldly bodies, dreamlike emotion, and trickster magic. At my table, Faerie, Fairy, and Gandirosha are not separate top-level races here; they are bloodlines. Table cues: Fey Creature Type or Fey Ancestry, Fey Magic, Glamour or Luck Expression, Small/Tiny Fey Presence; starting tendency Neutral - Chaotic - Cooperative - Neutral.",
+      "rumors": [
+        "Bobbin knows more sealed tunnels than the city engineers and fewer of them are legal.",
+        "She once sold the same hidden vault map to three crews and blamed the betrayal on bad ink."
+      ],
+      "plotHooks": [
+        "Bobbin hires the party for a tunnel job, then the wall breaks into a sealed ichor storehouse instead of a treasury.",
+        "A betrayed accomplice offers the party proof that Bobbin's latest dig could collapse a district above it."
+      ],
+      "profileId": "npc_0065_bobbin_nosenil",
+      "race": "Gandirosha",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Guest",
+      "residence": "Lunévaris - Tavern Room",
+      "workplace": "Lunévaris Archive",
+      "job": "Tunnel Criminal",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0065_bobbin_nosenil",
+        "race": "Gandirosha",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Guest",
+        "province": "Lun’tharavé",
+        "settlement": "Lunévaris",
+        "residence": "Lunévaris - Tavern Room",
+        "workplace": "Lunévaris Archive",
+        "job": "Tunnel Criminal",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 65,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Lunévaris",
+        "province": "Lun’tharavé",
+        "settlementKey": "luntharave:Lunévaris",
+        "provinceKey": "luntharave"
+      }
+    },
+    {
+      "id": "side-mira-thornvalve-22-1",
+      "name": "Mira Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "aunt/uncle",
+      "employeeId": "emp-tovik-emberclaw",
+      "employeeName": "Tovik Emberclaw",
+      "raceCategory": "Dwarven and Gnomish Kin",
+      "race": "Deep Gnome",
+      "genderIdentity": "Neutrois",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "Any / All Pronouns",
+        "subject": "Any",
+        "object": "Any",
+        "possessiveDeterminer": "Any",
+        "possessivePronoun": "Any",
+        "reflexive": "Any",
+        "example": "Rotate respectfully among the sets the person allows."
+      },
+      "honorific": "Sibling",
+      "province": "Lun’tharavé",
+      "provinceKey": "luntharave",
+      "settlement": "Lunévaris",
+      "settlementKey": "luntharave:Lunévaris",
+      "homeLocation": {
+        "province": "Lun’tharavé",
+        "settlement": "Lunévaris",
+        "x": 1041.5999755859375,
+        "y": 903.7249755859375
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Deep Gnome",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Lunévaris",
+        "province": "Lun’tharavé",
+        "settlementKey": "luntharave:Lunévaris",
+        "provinceKey": "luntharave"
+      }
+    },
+    {
+      "id": "side-nalia-moonspoke-22-0",
+      "name": "Nalia Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "apprentice",
+      "employeeId": "emp-tovik-emberclaw",
+      "employeeName": "Tovik Emberclaw",
+      "raceCategory": "Elf Parent Race and Elf Bloodlines",
+      "race": "Elf",
+      "lineage": "Drow (Underdark)",
+      "genderIdentity": "Gender-Less",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Void / Voidself",
+        "subject": "Void",
+        "object": "Void",
+        "possessiveDeterminer": "Void’s",
+        "possessivePronoun": "Void’s",
+        "reflexive": "Voidself",
+        "example": "Void handled it voidself."
+      },
+      "honorific": "Father",
+      "province": "Lun’tharavé",
+      "provinceKey": "luntharave",
+      "settlement": "Lunévaris",
+      "settlementKey": "luntharave:Lunévaris",
+      "homeLocation": {
+        "province": "Lun’tharavé",
+        "settlement": "Lunévaris",
+        "x": 1041.5999755859375,
+        "y": 903.7249755859375
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Elf — Drow (Underdark)",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Lunévaris",
+        "province": "Lun’tharavé",
+        "settlementKey": "luntharave:Lunévaris",
+        "provinceKey": "luntharave"
+      }
+    },
+    {
+      "id": "the-brass-penitent",
+      "name": "The Brass Penitent",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Lun’tharavé",
+      "provinceKey": "luntharave",
+      "settlement": "Lunévaris",
+      "settlementKey": "luntharave:Lunévaris",
+      "description": "The Brass Penitent is a masked Verdan mechanist whose public voice promises safety while every private calculation is stained by the people their machines failed to protect. At the Lunevaris Transit Yard, they design containment automata, rescue constructs, and defensive protocols for the Regent Lattice, but their logic keeps circling one terrible conclusion: protection can become murder when compassion is reduced to efficiency. They are brilliant, theatrical, ashamed, and dangerous whenever guilt is allowed to write engineering doctrine.",
+      "settlementAndAncestryTexture": "Lunévaris is a Village in Lun’tharavé, under Participatory Democracy, with low danger, Farming, Beach and grass with water, Mountain range terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Verdan reads through the Verdan entry of the race compendium, within Orcs, Goblins, and Goblinoid Kin, marked by Enkirael. Fey-transformed humanoids who rapidly adapt physically and mentally as they age. They are resilient survivors with an unusually optimistic perspective on change. Table cues: +1 Constitution, +2 Charisma, Black Blood Healing, Limited Telepathy; starting tendency Neutral - Neutral - Neutral - Neutral.",
+      "rumors": [
+        "The Brass Penitent knows why an ichor ledger changed hands last Valkhaday.",
+        "The Brass Penitent has a contact in Qasvire who will deny everything."
+      ],
+      "plotHooks": [
+        "The Brass Penitent asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that The Brass Penitent's public story is incomplete."
+      ],
+      "profileId": "npc_0090_the_brass_penitent",
+      "race": "Verdan",
+      "genderAndPronouns": "Non-Binary • they/them",
+      "householdRole": "Household Guard",
+      "residence": "Lunévaris - Workshop Loft",
+      "workplace": "Lunévaris Transit Yard",
+      "job": "Masked Mechanist",
+      "faction": "The Regent Lattice",
+      "profileTable": {
+        "id": "npc_0090_the_brass_penitent",
+        "race": "Verdan",
+        "gender_pronouns": "Non-Binary • they/them",
+        "household_role": "Household Guard",
+        "province": "Lun’tharavé",
+        "settlement": "Lunévaris",
+        "residence": "Lunévaris - Workshop Loft",
+        "workplace": "Lunévaris Transit Yard",
+        "job": "Masked Mechanist",
+        "faction": "The Regent Lattice"
+      },
+      "quickIndexNumber": 88,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Lunévaris",
+        "province": "Lun’tharavé",
+        "settlementKey": "luntharave:Lunévaris",
+        "provinceKey": "luntharave"
+      }
+    },
+    {
+      "id": "emp-tovik-emberclaw",
+      "name": "Tovik Emberclaw",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 41,
+      "race": "Leonin",
+      "genderIdentity": "Demi-Male",
+      "pronouns": "He / Him",
+      "occupation": "Rail Engineer",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Altruistic - Chaotic - Cooperative - Honorable",
+      "currentMood": "Calm",
+      "homeProvince": "Lun’tharavé",
+      "homeProvinceKey": "luntharave",
+      "homeSettlement": "Lunévaris",
+      "homeSettlementKey": "luntharave:Lunévaris",
+      "workProvince": "Astraevos",
+      "workProvinceKey": "astraevos",
+      "workSettlement": "Aelshoreth",
+      "workSettlementKey": "astraevos:Aelshoreth",
+      "homeLocation": {
+        "province": "Lun’tharavé",
+        "settlement": "Lunévaris",
+        "x": 1041.5999755859375,
+        "y": 903.7249755859375,
+        "lat": -68.85790586471558,
+        "lon": 3.093745708465576,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "BMT+00",
+          "timeZoneName": "Meridian Bell Time",
+          "offsetHoursFromBMT": 0,
+          "offsetMinutesFromBMT": 0,
+          "longitudeBandDegrees": [
+            -7.5,
+            7.5
+          ],
+          "certifiedLatitude": -68.857906,
+          "certifiedLongitude": 3.093746,
+          "latitudeHemisphere": "south",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Aelshoreth Train Station / Rail Platform",
+        "province": "Astraevos",
+        "settlement": "Aelshoreth",
+        "mode": "rail",
+        "x": 1344.55517578125,
+        "y": 421.3636474609375,
+        "lat": 15.93217134475708,
+        "lon": 56.34758949279785,
+        "provinceKey": "astraevos",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "BMT+04",
+          "timeZoneName": "Eastern Bell Time 4",
+          "offsetHoursFromBMT": 4,
+          "offsetMinutesFromBMT": 240,
+          "longitudeBandDegrees": [
+            52.5,
+            67.5
+          ],
+          "certifiedLatitude": 15.932171,
+          "certifiedLongitude": 56.347589,
+          "latitudeHemisphere": "north",
+          "rule": "BMT offset is assigned by longitude at 15 degrees per hour; latitude remains on the settlement clock certificate."
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "coverageWorkDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Oren Wildstride",
+          "type": "Rival",
+          "score": 67
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "apprentice",
+            "name": "Nalia Moonspoke",
+            "sideNpcId": "side-nalia-moonspoke-22-0",
+            "livesIn": "Lunévaris"
+          },
+          {
+            "kind": "aunt/uncle",
+            "name": "Mira Thornvalve",
+            "sideNpcId": "side-mira-thornvalve-22-1",
+            "livesIn": "Lunévaris"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Thal'ryssûn",
+            "province": "Kaelvorrin",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Thal'ryssûn",
+            "province": "Kaelvorrin",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Tovik Emberclaw is a Leonin — Emberclaw Pride transportation employee (He / Him) and a rail engineer whose public work is transportation, but their tracked life begins at home in Lunévaris, Lun’tharavé. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "rule-minded but kind",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Leonin",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Leonin",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Leonin"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "luntharave:Lunévaris",
+      "workplaceSettlementId": "astraevos:Aelshoreth",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Lunévaris",
+        "province": "Lun’tharavé",
+        "settlementKey": "luntharave:Lunévaris",
+        "provinceKey": "luntharave",
+        "serviceMode": "Train / Rail"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}

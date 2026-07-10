@@ -1,0 +1,472 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+  "settlementKey": "pelvoryn:Belynthar",
+  "settlement": "Belynthar",
+  "provinceKey": "pelvoryn",
+  "province": "Pelvoryn",
+  "settlementType": "Capital City",
+  "settlementJsonPath": "shared/settlements/Pelvoryn/Belynthar/Belynthar_Pelvoryn.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v1",
+    "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+    "sourceDocuments": [
+      "Belavadös Canonical Topography guide.docx",
+      "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+      "full_world_height_map.json"
+    ],
+    "settlementKey": "pelvoryn:Belynthar",
+    "provinceKey": "pelvoryn",
+    "province": "Pelvoryn",
+    "settlement": "Belynthar",
+    "type": "Capital City",
+    "biomes": [
+      "Partial forest",
+      "Farming",
+      "Treetops - treehouses"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Surface settlement in Partial forest; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "localRasterSample": {
+      "pixel": {
+        "x": 814.8,
+        "y": 582.125,
+        "ix": 815,
+        "iy": 582
+      },
+      "exactPaintedHex": "#597230",
+      "biomeCategoryId": 12,
+      "biomeCategory": "Marshes and swamps",
+      "biomePath": "Forest/Marshes and swamps",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 120,
+      "heightRaw16": 20046,
+      "heightRaw8Azgaar": 78,
+      "surfaceMetersAboveSeaLevel": 13.4,
+      "depthMetersBelowSeaLevel": 2.23,
+      "zMetersFor3D": 13.4
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 13.4,
+      "surfaceAnchorZMeters": 13,
+      "subsurfaceDepthMeters": 2,
+      "subsurfaceAnchorZMeters": -2,
+      "maxHeightMetersAboveSeaLevel": 13,
+      "maxDepthMetersBelowSeaLevel": 2,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        10.9687543,
+        -12.3266602,
+        13.4
+      ],
+      "surfaceAnchorCoordinates": [
+        10.9687543,
+        -12.3266602,
+        13
+      ],
+      "subsurfaceAnchorCoordinates": [
+        10.9687543,
+        -12.3266602,
+        -2
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Pelvoryn",
+      "Named river / delta / canal / lake": "Pelvoryn Flamewater Channel",
+      "Named bay / gulf / sea / sound": "Pelvoryn Orange Bay",
+      "Terrain that feeds the water": "Partial forest; Farming; Beach and grass with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Pelvoryn",
+      "Mountain range / highland": "Pelvoryn Ashridges",
+      "Volcano / vent / caldera": "Pelvoryn Flamekeel",
+      "Forest / swamp / landmark": "Cinderfern Belt"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Pelvoryn",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Partial forest; Farming; Beach and grass with water",
+      "Named weather": "Cinder-Wet Squalls",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Pelvoryn is centered at -12.747544, 11.486657 under Meritocracy, with 84,485,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Pelvoryn occupies 5,842,768.27 sq mi / 15,132,700.36 sq km of modeled Earth-sized territory, about 2.966813% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Farming and Beach and grass with water define its broad terrain, while its settlements intensify into Partial forest and Beach and grass with water. Population density is 5.583 people/sq km / 14.460 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Halfling — Stout Halfling, Kender, Kithkin, Centaur, Giff, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Thoryn-Rahek, Marduthor, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 8 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Elf Parent Race and Elf Bloodlines",
+          "count": 6
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 5
+        },
+        {
+          "name": "Fey and Trickster Folk",
+          "count": 4
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 2
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Harengon",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 4
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 8
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Sigrananna",
+          "count": 6
+        },
+        {
+          "name": "Hathruna",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Partial forest",
+          "count": 7
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Cinder-Wet Squalls",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    }
+  },
+  "npcCount": 0,
+  "sourceTypeCounts": {},
+  "locationRoleCounts": {},
+  "npcReferences": [],
+  "npcs": [],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files."
+}
