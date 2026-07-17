@@ -1,1 +1,0 @@
-# Routes organization for FastAPI
