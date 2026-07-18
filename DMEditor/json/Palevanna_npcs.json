@@ -1,0 +1,937 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "nalvessir:Palevanna",
+  "settlement": "Palevanna",
+  "provinceKey": "nalvessir",
+  "province": "Nalvessir",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Nalvessir/Palevanna/Palevanna_Nalvessir.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "nalvessir:Palevanna",
+    "provinceKey": "nalvessir",
+    "province": "Nalvessir",
+    "settlement": "Palevanna",
+    "type": "Town",
+    "biomes": [
+      "Farming",
+      "Deep forest",
+      "Partial forest"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Palevanna at the final Partial forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 327.0,
+        "y": 717.0,
+        "ix": 327,
+        "iy": 717
+      },
+      "mappedBiomeDepth": "Partial forest",
+      "mappedBiomePath": "Forest/Partial forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 833.98,
+      "surfaceAnchorZMeters": 834,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 834,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -122.51953,
+        -36.03516,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -122.51953,
+        -36.03516,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Partial forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Nalvessir",
+      "Named river / delta / canal / lake": "Nalvessir Grayreef Sound",
+      "Named bay / gulf / sea / sound": "Nalvessir Cloudwater Gulf",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Nalvessir",
+      "Mountain range / highland": "Nalvessir Slatehorns",
+      "Volcano / vent / caldera": "Slatefire Vent",
+      "Forest / swamp / landmark": "Graymoss Wetleaf"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Nalvessir",
+      "Climate regime": "subtropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Grayreef Fogfall",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Nalvessir is centered at 23.839316, 110.776447 under Communalism, with 49,799,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Nalvessir occupies 6,331,211.46 sq mi / 16,397,762.41 sq km of modeled Earth-sized territory, about 3.214832% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Beach and reefs with water and Deep forest. Population density is 3.037 people/sq km / 7.866 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Tortle, Elf — Sea Elf, Genasi — Water Genasi, Harengon, Hadozee, Triton, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Bastveig, Thoryn-Rahek, Sigrananna, Iskareth, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 7
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 5
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 4
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Hadozee",
+          "count": 3
+        },
+        {
+          "name": "Triton",
+          "count": 3
+        },
+        {
+          "name": "Merfolk",
+          "count": 3
+        },
+        {
+          "name": "Locathah",
+          "count": 3
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 3
+        },
+        {
+          "name": "Kender",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 8
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Iskareth",
+          "count": 7
+        },
+        {
+          "name": "Hathruna",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 6
+        },
+        {
+          "name": "Submarine",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Ferry",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Deep forest",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Grayreef Fogfall",
+      "climateRegime": "subtropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "provinceCenterLatitude": -30.00315,
+      "provinceCenterLongitude": -116.65729,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Partial forest",
+    "mappedBiomePath": "Forest/Partial forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 327.0,
+      "y": 717.0,
+      "longitude": -122.51953,
+      "latitude": -36.03516,
+      "utc": "UTC-8",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 5,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 2,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 4
+  },
+  "npcReferences": [
+    {
+      "id": "gloria-no-chain",
+      "name": "Gloria No-Chain",
+      "sourceType": "immersive_npc_roster",
+      "role": "Safehouse Fighter",
+      "faction": "The Freeblade Veil",
+      "settlement": "Palevanna",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Palevanna",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-keth-mireglass-25-1",
+      "name": "Keth Mireglass",
+      "sourceType": "transportation_side_npc",
+      "role": "spouse",
+      "faction": null,
+      "settlement": "Palevanna",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Palevanna",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-selnara-driftglass",
+      "name": "Selnara Driftglass",
+      "sourceType": "transportation_employee",
+      "role": "Transit Dispatcher",
+      "faction": null,
+      "serviceModeLabel": "Portal",
+      "serviceMode": "Portal",
+      "locationRole": "home",
+      "settlement": "Palevanna",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Palevanna",
+      "provinceKey": "nalvessir"
+    },
+    {
+      "id": "sierra-petrovane",
+      "name": "Sierra Petrovane",
+      "sourceType": "immersive_npc_roster",
+      "role": "Obsessive Collector",
+      "faction": "The Nefaric Veil",
+      "settlement": "Palevanna",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Palevanna",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-zhen-lanternreed-25-0",
+      "name": "Zhen Lanternreed",
+      "sourceType": "transportation_side_npc",
+      "role": "chosen family",
+      "faction": null,
+      "settlement": "Palevanna",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Palevanna",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "gloria-no-chain",
+      "name": "Gloria No-Chain",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Palevanna",
+      "settlementKey": "nalvessir:Palevanna",
+      "description": "Gloria No-Chain is a fierce, blunt, combat-ready Feral Tiefling who was once treated like property and now makes it everyone’s problem when anyone else is treated the same. She is sarcastic, impatient with soft excuses, and terrifying in a fight, but her anger is rooted in loyalty: she believes escapees, constructs, Soulbounds, ichor-marked victims, and rewritten people all deserve freedom, not “proper handling.”\nAt the Palevanna Transit Yard, Gloria serves the Freeblade Veil as a safehouse heavy, clearing routes, escorting fugitives, and holding chokepoints when polite rescue becomes open battle. She especially hates missions that force her to destroy controlled or unfinished artificial beings, because to Gloria, even the roughest-made person deserves a chance to be more than the purpose someone built into them.",
+      "settlementAndAncestryTexture": "Palevanna is a Town in Nalvessir, under Communalism, with low danger, Farming, Deep forest, Partial forest terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Feral Tiefling reads through the Tiefling entry of the race compendium, within Celestial, Fiendish, and Planar Bloodlines, marked by Freyseth. Tieflings are fiend-touched humanoids marked by infernal ancestry and social stigma. They often develop strong individuality and resilience in the face of prejudice. Table cues: Darkvision, Fiendish Legacy, Otherworldly Presence; starting tendency Neutral - Chaotic - Neutral - Neutral.",
+      "rumors": [
+        "Gloria No-Chain knows why an ichor ledger changed hands last Valkhaday.",
+        "Gloria No-Chain has a contact in Virethûn who will deny everything."
+      ],
+      "plotHooks": [
+        "Gloria No-Chain asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Gloria No-Chain's public story is incomplete."
+      ],
+      "profileId": "npc_0041_gloria_no_chain",
+      "race": "Feral Tiefling",
+      "genderAndPronouns": "Trans-Female • she/her",
+      "householdRole": "Co-Head of Household",
+      "residence": "Palevanna - Workshop Loft",
+      "workplace": "Palevanna Transit Yard",
+      "job": "Safehouse Fighter",
+      "faction": "The Freeblade Veil",
+      "profileTable": {
+        "id": "npc_0041_gloria_no_chain",
+        "race": "Feral Tiefling",
+        "gender_pronouns": "Trans-Female • she/her",
+        "household_role": "Co-Head of Household",
+        "province": "Nalvessir",
+        "settlement": "Palevanna",
+        "residence": "Palevanna - Workshop Loft",
+        "workplace": "Palevanna Transit Yard",
+        "job": "Safehouse Fighter",
+        "faction": "The Freeblade Veil"
+      },
+      "quickIndexNumber": 41,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Palevanna",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Palevanna",
+        "provinceKey": "nalvessir"
+      }
+    },
+    {
+      "id": "side-keth-mireglass-25-1",
+      "name": "Keth Mireglass",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "spouse",
+      "employeeId": "emp-selnara-driftglass",
+      "employeeName": "Selnara Driftglass",
+      "raceCategory": "Undead and Death-Touched Races",
+      "race": "Reborn",
+      "genderIdentity": "Trans-Female",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "Ask First",
+        "subject": "Ask first",
+        "object": "Ask first",
+        "possessiveDeterminer": "Ask first",
+        "possessivePronoun": "Ask first",
+        "reflexive": "Ask first",
+        "example": "What pronouns should I use?"
+      },
+      "honorific": "Kid",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Palevanna",
+      "settlementKey": "nalvessir:Palevanna",
+      "homeLocation": {
+        "province": "Nalvessir",
+        "settlement": "Palevanna",
+        "x": 327.0,
+        "y": 717.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Reborn",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Palevanna",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Palevanna",
+        "provinceKey": "nalvessir"
+      }
+    },
+    {
+      "id": "emp-selnara-driftglass",
+      "name": "Selnara Driftglass",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 50,
+      "race": "Genasi — Water Genasi / Panolima — Water Bloodline Mixed Heritage",
+      "genderIdentity": "Poly-Gender",
+      "pronouns": "They / Xem",
+      "occupation": "Transit Dispatcher",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "portal",
+      "serviceModeLabel": "Portal",
+      "belavadosAlignment": "Neutral - Lawful - Cooperative - Neutral",
+      "currentMood": "Calm",
+      "homeProvince": "Nalvessir",
+      "homeProvinceKey": "nalvessir",
+      "homeSettlement": "Palevanna",
+      "homeSettlementKey": "nalvessir:Palevanna",
+      "workProvince": "Vuelmora",
+      "workProvinceKey": "vuelmora",
+      "workSettlement": "Hyselva",
+      "workSettlementKey": "vuelmora:Hyselva",
+      "homeLocation": {
+        "province": "Nalvessir",
+        "settlement": "Palevanna",
+        "x": 327.0,
+        "y": 717.0,
+        "lat": -36.03516,
+        "lon": -122.51953,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-8",
+          "timeZoneName": "Belavadös UTC-8",
+          "offsetHoursFromUTC": -8,
+          "offsetMinutesFromUTC": -480,
+          "offsetHoursFromBMT": -8,
+          "offsetMinutesFromBMT": -480,
+          "longitudeBandDegrees": [
+            -127.5,
+            -112.5
+          ],
+          "certifiedLatitude": -36.03516,
+          "certifiedLongitude": -122.51953,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Hyselva Portal Facility",
+        "province": "Vuelmora",
+        "settlement": "Hyselva",
+        "mode": "portal",
+        "x": 1528.0,
+        "y": 922.0,
+        "lat": -72.07031,
+        "lon": 88.59375,
+        "provinceKey": "vuelmora",
+        "modeLabel": "Portal",
+        "timeZone": {
+          "timeZoneId": "UTC+6",
+          "timeZoneName": "Belavadös UTC+6",
+          "offsetHoursFromUTC": 6,
+          "offsetMinutesFromUTC": 360,
+          "offsetHoursFromBMT": 6,
+          "offsetMinutesFromBMT": 360,
+          "longitudeBandDegrees": [
+            82.5,
+            97.5
+          ],
+          "certifiedLatitude": -72.07031,
+          "certifiedLongitude": 88.59375,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "coverageWorkDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Tivren Mosscloak",
+          "type": "Coworker",
+          "score": 45
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "chosen family",
+            "name": "Zhen Lanternreed",
+            "sideNpcId": "side-zhen-lanternreed-25-0",
+            "livesIn": "Palevanna"
+          },
+          {
+            "kind": "spouse",
+            "name": "Keth Mireglass",
+            "sideNpcId": "side-keth-mireglass-25-1",
+            "livesIn": "Palevanna"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Gavaryn",
+            "province": "Pelvoryn",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Gavaryn",
+            "province": "Pelvoryn",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Selnara Driftglass is a Water Genasi–Panolima Mixed Heritage transportation employee (They / Them) and a transit dispatcher whose public work is transportation, but their tracked life begins at home in Palevanna, Nalvessir. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "gentle under pressure",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Genasi — Water Genasi / Panolima — Water Bloodline Mixed Heritage",
+      "mixedHeritage": {
+        "mode": "mixed heritage",
+        "parents": [
+          "Genasi — Water Genasi",
+          "Panolima — Water Bloodline"
+        ],
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Genasi",
+          "bloodlineOrLineage": "Water Genasi"
+        },
+        {
+          "race": "Panolima",
+          "bloodlineOrLineage": "Water Bloodline"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "nalvessir:Palevanna",
+      "workplaceSettlementId": "vuelmora:Hyselva",
+      "trackingColor": {
+        "archColor": "#ff8a00",
+        "assignedColor": "#ff8a00",
+        "archGradient": [
+          "#ff6b00",
+          "#ff9f1c",
+          "#ffd166"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_traveling_portal.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Palevanna",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Palevanna",
+        "provinceKey": "nalvessir",
+        "serviceMode": "Portal"
+      }
+    },
+    {
+      "id": "sierra-petrovane",
+      "name": "Sierra Petrovane",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Palevanna",
+      "settlementKey": "nalvessir:Palevanna",
+      "description": "Sierra Petrovane is a Gobboc obsessive collector whose enthusiasm for old carnival drinks, bottle lore, mascot legends, and impossible promotional relics is somehow both adorable and deeply exhausting. At the Palevanna Watch Office, she works with the Nefaric Veil as a walking archive of prize codes, lost exhibits, corporate myths, and suspiciously valuable memorabilia. People dismiss her as harmless until they realize her trivia can unlock sealed rooms, expose fraud, and identify which relics were washed in ichor.",
+      "settlementAndAncestryTexture": "Palevanna is a Town in Nalvessir, under Communalism, with low danger, Farming, Deep forest, Partial forest terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Gobboc reads through the Gobboc entry of the race compendium, within Orcs, Goblins, and Goblinoid Kin, marked by Enkirael. Gobbocs are brutish goblinoid variants known for extreme physical resilience and crude strength. They often serve as enforcers or shock troops in goblinoid societies. Table cues: Dexterity +2, Charisma/Wisdom +1, Coward's Creed, Feathered; starting tendency Selfish - Chaotic - Combative - Pragmatic.",
+      "rumors": [
+        "Sierra Petrovane knows why an ichor ledger changed hands last Anubaday.",
+        "Sierra Petrovane has a contact in Aelmyrwald who will deny everything."
+      ],
+      "plotHooks": [
+        "Sierra Petrovane asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Sierra Petrovane's public story is incomplete."
+      ],
+      "profileId": "npc_0117_sierra_petrovane",
+      "race": "Gobboc",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Chosen Family Member",
+      "residence": "Palevanna - Safehouse",
+      "workplace": "Palevanna Watch Office",
+      "job": "Obsessive Collector",
+      "faction": "The Nefaric Veil",
+      "profileTable": {
+        "id": "npc_0117_sierra_petrovane",
+        "race": "Gobboc",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Chosen Family Member",
+        "province": "Nalvessir",
+        "settlement": "Palevanna",
+        "residence": "Palevanna - Safehouse",
+        "workplace": "Palevanna Watch Office",
+        "job": "Obsessive Collector",
+        "faction": "The Nefaric Veil"
+      },
+      "quickIndexNumber": 115,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Palevanna",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Palevanna",
+        "provinceKey": "nalvessir"
+      }
+    },
+    {
+      "id": "side-zhen-lanternreed-25-0",
+      "name": "Zhen Lanternreed",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "chosen family",
+      "employeeId": "emp-selnara-driftglass",
+      "employeeName": "Selnara Driftglass",
+      "raceCategory": "Celestial, Fiendish, and Planar Peoples",
+      "race": "Hexblood",
+      "genderIdentity": "Poly-Gender",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "Any / All Pronouns",
+        "subject": "Any",
+        "object": "Any",
+        "possessiveDeterminer": "Any",
+        "possessivePronoun": "Any",
+        "reflexive": "Any",
+        "example": "Rotate respectfully among the sets the person allows."
+      },
+      "honorific": "Brother",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Palevanna",
+      "settlementKey": "nalvessir:Palevanna",
+      "homeLocation": {
+        "province": "Nalvessir",
+        "settlement": "Palevanna",
+        "x": 327.0,
+        "y": 717.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Hexblood",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Palevanna",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Palevanna",
+        "provinceKey": "nalvessir"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "kaelvorrin:Silverwake",
+  "settlement": "Silverwake",
+  "provinceKey": "kaelvorrin",
+  "province": "Kaelvorrin",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Kaelvorrin/Silverwake/Silverwake_Kaelvorrin.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "kaelvorrin:Silverwake",
+    "provinceKey": "kaelvorrin",
+    "province": "Kaelvorrin",
+    "settlement": "Silverwake",
+    "type": "City",
+    "biomes": [
+      "Farming",
+      "Partial forest",
+      "Deep forest"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Silverwake at the final Deep and Lush forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1771.0,
+        "y": 212.0,
+        "ix": 1771,
+        "iy": 212
+      },
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "mappedBiomePath": "Forest/Deep Lush forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 116.0,
+      "surfaceAnchorZMeters": 116,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 116,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        131.30859,
+        52.73438,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        131.30859,
+        52.73438,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Kaelvorrin",
+      "Named river / delta / canal / lake": "Kaelvorrin Bloodmere",
+      "Named bay / gulf / sea / sound": "Kaelvorrin Inner Red Bay",
+      "Terrain that feeds the water": "Farming; Partial forest; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kaelvorrin",
+      "Mountain range / highland": "Bloodstone Saddle",
+      "Volcano / vent / caldera": "Bloodwake Caldera",
+      "Forest / swamp / landmark": "Redroot Basinwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kaelvorrin",
+      "Climate regime": "multi-belt, centered in temperate",
+      "Dominant terrain": "Farming; Partial forest; Grassland",
+      "Named weather": "Redwall Pressure Fall",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kaelvorrin is centered at 6.383293, 5.827743 under Consensus Democracy, with 133,180,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kaelvorrin occupies 5,610,032.72 sq mi / 14,529,918.04 sq km of modeled Earth-sized territory, about 2.848636% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Partial forest and Grassland define its broad terrain, while its settlements intensify into Farming and Partial forest. Population density is 9.166 people/sq km / 23.740 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 1 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Raeshkul, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 9
+        },
+        {
+          "name": "Kender",
+          "count": 9
+        },
+        {
+          "name": "Kithkin",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Centaur",
+          "count": 9
+        },
+        {
+          "name": "Giff",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 7
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 7
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Nephthysra",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 7
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Steamship",
+          "count": 1
+        },
+        {
+          "name": "Submarine",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 7
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Redwall Pressure Fall",
+      "climateRegime": "multi-belt, centered in temperate",
+      "provinceCenterLatitude": 47.36977,
+      "provinceCenterLongitude": 125.84241,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Deep and Lush forest",
+    "mappedBiomePath": "Forest/Deep Lush forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1771.0,
+      "y": 212.0,
+      "longitude": 131.30859,
+      "latitude": 52.73438,
+      "utc": "UTC+9",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 0,
+  "sourceTypeCounts": {},
+  "locationRoleCounts": {},
+  "npcReferences": [],
+  "npcs": [],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

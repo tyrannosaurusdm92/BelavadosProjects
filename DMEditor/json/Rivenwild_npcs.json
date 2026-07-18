@@ -1,0 +1,491 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "kharvathen:Rivenwild",
+  "settlement": "Rivenwild",
+  "provinceKey": "kharvathen",
+  "province": "Kharvathen",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Kharvathen/Rivenwild/Rivenwild_Kharvathen.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "kharvathen:Rivenwild",
+    "provinceKey": "kharvathen",
+    "province": "Kharvathen",
+    "settlement": "Rivenwild",
+    "type": "Village",
+    "biomes": [
+      "Mountain range",
+      "Hybrid tree and forest floor",
+      "Grassland"
+    ],
+    "primaryBiome": "Mountain range",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Rivenwild at the final Farming anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1247.0,
+        "y": 338.0,
+        "ix": 1247,
+        "iy": 338
+      },
+      "mappedBiomeDepth": "Farming",
+      "mappedBiomePath": "Plains/Farming",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 4600.0,
+      "surfaceAnchorZMeters": 4600,
+      "subsurfaceDepthMeters": 180,
+      "subsurfaceAnchorZMeters": -180,
+      "maxHeightMetersAboveSeaLevel": 4600,
+      "maxDepthMetersBelowSeaLevel": 180,
+      "anchorMode": "surface_and_ledge_anchor",
+      "pinPlacement": "mountain-side-hybrid-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "up to 4600 m above; down to 180 m below",
+      "terrainRole": "mountain-side hybrid village",
+      "terrainFact": "Part of the village is perched on a mountain side."
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        39.19922,
+        30.58594,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        39.19922,
+        30.58594,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Farming",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": {
+      "Province": "Kharvathen",
+      "Settlement": "Rivenwild",
+      "Terrain role": "mountain-side hybrid village",
+      "Vertical range": "up to 4600 m above; down to 180 m below",
+      "Terrain fact": "Part of the village is perched on a mountain side."
+    },
+    "docxVerticalTableRecord": {
+      "Settlement": "Rivenwild",
+      "Province": "Kharvathen",
+      "Type": "Village",
+      "Height / depth note": "up to 4600 m above; down to 180 m below",
+      "Depth / height note": "down to 180 m below; up to 4600 m above"
+    },
+    "provinceWaterAtlas": {
+      "Province": "Kharvathen",
+      "Named river / delta / canal / lake": "Kharvathen Reedwater Canal",
+      "Named bay / gulf / sea / sound": "Kharvathen Greenblue Shoals",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kharvathen",
+      "Mountain range / highland": "Kharvathen Highfolds",
+      "Volcano / vent / caldera": "Moonmouth Kharvath",
+      "Forest / swamp / landmark": "Kharvathen Glassfern"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kharvathen",
+      "Climate regime": "subtropical",
+      "Dominant terrain": "Farming; Grassland; Beach and grass with water",
+      "Named weather": "Reedglass Rainbursts",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kharvathen is centered at -2.057905, -44.076840 under Oligarchy, with 143,961,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kharvathen occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Grassland. Dorghalun and Rivenwild carry the mountain record: Dorghalun is deep mountain, and Rivenwild is a hybrid settlement partly perched on a mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Halfling — Stout Halfling, Kender, Kithkin, Centaur, Giff, and 4 more. Faction visibility leans toward The Crucible Wardens and The Cog-Sanctum Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Setrimir, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 1
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 8
+        },
+        {
+          "name": "Kender",
+          "count": 8
+        },
+        {
+          "name": "Kithkin",
+          "count": 8
+        },
+        {
+          "name": "Centaur",
+          "count": 8
+        },
+        {
+          "name": "Giff",
+          "count": 8
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 8
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 6
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 9
+        },
+        {
+          "name": "The Cog-Sanctum Synod",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Setrimir",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 5
+        },
+        {
+          "name": "Mountain range",
+          "count": 2
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Dorghalun: Dorghalun is a deep mountain city in Kharvathen.",
+        "Rivenwild: Rivenwild is a hybrid village partly perched on a mountain side."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Reedglass Rainbursts",
+      "climateRegime": "subtropical",
+      "provinceCenterLatitude": 30.15248,
+      "provinceCenterLongitude": 46.69978,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 6,
+      "group": "Mountains",
+      "category": "Mountain range",
+      "path": "Mountains/Mountain range",
+      "preview_color": "#DCDAC6"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Farming",
+    "mappedBiomePath": "Plains/Farming",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1247.0,
+      "y": 338.0,
+      "longitude": 39.19922,
+      "latitude": 30.58594,
+      "utc": "UTC+3",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "nisha-redhand",
+      "name": "Nisha Redhand",
+      "sourceType": "immersive_npc_roster",
+      "role": "Disciple Boss",
+      "faction": "The Nefaric Veil",
+      "settlement": "Rivenwild",
+      "province": "Kharvathen",
+      "settlementKey": "kharvathen:Rivenwild",
+      "provinceKey": "kharvathen",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "nisha-redhand",
+      "name": "Nisha Redhand",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Kharvathen",
+      "provinceKey": "kharvathen",
+      "settlement": "Rivenwild",
+      "settlementKey": "kharvathen:Rivenwild",
+      "description": "Nisha Redhand is a Bugbear Disciple boss who treats fear as art and mercy as a spoiled performance. In Rivenwild, she commands the Nefaric Veil’s bloodiest enforcers, using raids, executions, intimidation rituals, and public cruelty to keep rivals from mistaking her for merely useful muscle. She is patient, sadistic, and terrifyingly honest about what she wants: obedience, blood, and the pleasure of proving no law can reach her quickly enough.",
+      "settlementAndAncestryTexture": "Rivenwild is a Village in Kharvathen, under Oligarchy, with low danger, Farming, Grassland, Hybrid tree and forest floor terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Bugbear reads through the Bugbear entry of the race compendium, within Orcs, Goblins, and Goblinoid Kin, marked by Enkirael. Bugbears are large, stealth-capable goblinoids blending brute strength with ambush tactics. They are often patient predators who prefer striking from concealment. Table cues: Darkvision, Fey Ancestry, Long-Limbed, Powerful Build; starting tendency Selfish - Chaotic - Combative - Pragmatic.",
+      "rumors": [
+        "Nisha Redhand knows why an ichor ledger changed hands last Ishtaday.",
+        "Nisha Redhand has a contact in Cyr'ethael who will deny everything."
+      ],
+      "plotHooks": [
+        "Nisha Redhand asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Nisha Redhand's public story is incomplete."
+      ],
+      "profileId": "npc_0114_nisha_redhand",
+      "race": "Bugbear",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Co-Head of Household",
+      "residence": "Rivenwild - Boarding House",
+      "workplace": "Rivenwild Guild Desk",
+      "job": "Disciple Boss",
+      "faction": "The Nefaric Veil",
+      "profileTable": {
+        "id": "npc_0114_nisha_redhand",
+        "race": "Bugbear",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Co-Head of Household",
+        "province": "Kharvathen",
+        "settlement": "Rivenwild",
+        "residence": "Rivenwild - Boarding House",
+        "workplace": "Rivenwild Guild Desk",
+        "job": "Disciple Boss",
+        "faction": "The Nefaric Veil"
+      },
+      "quickIndexNumber": 112,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Rivenwild",
+        "province": "Kharvathen",
+        "settlementKey": "kharvathen:Rivenwild",
+        "provinceKey": "kharvathen"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

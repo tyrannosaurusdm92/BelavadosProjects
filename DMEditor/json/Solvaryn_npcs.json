@@ -1,0 +1,746 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "bravelyn:Solvaryn",
+  "settlement": "Solvaryn",
+  "provinceKey": "bravelyn",
+  "province": "Bravelyn",
+  "settlementType": "Capital City",
+  "settlementJsonPath": "shared/settlements/Bravelyn/Solvaryn/Solvaryn_Bravelyn.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "bravelyn:Solvaryn",
+    "provinceKey": "bravelyn",
+    "province": "Bravelyn",
+    "settlement": "Solvaryn",
+    "type": "Capital City",
+    "biomes": [
+      "Partial forest",
+      "Beach and grass with water",
+      "Deep forest"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Solvaryn at the final Deep and Lush forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1666.0,
+        "y": 574.0,
+        "ix": 1666,
+        "iy": 574
+      },
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "mappedBiomePath": "Forest/Deep Lush forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 143.71,
+      "surfaceAnchorZMeters": 144,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 144,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        112.85156,
+        -10.89844,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        112.85156,
+        -10.89844,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Bravelyn",
+      "Named river / delta / canal / lake": "Loxvire Emberwash",
+      "Named bay / gulf / sea / sound": "Qasvire Southreach",
+      "Terrain that feeds the water": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Bravelyn",
+      "Mountain range / highland": "Bravelyn Magenta Spines",
+      "Volcano / vent / caldera": "Rynblast Caldera",
+      "Forest / swamp / landmark": "Qelvandra Thornfields"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Bravelyn",
+      "Climate regime": "predominantly marine broad-latitude tropical; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "Named weather": "Ember-Heat Dryline",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Bravelyn is centered at -65.170379, -34.488476 under Gerontocracy, with 35,977,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Bravelyn occupies 4,225,400.18 sq mi / 10,943,736.23 sq km of modeled Earth-sized territory, about 2.145553% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Beach and reefs with water and Partial forest define its broad terrain, while its settlements intensify into Beach and reefs with water, Beach and grass with water, Partial forest, Farming and Mountain range. Population density is 3.287 people/sq km / 8.514 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Glasswell Institute, with worship and patronage records naming Nebyrr, Ishtanora, Sigrananna, Setrimir, Raeshkul, Iskareth, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 9 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 8
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 10
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 8
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 7
+        },
+        {
+          "name": "Hadozee",
+          "count": 6
+        },
+        {
+          "name": "Triton",
+          "count": 6
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Locathah",
+          "count": 5
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 4
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 4
+        },
+        {
+          "name": "Faerie",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Glasswell Institute",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Setrimir",
+          "count": 10
+        },
+        {
+          "name": "Raeshkul",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Marduthor",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and reefs with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 2
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Mountain range",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Ember-Heat Dryline",
+      "climateRegime": "predominantly marine broad-latitude tropical; orographic winds and rain shadows",
+      "provinceCenterLatitude": -11.13361,
+      "provinceCenterLongitude": 108.52602,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Deep and Lush forest",
+    "mappedBiomePath": "Forest/Deep Lush forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1666.0,
+      "y": 574.0,
+      "longitude": 112.85156,
+      "latitude": -10.89844,
+      "utc": "UTC+8",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1,
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "dr-clay-holdren",
+      "name": "Dr. Clay Holdren",
+      "sourceType": "immersive_npc_roster",
+      "role": "Life Sciences Chair",
+      "faction": "The Glasswell Institute",
+      "settlement": "Solvaryn",
+      "province": "Bravelyn",
+      "settlementKey": "bravelyn:Solvaryn",
+      "provinceKey": "bravelyn",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-vesper-nullsong",
+      "name": "Vesper Nullsong",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "workplace",
+      "settlement": "Solvaryn",
+      "province": "Bravelyn",
+      "settlementKey": "bravelyn:Solvaryn",
+      "provinceKey": "bravelyn"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "dr-clay-holdren",
+      "name": "Dr. Clay Holdren",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Bravelyn",
+      "provinceKey": "bravelyn",
+      "settlement": "Solvaryn",
+      "settlementKey": "bravelyn:Solvaryn",
+      "description": "Dr. Clay Holdren is an Aarakocra life-sciences chair who discusses crops, bodies, and experimental subjects with the same polished academic calm. He studies disease-resistant harvests, divine mutation, and diluted ichor's effects on living tissue, insisting his work could end famine if lesser minds stopped panicking over methods. Clay is charming, remote, and dangerous because he can make exploitation sound like patience with a long enough research timeline.",
+      "settlementAndAncestryTexture": "Solvaryn is a Capital City in Bravelyn, under Gerontocracy, with severe danger, Partial forest, Beach and grass with water, Deep forest terrain. Local records favor Altruistic, Neutral, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie. Aarakocra reads through the Aarakocra entry of the race compendium, within Birdfolk and Avian Races, marked by Sokhivar. Birdlike humanoids native to high skies and mountain winds, Aarakocra are naturally swift and aerial in mindset. They value freedom and perspective above grounded concerns. Table cues: Flight, Talons, Wind Caller; starting tendency Altruistic - Chaotic - Cooperative - Honorable.",
+      "rumors": [
+        "Clay's greenhouse produces vegetables that hum near sealed ichor vials.",
+        "Several assistants left his laboratory after learning which test subjects were never entered by name."
+      ],
+      "plotHooks": [
+        "Clay hires the party to retrieve a runaway sample, then neglects to mention the sample can talk.",
+        "A blighted village needs Clay's research, but accepting it may bind them to Glasswell Institute oversight for generations."
+      ],
+      "profileId": "npc_0052_dr_clay_holdren",
+      "race": "Aarakocra",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guardian",
+      "residence": "Solvaryn - Boarding House",
+      "workplace": "Solvaryn Guild Desk",
+      "job": "Life Sciences Chair",
+      "faction": "The Glasswell Institute",
+      "profileTable": {
+        "id": "npc_0052_dr_clay_holdren",
+        "race": "Aarakocra",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guardian",
+        "province": "Bravelyn",
+        "settlement": "Solvaryn",
+        "residence": "Solvaryn - Boarding House",
+        "workplace": "Solvaryn Guild Desk",
+        "job": "Life Sciences Chair",
+        "faction": "The Glasswell Institute"
+      },
+      "quickIndexNumber": 52,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Solvaryn",
+        "province": "Bravelyn",
+        "settlementKey": "bravelyn:Solvaryn",
+        "provinceKey": "bravelyn"
+      }
+    },
+    {
+      "id": "emp-vesper-nullsong",
+      "name": "Vesper Nullsong",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 33,
+      "race": "Shade",
+      "genderIdentity": "Gender-Less",
+      "pronouns": "They / None",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Neutral",
+      "homeProvince": "Zal’tharuun",
+      "homeProvinceKey": "zaltharuun",
+      "homeSettlement": "Keth'varûn",
+      "homeSettlementKey": "zaltharuun:Keth'varûn",
+      "workProvince": "Bravelyn",
+      "workProvinceKey": "bravelyn",
+      "workSettlement": "Solvaryn",
+      "workSettlementKey": "bravelyn:Solvaryn",
+      "homeLocation": {
+        "province": "Zal’tharuun",
+        "settlement": "Keth'varûn",
+        "x": 1689.0,
+        "y": 978.0,
+        "lat": -81.91406,
+        "lon": 116.89453,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+8",
+          "timeZoneName": "Belavadös UTC+8",
+          "offsetHoursFromUTC": 8,
+          "offsetMinutesFromUTC": 480,
+          "offsetHoursFromBMT": 8,
+          "offsetMinutesFromBMT": 480,
+          "longitudeBandDegrees": [
+            112.5,
+            127.5
+          ],
+          "certifiedLatitude": -81.91406,
+          "certifiedLongitude": 116.89453,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Solvaryn Train Station / Rail Platform",
+        "province": "Bravelyn",
+        "settlement": "Solvaryn",
+        "mode": "rail",
+        "x": 1666.0,
+        "y": 574.0,
+        "lat": -10.89844,
+        "lon": 112.85156,
+        "provinceKey": "bravelyn",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+8",
+          "timeZoneName": "Belavadös UTC+8",
+          "offsetHoursFromUTC": 8,
+          "offsetMinutesFromUTC": 480,
+          "offsetHoursFromBMT": 8,
+          "offsetMinutesFromBMT": 480,
+          "longitudeBandDegrees": [
+            112.5,
+            127.5
+          ],
+          "certifiedLatitude": -10.89844,
+          "certifiedLongitude": 112.85156,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Day",
+        "start": "08:00",
+        "break": "12:00",
+        "end": "17:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Kaevik Runecoil",
+          "type": "Apprentice",
+          "score": 55
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "apprentice",
+            "name": "Briar Lanternreed",
+            "sideNpcId": "side-briar-lanternreed-35-0",
+            "livesIn": "Keth'varûn"
+          },
+          {
+            "kind": "aunt/uncle",
+            "name": "Ysol Mireglass",
+            "sideNpcId": "side-ysol-mireglass-35-1",
+            "livesIn": "Keth'varûn"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Harvestmere",
+            "province": "Eldermere",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Harvestmere",
+            "province": "Eldermere",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Vesper Nullsong is a Shade — Nullsong Shadowline transportation employee (They / None) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Keth'varûn, Zal’tharuun. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "gentle under pressure",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Shade",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Shade",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Shade"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "zaltharuun:Keth'varûn",
+      "workplaceSettlementId": "bravelyn:Solvaryn",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Solvaryn",
+        "province": "Bravelyn",
+        "settlementKey": "bravelyn:Solvaryn",
+        "provinceKey": "bravelyn",
+        "serviceMode": "Train / Rail"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

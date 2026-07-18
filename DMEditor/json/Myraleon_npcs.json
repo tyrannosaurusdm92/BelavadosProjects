@@ -1,0 +1,1082 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "drakmorren:Myraléon",
+  "settlement": "Myraléon",
+  "provinceKey": "drakmorren",
+  "province": "Drakmorren",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Drakmorren/Myraleon/Myraleon_Drakmorren.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "drakmorren:Myraléon",
+    "provinceKey": "drakmorren",
+    "province": "Drakmorren",
+    "settlement": "Myraléon",
+    "type": "Village",
+    "biomes": [
+      "Beach and grass with water",
+      "Ocean Surface floating settlement"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Myraléon at the final reef and shelf shallows anchor in mainland scope; pathing uses reef_underwater_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1912.0,
+        "y": 778.0,
+        "ix": 1912,
+        "iy": 778
+      },
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 7835,
+      "subsurfaceAnchorZMeters": -7835,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 7835,
+      "anchorMode": "floating_surface_anchor",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        156.09375,
+        -46.75781,
+        -180
+      ],
+      "surfaceAnchorCoordinates": [
+        156.09375,
+        -46.75781,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Drakmorren",
+      "Named river / delta / canal / lake": "Drakmorren Northblue Sea",
+      "Named bay / gulf / sea / sound": "Fenwyrd Mist Gulf",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Drakmorren",
+      "Mountain range / highland": "Dragonwake Crown",
+      "Volcano / vent / caldera": "Fenwyrd Stormmouth",
+      "Forest / swamp / landmark": "Kharrowfen Bogforest"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Drakmorren",
+      "Climate regime": "subpolar with marine/deep-water sectors; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Mountain range; Beach and reefs with water",
+      "Named weather": "Dragon-Anvil Gales",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Drakmorren is centered at 64.919542, 132.231826 under Oligarchy, with 41,202,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Drakmorren occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Beach and reefs with water. Grimvald, Fenwyrd, and Heth'vára anchor the mountain record: Grimvald descends through deep caverns with underworld rumors, Fenwyrd is a deep mountain city, and Heth'vára is a hybrid town partly perched on a mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Gnome — Rock Gnome, Elf — Sea Elf, Tortle, Triton, Merfolk, Halfling — Stout Halfling, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nebyrr, Nefarokir, Eirzunet, Ishtanora, Iskareth, Bastveig, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 17 recorded four-province geography group links, including 16 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 7
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 6
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 6
+        },
+        {
+          "name": "Elven-Types",
+          "count": 6
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 6
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 6
+        },
+        {
+          "name": "Tortle",
+          "count": 5
+        },
+        {
+          "name": "Triton",
+          "count": 5
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 4
+        },
+        {
+          "name": "Kender",
+          "count": 4
+        },
+        {
+          "name": "Kithkin",
+          "count": 4
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Centaur",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Nefarokir",
+          "count": 10
+        },
+        {
+          "name": "Eirzunet",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Marduthor",
+          "count": 7
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Horundar",
+          "count": 6
+        },
+        {
+          "name": "Sigrananna",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 4
+        },
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Submarine",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Mountain range",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        },
+        {
+          "name": "Grassland",
+          "count": 1
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Fenwyrd: Fenwyrd is a deep mountain city in Drakmorren.",
+        "Grimvald: Grimvald is a deep mountain cavern capital beneath Drakmorren, with halls so low that underworld access is rumored within.",
+        "Heth'vára: Heth'vára is a hybrid town partly perched on a mountain side."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Dragon-Anvil Gales",
+      "climateRegime": "subpolar with marine/deep-water sectors; orographic winds and rain shadows",
+      "provinceCenterLatitude": -50.00785,
+      "provinceCenterLongitude": 155.82488,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "reef and shelf shallows",
+    "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "reef_underwater_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1912.0,
+      "y": 778.0,
+      "longitude": 156.09375,
+      "latitude": -46.75781,
+      "utc": "UTC+10",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 4,
+  "sourceTypeCounts": {
+    "transportation_employee": 2,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2,
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "emp-drazik-coilfang",
+      "name": "Drazik Coilfang",
+      "sourceType": "transportation_employee",
+      "role": "Cargo Rail Handler",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Myraléon",
+      "province": "Drakmorren",
+      "settlementKey": "drakmorren:Myraléon",
+      "provinceKey": "drakmorren"
+    },
+    {
+      "id": "side-pava-brassfern-6-0",
+      "name": "Pava Brassfern",
+      "sourceType": "transportation_side_npc",
+      "role": "best friend",
+      "faction": null,
+      "settlement": "Myraléon",
+      "province": "Drakmorren",
+      "settlementKey": "drakmorren:Myraléon",
+      "provinceKey": "drakmorren",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-thimble-wickerheart",
+      "name": "Thimble Wickerheart",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "workplace",
+      "settlement": "Myraléon",
+      "province": "Drakmorren",
+      "settlementKey": "drakmorren:Myraléon",
+      "provinceKey": "drakmorren"
+    },
+    {
+      "id": "side-vel-tidebrook-6-1",
+      "name": "Vel Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "role": "neighbor",
+      "faction": null,
+      "settlement": "Myraléon",
+      "province": "Drakmorren",
+      "settlementKey": "drakmorren:Myraléon",
+      "provinceKey": "drakmorren",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-drazik-coilfang",
+      "name": "Drazik Coilfang",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 40,
+      "race": "Yuan-Ti",
+      "genderIdentity": "Agender",
+      "pronouns": "Ze / Hir",
+      "occupation": "Cargo Rail Handler",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Altruistic - Lawful - Cooperative - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Drakmorren",
+      "homeProvinceKey": "drakmorren",
+      "homeSettlement": "Myraléon",
+      "homeSettlementKey": "drakmorren:Myraléon",
+      "workProvince": "Aelvanyr",
+      "workProvinceKey": "aelvanyr",
+      "workSettlement": "Rootmere",
+      "workSettlementKey": "aelvanyr:Rootmere",
+      "homeLocation": {
+        "province": "Drakmorren",
+        "settlement": "Myraléon",
+        "x": 1912.0,
+        "y": 778.0,
+        "lat": -46.75781,
+        "lon": 156.09375,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+10",
+          "timeZoneName": "Belavadös UTC+10",
+          "offsetHoursFromUTC": 10,
+          "offsetMinutesFromUTC": 600,
+          "offsetHoursFromBMT": 10,
+          "offsetMinutesFromBMT": 600,
+          "longitudeBandDegrees": [
+            142.5,
+            157.5
+          ],
+          "certifiedLatitude": -46.75781,
+          "certifiedLongitude": 156.09375,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Rootmere Train Station / Rail Platform",
+        "province": "Aelvanyr",
+        "settlement": "Rootmere",
+        "mode": "rail",
+        "x": 368.0,
+        "y": 346.0,
+        "lat": 29.17969,
+        "lon": -115.3125,
+        "provinceKey": "aelvanyr",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC-8",
+          "timeZoneName": "Belavadös UTC-8",
+          "offsetHoursFromUTC": -8,
+          "offsetMinutesFromUTC": -480,
+          "offsetHoursFromBMT": -8,
+          "offsetMinutesFromBMT": -480,
+          "longitudeBandDegrees": [
+            -127.5,
+            -112.5
+          ],
+          "certifiedLatitude": 29.17969,
+          "certifiedLongitude": -115.3125,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Relief",
+        "start": "10:00",
+        "break": "14:00",
+        "end": "19:00"
+      },
+      "workDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "coverageWorkDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Serapha Dawnveil",
+          "type": "Coworker",
+          "score": 51
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "best friend",
+            "name": "Pava Brassfern",
+            "sideNpcId": "side-pava-brassfern-6-0",
+            "livesIn": "Myraléon"
+          },
+          {
+            "kind": "neighbor",
+            "name": "Vel Tidebrook",
+            "sideNpcId": "side-vel-tidebrook-6-1",
+            "livesIn": "Myraléon"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Lorath",
+            "province": "Kharvathen",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Lorath",
+            "province": "Kharvathen",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Drazik Coilfang is a Yuan-ti — Marshcoil Lineage transportation employee (They / Them) and a cargo rail handler whose public work is transportation, but their tracked life begins at home in Myraléon, Drakmorren. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "dramatic in a charming way",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Yuan-Ti",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Yuan-Ti",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Yuan-Ti"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "drakmorren:Myraléon",
+      "workplaceSettlementId": "aelvanyr:Rootmere",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Myraléon",
+        "province": "Drakmorren",
+        "settlementKey": "drakmorren:Myraléon",
+        "provinceKey": "drakmorren",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-pava-brassfern-6-0",
+      "name": "Pava Brassfern",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "best friend",
+      "employeeId": "emp-drazik-coilfang",
+      "employeeName": "Drazik Coilfang",
+      "raceCategory": "Constructed and Artificial Beings",
+      "race": "Warforged",
+      "genderIdentity": "Gender-Flexible",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "It / Its",
+        "subject": "It",
+        "object": "It",
+        "possessiveDeterminer": "Its",
+        "possessivePronoun": "Its",
+        "reflexive": "Itself",
+        "example": "It opened by itself."
+      },
+      "honorific": "Prof.",
+      "province": "Drakmorren",
+      "provinceKey": "drakmorren",
+      "settlement": "Myraléon",
+      "settlementKey": "drakmorren:Myraléon",
+      "homeLocation": {
+        "province": "Drakmorren",
+        "settlement": "Myraléon",
+        "x": 1912.0,
+        "y": 778.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Warforged",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myraléon",
+        "province": "Drakmorren",
+        "settlementKey": "drakmorren:Myraléon",
+        "provinceKey": "drakmorren"
+      }
+    },
+    {
+      "id": "emp-thimble-wickerheart",
+      "name": "Thimble Wickerheart",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 37,
+      "race": "Wechselkind",
+      "genderIdentity": "Gender-Less",
+      "pronouns": "They / Them",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Senior",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Altruistic - Chaotic - Cooperative - Honorable",
+      "currentMood": "Exhausted",
+      "homeProvince": "Falthrakar",
+      "homeProvinceKey": "falthrakar",
+      "homeSettlement": "Nellvaris",
+      "homeSettlementKey": "falthrakar:Nellvaris",
+      "workProvince": "Drakmorren",
+      "workProvinceKey": "drakmorren",
+      "workSettlement": "Myraléon",
+      "workSettlementKey": "drakmorren:Myraléon",
+      "homeLocation": {
+        "province": "Falthrakar",
+        "settlement": "Nellvaris",
+        "x": 866.0,
+        "y": 887.0,
+        "lat": -65.91797,
+        "lon": -27.77344,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-2",
+          "timeZoneName": "Belavadös UTC-2",
+          "offsetHoursFromUTC": -2,
+          "offsetMinutesFromUTC": -120,
+          "offsetHoursFromBMT": -2,
+          "offsetMinutesFromBMT": -120,
+          "longitudeBandDegrees": [
+            -37.5,
+            -22.5
+          ],
+          "certifiedLatitude": -65.91797,
+          "certifiedLongitude": -27.77344,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Myraléon Train Station / Rail Platform",
+        "province": "Drakmorren",
+        "settlement": "Myraléon",
+        "mode": "rail",
+        "x": 1912.0,
+        "y": 778.0,
+        "lat": -46.75781,
+        "lon": 156.09375,
+        "provinceKey": "drakmorren",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+10",
+          "timeZoneName": "Belavadös UTC+10",
+          "offsetHoursFromUTC": 10,
+          "offsetMinutesFromUTC": 600,
+          "offsetHoursFromBMT": 10,
+          "offsetMinutesFromBMT": 600,
+          "longitudeBandDegrees": [
+            142.5,
+            157.5
+          ],
+          "certifiedLatitude": -46.75781,
+          "certifiedLongitude": 156.09375,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "coverageWorkDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Nethra Vinewhisper",
+          "type": "Coworker",
+          "score": 47
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "spouse",
+            "name": "Ari Moonspoke",
+            "sideNpcId": "side-ari-moonspoke-52-0",
+            "livesIn": "Nellvaris"
+          },
+          {
+            "kind": "partner",
+            "name": "Noryn Thornvalve",
+            "sideNpcId": "side-noryn-thornvalve-52-1",
+            "livesIn": "Nellvaris"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Faeloria",
+            "province": "Falthrakar",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Faeloria",
+            "province": "Falthrakar",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Thimble Wickerheart is a Wechselkind — Wickerheart Hearthline transportation employee (They / Them) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Nellvaris, Falthrakar. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "rule-minded but kind",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Wechselkind",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Wechselkind",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Wechselkind"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "falthrakar:Nellvaris",
+      "workplaceSettlementId": "drakmorren:Myraléon",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Myraléon",
+        "province": "Drakmorren",
+        "settlementKey": "drakmorren:Myraléon",
+        "provinceKey": "drakmorren",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-vel-tidebrook-6-1",
+      "name": "Vel Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "neighbor",
+      "employeeId": "emp-drazik-coilfang",
+      "employeeName": "Drazik Coilfang",
+      "raceCategory": "Birdfolk and Avian Races",
+      "race": "Aarakocra",
+      "genderIdentity": "Gender-Fluid",
+      "pronounSet": {
+        "group": "Common Neopronouns",
+        "name": "Ze / Hir",
+        "subject": "Ze",
+        "object": "Hir",
+        "possessiveDeterminer": "Hir",
+        "possessivePronoun": "Hirs",
+        "reflexive": "Hirself",
+        "example": "Ze called hir friend."
+      },
+      "honorific": "Lord",
+      "province": "Drakmorren",
+      "provinceKey": "drakmorren",
+      "settlement": "Myraléon",
+      "settlementKey": "drakmorren:Myraléon",
+      "homeLocation": {
+        "province": "Drakmorren",
+        "settlement": "Myraléon",
+        "x": 1912.0,
+        "y": 778.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Aarakocra",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myraléon",
+        "province": "Drakmorren",
+        "settlementKey": "drakmorren:Myraléon",
+        "provinceKey": "drakmorren"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "eldravireriverrealm:Murethash",
+  "settlement": "Murethash",
+  "provinceKey": "eldravireriverrealm",
+  "province": "El'dravire Riverrealm",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Eldravire/Murethash/Murethash_Eldravire.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "eldravireriverrealm:Murethash",
+    "provinceKey": "eldravireriverrealm",
+    "province": "El'dravire Riverrealm",
+    "settlement": "Murethash",
+    "type": "City",
+    "biomes": [
+      "Ocean Surface floating settlement",
+      "Underwater with reefs"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Murethash at the final abyssal plain anchor in mainland scope; pathing uses abyssal_water_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 891.0,
+        "y": 515.0,
+        "ix": 891,
+        "iy": 515
+      },
+      "mappedBiomeDepth": "abyssal plain",
+      "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": -3732.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 3732,
+      "subsurfaceAnchorZMeters": -3732,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 3732,
+      "anchorMode": "underwater_anchor",
+      "pinPlacement": "underwater-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -23.37891,
+        -0.52734,
+        -6000
+      ],
+      "surfaceAnchorCoordinates": [
+        -23.37891,
+        -0.52734,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "abyssal plain",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+      "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Mountain range / highland": "El’dravire Floodwall Hills",
+      "Volcano / vent / caldera": "Thornsteam Basin",
+      "Forest / swamp / landmark": "Reedcrown Marshwoods"
+    },
+    "provinceClimateAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Climate regime": "predominantly marine equatorial; wetland fog and flood pulses",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Seven-Mouth Monsoon",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+      "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 12
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 12
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 12
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 12
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 12
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 12
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 12
+        },
+        {
+          "name": "Ishtanora",
+          "count": 12
+        },
+        {
+          "name": "Iskareth",
+          "count": 12
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 12
+        },
+        {
+          "name": "Bastveig",
+          "count": 12
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Hathruna",
+          "count": 9
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 11
+        },
+        {
+          "name": "Submarine",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 7
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Seven-Mouth Monsoon",
+      "climateRegime": "predominantly marine equatorial; wetland fog and flood pulses",
+      "provinceCenterLatitude": -1.31699,
+      "provinceCenterLongitude": -32.88781,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "abyssal plain",
+    "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "abyssal_water_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 891.0,
+      "y": 515.0,
+      "longitude": -23.37891,
+      "latitude": -0.52734,
+      "utc": "UTC-2",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "jun-longvale",
+      "name": "Jun Longvale",
+      "sourceType": "immersive_npc_roster",
+      "role": "Bereaved Settler",
+      "faction": "The Freeblade Veil",
+      "settlement": "Murethash",
+      "province": "El'dravire Riverrealm",
+      "settlementKey": "eldravire_riverrealm:Murethash",
+      "provinceKey": "eldravireriverrealm",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "jun-longvale",
+      "name": "Jun Longvale",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "El'dravire Riverrealm",
+      "provinceKey": "eldravireriverrealm",
+      "settlement": "Murethash",
+      "settlementKey": "eldravireriverrealm:Murethash",
+      "description": "Jun Longvale is a Simic Hybrid settler moving through grief so quietly that people sometimes forget silence can be an emergency. He helps the Freeblade Veil with repairs, carrying, and settlement chores because work gives him a shape to survive inside, even when hope feels insulting. Jun is gentle, hollowed, and not weak; his courage is the slow kind that keeps breathing after every easy reason to stop has already arrived.",
+      "settlementAndAncestryTexture": "Murethash is a City in El'dravire Riverrealm, under Parliamentary Government, with severe danger, Ocean Surface floating settlement, Underwater with reefs terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Simic Hybrid reads through the Simic Hybrid entry of the race compendium, within Experimental and Bio-Engineered Races, marked by Oskar'enlil. Arcane-engineered beings fused with multiple animal traits for adaptive evolution. They are highly versatile but often struggle with identity cohesion. Table cues: +2 Constitution, +1 One Other Ability Score, Darkvision, Animal Enhancement; starting tendency Neutral - Neutral - Neutral - Neutral.",
+      "rumors": [
+        "Jun can repair a rain barrel perfectly and then forget to drink for a day.",
+        "He still sets aside small useful things for a child who is not coming back."
+      ],
+      "plotHooks": [
+        "Jun recognizes a toy found near a raider camp and asks the party to find out whose child it belonged to.",
+        "A Reclaimer leader wants Jun moved somewhere safer, but Jun refuses to abandon the settlement that still carries his dead."
+      ],
+      "profileId": "npc_0056_jun_longvale",
+      "race": "Simic Hybrid",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Elder",
+      "residence": "Murethash - Canal Flat",
+      "workplace": "Murethash Clinic",
+      "job": "Bereaved Settler",
+      "faction": "The Freeblade Veil",
+      "profileTable": {
+        "id": "npc_0056_jun_longvale",
+        "race": "Simic Hybrid",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Elder",
+        "province": "El'dravire Riverrealm",
+        "settlement": "Murethash",
+        "residence": "Murethash - Canal Flat",
+        "workplace": "Murethash Clinic",
+        "job": "Bereaved Settler",
+        "faction": "The Freeblade Veil"
+      },
+      "quickIndexNumber": 56,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Murethash",
+        "province": "El'dravire Riverrealm",
+        "settlementKey": "eldravire_riverrealm:Murethash",
+        "provinceKey": "eldravireriverrealm"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
