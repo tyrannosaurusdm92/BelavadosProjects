@@ -1,0 +1,482 @@
+{
+  "schema": "belavados.ata.transit_manifest.corrected_spatial.v4",
+  "kind": "belavados.ata.transit_manifest",
+  "generatedDate": "2026-07-17",
+  "playerSafe": true,
+  "world": "Belavadös",
+  "authority": "Arcane Transit Authority",
+  "title": "Belavadös ATA Transit System",
+  "description": "Realmwide public transit rebuilt from the final four-compendium province and settlement placement.",
+  "routeCounts": {
+    "caravan": 235,
+    "ferry": 50,
+    "portal": 27,
+    "rail": 241,
+    "skyship": 110,
+    "steamship": 195,
+    "submarine": 201
+  },
+  "routesTotal": 1059,
+  "files": [
+    {
+      "path": "routes_caravan.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_ferry.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_portal.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_train_rail.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_skyship.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_steamship.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_submarine.json",
+      "kind": "route-ledger",
+      "required": true
+    },
+    {
+      "path": "routes_all_embedded.json",
+      "kind": "aggregate-route-ledger",
+      "required": true
+    },
+    {
+      "path": "ata_arch_tracker_route_graph.json",
+      "kind": "route-graph",
+      "required": true
+    },
+    {
+      "path": "alerts_and_time_tracking.json",
+      "kind": "route-timeboards",
+      "required": true
+    },
+    {
+      "path": "settlement_transit_coverage_index.json",
+      "kind": "coverage-index",
+      "required": true
+    }
+  ],
+  "requiredFilesPresent": {
+    "routes_caravan.json": true,
+    "routes_ferry.json": true,
+    "routes_portal.json": true,
+    "routes_train_rail.json": true,
+    "routes_skyship.json": true,
+    "routes_steamship.json": true,
+    "routes_submarine.json": true,
+    "routes_all_embedded.json": true,
+    "ata_arch_tracker_route_graph.json": true,
+    "alerts_and_time_tracking.json": true,
+    "settlement_transit_coverage_index.json": true
+  },
+  "validationPassed": true,
+  "railOceanRule": "Rail stays on land corridors, tunnels, bridges, river spans, lake spans, and coastal causeways; vast open ocean crossings are not rail service.",
+  "portalAccessRule": "Portal Access Pass required.",
+  "timeConversionRulesApplied": true,
+  "timeConversionRules": {
+    "clockAuthority": "Belavadös Meridian Time (BMT)",
+    "primeMeridianLongitudeDegrees": 0,
+    "longitudeBandDegreesPerHour": 15,
+    "offsetMethod": "Nearest whole-hour longitude band: offsetHours = round(longitude / 15), clamped from BMT-12 to BMT+12.",
+    "latitudeUse": "Latitude is recorded on every settlement certificate and confirms the settlement coordinate and hemisphere; the public hour offset is assigned by longitude so route clocks stay consistent.",
+    "localClockRule": "Every passenger-facing arrival, release, and transfer time is posted in the local time of the settlement where that event happens.",
+    "originDepartureRule": "Published departures are origin-terminal local time. Once the vehicle is in motion, every later stop is converted from absolute elapsed travel time into that stop’s local clock.",
+    "timeZoneCrossingRule": "Eastbound clock crossings move the displayed local clock ahead; westbound clock crossings move it behind. Date labels may move forward or backward when the clock crosses midnight.",
+    "portalRule": "Portal crossings obey the same settlement-local clock ledger. A portal can create a large visible clock jump because the traveler changes longitude almost at once, even when the controlled crossing itself is short.",
+    "timeFormat": "D+/-N Weekday HH:MM BMT±HH local",
+    "wednesdayRule": "Wednesday schedules keep their slower movement and added ichor checks, then receive the same local settlement time conversion."
+  },
+  "routesCrossingTimeZones": 413,
+  "portalRoutesWithClockJumps": 25,
+  "timeZonesServed": [
+    "UTC-12",
+    "UTC-11",
+    "UTC-10",
+    "UTC-9",
+    "UTC-8",
+    "UTC-7",
+    "UTC-6",
+    "UTC-5",
+    "UTC-4",
+    "UTC-3",
+    "UTC-2",
+    "UTC-1",
+    "UTC",
+    "UTC+1",
+    "UTC+2",
+    "UTC+3",
+    "UTC+4",
+    "UTC+5",
+    "UTC+6",
+    "UTC+7",
+    "UTC+8",
+    "UTC+9",
+    "UTC+10",
+    "UTC+11"
+  ],
+  "serviceModes": [
+    {
+      "key": "rail",
+      "label": "Train / Rail",
+      "color": "#9d4edd",
+      "gradient": [
+        "#5b21b6",
+        "#9d4edd",
+        "#e0aaff"
+      ],
+      "landOnly": true
+    },
+    {
+      "key": "caravan",
+      "label": "Caravan",
+      "color": "#2e9d52",
+      "gradient": [
+        "#14532d",
+        "#22c55e",
+        "#bbf7d0"
+      ]
+    },
+    {
+      "key": "ferry",
+      "label": "Ferry",
+      "color": "#9ca3af",
+      "gradient": [
+        "#4b5563",
+        "#9ca3af",
+        "#e5e7eb"
+      ]
+    },
+    {
+      "key": "skyship",
+      "label": "Skyship",
+      "color": "#00ffff",
+      "gradient": [
+        "#00ffff",
+        "#38bdf8",
+        "#2563eb"
+      ]
+    },
+    {
+      "key": "portal",
+      "label": "Portal",
+      "color": "#ff8a00",
+      "gradient": [
+        "#ff6b00",
+        "#ff9f1c",
+        "#ffd166"
+      ]
+    },
+    {
+      "key": "steamship",
+      "label": "Steamship",
+      "color": "#d62828",
+      "gradient": [
+        "#7f1d1d",
+        "#d62828",
+        "#ff6b6b"
+      ]
+    },
+    {
+      "key": "submarine",
+      "label": "Submarine",
+      "color": "#ffd166",
+      "gradient": [
+        "#b7791f",
+        "#ffd166",
+        "#fff3b0"
+      ]
+    }
+  ],
+  "routeTypeHeaders": [
+    {
+      "mode": "rail",
+      "title": "Train / Rail",
+      "disclaimer": "Land-only train route. Do not use for ocean, lake, river-only, subcombined, or sky routes.",
+      "fare": "1 Silver (Basic Ticket)",
+      "archColor": "#9d4edd",
+      "assignedColor": "#9d4edd",
+      "archGradient": [
+        "#5b21b6",
+        "#9d4edd",
+        "#e0aaff"
+      ]
+    },
+    {
+      "mode": "caravan",
+      "title": "Caravan",
+      "disclaimer": "Ground route for road, wilderness, market, or freight transit service.",
+      "fare": "5 Copper - 1 Silver",
+      "archColor": "#2e9d52",
+      "assignedColor": "#2e9d52",
+      "archGradient": [
+        "#14532d",
+        "#22c55e",
+        "#bbf7d0"
+      ]
+    },
+    {
+      "mode": "ferry",
+      "title": "Ferry",
+      "disclaimer": "Short-to-medium surface water route for lakes, rivers, harbors, canals, reefs, and nearby islands.",
+      "fare": "5 Copper - 2 Silver",
+      "archColor": "#9ca3af",
+      "assignedColor": "#9ca3af",
+      "archGradient": [
+        "#4b5563",
+        "#9ca3af",
+        "#e5e7eb"
+      ]
+    },
+    {
+      "mode": "skyship",
+      "title": "Skyship",
+      "disclaimer": "Air route for high terrain, island chains, skyports, and long-distance crossings.",
+      "fare": "2 Silver - 3 Gold",
+      "archColor": "#00ffff",
+      "assignedColor": "#00ffff",
+      "archGradient": [
+        "#00ffff",
+        "#38bdf8",
+        "#2563eb"
+      ]
+    },
+    {
+      "mode": "portal",
+      "title": "Portal",
+      "disclaimer": "Permit-only restricted route with Portal Access Pass inspection and Wednesday recalibration.",
+      "fare": "Restricted / 2 Gold - 5 Platinum high-priority",
+      "archColor": "#ff8a00",
+      "assignedColor": "#ff8a00",
+      "archGradient": [
+        "#ff6b00",
+        "#ff9f1c",
+        "#ffd166"
+      ]
+    },
+    {
+      "mode": "steamship",
+      "title": "Steamship",
+      "disclaimer": "Longer-range surface-water passenger service for coastal or major sea-lane travel.",
+      "fare": "1 Silver - 5 Gold",
+      "archColor": "#d62828",
+      "assignedColor": "#d62828",
+      "archGradient": [
+        "#7f1d1d",
+        "#d62828",
+        "#ff6b6b"
+      ]
+    },
+    {
+      "mode": "submarine",
+      "title": "Submarine",
+      "disclaimer": "Underwater route for reefs, trenches, deep-sea settlements, and subcombined hubs.",
+      "fare": "5 Silver - 5 Gold",
+      "archColor": "#ffd166",
+      "assignedColor": "#ffd166",
+      "archGradient": [
+        "#b7791f",
+        "#ffd166",
+        "#fff3b0"
+      ]
+    }
+  ],
+  "fares": [
+    [
+      "🚆 Rail",
+      "1 Silver (Basic Ticket)",
+      "5 Silver - 1 Gold (Private Cabins)",
+      "Land-only rail. It can serve cities, towns, tunnels, bridges, and mountain corridors, but it does not travel across open water or underwater routes."
+    ],
+    [
+      "🛤 Caravan Routes",
+      "5 Copper - 1 Silver",
+      "Varies (Hired Guards, Enchanted Wagons)",
+      "Best for local roads, roads through wilderness, merchant freight, and slower transit movement."
+    ],
+    [
+      "⛵ Ferry",
+      "5 Copper - 2 Silver",
+      "4 Silver - 1 Gold (Private Boat Charter)",
+      "Short-to-medium water service for harbors, rivers, lakes, canals, reefs, and islands."
+    ],
+    [
+      "🛩 Skyship",
+      "2 Silver - 3 Gold",
+      "5 Gold - 10 Platinum (Private Suites, VIP Skydeck)",
+      "Premium long-distance air service for mountains, islands, and terrain that land routes cannot easily cross."
+    ],
+    [
+      "🌀 Portal Travel",
+      "Restricted (Requires Pass)",
+      "2 Gold - 5 Platinum (High-Priority Travel)",
+      "Permit-based travel. Use for official, scholarly, military, emergency, or restricted transit corridors."
+    ],
+    [
+      "🚢 Steamship",
+      "1 Silver - 5 Gold",
+      "3 Gold - 8 Platinum (Private Stateroom / Charter)",
+      "Longer-range surface-water transit and passenger service; slower than portals or skyships but excellent for coastal chains and major sea lanes."
+    ],
+    [
+      "⚓ Submarine",
+      "5 Silver - 5 Gold",
+      "10 Gold - 15 Platinum (Private Pressure Cabin / Research Charter)",
+      "Underwater transit service for deep-sea settlements, reefs, trenches, hidden ports, and subcombined transit hubs."
+    ]
+  ],
+  "archColorAssignments": {
+    "train_rail": {
+      "trackingModeKey": "rail",
+      "modeLabel": "Train / Rail",
+      "archColor": "#9d4edd",
+      "assignedColor": "#9d4edd",
+      "archGradient": [
+        "#5b21b6",
+        "#9d4edd",
+        "#e0aaff"
+      ]
+    },
+    "caravan": {
+      "trackingModeKey": "caravan",
+      "modeLabel": "Caravan",
+      "archColor": "#2e9d52",
+      "assignedColor": "#2e9d52",
+      "archGradient": [
+        "#14532d",
+        "#22c55e",
+        "#bbf7d0"
+      ]
+    },
+    "ferry": {
+      "trackingModeKey": "ferry",
+      "modeLabel": "Ferry",
+      "archColor": "#9ca3af",
+      "assignedColor": "#9ca3af",
+      "archGradient": [
+        "#4b5563",
+        "#9ca3af",
+        "#e5e7eb"
+      ]
+    },
+    "skyship": {
+      "trackingModeKey": "skyship",
+      "modeLabel": "Skyship",
+      "archColor": "#00ffff",
+      "assignedColor": "#00ffff",
+      "archGradient": [
+        "#00ffff",
+        "#38bdf8",
+        "#2563eb"
+      ]
+    },
+    "portal": {
+      "trackingModeKey": "portal",
+      "modeLabel": "Portal",
+      "archColor": "#ff8a00",
+      "assignedColor": "#ff8a00",
+      "archGradient": [
+        "#ff6b00",
+        "#ff9f1c",
+        "#ffd166"
+      ]
+    },
+    "steamship": {
+      "trackingModeKey": "steamship",
+      "modeLabel": "Steamship",
+      "archColor": "#d62828",
+      "assignedColor": "#d62828",
+      "archGradient": [
+        "#7f1d1d",
+        "#d62828",
+        "#ff6b6b"
+      ]
+    },
+    "submarine": {
+      "trackingModeKey": "submarine",
+      "modeLabel": "Submarine",
+      "archColor": "#ffd166",
+      "assignedColor": "#ffd166",
+      "archGradient": [
+        "#b7791f",
+        "#ffd166",
+        "#fff3b0"
+      ]
+    }
+  },
+  "trackingSiteColorRule": "Live route arches use the mode arch color and gradient assigned in this ledger.",
+  "docxRouteHeaderColorRule": "Route table header bands use the same arch color assigned to the route mode.",
+  "transitTopographyWeatherRewrite": {
+    "generatedDate": "2026-07-17T18:27:27+00:00",
+    "revision": "belavados-four-compendium-canon-2026-07-17",
+    "changedFiles": [
+      "routes_caravan.json",
+      "routes_ferry.json",
+      "routes_portal.json",
+      "routes_train_rail.json",
+      "routes_skyship.json",
+      "routes_steamship.json",
+      "routes_submarine.json",
+      "routes_all_embedded.json",
+      "ata_arch_tracker_route_graph.json",
+      "settlement_locations.json",
+      "settlement_transit_coverage_index.json"
+    ],
+    "sourceInputs": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "allOriginalJsonFilesIncluded": true,
+    "routeCounts": {
+      "caravan": 235,
+      "ferry": 50,
+      "portal": 27,
+      "rail": 241,
+      "skyship": 110,
+      "steamship": 195,
+      "submarine": 201
+    },
+    "routesTotal": 1059,
+    "modeSurfaceCorrections": "All modes regenerated from canonical endpoint access and final corrected geography."
+  },
+  "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+  "manualCanonPassGeneratedDate": "2026-07-17T18:27:27+00:00",
+  "manualCanonRoutePassValidationFile": "route_manual_canon_pass_validation.json",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

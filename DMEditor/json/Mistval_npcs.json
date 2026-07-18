@@ -1,0 +1,722 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "kaelvorrin:Mistval",
+  "settlement": "Mistval",
+  "provinceKey": "kaelvorrin",
+  "province": "Kaelvorrin",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Kaelvorrin/Mistval/Mistval_Kaelvorrin.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "kaelvorrin:Mistval",
+    "provinceKey": "kaelvorrin",
+    "province": "Kaelvorrin",
+    "settlement": "Mistval",
+    "type": "City",
+    "biomes": [
+      "Farming",
+      "Treetops - treehouses",
+      "Grassland"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Mistval at the final Grassland anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1779.0,
+        "y": 250.0,
+        "ix": 1779,
+        "iy": 250
+      },
+      "mappedBiomeDepth": "Grassland",
+      "mappedBiomePath": "Plains/Grassland",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 116.0,
+      "surfaceAnchorZMeters": 116,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 116,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        132.71484,
+        46.05469,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        132.71484,
+        46.05469,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Grassland",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Kaelvorrin",
+      "Named river / delta / canal / lake": "Kaelvorrin Bloodmere",
+      "Named bay / gulf / sea / sound": "Kaelvorrin Inner Red Bay",
+      "Terrain that feeds the water": "Farming; Partial forest; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kaelvorrin",
+      "Mountain range / highland": "Bloodstone Saddle",
+      "Volcano / vent / caldera": "Bloodwake Caldera",
+      "Forest / swamp / landmark": "Redroot Basinwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kaelvorrin",
+      "Climate regime": "multi-belt, centered in temperate",
+      "Dominant terrain": "Farming; Partial forest; Grassland",
+      "Named weather": "Redwall Pressure Fall",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kaelvorrin is centered at 6.383293, 5.827743 under Consensus Democracy, with 133,180,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kaelvorrin occupies 5,610,032.72 sq mi / 14,529,918.04 sq km of modeled Earth-sized territory, about 2.848636% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Partial forest and Grassland define its broad terrain, while its settlements intensify into Farming and Partial forest. Population density is 9.166 people/sq km / 23.740 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 1 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Raeshkul, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 9
+        },
+        {
+          "name": "Kender",
+          "count": 9
+        },
+        {
+          "name": "Kithkin",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Centaur",
+          "count": 9
+        },
+        {
+          "name": "Giff",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 7
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 7
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Nephthysra",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 7
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Steamship",
+          "count": 1
+        },
+        {
+          "name": "Submarine",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 7
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Redwall Pressure Fall",
+      "climateRegime": "multi-belt, centered in temperate",
+      "provinceCenterLatitude": 47.36977,
+      "provinceCenterLongitude": 125.84241,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Grassland",
+    "mappedBiomePath": "Plains/Grassland",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1779.0,
+      "y": 250.0,
+      "longitude": 132.71484,
+      "latitude": 46.05469,
+      "utc": "UTC+9",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1,
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "emp-mogruk-bonehammer",
+      "name": "Mogruk Bonehammer",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Cargo Master",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "workplace",
+      "settlement": "Mistval",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Mistval",
+      "provinceKey": "kaelvorrin"
+    },
+    {
+      "id": "rufin-rubens",
+      "name": "Rufin Rubens",
+      "sourceType": "immersive_npc_roster",
+      "role": "Repairman",
+      "faction": "The Brass Concordat",
+      "settlement": "Mistval",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Mistval",
+      "provinceKey": "kaelvorrin",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-mogruk-bonehammer",
+      "name": "Mogruk Bonehammer",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 49,
+      "race": "Gnoll",
+      "genderIdentity": "Cis-Male",
+      "pronouns": "He / Him",
+      "occupation": "Skyship Cargo Master",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Senior",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Altruistic - Neutral - Cooperative - Honorable",
+      "currentMood": "Calm",
+      "homeProvince": "Jor’maelis",
+      "homeProvinceKey": "jormaelis",
+      "homeSettlement": "Lythéra",
+      "homeSettlementKey": "jormaelis:Lythéra",
+      "workProvince": "Kaelvorrin",
+      "workProvinceKey": "kaelvorrin",
+      "workSettlement": "Mistval",
+      "workSettlementKey": "kaelvorrin:Mistval",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Lythéra",
+        "x": 328.0,
+        "y": 168.0,
+        "lat": 60.46875,
+        "lon": -122.34375,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-8",
+          "timeZoneName": "Belavadös UTC-8",
+          "offsetHoursFromUTC": -8,
+          "offsetMinutesFromUTC": -480,
+          "offsetHoursFromBMT": -8,
+          "offsetMinutesFromBMT": -480,
+          "longitudeBandDegrees": [
+            -127.5,
+            -112.5
+          ],
+          "certifiedLatitude": 60.46875,
+          "certifiedLongitude": -122.34375,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Mistval Skyship Port",
+        "province": "Kaelvorrin",
+        "settlement": "Mistval",
+        "mode": "skyship",
+        "x": 1779.0,
+        "y": 250.0,
+        "lat": 46.05469,
+        "lon": 132.71484,
+        "provinceKey": "kaelvorrin",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "UTC+9",
+          "timeZoneName": "Belavadös UTC+9",
+          "offsetHoursFromUTC": 9,
+          "offsetMinutesFromUTC": 540,
+          "offsetHoursFromBMT": 9,
+          "offsetMinutesFromBMT": 540,
+          "longitudeBandDegrees": [
+            127.5,
+            142.5
+          ],
+          "certifiedLatitude": 46.05469,
+          "certifiedLongitude": 132.71484,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Cyra Lanternmist",
+          "type": "Apprentice",
+          "score": 51
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "child",
+            "name": "Keth Brassfern",
+            "sideNpcId": "side-keth-brassfern-56-0",
+            "livesIn": "Lythéra"
+          },
+          {
+            "kind": "cousin",
+            "name": "Briar Tidebrook",
+            "sideNpcId": "side-briar-tidebrook-56-1",
+            "livesIn": "Lythéra"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Auralisthra",
+            "province": "Lun’tharavé",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Auralisthra",
+            "province": "Lun’tharavé",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Mogruk Bonehammer is a Gnoll — Bonehammer Pack transportation employee (He / Him) and a skyship cargo master whose public work is transportation, but their tracked life begins at home in Lythéra, Jor’maelis. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "dramatic in a charming way",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Gnoll",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Gnoll",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Gnoll"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "jormaelis:Lythéra",
+      "workplaceSettlementId": "kaelvorrin:Mistval",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Mistval",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Mistval",
+        "provinceKey": "kaelvorrin",
+        "serviceMode": "Skyship"
+      }
+    },
+    {
+      "id": "rufin-rubens",
+      "name": "Rufin Rubens",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Kaelvorrin",
+      "provinceKey": "kaelvorrin",
+      "settlement": "Mistval",
+      "settlementKey": "kaelvorrin:Mistval",
+      "description": "Rufin Rubens is a Dwarf repairman with nimble hands, tavern gossip, and a talent for finding uses for machines everyone else left rusting in basements. He fixes locks, boilers, drink lines, lift gears, caravan carts, and temperamental constructs for the Brass Concordat, usually while pretending the job is easier than it is. Rufin is practical and friendly, but when old machines are tied to ichor, alcohol, or missing people, he starts asking questions no one hired him to ask.",
+      "settlementAndAncestryTexture": "Mistval is a City in Kaelvorrin, under Consensus Democracy, with low danger, Farming, Treetops - treehouses, Grassland terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Dwarf reads through the Dwarf entry of the race compendium, within Dwarven and Gnomish Kin, marked by Marduthor. Dwarves are stout, resilient folk deeply tied to stone, craft, and ancestral tradition. They value honor, craftsmanship, and enduring legacies over fleeting trends. Table cues: Darkvision, Dwarven Resilience, Dwarven Toughness, Stonecunning; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Rufin can identify a tavern's owner by the shortcuts in its pipe repairs.",
+        "He has a list of old brewing constructs that were never properly decommissioned."
+      ],
+      "plotHooks": [
+        "Rufin sends the party to retrieve a mobile brewer before its recipes poison an entire inn district.",
+        "A broken service construct recognizes Rufin and accuses him of abandoning a delivery decades ago."
+      ],
+      "profileId": "npc_0062_rufin_rubens",
+      "race": "Dwarf",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guardian",
+      "residence": "Mistval - Workshop Loft",
+      "workplace": "Mistval Transit Yard",
+      "job": "Repairman",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0062_rufin_rubens",
+        "race": "Dwarf",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guardian",
+        "province": "Kaelvorrin",
+        "settlement": "Mistval",
+        "residence": "Mistval - Workshop Loft",
+        "workplace": "Mistval Transit Yard",
+        "job": "Repairman",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 62,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Mistval",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Mistval",
+        "provinceKey": "kaelvorrin"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

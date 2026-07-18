@@ -1,0 +1,796 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "sylvaveryn:Myrvaelûn",
+  "settlement": "Myrvaelûn",
+  "provinceKey": "sylvaveryn",
+  "province": "Sylvavéryn",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Sylvaveryn/Myrvaelun/Myrvaelun_Sylvaveryn.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "sylvaveryn:Myrvaelûn",
+    "provinceKey": "sylvaveryn",
+    "province": "Sylvavéryn",
+    "settlement": "Myrvaelûn",
+    "type": "City",
+    "biomes": [
+      "Farming",
+      "Beach and grass with water",
+      "Partial forest"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Myrvaelûn at the final Partial forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1912.0,
+        "y": 279.0,
+        "ix": 1912,
+        "iy": 279
+      },
+      "mappedBiomeDepth": "Partial forest",
+      "mappedBiomePath": "Forest/Partial forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 77.43,
+      "surfaceAnchorZMeters": 77,
+      "subsurfaceDepthMeters": 39,
+      "subsurfaceAnchorZMeters": -39,
+      "maxHeightMetersAboveSeaLevel": 77,
+      "maxDepthMetersBelowSeaLevel": 39,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        156.09375,
+        40.95703,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        156.09375,
+        40.95703,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Partial forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Sylvavéryn",
+      "Named river / delta / canal / lake": "Sylvavéryn Cyanriver",
+      "Named bay / gulf / sea / sound": "Sylvavéryn Tideglass Sea",
+      "Terrain that feeds the water": "Farming; Partial forest; Beach and grass with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Sylvavéryn",
+      "Mountain range / highland": "Sylvavéryn Cloudstairs",
+      "Volcano / vent / caldera": "Cloudstep Vent",
+      "Forest / swamp / landmark": "Cyanleaf Greatwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Sylvavéryn",
+      "Climate regime": "multi-belt, centered in temperate with marine/deep-water sectors",
+      "Dominant terrain": "Farming; Partial forest; Beach and grass with water",
+      "Named weather": "Cyan Sky-River",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Sylvavéryn is centered at 8.066809, -86.299300 under Theocracy, with 103,614,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Sylvavéryn occupies 9,634,777.67 sq mi / 24,953,959.60 sq km of modeled Earth-sized territory, about 4.892301% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Partial forest and Beach and grass with water define its broad terrain, while its settlements intensify into Farming, Partial forest, Beach and grass with water and Treetops - treehouses. Population density is 4.152 people/sq km / 10.754 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Freeblade Veil, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Asethyr, Thalunesh, Marduthor, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 8 recorded four-province geography group links, including 7 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 9
+        },
+        {
+          "name": "Elven-Types",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 1
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 9
+        },
+        {
+          "name": "Kender",
+          "count": 9
+        },
+        {
+          "name": "Kithkin",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Centaur",
+          "count": 9
+        },
+        {
+          "name": "Giff",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 7
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Freeblade Veil",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Asethyr",
+          "count": 10
+        },
+        {
+          "name": "Thalunesh",
+          "count": 10
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Sigrananna",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 1
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Ferry",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 6
+        },
+        {
+          "name": "Submarine",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 6
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 1
+        },
+        {
+          "name": "Treetops - treehouses",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Cyan Sky-River",
+      "climateRegime": "multi-belt, centered in temperate with marine/deep-water sectors",
+      "provinceCenterLatitude": 38.6767,
+      "provinceCenterLongitude": 164.19618,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Partial forest",
+    "mappedBiomePath": "Forest/Partial forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1912.0,
+      "y": 279.0,
+      "longitude": 156.09375,
+      "latitude": 40.95703,
+      "utc": "UTC+10",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "emp-isolde-gloamwing",
+      "name": "Isolde Gloamwing",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Captain",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "home",
+      "settlement": "Myrvaelûn",
+      "province": "Sylvavéryn",
+      "settlementKey": "sylvaveryn:Myrvaelûn",
+      "provinceKey": "sylvaveryn"
+    },
+    {
+      "id": "side-mira-moonspoke-27-0",
+      "name": "Mira Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "role": "partner",
+      "faction": null,
+      "settlement": "Myrvaelûn",
+      "province": "Sylvavéryn",
+      "settlementKey": "sylvaveryn:Myrvaelûn",
+      "provinceKey": "sylvaveryn",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-pava-thornvalve-27-1",
+      "name": "Pava Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "role": "sibling",
+      "faction": null,
+      "settlement": "Myrvaelûn",
+      "province": "Sylvavéryn",
+      "settlementKey": "sylvaveryn:Myrvaelûn",
+      "provinceKey": "sylvaveryn",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-isolde-gloamwing",
+      "name": "Isolde Gloamwing",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 56,
+      "race": "Owlin",
+      "genderIdentity": "Cis-Female",
+      "pronouns": "She / Her",
+      "occupation": "Skyship Captain",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Lead",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Neutral - Neutral - Cooperative - Neutral",
+      "currentMood": "Calm",
+      "homeProvince": "Sylvavéryn",
+      "homeProvinceKey": "sylvaveryn",
+      "homeSettlement": "Myrvaelûn",
+      "homeSettlementKey": "sylvaveryn:Myrvaelûn",
+      "workProvince": "Earrorim",
+      "workProvinceKey": "earrorim",
+      "workSettlement": "Wagriolyn",
+      "workSettlementKey": "earrorim:Wagriolyn",
+      "homeLocation": {
+        "province": "Sylvavéryn",
+        "settlement": "Myrvaelûn",
+        "x": 1912.0,
+        "y": 279.0,
+        "lat": 40.95703,
+        "lon": 156.09375,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+10",
+          "timeZoneName": "Belavadös UTC+10",
+          "offsetHoursFromUTC": 10,
+          "offsetMinutesFromUTC": 600,
+          "offsetHoursFromBMT": 10,
+          "offsetMinutesFromBMT": 600,
+          "longitudeBandDegrees": [
+            142.5,
+            157.5
+          ],
+          "certifiedLatitude": 40.95703,
+          "certifiedLongitude": 156.09375,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Wagriolyn Skyship Port",
+        "province": "Earrorim",
+        "settlement": "Wagriolyn",
+        "mode": "skyship",
+        "x": 1432.0,
+        "y": 581.0,
+        "lat": -12.12891,
+        "lon": 71.71875,
+        "provinceKey": "earrorim",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "UTC+5",
+          "timeZoneName": "Belavadös UTC+5",
+          "offsetHoursFromUTC": 5,
+          "offsetMinutesFromUTC": 300,
+          "offsetHoursFromBMT": 5,
+          "offsetMinutesFromBMT": 300,
+          "longitudeBandDegrees": [
+            67.5,
+            82.5
+          ],
+          "certifiedLatitude": -12.12891,
+          "certifiedLongitude": 71.71875,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "coverageWorkDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Jorveth Redtusk",
+          "type": "Coworker",
+          "score": 47
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "partner",
+            "name": "Mira Moonspoke",
+            "sideNpcId": "side-mira-moonspoke-27-0",
+            "livesIn": "Myrvaelûn"
+          },
+          {
+            "kind": "sibling",
+            "name": "Pava Thornvalve",
+            "sideNpcId": "side-pava-thornvalve-27-1",
+            "livesIn": "Myrvaelûn"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Oravélyn",
+            "province": "Vaelmyrith",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Oravélyn",
+            "province": "Vaelmyrith",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Isolde Gloamwing is a Owlin — Gloamwing Nightline transportation employee (She / Her) and a skyship captain whose public work is transportation, but their tracked life begins at home in Myrvaelûn, Sylvavéryn. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "methodical and patient",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Owlin",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Owlin",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Owlin"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "sylvaveryn:Myrvaelûn",
+      "workplaceSettlementId": "earrorim:Wagriolyn",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Myrvaelûn",
+        "province": "Sylvavéryn",
+        "settlementKey": "sylvaveryn:Myrvaelûn",
+        "provinceKey": "sylvaveryn",
+        "serviceMode": "Skyship"
+      }
+    },
+    {
+      "id": "side-mira-moonspoke-27-0",
+      "name": "Mira Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "partner",
+      "employeeId": "emp-isolde-gloamwing",
+      "employeeName": "Isolde Gloamwing",
+      "raceCategory": "Psionic, Astral, and Alien Minds",
+      "race": "Githzerai",
+      "genderIdentity": "Trans-Male",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "No Pronouns / Name Only",
+        "subject": "Name",
+        "object": "Name",
+        "possessiveDeterminer": "Name’s",
+        "possessivePronoun": "Name’s",
+        "reflexive": "Nameself / Name",
+        "example": "Pippin brought Pippin’s book."
+      },
+      "honorific": "Girl",
+      "province": "Sylvavéryn",
+      "provinceKey": "sylvaveryn",
+      "settlement": "Myrvaelûn",
+      "settlementKey": "sylvaveryn:Myrvaelûn",
+      "homeLocation": {
+        "province": "Sylvavéryn",
+        "settlement": "Myrvaelûn",
+        "x": 1912.0,
+        "y": 279.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Githzerai",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrvaelûn",
+        "province": "Sylvavéryn",
+        "settlementKey": "sylvaveryn:Myrvaelûn",
+        "provinceKey": "sylvaveryn"
+      }
+    },
+    {
+      "id": "side-pava-thornvalve-27-1",
+      "name": "Pava Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "sibling",
+      "employeeId": "emp-isolde-gloamwing",
+      "employeeName": "Isolde Gloamwing",
+      "raceCategory": "Constructed and Artificial Beings",
+      "race": "Relicborn",
+      "genderIdentity": "Agender",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "First Person Singular",
+        "subject": "I",
+        "object": "Me",
+        "possessiveDeterminer": "My",
+        "possessivePronoun": "Mine",
+        "reflexive": "Myself",
+        "example": "I made it myself."
+      },
+      "honorific": "Aunt",
+      "province": "Sylvavéryn",
+      "provinceKey": "sylvaveryn",
+      "settlement": "Myrvaelûn",
+      "settlementKey": "sylvaveryn:Myrvaelûn",
+      "homeLocation": {
+        "province": "Sylvavéryn",
+        "settlement": "Myrvaelûn",
+        "x": 1912.0,
+        "y": 279.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Relicborn",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrvaelûn",
+        "province": "Sylvavéryn",
+        "settlementKey": "sylvaveryn:Myrvaelûn",
+        "provinceKey": "sylvaveryn"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

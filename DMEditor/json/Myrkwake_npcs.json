@@ -1,0 +1,860 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "marrowynd:Myrkwake",
+  "settlement": "Myrkwake",
+  "provinceKey": "marrowynd",
+  "province": "Marrowynd",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Marrowynd/Myrkwake/Myrkwake_Marrowynd.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "marrowynd:Myrkwake",
+    "provinceKey": "marrowynd",
+    "province": "Marrowynd",
+    "settlement": "Myrkwake",
+    "type": "Town",
+    "biomes": [
+      "Ocean Surface floating settlement",
+      "Underwater without reefs"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Myrkwake at the final abyssal plain anchor in mainland scope; pathing uses abyssal_water_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 907.0,
+        "y": 120.0,
+        "ix": 907,
+        "iy": 120
+      },
+      "mappedBiomeDepth": "abyssal plain",
+      "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": -4719.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 4719,
+      "subsurfaceAnchorZMeters": -4719,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 4719,
+      "anchorMode": "underwater_anchor",
+      "pinPlacement": "underwater-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -20.56641,
+        68.90625,
+        -6000
+      ],
+      "surfaceAnchorCoordinates": [
+        -20.56641,
+        68.90625,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "abyssal plain",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Marrowynd",
+      "Named river / delta / canal / lake": "Marrowynd Northgate Sea",
+      "Named bay / gulf / sea / sound": "Marrowynd Coldblue Bay",
+      "Terrain that feeds the water": "Partial forest; Beach and grass with water; Farming"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Marrowynd",
+      "Mountain range / highland": "Marrowynd Bonebacks",
+      "Volcano / vent / caldera": "Bluebone Cone",
+      "Forest / swamp / landmark": "Northroot Wetwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Marrowynd",
+      "Climate regime": "subpolar with marine/deep-water sectors",
+      "Dominant terrain": "Partial forest; Beach and grass with water; Farming",
+      "Named weather": "Boneback Wet Gales",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Marrowynd is centered at 61.785677, -112.285013 under Representative Democracy, with 43,221,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Marrowynd occupies 6,188,436.06 sq mi / 16,027,975.82 sq km of modeled Earth-sized territory, about 3.142334% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Beach and grass with water and Farming define its broad terrain, while its settlements intensify into Beach and grass with water, Ocean Surface floating settlement, Partial forest and Farming. Population density is 2.697 people/sq km / 6.984 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Nefarokir, Eirzunet, Sigrananna, Thalunesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 19 recorded four-province geography group links, including 17 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 6
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Harengon",
+          "count": 8
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 7
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 6
+        },
+        {
+          "name": "Faerie",
+          "count": 6
+        },
+        {
+          "name": "Satyr",
+          "count": 6
+        },
+        {
+          "name": "Changeling",
+          "count": 6
+        },
+        {
+          "name": "Tabaxi",
+          "count": 6
+        },
+        {
+          "name": "Bearfolk",
+          "count": 6
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Nefarokir",
+          "count": 11
+        },
+        {
+          "name": "Eirzunet",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Thalunesh",
+          "count": 8
+        },
+        {
+          "name": "Hathruna",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 6
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 3
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Boneback Wet Gales",
+      "climateRegime": "subpolar with marine/deep-water sectors",
+      "provinceCenterLatitude": 58.6904,
+      "provinceCenterLongitude": -23.93669,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "abyssal plain",
+    "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "abyssal_water_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 907.0,
+      "y": 120.0,
+      "longitude": -20.56641,
+      "latitude": 68.90625,
+      "utc": "UTC-1",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 4,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 3
+  },
+  "npcReferences": [
+    {
+      "id": "emp-cyra-lanternmist",
+      "name": "Cyra Lanternmist",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Myrkwake",
+      "province": "Marrowynd",
+      "settlementKey": "marrowynd:Myrkwake",
+      "provinceKey": "marrowynd"
+    },
+    {
+      "id": "side-fenna-glimmerlock-63-1",
+      "name": "Fenna Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "role": "chosen family",
+      "faction": null,
+      "settlement": "Myrkwake",
+      "province": "Marrowynd",
+      "settlementKey": "marrowynd:Myrkwake",
+      "provinceKey": "marrowynd",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "fritsch-gamebell",
+      "name": "Fritsch Gamebell",
+      "sourceType": "immersive_npc_roster",
+      "role": "Arena Keeper",
+      "faction": "The Nefaric Veil",
+      "settlement": "Myrkwake",
+      "province": "Marrowynd",
+      "settlementKey": "marrowynd:Myrkwake",
+      "provinceKey": "marrowynd",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-vel-starbarrow-63-0",
+      "name": "Vel Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "role": "grandparent",
+      "faction": null,
+      "settlement": "Myrkwake",
+      "province": "Marrowynd",
+      "settlementKey": "marrowynd:Myrkwake",
+      "provinceKey": "marrowynd",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-cyra-lanternmist",
+      "name": "Cyra Lanternmist",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 23,
+      "race": "Geppettin",
+      "genderIdentity": "Gender-Fluid",
+      "pronouns": "She / They",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Neutral - Cooperative - Neutral",
+      "currentMood": "Calm",
+      "homeProvince": "Marrowynd",
+      "homeProvinceKey": "marrowynd",
+      "homeSettlement": "Myrkwake",
+      "homeSettlementKey": "marrowynd:Myrkwake",
+      "workProvince": "Earrorim",
+      "workProvinceKey": "earrorim",
+      "workSettlement": "Wagriolyn",
+      "workSettlementKey": "earrorim:Wagriolyn",
+      "homeLocation": {
+        "province": "Marrowynd",
+        "settlement": "Myrkwake",
+        "x": 907.0,
+        "y": 120.0,
+        "lat": 68.90625,
+        "lon": -20.56641,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-1",
+          "timeZoneName": "Belavadös UTC-1",
+          "offsetHoursFromUTC": -1,
+          "offsetMinutesFromUTC": -60,
+          "offsetHoursFromBMT": -1,
+          "offsetMinutesFromBMT": -60,
+          "longitudeBandDegrees": [
+            -22.5,
+            -7.5
+          ],
+          "certifiedLatitude": 68.90625,
+          "certifiedLongitude": -20.56641,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Wagriolyn Train Station / Rail Platform",
+        "province": "Earrorim",
+        "settlement": "Wagriolyn",
+        "mode": "rail",
+        "x": 1432.0,
+        "y": 581.0,
+        "lat": -12.12891,
+        "lon": 71.71875,
+        "provinceKey": "earrorim",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+5",
+          "timeZoneName": "Belavadös UTC+5",
+          "offsetHoursFromUTC": 5,
+          "offsetMinutesFromUTC": 300,
+          "offsetHoursFromBMT": 5,
+          "offsetMinutesFromBMT": 300,
+          "longitudeBandDegrees": [
+            67.5,
+            82.5
+          ],
+          "certifiedLatitude": -12.12891,
+          "certifiedLongitude": 71.71875,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Sylri Whisperwind",
+          "type": "Apprentice",
+          "score": 58
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "grandparent",
+            "name": "Vel Starbarrow",
+            "sideNpcId": "side-vel-starbarrow-63-0",
+            "livesIn": "Myrkwake"
+          },
+          {
+            "kind": "chosen family",
+            "name": "Fenna Glimmerlock",
+            "sideNpcId": "side-fenna-glimmerlock-63-1",
+            "livesIn": "Myrkwake"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Everwake",
+            "province": "Aelvanyr",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Everwake",
+            "province": "Aelvanyr",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Cyra Lanternmist is a Geppettin — Lanternmist Marionette Line transportation employee (She / They) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Myrkwake, Marrowynd. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "curious and observant",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Geppettin",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Geppettin",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Geppettin"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "marrowynd:Myrkwake",
+      "workplaceSettlementId": "earrorim:Wagriolyn",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Myrkwake",
+        "province": "Marrowynd",
+        "settlementKey": "marrowynd:Myrkwake",
+        "provinceKey": "marrowynd",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-fenna-glimmerlock-63-1",
+      "name": "Fenna Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "chosen family",
+      "employeeId": "emp-cyra-lanternmist",
+      "employeeName": "Cyra Lanternmist",
+      "raceCategory": "Amphibious and Aquatic Peoples",
+      "race": "Nakudama",
+      "genderIdentity": "Gender-Less",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "It / Its",
+        "subject": "It",
+        "object": "It",
+        "possessiveDeterminer": "Its",
+        "possessivePronoun": "Its",
+        "reflexive": "Itself",
+        "example": "It opened by itself."
+      },
+      "honorific": "Mr.",
+      "province": "Marrowynd",
+      "provinceKey": "marrowynd",
+      "settlement": "Myrkwake",
+      "settlementKey": "marrowynd:Myrkwake",
+      "homeLocation": {
+        "province": "Marrowynd",
+        "settlement": "Myrkwake",
+        "x": 907.0,
+        "y": 120.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Nakudama",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrkwake",
+        "province": "Marrowynd",
+        "settlementKey": "marrowynd:Myrkwake",
+        "provinceKey": "marrowynd"
+      }
+    },
+    {
+      "id": "fritsch-gamebell",
+      "name": "Fritsch Gamebell",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Marrowynd",
+      "provinceKey": "marrowynd",
+      "settlement": "Myrkwake",
+      "settlementKey": "marrowynd:Myrkwake",
+      "description": "Fritsch Gamebell is a warm, nervous Gnome mechanic who survived the Nefaric Veil by making himself too useful to collar, exile, or kill. He keeps the arena games, prize engines, ticket dispensers, training machines, and warded obstacle rooms running with a healer’s patience and a handyman’s instinct, always patching broken people and broken gears with the same tired kindness. At the Myrkwake Archive, Fritsch manages the arena floor as something between arcade-master, field medic, and reluctant moral compass, making sure the games stay dangerous enough to satisfy raiders but not so lethal that every guest becomes a body. He dislikes ichor-addled cruelty, quietly rigs safety releases into the machines, and has a gentle way of helping frightened fighters feel like they still have a choice, even when the whole Carnival insists they do not.",
+      "settlementAndAncestryTexture": "Myrkwake is a Town in Marrowynd, under Representative Democracy, with high danger, Ocean Surface floating settlement, Underwater without reefs terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Gnome reads through the Deep Gnome entry of the race compendium, within Dwarven and Gnomish Kin, marked by Marduthor. Deep gnomes, or svirfneblin, are adapted to life in the deep subterranean world. They are cautious, stealthy, and highly resourceful in dangerous underground environments. Table cues: Gnome, Darkvision, Gift of the Svirfneblin, Gnomish Magic Resistance; starting tendency Neutral - Lawful - Neutral - Honorable.",
+      "rumors": [
+        "Fritsch Gamebell knows why an ichor ledger changed hands last Enkirday.",
+        "Fritsch Gamebell has a contact in Thaléssar who will deny everything."
+      ],
+      "plotHooks": [
+        "Fritsch Gamebell asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Fritsch Gamebell's public story is incomplete."
+      ],
+      "profileId": "npc_0116_fritsch_gamebell",
+      "race": "Gnome",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guest",
+      "residence": "Myrkwake - Tavern Room",
+      "workplace": "Myrkwake Archive",
+      "job": "Arena Keeper",
+      "faction": "The Nefaric Veil",
+      "profileTable": {
+        "id": "npc_0116_fritsch_gamebell",
+        "race": "Gnome",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guest",
+        "province": "Marrowynd",
+        "settlement": "Myrkwake",
+        "residence": "Myrkwake - Tavern Room",
+        "workplace": "Myrkwake Archive",
+        "job": "Arena Keeper",
+        "faction": "The Nefaric Veil"
+      },
+      "quickIndexNumber": 114,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrkwake",
+        "province": "Marrowynd",
+        "settlementKey": "marrowynd:Myrkwake",
+        "provinceKey": "marrowynd"
+      }
+    },
+    {
+      "id": "side-vel-starbarrow-63-0",
+      "name": "Vel Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "grandparent",
+      "employeeId": "emp-cyra-lanternmist",
+      "employeeName": "Cyra Lanternmist",
+      "raceCategory": "Animalfolk and Mammalian Anthropomorphs",
+      "race": "Cervan",
+      "genderIdentity": "Gender-Fluid",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "He / Him",
+        "subject": "He",
+        "object": "Him",
+        "possessiveDeterminer": "His",
+        "possessivePronoun": "His",
+        "reflexive": "Himself",
+        "example": "He brought his sword."
+      },
+      "honorific": "Goblin",
+      "province": "Marrowynd",
+      "provinceKey": "marrowynd",
+      "settlement": "Myrkwake",
+      "settlementKey": "marrowynd:Myrkwake",
+      "homeLocation": {
+        "province": "Marrowynd",
+        "settlement": "Myrkwake",
+        "x": 907.0,
+        "y": 120.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Cervan",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrkwake",
+        "province": "Marrowynd",
+        "settlementKey": "marrowynd:Myrkwake",
+        "provinceKey": "marrowynd"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

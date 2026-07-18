@@ -1,0 +1,797 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "thalryss:Ocevaruun",
+  "settlement": "Ocevaruun",
+  "provinceKey": "thalryss",
+  "province": "Thalryss",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Thalryss/Ocevaruun/Ocevaruun_Thalryss.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "thalryss:Ocevaruun",
+    "provinceKey": "thalryss",
+    "province": "Thalryss",
+    "settlement": "Ocevaruun",
+    "type": "City",
+    "biomes": [
+      "Ocean Surface floating settlement"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Ocevaruun at the final abyssal plain anchor in mainland scope; pathing uses abyssal_water_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1122.0,
+        "y": 726.0,
+        "ix": 1122,
+        "iy": 726
+      },
+      "mappedBiomeDepth": "abyssal plain",
+      "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 4719,
+      "subsurfaceAnchorZMeters": -4719,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 4719,
+      "anchorMode": "floating_surface_anchor",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        17.22656,
+        -37.61719,
+        -6000
+      ],
+      "surfaceAnchorCoordinates": [
+        17.22656,
+        -37.61719,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "abyssal plain",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Thalryss",
+      "Named river / delta / canal / lake": "Thalryss Narrow Sea",
+      "Named bay / gulf / sea / sound": "Thalryss Mirror Bay",
+      "Terrain that feeds the water": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Thalryss",
+      "Mountain range / highland": "Thalryss Bluewhite Knives",
+      "Volcano / vent / caldera": "Bluewhite Needle",
+      "Forest / swamp / landmark": "Thalryss Moonpine"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Thalryss",
+      "Climate regime": "predominantly marine multi-belt, centered in subtropical; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "Named weather": "Knife-Cloud Fronts",
+      "Vertical note": "highest settled weather band 180 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Thalryss is centered at 15.560491, -138.357227 under Protectorate, with 88,721,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Thalryss occupies 10,649,652.80 sq mi / 27,582,474.13 sq km of modeled Earth-sized territory, about 5.407630% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Beach and reefs with water and Ocean Surface floating settlement define its broad terrain, while its settlements intensify into Beach and grass with water, Ocean Surface floating settlement, Partial forest, Beach and reefs with water and Hybrid tree and forest floor. Population density is 3.217 people/sq km / 8.331 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Choral Synod and The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Sigrananna, Iskareth, Bastveig, Sokhivar, Thoryn-Rahek, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 4 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 9
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 7
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 7
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 7
+        },
+        {
+          "name": "Hadozee",
+          "count": 7
+        },
+        {
+          "name": "Triton",
+          "count": 7
+        },
+        {
+          "name": "Merfolk",
+          "count": 6
+        },
+        {
+          "name": "Locathah",
+          "count": 6
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 4
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 4
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 11
+        },
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Bastveig",
+          "count": 11
+        },
+        {
+          "name": "Sokhivar",
+          "count": 11
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 11
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 7
+        },
+        {
+          "name": "Hathruna",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 4
+        },
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Steamship",
+          "count": 11
+        },
+        {
+          "name": "Submarine",
+          "count": 11
+        },
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 3
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Knife-Cloud Fronts",
+      "climateRegime": "predominantly marine multi-belt, centered in subtropical; orographic winds and rain shadows",
+      "provinceCenterLatitude": -31.32418,
+      "provinceCenterLongitude": 30.40868,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "abyssal plain",
+    "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "abyssal_water_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1122.0,
+      "y": 726.0,
+      "longitude": 17.22656,
+      "latitude": -37.61719,
+      "utc": "UTC+1",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-luneth-duskhollow-29-1",
+      "name": "Luneth Duskhollow",
+      "sourceType": "transportation_side_npc",
+      "role": "child",
+      "faction": null,
+      "settlement": "Ocevaruun",
+      "province": "Thalryss",
+      "settlementKey": "thalryss:Ocevaruun",
+      "provinceKey": "thalryss",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-oren-wildstride",
+      "name": "Oren Wildstride",
+      "sourceType": "transportation_employee",
+      "role": "Caravan Driver",
+      "faction": null,
+      "serviceModeLabel": "Caravan",
+      "serviceMode": "Caravan",
+      "locationRole": "home",
+      "settlement": "Ocevaruun",
+      "province": "Thalryss",
+      "settlementKey": "thalryss:Ocevaruun",
+      "provinceKey": "thalryss"
+    },
+    {
+      "id": "side-sella-amberrail-29-0",
+      "name": "Sella Amberrail",
+      "sourceType": "transportation_side_npc",
+      "role": "parent",
+      "faction": null,
+      "settlement": "Ocevaruun",
+      "province": "Thalryss",
+      "settlementKey": "thalryss:Ocevaruun",
+      "provinceKey": "thalryss",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-luneth-duskhollow-29-1",
+      "name": "Luneth Duskhollow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "child",
+      "employeeId": "emp-oren-wildstride",
+      "employeeName": "Oren Wildstride",
+      "raceCategory": "Insectoid, Ooze, and Aberrant Creatures",
+      "race": "Oozekin",
+      "genderIdentity": "Cis-Female",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "Second Person",
+        "subject": "You",
+        "object": "You",
+        "possessiveDeterminer": "Your",
+        "possessivePronoun": "Yours",
+        "reflexive": "Yourself / Yourselves",
+        "example": "You forgot your jacket."
+      },
+      "honorific": "Auncle",
+      "province": "Thalryss",
+      "provinceKey": "thalryss",
+      "settlement": "Ocevaruun",
+      "settlementKey": "thalryss:Ocevaruun",
+      "homeLocation": {
+        "province": "Thalryss",
+        "settlement": "Ocevaruun",
+        "x": 1122.0,
+        "y": 726.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Oozekin",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Ocevaruun",
+        "province": "Thalryss",
+        "settlementKey": "thalryss:Ocevaruun",
+        "provinceKey": "thalryss"
+      }
+    },
+    {
+      "id": "emp-oren-wildstride",
+      "name": "Oren Wildstride",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 62,
+      "race": "Centaur",
+      "genderIdentity": "Demi-Male",
+      "pronouns": "He / They",
+      "occupation": "Caravan Driver",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "caravan",
+      "serviceModeLabel": "Caravan",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Neutral",
+      "homeProvince": "Thalryss",
+      "homeProvinceKey": "thalryss",
+      "homeSettlement": "Ocevaruun",
+      "homeSettlementKey": "thalryss:Ocevaruun",
+      "workProvince": "Bravelyn",
+      "workProvinceKey": "bravelyn",
+      "workSettlement": "Qasvire",
+      "workSettlementKey": "bravelyn:Qasvire",
+      "homeLocation": {
+        "province": "Thalryss",
+        "settlement": "Ocevaruun",
+        "x": 1122.0,
+        "y": 726.0,
+        "lat": -37.61719,
+        "lon": 17.22656,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+1",
+          "timeZoneName": "Belavadös UTC+1",
+          "offsetHoursFromUTC": 1,
+          "offsetMinutesFromUTC": 60,
+          "offsetHoursFromBMT": 1,
+          "offsetMinutesFromBMT": 60,
+          "longitudeBandDegrees": [
+            7.5,
+            22.5
+          ],
+          "certifiedLatitude": -37.61719,
+          "certifiedLongitude": 17.22656,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Qasvire Caravan Station",
+        "province": "Bravelyn",
+        "settlement": "Qasvire",
+        "mode": "caravan",
+        "x": 1608.0,
+        "y": 554.0,
+        "lat": -7.38281,
+        "lon": 102.65625,
+        "provinceKey": "bravelyn",
+        "modeLabel": "Caravan",
+        "timeZone": {
+          "timeZoneId": "UTC+7",
+          "timeZoneName": "Belavadös UTC+7",
+          "offsetHoursFromUTC": 7,
+          "offsetMinutesFromUTC": 420,
+          "offsetHoursFromBMT": 7,
+          "offsetMinutesFromBMT": 420,
+          "longitudeBandDegrees": [
+            97.5,
+            112.5
+          ],
+          "certifiedLatitude": -7.38281,
+          "certifiedLongitude": 102.65625,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "coverageWorkDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Kalliope Reeddance",
+          "type": "Coworker",
+          "score": 49
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "parent",
+            "name": "Sella Amberrail",
+            "sideNpcId": "side-sella-amberrail-29-0",
+            "livesIn": "Ocevaruun"
+          },
+          {
+            "kind": "child",
+            "name": "Luneth Duskhollow",
+            "sideNpcId": "side-luneth-duskhollow-29-1",
+            "livesIn": "Ocevaruun"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Thal’zuroth",
+            "province": "Zal’tharuun",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Thal’zuroth",
+            "province": "Zal’tharuun",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Oren Wildstride is a Centaur — Wildstride Plains Lineage transportation employee (He / They) and a caravan driver whose public work is transportation, but their tracked life begins at home in Ocevaruun, Thalryss. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "hopeful and chatty",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Centaur",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Centaur",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Centaur"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "thalryss:Ocevaruun",
+      "workplaceSettlementId": "bravelyn:Qasvire",
+      "trackingColor": {
+        "archColor": "#2e9d52",
+        "assignedColor": "#2e9d52",
+        "archGradient": [
+          "#14532d",
+          "#22c55e",
+          "#bbf7d0"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit__taking_a_caravan.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Ocevaruun",
+        "province": "Thalryss",
+        "settlementKey": "thalryss:Ocevaruun",
+        "provinceKey": "thalryss",
+        "serviceMode": "Caravan"
+      }
+    },
+    {
+      "id": "side-sella-amberrail-29-0",
+      "name": "Sella Amberrail",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "parent",
+      "employeeId": "emp-oren-wildstride",
+      "employeeName": "Oren Wildstride",
+      "raceCategory": "Amphibious and Aquatic Peoples",
+      "race": "Grung",
+      "genderIdentity": "Bi-Gender",
+      "pronounSet": {
+        "group": "Custom",
+        "name": "Add your own",
+        "example": "Fill in the custom fields."
+      },
+      "honorific": "Kid",
+      "province": "Thalryss",
+      "provinceKey": "thalryss",
+      "settlement": "Ocevaruun",
+      "settlementKey": "thalryss:Ocevaruun",
+      "homeLocation": {
+        "province": "Thalryss",
+        "settlement": "Ocevaruun",
+        "x": 1122.0,
+        "y": 726.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Grung",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Ocevaruun",
+        "province": "Thalryss",
+        "settlementKey": "thalryss:Ocevaruun",
+        "provinceKey": "thalryss"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
