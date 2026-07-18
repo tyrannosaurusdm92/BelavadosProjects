@@ -1,0 +1,534 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "nalvessir:Frostfen",
+  "settlement": "Frostfen",
+  "provinceKey": "nalvessir",
+  "province": "Nalvessir",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Nalvessir/Frostfen/Frostfen_Nalvessir.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "nalvessir:Frostfen",
+    "provinceKey": "nalvessir",
+    "province": "Nalvessir",
+    "settlement": "Frostfen",
+    "type": "Village",
+    "biomes": [
+      "Beach and reefs with water",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Beach and reefs with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Frostfen at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 357.0,
+        "y": 749.0,
+        "ix": 357,
+        "iy": 749
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 19,
+      "subsurfaceAnchorZMeters": -19,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 19,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -117.24609,
+        -41.66016,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -117.24609,
+        -41.66016,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Nalvessir",
+      "Named river / delta / canal / lake": "Nalvessir Grayreef Sound",
+      "Named bay / gulf / sea / sound": "Nalvessir Cloudwater Gulf",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Nalvessir",
+      "Mountain range / highland": "Nalvessir Slatehorns",
+      "Volcano / vent / caldera": "Slatefire Vent",
+      "Forest / swamp / landmark": "Graymoss Wetleaf"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Nalvessir",
+      "Climate regime": "subtropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Grayreef Fogfall",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Nalvessir is centered at 23.839316, 110.776447 under Communalism, with 49,799,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Nalvessir occupies 6,331,211.46 sq mi / 16,397,762.41 sq km of modeled Earth-sized territory, about 3.214832% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Beach and reefs with water and Deep forest. Population density is 3.037 people/sq km / 7.866 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Tortle, Elf — Sea Elf, Genasi — Water Genasi, Harengon, Hadozee, Triton, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Bastveig, Thoryn-Rahek, Sigrananna, Iskareth, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 7
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 5
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 4
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Hadozee",
+          "count": 3
+        },
+        {
+          "name": "Triton",
+          "count": 3
+        },
+        {
+          "name": "Merfolk",
+          "count": 3
+        },
+        {
+          "name": "Locathah",
+          "count": 3
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 3
+        },
+        {
+          "name": "Kender",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 8
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Iskareth",
+          "count": 7
+        },
+        {
+          "name": "Hathruna",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 6
+        },
+        {
+          "name": "Submarine",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Ferry",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Deep forest",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Grayreef Fogfall",
+      "climateRegime": "subtropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "provinceCenterLatitude": -30.00315,
+      "provinceCenterLongitude": -116.65729,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 14,
+      "group": "Hybrid",
+      "category": "Beach and reefs with water",
+      "path": "Hybrid/Beach and reefs with water",
+      "preview_color": "#A3DFD8"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 357.0,
+      "y": 749.0,
+      "longitude": -117.24609,
+      "latitude": -41.66016,
+      "utc": "UTC-8",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 2
+  },
+  "locationRoleCounts": {
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "jakk-cabot",
+      "name": "Jakk Cabot",
+      "sourceType": "immersive_npc_roster",
+      "role": "Noble Scholar",
+      "faction": "The Brass Concordat",
+      "settlement": "Frostfen",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Frostfen",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "pearl-softstep",
+      "name": "Pearl Softstep",
+      "sourceType": "immersive_npc_roster",
+      "role": "Hotel Investigator",
+      "faction": "The Choral Synod",
+      "settlement": "Frostfen",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Frostfen",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "jakk-cabot",
+      "name": "Jakk Cabot",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Frostfen",
+      "settlementKey": "nalvessir:Frostfen",
+      "description": "Jakk Cabot is a Verdan noble scholar whose charm, wealth, and academic curiosity orbit one terrible family secret. He studies ancient relics, longevity rites, psychic artifacts, and ichor-serum stabilizers while insisting that imprisoning a dangerous patriarch is stewardship rather than fear. Jakk is urbane, generous, and evasive, especially when the truth would reveal how many lives his family's research has consumed.",
+      "settlementAndAncestryTexture": "Frostfen is a Village in Nalvessir, under Communalism, with moderate danger, Beach and reefs with water, Beach and grass with water terrain. Local records favor Altruistic, Neutral, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Verdan reads through the Verdan entry of the race compendium, within Orcs, Goblins, and Goblinoid Kin, marked by Enkirael. Fey-transformed humanoids who rapidly adapt physically and mentally as they age. They are resilient survivors with an unusually optimistic perspective on change. Table cues: +1 Constitution, +2 Charisma, Black Blood Healing, Limited Telepathy; starting tendency Neutral - Neutral - Neutral - Neutral.",
+      "rumors": [
+        "Jakk has not aged correctly for a very long time, and neither have his household ledgers.",
+        "His kindest grants often go to scholars researching prisons, curses, or impossible lifespans."
+      ],
+      "plotHooks": [
+        "Jakk hires the party to recover stolen serum before his imprisoned parent wakes hungry and coherent.",
+        "A rival scholar claims Jakk's family fortune comes from harvesting a captive mind, not protecting the public."
+      ],
+      "profileId": "npc_0067_jakk_cabot",
+      "race": "Verdan",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Ward",
+      "residence": "Frostfen - Safehouse",
+      "workplace": "Frostfen Watch Office",
+      "job": "Noble Scholar",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0067_jakk_cabot",
+        "race": "Verdan",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Ward",
+        "province": "Nalvessir",
+        "settlement": "Frostfen",
+        "residence": "Frostfen - Safehouse",
+        "workplace": "Frostfen Watch Office",
+        "job": "Noble Scholar",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 67,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Frostfen",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Frostfen",
+        "provinceKey": "nalvessir"
+      }
+    },
+    {
+      "id": "pearl-softstep",
+      "name": "Pearl Softstep",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Frostfen",
+      "settlementKey": "nalvessir:Frostfen",
+      "description": "Pearl Softstep is a courteous Autognome hotel investigator with immaculate manners, a detective’s patience, and a talent for making murder suspects underestimate the furniture. At the Frostfen Archive, she assists the Choral Synod by investigating hotel deaths, inheritance puzzles, missing guests, and suspiciously well-preserved secrets in old resort ledgers. Pearl is gentle, observant, and quietly relentless, especially when wealthy people assume a constructed investigator cannot understand grief, vanity, or motive.",
+      "settlementAndAncestryTexture": "Frostfen is a Village in Nalvessir, under Communalism, with moderate danger, Beach and reefs with water, Beach and grass with water terrain. Local records favor Altruistic, Neutral, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Autognome reads through the Autognome entry of the race compendium, within Constructed and Artificial Beings, marked by Setrimir. Autognomes are mechanical or magically animated constructs resembling gnomes. They are often designed for specific purposes and may develop emergent personality traits over time. Table cues: Construct, Armored Casing, Built for Success, Healing Machine; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Pearl Softstep knows why an ichor ledger changed hands last Sigranday.",
+        "Pearl Softstep has a contact in Mythraelyn who will deny everything."
+      ],
+      "plotHooks": [
+        "Pearl Softstep asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Pearl Softstep's public story is incomplete."
+      ],
+      "profileId": "npc_0092_pearl_softstep",
+      "race": "Autognome",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Guest",
+      "residence": "Frostfen - Tavern Room",
+      "workplace": "Frostfen Archive",
+      "job": "Hotel Investigator",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0092_pearl_softstep",
+        "race": "Autognome",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Guest",
+        "province": "Nalvessir",
+        "settlement": "Frostfen",
+        "residence": "Frostfen - Tavern Room",
+        "workplace": "Frostfen Archive",
+        "job": "Hotel Investigator",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 90,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Frostfen",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Frostfen",
+        "provinceKey": "nalvessir"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

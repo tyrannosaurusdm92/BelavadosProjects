@@ -1,0 +1,741 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "ceulrithan:Gildri",
+  "settlement": "Gildri",
+  "provinceKey": "ceulrithan",
+  "province": "Ceulrithan",
+  "settlementType": "Capital City",
+  "settlementJsonPath": "shared/settlements/Ceulrithan/Gildri/Gildri_Ceulrithan.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "ceulrithan:Gildri",
+    "provinceKey": "ceulrithan",
+    "province": "Ceulrithan",
+    "settlement": "Gildri",
+    "type": "Capital City",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Gildri at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1532.0,
+        "y": 350.0,
+        "ix": 1532,
+        "iy": 350
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 5,
+      "subsurfaceAnchorZMeters": -5,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 5,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        89.29688,
+        28.47656,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        89.29688,
+        28.47656,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Ceulrithan",
+      "Named river / delta / canal / lake": "Ceulrithan Deep Channel",
+      "Named bay / gulf / sea / sound": "Luntharavé Crossing Sea",
+      "Terrain that feeds the water": "Farming; Partial forest; Beach and grass with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Ceulrithan",
+      "Mountain range / highland": "Ceulrithan Violet Ramps",
+      "Volcano / vent / caldera": "Purple Vow Vent",
+      "Forest / swamp / landmark": "Wickmoss Hanging Wood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Ceulrithan",
+      "Climate regime": "multi-belt, centered in temperate with marine/deep-water sectors; wetland fog and flood pulses",
+      "Dominant terrain": "Farming; Partial forest; Beach and grass with water",
+      "Named weather": "Violet Backstorm",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Ceulrithan is centered at -39.629771, -3.078722 under Confessional State, with 66,037,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Ceulrithan occupies 6,412,232.24 sq mi / 16,607,605.26 sq km of modeled Earth-sized territory, about 3.255973% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Partial forest and Beach and grass with water define its broad terrain, while its settlements intensify into Partial forest, Farming, Beach and grass with water and Beach and reefs with water. Population density is 3.976 people/sq km / 10.299 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Glasswell Institute, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Setrimir, Raeshkul, Marduthor, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 10 recorded four-province geography group links, including 7 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 3
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 4
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 4
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Glasswell Institute",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Setrimir",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 5
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 5
+        },
+        {
+          "name": "Submarine",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Partial forest",
+          "count": 4
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Violet Backstorm",
+      "climateRegime": "multi-belt, centered in temperate with marine/deep-water sectors; wetland fog and flood pulses",
+      "provinceCenterLatitude": 37.31559,
+      "provinceCenterLongitude": 89.10082,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1532.0,
+      "y": 350.0,
+      "longitude": 89.29688,
+      "latitude": 28.47656,
+      "utc": "UTC+6",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1,
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "mariner-voss",
+      "name": "Mariner Voss",
+      "sourceType": "immersive_npc_roster",
+      "role": "Hullwright",
+      "faction": "The Choral Synod",
+      "settlement": "Gildri",
+      "province": "Ceulrithan",
+      "settlementKey": "ceulrithan:Gildri",
+      "provinceKey": "ceulrithan",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-zephyra-glowtail",
+      "name": "Zephyra Glowtail",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "workplace",
+      "settlement": "Gildri",
+      "province": "Ceulrithan",
+      "settlementKey": "ceulrithan:Gildri",
+      "provinceKey": "ceulrithan"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "mariner-voss",
+      "name": "Mariner Voss",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Ceulrithan",
+      "provinceKey": "ceulrithan",
+      "settlement": "Gildri",
+      "settlementKey": "ceulrithan:Gildri",
+      "description": "Mariner Voss is a demi-female Triton hullwright who measures love in reinforced walls, sealed hulls, and the number of people still breathing after a storm. At the Gildri Guild Desk, they/she repairs harbor defenses, pressure gates, ship ribs, and fog-battered barricades for the Choral Synod while hiding how much pain each day costs. Voss is blunt, brilliant, and running out of time, which makes every repair feel like a final argument with death.",
+      "settlementAndAncestryTexture": "Gildri is a Capital City in Ceulrithan, under Confessional State, with severe danger, Beach and grass with water, Beach and reefs with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Triton reads through the Triton entry of the race compendium, within Amphibious and Aquatic Peoples, marked by Bastveig. Oceanic guardians adapted to deep-sea environments and coastal defense, Triton are disciplined and duty-bound. They often serve as protectors of aquatic realms. Table cues: Amphibious, Control Air and Water, Darkvision, Emissary of the Sea; starting tendency Altruistic - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Mariner Voss knows why an ichor ledger changed hands last Valkhaday.",
+        "Mariner Voss has a contact in Lorangriel who will deny everything."
+      ],
+      "plotHooks": [
+        "Mariner Voss asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Mariner Voss's public story is incomplete."
+      ],
+      "profileId": "npc_0104_mariner_voss",
+      "race": "Triton",
+      "genderAndPronouns": "Demi-Female • they/she",
+      "householdRole": "Elder",
+      "residence": "Gildri - Boarding House",
+      "workplace": "Gildri Guild Desk",
+      "job": "Hullwright",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0104_mariner_voss",
+        "race": "Triton",
+        "gender_pronouns": "Demi-Female • they/she",
+        "household_role": "Elder",
+        "province": "Ceulrithan",
+        "settlement": "Gildri",
+        "residence": "Gildri - Boarding House",
+        "workplace": "Gildri Guild Desk",
+        "job": "Hullwright",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 102,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Gildri",
+        "province": "Ceulrithan",
+        "settlementKey": "ceulrithan:Gildri",
+        "provinceKey": "ceulrithan"
+      }
+    },
+    {
+      "id": "emp-zephyra-glowtail",
+      "name": "Zephyra Glowtail",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 51,
+      "race": "Plasmoid",
+      "genderIdentity": "Gender-Fluid",
+      "pronouns": "Ve / Ver / Vers",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Astraevos",
+      "homeProvinceKey": "astraevos",
+      "homeSettlement": "Ael'voryn",
+      "homeSettlementKey": "astraevos:Ael'voryn",
+      "workProvince": "Ceulrithan",
+      "workProvinceKey": "ceulrithan",
+      "workSettlement": "Gildri",
+      "workSettlementKey": "ceulrithan:Gildri",
+      "homeLocation": {
+        "province": "Astraevos",
+        "settlement": "Ael'voryn",
+        "x": 673.0,
+        "y": 644.0,
+        "lat": -23.20312,
+        "lon": -61.69922,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-4",
+          "timeZoneName": "Belavadös UTC-4",
+          "offsetHoursFromUTC": -4,
+          "offsetMinutesFromUTC": -240,
+          "offsetHoursFromBMT": -4,
+          "offsetMinutesFromBMT": -240,
+          "longitudeBandDegrees": [
+            -67.5,
+            -52.5
+          ],
+          "certifiedLatitude": -23.20312,
+          "certifiedLongitude": -61.69922,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Gildri Train Station / Rail Platform",
+        "province": "Ceulrithan",
+        "settlement": "Gildri",
+        "mode": "rail",
+        "x": 1532.0,
+        "y": 350.0,
+        "lat": 28.47656,
+        "lon": 89.29688,
+        "provinceKey": "ceulrithan",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+6",
+          "timeZoneName": "Belavadös UTC+6",
+          "offsetHoursFromUTC": 6,
+          "offsetMinutesFromUTC": 360,
+          "offsetHoursFromBMT": 6,
+          "offsetMinutesFromBMT": 360,
+          "longitudeBandDegrees": [
+            82.5,
+            97.5
+          ],
+          "certifiedLatitude": 28.47656,
+          "certifiedLongitude": 89.29688,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Relief",
+        "start": "10:00",
+        "break": "14:00",
+        "end": "19:00"
+      },
+      "workDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "coverageWorkDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Brakka Stonehide",
+          "type": "Coworker",
+          "score": 61
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "sibling",
+            "name": "Marn Brassfern",
+            "sideNpcId": "side-marn-brassfern-41-0",
+            "livesIn": "Ael'voryn"
+          },
+          {
+            "kind": "parent",
+            "name": "Moss Tidebrook",
+            "sideNpcId": "side-moss-tidebrook-41-1",
+            "livesIn": "Ael'voryn"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Frostfen",
+            "province": "Nalvessir",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Frostfen",
+            "province": "Nalvessir",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Zephyra Glowtail is a Plasmoid — Glowtail Tideform transportation employee (Ve / Ver / Vers) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Ael'voryn, Astraevos. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "quietly funny",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Plasmoid",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Plasmoid",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Plasmoid"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "astraevos:Ael'voryn",
+      "workplaceSettlementId": "ceulrithan:Gildri",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Gildri",
+        "province": "Ceulrithan",
+        "settlementKey": "ceulrithan:Gildri",
+        "provinceKey": "ceulrithan",
+        "serviceMode": "Train / Rail"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "vuelmora:Glysera",
+  "settlement": "Glysera",
+  "provinceKey": "vuelmora",
+  "province": "Vuelmora",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Vuelmora/Glysera/Glysera_Vuelmora.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "vuelmora:Glysera",
+    "provinceKey": "vuelmora",
+    "province": "Vuelmora",
+    "settlement": "Glysera",
+    "type": "Town",
+    "biomes": [
+      "Farming",
+      "Partial forest",
+      "Grassland"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Glysera at the final Farming anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1550.0,
+        "y": 934.0,
+        "ix": 1550,
+        "iy": 934
+      },
+      "mappedBiomeDepth": "Farming",
+      "mappedBiomePath": "Plains/Farming",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 414.04,
+      "surfaceAnchorZMeters": 414,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 414,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        92.46094,
+        -74.17969,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        92.46094,
+        -74.17969,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Farming",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Vuelmora",
+      "Named river / delta / canal / lake": "Vuelmora Bluehook Lagoon",
+      "Named bay / gulf / sea / sound": "Vuelmora Outer Bay",
+      "Terrain that feeds the water": "Farming; Grassland; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Vuelmora",
+      "Mountain range / highland": "Vuelmora Hookback Hills",
+      "Volcano / vent / caldera": "Hookglass Vent",
+      "Forest / swamp / landmark": "Bluehook Grove"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Vuelmora",
+      "Climate regime": "broad-latitude subpolar",
+      "Dominant terrain": "Farming; Grassland; Partial forest",
+      "Named weather": "Bluehook Tide Fog",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Vuelmora is centered at -17.702744, 108.949704 under Cooperative Commonwealth, with 82,389,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Vuelmora occupies 6,814,295.07 sq mi / 17,648,943.22 sq km of modeled Earth-sized territory, about 3.460130% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Grassland and Partial forest define its broad terrain, while its settlements intensify into Farming and Partial forest. Population density is 4.668 people/sq km / 12.091 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Glasswell Institute, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Setrimir, Raeshkul, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 9 recorded four-province geography group links, including 8 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Elven-Types",
+          "count": 6
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 2
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 1
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 8
+        },
+        {
+          "name": "Kender",
+          "count": 8
+        },
+        {
+          "name": "Kithkin",
+          "count": 8
+        },
+        {
+          "name": "Harengon",
+          "count": 8
+        },
+        {
+          "name": "Centaur",
+          "count": 8
+        },
+        {
+          "name": "Giff",
+          "count": 8
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 8
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 6
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Glasswell Institute",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Marduthor",
+          "count": 8
+        },
+        {
+          "name": "Setrimir",
+          "count": 8
+        },
+        {
+          "name": "Raeshkul",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 6
+        },
+        {
+          "name": "Sigrananna",
+          "count": 6
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 4
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 5
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Ferry",
+          "count": 2
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Steamship",
+          "count": 1
+        },
+        {
+          "name": "Submarine",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 7
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Bluehook Tide Fog",
+      "climateRegime": "broad-latitude subpolar",
+      "provinceCenterLatitude": -61.32013,
+      "provinceCenterLongitude": 77.76091,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Farming",
+    "mappedBiomePath": "Plains/Farming",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1550.0,
+      "y": 934.0,
+      "longitude": 92.46094,
+      "latitude": -74.17969,
+      "utc": "UTC+6",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "pykeman-redgallery",
+      "name": "Pykeman Redgallery",
+      "sourceType": "immersive_npc_roster",
+      "role": "Serial Painter",
+      "faction": "The Brass Concordat",
+      "settlement": "Glysera",
+      "province": "Vuelmora",
+      "settlementKey": "vuelmora:Glysera",
+      "provinceKey": "vuelmora",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "pykeman-redgallery",
+      "name": "Pykeman Redgallery",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Vuelmora",
+      "provinceKey": "vuelmora",
+      "settlement": "Glysera",
+      "settlementKey": "vuelmora:Glysera",
+      "description": "Pykeman Redgallery is a Verdan painter whose refined manners, crimson canvases, and selective violence make polite society unsure whether to condemn him or commission him. He targets predators, raiders, and people he considers worse than monsters, turning their deaths into warnings disguised as art. Pykeman is not safe, not sane in any simple way, and not entirely wrong about the hypocrisy of officials who object to murder only when it is aesthetically difficult to ignore.",
+      "settlementAndAncestryTexture": "Glysera is a Town in Vuelmora, under Cooperative Commonwealth, with low danger, Farming, Partial forest, Grassland terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Verdan reads through the Verdan entry of the race compendium, within Orcs, Goblins, and Goblinoid Kin, marked by Enkirael. Fey-transformed humanoids who rapidly adapt physically and mentally as they age. They are resilient survivors with an unusually optimistic perspective on change. Table cues: +1 Constitution, +2 Charisma, Black Blood Healing, Limited Telepathy; starting tendency Neutral - Neutral - Neutral - Neutral.",
+      "rumors": [
+        "Pykeman's gallery smells of oil paint, iron, and justice gone feral.",
+        "Several criminals fear his signature more than the city watch."
+      ],
+      "plotHooks": [
+        "Pykeman sends the party a painting of a murder that has not happened yet, signed with tomorrow's date.",
+        "The Inquest wants him stopped, but his latest victim carried proof of a trafficking ring the courts ignored."
+      ],
+      "profileId": "npc_0072_pykeman_redgallery",
+      "race": "Verdan",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Boarder",
+      "residence": "Glysera - Rowhouse",
+      "workplace": "Glysera Market Hall",
+      "job": "Serial Painter",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0072_pykeman_redgallery",
+        "race": "Verdan",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Boarder",
+        "province": "Vuelmora",
+        "settlement": "Glysera",
+        "residence": "Glysera - Rowhouse",
+        "workplace": "Glysera Market Hall",
+        "job": "Serial Painter",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 72,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Glysera",
+        "province": "Vuelmora",
+        "settlementKey": "vuelmora:Glysera",
+        "provinceKey": "vuelmora"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
