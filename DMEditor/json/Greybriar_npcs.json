@@ -1,0 +1,810 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "kharvathen:Greybriar",
+  "settlement": "Greybriar",
+  "provinceKey": "kharvathen",
+  "province": "Kharvathen",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Kharvathen/Greybriar/Greybriar_Kharvathen.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "kharvathen:Greybriar",
+    "provinceKey": "kharvathen",
+    "province": "Kharvathen",
+    "settlement": "Greybriar",
+    "type": "City",
+    "biomes": [
+      "Hybrid tree and forest floor",
+      "Farming",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Hybrid tree and forest floor",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Greybriar at the final Farming anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1317.0,
+        "y": 320.0,
+        "ix": 1317,
+        "iy": 320
+      },
+      "mappedBiomeDepth": "Farming",
+      "mappedBiomePath": "Plains/Farming",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 450.83,
+      "surfaceAnchorZMeters": 451,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 451,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        51.50391,
+        33.75,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        51.50391,
+        33.75,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Farming",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Kharvathen",
+      "Named river / delta / canal / lake": "Kharvathen Reedwater Canal",
+      "Named bay / gulf / sea / sound": "Kharvathen Greenblue Shoals",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kharvathen",
+      "Mountain range / highland": "Kharvathen Highfolds",
+      "Volcano / vent / caldera": "Moonmouth Kharvath",
+      "Forest / swamp / landmark": "Kharvathen Glassfern"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kharvathen",
+      "Climate regime": "subtropical",
+      "Dominant terrain": "Farming; Grassland; Beach and grass with water",
+      "Named weather": "Reedglass Rainbursts",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kharvathen is centered at -2.057905, -44.076840 under Oligarchy, with 143,961,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kharvathen occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Grassland. Dorghalun and Rivenwild carry the mountain record: Dorghalun is deep mountain, and Rivenwild is a hybrid settlement partly perched on a mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Halfling — Stout Halfling, Kender, Kithkin, Centaur, Giff, and 4 more. Faction visibility leans toward The Crucible Wardens and The Cog-Sanctum Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Setrimir, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 1
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 8
+        },
+        {
+          "name": "Kender",
+          "count": 8
+        },
+        {
+          "name": "Kithkin",
+          "count": 8
+        },
+        {
+          "name": "Centaur",
+          "count": 8
+        },
+        {
+          "name": "Giff",
+          "count": 8
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 8
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 6
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 9
+        },
+        {
+          "name": "The Cog-Sanctum Synod",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Setrimir",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 5
+        },
+        {
+          "name": "Mountain range",
+          "count": 2
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Dorghalun: Dorghalun is a deep mountain city in Kharvathen.",
+        "Rivenwild: Rivenwild is a hybrid village partly perched on a mountain side."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Reedglass Rainbursts",
+      "climateRegime": "subtropical",
+      "provinceCenterLatitude": 30.15248,
+      "provinceCenterLongitude": 46.69978,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 15,
+      "group": "Hybrid",
+      "category": "Hybrid tree and forest floor",
+      "path": "Hybrid/Hybrid tree and forest floor",
+      "preview_color": "#66522D"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Farming",
+    "mappedBiomePath": "Plains/Farming",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1317.0,
+      "y": 320.0,
+      "longitude": 51.50391,
+      "latitude": 33.75,
+      "utc": "UTC+3",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-cyrra-duskhollow-19-1",
+      "name": "Cyrra Duskhollow",
+      "sourceType": "transportation_side_npc",
+      "role": "neighbor",
+      "faction": null,
+      "settlement": "Greybriar",
+      "province": "Kharvathen",
+      "settlementKey": "kharvathen:Greybriar",
+      "provinceKey": "kharvathen",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-drogan-flintbrew",
+      "name": "Drogan Flintbrew",
+      "sourceType": "transportation_employee",
+      "role": "Ferry Operator",
+      "faction": null,
+      "serviceModeLabel": "Ferry",
+      "serviceMode": "Ferry",
+      "locationRole": "home",
+      "settlement": "Greybriar",
+      "province": "Kharvathen",
+      "settlementKey": "kharvathen:Greybriar",
+      "provinceKey": "kharvathen"
+    },
+    {
+      "id": "side-lysa-amberrail-19-0",
+      "name": "Lysa Amberrail",
+      "sourceType": "transportation_side_npc",
+      "role": "best friend",
+      "faction": null,
+      "settlement": "Greybriar",
+      "province": "Kharvathen",
+      "settlementKey": "kharvathen:Greybriar",
+      "provinceKey": "kharvathen",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-cyrra-duskhollow-19-1",
+      "name": "Cyrra Duskhollow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "neighbor",
+      "employeeId": "emp-drogan-flintbrew",
+      "employeeName": "Drogan Flintbrew",
+      "raceCategory": "Plantfolk and Nature-Bound Races",
+      "race": "Mycelian",
+      "genderIdentity": "Gender-Flexible",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Void / Voidself",
+        "subject": "Void",
+        "object": "Void",
+        "possessiveDeterminer": "Void’s",
+        "possessivePronoun": "Void’s",
+        "reflexive": "Voidself",
+        "example": "Void handled it voidself."
+      },
+      "honorific": "Parent",
+      "province": "Kharvathen",
+      "provinceKey": "kharvathen",
+      "settlement": "Greybriar",
+      "settlementKey": "kharvathen:Greybriar",
+      "homeLocation": {
+        "province": "Kharvathen",
+        "settlement": "Greybriar",
+        "x": 1317.0,
+        "y": 320.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Mycelian",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Greybriar",
+        "province": "Kharvathen",
+        "settlementKey": "kharvathen:Greybriar",
+        "provinceKey": "kharvathen"
+      }
+    },
+    {
+      "id": "emp-drogan-flintbrew",
+      "name": "Drogan Flintbrew",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 32,
+      "race": "Dwarf — Duergar",
+      "genderIdentity": "Cis-Male",
+      "pronouns": "He / Him",
+      "occupation": "Ferry Operator",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "ferry",
+      "serviceModeLabel": "Ferry",
+      "belavadosAlignment": "Neutral - Lawful - Cooperative - Neutral",
+      "currentMood": "Exhausted",
+      "homeProvince": "Kharvathen",
+      "homeProvinceKey": "kharvathen",
+      "homeSettlement": "Greybriar",
+      "homeSettlementKey": "kharvathen:Greybriar",
+      "workProvince": "Ceulrithan",
+      "workProvinceKey": "ceulrithan",
+      "workSettlement": "Cindréa",
+      "workSettlementKey": "ceulrithan:Cindréa",
+      "homeLocation": {
+        "province": "Kharvathen",
+        "settlement": "Greybriar",
+        "x": 1317.0,
+        "y": 320.0,
+        "lat": 33.75,
+        "lon": 51.50391,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+3",
+          "timeZoneName": "Belavadös UTC+3",
+          "offsetHoursFromUTC": 3,
+          "offsetMinutesFromUTC": 180,
+          "offsetHoursFromBMT": 3,
+          "offsetMinutesFromBMT": 180,
+          "longitudeBandDegrees": [
+            37.5,
+            52.5
+          ],
+          "certifiedLatitude": 33.75,
+          "certifiedLongitude": 51.50391,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Cindréa Ferry Terminal",
+        "province": "Ceulrithan",
+        "settlement": "Cindréa",
+        "mode": "ferry",
+        "x": 1504.0,
+        "y": 330.0,
+        "lat": 31.99219,
+        "lon": 84.375,
+        "provinceKey": "ceulrithan",
+        "modeLabel": "Ferry",
+        "timeZone": {
+          "timeZoneId": "UTC+6",
+          "timeZoneName": "Belavadös UTC+6",
+          "offsetHoursFromUTC": 6,
+          "offsetMinutesFromUTC": 360,
+          "offsetHoursFromBMT": 6,
+          "offsetMinutesFromBMT": 360,
+          "longitudeBandDegrees": [
+            82.5,
+            97.5
+          ],
+          "certifiedLatitude": 31.99219,
+          "certifiedLongitude": 84.375,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "coverageWorkDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Vrakk Ironmane",
+          "type": "Coworker",
+          "score": 64
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "best friend",
+            "name": "Lysa Amberrail",
+            "sideNpcId": "side-lysa-amberrail-19-0",
+            "livesIn": "Greybriar"
+          },
+          {
+            "kind": "neighbor",
+            "name": "Cyrra Duskhollow",
+            "sideNpcId": "side-cyrra-duskhollow-19-1",
+            "livesIn": "Greybriar"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Brokharn",
+            "province": "Falthrakar",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Brokharn",
+            "province": "Falthrakar",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Drogan Flintbrew is a Dwarf — Flintbrew Valley Lineage transportation employee (He / Him) and a ferry operator whose public work is transportation, but their tracked life begins at home in Greybriar, Kharvathen. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "hopeful and chatty",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Dwarf — Duergar",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Dwarf",
+        "bloodlineOrLineage": "Duergar",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Dwarf",
+          "bloodlineOrLineage": "Duergar"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "kharvathen:Greybriar",
+      "workplaceSettlementId": "ceulrithan:Cindréa",
+      "trackingColor": {
+        "archColor": "#9ca3af",
+        "assignedColor": "#9ca3af",
+        "archGradient": [
+          "#4b5563",
+          "#9ca3af",
+          "#e5e7eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit__entering_a_port.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Greybriar",
+        "province": "Kharvathen",
+        "settlementKey": "kharvathen:Greybriar",
+        "provinceKey": "kharvathen",
+        "serviceMode": "Ferry"
+      }
+    },
+    {
+      "id": "side-lysa-amberrail-19-0",
+      "name": "Lysa Amberrail",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "best friend",
+      "employeeId": "emp-drogan-flintbrew",
+      "employeeName": "Drogan Flintbrew",
+      "raceCategory": "Insectoid, Ooze, and Aberrant Creatures",
+      "race": "Cnidarin",
+      "genderIdentity": "Demi-Male",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Star / Starself",
+        "subject": "Star",
+        "object": "Star",
+        "possessiveDeterminer": "Star’s",
+        "possessivePronoun": "Star’s",
+        "reflexive": "Starself",
+        "example": "Star found star’s favorite place."
+      },
+      "honorific": "Mother",
+      "province": "Kharvathen",
+      "provinceKey": "kharvathen",
+      "settlement": "Greybriar",
+      "settlementKey": "kharvathen:Greybriar",
+      "homeLocation": {
+        "province": "Kharvathen",
+        "settlement": "Greybriar",
+        "x": 1317.0,
+        "y": 320.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Cnidarin",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Greybriar",
+        "province": "Kharvathen",
+        "settlementKey": "kharvathen:Greybriar",
+        "provinceKey": "kharvathen"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

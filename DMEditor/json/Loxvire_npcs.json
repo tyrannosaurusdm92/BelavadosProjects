@@ -1,0 +1,471 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "bravelyn:Loxvire",
+  "settlement": "Loxvire",
+  "provinceKey": "bravelyn",
+  "province": "Bravelyn",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Bravelyn/Loxvire/Loxvire_Bravelyn.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "bravelyn:Loxvire",
+    "provinceKey": "bravelyn",
+    "province": "Bravelyn",
+    "settlement": "Loxvire",
+    "type": "City",
+    "biomes": [
+      "Beach and reefs with water",
+      "Beach and grass with water",
+      "Partial forest"
+    ],
+    "primaryBiome": "Beach and reefs with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Loxvire at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1596.0,
+        "y": 588.0,
+        "ix": 1596,
+        "iy": 588
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 19,
+      "subsurfaceAnchorZMeters": -19,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 19,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        100.54688,
+        -13.35938,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        100.54688,
+        -13.35938,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Bravelyn",
+      "Named river / delta / canal / lake": "Loxvire Emberwash",
+      "Named bay / gulf / sea / sound": "Qasvire Southreach",
+      "Terrain that feeds the water": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Bravelyn",
+      "Mountain range / highland": "Bravelyn Magenta Spines",
+      "Volcano / vent / caldera": "Rynblast Caldera",
+      "Forest / swamp / landmark": "Qelvandra Thornfields"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Bravelyn",
+      "Climate regime": "predominantly marine broad-latitude tropical; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "Named weather": "Ember-Heat Dryline",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Bravelyn is centered at -65.170379, -34.488476 under Gerontocracy, with 35,977,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Bravelyn occupies 4,225,400.18 sq mi / 10,943,736.23 sq km of modeled Earth-sized territory, about 2.145553% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Beach and reefs with water and Partial forest define its broad terrain, while its settlements intensify into Beach and reefs with water, Beach and grass with water, Partial forest, Farming and Mountain range. Population density is 3.287 people/sq km / 8.514 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Glasswell Institute, with worship and patronage records naming Nebyrr, Ishtanora, Sigrananna, Setrimir, Raeshkul, Iskareth, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 9 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 8
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 10
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 8
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 7
+        },
+        {
+          "name": "Hadozee",
+          "count": 6
+        },
+        {
+          "name": "Triton",
+          "count": 6
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Locathah",
+          "count": 5
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 4
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 4
+        },
+        {
+          "name": "Faerie",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Glasswell Institute",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Setrimir",
+          "count": 10
+        },
+        {
+          "name": "Raeshkul",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Marduthor",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and reefs with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 2
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Mountain range",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Ember-Heat Dryline",
+      "climateRegime": "predominantly marine broad-latitude tropical; orographic winds and rain shadows",
+      "provinceCenterLatitude": -11.13361,
+      "provinceCenterLongitude": 108.52602,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 14,
+      "group": "Hybrid",
+      "category": "Beach and reefs with water",
+      "path": "Hybrid/Beach and reefs with water",
+      "preview_color": "#A3DFD8"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1596.0,
+      "y": 588.0,
+      "longitude": 100.54688,
+      "latitude": -13.35938,
+      "utc": "UTC+7",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "grand-zealot-bryn-richter",
+      "name": "Grand Zealot Bryn Richter",
+      "sourceType": "immersive_npc_roster",
+      "role": "Zealot Commander",
+      "faction": "The Choral Synod",
+      "settlement": "Loxvire",
+      "province": "Bravelyn",
+      "settlementKey": "bravelyn:Loxvire",
+      "provinceKey": "bravelyn",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "grand-zealot-bryn-richter",
+      "name": "Grand Zealot Bryn Richter",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Bravelyn",
+      "provinceKey": "bravelyn",
+      "settlement": "Loxvire",
+      "settlementKey": "bravelyn:Loxvire",
+      "description": "Grand Zealot Bryn Richter is a Feral Tiefling commander whose old soldier’s discipline has been reforged into blazing devotion. In Loxvire, he trains zealots, protects ritual sites, and leads The Choral Synod hardliners who believe divine contamination must be endured, mastered, or worshiped rather than feared. He is honorable by his own code, courteous to worthy enemies, and terrifying because he can make fanaticism sound like battlefield duty.",
+      "settlementAndAncestryTexture": "Loxvire is a City in Bravelyn, under Gerontocracy, with severe danger, Beach and reefs with water, Beach and grass with water, Partial forest terrain. Local records favor Altruistic, Neutral, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie. Feral Tiefling reads through the Tiefling entry of the race compendium, within Celestial, Fiendish, and Planar Bloodlines, marked by Freyseth. Tieflings are fiend-touched humanoids marked by infernal ancestry and social stigma. They often develop strong individuality and resilience in the face of prejudice. Table cues: Darkvision, Fiendish Legacy, Otherworldly Presence; starting tendency Neutral - Chaotic - Neutral - Neutral.",
+      "rumors": [
+        "Grand Zealot Bryn Richter knows why an ichor ledger changed hands last Enkirday.",
+        "Grand Zealot Bryn Richter has a contact in Faelvyrûn who will deny everything."
+      ],
+      "plotHooks": [
+        "Grand Zealot Bryn Richter asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Grand Zealot Bryn Richter's public story is incomplete."
+      ],
+      "profileId": "npc_0102_grand_zealot_bryn_richter",
+      "race": "Feral Tiefling",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Hidden Resident",
+      "residence": "Loxvire - Market Apartment",
+      "workplace": "Loxvire Workshop",
+      "job": "Zealot Commander",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0102_grand_zealot_bryn_richter",
+        "race": "Feral Tiefling",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Hidden Resident",
+        "province": "Bravelyn",
+        "settlement": "Loxvire",
+        "residence": "Loxvire - Market Apartment",
+        "workplace": "Loxvire Workshop",
+        "job": "Zealot Commander",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 100,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Loxvire",
+        "province": "Bravelyn",
+        "settlementKey": "bravelyn:Loxvire",
+        "provinceKey": "bravelyn"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

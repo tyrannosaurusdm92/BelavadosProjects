@@ -1,0 +1,543 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "vaelmyrith:Lunethryl",
+  "settlement": "Lunethryl",
+  "provinceKey": "vaelmyrith",
+  "province": "Vaelmyrith",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Vaelmyrith/Lunethryl/Lunethryl_Vaelmyrith.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "vaelmyrith:Lunethryl",
+    "provinceKey": "vaelmyrith",
+    "province": "Vaelmyrith",
+    "settlement": "Lunethryl",
+    "type": "City",
+    "biomes": [
+      "Beach and reefs with water",
+      "Ocean Surface floating settlement",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Beach and reefs with water",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Lunethryl at the final reef and shelf shallows anchor in mainland scope; pathing uses reef_underwater_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1809.0,
+        "y": 559.0,
+        "ix": 1809,
+        "iy": 559
+      },
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 5213,
+      "subsurfaceAnchorZMeters": -5213,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 5213,
+      "anchorMode": "floating_surface_anchor",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        137.98828,
+        -8.26172,
+        -180
+      ],
+      "surfaceAnchorCoordinates": [
+        137.98828,
+        -8.26172,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Vaelmyrith",
+      "Named river / delta / canal / lake": "Vaelmyrith Amethyst Sea",
+      "Named bay / gulf / sea / sound": "Vaelmyrith Starfall Gulf",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Deep forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Vaelmyrith",
+      "Mountain range / highland": "Amethyst Crownrange",
+      "Volcano / vent / caldera": "Amethyst Firecup",
+      "Forest / swamp / landmark": "Vaelmyrith Gloomwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Vaelmyrith",
+      "Climate regime": "multi-belt, centered in tropical with marine/deep-water sectors; orographic winds and rain shadows; wetland fog and flood pulses",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "Named weather": "Starfall Violet Haze",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Vaelmyrith is centered at 65.987651, 36.153483 under Council Republic, with 40,897,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Vaelmyrith occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Deep forest. Velkynwood and Sylthéra-Vael carry the mountain record: Velkynwood is a deep mountain settlement opening into forest, and Sylthéra-Vael is both deep mountain and built from the mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Ishtanora, Enkirael, Freyseth, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 25 recorded four-province geography group links, including 22 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 9
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 8
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 7
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 5
+        },
+        {
+          "name": "Triton",
+          "count": 5
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Locathah",
+          "count": 5
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 3
+        },
+        {
+          "name": "Kender",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Enkirael",
+          "count": 11
+        },
+        {
+          "name": "Freyseth",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 9
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 6
+        },
+        {
+          "name": "Eirzunet",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 6
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Prairie",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Sylthéra-Vael: Sylthéra-Vael is both a deep mountain settlement and a village built from the side of the mountain.",
+        "Velkynwood: Velkynwood is a deep mountain settlement that opens into a forest."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Starfall Violet Haze",
+      "climateRegime": "multi-belt, centered in tropical with marine/deep-water sectors; orographic winds and rain shadows; wetland fog and flood pulses",
+      "provinceCenterLatitude": -9.92286,
+      "provinceCenterLongitude": 136.14908,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 14,
+      "group": "Hybrid",
+      "category": "Beach and reefs with water",
+      "path": "Hybrid/Beach and reefs with water",
+      "preview_color": "#A3DFD8"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "reef and shelf shallows",
+    "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "reef_underwater_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1809.0,
+      "y": 559.0,
+      "longitude": 137.98828,
+      "latitude": -8.26172,
+      "utc": "UTC+9",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 2,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 2
+  },
+  "locationRoleCounts": {
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "kasumi-nakren",
+      "name": "Kasumi Nakren",
+      "sourceType": "immersive_npc_roster",
+      "role": "Runaway Tinkerer",
+      "faction": "The Choral Synod",
+      "settlement": "Lunethryl",
+      "province": "Vaelmyrith",
+      "settlementKey": "vaelmyrith:Lunethryl",
+      "provinceKey": "vaelmyrith",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "stockton-oldroad",
+      "name": "Stockton Oldroad",
+      "sourceType": "immersive_npc_roster",
+      "role": "Caravan Patron",
+      "faction": "The Brass Concordat",
+      "settlement": "Lunethryl",
+      "province": "Vaelmyrith",
+      "settlementKey": "vaelmyrith:Lunethryl",
+      "provinceKey": "vaelmyrith",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "kasumi-nakren",
+      "name": "Kasumi Nakren",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Vaelmyrith",
+      "provinceKey": "vaelmyrith",
+      "settlement": "Lunethryl",
+      "settlementKey": "vaelmyrith:Lunethryl",
+      "description": "Kasumi Nakren is a Kender runaway tinkerer whose curiosity is tangled with fear that her memories, body, or family story may not be entirely her own. She fled to Lunethryl chasing answers about identity, constructed life, and hidden communities, but her bravery is still the bravery of someone young enough to mistake danger for proof. The Choral Synod sees her as a vulnerable witness and a brilliant little engineer; she sees herself as a question no adult has answered honestly.",
+      "settlementAndAncestryTexture": "Lunethryl is a City in Vaelmyrith, under Council Republic, with severe danger, Beach and reefs with water, Ocean Surface floating settlement, Beach and grass with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Kender reads through the Kender entry of the race compendium, within Halfling and Smallfolk, marked by Ishtanora. Kender are endlessly curious wanderers with a fearless approach to danger and novelty. They often collect objects impulsively, driven by an almost compulsive sense of exploration. Table cues: Fearless, Kender Aptitude, Taunt; starting tendency Altruistic - Chaotic - Cooperative - Pragmatic.",
+      "rumors": [
+        "Kasumi Nakren knows why an ichor ledger changed hands last Enkirday.",
+        "Kasumi Nakren has a contact in Zarveng who will deny everything."
+      ],
+      "plotHooks": [
+        "Kasumi Nakren asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Kasumi Nakren's public story is incomplete."
+      ],
+      "profileId": "npc_0095_kasumi_nakren",
+      "race": "Kender",
+      "genderAndPronouns": "Demi-Female • they/she",
+      "householdRole": "Elder",
+      "residence": "Lunethryl - Boarding House",
+      "workplace": "Lunethryl Guild Desk",
+      "job": "Runaway Tinkerer",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0095_kasumi_nakren",
+        "race": "Kender",
+        "gender_pronouns": "Demi-Female • they/she",
+        "household_role": "Elder",
+        "province": "Vaelmyrith",
+        "settlement": "Lunethryl",
+        "residence": "Lunethryl - Boarding House",
+        "workplace": "Lunethryl Guild Desk",
+        "job": "Runaway Tinkerer",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 93,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Lunethryl",
+        "province": "Vaelmyrith",
+        "settlementKey": "vaelmyrith:Lunethryl",
+        "provinceKey": "vaelmyrith"
+      }
+    },
+    {
+      "id": "stockton-oldroad",
+      "name": "Stockton Oldroad",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Vaelmyrith",
+      "provinceKey": "vaelmyrith",
+      "settlement": "Lunethryl",
+      "settlementKey": "vaelmyrith:Lunethryl",
+      "description": "Stockton Oldroad is a kindly but stubborn Jaspey caravan patron who hides dangerous compassion behind slow speech, old blankets, and boring invoices. He uses The Brass Concordat routes to move food, medicine, and people with changed names, especially those fleeing the Glasswell Institute or ichor-debt bondage. Stockton looks harmless until someone threatens a traveler under his protection; then every wagon, innkeeper, and toll clerk he has ever helped becomes part of the escape plan.",
+      "settlementAndAncestryTexture": "Lunethryl is a City in Vaelmyrith, under Council Republic, with severe danger, Beach and reefs with water, Ocean Surface floating settlement, Beach and grass with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Jaspey reads through the Jaspey entry of the race compendium, within Miscellaneous and Hard-to-Classify Races, marked by Nephthysra. Ability Score Increase. Table cues: ancestral instincts, homeland pressure, and local reputation; starting tendency Altruistic - Chaotic - Cooperative - Honorable.",
+      "rumors": [
+        "Stockton's wagons carry more false-bottom compartments than trade goods on some nights.",
+        "He once bought an entire spoiled shipment just to hide one frightened passenger in the paperwork."
+      ],
+      "plotHooks": [
+        "Stockton asks the party to escort a silent passenger whose pursuers insist they are stolen property.",
+        "A border clerk finds a mismatch in Stockton's caravan seals and gives the party one night to fix it."
+      ],
+      "profileId": "npc_0044_stockton_oldroad",
+      "race": "Jaspey",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Chosen Family Member",
+      "residence": "Lunethryl - Safehouse",
+      "workplace": "Lunethryl Watch Office",
+      "job": "Caravan Patron",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0044_stockton_oldroad",
+        "race": "Jaspey",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Chosen Family Member",
+        "province": "Vaelmyrith",
+        "settlement": "Lunethryl",
+        "residence": "Lunethryl - Safehouse",
+        "workplace": "Lunethryl Watch Office",
+        "job": "Caravan Patron",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 44,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Lunethryl",
+        "province": "Vaelmyrith",
+        "settlementKey": "vaelmyrith:Lunethryl",
+        "provinceKey": "vaelmyrith"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,2261 @@
+{
+  "schema": "belavados.settlement.canonical.v4",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "sourceWorldZip": "Belavados_World_Player_Map_FINAL_UNBROKEN_LOCKED.zip",
+  "sourceHybridCacheZip": "belavados_hybrid_location_cache_pages.zip",
+  "htmlFileName": "Lunathea_Luntharave.html",
+  "sourceMapHtmlFileName": "Lunathea_Luntharave.html",
+  "settlementJsonFileName": "Lunathea_Luntharave.json",
+  "provinceFolder": "Luntharave",
+  "settlementFolder": "Lunathea",
+  "template": {
+    "size": "Village",
+    "folder": "villages",
+    "biomeCacheUsed": [
+      "Ocean Surface floating settlement",
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "sourceTemplateFile": "villages/ocean-surface-floating-settlement__beach-and-grass-with-water__beach-and-reefs-with-water.html",
+    "sourceSettlementBiomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ]
+  },
+  "settlement": {
+    "id": "luntharave:Lunathéa",
+    "scope": "settlement",
+    "province": "Lun’tharavé",
+    "provinceKey": "luntharave",
+    "provinceFolder": "Luntharave",
+    "settlement": "Lunathéa",
+    "name": "Lunathéa",
+    "type": "Village",
+    "settlementType": "Village",
+    "x": 499.0,
+    "y": 617.0,
+    "lat": -18.45703,
+    "lon": -92.28516,
+    "latitude": -18.45703,
+    "longitude": -92.28516,
+    "population": 3634043,
+    "squareMiles": 22798.9243,
+    "squareKilometers": 59048.9859,
+    "tags": [
+      "maritime",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:elven-types",
+      "race:draconic-and-reptilian-races",
+      "race:elemental-and-energy-born-peoples",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "danger:moderate",
+      "government:participatory-democracy",
+      "type:village",
+      "water-class:coastal-or-mixed-water",
+      "alignment:altruistic",
+      "alignment:lawful",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:caravan",
+      "transit:train",
+      "transit:rail",
+      "transit:steamship",
+      "transit:submarine",
+      "faction:the-choral-synod"
+    ],
+    "races": [
+      "Human",
+      "Halfling",
+      "Elf — Sea Elf",
+      "Tortle",
+      "Genasi — Water Genasi",
+      "Hadozee",
+      "Triton",
+      "Merfolk",
+      "Locathah"
+    ],
+    "raceCategories": [
+      "Humans, Near-Humans, and Mixed Heritage",
+      "Halfling and Smallfolk",
+      "Elven-Types",
+      "Draconic and Reptilian Races",
+      "Elemental and Energy-Born Peoples",
+      "Animalfolk and Mammalian Anthropomorphs",
+      "Amphibious and Aquatic Peoples"
+    ],
+    "deitiesWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Valkhamesh",
+      "Horundar",
+      "Iskareth",
+      "Bastveig",
+      "Sokhivar",
+      "Nefarokir"
+    ],
+    "danger": "Moderate",
+    "alignmentAxes": {
+      "altruism": "Altruistic",
+      "lawfulness": "Lawful",
+      "cooperation": "Cooperative",
+      "honor": "Honorable"
+    },
+    "transportation": [
+      "Caravan",
+      "Train",
+      "Steamship",
+      "Submarine"
+    ],
+    "htmlFileName": "Lunathea_Luntharave.html",
+    "htmlFile": "Lunathea_Luntharave.html",
+    "provinceGovernment": "Participatory Democracy",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "biomePaths": [
+      "Hybrid/Beach and grass with water",
+      "Hybrid/Beach and reefs with water"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "scannerDominantBiome": "Beach and grass with water",
+    "scannerBiomeTypes": [
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "manualWaterLandClass": "coastal_or_mixed_water",
+    "hexBiomeScan": {
+      "exactHex": "#53A9D7",
+      "exactBiomePath": "Ocean/Underwater with reefs",
+      "exactBiome": "Underwater with reefs",
+      "dominantBiome": "Beach and grass with water",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water"
+      ],
+      "biomePaths": [
+        "Hybrid/Beach and grass with water",
+        "Hybrid/Beach and reefs with water"
+      ],
+      "landWaterClass": "coastal_or_mixed_water",
+      "localBiomePercentsRadius25": {
+        "Ocean Surface floating settlement": 0.5225,
+        "Underwater with reefs": 0.2772,
+        "Beach and grass with water": 0.0857,
+        "Underwater without reefs": 0.0581,
+        "Beach and reefs with water": 0.0454,
+        "Mountain range": 0.0046,
+        "Farming": 0.0027,
+        "Valley": 0.0012
+      },
+      "localBiomePercentsRadius40": {
+        "Ocean Surface floating settlement": 0.4213,
+        "Underwater with reefs": 0.1882,
+        "Beach and grass with water": 0.1648,
+        "Underwater without reefs": 0.1311,
+        "Beach and reefs with water": 0.0343,
+        "Farming": 0.0251,
+        "Mountain range": 0.0125,
+        "Grassland": 0.0081
+      },
+      "localWaterPercentRadius25": 0.8577,
+      "localLandHybridPercentRadius25": 0.1423,
+      "manualHexAuthority": true,
+      "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+    },
+    "raceCommunities": [
+      {
+        "raceId": "human",
+        "raceName": "Human",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Human",
+        "categoryId": "humans_near_humans_and_mixed_heritage",
+        "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+        "categoryNumber": 1,
+        "creatorGod": "Nebyrr",
+        "deityWorshipped": "Nebyrr",
+        "presence": "common"
+      },
+      {
+        "raceId": "halfling",
+        "raceName": "Halfling",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Halfling",
+        "categoryId": "halfling_and_smallfolk",
+        "categoryName": "Halfling and Smallfolk",
+        "categoryNumber": 4,
+        "creatorGod": "Ishtanora",
+        "deityWorshipped": "Ishtanora",
+        "presence": "common"
+      },
+      {
+        "raceId": "elf",
+        "raceName": "Elf",
+        "lineageId": "sea_elf",
+        "lineageName": "Sea Elf",
+        "displayName": "Elf — Sea Elf",
+        "categoryId": "elven_types",
+        "categoryName": "Elven-Types",
+        "categoryNumber": 2,
+        "creatorGod": "Sigrananna",
+        "deityWorshipped": "Sigrananna",
+        "presence": "common"
+      },
+      {
+        "raceId": "tortle",
+        "raceName": "Tortle",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Tortle",
+        "categoryId": "draconic_and_reptilian_races",
+        "categoryName": "Draconic and Reptilian Races",
+        "categoryNumber": 7,
+        "creatorGod": "Valkhamesh",
+        "deityWorshipped": "Valkhamesh",
+        "presence": "common"
+      },
+      {
+        "raceId": "genasi",
+        "raceName": "Genasi",
+        "lineageId": "water_genasi_lineage",
+        "lineageName": "Water Genasi",
+        "displayName": "Genasi — Water Genasi",
+        "categoryId": "elemental_and_energy_born_peoples",
+        "categoryName": "Elemental and Energy-Born Peoples",
+        "categoryNumber": 11,
+        "creatorGod": "Horundar",
+        "deityWorshipped": "Horundar",
+        "presence": "minority"
+      },
+      {
+        "raceId": "hadozee",
+        "raceName": "Hadozee",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Hadozee",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "minority"
+      },
+      {
+        "raceId": "triton",
+        "raceName": "Triton",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Triton",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "common"
+      },
+      {
+        "raceId": "merfolk",
+        "raceName": "Merfolk",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Merfolk",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "common"
+      },
+      {
+        "raceId": "locathah",
+        "raceName": "Locathah",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Locathah",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "common"
+      }
+    ],
+    "raceCategoryIds": [
+      "humans_near_humans_and_mixed_heritage",
+      "halfling_and_smallfolk",
+      "elven_types",
+      "draconic_and_reptilian_races",
+      "elemental_and_energy_born_peoples",
+      "animalfolk_and_mammalian_anthropomorphs",
+      "amphibious_and_aquatic_peoples"
+    ],
+    "dangerLevel": "Moderate",
+    "dangerScore": 0.55,
+    "preferredAlignment": "Altruistic - Lawful - Cooperative - Honorable",
+    "publicTransit": [
+      "Caravan",
+      "Train",
+      "Steamship",
+      "Submarine"
+    ],
+    "publicTransportation": [
+      "Caravan",
+      "Train",
+      "Steamship",
+      "Submarine"
+    ],
+    "manualAssignmentLock": true,
+    "manualAssignmentSource": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "correctedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "updatedAt": "2026-07-01T00:00:00-04:00",
+    "scannerLandmarks": [
+      "reef"
+    ],
+    "terrainInfo": {
+      "scannerDominantBiome": "Beach and grass with water",
+      "scannerBiomeTypes": [
+        "Beach and grass with water",
+        "Beach and reefs with water"
+      ],
+      "hexBiomeScan": {
+        "exactHex": "#53A9D7",
+        "exactBiomePath": "Ocean/Underwater with reefs",
+        "exactBiome": "Underwater with reefs",
+        "dominantBiome": "Beach and grass with water",
+        "biomes": [
+          "Beach and grass with water",
+          "Beach and reefs with water"
+        ],
+        "biomePaths": [
+          "Hybrid/Beach and grass with water",
+          "Hybrid/Beach and reefs with water"
+        ],
+        "landWaterClass": "coastal_or_mixed_water",
+        "localBiomePercentsRadius25": {
+          "Ocean Surface floating settlement": 0.5225,
+          "Underwater with reefs": 0.2772,
+          "Beach and grass with water": 0.0857,
+          "Underwater without reefs": 0.0581,
+          "Beach and reefs with water": 0.0454,
+          "Mountain range": 0.0046,
+          "Farming": 0.0027,
+          "Valley": 0.0012
+        },
+        "localBiomePercentsRadius40": {
+          "Ocean Surface floating settlement": 0.4213,
+          "Underwater with reefs": 0.1882,
+          "Beach and grass with water": 0.1648,
+          "Underwater without reefs": 0.1311,
+          "Beach and reefs with water": 0.0343,
+          "Farming": 0.0251,
+          "Mountain range": 0.0125,
+          "Grassland": 0.0081
+        },
+        "localWaterPercentRadius25": 0.8577,
+        "localLandHybridPercentRadius25": 0.1423,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+      },
+      "scannerEvidenceMode": "manual hexcode authority pass v4; scanner guesses are advisory only",
+      "correctedBy": "Manual hexcode authority pass v4",
+      "landWaterClass": "coastal_or_mixed_water"
+    },
+    "settlementScan": {
+      "scannerDominantBiome": "Beach and grass with water",
+      "scannerBiomeTypes": [
+        "Beach and grass with water",
+        "Beach and reefs with water"
+      ],
+      "hexBiomeScan": {
+        "exactHex": "#53A9D7",
+        "exactBiomePath": "Ocean/Underwater with reefs",
+        "exactBiome": "Underwater with reefs",
+        "dominantBiome": "Beach and grass with water",
+        "biomes": [
+          "Beach and grass with water",
+          "Beach and reefs with water"
+        ],
+        "biomePaths": [
+          "Hybrid/Beach and grass with water",
+          "Hybrid/Beach and reefs with water"
+        ],
+        "landWaterClass": "coastal_or_mixed_water",
+        "localBiomePercentsRadius25": {
+          "Ocean Surface floating settlement": 0.5225,
+          "Underwater with reefs": 0.2772,
+          "Beach and grass with water": 0.0857,
+          "Underwater without reefs": 0.0581,
+          "Beach and reefs with water": 0.0454,
+          "Mountain range": 0.0046,
+          "Farming": 0.0027,
+          "Valley": 0.0012
+        },
+        "localBiomePercentsRadius40": {
+          "Ocean Surface floating settlement": 0.4213,
+          "Underwater with reefs": 0.1882,
+          "Beach and grass with water": 0.1648,
+          "Underwater without reefs": 0.1311,
+          "Beach and reefs with water": 0.0343,
+          "Farming": 0.0251,
+          "Mountain range": 0.0125,
+          "Grassland": 0.0081
+        },
+        "localWaterPercentRadius25": 0.8577,
+        "localLandHybridPercentRadius25": 0.1423,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+      },
+      "correctedBy": "Manual hexcode authority pass v4"
+    },
+    "transitRuleV5": {
+      "source": "manual transit correction v5 from user rule",
+      "railLabelInData": "Train",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Submarine",
+        "Steamship"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "ferryRule": "Ferry is assigned when local hexcode water evidence indicates a short/local crossing; larger water exposure uses Steamship/Submarine.",
+      "localWaterPercentRadius25": 0.8577,
+      "shortFerryWaterProxy": false,
+      "expandedWaterProxy": true,
+      "classification": "coastal_or_mixed_water",
+      "isLandBased": true,
+      "isCoastal": true,
+      "isDeepWater": false
+    },
+    "factions": {
+      "id": "fac_choral_synod",
+      "name": "The Choral Synod",
+      "subtitle": "many-peopled temple hegemony and pilgrim fleet",
+      "primarySeat": "Auralisthra, Lun-tharave",
+      "atTableRole": "Use for beautiful religious pressure, temple politics, submarine pilgrimages, healing-with-costs, and seductive cult authority.",
+      "publicFace": "Heal the sick, protect pilgrim routes, interpret prophecy, and unite settlements through sacred processions.",
+      "hiddenTeeth": "Their sacramental medicine can become debt bondage, addiction, ecstatic obedience, and doctrine-policed dependence on diluted ichor.",
+      "patrons": [
+        "Sokhivar",
+        "Bastveig",
+        "Valkhamesh",
+        "Nebyrr",
+        "Nefarokir"
+      ],
+      "alignmentTendency": {
+        "Altruism": 1400,
+        "Lawfulness": 2350,
+        "Cooperation": 2000,
+        "Honor": 1200
+      },
+      "riskModifier": 0.6,
+      "influenceLevel": "faction-site",
+      "locationNetwork": [
+        {
+          "province": "Lun’tharavé",
+          "primaryUTC": "UTC-6",
+          "displayUTCs": [
+            "UTC-6",
+            "UTC-7"
+          ],
+          "listedSites": [
+            "Auralisthra",
+            "Seralun",
+            "Vireluna",
+            "Neruvéa",
+            "Lunathéa"
+          ]
+        }
+      ]
+    },
+    "associatedFactions": [
+      "The Choral Synod"
+    ],
+    "associatedFactionIds": [
+      "fac_choral_synod"
+    ],
+    "factionInfluenceLevels": {
+      "fac_choral_synod": "faction-site"
+    },
+    "factionPatronDeities": [
+      "Sokhivar",
+      "Bastveig",
+      "Valkhamesh",
+      "Nebyrr",
+      "Nefarokir"
+    ],
+    "godsWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Valkhamesh",
+      "Horundar",
+      "Iskareth",
+      "Bastveig",
+      "Sokhivar",
+      "Nefarokir"
+    ],
+    "dangerRating": "Moderate danger",
+    "dangerComputation": {
+      "baseManualRaceGovernmentScore": 1.0,
+      "preferredAlignmentModifier": -1.2,
+      "alignmentComponents": [
+        [
+          "altruism",
+          "altruistic",
+          -0.4
+        ],
+        [
+          "lawfulness",
+          "lawful",
+          -0.3
+        ],
+        [
+          "cooperation",
+          "cooperative",
+          -0.3
+        ],
+        [
+          "honor",
+          "honorable",
+          -0.2
+        ]
+      ],
+      "provinceGovernment": "Participatory Democracy",
+      "provinceGovernmentModifier": -0.4,
+      "settlementTypeModifier": -0.3,
+      "raceModifier": 0.2,
+      "raceNotes": [
+        "draconic/reptilian/amphibious pressure",
+        "aquatic frontier pressure",
+        "diverse civic redundancy"
+      ],
+      "associatedFactionModifier": 1.0,
+      "associatedFactionComponents": [
+        {
+          "faction": "The Choral Synod",
+          "level": "faction-site",
+          "modifier": 1.0
+        }
+      ],
+      "factionConflictModifier": 0.0,
+      "waterClass": "coastal_or_mixed_water",
+      "waterClassModifier": 0.25,
+      "formula": "previous locked race/government score + preferred alignment + province government + settlement type + race pressure + associated faction influence + faction conflict + water/frontier modifier",
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)"
+    },
+    "contentLocked": true,
+    "worldCanonLocked": true,
+    "playerEditable": false,
+    "lockedFields": [
+      "dangerLevel",
+      "dangerScore",
+      "danger",
+      "races",
+      "raceCategories",
+      "raceCommunities",
+      "transportation",
+      "publicTransit",
+      "publicTransportation",
+      "deitiesWorshipped",
+      "godsWorshipped",
+      "biomes",
+      "biomePaths",
+      "primaryBiome",
+      "settlementTags",
+      "tags",
+      "factions",
+      "associatedFactions",
+      "preferredAlignment",
+      "alignmentAxes",
+      "provinceGovernment"
+    ],
+    "lockPolicy": {
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+      "editing": "disabled in player-facing map and data records",
+      "pinMovement": "disabled",
+      "borderMovement": "disabled"
+    },
+    "draggable": false,
+    "pinRenderMode": "live-static-svg-pin",
+    "pinStorageMode": "locked-coordinate-record",
+    "cssClass": "settlement-pin live-js-css-pin locked-settlement-pin",
+    "transitRuleFinal": {
+      "source": "Final lock pass from user rule",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Steamship",
+        "Submarine",
+        "Train",
+        "Caravan"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "classification": "coastal_or_mixed_water",
+      "locked": true
+    },
+    "generatedHtmlFileName": "Lunathea_Luntharave.html",
+    "sourceMapHtmlFileName": "Lunathea_Luntharave.html",
+    "settlementFolder": "Lunathea",
+    "templateBiomeCacheUsed": [
+      "Ocean Surface floating settlement",
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "templateSourceFile": "villages/ocean-surface-floating-settlement__beach-and-grass-with-water__beach-and-reefs-with-water.html",
+    "generatedJsonFileName": "Lunathea_Luntharave.json",
+    "playerFacingMapPlaceholder": {
+      "type": "locked-coordinate-svg-placeholder",
+      "editable": false,
+      "x": 1207.2000732421875,
+      "y": 964.5250244140625,
+      "latitude": -79.54541444778442,
+      "longitude": 32.20313787460327
+    },
+    "utcOffset": 2,
+    "utcLabel": "UTC+2",
+    "provinceWater": {
+      "inlandWater": "Lun’tharavé Pinkwater Lakes",
+      "baySeaSound": "Moonlet Bead Bay",
+      "waterTerrain": "Beach and grass with water; Farming; Partial forest"
+    },
+    "provinceLandmarks": {
+      "highland": "Lun’tharavé Rosethorns",
+      "volcanoOrVent": "Roseglass Vent",
+      "forestOrSwamp": "Roselight Canopy"
+    },
+    "provinceWeather": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Farming; Partial forest",
+      "namedWeather": "Copper-Bead Rain",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "weatherNotes": [
+      {
+        "label": "Reef weather",
+        "description": "Clear warm water, reef glare, spawning tides, and sudden storm surge.",
+        "response": "Reef law, current pilots, coral masonry, and moonlit closures."
+      }
+    ],
+    "topographyWeatherCanon": {
+      "schema": "belavados.settlement_topography_weather_canon.v1",
+      "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+      "sourceDocuments": [
+        "Belavadös Canonical Topography guide.docx",
+        "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+        "full_world_height_map.json"
+      ],
+      "settlementKey": "luntharave:Lunathéa",
+      "provinceKey": "luntharave",
+      "province": "Lun’tharavé",
+      "settlement": "Lunathéa",
+      "type": "Village",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water"
+      ],
+      "primaryBiome": "Beach and grass with water",
+      "pinPlacement": "surface-land-pin",
+      "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+      "localRasterSample": {
+        "pixel": {
+          "x": 905.4,
+          "y": 964.525,
+          "ix": 905,
+          "iy": 965
+        },
+        "exactPaintedHex": "#53A9D7",
+        "biomeCategoryId": 0,
+        "biomeCategory": "Ocean Surface floating settlement",
+        "biomePath": "Ocean/Ocean Surface floating settlement",
+        "verticalBandId": 5,
+        "verticalBand": "deep_water_180_4800m_below",
+        "regionKey": 5,
+        "heightRaw16": 6168,
+        "heightRaw8Azgaar": 24,
+        "surfaceMetersAboveSeaLevel": 0.0,
+        "depthMetersBelowSeaLevel": 4719.2,
+        "zMetersFor3D": 0.0
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 0.0,
+        "surfaceAnchorZMeters": 0,
+        "subsurfaceDepthMeters": 4719,
+        "subsurfaceAnchorZMeters": -4719,
+        "maxHeightMetersAboveSeaLevel": 0,
+        "maxDepthMetersBelowSeaLevel": 4719,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          32.2031379,
+          -79.5454144,
+          0.0
+        ],
+        "surfaceAnchorCoordinates": [
+          32.2031379,
+          -79.5454144,
+          0
+        ],
+        "subsurfaceAnchorCoordinates": [
+          32.2031379,
+          -79.5454144,
+          -4719
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "provinceWaterAtlas": {
+        "Province": "Lun’tharavé",
+        "Named river / delta / canal / lake": "Lun’tharavé Pinkwater Lakes",
+        "Named bay / gulf / sea / sound": "Moonlet Bead Bay",
+        "Terrain that feeds the water": "Beach and grass with water; Farming; Partial forest"
+      },
+      "provinceLandformAtlas": {
+        "Province": "Lun’tharavé",
+        "Mountain range / highland": "Lun’tharavé Rosethorns",
+        "Volcano / vent / caldera": "Roseglass Vent",
+        "Forest / swamp / landmark": "Roselight Canopy"
+      },
+      "provinceClimateAtlas": {
+        "Province": "Lun’tharavé",
+        "Climate belt": "Sunbelt reef-wet belt",
+        "Dominant terrain": "Beach and grass with water; Farming; Partial forest",
+        "Named weather": "Copper-Bead Rain",
+        "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+      },
+      "provinceDeepAtlasProfile": {
+        "oneLine": "Lun’tharavé is centered at -70.777906, 16.816239 under Participatory Democracy, with 35,306,000 people across 10 settlements.",
+        "extremeAtlasDescription": "Lun’tharavé occupies 3,690,965.16 sq mi / 9,559,555.87 sq km of modeled Earth-sized territory, about 1.874181% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Farming and Partial forest define its broad terrain, while its settlements intensify into Farming, Beach and grass with water and Beach and reefs with water. Population density is 3.693 people/sq km / 9.566 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+        "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+        "groupLinkDescription": "The province participates in 11 recorded four-province geography group links, including 8 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+        "dominantRaceCategories": [
+          {
+            "name": "Humans, Near-Humans, and Mixed Heritage",
+            "count": 10
+          },
+          {
+            "name": "Halfling and Smallfolk",
+            "count": 10
+          },
+          {
+            "name": "Animalfolk and Mammalian Anthropomorphs",
+            "count": 10
+          },
+          {
+            "name": "Elven-Types",
+            "count": 9
+          },
+          {
+            "name": "Amphibious and Aquatic Peoples",
+            "count": 8
+          },
+          {
+            "name": "Dwarven and Gnomish Kin",
+            "count": 6
+          },
+          {
+            "name": "Fey-Folk",
+            "count": 4
+          },
+          {
+            "name": "Draconic and Reptilian Races",
+            "count": 3
+          }
+        ],
+        "dominantRaces": [
+          {
+            "name": "Human",
+            "count": 10
+          },
+          {
+            "name": "Halfling — Lightfoot Halfling",
+            "count": 10
+          },
+          {
+            "name": "Halfling — Stout Halfling",
+            "count": 6
+          },
+          {
+            "name": "Kender",
+            "count": 6
+          },
+          {
+            "name": "Kithkin",
+            "count": 6
+          },
+          {
+            "name": "Harengon",
+            "count": 6
+          },
+          {
+            "name": "Centaur",
+            "count": 6
+          },
+          {
+            "name": "Giff",
+            "count": 6
+          },
+          {
+            "name": "Dwarf — Hill Dwarf",
+            "count": 6
+          },
+          {
+            "name": "Elf — Wood Elf",
+            "count": 6
+          },
+          {
+            "name": "Gnome — Rock Gnome",
+            "count": 5
+          },
+          {
+            "name": "Dril'thar — Grassland",
+            "count": 5
+          }
+        ],
+        "dominantFactions": [
+          {
+            "name": "The Choral Synod",
+            "count": 10
+          }
+        ],
+        "dominantDeities": [
+          {
+            "name": "Nebyrr",
+            "count": 10
+          },
+          {
+            "name": "Ishtanora",
+            "count": 10
+          },
+          {
+            "name": "Iskareth",
+            "count": 10
+          },
+          {
+            "name": "Bastveig",
+            "count": 10
+          },
+          {
+            "name": "Sokhivar",
+            "count": 10
+          },
+          {
+            "name": "Sigrananna",
+            "count": 9
+          },
+          {
+            "name": "Marduthor",
+            "count": 6
+          },
+          {
+            "name": "Valkhamesh",
+            "count": 6
+          },
+          {
+            "name": "Nefarokir",
+            "count": 5
+          },
+          {
+            "name": "Thalunesh",
+            "count": 4
+          }
+        ],
+        "dangerSpread": [
+          {
+            "name": "Low",
+            "count": 5
+          },
+          {
+            "name": "Moderate",
+            "count": 3
+          },
+          {
+            "name": "Elevated",
+            "count": 1
+          },
+          {
+            "name": "High",
+            "count": 1
+          }
+        ],
+        "settlementTypeSpread": [
+          {
+            "name": "Town",
+            "count": 3
+          },
+          {
+            "name": "Village",
+            "count": 3
+          },
+          {
+            "name": "City",
+            "count": 3
+          },
+          {
+            "name": "Capital City",
+            "count": 1
+          }
+        ],
+        "transitModeSpread": [
+          {
+            "name": "Train / Rail",
+            "count": 10
+          },
+          {
+            "name": "Caravan",
+            "count": 10
+          },
+          {
+            "name": "Steamship",
+            "count": 7
+          },
+          {
+            "name": "Submarine",
+            "count": 7
+          },
+          {
+            "name": "Skyship",
+            "count": 4
+          },
+          {
+            "name": "Ferry",
+            "count": 4
+          },
+          {
+            "name": "Portal",
+            "count": 1
+          }
+        ],
+        "primaryBiomeSpread": [
+          {
+            "name": "Farming",
+            "count": 5
+          },
+          {
+            "name": "Beach and grass with water",
+            "count": 4
+          },
+          {
+            "name": "Beach and reefs with water",
+            "count": 1
+          }
+        ]
+      },
+      "weather": {
+        "namedWeather": "Copper-Bead Rain",
+        "climateBelt": "Sunbelt reef-wet belt",
+        "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m",
+        "globalNamedWeatherDefinitions": [
+          {
+            "Weather name": "Copper-Silver King Tide",
+            "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+          },
+          {
+            "Weather name": "Hushed Neap",
+            "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+          },
+          {
+            "Weather name": "Storm-Stack Tide",
+            "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+          },
+          {
+            "Weather name": "Bastveig Drawdown",
+            "What it means": "A sudden retreat of water before trench-fed surge returns."
+          },
+          {
+            "Weather name": "Horundar Wall",
+            "What it means": "A black-green wall of rain that crosses whole coasts."
+          },
+          {
+            "Weather name": "Nannara Bead Squalls",
+            "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+          },
+          {
+            "Weather name": "Seleneš Silver Fog",
+            "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+          },
+          {
+            "Weather name": "Dragon-Anvil Cloud",
+            "What it means": "A towering thunderhead that forms over heated highlands."
+          },
+          {
+            "Weather name": "Hag-Lantern Mist",
+            "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+          },
+          {
+            "Weather name": "Cockatrice Still",
+            "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+          },
+          {
+            "Weather name": "Beholder’s Eye Cyclone",
+            "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+          },
+          {
+            "Weather name": "Goblin Drum Thunder",
+            "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+          },
+          {
+            "Weather name": "Kobold Sump Breath",
+            "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+          },
+          {
+            "Weather name": "Spiderweb Rain",
+            "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+          },
+          {
+            "Weather name": "Basilisk Glass Haze",
+            "What it means": "Shimmering heat that turns distance into false water and false stone."
+          },
+          {
+            "Weather name": "Chimera Crosswind",
+            "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+          },
+          {
+            "Weather name": "Kraken-Surge",
+            "What it means": "A steep, dark swell pushed by far-off pressure changes."
+          },
+          {
+            "Weather name": "Trollwash Rot-Rain",
+            "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+          },
+          {
+            "Weather name": "Owlbear Dusk Gust",
+            "What it means": "A sudden evening wind that turns forest travel loud and blind."
+          },
+          {
+            "Weather name": "Manticore Dusthook",
+            "What it means": "A hooked dust plume ahead of dryline storms."
+          },
+          {
+            "Weather name": "Wyvern Ridge Lightning",
+            "What it means": "Highland lightning that walks along exposed ridges."
+          },
+          {
+            "Weather name": "Gelatinous Roadmire",
+            "What it means": "Rain-soaked clay roads that swallow carts and boots."
+          },
+          {
+            "Weather name": "Mimic Puddle Season",
+            "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+          },
+          {
+            "Weather name": "Ghoulwind",
+            "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+          },
+          {
+            "Weather name": "Griffon Updraft",
+            "What it means": "A clean mountain lift used by skyships and great birds."
+          },
+          {
+            "Weather name": "Sahuagin Undertow",
+            "What it means": "A fast pull beneath reef water during strong tide shifts."
+          },
+          {
+            "Weather name": "Banshee Rain",
+            "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+          },
+          {
+            "Weather name": "Hydra Floodpulse",
+            "What it means": "One storm-fed river splits into several dangerous surges."
+          },
+          {
+            "Weather name": "Wyrmcoil Current",
+            "What it means": "A spiraling river or sea current that turns boats sideways."
+          },
+          {
+            "Weather name": "Moonmoth Bloom",
+            "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+          }
+        ]
+      },
+      "biomeRenderRule": {
+        "id": 13,
+        "group": "Hybrid",
+        "category": "Beach and grass with water",
+        "path": "Hybrid/Beach and grass with water",
+        "preview_color": "#E1D395"
+      },
+      "renderRules": {
+        "provinceBordersAndPins": "hidden until province dropdown selection",
+        "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+        "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+        "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+        "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+      }
+    },
+    "localRasterSample": {
+      "pixel": {
+        "x": 905.4,
+        "y": 964.525,
+        "ix": 905,
+        "iy": 965
+      },
+      "exactPaintedHex": "#53A9D7",
+      "biomeCategoryId": 0,
+      "biomeCategory": "Ocean Surface floating settlement",
+      "biomePath": "Ocean/Ocean Surface floating settlement",
+      "verticalBandId": 5,
+      "verticalBand": "deep_water_180_4800m_below",
+      "regionKey": 5,
+      "heightRaw16": 6168,
+      "heightRaw8Azgaar": 24,
+      "surfaceMetersAboveSeaLevel": 0.0,
+      "depthMetersBelowSeaLevel": 4719.2,
+      "zMetersFor3D": 0.0
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 4719,
+      "subsurfaceAnchorZMeters": -4719,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 4719,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        32.2031379,
+        -79.5454144,
+        0.0
+      ],
+      "surfaceAnchorCoordinates": [
+        32.2031379,
+        -79.5454144,
+        0
+      ],
+      "subsurfaceAnchorCoordinates": [
+        32.2031379,
+        -79.5454144,
+        -4719
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "pinPlacement": "ocean-surface-floating-pin",
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Lun’tharavé",
+      "Named river / delta / canal / lake": "Lun’tharavé Pinkwater Lakes",
+      "Named bay / gulf / sea / sound": "Moonlet Bead Bay",
+      "Terrain that feeds the water": "Beach and grass with water; Farming; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Lun’tharavé",
+      "Mountain range / highland": "Lun’tharavé Rosethorns",
+      "Volcano / vent / caldera": "Roseglass Vent",
+      "Forest / swamp / landmark": "Roselight Canopy"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Lun’tharavé",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Beach and grass with water; Farming; Partial forest",
+      "Named weather": "Copper-Bead Rain",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Lun’tharavé is centered at -70.777906, 16.816239 under Participatory Democracy, with 35,306,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Lun’tharavé occupies 3,690,965.16 sq mi / 9,559,555.87 sq km of modeled Earth-sized territory, about 1.874181% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Farming and Partial forest define its broad terrain, while its settlements intensify into Farming, Beach and grass with water and Beach and reefs with water. Population density is 3.693 people/sq km / 9.566 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 11 recorded four-province geography group links, including 8 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Sokhivar",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 5
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Steamship",
+          "count": 7
+        },
+        {
+          "name": "Submarine",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 5
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "localTopographicRule": "Surface settlement in Beach and grass with water; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "weatherDetails": {
+      "namedWeather": "Copper-Bead Rain",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "topographyDetails": {
+      "localRasterSample": {
+        "pixel": {
+          "x": 905.4,
+          "y": 964.525,
+          "ix": 905,
+          "iy": 965
+        },
+        "exactPaintedHex": "#53A9D7",
+        "biomeCategoryId": 0,
+        "biomeCategory": "Ocean Surface floating settlement",
+        "biomePath": "Ocean/Ocean Surface floating settlement",
+        "verticalBandId": 5,
+        "verticalBand": "deep_water_180_4800m_below",
+        "regionKey": 5,
+        "heightRaw16": 6168,
+        "heightRaw8Azgaar": 24,
+        "surfaceMetersAboveSeaLevel": 0.0,
+        "depthMetersBelowSeaLevel": 4719.2,
+        "zMetersFor3D": 0.0
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 0.0,
+        "surfaceAnchorZMeters": 0,
+        "subsurfaceDepthMeters": 4719,
+        "subsurfaceAnchorZMeters": -4719,
+        "maxHeightMetersAboveSeaLevel": 0,
+        "maxDepthMetersBelowSeaLevel": 4719,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          32.2031379,
+          -79.5454144,
+          0.0
+        ],
+        "surfaceAnchorCoordinates": [
+          32.2031379,
+          -79.5454144,
+          0
+        ],
+        "subsurfaceAnchorCoordinates": [
+          32.2031379,
+          -79.5454144,
+          -4719
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "biomeRenderRule": {
+        "id": 13,
+        "group": "Hybrid",
+        "category": "Beach and grass with water",
+        "path": "Hybrid/Beach and grass with water",
+        "preview_color": "#E1D395"
+      }
+    },
+    "allowedTransitModes": [
+      "caravan",
+      "rail",
+      "steamship",
+      "submarine"
+    ],
+    "waterLandClass": "ocean_surface",
+    "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+    "manualCanonPathingUpdate": {
+      "source": "belavados-four-compendium-canon-2026-07-17",
+      "settlementKey": "luntharave:Lunathéa",
+      "primaryBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement"
+      ],
+      "waterLandClass": "ocean_surface",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "transportation": [
+        "Ferry",
+        "Steamship",
+        "Submarine"
+      ],
+      "allowedTransitModes": [
+        "ferry",
+        "steamship",
+        "submarine"
+      ],
+      "pathingNotes": [],
+      "modeSurfaceRule": "Manual canon override: no sea mode is placed on dry land without a named water/airlock/dock justification; no land mode is placed on open sea without a named bridge, tunnel, platform, or upper structure.",
+      "portalCapitalRule": "Portal gates are normal-case Portal service and only capital cities receive them in this pass.",
+      "hexcodeTransitAuthority": {
+        "sourcePackage": "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip + user manual correction pass",
+        "sampledExactHex": "#575B34",
+        "sampledBiomePath": "Ocean/Ocean Surface floating settlement",
+        "sampledBiomeCategory": "Ocean Surface floating settlement",
+        "sampledWaterLandClass": "ocean_surface",
+        "previousWaterLandClass": "coastal_or_mixed_water",
+        "effectiveWaterLandClass": "ocean_surface",
+        "surfaceLandAccess": false,
+        "coastalAccess": true,
+        "floatingAccess": true,
+        "deepWaterAccess": false,
+        "reefAccess": true,
+        "submarineRule": "Submarine service is permitted for deep water, floating/ocean-surface, coastal access, and authored airlocked underwater train stations.",
+        "manualCanonOverrideApplied": true
+      }
+    },
+    "updatedHexcodeProfile": {
+      "settlementId": "luntharave:Lunathéa",
+      "settlement": "Lunathéa",
+      "province": "Lun’tharavé",
+      "provinceKey": "luntharave",
+      "sampledImage": "Belavados_realistic_source.png",
+      "sampleGrid": {
+        "width": 1536,
+        "height": 1024
+      },
+      "xImage": 905.4,
+      "yImage": 964.525,
+      "exactHex": "#575B34",
+      "rgb": {
+        "r": 87,
+        "g": 91,
+        "b": 52
+      },
+      "biomeGroup": "Ocean",
+      "biomeCategory": "Ocean Surface floating settlement",
+      "biomePath": "Ocean/Ocean Surface floating settlement",
+      "hexWaterLandClass": "ocean_surface",
+      "assignmentConfidence": 0.33333,
+      "dominantRegionKey": 5,
+      "dominantBandId": 5,
+      "regionAssignmentConfidence": 0.33333,
+      "canonicalVerticalBands": "4, 5, 6",
+      "canonicalZRange": "0 to 0 m",
+      "dominantZMin": 0.0,
+      "dominantZMean": 0.0,
+      "dominantZMax": 0.0,
+      "regionPhysicalMeaning": "open blue water, floating routes, harbors, and warm sea roads",
+      "previousExactHex": "#53A9D7",
+      "previousBiomePath": "Ocean/Underwater with reefs",
+      "authority": "updated realism hexcode scan sampled at settlement image coordinate"
+    },
+    "distanceFromProvinceCenter": {
+      "miles": 793.7,
+      "kilometers": 1277.4
+    },
+    "finalPlacementScope": "mainland",
+    "finalMapX": 499.0,
+    "finalMapY": 617.0,
+    "finalLongitude": -92.28516,
+    "finalLatitude": -18.45703,
+    "finalMappedBiomeDepth": "Beach and reefs with water",
+    "finalPlacementMatch": "compatible",
+    "finalUTC": "UTC-6",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "majorityPopulationRaces": [
+      "Human",
+      "Halfling",
+      "Elf — Sea Elf",
+      "Tortle",
+      "Triton",
+      "Merfolk",
+      "Locathah"
+    ],
+    "creatorGodsOfMajorityRaces": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Valkhamesh",
+      "Bastveig"
+    ],
+    "resourcesAndServicesProvided": [
+      "Fish",
+      "Shellfish",
+      "Seaweed",
+      "Salt",
+      "Pearls",
+      "Coral crafts"
+    ],
+    "settlementHtmlPath": "settlements/Luntharave/Lunathea/Lunathea_Luntharave.html",
+    "interactiveMapHtml": "settlements/Luntharave/Lunathea/Lunathea_Luntharave.html",
+    "playerZoomInLink": "settlements/Luntharave/Lunathea/Lunathea_Luntharave.html",
+    "settlementTags": [
+      "maritime",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:elven-types",
+      "race:draconic-and-reptilian-races",
+      "race:elemental-and-energy-born-peoples",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "danger:moderate",
+      "government:participatory-democracy",
+      "type:village",
+      "water-class:coastal-or-mixed-water",
+      "alignment:altruistic",
+      "alignment:lawful",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:caravan",
+      "transit:train",
+      "transit:rail",
+      "transit:steamship",
+      "transit:submarine",
+      "faction:the-choral-synod"
+    ],
+    "lockedPlayerFields": [
+      "dangerLevel",
+      "races",
+      "transportation",
+      "deitiesWorshipped",
+      "biomes",
+      "settlementTags",
+      "factions"
+    ],
+    "editingLocked": true,
+    "htmlPath": "settlements/Luntharave/Lunathea/Lunathea_Luntharave.html",
+    "jsonPath": "settlements/Luntharave/Lunathea/Lunathea.json",
+    "placementScope": "mainland",
+    "timeZone": {
+      "timeZoneId": "UTC-6",
+      "timeZoneName": "Belavadös UTC-6",
+      "offsetHoursFromUTC": -6,
+      "offsetMinutesFromUTC": -360,
+      "offsetHoursFromBMT": -6,
+      "offsetMinutesFromBMT": -360,
+      "longitudeBandDegrees": [
+        -97.5,
+        -82.5
+      ],
+      "certifiedLatitude": -18.45703,
+      "certifiedLongitude": -92.28516,
+      "latitudeHemisphere": "south",
+      "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+      "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+    },
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "coastal",
+    "finalRouteAccessClass": "coastal_surface_access",
+    "canonicalDocSection": {
+      "source": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+      "sourceBlock": 3250,
+      "subsections": [
+        "Identity and Classification",
+        "Population, Area, and Government",
+        "Environment, Terrain, and Depth",
+        "Peoples, Communities, and Faith",
+        "Alignment, Danger, Transit, and Resources",
+        "Factions and Influence",
+        "Tags, Files, Rendering, and Canon Locks"
+      ]
+    }
+  },
+  "geojsonFeature": {
+    "type": "Feature",
+    "properties": {
+      "name": "Lunathéa",
+      "settlement": "Lunathéa",
+      "province": "Lun’tharavé",
+      "provinceKey": "luntharave",
+      "type": "Village",
+      "settlementType": "Village",
+      "x": 499.0,
+      "y": 617.0,
+      "lat": -18.45703,
+      "lon": -92.28516,
+      "latitude": -18.45703,
+      "longitude": -92.28516,
+      "scope": "mainland",
+      "utc": "UTC-6",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "placementMatch": "compatible",
+      "transportation": [
+        "Caravan",
+        "Train",
+        "Steamship",
+        "Submarine"
+      ],
+      "canonicalRevision": "belavados-four-compendium-canon-2026-07-17"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -92.28516,
+        -18.45703
+      ]
+    }
+  },
+  "canonicalFileName": "Lunathea_Luntharave.json",
+  "canonicalHtmlFileName": "Lunathea_Luntharave.html",
+  "canonicalPath": "shared/settlements/Luntharave/Lunathea/Lunathea_Luntharave.json",
+  "canonicalHtmlPath": "shared/settlements/Luntharave/Lunathea/Lunathea_Luntharave.html",
+  "provinceCanonicalPath": "shared/settlements/Luntharave/Luntharave.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "luntharave:Lunathéa",
+    "provinceKey": "luntharave",
+    "province": "Lun’tharavé",
+    "settlement": "Lunathéa",
+    "type": "Village",
+    "biomes": [
+      "Ocean Surface floating settlement"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Lunathéa at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 499.0,
+        "y": 617.0,
+        "ix": 499,
+        "iy": 617
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 4719,
+      "subsurfaceAnchorZMeters": -4719,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 4719,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -92.28516,
+        -18.45703,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -92.28516,
+        -18.45703,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Lun’tharavé",
+      "Named river / delta / canal / lake": "Lun’tharavé Pinkwater Lakes",
+      "Named bay / gulf / sea / sound": "Moonlet Bead Bay",
+      "Terrain that feeds the water": "Beach and grass with water; Farming; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Lun’tharavé",
+      "Mountain range / highland": "Lun’tharavé Rosethorns",
+      "Volcano / vent / caldera": "Roseglass Vent",
+      "Forest / swamp / landmark": "Roselight Canopy"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Lun’tharavé",
+      "Climate regime": "equatorial with marine/deep-water sectors",
+      "Dominant terrain": "Beach and grass with water; Farming; Partial forest",
+      "Named weather": "Copper-Bead Rain",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Lun’tharavé is centered at -70.777906, 16.816239 under Participatory Democracy, with 35,306,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Lun’tharavé occupies 3,690,965.16 sq mi / 9,559,555.87 sq km of modeled Earth-sized territory, about 1.874181% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Farming and Partial forest define its broad terrain, while its settlements intensify into Farming, Beach and grass with water and Beach and reefs with water. Population density is 3.693 people/sq km / 9.566 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 11 recorded four-province geography group links, including 8 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 10
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Sokhivar",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 5
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Steamship",
+          "count": 7
+        },
+        {
+          "name": "Submarine",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 5
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Copper-Bead Rain",
+      "climateRegime": "equatorial with marine/deep-water sectors",
+      "provinceCenterLatitude": -7.04155,
+      "provinceCenterLongitude": -93.60599,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "manualCanonPathingUpdate": {
+      "source": "belavados-four-compendium-canon-2026-07-17",
+      "settlementKey": "luntharave:Lunathéa",
+      "primaryBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement"
+      ],
+      "waterLandClass": "ocean_surface",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "transportation": [
+        "Ferry",
+        "Steamship",
+        "Submarine"
+      ],
+      "allowedTransitModes": [
+        "ferry",
+        "steamship",
+        "submarine"
+      ],
+      "pathingNotes": [],
+      "modeSurfaceRule": "Manual canon override: no sea mode is placed on dry land without a named water/airlock/dock justification; no land mode is placed on open sea without a named bridge, tunnel, platform, or upper structure.",
+      "portalCapitalRule": "Portal gates are normal-case Portal service and only capital cities receive them in this pass.",
+      "hexcodeTransitAuthority": {
+        "sourcePackage": "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip + user manual correction pass",
+        "sampledExactHex": "#575B34",
+        "sampledBiomePath": "Ocean/Ocean Surface floating settlement",
+        "sampledBiomeCategory": "Ocean Surface floating settlement",
+        "sampledWaterLandClass": "ocean_surface",
+        "previousWaterLandClass": "coastal_or_mixed_water",
+        "effectiveWaterLandClass": "ocean_surface",
+        "surfaceLandAccess": false,
+        "coastalAccess": true,
+        "floatingAccess": true,
+        "deepWaterAccess": false,
+        "reefAccess": true,
+        "submarineRule": "Submarine service is permitted for deep water, floating/ocean-surface, coastal access, and authored airlocked underwater train stations.",
+        "manualCanonOverrideApplied": true
+      }
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 499.0,
+      "y": 617.0,
+      "longitude": -92.28516,
+      "latitude": -18.45703,
+      "utc": "UTC-6",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+  "manualCanonMergedIntoShared": true,
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
