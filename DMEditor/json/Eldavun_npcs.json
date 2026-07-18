@@ -1,0 +1,479 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "vaelmyrith:Eldavûn",
+  "settlement": "Eldavûn",
+  "provinceKey": "vaelmyrith",
+  "province": "Vaelmyrith",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Vaelmyrith/Eldavun/Eldavun_Vaelmyrith.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "vaelmyrith:Eldavûn",
+    "provinceKey": "vaelmyrith",
+    "province": "Vaelmyrith",
+    "settlement": "Eldavûn",
+    "type": "Town",
+    "biomes": [
+      "Beach and grass with water",
+      "Ocean Surface floating settlement",
+      "Beach and reefs with water"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Eldavûn at the final reef and shelf shallows anchor in mainland scope; pathing uses reef_underwater_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1791.0,
+        "y": 563.0,
+        "ix": 1791,
+        "iy": 563
+      },
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 4226,
+      "subsurfaceAnchorZMeters": -4226,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 4226,
+      "anchorMode": "floating_surface_anchor",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        134.82422,
+        -8.96484,
+        -180
+      ],
+      "surfaceAnchorCoordinates": [
+        134.82422,
+        -8.96484,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Vaelmyrith",
+      "Named river / delta / canal / lake": "Vaelmyrith Amethyst Sea",
+      "Named bay / gulf / sea / sound": "Vaelmyrith Starfall Gulf",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Deep forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Vaelmyrith",
+      "Mountain range / highland": "Amethyst Crownrange",
+      "Volcano / vent / caldera": "Amethyst Firecup",
+      "Forest / swamp / landmark": "Vaelmyrith Gloomwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Vaelmyrith",
+      "Climate regime": "multi-belt, centered in tropical with marine/deep-water sectors; orographic winds and rain shadows; wetland fog and flood pulses",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "Named weather": "Starfall Violet Haze",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Vaelmyrith is centered at 65.987651, 36.153483 under Council Republic, with 40,897,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Vaelmyrith occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Deep forest. Velkynwood and Sylthéra-Vael carry the mountain record: Velkynwood is a deep mountain settlement opening into forest, and Sylthéra-Vael is both deep mountain and built from the mountain side.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Ishtanora, Enkirael, Freyseth, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 25 recorded four-province geography group links, including 22 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 9
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 8
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 7
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 5
+        },
+        {
+          "name": "Triton",
+          "count": 5
+        },
+        {
+          "name": "Merfolk",
+          "count": 5
+        },
+        {
+          "name": "Locathah",
+          "count": 5
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 3
+        },
+        {
+          "name": "Kender",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Enkirael",
+          "count": 11
+        },
+        {
+          "name": "Freyseth",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 9
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 6
+        },
+        {
+          "name": "Eirzunet",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 6
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Prairie",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Sylthéra-Vael: Sylthéra-Vael is both a deep mountain settlement and a village built from the side of the mountain.",
+        "Velkynwood: Velkynwood is a deep mountain settlement that opens into a forest."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Starfall Violet Haze",
+      "climateRegime": "multi-belt, centered in tropical with marine/deep-water sectors; orographic winds and rain shadows; wetland fog and flood pulses",
+      "provinceCenterLatitude": -9.92286,
+      "provinceCenterLongitude": 136.14908,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "reef and shelf shallows",
+    "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "reef_underwater_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1791.0,
+      "y": 563.0,
+      "longitude": 134.82422,
+      "latitude": -8.96484,
+      "utc": "UTC+9",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "captain-zhaon",
+      "name": "Captain Zhaon",
+      "sourceType": "immersive_npc_roster",
+      "role": "Submarine Captain",
+      "faction": "The Choral Synod",
+      "settlement": "Eldavûn",
+      "province": "Vaelmyrith",
+      "settlementKey": "vaelmyrith:Eldavûn",
+      "provinceKey": "vaelmyrith",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "captain-zhaon",
+      "name": "Captain Zhaon",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Vaelmyrith",
+      "provinceKey": "vaelmyrith",
+      "settlement": "Eldavûn",
+      "settlementKey": "vaelmyrith:Eldavûn",
+      "description": "Captain Zhaon is a weary Tamhiogal submarine captain stranded far from the waters and command structure that once gave his life meaning. He carries guilt like ballast, speaks with formal courtesy, and wants only to repair his vessel, honor his dead crew, and return to a home that may no longer exist. The Choral Synod distrusts him because old war captains are dangerous, but Zhaon's regret may be more useful than another generation of patriotic silence.",
+      "settlementAndAncestryTexture": "Eldavûn is a Town in Vaelmyrith, under Council Republic, with elevated danger, Beach and grass with water, Ocean Surface floating settlement, Beach and reefs with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Tamhiogal reads through the Tamhiogal entry of the race compendium, within Amphibious and Aquatic Peoples, marked by Bastveig. Aquatic Bettafolk of Hydromancy, Coral Stewardship, and Tidal Spirits. Table cues: ancestral instincts, homeland pressure, and local reputation; starting tendency Altruistic - Chaotic - Cooperative - Honorable.",
+      "rumors": [
+        "Zhaon's submarine logs include apologies addressed to cities that were never warned.",
+        "He trades rare reactor parts for preserved seaweed tea and old maps of home currents."
+      ],
+      "plotHooks": [
+        "Zhaon asks the party to recover a guidance core from a wreck before smugglers sell it as a weapon.",
+        "A coastal settlement wants Zhaon's vessel destroyed, claiming its old orders killed their grandparents."
+      ],
+      "profileId": "npc_0070_captain_zhaon",
+      "race": "Tamhiogal",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guest",
+      "residence": "Eldavûn - Rowhouse",
+      "workplace": "Eldavûn Market Hall",
+      "job": "Submarine Captain",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0070_captain_zhaon",
+        "race": "Tamhiogal",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guest",
+        "province": "Vaelmyrith",
+        "settlement": "Eldavûn",
+        "residence": "Eldavûn - Rowhouse",
+        "workplace": "Eldavûn Market Hall",
+        "job": "Submarine Captain",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 70,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Eldavûn",
+        "province": "Vaelmyrith",
+        "settlementKey": "vaelmyrith:Eldavûn",
+        "provinceKey": "vaelmyrith"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

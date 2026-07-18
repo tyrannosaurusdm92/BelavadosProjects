@@ -1,0 +1,992 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "khorvaak:Élarwyn",
+  "settlement": "Élarwyn",
+  "provinceKey": "khorvaak",
+  "province": "Khorvaak",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Khorvaak/Elarwyn/Elarwyn_Khorvaak.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "khorvaak:Élarwyn",
+    "provinceKey": "khorvaak",
+    "province": "Khorvaak",
+    "settlement": "Élarwyn",
+    "type": "Town",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Farming"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Élarwyn at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1979.0,
+        "y": 468.0,
+        "ix": 1979,
+        "iy": 468
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 61.45,
+      "surfaceAnchorZMeters": 61,
+      "subsurfaceDepthMeters": 43,
+      "subsurfaceAnchorZMeters": -43,
+      "maxHeightMetersAboveSeaLevel": 61,
+      "maxDepthMetersBelowSeaLevel": 43,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        167.87109,
+        7.73438,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        167.87109,
+        7.73438,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Khorvaak",
+      "Named river / delta / canal / lake": "Khorvaak Forestgreen Gulf",
+      "Named bay / gulf / sea / sound": "Khorvaak Crocodile Sea",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Beach and grass with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Khorvaak",
+      "Mountain range / highland": "Khorvaak Rootwalls",
+      "Volcano / vent / caldera": "Rootfire Hill",
+      "Forest / swamp / landmark": "Khorvaak Blackleaf Jungle"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Khorvaak",
+      "Climate regime": "predominantly marine multi-belt, centered in equatorial; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Farming",
+      "Named weather": "Forestgreen Steamfront",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Khorvaak is centered at 3.349876, 140.357152 under Scholar-Bureaucracy, with 66,088,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Khorvaak occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Beach and grass with water. Vorathûn carries the mountain record, occupying the whole mountain section it sits within and descending into caverns with underworld rumors.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Halfling — Stout Halfling, Kender, Kithkin, Centaur, Giff, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Enkirael, Freyseth, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 4 recorded four-province geography group links, including 3 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Enkirael",
+          "count": 9
+        },
+        {
+          "name": "Freyseth",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 6
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 9
+        },
+        {
+          "name": "Submarine",
+          "count": 9
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 6
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Vorathûn: Vorathûn takes up the entire section of mountain range it sits within, and its lowest caverns carry underworld access rumors."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Forestgreen Steamfront",
+      "climateRegime": "predominantly marine multi-belt, centered in equatorial; orographic winds and rain shadows",
+      "provinceCenterLatitude": -0.45496,
+      "provinceCenterLongitude": 166.59658,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1979.0,
+      "y": 468.0,
+      "longitude": 167.87109,
+      "latitude": 7.73438,
+      "utc": "UTC+11",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 6,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 3,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 5
+  },
+  "npcReferences": [
+    {
+      "id": "emp-alune-starweaver",
+      "name": "Alune Starweaver",
+      "sourceType": "transportation_employee",
+      "role": "Station Host",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Élarwyn",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Élarwyn",
+      "provinceKey": "khorvaak"
+    },
+    {
+      "id": "side-briar-brassfern-61-0",
+      "name": "Briar Brassfern",
+      "sourceType": "transportation_side_npc",
+      "role": "apprentice",
+      "faction": null,
+      "settlement": "Élarwyn",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Élarwyn",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "kent-connol",
+      "name": "Kent Connol",
+      "sourceType": "immersive_npc_roster",
+      "role": "Radio Dramatist",
+      "faction": "The Brass Concordat",
+      "settlement": "Élarwyn",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Élarwyn",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "nessa-crashborn",
+      "name": "Nessa Crashborn",
+      "sourceType": "immersive_npc_roster",
+      "role": "Salvage Leader",
+      "faction": "The Brass Concordat",
+      "settlement": "Élarwyn",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Élarwyn",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "scribe-paelyn-jannar",
+      "name": "Scribe Paelyn Jannar",
+      "sourceType": "immersive_npc_roster",
+      "role": "Field Scribe",
+      "faction": "The Crucible Wardens",
+      "settlement": "Élarwyn",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Élarwyn",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-ysol-tidebrook-61-1",
+      "name": "Ysol Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "role": "aunt/uncle",
+      "faction": null,
+      "settlement": "Élarwyn",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Élarwyn",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-alune-starweaver",
+      "name": "Alune Starweaver",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 64,
+      "race": "Vulpin",
+      "genderIdentity": "Trans-Female",
+      "pronouns": "She / Her",
+      "occupation": "Station Host",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Lawful - Cooperative - Neutral",
+      "currentMood": "Exhausted",
+      "homeProvince": "Khorvaak",
+      "homeProvinceKey": "khorvaak",
+      "homeSettlement": "Élarwyn",
+      "homeSettlementKey": "khorvaak:Élarwyn",
+      "workProvince": "Earrorim",
+      "workProvinceKey": "earrorim",
+      "workSettlement": "Ullunor",
+      "workSettlementKey": "earrorim:Ullunor",
+      "homeLocation": {
+        "province": "Khorvaak",
+        "settlement": "Élarwyn",
+        "x": 1979.0,
+        "y": 468.0,
+        "lat": 7.73438,
+        "lon": 167.87109,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+11",
+          "timeZoneName": "Belavadös UTC+11",
+          "offsetHoursFromUTC": 11,
+          "offsetMinutesFromUTC": 660,
+          "offsetHoursFromBMT": 11,
+          "offsetMinutesFromBMT": 660,
+          "longitudeBandDegrees": [
+            157.5,
+            172.5
+          ],
+          "certifiedLatitude": 7.73438,
+          "certifiedLongitude": 167.87109,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Ullunor Train Station / Rail Platform",
+        "province": "Earrorim",
+        "settlement": "Ullunor",
+        "mode": "rail",
+        "x": 1458.0,
+        "y": 661.0,
+        "lat": -26.19141,
+        "lon": 76.28906,
+        "provinceKey": "earrorim",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+5",
+          "timeZoneName": "Belavadös UTC+5",
+          "offsetHoursFromUTC": 5,
+          "offsetMinutesFromUTC": 300,
+          "offsetHoursFromBMT": 5,
+          "offsetMinutesFromBMT": 300,
+          "longitudeBandDegrees": [
+            67.5,
+            82.5
+          ],
+          "certifiedLatitude": -26.19141,
+          "certifiedLongitude": 76.28906,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Relief",
+        "start": "10:00",
+        "break": "14:00",
+        "end": "19:00"
+      },
+      "workDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "coverageWorkDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Kaelis Mirestep",
+          "type": "Coworker",
+          "score": 56
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "apprentice",
+            "name": "Briar Brassfern",
+            "sideNpcId": "side-briar-brassfern-61-0",
+            "livesIn": "Élarwyn"
+          },
+          {
+            "kind": "aunt/uncle",
+            "name": "Ysol Tidebrook",
+            "sideNpcId": "side-ysol-tidebrook-61-1",
+            "livesIn": "Élarwyn"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Virethûn",
+            "province": "Virelport",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Virethûn",
+            "province": "Virelport",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Alune Starweaver is a Vulpin — Starweaver Night-Fox Lineage transportation employee (She / Her) and a station host whose public work is transportation, but their tracked life begins at home in Élarwyn, Khorvaak. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "quietly funny",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Vulpin",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Vulpin",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Vulpin"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "khorvaak:Élarwyn",
+      "workplaceSettlementId": "earrorim:Ullunor",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Élarwyn",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Élarwyn",
+        "provinceKey": "khorvaak",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-briar-brassfern-61-0",
+      "name": "Briar Brassfern",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "apprentice",
+      "employeeId": "emp-alune-starweaver",
+      "employeeName": "Alune Starweaver",
+      "raceCategory": "Undead and Death-Touched Races",
+      "race": "Downcast",
+      "genderIdentity": "Demi-Male",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "First Person Plural",
+        "subject": "We",
+        "object": "Us",
+        "possessiveDeterminer": "Our",
+        "possessivePronoun": "Ours",
+        "reflexive": "Ourselves",
+        "example": "We brought our books."
+      },
+      "honorific": "Tadpole",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Élarwyn",
+      "settlementKey": "khorvaak:Élarwyn",
+      "homeLocation": {
+        "province": "Khorvaak",
+        "settlement": "Élarwyn",
+        "x": 1979.0,
+        "y": 468.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Downcast",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Élarwyn",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Élarwyn",
+        "provinceKey": "khorvaak"
+      }
+    },
+    {
+      "id": "kent-connol",
+      "name": "Kent Connol",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Élarwyn",
+      "settlementKey": "khorvaak:Élarwyn",
+      "description": "Kent Connol is a Gnome radio dramatist whose belief in masked heroes is embarrassing, contagious, and more politically dangerous than anyone expects. He writes morality plays, crime serials, and coded broadcasts for the Brass Concordat, using melodrama to remind frightened listeners that cruelty is not the same thing as strength. Kent is anxious but brave when cornered, and his stories sometimes inspire people to do the right thing before he is ready to survive the consequences.",
+      "settlementAndAncestryTexture": "Élarwyn is a Town in Khorvaak, under Scholar-Bureaucracy, with moderate danger, Beach and grass with water, Beach and reefs with water, Farming terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Gnome reads through the Deep Gnome entry of the race compendium, within Dwarven and Gnomish Kin, marked by Marduthor. Deep gnomes, or svirfneblin, are adapted to life in the deep subterranean world. They are cautious, stealthy, and highly resourceful in dangerous underground environments. Table cues: Gnome, Darkvision, Gift of the Svirfneblin, Gnomish Magic Resistance; starting tendency Neutral - Lawful - Neutral - Honorable.",
+      "rumors": [
+        "Kent hides real crime tips inside ridiculous radio villain monologues.",
+        "Children in three districts can quote his hero oath better than they can name their councilor."
+      ],
+      "plotHooks": [
+        "Kent asks the party to act out a staged broadcast that draws a real murderer into the open.",
+        "A crime boss kidnaps Kent after realizing his latest episode describes an unsolved killing too accurately."
+      ],
+      "profileId": "npc_0064_kent_connol",
+      "race": "Gnome",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Guardian",
+      "residence": "Élarwyn - Workshop Loft",
+      "workplace": "Élarwyn Transit Yard",
+      "job": "Radio Dramatist",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0064_kent_connol",
+        "race": "Gnome",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Guardian",
+        "province": "Khorvaak",
+        "settlement": "Élarwyn",
+        "residence": "Élarwyn - Workshop Loft",
+        "workplace": "Élarwyn Transit Yard",
+        "job": "Radio Dramatist",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 64,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Élarwyn",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Élarwyn",
+        "provinceKey": "khorvaak"
+      }
+    },
+    {
+      "id": "nessa-crashborn",
+      "name": "Nessa Crashborn",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Élarwyn",
+      "settlementKey": "khorvaak:Élarwyn",
+      "description": "Nessa Crashborn is a sharp-clawed Kobold salvage leader who treats every wreck, collapsed skyship, and broken cargo hold like a crime scene with treasure buried under the bones. Fae is guarded, territorial, and slow to trust, shaped by a burned past, a ruined family line, and the hard lesson that greed can turn a home into ashes faster than fire. At the Élarwyn Archive, Nessa works with the Brass Concordat to decode old flight manifests, smuggling ledgers, crash records, and sealed cargo claims before scavengers, raiders, or ichor smugglers strip the evidence clean. Fae leads with a growl and expects faer crew to survive through discipline, loyalty, and combined strength, but beneath the suspicion is a fierce protector who will risk everything for anyone fae has decided is pack.",
+      "settlementAndAncestryTexture": "Élarwyn is a Town in Khorvaak, under Scholar-Bureaucracy, with moderate danger, Beach and grass with water, Beach and reefs with water, Farming terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Kobold reads through the Kobold entry of the race compendium, within Draconic and Reptilian Races, marked by Valkhamesh. Kobolds are small draconic kin known for ingenuity, trapmaking, and pack survival. They often revere dragons as divine figures and adapt quickly to danger. Table cues: Darkvision, Draconic Cry, Kobold Legacy; starting tendency Selfish - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Nessa Crashborn knows why an ichor ledger changed hands last Anubaday.",
+        "Nessa Crashborn has a contact in Sylvanreach who will deny everything."
+      ],
+      "plotHooks": [
+        "Nessa Crashborn asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Nessa Crashborn's public story is incomplete."
+      ],
+      "profileId": "npc_0089_nessa_crashborn",
+      "race": "Kobold",
+      "genderAndPronouns": "Poly-Gender • fae/faer",
+      "householdRole": "Guest",
+      "residence": "Élarwyn - Tavern Room",
+      "workplace": "Élarwyn Archive",
+      "job": "Salvage Leader",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0089_nessa_crashborn",
+        "race": "Kobold",
+        "gender_pronouns": "Poly-Gender • fae/faer",
+        "household_role": "Guest",
+        "province": "Khorvaak",
+        "settlement": "Élarwyn",
+        "residence": "Élarwyn - Tavern Room",
+        "workplace": "Élarwyn Archive",
+        "job": "Salvage Leader",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 87,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Élarwyn",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Élarwyn",
+        "provinceKey": "khorvaak"
+      }
+    },
+    {
+      "id": "scribe-paelyn-jannar",
+      "name": "Scribe Paelyn Jannar",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Élarwyn",
+      "settlementKey": "khorvaak:Élarwyn",
+      "description": "Scribe Paelyn Jannar is a brilliant, excitable Tiefling field scribe with a mind built for impossible engineering, skyship math, aetheric propulsion, and the terrifying sentence, “That should not be possible, which means it is extremely interesting.” They/her is awkward, curious, optimistic, and far braver than she looks, especially when an ichor-powered device, broken relic engine, or unstable simulation lattice threatens to erase someone from reality.\nAt the Élarwyn Guild Desk, Paelyn documents Crucible field tests, failed prototypes, launch calculations, memory-lattice incidents, and dangerous ichor contamination events that other Custodians would rather bury in sealed reports. She is deeply devoted to her spouse, Archivist Thiblee Jannar, and the two are a perfect disaster pair: Thiblee pushes the glowing button, Paelyn figures out why the room is now upside down, and both insist the findings were scientifically valuable.",
+      "settlementAndAncestryTexture": "Élarwyn is a Town in Khorvaak, under Scholar-Bureaucracy, with moderate danger, Beach and grass with water, Beach and reefs with water, Farming terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Tiefling reads through the Tiefling entry of the race compendium, within Celestial, Fiendish, and Planar Bloodlines, marked by Freyseth. Tieflings are fiend-touched humanoids marked by infernal ancestry and social stigma. They often develop strong individuality and resilience in the face of prejudice. Table cues: Darkvision, Fiendish Legacy, Otherworldly Presence; starting tendency Neutral - Chaotic - Neutral - Neutral.",
+      "rumors": [
+        "Scribe Paelyn Jannar knows why an ichor ledger changed hands last Marduday.",
+        "Scribe Paelyn Jannar has a contact in Mythalora who will deny everything."
+      ],
+      "plotHooks": [
+        "Scribe Paelyn Jannar asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Scribe Paelyn Jannar's public story is incomplete."
+      ],
+      "profileId": "npc_0038_scribe_Paelyn_Jannar",
+      "race": "Tiefling",
+      "genderAndPronouns": "Nonbinary • they/her",
+      "householdRole": "Household Guard",
+      "residence": "Élarwyn - Boarding House",
+      "workplace": "Élarwyn Guild Desk",
+      "job": "Field Scribe",
+      "faction": "The Crucible Wardens",
+      "profileTable": {
+        "id": "npc_0038_scribe_Paelyn_Jannar",
+        "race": "Tiefling",
+        "gender_pronouns": "Nonbinary • they/her",
+        "household_role": "Household Guard",
+        "province": "Khorvaak",
+        "settlement": "Élarwyn",
+        "residence": "Élarwyn - Boarding House",
+        "workplace": "Élarwyn Guild Desk",
+        "job": "Field Scribe",
+        "faction": "The Crucible Wardens"
+      },
+      "quickIndexNumber": 38,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Élarwyn",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Élarwyn",
+        "provinceKey": "khorvaak"
+      }
+    },
+    {
+      "id": "side-ysol-tidebrook-61-1",
+      "name": "Ysol Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "aunt/uncle",
+      "employeeId": "emp-alune-starweaver",
+      "employeeName": "Alune Starweaver",
+      "raceCategory": "Fey-Folk",
+      "race": "Dreamer",
+      "genderIdentity": "Gender-Flexible",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "She / Her",
+        "subject": "She",
+        "object": "Her",
+        "possessiveDeterminer": "Her",
+        "possessivePronoun": "Hers",
+        "reflexive": "Herself",
+        "example": "She packed her bag."
+      },
+      "honorific": "Moonbeam",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Élarwyn",
+      "settlementKey": "khorvaak:Élarwyn",
+      "homeLocation": {
+        "province": "Khorvaak",
+        "settlement": "Élarwyn",
+        "x": 1979.0,
+        "y": 468.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Dreamer",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Élarwyn",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Élarwyn",
+        "provinceKey": "khorvaak"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

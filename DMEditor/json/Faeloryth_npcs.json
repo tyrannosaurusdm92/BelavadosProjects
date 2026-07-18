@@ -1,0 +1,862 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "gruddirynn:Faeloryth",
+  "settlement": "Faeloryth",
+  "provinceKey": "gruddirynn",
+  "province": "Gruddirynn",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Gruddirynn/Faeloryth/Faeloryth_Gruddirynn.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "gruddirynn:Faeloryth",
+    "provinceKey": "gruddirynn",
+    "province": "Gruddirynn",
+    "settlement": "Faeloryth",
+    "type": "Town",
+    "biomes": [
+      "Beach and reefs with water",
+      "Ocean Surface floating settlement",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Beach and reefs with water",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Faeloryth at the final reef and shelf shallows anchor in mainland scope; pathing uses reef_underwater_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 951.0,
+        "y": 430.0,
+        "ix": 951,
+        "iy": 430
+      },
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 2992,
+      "subsurfaceAnchorZMeters": -2992,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 2992,
+      "anchorMode": "floating_surface_anchor",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -12.83203,
+        14.41406,
+        -180
+      ],
+      "surfaceAnchorCoordinates": [
+        -12.83203,
+        14.41406,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "reef and shelf shallows",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Gruddirynn",
+      "Named river / delta / canal / lake": "Gruddirynn Frostless Deep",
+      "Named bay / gulf / sea / sound": "Coravûn Farwater",
+      "Terrain that feeds the water": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Gruddirynn",
+      "Mountain range / highland": "Gruddirynn Pearlbacks",
+      "Volcano / vent / caldera": "Pearl Embervent",
+      "Forest / swamp / landmark": "Lavender Fenlands"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Gruddirynn",
+      "Climate regime": "predominantly marine equatorial",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "Named weather": "Deep-Pearl Sea Smoke",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Gruddirynn is centered at -72.283919, 77.633589 under Aristocracy, with 30,515,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Gruddirynn occupies 5,469,689.61 sq mi / 14,166,431.07 sq km of modeled Earth-sized territory, about 2.777373% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Beach and reefs with water and Partial forest define its broad terrain, while its settlements intensify into Beach and grass with water, Beach and reefs with water, Farming and Ocean Surface floating settlement. Population density is 2.154 people/sq km / 5.579 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Triton, Merfolk, and 4 more. Faction visibility leans toward The Cog-Sanctum Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Sigrananna, Setrimir, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 11 recorded four-province geography group links, including 8 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 11
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 9
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 8
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 8
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 8
+        },
+        {
+          "name": "Hadozee",
+          "count": 7
+        },
+        {
+          "name": "Triton",
+          "count": 7
+        },
+        {
+          "name": "Merfolk",
+          "count": 6
+        },
+        {
+          "name": "Locathah",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 4
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Cog-Sanctum Synod",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Marduthor",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 11
+        },
+        {
+          "name": "Setrimir",
+          "count": 11
+        },
+        {
+          "name": "Bastveig",
+          "count": 9
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 8
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Hathruna",
+          "count": 7
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 4
+        },
+        {
+          "name": "Elevated",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 10
+        },
+        {
+          "name": "Caravan",
+          "count": 10
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 7
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Deep-Pearl Sea Smoke",
+      "climateRegime": "predominantly marine equatorial",
+      "provinceCenterLatitude": -0.3698,
+      "provinceCenterLongitude": 3.5984,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 14,
+      "group": "Hybrid",
+      "category": "Beach and reefs with water",
+      "path": "Hybrid/Beach and reefs with water",
+      "preview_color": "#A3DFD8"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "reef and shelf shallows",
+    "mappedBiomePath": "Ocean/Underwater with reefs/Reef and shelf shallows",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "reef_underwater_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 951.0,
+      "y": 430.0,
+      "longitude": -12.83203,
+      "latitude": 14.41406,
+      "utc": "UTC-1",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 4,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 3
+  },
+  "npcReferences": [
+    {
+      "id": "clem-softspade",
+      "name": "Clem Softspade",
+      "sourceType": "immersive_npc_roster",
+      "role": "Test Citizen",
+      "faction": "The Regent Lattice",
+      "settlement": "Faeloryth",
+      "province": "Gruddirynn",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "provinceKey": "gruddirynn",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-krynn-voidwalker",
+      "name": "Krynn Voidwalker",
+      "sourceType": "transportation_employee",
+      "role": "Portal Operator",
+      "faction": null,
+      "serviceModeLabel": "Portal",
+      "serviceMode": "Portal",
+      "locationRole": "home",
+      "settlement": "Faeloryth",
+      "province": "Gruddirynn",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "provinceKey": "gruddirynn"
+    },
+    {
+      "id": "side-mira-starbarrow-53-0",
+      "name": "Mira Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "role": "partner",
+      "faction": null,
+      "settlement": "Faeloryth",
+      "province": "Gruddirynn",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "provinceKey": "gruddirynn",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-pava-glimmerlock-53-1",
+      "name": "Pava Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "role": "sibling",
+      "faction": null,
+      "settlement": "Faeloryth",
+      "province": "Gruddirynn",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "provinceKey": "gruddirynn",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "clem-softspade",
+      "name": "Clem Softspade",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Gruddirynn",
+      "provinceKey": "gruddirynn",
+      "settlement": "Faeloryth",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "description": "Clem Softspade is a good-natured Grudgel test citizen whose eagerness to help makes him painfully easy for ambitious overseers to exploit. At the Faeloryth Watch Office, he volunteers for bunker trials, safety demonstrations, comfort experiments, and other Regent Lattice projects that everyone insists are perfectly harmless right up until they are not. Clem is awkward, trusting, and much smarter emotionally than his handlers realize, especially when he begins noticing which tests make people less kind.",
+      "settlementAndAncestryTexture": "Faeloryth is a Town in Gruddirynn, under Aristocracy, with severe danger, Beach and reefs with water, Ocean Surface floating settlement, Beach and grass with water terrain. Local records favor Neutral, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Grudgel reads through the Grudgel entry of the race compendium, within Primitive, Tribal, and Wilderness Humanoids, marked by Asethyr. Hardy mountain-forged tribal humanoids shaped by long memory and inherited vendettas. They are stoic, resilient, and slow to forgive but fiercely loyal. Table cues: Battlefield Control, Centered, Darkvision, Powerful Build; starting tendency Neutral - Chaotic - Neutral - Honorable.",
+      "rumors": [
+        "Clem Softspade knows why an ichor ledger changed hands last Anubaday.",
+        "Clem Softspade has a contact in Virethéa who will deny everything."
+      ],
+      "plotHooks": [
+        "Clem Softspade asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Clem Softspade's public story is incomplete."
+      ],
+      "profileId": "npc_0110_clem_softspade",
+      "race": "Grudgel",
+      "genderAndPronouns": "Cis-Male • he/him",
+      "householdRole": "Chosen Family Member",
+      "residence": "Faeloryth - Safehouse",
+      "workplace": "Faeloryth Watch Office",
+      "job": "Test Citizen",
+      "faction": "The Regent Lattice",
+      "profileTable": {
+        "id": "npc_0110_clem_softspade",
+        "race": "Grudgel",
+        "gender_pronouns": "Cis-Male • he/him",
+        "household_role": "Chosen Family Member",
+        "province": "Gruddirynn",
+        "settlement": "Faeloryth",
+        "residence": "Faeloryth - Safehouse",
+        "workplace": "Faeloryth Watch Office",
+        "job": "Test Citizen",
+        "faction": "The Regent Lattice"
+      },
+      "quickIndexNumber": 108,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Faeloryth",
+        "province": "Gruddirynn",
+        "settlementKey": "gruddirynn:Faeloryth",
+        "provinceKey": "gruddirynn"
+      }
+    },
+    {
+      "id": "emp-krynn-voidwalker",
+      "name": "Krynn Voidwalker",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 40,
+      "race": "Disembodied",
+      "genderIdentity": "Agender",
+      "pronouns": "Ae / Aer",
+      "occupation": "Portal Operator",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "portal",
+      "serviceModeLabel": "Portal",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Gruddirynn",
+      "homeProvinceKey": "gruddirynn",
+      "homeSettlement": "Faeloryth",
+      "homeSettlementKey": "gruddirynn:Faeloryth",
+      "workProvince": "Vuelmora",
+      "workProvinceKey": "vuelmora",
+      "workSettlement": "Hyselva",
+      "workSettlementKey": "vuelmora:Hyselva",
+      "homeLocation": {
+        "province": "Gruddirynn",
+        "settlement": "Faeloryth",
+        "x": 951.0,
+        "y": 430.0,
+        "lat": 14.41406,
+        "lon": -12.83203,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-1",
+          "timeZoneName": "Belavadös UTC-1",
+          "offsetHoursFromUTC": -1,
+          "offsetMinutesFromUTC": -60,
+          "offsetHoursFromBMT": -1,
+          "offsetMinutesFromBMT": -60,
+          "longitudeBandDegrees": [
+            -22.5,
+            -7.5
+          ],
+          "certifiedLatitude": 14.41406,
+          "certifiedLongitude": -12.83203,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Hyselva Portal Facility",
+        "province": "Vuelmora",
+        "settlement": "Hyselva",
+        "mode": "portal",
+        "x": 1528.0,
+        "y": 922.0,
+        "lat": -72.07031,
+        "lon": 88.59375,
+        "provinceKey": "vuelmora",
+        "modeLabel": "Portal",
+        "timeZone": {
+          "timeZoneId": "UTC+6",
+          "timeZoneName": "Belavadös UTC+6",
+          "offsetHoursFromUTC": 6,
+          "offsetMinutesFromUTC": 360,
+          "offsetHoursFromBMT": 6,
+          "offsetMinutesFromBMT": 360,
+          "longitudeBandDegrees": [
+            82.5,
+            97.5
+          ],
+          "certifiedLatitude": -72.07031,
+          "certifiedLongitude": 88.59375,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Day",
+        "start": "08:00",
+        "break": "12:00",
+        "end": "17:00"
+      },
+      "workDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "coverageWorkDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Vokar Reefscar",
+          "type": "Coworker",
+          "score": 48
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "partner",
+            "name": "Mira Starbarrow",
+            "sideNpcId": "side-mira-starbarrow-53-0",
+            "livesIn": "Faeloryth"
+          },
+          {
+            "kind": "sibling",
+            "name": "Pava Glimmerlock",
+            "sideNpcId": "side-pava-glimmerlock-53-1",
+            "livesIn": "Faeloryth"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Wrobetopia",
+            "province": "Gruddirynn",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Wrobetopia",
+            "province": "Gruddirynn",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Krynn Voidwalker is a Disembodied — Voidwalker Memory Thread transportation employee (They / None) and a portal operator whose public work is transportation, but their tracked life begins at home in Faeloryth, Gruddirynn. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "curious and observant",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Disembodied",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Disembodied",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Disembodied"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "gruddirynn:Faeloryth",
+      "workplaceSettlementId": "vuelmora:Hyselva",
+      "trackingColor": {
+        "archColor": "#ff8a00",
+        "assignedColor": "#ff8a00",
+        "archGradient": [
+          "#ff6b00",
+          "#ff9f1c",
+          "#ffd166"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_traveling_portal.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Faeloryth",
+        "province": "Gruddirynn",
+        "settlementKey": "gruddirynn:Faeloryth",
+        "provinceKey": "gruddirynn",
+        "serviceMode": "Portal"
+      }
+    },
+    {
+      "id": "side-mira-starbarrow-53-0",
+      "name": "Mira Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "partner",
+      "employeeId": "emp-krynn-voidwalker",
+      "employeeName": "Krynn Voidwalker",
+      "raceCategory": "Orcs, Goblins, and Goblinoid Kin",
+      "race": "Shadow Goblin",
+      "genderIdentity": "Poly-Gender",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Rose / Roseself",
+        "subject": "Rose",
+        "object": "Rose",
+        "possessiveDeterminer": "Rose’s",
+        "possessivePronoun": "Rose’s",
+        "reflexive": "Roseself",
+        "example": "Rose kept rose’s promise."
+      },
+      "honorific": "Kiddo",
+      "province": "Gruddirynn",
+      "provinceKey": "gruddirynn",
+      "settlement": "Faeloryth",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "homeLocation": {
+        "province": "Gruddirynn",
+        "settlement": "Faeloryth",
+        "x": 951.0,
+        "y": 430.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Shadow Goblin",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Faeloryth",
+        "province": "Gruddirynn",
+        "settlementKey": "gruddirynn:Faeloryth",
+        "provinceKey": "gruddirynn"
+      }
+    },
+    {
+      "id": "side-pava-glimmerlock-53-1",
+      "name": "Pava Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "sibling",
+      "employeeId": "emp-krynn-voidwalker",
+      "employeeName": "Krynn Voidwalker",
+      "raceCategory": "Draconic and Reptilian Races",
+      "race": "Dragonborn",
+      "lineage": "Tuorszom",
+      "genderIdentity": "Trans-Female",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "Multiple Listed Sets",
+        "subject": "Listed",
+        "object": "Listed",
+        "possessiveDeterminer": "Listed",
+        "possessivePronoun": "Listed",
+        "reflexive": "Listed",
+        "example": "Example: she/they, he/they, they/fae, xe/they."
+      },
+      "honorific": "Bean",
+      "province": "Gruddirynn",
+      "provinceKey": "gruddirynn",
+      "settlement": "Faeloryth",
+      "settlementKey": "gruddirynn:Faeloryth",
+      "homeLocation": {
+        "province": "Gruddirynn",
+        "settlement": "Faeloryth",
+        "x": 951.0,
+        "y": 430.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Dragonborn — Tuorszom",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Faeloryth",
+        "province": "Gruddirynn",
+        "settlementKey": "gruddirynn:Faeloryth",
+        "provinceKey": "gruddirynn"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

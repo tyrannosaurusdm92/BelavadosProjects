@@ -1,0 +1,475 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "aelwynora:Elarithen",
+  "settlement": "Elarithen",
+  "provinceKey": "aelwynora",
+  "province": "Aelwynora",
+  "settlementType": "Capital City",
+  "settlementJsonPath": "shared/settlements/Aelwynora/Elarithen/Elarithen_Aelwynora.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "aelwynora:Elarithen",
+    "provinceKey": "aelwynora",
+    "province": "Aelwynora",
+    "settlement": "Elarithen",
+    "type": "Capital City",
+    "biomes": [
+      "Beach and grass with water",
+      "Partial forest",
+      "Farming"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Elarithen at the final Partial forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1146.0,
+        "y": 346.0,
+        "ix": 1146,
+        "iy": 346
+      },
+      "mappedBiomeDepth": "Partial forest",
+      "mappedBiomePath": "Forest/Partial forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 60,
+      "subsurfaceAnchorZMeters": -60,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 60,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        21.44531,
+        29.17969,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        21.44531,
+        29.17969,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Partial forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Aelwynora",
+      "Named river / delta / canal / lake": "Seleneš Glasswater Sea",
+      "Named bay / gulf / sea / sound": "Elarithen Pearl Bay",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Ocean Surface floating settlement"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Aelwynora",
+      "Mountain range / highland": "Aelwynora Moonback Hills",
+      "Volcano / vent / caldera": "Wilsara Bluevent",
+      "Forest / swamp / landmark": "Sylvarûn Saltleaf Groves"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Aelwynora",
+      "Climate regime": "multi-belt, centered in temperate with marine/deep-water sectors",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Ocean Surface floating settlement",
+      "Named weather": "Silver-Salt Fog",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Aelwynora is centered at 61.114097, -25.982066 under Consensus Democracy, with 47,825,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Aelwynora occupies 5,226,112.83 sq mi / 13,535,570.09 sq km of modeled Earth-sized territory, about 2.653691% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Ocean Surface floating settlement define its broad terrain, while its settlements intensify into Beach and grass with water, Ocean Surface floating settlement, Farming, Hybrid tree and forest floor and Beach and reefs with water. Population density is 3.533 people/sq km / 9.151 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Choral Synod and The Regent Lattice, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Raeshkul, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 21 recorded four-province geography group links, including 18 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Tortle",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 11
+        },
+        {
+          "name": "The Regent Lattice",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Bastveig",
+          "count": 11
+        },
+        {
+          "name": "Sokhivar",
+          "count": 11
+        },
+        {
+          "name": "Raeshkul",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Ferry",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 6
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Silver-Salt Fog",
+      "climateRegime": "multi-belt, centered in temperate with marine/deep-water sectors",
+      "provinceCenterLatitude": 35.42314,
+      "provinceCenterLongitude": 18.49392,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Partial forest",
+    "mappedBiomePath": "Forest/Partial forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1146.0,
+      "y": 346.0,
+      "longitude": 21.44531,
+      "latitude": 29.17969,
+      "utc": "UTC+1",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "dr-allia-fillmore",
+      "name": "Dr. Allia Fillmore",
+      "sourceType": "immersive_npc_roster",
+      "role": "Chief Engineer",
+      "faction": "The Glasswell Institute",
+      "settlement": "Elarithen",
+      "province": "Aelwynora",
+      "settlementKey": "aelwynora:Elarithen",
+      "provinceKey": "aelwynora",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "dr-allia-fillmore",
+      "name": "Dr. Allia Fillmore",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Aelwynora",
+      "provinceKey": "aelwynora",
+      "settlement": "Elarithen",
+      "settlementKey": "aelwynora:Elarithen",
+      "description": "Dr. Allia Fillmore is a Dwarf chief engineer who believes every grand ideology eventually becomes a maintenance problem with screaming civilians attached. She keeps Glasswell Institute power systems, transit engines, and ichor-processing conduits functioning through stubborn craft, ruthless prioritization, and a terrifying memory for who ignored her warnings. Allia is loyal to infrastructure before leadership, which makes her invaluable when the machine works and dangerous when she decides the machine should not.",
+      "settlementAndAncestryTexture": "Elarithen is a Capital City in Aelwynora, under Consensus Democracy, with high danger, Beach and grass with water, Partial forest, Farming terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Dwarf reads through the Dwarf entry of the race compendium, within Dwarven and Gnomish Kin, marked by Marduthor. Dwarves are stout, resilient folk deeply tied to stone, craft, and ancestral tradition. They value honor, craftsmanship, and enduring legacies over fleeting trends. Table cues: Darkvision, Dwarven Resilience, Dwarven Toughness, Stonecunning; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Allia has a sealed list of every Directorate project she considers structurally doomed.",
+        "When she says an ichor valve is 'temperamental,' veterans leave the district."
+      ],
+      "plotHooks": [
+        "Allia needs outside hands to repair a failing conduit without alerting superiors who would rather hide the casualty count.",
+        "The party must decide whether to help Allia stabilize a Directorate engine or let its collapse expose a larger crime."
+      ],
+      "profileId": "npc_0050_dr_allia_fillmore",
+      "race": "Dwarf",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Guardian",
+      "residence": "Elarithen - Boarding House",
+      "workplace": "Elarithen Guild Desk",
+      "job": "Chief Engineer",
+      "faction": "The Glasswell Institute",
+      "profileTable": {
+        "id": "npc_0050_dr_allia_fillmore",
+        "race": "Dwarf",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Guardian",
+        "province": "Aelwynora",
+        "settlement": "Elarithen",
+        "residence": "Elarithen - Boarding House",
+        "workplace": "Elarithen Guild Desk",
+        "job": "Chief Engineer",
+        "faction": "The Glasswell Institute"
+      },
+      "quickIndexNumber": 50,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Elarithen",
+        "province": "Aelwynora",
+        "settlementKey": "aelwynora:Elarithen",
+        "provinceKey": "aelwynora"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

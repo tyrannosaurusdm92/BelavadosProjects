@@ -1,0 +1,481 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "iazethas:Faelvyrûn",
+  "settlement": "Faelvyrûn",
+  "provinceKey": "iazethas",
+  "province": "Iazethas",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Iazethas/Faelvyrun/Faelvyrun_Iazethas.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "iazethas:Faelvyrûn",
+    "provinceKey": "iazethas",
+    "province": "Iazethas",
+    "settlement": "Faelvyrûn",
+    "type": "Town",
+    "biomes": [
+      "Partial forest",
+      "Deep forest",
+      "Farming"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Faelvyrûn at the final Partial forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 124.0,
+        "y": 596.0,
+        "ix": 124,
+        "iy": 596
+      },
+      "mappedBiomeDepth": "Partial forest",
+      "mappedBiomePath": "Forest/Partial forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 582.04,
+      "surfaceAnchorZMeters": 582,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 582,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -158.20312,
+        -14.76562,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -158.20312,
+        -14.76562,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Partial forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Iazethas",
+      "Named river / delta / canal / lake": "Iazethas Brownwater Gulf",
+      "Named bay / gulf / sea / sound": "Mostrerah Marsh Bay",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Deep forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Iazethas",
+      "Mountain range / highland": "Iazethas Mudstone Teeth",
+      "Volcano / vent / caldera": "Mudglass Cone",
+      "Forest / swamp / landmark": "Bleasacia Blackfen"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Iazethas",
+      "Climate regime": "broad-latitude tropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "Dominant terrain": "Partial forest; Farming; Deep forest",
+      "Named weather": "Brownwater Thunder",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Iazethas is centered at -14.170558, -146.861304 under Triumvirate, with 105,112,000 people across 10 settlements.",
+      "extremeAtlasDescription": "Iazethas occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Deep forest. Bleasacia, Streccea, Myr'ethûn, and Pokbith form the mountain record: the first, second, and fourth are deep mountain settlements, while Myr'ethûn descends through caverns with underworld rumors.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Draconic Peoples, Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Dragonborn, Dragonborn — Black Dragonborn, Dragonborn — Blue Dragonborn, Dragonborn — Brass Dragonborn, Dragonborn — Bronze Dragonborn, Dragonborn — Copper Dragonborn, Dragonborn — Gold Dragonborn, Dragonborn — Green Dragonborn, and 4 more. Faction visibility leans toward The Choral Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Bastveig, Sokhivar, Sigrananna, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 3 recorded four-province geography group links, including 1 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Draconic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 10
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Black Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Blue Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Brass Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Bronze Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Copper Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Gold Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Green Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Red Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — Silver Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Dragonborn — White Dragonborn",
+          "count": 10
+        },
+        {
+          "name": "Human",
+          "count": 10
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Choral Synod",
+          "count": 10
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 10
+        },
+        {
+          "name": "Ishtanora",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Sokhivar",
+          "count": 10
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Thalunesh",
+          "count": 3
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Mountain range",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 2
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Bleasacia: Bleasacia is a deep mountain city in Iazethas.",
+        "Myr'ethûn: Myr'ethûn is a deep mountain cavern village beneath Iazethas, with halls so low that underworld access is rumored within.",
+        "Pokbith: Pokbith is a deep mountain village in Iazethas.",
+        "Streccea: Streccea is a deep mountain city in Iazethas."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Brownwater Thunder",
+      "climateRegime": "broad-latitude tropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "provinceCenterLatitude": -21.49765,
+      "provinceCenterLongitude": -160.53076,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Partial forest",
+    "mappedBiomePath": "Forest/Partial forest",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 124.0,
+      "y": 596.0,
+      "longitude": -158.20312,
+      "latitude": -14.76562,
+      "utc": "UTC-11",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "irma-velvetglass",
+      "name": "Irma Velvetglass",
+      "sourceType": "immersive_npc_roster",
+      "role": "Memory Den Host",
+      "faction": "The Brass Concordat",
+      "settlement": "Faelvyrûn",
+      "province": "Iazethas",
+      "settlementKey": "iazethas:Faelvyrûn",
+      "provinceKey": "iazethas",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "irma-velvetglass",
+      "name": "Irma Velvetglass",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Iazethas",
+      "provinceKey": "iazethas",
+      "settlement": "Faelvyrûn",
+      "settlementKey": "iazethas:Faelvyrûn",
+      "description": "Irma Velvetglass is a Celestial Elf memory-den host who dresses grief in velvet, candlelight, perfume, and plausible deniability. She offers curated recollection rituals, dream seats, old love reenactments, and supervised ichor-adjacent memory treatments to people who can pay or who are broken enough that someone else pays for them. Irma is theatrical, warm, and business-minded, but she knows nostalgia becomes a narcotic when the present hurts too much to inhabit.",
+      "settlementAndAncestryTexture": "Faelvyrûn is a Town in Iazethas, under Triumvirate, with low danger, Partial forest, Deep forest, Farming terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Celestial Elf reads through the Half-Elf (choose an Elf Bloodline) entry of the race compendium, within Humans, Near-Humans, and Mixed Heritage, marked by Nebyrr. The local form is read through Half-Elf — Celestial Elf. Half-elves are dual-natured beings born of human and elven lineage, often balancing ambition with longevity. They tend to struggle with identity but excel at diplomacy, adaptability, and bridging cultures. Table cues: +2 Charisma, +1 to Two Other Ability Scores, Darkvision, Fey Ancestry; starting tendency Neutral - Lawful - Cooperative - Neutral.",
+      "rumors": [
+        "Irma can tell whether a client wants healing, escape, or punishment by how they sit before the memory chair warms.",
+        "A magistrate visits her den monthly to remember a crime they officially never witnessed."
+      ],
+      "plotHooks": [
+        "Irma hires the party after a client's purchased memory begins spreading to other visitors.",
+        "A missing agent left their last real recollection in Irma's care, but opening it may expose half the district."
+      ],
+      "profileId": "npc_0060_irma_velvetglass",
+      "race": "Celestial Elf",
+      "genderAndPronouns": "Cis-Female • she/her",
+      "householdRole": "Hidden Resident",
+      "residence": "Faelvyrûn - Boarding House",
+      "workplace": "Faelvyrûn Guild Desk",
+      "job": "Memory Den Host",
+      "faction": "The Brass Concordat",
+      "profileTable": {
+        "id": "npc_0060_irma_velvetglass",
+        "race": "Celestial Elf",
+        "gender_pronouns": "Cis-Female • she/her",
+        "household_role": "Hidden Resident",
+        "province": "Iazethas",
+        "settlement": "Faelvyrûn",
+        "residence": "Faelvyrûn - Boarding House",
+        "workplace": "Faelvyrûn Guild Desk",
+        "job": "Memory Den Host",
+        "faction": "The Brass Concordat"
+      },
+      "quickIndexNumber": 60,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Faelvyrûn",
+        "province": "Iazethas",
+        "settlementKey": "iazethas:Faelvyrûn",
+        "provinceKey": "iazethas"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

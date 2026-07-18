@@ -1,0 +1,2275 @@
+{
+  "schema": "belavados.settlement.canonical.v4",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "sourceWorldZip": "Belavados_World_Player_Map_FINAL_UNBROKEN_LOCKED.zip",
+  "sourceHybridCacheZip": "belavados_hybrid_location_cache_pages.zip",
+  "htmlFileName": "Eryndor_Jormaelis.html",
+  "sourceMapHtmlFileName": "Eryndor_Jormaelis.html",
+  "settlementJsonFileName": "Eryndor_Jormaelis.json",
+  "provinceFolder": "Jormaelis",
+  "settlementFolder": "Eryndor",
+  "template": {
+    "size": "Village",
+    "folder": "villages",
+    "biomeCacheUsed": [
+      "Ocean Surface floating settlement",
+      "Underwater with reefs",
+      "Underwater without reefs"
+    ],
+    "sourceTemplateFile": "villages/ocean-surface-floating-settlement__underwater-with-reefs__underwater-without-reefs.html",
+    "sourceSettlementBiomes": [
+      "Ocean Surface floating settlement",
+      "Underwater without reefs"
+    ]
+  },
+  "settlement": {
+    "id": "jormaelis:Éryndor",
+    "scope": "settlement",
+    "province": "Jor’maelis",
+    "provinceKey": "jormaelis",
+    "provinceFolder": "Jormaelis",
+    "settlement": "Éryndor",
+    "name": "Éryndor",
+    "type": "Village",
+    "settlementType": "Village",
+    "x": 138.0,
+    "y": 292.0,
+    "lat": 38.67188,
+    "lon": -155.74219,
+    "latitude": 38.67188,
+    "longitude": -155.74219,
+    "population": 6839118,
+    "squareMiles": 78773.9001,
+    "squareKilometers": 204023.6136,
+    "tags": [
+      "maritime",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:elven-types",
+      "race:draconic-and-reptilian-races",
+      "race:elemental-and-energy-born-peoples",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "danger:elevated",
+      "government:communalism",
+      "type:village",
+      "water-class:underwater",
+      "alignment:altruistic",
+      "alignment:neutral",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:steamship",
+      "transit:submarine",
+      "faction:the-nefaric-veil"
+    ],
+    "races": [
+      "Human",
+      "Halfling",
+      "Elf — Sea Elf",
+      "Tortle",
+      "Genasi — Water Genasi",
+      "Hadozee",
+      "Triton",
+      "Merfolk",
+      "Locathah"
+    ],
+    "raceCategories": [
+      "Humans, Near-Humans, and Mixed Heritage",
+      "Halfling and Smallfolk",
+      "Elven-Types",
+      "Draconic and Reptilian Races",
+      "Elemental and Energy-Born Peoples",
+      "Animalfolk and Mammalian Anthropomorphs",
+      "Amphibious and Aquatic Peoples"
+    ],
+    "deitiesWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Valkhamesh",
+      "Horundar",
+      "Iskareth",
+      "Bastveig",
+      "Nefarokir",
+      "Eirzunet",
+      "Thalunesh",
+      "Freyseth",
+      "Hathruna"
+    ],
+    "danger": "Elevated",
+    "alignmentAxes": {
+      "altruism": "Altruistic",
+      "lawfulness": "Neutral",
+      "cooperation": "Cooperative",
+      "honor": "Honorable"
+    },
+    "transportation": [
+      "Steamship",
+      "Submarine"
+    ],
+    "htmlFileName": "Eryndor_Jormaelis.html",
+    "htmlFile": "Eryndor_Jormaelis.html",
+    "provinceGovernment": "Communalism",
+    "biomes": [
+      "Ocean Surface floating settlement",
+      "Underwater without reefs"
+    ],
+    "biomePaths": [
+      "Ocean/Ocean Surface floating settlement",
+      "Ocean/Underwater without reefs"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "scannerDominantBiome": "Ocean Surface floating settlement",
+    "scannerBiomeTypes": [
+      "Ocean Surface floating settlement",
+      "Underwater without reefs"
+    ],
+    "manualWaterLandClass": "underwater",
+    "hexBiomeScan": {
+      "exactHex": "#329BE4",
+      "exactBiomePath": "Ocean/Ocean Surface floating settlement",
+      "exactBiome": "Ocean Surface floating settlement",
+      "dominantBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement",
+        "Underwater without reefs"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement",
+        "Ocean/Underwater without reefs"
+      ],
+      "landWaterClass": "ocean_surface",
+      "localBiomePercentsRadius25": {
+        "Ocean Surface floating settlement": 0.7601,
+        "Underwater without reefs": 0.2188,
+        "Underwater with reefs": 0.0188,
+        "Beach and reefs with water": 0.0023
+      },
+      "localBiomePercentsRadius40": {
+        "Ocean Surface floating settlement": 0.6693,
+        "Underwater without reefs": 0.2457,
+        "Underwater with reefs": 0.0439,
+        "Beach and grass with water": 0.0238,
+        "Beach and reefs with water": 0.0131,
+        "Mountain range": 0.0035,
+        "Farming": 0.0005,
+        "Grassland": 0.0002
+      },
+      "localWaterPercentRadius25": 0.9977,
+      "localLandHybridPercentRadius25": 0.0023,
+      "manualHexAuthority": true,
+      "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+    },
+    "raceCommunities": [
+      {
+        "raceId": "human",
+        "raceName": "Human",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Human",
+        "categoryId": "humans_near_humans_and_mixed_heritage",
+        "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+        "categoryNumber": 1,
+        "creatorGod": "Nebyrr",
+        "deityWorshipped": "Nebyrr",
+        "presence": "common"
+      },
+      {
+        "raceId": "halfling",
+        "raceName": "Halfling",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Halfling",
+        "categoryId": "halfling_and_smallfolk",
+        "categoryName": "Halfling and Smallfolk",
+        "categoryNumber": 4,
+        "creatorGod": "Ishtanora",
+        "deityWorshipped": "Ishtanora",
+        "presence": "common"
+      },
+      {
+        "raceId": "elf",
+        "raceName": "Elf",
+        "lineageId": "sea_elf",
+        "lineageName": "Sea Elf",
+        "displayName": "Elf — Sea Elf",
+        "categoryId": "elven_types",
+        "categoryName": "Elven-Types",
+        "categoryNumber": 2,
+        "creatorGod": "Sigrananna",
+        "deityWorshipped": "Sigrananna",
+        "presence": "common"
+      },
+      {
+        "raceId": "tortle",
+        "raceName": "Tortle",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Tortle",
+        "categoryId": "draconic_and_reptilian_races",
+        "categoryName": "Draconic and Reptilian Races",
+        "categoryNumber": 7,
+        "creatorGod": "Valkhamesh",
+        "deityWorshipped": "Valkhamesh",
+        "presence": "common"
+      },
+      {
+        "raceId": "genasi",
+        "raceName": "Genasi",
+        "lineageId": "water_genasi_lineage",
+        "lineageName": "Water Genasi",
+        "displayName": "Genasi — Water Genasi",
+        "categoryId": "elemental_and_energy_born_peoples",
+        "categoryName": "Elemental and Energy-Born Peoples",
+        "categoryNumber": 11,
+        "creatorGod": "Horundar",
+        "deityWorshipped": "Horundar",
+        "presence": "minority"
+      },
+      {
+        "raceId": "hadozee",
+        "raceName": "Hadozee",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Hadozee",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "minority"
+      },
+      {
+        "raceId": "triton",
+        "raceName": "Triton",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Triton",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "common"
+      },
+      {
+        "raceId": "merfolk",
+        "raceName": "Merfolk",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Merfolk",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "common"
+      },
+      {
+        "raceId": "locathah",
+        "raceName": "Locathah",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Locathah",
+        "categoryId": "amphibious_and_aquatic_peoples",
+        "categoryName": "Amphibious and Aquatic Peoples",
+        "categoryNumber": 16,
+        "creatorGod": "Bastveig",
+        "deityWorshipped": "Bastveig",
+        "presence": "common"
+      }
+    ],
+    "raceCategoryIds": [
+      "humans_near_humans_and_mixed_heritage",
+      "halfling_and_smallfolk",
+      "elven_types",
+      "draconic_and_reptilian_races",
+      "elemental_and_energy_born_peoples",
+      "animalfolk_and_mammalian_anthropomorphs",
+      "amphibious_and_aquatic_peoples"
+    ],
+    "dangerLevel": "Elevated",
+    "dangerScore": 3.4,
+    "preferredAlignment": "Altruistic - Neutral - Cooperative - Honorable",
+    "publicTransit": [
+      "Steamship",
+      "Submarine"
+    ],
+    "publicTransportation": [
+      "Steamship",
+      "Submarine"
+    ],
+    "manualAssignmentLock": true,
+    "manualAssignmentSource": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "correctedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "updatedAt": "2026-07-01T00:00:00-04:00",
+    "scannerLandmarks": [
+      "ocean",
+      "reef"
+    ],
+    "terrainInfo": {
+      "scannerDominantBiome": "Ocean Surface floating settlement",
+      "scannerBiomeTypes": [
+        "Ocean Surface floating settlement",
+        "Underwater without reefs"
+      ],
+      "hexBiomeScan": {
+        "exactHex": "#329BE4",
+        "exactBiomePath": "Ocean/Ocean Surface floating settlement",
+        "exactBiome": "Ocean Surface floating settlement",
+        "dominantBiome": "Ocean Surface floating settlement",
+        "biomes": [
+          "Ocean Surface floating settlement",
+          "Underwater without reefs"
+        ],
+        "biomePaths": [
+          "Ocean/Ocean Surface floating settlement",
+          "Ocean/Underwater without reefs"
+        ],
+        "landWaterClass": "ocean_surface",
+        "localBiomePercentsRadius25": {
+          "Ocean Surface floating settlement": 0.7601,
+          "Underwater without reefs": 0.2188,
+          "Underwater with reefs": 0.0188,
+          "Beach and reefs with water": 0.0023
+        },
+        "localBiomePercentsRadius40": {
+          "Ocean Surface floating settlement": 0.6693,
+          "Underwater without reefs": 0.2457,
+          "Underwater with reefs": 0.0439,
+          "Beach and grass with water": 0.0238,
+          "Beach and reefs with water": 0.0131,
+          "Mountain range": 0.0035,
+          "Farming": 0.0005,
+          "Grassland": 0.0002
+        },
+        "localWaterPercentRadius25": 0.9977,
+        "localLandHybridPercentRadius25": 0.0023,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+      },
+      "scannerEvidenceMode": "manual hexcode authority pass v4; scanner guesses are advisory only",
+      "correctedBy": "Manual hexcode authority pass v4",
+      "landWaterClass": "ocean_surface"
+    },
+    "settlementScan": {
+      "scannerDominantBiome": "Ocean Surface floating settlement",
+      "scannerBiomeTypes": [
+        "Ocean Surface floating settlement",
+        "Underwater without reefs"
+      ],
+      "hexBiomeScan": {
+        "exactHex": "#329BE4",
+        "exactBiomePath": "Ocean/Ocean Surface floating settlement",
+        "exactBiome": "Ocean Surface floating settlement",
+        "dominantBiome": "Ocean Surface floating settlement",
+        "biomes": [
+          "Ocean Surface floating settlement",
+          "Underwater without reefs"
+        ],
+        "biomePaths": [
+          "Ocean/Ocean Surface floating settlement",
+          "Ocean/Underwater without reefs"
+        ],
+        "landWaterClass": "ocean_surface",
+        "localBiomePercentsRadius25": {
+          "Ocean Surface floating settlement": 0.7601,
+          "Underwater without reefs": 0.2188,
+          "Underwater with reefs": 0.0188,
+          "Beach and reefs with water": 0.0023
+        },
+        "localBiomePercentsRadius40": {
+          "Ocean Surface floating settlement": 0.6693,
+          "Underwater without reefs": 0.2457,
+          "Underwater with reefs": 0.0439,
+          "Beach and grass with water": 0.0238,
+          "Beach and reefs with water": 0.0131,
+          "Mountain range": 0.0035,
+          "Farming": 0.0005,
+          "Grassland": 0.0002
+        },
+        "localWaterPercentRadius25": 0.9977,
+        "localLandHybridPercentRadius25": 0.0023,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+      },
+      "correctedBy": "Manual hexcode authority pass v4"
+    },
+    "transitRuleV5": {
+      "source": "manual transit correction v5 from user rule",
+      "railLabelInData": "Train",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Submarine",
+        "Steamship"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "ferryRule": "Ferry is assigned when local hexcode water evidence indicates a short/local crossing; larger water exposure uses Steamship/Submarine.",
+      "localWaterPercentRadius25": 0.9977,
+      "shortFerryWaterProxy": false,
+      "expandedWaterProxy": true,
+      "classification": "ocean_surface",
+      "isLandBased": false,
+      "isCoastal": false,
+      "isDeepWater": true
+    },
+    "factions": {
+      "id": "fac_nefaric_veil",
+      "name": "The Nefaric Veil",
+      "subtitle": "death-ledger assassin cult and ritual contract office",
+      "primarySeat": "Grimvald, Drakmorren",
+      "atTableRole": "Use for assassination horror, death-ledger mysteries, moral dilemmas, corpse routes, and eerie justice that may be correct for the wrong reasons.",
+      "publicFace": "Punish stolen years, false inheritance, unlawful survival, and debts the courts refuse to touch.",
+      "hiddenTeeth": "Some deaths expose real corruption, but the cult also sells sanctified murder to nobles, officials, and desperate clients addicted to its mercy.",
+      "patrons": [
+        "Nefarokir",
+        "Eirzunet",
+        "Thalunesh",
+        "Freyseth",
+        "Hathruna"
+      ],
+      "alignmentTendency": {
+        "Altruism": 1000,
+        "Lawfulness": 1100,
+        "Cooperation": 1400,
+        "Honor": 900
+      },
+      "riskModifier": 1.3,
+      "influenceLevel": "faction-site",
+      "locationNetwork": [
+        {
+          "province": "Jor’maelis",
+          "primaryUTC": "UTC-10",
+          "displayUTCs": [
+            "UTC-10",
+            "UTC-9"
+          ],
+          "listedSites": [
+            "Mossirueth",
+            "Utch’myrith",
+            "Ish’voryk",
+            "Éryndor"
+          ]
+        }
+      ]
+    },
+    "associatedFactions": [
+      "The Nefaric Veil"
+    ],
+    "associatedFactionIds": [
+      "fac_nefaric_veil"
+    ],
+    "factionInfluenceLevels": {
+      "fac_nefaric_veil": "faction-site"
+    },
+    "factionPatronDeities": [
+      "Nefarokir",
+      "Eirzunet",
+      "Thalunesh",
+      "Freyseth",
+      "Hathruna"
+    ],
+    "godsWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Valkhamesh",
+      "Horundar",
+      "Iskareth",
+      "Bastveig",
+      "Nefarokir",
+      "Eirzunet",
+      "Thalunesh",
+      "Freyseth",
+      "Hathruna"
+    ],
+    "dangerRating": "Elevated danger",
+    "dangerComputation": {
+      "baseManualRaceGovernmentScore": 2.0,
+      "preferredAlignmentModifier": -0.8,
+      "alignmentComponents": [
+        [
+          "altruism",
+          "altruistic",
+          -0.4
+        ],
+        [
+          "lawfulness",
+          "neutral",
+          0.1
+        ],
+        [
+          "cooperation",
+          "cooperative",
+          -0.3
+        ],
+        [
+          "honor",
+          "honorable",
+          -0.2
+        ]
+      ],
+      "provinceGovernment": "Communalism",
+      "provinceGovernmentModifier": -0.2,
+      "settlementTypeModifier": -0.3,
+      "raceModifier": 0.2,
+      "raceNotes": [
+        "draconic/reptilian/amphibious pressure",
+        "aquatic frontier pressure",
+        "diverse civic redundancy"
+      ],
+      "associatedFactionModifier": 1.7,
+      "associatedFactionComponents": [
+        {
+          "faction": "The Nefaric Veil",
+          "level": "faction-site",
+          "modifier": 1.7
+        }
+      ],
+      "factionConflictModifier": 0.0,
+      "waterClass": "underwater",
+      "waterClassModifier": 0.8,
+      "formula": "previous locked race/government score + preferred alignment + province government + settlement type + race pressure + associated faction influence + faction conflict + water/frontier modifier",
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)"
+    },
+    "contentLocked": true,
+    "worldCanonLocked": true,
+    "playerEditable": false,
+    "lockedFields": [
+      "dangerLevel",
+      "dangerScore",
+      "danger",
+      "races",
+      "raceCategories",
+      "raceCommunities",
+      "transportation",
+      "publicTransit",
+      "publicTransportation",
+      "deitiesWorshipped",
+      "godsWorshipped",
+      "biomes",
+      "biomePaths",
+      "primaryBiome",
+      "settlementTags",
+      "tags",
+      "factions",
+      "associatedFactions",
+      "preferredAlignment",
+      "alignmentAxes",
+      "provinceGovernment"
+    ],
+    "lockPolicy": {
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+      "editing": "disabled in player-facing map and data records",
+      "pinMovement": "disabled",
+      "borderMovement": "disabled"
+    },
+    "draggable": false,
+    "pinRenderMode": "live-static-svg-pin",
+    "pinStorageMode": "locked-coordinate-record",
+    "cssClass": "settlement-pin live-js-css-pin locked-settlement-pin",
+    "transitRuleFinal": {
+      "source": "Final lock pass from user rule",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Steamship",
+        "Submarine",
+        "Train",
+        "Caravan"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "classification": "underwater",
+      "locked": true
+    },
+    "generatedHtmlFileName": "Eryndor_Jormaelis.html",
+    "sourceMapHtmlFileName": "Eryndor_Jormaelis.html",
+    "settlementFolder": "Eryndor",
+    "templateBiomeCacheUsed": [
+      "Ocean Surface floating settlement",
+      "Underwater with reefs",
+      "Underwater without reefs"
+    ],
+    "templateSourceFile": "villages/ocean-surface-floating-settlement__underwater-with-reefs__underwater-without-reefs.html",
+    "generatedJsonFileName": "Eryndor_Jormaelis.json",
+    "playerFacingMapPlaceholder": {
+      "type": "locked-coordinate-svg-placeholder",
+      "editable": false,
+      "x": 1943.199951171875,
+      "y": 601.3250122070312,
+      "latitude": -15.701662302017212,
+      "longitude": 161.57811641693115
+    },
+    "utcOffset": 11,
+    "utcLabel": "UTC+11",
+    "provinceWater": {
+      "inlandWater": "Jor’maelis Sunlit Sea",
+      "baySeaSound": "Caelorynth Bright Gulf",
+      "waterTerrain": "Underwater without reefs; Beach and grass with water; Partial forest"
+    },
+    "provinceLandmarks": {
+      "highland": "Jor’maelis Pale Peaks",
+      "volcanoOrVent": "Sunlance Vent",
+      "forestOrSwamp": "Lilyfire Coastwood"
+    },
+    "provinceWeather": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "namedWeather": "Sunlance Cyclone Bands",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "weatherNotes": [
+      {
+        "label": "Ocean Surface floating settlement",
+        "description": "Salt haze, squalls, moon-tide fog, floating docks.",
+        "response": "Tide stairs, breakaway piers, shell gardens, roof nets, fog horns."
+      }
+    ],
+    "topographyWeatherCanon": {
+      "schema": "belavados.settlement_topography_weather_canon.v1",
+      "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+      "sourceDocuments": [
+        "Belavadös Canonical Topography guide.docx",
+        "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+        "full_world_height_map.json"
+      ],
+      "settlementKey": "jormaelis:Éryndor",
+      "provinceKey": "jormaelis",
+      "province": "Jor’maelis",
+      "settlement": "Éryndor",
+      "type": "Village",
+      "biomes": [
+        "Ocean Surface floating settlement",
+        "Underwater without reefs"
+      ],
+      "primaryBiome": "Ocean Surface floating settlement",
+      "pinPlacement": "underwater-pin",
+      "localTopographicRule": "Underwater settlement: anchor below sea level at -1758 m with pressure corridors, locks, ledges, reef or dark-water access, and a visible water column above.",
+      "localRasterSample": {
+        "pixel": {
+          "x": 1457.4,
+          "y": 601.325,
+          "ix": 1457,
+          "iy": 601
+        },
+        "exactPaintedHex": "#329BE4",
+        "biomeCategoryId": 0,
+        "biomeCategory": "Ocean Surface floating settlement",
+        "biomePath": "Ocean/Ocean Surface floating settlement",
+        "verticalBandId": 5,
+        "verticalBand": "deep_water_180_4800m_below",
+        "regionKey": 5,
+        "heightRaw16": 3084,
+        "heightRaw8Azgaar": 12,
+        "surfaceMetersAboveSeaLevel": 0.0,
+        "depthMetersBelowSeaLevel": 1757.6,
+        "zMetersFor3D": 0.0
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": -1758.0,
+        "surfaceAnchorZMeters": 0,
+        "subsurfaceDepthMeters": 1758,
+        "subsurfaceAnchorZMeters": -1758,
+        "maxHeightMetersAboveSeaLevel": 0,
+        "maxDepthMetersBelowSeaLevel": 1758,
+        "anchorMode": "underwater_anchor",
+        "pinPlacement": "underwater-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          161.5781164,
+          -15.7016623,
+          -1758.0
+        ],
+        "surfaceAnchorCoordinates": [
+          161.5781164,
+          -15.7016623,
+          0
+        ],
+        "subsurfaceAnchorCoordinates": [
+          161.5781164,
+          -15.7016623,
+          -1758
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "provinceWaterAtlas": {
+        "Province": "Jor’maelis",
+        "Named river / delta / canal / lake": "Jor’maelis Sunlit Sea",
+        "Named bay / gulf / sea / sound": "Caelorynth Bright Gulf",
+        "Terrain that feeds the water": "Underwater without reefs; Beach and grass with water; Partial forest"
+      },
+      "provinceLandformAtlas": {
+        "Province": "Jor’maelis",
+        "Mountain range / highland": "Jor’maelis Pale Peaks",
+        "Volcano / vent / caldera": "Sunlance Vent",
+        "Forest / swamp / landmark": "Lilyfire Coastwood"
+      },
+      "provinceClimateAtlas": {
+        "Province": "Jor’maelis",
+        "Climate belt": "Sunbelt reef-wet belt",
+        "Dominant terrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+        "Named weather": "Sunlance Cyclone Bands",
+        "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+      },
+      "provinceDeepAtlasProfile": {
+        "oneLine": "Jor’maelis is centered at -46.374220, 130.627031 under Communalism, with 105,431,000 people across 13 settlements.",
+        "extremeAtlasDescription": "Jor’maelis occupies 10,194,632.18 sq mi / 26,403,976.13 sq km of modeled Earth-sized territory, about 5.176582% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Underwater without reefs, Beach and grass with water and Partial forest define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Underwater without reefs, Partial forest and Farming. Population density is 3.993 people/sq km / 10.342 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+        "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Merfolk, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nefarokir, Eirzunet, Nebyrr, Ishtanora, Iskareth, Sigrananna, Bastveig, and 3 more.",
+        "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+        "dominantRaceCategories": [
+          {
+            "name": "Humans, Near-Humans, and Mixed Heritage",
+            "count": 11
+          },
+          {
+            "name": "Halfling and Smallfolk",
+            "count": 11
+          },
+          {
+            "name": "Animalfolk and Mammalian Anthropomorphs",
+            "count": 11
+          },
+          {
+            "name": "Elven-Types",
+            "count": 10
+          },
+          {
+            "name": "Amphibious and Aquatic Peoples",
+            "count": 10
+          },
+          {
+            "name": "Elemental and Energy-Born Peoples",
+            "count": 8
+          },
+          {
+            "name": "Draconic and Reptilian Races",
+            "count": 6
+          },
+          {
+            "name": "Dwarven and Gnomish Kin",
+            "count": 5
+          }
+        ],
+        "dominantRaces": [
+          {
+            "name": "Human",
+            "count": 11
+          },
+          {
+            "name": "Halfling — Lightfoot Halfling",
+            "count": 11
+          },
+          {
+            "name": "Triton",
+            "count": 8
+          },
+          {
+            "name": "Merfolk",
+            "count": 7
+          },
+          {
+            "name": "Elf — Sea Elf",
+            "count": 6
+          },
+          {
+            "name": "Tortle",
+            "count": 6
+          },
+          {
+            "name": "Genasi — Water Genasi",
+            "count": 6
+          },
+          {
+            "name": "Hadozee",
+            "count": 6
+          },
+          {
+            "name": "Locathah",
+            "count": 6
+          },
+          {
+            "name": "Tamhiogal",
+            "count": 5
+          },
+          {
+            "name": "Dril'thar — Ocean",
+            "count": 5
+          },
+          {
+            "name": "Dril'thar — Reef",
+            "count": 5
+          }
+        ],
+        "dominantFactions": [
+          {
+            "name": "The Nefaric Veil",
+            "count": 13
+          }
+        ],
+        "dominantDeities": [
+          {
+            "name": "Nefarokir",
+            "count": 13
+          },
+          {
+            "name": "Eirzunet",
+            "count": 13
+          },
+          {
+            "name": "Nebyrr",
+            "count": 11
+          },
+          {
+            "name": "Ishtanora",
+            "count": 11
+          },
+          {
+            "name": "Iskareth",
+            "count": 11
+          },
+          {
+            "name": "Sigrananna",
+            "count": 10
+          },
+          {
+            "name": "Bastveig",
+            "count": 10
+          },
+          {
+            "name": "Horundar",
+            "count": 8
+          },
+          {
+            "name": "Valkhamesh",
+            "count": 6
+          },
+          {
+            "name": "Thalunesh",
+            "count": 6
+          }
+        ],
+        "dangerSpread": [
+          {
+            "name": "Severe",
+            "count": 4
+          },
+          {
+            "name": "Low",
+            "count": 4
+          },
+          {
+            "name": "High",
+            "count": 2
+          },
+          {
+            "name": "Moderate",
+            "count": 2
+          },
+          {
+            "name": "Elevated",
+            "count": 1
+          }
+        ],
+        "settlementTypeSpread": [
+          {
+            "name": "Town",
+            "count": 4
+          },
+          {
+            "name": "City",
+            "count": 4
+          },
+          {
+            "name": "Village",
+            "count": 4
+          },
+          {
+            "name": "Capital City",
+            "count": 1
+          }
+        ],
+        "transitModeSpread": [
+          {
+            "name": "Submarine",
+            "count": 12
+          },
+          {
+            "name": "Steamship",
+            "count": 10
+          },
+          {
+            "name": "Train / Rail",
+            "count": 7
+          },
+          {
+            "name": "Caravan",
+            "count": 7
+          },
+          {
+            "name": "Skyship",
+            "count": 5
+          },
+          {
+            "name": "Ferry",
+            "count": 5
+          },
+          {
+            "name": "Portal",
+            "count": 1
+          }
+        ],
+        "primaryBiomeSpread": [
+          {
+            "name": "Ocean Surface floating settlement",
+            "count": 4
+          },
+          {
+            "name": "Beach and grass with water",
+            "count": 4
+          },
+          {
+            "name": "Underwater without reefs",
+            "count": 2
+          },
+          {
+            "name": "Partial forest",
+            "count": 2
+          },
+          {
+            "name": "Farming",
+            "count": 1
+          }
+        ]
+      },
+      "weather": {
+        "namedWeather": "Sunlance Cyclone Bands",
+        "climateBelt": "Sunbelt reef-wet belt",
+        "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m",
+        "globalNamedWeatherDefinitions": [
+          {
+            "Weather name": "Copper-Silver King Tide",
+            "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+          },
+          {
+            "Weather name": "Hushed Neap",
+            "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+          },
+          {
+            "Weather name": "Storm-Stack Tide",
+            "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+          },
+          {
+            "Weather name": "Bastveig Drawdown",
+            "What it means": "A sudden retreat of water before trench-fed surge returns."
+          },
+          {
+            "Weather name": "Horundar Wall",
+            "What it means": "A black-green wall of rain that crosses whole coasts."
+          },
+          {
+            "Weather name": "Nannara Bead Squalls",
+            "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+          },
+          {
+            "Weather name": "Seleneš Silver Fog",
+            "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+          },
+          {
+            "Weather name": "Dragon-Anvil Cloud",
+            "What it means": "A towering thunderhead that forms over heated highlands."
+          },
+          {
+            "Weather name": "Hag-Lantern Mist",
+            "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+          },
+          {
+            "Weather name": "Cockatrice Still",
+            "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+          },
+          {
+            "Weather name": "Beholder’s Eye Cyclone",
+            "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+          },
+          {
+            "Weather name": "Goblin Drum Thunder",
+            "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+          },
+          {
+            "Weather name": "Kobold Sump Breath",
+            "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+          },
+          {
+            "Weather name": "Spiderweb Rain",
+            "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+          },
+          {
+            "Weather name": "Basilisk Glass Haze",
+            "What it means": "Shimmering heat that turns distance into false water and false stone."
+          },
+          {
+            "Weather name": "Chimera Crosswind",
+            "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+          },
+          {
+            "Weather name": "Kraken-Surge",
+            "What it means": "A steep, dark swell pushed by far-off pressure changes."
+          },
+          {
+            "Weather name": "Trollwash Rot-Rain",
+            "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+          },
+          {
+            "Weather name": "Owlbear Dusk Gust",
+            "What it means": "A sudden evening wind that turns forest travel loud and blind."
+          },
+          {
+            "Weather name": "Manticore Dusthook",
+            "What it means": "A hooked dust plume ahead of dryline storms."
+          },
+          {
+            "Weather name": "Wyvern Ridge Lightning",
+            "What it means": "Highland lightning that walks along exposed ridges."
+          },
+          {
+            "Weather name": "Gelatinous Roadmire",
+            "What it means": "Rain-soaked clay roads that swallow carts and boots."
+          },
+          {
+            "Weather name": "Mimic Puddle Season",
+            "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+          },
+          {
+            "Weather name": "Ghoulwind",
+            "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+          },
+          {
+            "Weather name": "Griffon Updraft",
+            "What it means": "A clean mountain lift used by skyships and great birds."
+          },
+          {
+            "Weather name": "Sahuagin Undertow",
+            "What it means": "A fast pull beneath reef water during strong tide shifts."
+          },
+          {
+            "Weather name": "Banshee Rain",
+            "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+          },
+          {
+            "Weather name": "Hydra Floodpulse",
+            "What it means": "One storm-fed river splits into several dangerous surges."
+          },
+          {
+            "Weather name": "Wyrmcoil Current",
+            "What it means": "A spiraling river or sea current that turns boats sideways."
+          },
+          {
+            "Weather name": "Moonmoth Bloom",
+            "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+          }
+        ]
+      },
+      "biomeRenderRule": {
+        "id": 0,
+        "group": "Ocean",
+        "category": "Ocean Surface floating settlement",
+        "path": "Ocean/Ocean Surface floating settlement",
+        "preview_color": "#1F97E5"
+      },
+      "renderRules": {
+        "provinceBordersAndPins": "hidden until province dropdown selection",
+        "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+        "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+        "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+        "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+      }
+    },
+    "localRasterSample": {
+      "pixel": {
+        "x": 1457.4,
+        "y": 601.325,
+        "ix": 1457,
+        "iy": 601
+      },
+      "exactPaintedHex": "#329BE4",
+      "biomeCategoryId": 0,
+      "biomeCategory": "Ocean Surface floating settlement",
+      "biomePath": "Ocean/Ocean Surface floating settlement",
+      "verticalBandId": 5,
+      "verticalBand": "deep_water_180_4800m_below",
+      "regionKey": 5,
+      "heightRaw16": 3084,
+      "heightRaw8Azgaar": 12,
+      "surfaceMetersAboveSeaLevel": 0.0,
+      "depthMetersBelowSeaLevel": 1757.6,
+      "zMetersFor3D": 0.0
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": -1758.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 1758,
+      "subsurfaceAnchorZMeters": -1758,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 1758,
+      "anchorMode": "underwater_anchor",
+      "pinPlacement": "underwater-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        161.5781164,
+        -15.7016623,
+        -1758.0
+      ],
+      "surfaceAnchorCoordinates": [
+        161.5781164,
+        -15.7016623,
+        0
+      ],
+      "subsurfaceAnchorCoordinates": [
+        161.5781164,
+        -15.7016623,
+        -1758
+      ],
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "pinPlacement": "ocean-surface-floating-pin",
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Jor’maelis",
+      "Named river / delta / canal / lake": "Jor’maelis Sunlit Sea",
+      "Named bay / gulf / sea / sound": "Caelorynth Bright Gulf",
+      "Terrain that feeds the water": "Underwater without reefs; Beach and grass with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Jor’maelis",
+      "Mountain range / highland": "Jor’maelis Pale Peaks",
+      "Volcano / vent / caldera": "Sunlance Vent",
+      "Forest / swamp / landmark": "Lilyfire Coastwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Jor’maelis",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "Named weather": "Sunlance Cyclone Bands",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Jor’maelis is centered at -46.374220, 130.627031 under Communalism, with 105,431,000 people across 13 settlements.",
+      "extremeAtlasDescription": "Jor’maelis occupies 10,194,632.18 sq mi / 26,403,976.13 sq km of modeled Earth-sized territory, about 5.176582% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Underwater without reefs, Beach and grass with water and Partial forest define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Underwater without reefs, Partial forest and Farming. Population density is 3.993 people/sq km / 10.342 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Merfolk, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nefarokir, Eirzunet, Nebyrr, Ishtanora, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Triton",
+          "count": 8
+        },
+        {
+          "name": "Merfolk",
+          "count": 7
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 6
+        },
+        {
+          "name": "Tortle",
+          "count": 6
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 6
+        },
+        {
+          "name": "Locathah",
+          "count": 6
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Reef",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 13
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nefarokir",
+          "count": 13
+        },
+        {
+          "name": "Eirzunet",
+          "count": 13
+        },
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 4
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 12
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 7
+        },
+        {
+          "name": "Caravan",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 2
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "localTopographicRule": "Underwater settlement: anchor below sea level at -1758 m with pressure corridors, locks, ledges, reef or dark-water access, and a visible water column above.",
+    "weatherDetails": {
+      "namedWeather": "Sunlance Cyclone Bands",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "topographyDetails": {
+      "localRasterSample": {
+        "pixel": {
+          "x": 1457.4,
+          "y": 601.325,
+          "ix": 1457,
+          "iy": 601
+        },
+        "exactPaintedHex": "#329BE4",
+        "biomeCategoryId": 0,
+        "biomeCategory": "Ocean Surface floating settlement",
+        "biomePath": "Ocean/Ocean Surface floating settlement",
+        "verticalBandId": 5,
+        "verticalBand": "deep_water_180_4800m_below",
+        "regionKey": 5,
+        "heightRaw16": 3084,
+        "heightRaw8Azgaar": 12,
+        "surfaceMetersAboveSeaLevel": 0.0,
+        "depthMetersBelowSeaLevel": 1757.6,
+        "zMetersFor3D": 0.0
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": -1758.0,
+        "surfaceAnchorZMeters": 0,
+        "subsurfaceDepthMeters": 1758,
+        "subsurfaceAnchorZMeters": -1758,
+        "maxHeightMetersAboveSeaLevel": 0,
+        "maxDepthMetersBelowSeaLevel": 1758,
+        "anchorMode": "underwater_anchor",
+        "pinPlacement": "underwater-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          161.5781164,
+          -15.7016623,
+          -1758.0
+        ],
+        "surfaceAnchorCoordinates": [
+          161.5781164,
+          -15.7016623,
+          0
+        ],
+        "subsurfaceAnchorCoordinates": [
+          161.5781164,
+          -15.7016623,
+          -1758
+        ],
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "biomeRenderRule": {
+        "id": 0,
+        "group": "Ocean",
+        "category": "Ocean Surface floating settlement",
+        "path": "Ocean/Ocean Surface floating settlement",
+        "preview_color": "#1F97E5"
+      }
+    },
+    "allowedTransitModes": [
+      "steamship",
+      "submarine"
+    ],
+    "waterLandClass": "ocean_surface",
+    "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+    "manualCanonPathingUpdate": {
+      "source": "belavados-four-compendium-canon-2026-07-17",
+      "settlementKey": "jormaelis:Éryndor",
+      "primaryBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement"
+      ],
+      "waterLandClass": "ocean_surface",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "transportation": [
+        "Ferry",
+        "Steamship",
+        "Submarine"
+      ],
+      "allowedTransitModes": [
+        "ferry",
+        "steamship",
+        "submarine"
+      ],
+      "pathingNotes": [],
+      "modeSurfaceRule": "Manual canon override: no sea mode is placed on dry land without a named water/airlock/dock justification; no land mode is placed on open sea without a named bridge, tunnel, platform, or upper structure.",
+      "portalCapitalRule": "Portal gates are normal-case Portal service and only capital cities receive them in this pass.",
+      "hexcodeTransitAuthority": {
+        "sourcePackage": "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip + user manual correction pass",
+        "sampledExactHex": "#002B4A",
+        "sampledBiomePath": "Ocean/Ocean Surface floating settlement",
+        "sampledBiomeCategory": "Ocean Surface floating settlement",
+        "sampledWaterLandClass": "ocean_surface",
+        "previousWaterLandClass": "underwater",
+        "effectiveWaterLandClass": "ocean_surface",
+        "surfaceLandAccess": false,
+        "coastalAccess": true,
+        "floatingAccess": true,
+        "deepWaterAccess": false,
+        "reefAccess": true,
+        "submarineRule": "Submarine service is permitted for deep water, floating/ocean-surface, coastal access, and authored airlocked underwater train stations.",
+        "manualCanonOverrideApplied": true
+      }
+    },
+    "updatedHexcodeProfile": {
+      "settlementId": "jormaelis:Éryndor",
+      "settlement": "Éryndor",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "sampledImage": "Belavados_realistic_source.png",
+      "sampleGrid": {
+        "width": 1536,
+        "height": 1024
+      },
+      "xImage": 1457.4,
+      "yImage": 601.325,
+      "exactHex": "#002B4A",
+      "rgb": {
+        "r": 0,
+        "g": 43,
+        "b": 74
+      },
+      "biomeGroup": "Ocean",
+      "biomeCategory": "Ocean Surface floating settlement",
+      "biomePath": "Ocean/Ocean Surface floating settlement",
+      "hexWaterLandClass": "ocean_surface",
+      "assignmentConfidence": 0.48676,
+      "dominantRegionKey": 5,
+      "dominantBandId": 5,
+      "regionAssignmentConfidence": 0.48676,
+      "canonicalVerticalBands": "4, 5, 6",
+      "canonicalZRange": "0 to 0 m",
+      "dominantZMin": 0.0,
+      "dominantZMean": 0.0,
+      "dominantZMax": 0.0,
+      "regionPhysicalMeaning": "open blue water, floating routes, harbors, and warm sea roads",
+      "previousExactHex": "#329BE4",
+      "previousBiomePath": "Ocean/Ocean Surface floating settlement",
+      "authority": "updated realism hexcode scan sampled at settlement image coordinate"
+    },
+    "distanceFromProvinceCenter": {
+      "miles": 1797.9,
+      "kilometers": 2893.4
+    },
+    "finalPlacementScope": "mainland",
+    "finalMapX": 138.0,
+    "finalMapY": 292.0,
+    "finalLongitude": -155.74219,
+    "finalLatitude": 38.67188,
+    "finalMappedBiomeDepth": "abyssal plain",
+    "finalPlacementMatch": "exact",
+    "finalUTC": "UTC-10",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "majorityPopulationRaces": [
+      "Human",
+      "Halfling",
+      "Elf — Sea Elf",
+      "Tortle",
+      "Triton",
+      "Merfolk",
+      "Locathah"
+    ],
+    "creatorGodsOfMajorityRaces": [
+      "Nebyrr",
+      "Ishtanora",
+      "Sigrananna",
+      "Valkhamesh",
+      "Bastveig"
+    ],
+    "resourcesAndServicesProvided": [
+      "Fish",
+      "Shellfish",
+      "Seaweed",
+      "Salt",
+      "Pearls",
+      "Coral crafts"
+    ],
+    "settlementHtmlPath": "settlements/Jormaelis/Eryndor/Eryndor_Jormaelis.html",
+    "interactiveMapHtml": "settlements/Jormaelis/Eryndor/Eryndor_Jormaelis.html",
+    "playerZoomInLink": "settlements/Jormaelis/Eryndor/Eryndor_Jormaelis.html",
+    "settlementTags": [
+      "maritime",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:elven-types",
+      "race:draconic-and-reptilian-races",
+      "race:elemental-and-energy-born-peoples",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "danger:elevated",
+      "government:communalism",
+      "type:village",
+      "water-class:underwater",
+      "alignment:altruistic",
+      "alignment:neutral",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:steamship",
+      "transit:submarine",
+      "faction:the-nefaric-veil"
+    ],
+    "lockedPlayerFields": [
+      "dangerLevel",
+      "races",
+      "transportation",
+      "deitiesWorshipped",
+      "biomes",
+      "settlementTags",
+      "factions"
+    ],
+    "editingLocked": true,
+    "htmlPath": "settlements/Jormaelis/Eryndor/Eryndor_Jormaelis.html",
+    "jsonPath": "settlements/Jormaelis/Eryndor/Eryndor.json",
+    "placementScope": "mainland",
+    "timeZone": {
+      "timeZoneId": "UTC-10",
+      "timeZoneName": "Belavadös UTC-10",
+      "offsetHoursFromUTC": -10,
+      "offsetMinutesFromUTC": -600,
+      "offsetHoursFromBMT": -10,
+      "offsetMinutesFromBMT": -600,
+      "longitudeBandDegrees": [
+        -157.5,
+        -142.5
+      ],
+      "certifiedLatitude": 38.67188,
+      "certifiedLongitude": -155.74219,
+      "latitudeHemisphere": "north",
+      "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+      "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+    },
+    "mappedBiomeDepth": "abyssal plain",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "finalRouteAccessClass": "abyssal_water_access",
+    "canonicalDocSection": {
+      "source": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+      "sourceBlock": 2642,
+      "subsections": [
+        "Identity and Classification",
+        "Population, Area, and Government",
+        "Environment, Terrain, and Depth",
+        "Peoples, Communities, and Faith",
+        "Alignment, Danger, Transit, and Resources",
+        "Factions and Influence",
+        "Tags, Files, Rendering, and Canon Locks"
+      ]
+    }
+  },
+  "geojsonFeature": {
+    "type": "Feature",
+    "properties": {
+      "name": "Éryndor",
+      "settlement": "Éryndor",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "type": "Village",
+      "settlementType": "Village",
+      "x": 138.0,
+      "y": 292.0,
+      "lat": 38.67188,
+      "lon": -155.74219,
+      "latitude": 38.67188,
+      "longitude": -155.74219,
+      "scope": "mainland",
+      "utc": "UTC-10",
+      "mappedBiomeDepth": "abyssal plain",
+      "placementMatch": "exact",
+      "transportation": [
+        "Steamship",
+        "Submarine"
+      ],
+      "canonicalRevision": "belavados-four-compendium-canon-2026-07-17"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -155.74219,
+        38.67188
+      ]
+    }
+  },
+  "canonicalFileName": "Eryndor_Jormaelis.json",
+  "canonicalHtmlFileName": "Eryndor_Jormaelis.html",
+  "canonicalPath": "shared/settlements/Jormaelis/Eryndor/Eryndor_Jormaelis.json",
+  "canonicalHtmlPath": "shared/settlements/Jormaelis/Eryndor/Eryndor_Jormaelis.html",
+  "provinceCanonicalPath": "shared/settlements/Jormaelis/Jormaelis.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "jormaelis:Éryndor",
+    "provinceKey": "jormaelis",
+    "province": "Jor’maelis",
+    "settlement": "Éryndor",
+    "type": "Village",
+    "biomes": [
+      "Ocean Surface floating settlement"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Éryndor at the final abyssal plain anchor in mainland scope; pathing uses abyssal_water_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 138.0,
+        "y": 292.0,
+        "ix": 138,
+        "iy": 292
+      },
+      "mappedBiomeDepth": "abyssal plain",
+      "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": -1758.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 1758,
+      "subsurfaceAnchorZMeters": -1758,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 1758,
+      "anchorMode": "underwater_anchor",
+      "pinPlacement": "underwater-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -155.74219,
+        38.67188,
+        -6000
+      ],
+      "surfaceAnchorCoordinates": [
+        -155.74219,
+        38.67188,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "abyssal plain",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Jor’maelis",
+      "Named river / delta / canal / lake": "Jor’maelis Sunlit Sea",
+      "Named bay / gulf / sea / sound": "Caelorynth Bright Gulf",
+      "Terrain that feeds the water": "Underwater without reefs; Beach and grass with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Jor’maelis",
+      "Mountain range / highland": "Jor’maelis Pale Peaks",
+      "Volcano / vent / caldera": "Sunlance Vent",
+      "Forest / swamp / landmark": "Lilyfire Coastwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Jor’maelis",
+      "Climate regime": "broad-latitude subpolar with marine/deep-water sectors",
+      "Dominant terrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "Named weather": "Sunlance Cyclone Bands",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Jor’maelis is centered at -46.374220, 130.627031 under Communalism, with 105,431,000 people across 13 settlements.",
+      "extremeAtlasDescription": "Jor’maelis occupies 10,194,632.18 sq mi / 26,403,976.13 sq km of modeled Earth-sized territory, about 5.176582% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Underwater without reefs, Beach and grass with water and Partial forest define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Underwater without reefs, Partial forest and Farming. Population density is 3.993 people/sq km / 10.342 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Merfolk, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nefarokir, Eirzunet, Nebyrr, Ishtanora, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Triton",
+          "count": 8
+        },
+        {
+          "name": "Merfolk",
+          "count": 7
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 6
+        },
+        {
+          "name": "Tortle",
+          "count": 6
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 6
+        },
+        {
+          "name": "Locathah",
+          "count": 6
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Reef",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 13
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nefarokir",
+          "count": 13
+        },
+        {
+          "name": "Eirzunet",
+          "count": 13
+        },
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 4
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 12
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 7
+        },
+        {
+          "name": "Caravan",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 2
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Sunlance Cyclone Bands",
+      "climateRegime": "broad-latitude subpolar with marine/deep-water sectors",
+      "provinceCenterLatitude": 64.10481,
+      "provinceCenterLongitude": -146.47045,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "manualCanonPathingUpdate": {
+      "source": "belavados-four-compendium-canon-2026-07-17",
+      "settlementKey": "jormaelis:Éryndor",
+      "primaryBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement"
+      ],
+      "waterLandClass": "ocean_surface",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "transportation": [
+        "Ferry",
+        "Steamship",
+        "Submarine"
+      ],
+      "allowedTransitModes": [
+        "ferry",
+        "steamship",
+        "submarine"
+      ],
+      "pathingNotes": [],
+      "modeSurfaceRule": "Manual canon override: no sea mode is placed on dry land without a named water/airlock/dock justification; no land mode is placed on open sea without a named bridge, tunnel, platform, or upper structure.",
+      "portalCapitalRule": "Portal gates are normal-case Portal service and only capital cities receive them in this pass.",
+      "hexcodeTransitAuthority": {
+        "sourcePackage": "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip + user manual correction pass",
+        "sampledExactHex": "#002B4A",
+        "sampledBiomePath": "Ocean/Ocean Surface floating settlement",
+        "sampledBiomeCategory": "Ocean Surface floating settlement",
+        "sampledWaterLandClass": "ocean_surface",
+        "previousWaterLandClass": "underwater",
+        "effectiveWaterLandClass": "ocean_surface",
+        "surfaceLandAccess": false,
+        "coastalAccess": true,
+        "floatingAccess": true,
+        "deepWaterAccess": false,
+        "reefAccess": true,
+        "submarineRule": "Submarine service is permitted for deep water, floating/ocean-surface, coastal access, and authored airlocked underwater train stations.",
+        "manualCanonOverrideApplied": true
+      }
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "abyssal plain",
+    "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "abyssal_water_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 138.0,
+      "y": 292.0,
+      "longitude": -155.74219,
+      "latitude": 38.67188,
+      "utc": "UTC-10",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+  "manualCanonMergedIntoShared": true,
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
