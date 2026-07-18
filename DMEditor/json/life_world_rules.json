@@ -1,0 +1,546 @@
+{
+  "schema": "belavados-life-world-rules-current-canon",
+  "livingRules": [
+    {
+      "Living rule": "No white polar crowns",
+      "Meaning": "Warm dark water and living coasts replace dead reflective ice sheets",
+      "Daily consequence": "Polar communities store food, dry timber, lamp oil, songs, and repair materials instead of building around endless snow"
+    },
+    {
+      "Living rule": "Abyssal ice-crowns",
+      "Meaning": "Deep trenches hold pressure-locked cold, hydrate stone, trapped brine, and blue-black ice",
+      "Daily consequence": "Submarine schedules avoid calving walls, gas fields, and deep-cold upwelling days"
+    },
+    {
+      "Living rule": "Fast water cycle",
+      "Meaning": "Warm seas feed heavy rain, sky-rivers, flood pulses, and rot",
+      "Daily consequence": "Road law becomes weather law; bridges, ferries, canals, and grain markets follow storm calendars"
+    },
+    {
+      "Living rule": "Rot is infrastructure",
+      "Meaning": "Food, cloth, wood, leather, and paper decay quickly",
+      "Daily consequence": "Smokehouses, salt houses, fungus guilds, limewashers, roof-menders, and record-driers are vital trades"
+    },
+    {
+      "Living rule": "Two-moon tides",
+      "Meaning": "The silver moon sets the great rhythm; the copper moonlet adds quick pulses",
+      "Daily consequence": "Ports keep tide bells, painted stairs, moon-ledgers, and flood closures"
+    }
+  ],
+  "months": [
+    {
+      "#": "1",
+      "Month": "Thoryn-Rahek",
+      "Sky-record theme": "Aberrant life, primordial mutation, dangerous origins"
+    },
+    {
+      "#": "2",
+      "Month": "Freysethysra",
+      "Sky-record theme": "Crossroads, curses, beauty, temptation, forbidden pacts"
+    },
+    {
+      "#": "3",
+      "Month": "Nefarokir",
+      "Sky-record theme": "Death, spirits, memory, burial, cosmic ledgers"
+    },
+    {
+      "#": "4",
+      "Month": "Thalunesh",
+      "Sky-record theme": "Dreamers, tricksters, shapeshifters, wanderers, fey mischief"
+    },
+    {
+      "#": "5",
+      "Month": "Horundar",
+      "Sky-record theme": "Storms, oceans, floods, earthquakes, raw elemental force"
+    },
+    {
+      "#": "6",
+      "Month": "Raeshkul",
+      "Sky-record theme": "Intellect, psionics, strategy, higher understanding"
+    },
+    {
+      "#": "7",
+      "Month": "Asethrimir",
+      "Sky-record theme": "Freedom, revelry, wilderness survival, constructs, awakened machinery"
+    },
+    {
+      "#": "8",
+      "Month": "Sokhivar",
+      "Sky-record theme": "Sunlight, music, prophecy, divine freedom"
+    },
+    {
+      "#": "9",
+      "Month": "Iskazunet",
+      "Sky-record theme": "Beasts, instinct, fertility, shadows, curses, twilight-born peoples"
+    },
+    {
+      "#": "10",
+      "Month": "Bastve'enlil",
+      "Sky-record theme": "Tides, reefs, trenches, adaptation, civilization, instinct"
+    },
+    {
+      "#": "11",
+      "Month": "Hathruna",
+      "Sky-record theme": "Rebirth, rot, fungi, roots, decay cycles"
+    }
+  ],
+  "moons": [
+    {
+      "Moon": "Chandratecu-Seleneš",
+      "How it is seen": "Large silver-white disk with broad blue-gray basins.",
+      "How it moves the world": "The main tide-maker and the public moon calendar, completing its cycle in 19.20 Belavadös days."
+    },
+    {
+      "Moon": "Mictlindra-Nannara",
+      "How it is seen": "Small copper-gray bead that stays near the larger moon.",
+      "How it moves the world": "The quick tide-beat, completing its dance in 2.02 Belavadös days and sharpening some high tides."
+    },
+    {
+      "Moon": "Bead crossings",
+      "How it is seen": "The moonlet sometimes crosses the face of the silver moon as a small dark dot.",
+      "How it moves the world": "Omen nights, recalibrated tide clocks, short-lived channel turbulence, and monster migration lore."
+    }
+  ],
+  "tideStates": [
+    {
+      "Tide state": "Silver Spring",
+      "Visible sign": "The silver moon is full or dark and pulls strongly",
+      "Coastal effect": "High water reaches ordinary flood stones; docks run double watch"
+    },
+    {
+      "Tide state": "Copper-Silver King Tide",
+      "Visible sign": "The moonlet strengthens the silver tide",
+      "Coastal effect": "Quays drown, reed roads vanish, reef gates close, tidal bores climb rivers"
+    },
+    {
+      "Tide state": "Hushed Neap",
+      "Visible sign": "The moons and sun-way quiet one another",
+      "Coastal effect": "Mudflats, wreck ribs, old roads, and fossil reefs emerge"
+    },
+    {
+      "Tide state": "Bead-Crossing Tide",
+      "Visible sign": "The copper moonlet approaches or crosses the silver disk",
+      "Coastal effect": "Narrow channels twist; temple bells mark omen watches"
+    },
+    {
+      "Tide state": "Storm-Stack Tide",
+      "Visible sign": "Strong tide meets storm wind and falling pressure",
+      "Coastal effect": "Salt water enters wells, old sewers breathe backward, low fields become sea"
+    }
+  ],
+  "constellationFestivalUses": [
+    {
+      "Constellation": "Anubaldir's Labyrinth",
+      "Lore and festival use": "Endurance, mountain roads, burden vows, oaths made during hard crossings"
+    },
+    {
+      "Constellation": "Bastveig's Tidehook",
+      "Lore and festival use": "Harbors, reef gates, tide law, sea pilgrimage, coastal weddings and funerals"
+    },
+    {
+      "Constellation": "Setrimir's Diadem",
+      "Lore and festival use": "Machines, artificial life, civic engineering, stolen craft, awakening ceremonies"
+    },
+    {
+      "Constellation": "Thoryn-Rahek's Web",
+      "Lore and festival use": "Mutation, aberrant ancestry, hidden traps, silk rites, impossible survival"
+    },
+    {
+      "Constellation": "Enkirael's Warfire",
+      "Lore and festival use": "Martial seasons, border patrols, blood debts, contests of strength"
+    },
+    {
+      "Constellation": "Nephthysra's Mirror",
+      "Lore and festival use": "Beauty, diplomacy, masks, emotional truth, reconciliation festivals"
+    },
+    {
+      "Constellation": "Sokhivar's Lantern",
+      "Lore and festival use": "Prophecy, high music, safe flight, sunrise vows, messenger routes"
+    },
+    {
+      "Constellation": "Ishtanora's Hearthdrum",
+      "Lore and festival use": "Harvest, shared bread, village law, winter stores, hearth peace"
+    },
+    {
+      "Constellation": "Freyseth's Mask",
+      "Lore and festival use": "Crossroads bargains, curses, hidden identities, threshold rites"
+    },
+    {
+      "Constellation": "The Star-River",
+      "Lore and festival use": "Navigation, ancestry, divine memory, sky law, the path of old vows"
+    },
+    {
+      "Constellation": "The Three Watches",
+      "Lore and festival use": "Guard shifts, temple night bells, caravan rotations, oathkeeping"
+    },
+    {
+      "Constellation": "The Spirit Lights",
+      "Lore and festival use": "Ancestor signs, funeral guidance, wandering souls, quiet protection"
+    }
+  ],
+  "pantheonSocialSummary": [
+    {
+      "Creator god": "Nebyrr",
+      "Created peoples / influence": "Humans, near-humans, mixed heritage",
+      "Dominion": "Civilization, lineage, dynasties, marriage, inheritance, social order"
+    },
+    {
+      "Creator god": "Sigrananna",
+      "Created peoples / influence": "Elven peoples",
+      "Dominion": "Forests, moonlight, wilderness, graceful hunters"
+    },
+    {
+      "Creator god": "Marduthor",
+      "Created peoples / influence": "Dwarven and gnomish kin",
+      "Dominion": "Invention, craft, metalwork, architecture, underground halls"
+    },
+    {
+      "Creator god": "Ishtanora",
+      "Created peoples / influence": "Halfling and smallfolk",
+      "Dominion": "Hearths, harvests, humble villages, rural peace"
+    },
+    {
+      "Creator god": "Enkirael",
+      "Created peoples / influence": "Orcs, goblinoids, brutal humanoids",
+      "Dominion": "Conflict, conquest, fury, survival, martial dominance"
+    },
+    {
+      "Creator god": "Anubaldir",
+      "Created peoples / influence": "Giantkin and powerful humanoids",
+      "Dominion": "Endurance, burden, colossal strength, primal might"
+    },
+    {
+      "Creator god": "Valkhamesh",
+      "Created peoples / influence": "Draconic and reptilian races",
+      "Dominion": "Thunder-blood, ancient power, domination, draconic sovereignty"
+    },
+    {
+      "Creator god": "Freyseth",
+      "Created peoples / influence": "Celestial, fiendish, planar bloodlines",
+      "Dominion": "Crossroads, curses, planar mysteries, supernatural bloodlines"
+    },
+    {
+      "Creator god": "Nefarokir",
+      "Created peoples / influence": "Undead and death-touched races",
+      "Dominion": "Death, underworld, spirits, forgotten dead, cosmic ledgers"
+    },
+    {
+      "Creator god": "Thalunesh",
+      "Created peoples / influence": "Fey and trickster folk",
+      "Dominion": "Tricksters, shapeshifters, wanderers, dreamers, magical mischief"
+    },
+    {
+      "Creator god": "Horundar",
+      "Created peoples / influence": "Elemental and energy-born peoples",
+      "Dominion": "Storms, seas, earthquakes, floods, untamed elemental force"
+    },
+    {
+      "Creator god": "Raeshkul",
+      "Created peoples / influence": "Psionic, astral, and alien minds",
+      "Dominion": "Intellect, strategy, psionic discipline, higher understanding"
+    },
+    {
+      "Creator god": "Setrimir",
+      "Created peoples / influence": "Constructed and artificial beings",
+      "Dominion": "Artificial life, stolen knowledge, innovation, awakened constructs"
+    },
+    {
+      "Creator god": "Sokhivar",
+      "Created peoples / influence": "Birdfolk and avian races",
+      "Dominion": "Sunlight, prophecy, music, sky, divine freedom"
+    },
+    {
+      "Creator god": "Iskareth",
+      "Created peoples / influence": "Beastfolk and mammalian anthropomorphs",
+      "Dominion": "Beasts, fertility, instinct, natural kinship"
+    },
+    {
+      "Creator god": "Bastveig",
+      "Created peoples / influence": "Amphibious and aquatic peoples",
+      "Dominion": "Tides, reefs, trenches, hidden waters, ocean civilizations"
+    },
+    {
+      "Creator god": "Thoryn-Rahek",
+      "Created peoples / influence": "Insectoid, ooze, aberrant creatures",
+      "Dominion": "Primordial chaos, mutation, malformed life, forgotten ages"
+    },
+    {
+      "Creator god": "Hathruna",
+      "Created peoples / influence": "Plantfolk and nature-bound races",
+      "Dominion": "Seasonal rebirth, decay, fungi, roots, living wilderness"
+    },
+    {
+      "Creator god": "Eirzunet",
+      "Created peoples / influence": "Shadow, umbral, darkness-aligned peoples",
+      "Dominion": "Cursed shadows, transformations, forbidden magic, eerie twilight"
+    },
+    {
+      "Creator god": "Oskar'enlil",
+      "Created peoples / influence": "Animalistic hybrids and experimental races",
+      "Dominion": "Adaptation, civilization, instinct, engineered bodies"
+    },
+    {
+      "Creator god": "Asethyr",
+      "Created peoples / influence": "Primitive, tribal, wilderness humanoids",
+      "Dominion": "Freedom, revelry, tribal rites, wilderness survival, untamed cultures"
+    },
+    {
+      "Creator god": "Nephthysra",
+      "Created peoples / influence": "Rare and hard-to-classify peoples",
+      "Dominion": "Beauty, charisma, uniqueness, emotional influence"
+    }
+  ],
+  "transitModes": [
+    {
+      "Mode": "Caravan",
+      "Public identity": "Road service, wilderness freight, slow public movement, and weather-flexible routes. Caravans are still necessary because not every settlement trusts engines."
+    },
+    {
+      "Mode": "Ferry",
+      "Public identity": "Harbor, river, lake, canal, reef, and island service. Ferry captains are tide readers first and pilots second."
+    },
+    {
+      "Mode": "Steamship",
+      "Public identity": "Longer water routes using marine logic improved by ichor heat, compact engines, and cleaner power cycles."
+    },
+    {
+      "Mode": "Submarine",
+      "Public identity": "Pressure-safe underwater passenger and freight craft; amphibious access keeps them classified as submarine routes even when land locks are involved."
+    },
+    {
+      "Mode": "Train/Rail",
+      "Public identity": "Steam-electric ichor hybrid rail with stations, signals, grades, braking, and public timetables."
+    },
+    {
+      "Mode": "Skyship",
+      "Public identity": "Airborne galleons and high-altitude service using lift lattices, sail-field coupling, and vector nozzles."
+    },
+    {
+      "Mode": "Portal",
+      "Public identity": "Capital-threshold service through passes, locks, batch limits, cooldowns, and receiving-hall clearance."
+    }
+  ],
+  "infrastructureLaws": [
+    {
+      "Law or design custom": "Highest-tide rule",
+      "Reason": "Ordinary high water is not enough; king tides decide safe foundations.",
+      "Common form": "Flood stones, elevated civic halls, painted tide stairs."
+    },
+    {
+      "Law or design custom": "Dry-store oath",
+      "Reason": "Food is wealth only if it survives warm damp air.",
+      "Common form": "Smokehouses, salt vaults, vinegar cellars, grain inspectors."
+    },
+    {
+      "Law or design custom": "Fog protocol",
+      "Reason": "Fog kills by silence and confusion.",
+      "Common form": "Harbor horns, bell towers, lantern colors, current pilots."
+    },
+    {
+      "Law or design custom": "Rot guild license",
+      "Reason": "Decay is medicine, poison, compost, and civic threat.",
+      "Common form": "Fungal guilds, quarantine houses, compost courts."
+    },
+    {
+      "Law or design custom": "Roof-breath rule",
+      "Reason": "Buildings must shed rain and breathe without inviting fever.",
+      "Common form": "Wide eaves, ventilated walls, raised floors, limewash."
+    },
+    {
+      "Law or design custom": "Moon closure law",
+      "Reason": "Roads, reef gates, sewers, and bridges close by tide, not by convenience.",
+      "Common form": "Tide calendars at markets, locks, ferries, and temples."
+    },
+    {
+      "Law or design custom": "Deep-route taboo",
+      "Reason": "Trench and cave roads are not opened without pressure and gas readings.",
+      "Common form": "Submarine bells, brine permits, shrine witnesses."
+    }
+  ],
+  "transitHazards": [
+    {
+      "Mode": "Caravan",
+      "Common hazard": "Mud, bridge rot, bandit paperwork, herd crossings, heat days, shrine tolls",
+      "Response / story use": "Shift routes, hire local guides, divide freight, file road prayers, add wagon guards"
+    },
+    {
+      "Mode": "Ferry",
+      "Common hazard": "Fog, tide reversal, reef closure, river bore, legal cargo disputes",
+      "Response / story use": "Delay to neap, transfer to rail, use smaller craft, reweigh goods, bribe no one without witnesses"
+    },
+    {
+      "Mode": "Steamship",
+      "Common hazard": "Storm-stack tide, condenser fouling, pirate bonds, reef pilot shortage",
+      "Response / story use": "Anchor in safe bay, run cooling cycle, negotiate convoy, call reef pilot, audit fuel purity"
+    },
+    {
+      "Mode": "Submarine",
+      "Common hazard": "Pressure gate failure, abyssal cold, ballast dispute, trench creature migration",
+      "Response / story use": "Surface early, lock to land, use emergency buoys, consult pressure medics, avoid ice-crown calving"
+    },
+    {
+      "Mode": "Train/Rail",
+      "Common hazard": "Washed track, signal ghosting, ichor traction faults, protest at station",
+      "Response / story use": "Slow order, bus by caravan, swap locomotives, bring cleric-engineer, update settlement-local arrivals"
+    },
+    {
+      "Mode": "Skyship",
+      "Common hazard": "Crosswind shear, lift lattice drift, lightning predation, harbor tower closure",
+      "Response / story use": "Grounding cycle, sail-field recalibration, storm climb, reroute to plateau port, delay per passenger law"
+    },
+    {
+      "Mode": "Portal",
+      "Common hazard": "Destination lock instability, passport conflict, batch overcount, cooldown extension",
+      "Response / story use": "Hold in origin hall, split party legally, revalidate identity, wait for receiving-hall release"
+    }
+  ],
+  "greatRegions": [
+    {
+      "Great region": "Crownspire Northlands",
+      "Visual form on the map": "High broken mountain crowns across the upper map.",
+      "Climate character": "Long-light forests, wet stone, snow only in brief scraps, griffon updrafts."
+    },
+    {
+      "Great region": "Greenheart Belt",
+      "Visual form on the map": "The great central green continent and its shallow inland waters.",
+      "Climate character": "Farms, forests, sky-rivers, flood roads, giant herbivore trails."
+    },
+    {
+      "Great region": "Eastern Hornlands",
+      "Visual form on the map": "Long hooked eastern lands with bays and high mountains.",
+      "Climate character": "Cyclone gates, reef corridors, volcanic cliffs, dragon-anvil storms."
+    },
+    {
+      "Great region": "Western Crescent",
+      "Visual form on the map": "Curved western island-continent chain.",
+      "Climate character": "Crimson coasts, brownwater marshes, wind-strafed passes."
+    },
+    {
+      "Great region": "Southfall Isles",
+      "Visual form on the map": "Southern broken lands and reef pearls.",
+      "Climate character": "Storm-ocean crossings, rare omenbergs, turtle-isle legends."
+    },
+    {
+      "Great region": "The Reeflace Belt",
+      "Visual form on the map": "The pale rim where land breaks into reefs and drowned shelves.",
+      "Climate character": "Merfolk markets, sahuagin patrols, moonlit spawning tides."
+    },
+    {
+      "Great region": "The Rootmere Interior",
+      "Visual form on the map": "Wide inland lowlands between forests and farm-gold plains.",
+      "Climate character": "Rot rains, grain roads, giant insect seasons."
+    },
+    {
+      "Great region": "The Stormhorn Rise",
+      "Visual form on the map": "The tallest named vertical belt, rising toward 5,200 m while trenches nearby descend to 8,200 m.",
+      "Climate character": "Skyship peril, rare summit ice, abyssal cold paths."
+    },
+    {
+      "Great region": "The Blackmoss Sinks",
+      "Visual form on the map": "Swamps and low basins that drink rivers before returning them to the sea.",
+      "Climate character": "Fever fog, dril’thar villages, blackwater storms."
+    },
+    {
+      "Great region": "The Saltglass Strand",
+      "Visual form on the map": "Dry-bright bays and salt flats on leeward coasts.",
+      "Climate character": "Mirage heat, salt caravans, ghost-white shorelines."
+    },
+    {
+      "Great region": "The Dragonbone Volcanic Arc",
+      "Visual form on the map": "A chain of vents and islands above deep heat.",
+      "Climate character": "Ash rain, mineral springs, dragon lairs, reef rebuilding."
+    },
+    {
+      "Great region": "The Hag-Lantern Marshes",
+      "Visual form on the map": "Drowned woods where fog glows under both moons.",
+      "Climate character": "Fungal lamps, witchlights, low boats, fever medicine."
+    }
+  ],
+  "paintedBiomeShares": [
+    {
+      "Map color family": "Ocean Surface floating settlement",
+      "Share of painted world": "21.1% of the painted map",
+      "In-world meaning": "open blue water, floating routes, harbors, and warm sea roads"
+    },
+    {
+      "Map color family": "Underwater with reefs",
+      "Share of painted world": "13.8% of the painted map",
+      "In-world meaning": "reef shelves, luminous shallows, spawning water, coral towns"
+    },
+    {
+      "Map color family": "Underwater without reefs",
+      "Share of painted world": "17.3% of the painted map",
+      "In-world meaning": "deep water, trenches, abyss roads, pressure hazards"
+    },
+    {
+      "Map color family": "Grassland",
+      "Share of painted world": "2.9% of the painted map",
+      "In-world meaning": "herd plains, storm grass, grazing fire belts"
+    },
+    {
+      "Map color family": "Prairie",
+      "Share of painted world": "0.6% of the painted map",
+      "In-world meaning": "dry grass, dustlight, fire season, long winds"
+    },
+    {
+      "Map color family": "Farming",
+      "Share of painted world": "9.5% of the painted map",
+      "In-world meaning": "settled food land, terraces, canals, orchards, grain towns"
+    },
+    {
+      "Map color family": "Mountain range",
+      "Share of painted world": "1.5% of the painted map",
+      "In-world meaning": "rain-making ridges, lightning, landslides, rare high ice"
+    },
+    {
+      "Map color family": "Valley",
+      "Share of painted world": "0.2% of the painted map",
+      "In-world meaning": "fog bowls, river villages, fruit belts, protected crossings"
+    },
+    {
+      "Map color family": "Deep cavern",
+      "Share of painted world": "0.0% of the painted map",
+      "In-world meaning": "under-roads, fungal lamps, mineral rivers, breathless dark"
+    },
+    {
+      "Map color family": "Deep forest",
+      "Share of painted world": "3.7% of the painted map",
+      "In-world meaning": "canopy thunder, rot, roots, old shade, hidden roads"
+    },
+    {
+      "Map color family": "Partial forest",
+      "Share of painted world": "6.6% of the painted map",
+      "In-world meaning": "farm-forest edges, hunting roads, timber villages"
+    },
+    {
+      "Map color family": "Treetops - treehouses",
+      "Share of painted world": "2.7% of the painted map",
+      "In-world meaning": "high homes, bridge-canopies, cloud leaves, flying messengers"
+    },
+    {
+      "Map color family": "Marshes and swamps",
+      "Share of painted world": "4.4% of the painted map",
+      "In-world meaning": "blackwater, reed law, fever fog, amphibious towns"
+    },
+    {
+      "Map color family": "Beach and grass with water",
+      "Share of painted world": "10.5% of the painted map",
+      "In-world meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "Map color family": "Beach and reefs with water",
+      "Share of painted world": "3.8% of the painted map",
+      "In-world meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "Map color family": "Hybrid tree and forest floor",
+      "Share of painted world": "1.3% of the painted map",
+      "In-world meaning": "mixed coast, hybrid terrain, changing weather"
+    },
+    {
+      "Map color family": "Hybrid farming forest grassland",
+      "Share of painted world": "0.0% of the painted map",
+      "In-world meaning": "mixed coast, hybrid terrain, changing weather"
+    }
+  ]
+}
