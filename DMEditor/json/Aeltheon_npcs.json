@@ -1,0 +1,808 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "falthrakar:Aelthéon",
+  "settlement": "Aelthéon",
+  "provinceKey": "falthrakar",
+  "province": "Falthrakar",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Falthrakar/Aeltheon/Aeltheon_Falthrakar.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "falthrakar:Aelthéon",
+    "provinceKey": "falthrakar",
+    "province": "Falthrakar",
+    "settlement": "Aelthéon",
+    "type": "Town",
+    "biomes": [
+      "Beach and grass with water",
+      "Partial forest",
+      "Deep forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Aelthéon at the final Beach and grass with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 894.0,
+        "y": 943.0,
+        "ix": 894,
+        "iy": 943
+      },
+      "mappedBiomeDepth": "Beach and grass with water",
+      "mappedBiomePath": "Hybrid/Beach and grass with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 74.68,
+      "surfaceAnchorZMeters": 75,
+      "subsurfaceDepthMeters": 12,
+      "subsurfaceAnchorZMeters": -12,
+      "maxHeightMetersAboveSeaLevel": 75,
+      "maxDepthMetersBelowSeaLevel": 12,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -22.85156,
+        -75.76172,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -22.85156,
+        -75.76172,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and grass with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Falthrakar",
+      "Named river / delta / canal / lake": "Falthrakar Inland Strait",
+      "Named bay / gulf / sea / sound": "Gorathkar Trade Sea",
+      "Terrain that feeds the water": "Partial forest; Beach and grass with water; Marshes and swamps"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Falthrakar",
+      "Mountain range / highland": "Falthrakar Greenstone Wall",
+      "Volcano / vent / caldera": "Verdant Forge",
+      "Forest / swamp / landmark": "Gorathkar Deepleaf"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Falthrakar",
+      "Climate regime": "polar; wetland fog and flood pulses",
+      "Dominant terrain": "Partial forest; Beach and grass with water; Marshes and swamps",
+      "Named weather": "Greenwall Rainshadow",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Falthrakar is centered at 32.804753, -5.451203 under Diarchy, with 118,613,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Falthrakar occupies 6,829,353.14 sq mi / 17,687,943.45 sq km of modeled Earth-sized territory, about 3.467776% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Beach and grass with water and Marshes and swamps define its broad terrain, while its settlements intensify into Beach and grass with water, Partial forest, Grassland, Marshes and swamps and Farming. Population density is 6.706 people/sq km / 17.368 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Fey and Trickster Folk, Amphibious and Aquatic Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, Harengon, and 4 more. Faction visibility leans toward The Crucible Wardens, with worship and patronage records naming Nebyrr, Ishtanora, Marduthor, Setrimir, Sigrananna, Iskareth, Thalunesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 12 recorded four-province geography group links, including 10 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 7
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 8
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 7
+        },
+        {
+          "name": "Faerie",
+          "count": 7
+        },
+        {
+          "name": "Satyr",
+          "count": 7
+        },
+        {
+          "name": "Changeling",
+          "count": 7
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 5
+        },
+        {
+          "name": "Kender",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Marduthor",
+          "count": 11
+        },
+        {
+          "name": "Setrimir",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Thalunesh",
+          "count": 7
+        },
+        {
+          "name": "Bastveig",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Hathruna",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 4
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 7
+        },
+        {
+          "name": "Steamship",
+          "count": 7
+        },
+        {
+          "name": "Submarine",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 5
+        },
+        {
+          "name": "Partial forest",
+          "count": 3
+        },
+        {
+          "name": "Grassland",
+          "count": 1
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Greenwall Rainshadow",
+      "climateRegime": "polar; wetland fog and flood pulses",
+      "provinceCenterLatitude": -71.70886,
+      "provinceCenterLongitude": -32.83595,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and grass with water",
+    "mappedBiomePath": "Hybrid/Beach and grass with water",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 894.0,
+      "y": 943.0,
+      "longitude": -22.85156,
+      "latitude": -75.76172,
+      "utc": "UTC-2",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-fenna-tidebrook-11-1",
+      "name": "Fenna Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "role": "chosen family",
+      "faction": null,
+      "settlement": "Aelthéon",
+      "province": "Falthrakar",
+      "settlementKey": "falthrakar:Aelthéon",
+      "provinceKey": "falthrakar",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-ilyra-softshadow",
+      "name": "Ilyra Softshadow",
+      "sourceType": "transportation_employee",
+      "role": "Ticketing Clerk",
+      "faction": null,
+      "serviceModeLabel": "Portal",
+      "serviceMode": "Portal",
+      "locationRole": "home",
+      "settlement": "Aelthéon",
+      "province": "Falthrakar",
+      "settlementKey": "falthrakar:Aelthéon",
+      "provinceKey": "falthrakar"
+    },
+    {
+      "id": "side-vel-brassfern-11-0",
+      "name": "Vel Brassfern",
+      "sourceType": "transportation_side_npc",
+      "role": "grandparent",
+      "faction": null,
+      "settlement": "Aelthéon",
+      "province": "Falthrakar",
+      "settlementKey": "falthrakar:Aelthéon",
+      "provinceKey": "falthrakar",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-fenna-tidebrook-11-1",
+      "name": "Fenna Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "chosen family",
+      "employeeId": "emp-ilyra-softshadow",
+      "employeeName": "Ilyra Softshadow",
+      "raceCategory": "Elven-Types",
+      "race": "Elf",
+      "lineage": "Wood Elf",
+      "genderIdentity": "Trans-Female",
+      "pronounSet": {
+        "group": "Common Neopronouns",
+        "name": "Ne / Nem",
+        "subject": "Ne",
+        "object": "Nem",
+        "possessiveDeterminer": "Nir",
+        "possessivePronoun": "Nirs",
+        "reflexive": "Nemself",
+        "example": "Ne wrote nir spellbook."
+      },
+      "honorific": "Comrade",
+      "province": "Falthrakar",
+      "provinceKey": "falthrakar",
+      "settlement": "Aelthéon",
+      "settlementKey": "falthrakar:Aelthéon",
+      "homeLocation": {
+        "province": "Falthrakar",
+        "settlement": "Aelthéon",
+        "x": 894.0,
+        "y": 943.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Elf — Wood Elf",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Aelthéon",
+        "province": "Falthrakar",
+        "settlementKey": "falthrakar:Aelthéon",
+        "provinceKey": "falthrakar"
+      }
+    },
+    {
+      "id": "emp-ilyra-softshadow",
+      "name": "Ilyra Softshadow",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 55,
+      "race": "Half-Elf — Half-Elf — Drow (Underdark)",
+      "genderIdentity": "Demi-Female",
+      "pronouns": "She / They",
+      "occupation": "Ticketing Clerk",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "portal",
+      "serviceModeLabel": "Portal",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Falthrakar",
+      "homeProvinceKey": "falthrakar",
+      "homeSettlement": "Aelthéon",
+      "homeSettlementKey": "falthrakar:Aelthéon",
+      "workProvince": "Iazethas",
+      "workProvinceKey": "iazethas",
+      "workSettlement": "Mostrerah",
+      "workSettlementKey": "iazethas:Mostrerah",
+      "homeLocation": {
+        "province": "Falthrakar",
+        "settlement": "Aelthéon",
+        "x": 894.0,
+        "y": 943.0,
+        "lat": -75.76172,
+        "lon": -22.85156,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-2",
+          "timeZoneName": "Belavadös UTC-2",
+          "offsetHoursFromUTC": -2,
+          "offsetMinutesFromUTC": -120,
+          "offsetHoursFromBMT": -2,
+          "offsetMinutesFromBMT": -120,
+          "longitudeBandDegrees": [
+            -37.5,
+            -22.5
+          ],
+          "certifiedLatitude": -75.76172,
+          "certifiedLongitude": -22.85156,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Mostrerah Portal Facility",
+        "province": "Iazethas",
+        "settlement": "Mostrerah",
+        "mode": "portal",
+        "x": 68.0,
+        "y": 622.0,
+        "lat": -19.33594,
+        "lon": -168.04688,
+        "provinceKey": "iazethas",
+        "modeLabel": "Portal",
+        "timeZone": {
+          "timeZoneId": "UTC-11",
+          "timeZoneName": "Belavadös UTC-11",
+          "offsetHoursFromUTC": -11,
+          "offsetMinutesFromUTC": -660,
+          "offsetHoursFromBMT": -11,
+          "offsetMinutesFromBMT": -660,
+          "longitudeBandDegrees": [
+            -172.5,
+            -157.5
+          ],
+          "certifiedLatitude": -19.33594,
+          "certifiedLongitude": -168.04688,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "coverageWorkDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Kaelix Starwake",
+          "type": "Rival",
+          "score": 56
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "grandparent",
+            "name": "Vel Brassfern",
+            "sideNpcId": "side-vel-brassfern-11-0",
+            "livesIn": "Aelthéon"
+          },
+          {
+            "kind": "chosen family",
+            "name": "Fenna Tidebrook",
+            "sideNpcId": "side-fenna-tidebrook-11-1",
+            "livesIn": "Aelthéon"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Scalori",
+            "province": "Valerune",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Scalori",
+            "province": "Valerune",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Ilyra Softshadow is a Half-Elf — Drow/High-Elf Lineage transportation employee (She / They) and a ticketing clerk whose public work is transportation, but their tracked life begins at home in Aelthéon, Falthrakar. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "quietly funny",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Half-Elf — Half-Elf — Drow (Underdark)",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Half-Elf",
+        "bloodlineOrLineage": "Half-Elf — Drow (Underdark)",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Half-Elf",
+          "bloodlineOrLineage": "Half-Elf — Drow (Underdark)"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "falthrakar:Aelthéon",
+      "workplaceSettlementId": "iazethas:Mostrerah",
+      "trackingColor": {
+        "archColor": "#ff8a00",
+        "assignedColor": "#ff8a00",
+        "archGradient": [
+          "#ff6b00",
+          "#ff9f1c",
+          "#ffd166"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_traveling_portal.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Aelthéon",
+        "province": "Falthrakar",
+        "settlementKey": "falthrakar:Aelthéon",
+        "provinceKey": "falthrakar",
+        "serviceMode": "Portal"
+      }
+    },
+    {
+      "id": "side-vel-brassfern-11-0",
+      "name": "Vel Brassfern",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "grandparent",
+      "employeeId": "emp-ilyra-softshadow",
+      "employeeName": "Ilyra Softshadow",
+      "raceCategory": "Humans, Near-Humans, and Mixed Heritage",
+      "race": "Human",
+      "lineage": "Umbral Human",
+      "genderIdentity": "Poly-Gender",
+      "pronounSet": {
+        "group": "Common Neopronouns",
+        "name": "Fae / Faer",
+        "subject": "Fae",
+        "object": "Faer",
+        "possessiveDeterminer": "Faer",
+        "possessivePronoun": "Faers",
+        "reflexive": "Faerself",
+        "example": "Fae carried faer lantern."
+      },
+      "honorific": "Lady",
+      "province": "Falthrakar",
+      "provinceKey": "falthrakar",
+      "settlement": "Aelthéon",
+      "settlementKey": "falthrakar:Aelthéon",
+      "homeLocation": {
+        "province": "Falthrakar",
+        "settlement": "Aelthéon",
+        "x": 894.0,
+        "y": 943.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Human — Umbral Human",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Aelthéon",
+        "province": "Falthrakar",
+        "settlementKey": "falthrakar:Aelthéon",
+        "provinceKey": "falthrakar"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,2202 @@
+{
+  "schema": "belavados.settlement_biome_combinations.derived.v1",
+  "kind": "belavados_settlement_biome_combinations",
+  "generatedDate": "2026-07-17",
+  "sourceDataStatus": "derived_from_settlement_locations",
+  "combinationCount": 42,
+  "combinations": [
+    {
+      "combinationKey": "Deep forest + Farming + Partial forest",
+      "biomes": [
+        "Deep forest",
+        "Farming",
+        "Partial forest"
+      ],
+      "count": 28,
+      "provinceCount": 15,
+      "provinces": [
+        "Aelvanyr",
+        "Aelwynora",
+        "Ceulrithan",
+        "El'dravire Riverrealm",
+        "Eldermere",
+        "Gruddirynn",
+        "Iazethas",
+        "Kaelvorrin",
+        "Kharvathen",
+        "Lun’tharavé",
+        "Nalvessir",
+        "Pelvoryn",
+        "Sylvavéryn",
+        "Valerune",
+        "Vuelmora"
+      ],
+      "settlements": [
+        {
+          "id": "aelvanyr:Drakesylva",
+          "name": "Drakesylva",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelvanyr:Everwake",
+          "name": "Everwake",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelvanyr:Mythraelyn",
+          "name": "Mythraelyn",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelvanyr:Sylvarielle",
+          "name": "Sylvarielle",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelvanyr:Vaelithorne",
+          "name": "Vaelithorne",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelwynora:Elarion Pastures",
+          "name": "Elarion Pastures",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "ceulrithan:Rilvays",
+          "name": "Rilvays",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "ceulrithan:Turyne",
+          "name": "Turyne",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "ceulrithan:Vaelyssa",
+          "name": "Vaelyssa",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "eldermere:Greenhollow Plains",
+          "name": "Greenhollow Plains",
+          "province": "Eldermere"
+        },
+        {
+          "id": "eldermere:Lunebriar",
+          "name": "Lunebriar",
+          "province": "Eldermere"
+        },
+        {
+          "id": "eldermere:Sylvanreach",
+          "name": "Sylvanreach",
+          "province": "Eldermere"
+        },
+        {
+          "id": "eldravire_riverrealm:Or'lythae",
+          "name": "Or'lythae",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "gruddirynn:Aelvyréa",
+          "name": "Aelvyréa",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "iazethas:Faelvyrûn",
+          "name": "Faelvyrûn",
+          "province": "Iazethas"
+        },
+        {
+          "id": "iazethas:Streccea",
+          "name": "Streccea",
+          "province": "Iazethas"
+        },
+        {
+          "id": "kaelvorrin:Silverwake",
+          "name": "Silverwake",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "kaelvorrin:Thal'ryssûn",
+          "name": "Thal'ryssûn",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "kharvathen:Zarveng",
+          "name": "Zarveng",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "luntharave:Neruvéa",
+          "name": "Neruvéa",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "nalvessir:Palevanna",
+          "name": "Palevanna",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "pelvoryn:Gavaryn",
+          "name": "Gavaryn",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "pelvoryn:Wildsunder",
+          "name": "Wildsunder",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "sylvaveryn:Aelmyrwald",
+          "name": "Aelmyrwald",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "sylvaveryn:Sylthadös",
+          "name": "Sylthadös",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "valerune:Sunvale Reach",
+          "name": "Sunvale Reach",
+          "province": "Valerune"
+        },
+        {
+          "id": "valerune:Thaloju",
+          "name": "Thaloju",
+          "province": "Valerune"
+        },
+        {
+          "id": "vuelmora:Oelnoreu",
+          "name": "Oelnoreu",
+          "province": "Vuelmora"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Partial forest",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Partial forest"
+      ],
+      "count": 27,
+      "provinceCount": 19,
+      "provinces": [
+        "Aelvanyr",
+        "Aelwynora",
+        "Astraevos",
+        "Bravelyn",
+        "Ceulrithan",
+        "Earrorim",
+        "El'dravire Riverrealm",
+        "Falthrakar",
+        "Iazethas",
+        "Jor’maelis",
+        "Kaelvorrin",
+        "Lun’tharavé",
+        "Marrowynd",
+        "Nalvessir",
+        "Pelvoryn",
+        "Sylvavéryn",
+        "Valerune",
+        "Zal’tharuun",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "aelvanyr:Lunawyn",
+          "name": "Lunawyn",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelwynora:Elarithen",
+          "name": "Elarithen",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "astraevos:Aelshoreth",
+          "name": "Aelshoreth",
+          "province": "Astraevos"
+        },
+        {
+          "id": "bravelyn:Qelvandra",
+          "name": "Qelvandra",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "ceulrithan:Cindrau",
+          "name": "Cindrau",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "earrorim:Obriasos",
+          "name": "Obriasos",
+          "province": "Earrorim"
+        },
+        {
+          "id": "earrorim:Ullunor",
+          "name": "Ullunor",
+          "province": "Earrorim"
+        },
+        {
+          "id": "eldravire_riverrealm:Thyralûn",
+          "name": "Thyralûn",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "falthrakar:Faeloria",
+          "name": "Faeloria",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "falthrakar:Nellvaris",
+          "name": "Nellvaris",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "iazethas:Cyr'ethael",
+          "name": "Cyr'ethael",
+          "province": "Iazethas"
+        },
+        {
+          "id": "jormaelis:Thyraléa",
+          "name": "Thyraléa",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "jormaelis:Utch’myrith",
+          "name": "Utch’myrith",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "kaelvorrin:Silver Véil",
+          "name": "Silver Véil",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "luntharave:Sylmaris",
+          "name": "Sylmaris",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "luntharave:Vireluna",
+          "name": "Vireluna",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "marrowynd:Cindervale Coast",
+          "name": "Cindervale Coast",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "marrowynd:Shadewharf",
+          "name": "Shadewharf",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "marrowynd:Stormharrow",
+          "name": "Stormharrow",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "nalvessir:Briarwater",
+          "name": "Briarwater",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "pelvoryn:Lysévara",
+          "name": "Lysévara",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "sylvaveryn:Lethyrvos",
+          "name": "Lethyrvos",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "sylvaveryn:Myrvaelûn",
+          "name": "Myrvaelûn",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "valerune:Brassmere Concord",
+          "name": "Brassmere Concord",
+          "province": "Valerune"
+        },
+        {
+          "id": "zaltharuun:Varesh-Ka",
+          "name": "Varesh-Ka",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zaltharuun:Zelvarûn",
+          "name": "Zelvarûn",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zharvokh:Vulkradûn",
+          "name": "Vulkradûn",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Deep forest + Partial forest",
+      "biomes": [
+        "Beach and grass with water",
+        "Deep forest",
+        "Partial forest"
+      ],
+      "count": 20,
+      "provinceCount": 15,
+      "provinces": [
+        "Aelvanyr",
+        "Aelwynora",
+        "Bravelyn",
+        "Earrorim",
+        "Eldermere",
+        "Falthrakar",
+        "Gruddirynn",
+        "Iazethas",
+        "Kharvathen",
+        "Marrowynd",
+        "Nalvessir",
+        "Sylvavéryn",
+        "Thalryss",
+        "Vaelmyrith",
+        "Virelport"
+      ],
+      "settlements": [
+        {
+          "id": "aelvanyr:Rootmere",
+          "name": "Rootmere",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "aelwynora:Sylvarûn",
+          "name": "Sylvarûn",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "bravelyn:Solunéa",
+          "name": "Solunéa",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "bravelyn:Solvaryn",
+          "name": "Solvaryn",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "earrorim:Glattonica",
+          "name": "Glattonica",
+          "province": "Earrorim"
+        },
+        {
+          "id": "eldermere:Aelgrove",
+          "name": "Aelgrove",
+          "province": "Eldermere"
+        },
+        {
+          "id": "eldermere:Harvestmere",
+          "name": "Harvestmere",
+          "province": "Eldermere"
+        },
+        {
+          "id": "falthrakar:Aelthéon",
+          "name": "Aelthéon",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "gruddirynn:Bleosianys",
+          "name": "Bleosianys",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "iazethas:Vaeloris Greenlands",
+          "name": "Vaeloris Greenlands",
+          "province": "Iazethas"
+        },
+        {
+          "id": "kharvathen:Kharzund",
+          "name": "Kharzund",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "marrowynd:Thalmerrow",
+          "name": "Thalmerrow",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "nalvessir:Porthelis",
+          "name": "Porthelis",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "sylvaveryn:Syl'thara",
+          "name": "Syl'thara",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "thalryss:Morvyrûn-Thal",
+          "name": "Morvyrûn-Thal",
+          "province": "Thalryss"
+        },
+        {
+          "id": "thalryss:Vorthalass",
+          "name": "Vorthalass",
+          "province": "Thalryss"
+        },
+        {
+          "id": "vaelmyrith:Oravélyn",
+          "name": "Oravélyn",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "vaelmyrith:Whispergrove",
+          "name": "Whispergrove",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "virelport:Stormgullet",
+          "name": "Stormgullet",
+          "province": "Virelport"
+        },
+        {
+          "id": "virelport:Vaeluréss",
+          "name": "Vaeluréss",
+          "province": "Virelport"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water"
+      ],
+      "count": 19,
+      "provinceCount": 13,
+      "provinces": [
+        "Astraevos",
+        "Bravelyn",
+        "Ceulrithan",
+        "Earrorim",
+        "El'dravire Riverrealm",
+        "Gruddirynn",
+        "Lun’tharavé",
+        "Nalvessir",
+        "Thalryss",
+        "Vaelmyrith",
+        "Valerune",
+        "Virelport",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "astraevos:Aelmoryth",
+          "name": "Aelmoryth",
+          "province": "Astraevos"
+        },
+        {
+          "id": "astraevos:Aelryss-Kor",
+          "name": "Aelryss-Kor",
+          "province": "Astraevos"
+        },
+        {
+          "id": "bravelyn:Qasvire",
+          "name": "Qasvire",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "bravelyn:Xelvoryn",
+          "name": "Xelvoryn",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "ceulrithan:Gildri",
+          "name": "Gildri",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "earrorim:Vaelynor",
+          "name": "Vaelynor",
+          "province": "Earrorim"
+        },
+        {
+          "id": "eldravire_riverrealm:Cyréthar",
+          "name": "Cyréthar",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "eldravire_riverrealm:Merrinthal",
+          "name": "Merrinthal",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "gruddirynn:Morélyth",
+          "name": "Morélyth",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "gruddirynn:Umiotope",
+          "name": "Umiotope",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "luntharave:Lunathéa",
+          "name": "Lunathéa",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "nalvessir:Frostfen",
+          "name": "Frostfen",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "nalvessir:Greenmire",
+          "name": "Greenmire",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "thalryss:Grimwater Reach",
+          "name": "Grimwater Reach",
+          "province": "Thalryss"
+        },
+        {
+          "id": "thalryss:Nythalûn",
+          "name": "Nythalûn",
+          "province": "Thalryss"
+        },
+        {
+          "id": "vaelmyrith:Myrvéla",
+          "name": "Myrvéla",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "valerune:Whispering Éstuary",
+          "name": "Whispering Éstuary",
+          "province": "Valerune"
+        },
+        {
+          "id": "virelport:Vireléssar",
+          "name": "Vireléssar",
+          "province": "Virelport"
+        },
+        {
+          "id": "zharvokh:Vorthélyn",
+          "name": "Vorthélyn",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water + Ocean Surface floating settlement",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Ocean Surface floating settlement"
+      ],
+      "count": 19,
+      "provinceCount": 13,
+      "provinces": [
+        "Aelwynora",
+        "Astraevos",
+        "Bravelyn",
+        "Ceulrithan",
+        "Drakmorren",
+        "Earrorim",
+        "Gruddirynn",
+        "Khorvaak",
+        "Lun’tharavé",
+        "Thalryss",
+        "Vaelmyrith",
+        "Virelport",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Yl'varessa",
+          "name": "Yl'varessa",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "astraevos:Mythalora",
+          "name": "Mythalora",
+          "province": "Astraevos"
+        },
+        {
+          "id": "bravelyn:Qel'vorys",
+          "name": "Qel'vorys",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "bravelyn:Soltharyn Basin",
+          "name": "Soltharyn Basin",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "bravelyn:Solthéra",
+          "name": "Solthéra",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "ceulrithan:Faelith",
+          "name": "Faelith",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "drakmorren:Vaelorûn",
+          "name": "Vaelorûn",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "earrorim:Myralûn",
+          "name": "Myralûn",
+          "province": "Earrorim"
+        },
+        {
+          "id": "gruddirynn:Faeloryth",
+          "name": "Faeloryth",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "gruddirynn:Othéryn",
+          "name": "Othéryn",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "khorvaak:Bloodmire",
+          "name": "Bloodmire",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "khorvaak:Thaléssar",
+          "name": "Thaléssar",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "luntharave:Caelunor",
+          "name": "Caelunor",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "thalryss:Dreadcurrent",
+          "name": "Dreadcurrent",
+          "province": "Thalryss"
+        },
+        {
+          "id": "vaelmyrith:Eldavûn",
+          "name": "Eldavûn",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "vaelmyrith:Lunethryl",
+          "name": "Lunethryl",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "vaelmyrith:Morvélyn",
+          "name": "Morvélyn",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "virelport:Virethûn",
+          "name": "Virethûn",
+          "province": "Virelport"
+        },
+        {
+          "id": "zharvokh:Thal'véra",
+          "name": "Thal'véra",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water + Farming",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Farming"
+      ],
+      "count": 16,
+      "provinceCount": 10,
+      "provinces": [
+        "Drakmorren",
+        "Earrorim",
+        "El'dravire Riverrealm",
+        "Eldermere",
+        "Gruddirynn",
+        "Jor’maelis",
+        "Khorvaak",
+        "Pelvoryn",
+        "Thalryss",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "drakmorren:Morvakar",
+          "name": "Morvakar",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "earrorim:Wagriolyn",
+          "name": "Wagriolyn",
+          "province": "Earrorim"
+        },
+        {
+          "id": "eldermere:Mossvale",
+          "name": "Mossvale",
+          "province": "Eldermere"
+        },
+        {
+          "id": "eldravire_riverrealm:Lorangriel",
+          "name": "Lorangriel",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "eldravire_riverrealm:Maelvéra",
+          "name": "Maelvéra",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "gruddirynn:Wrobetopia",
+          "name": "Wrobetopia",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "jormaelis:Rnzeuluun",
+          "name": "Rnzeuluun",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "khorvaak:Khazovar",
+          "name": "Khazovar",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "khorvaak:Lunoréa",
+          "name": "Lunoréa",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "khorvaak:Vyraléth",
+          "name": "Vyraléth",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "khorvaak:Élarwyn",
+          "name": "Élarwyn",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "pelvoryn:Fensylth",
+          "name": "Fensylth",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "thalryss:Blackwake Isles",
+          "name": "Blackwake Isles",
+          "province": "Thalryss"
+        },
+        {
+          "id": "thalryss:Thal’kazuun",
+          "name": "Thal’kazuun",
+          "province": "Thalryss"
+        },
+        {
+          "id": "zaltharuun:Ithkazuun",
+          "name": "Ithkazuun",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zaltharuun:Vaerûn-Keth",
+          "name": "Vaerûn-Keth",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water + Partial forest",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Partial forest"
+      ],
+      "count": 16,
+      "provinceCount": 13,
+      "provinces": [
+        "Aelwynora",
+        "Bravelyn",
+        "El'dravire Riverrealm",
+        "Eldermere",
+        "Falthrakar",
+        "Gruddirynn",
+        "Jor’maelis",
+        "Khorvaak",
+        "Lun’tharavé",
+        "Marrowynd",
+        "Valerune",
+        "Virelport",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Ulwyn",
+          "name": "Ulwyn",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "bravelyn:Loxvire",
+          "name": "Loxvire",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "eldermere:Riverbloom",
+          "name": "Riverbloom",
+          "province": "Eldermere"
+        },
+        {
+          "id": "eldravire_riverrealm:Caelthyrûn",
+          "name": "Caelthyrûn",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "eldravire_riverrealm:Yi’vanyr",
+          "name": "Yi’vanyr",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "falthrakar:Thalyréss",
+          "name": "Thalyréss",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "gruddirynn:Dravéssar",
+          "name": "Dravéssar",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "gruddirynn:Vaeloréss",
+          "name": "Vaeloréss",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "jormaelis:Nyr'thalor",
+          "name": "Nyr'thalor",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "khorvaak:Norevûn",
+          "name": "Norevûn",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "luntharave:Lunavéss",
+          "name": "Lunavéss",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "marrowynd:Blacktide Reach",
+          "name": "Blacktide Reach",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "marrowynd:Vaelshore",
+          "name": "Vaelshore",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "valerune:Nythavéa",
+          "name": "Nythavéa",
+          "province": "Valerune"
+        },
+        {
+          "id": "virelport:Veilstrand",
+          "name": "Veilstrand",
+          "province": "Virelport"
+        },
+        {
+          "id": "zaltharuun:Zor'elyth",
+          "name": "Zor'elyth",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Marshes and swamps + Partial forest",
+      "biomes": [
+        "Beach and grass with water",
+        "Marshes and swamps",
+        "Partial forest"
+      ],
+      "count": 12,
+      "provinceCount": 9,
+      "provinces": [
+        "Aelwynora",
+        "Astraevos",
+        "Earrorim",
+        "El'dravire Riverrealm",
+        "Falthrakar",
+        "Jor’maelis",
+        "Marrowynd",
+        "Pelvoryn",
+        "Vaelmyrith"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Sylvéraith",
+          "name": "Sylvéraith",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "astraevos:Orithalune",
+          "name": "Orithalune",
+          "province": "Astraevos"
+        },
+        {
+          "id": "earrorim:Iciarene",
+          "name": "Iciarene",
+          "province": "Earrorim"
+        },
+        {
+          "id": "eldravire_riverrealm:Aelrúnor",
+          "name": "Aelrúnor",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "eldravire_riverrealm:Fael'ryss",
+          "name": "Fael'ryss",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "eldravire_riverrealm:Veloraskkis",
+          "name": "Veloraskkis",
+          "province": "El'dravire Riverrealm"
+        },
+        {
+          "id": "falthrakar:Mor'athéra",
+          "name": "Mor'athéra",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "jormaelis:Lythéra",
+          "name": "Lythéra",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "marrowynd:Kharrowport",
+          "name": "Kharrowport",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "pelvoryn:Lysvire",
+          "name": "Lysvire",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "pelvoryn:Nythéssa",
+          "name": "Nythéssa",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "vaelmyrith:Sylthéra-Vael",
+          "name": "Sylthéra-Vael",
+          "province": "Vaelmyrith"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Ocean Surface floating settlement + Underwater without reefs",
+      "biomes": [
+        "Ocean Surface floating settlement",
+        "Underwater without reefs"
+      ],
+      "count": 11,
+      "provinceCount": 5,
+      "provinces": [
+        "Aelwynora",
+        "Gruddirynn",
+        "Jor’maelis",
+        "Marrowynd",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Wilsara",
+          "name": "Wilsara",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "gruddirynn:Coravûn",
+          "name": "Coravûn",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "jormaelis:Caelorynth",
+          "name": "Caelorynth",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "jormaelis:Li’mioreimn",
+          "name": "Li’mioreimn",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "jormaelis:Mossirueth",
+          "name": "Mossirueth",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "jormaelis:Éryndor",
+          "name": "Éryndor",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "marrowynd:Myrkwake",
+          "name": "Myrkwake",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "marrowynd:Orinthéa",
+          "name": "Orinthéa",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "marrowynd:Thyrévara",
+          "name": "Thyrévara",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "zaltharuun:Sszaruun",
+          "name": "Sszaruun",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zaltharuun:Xal’voroq",
+          "name": "Xal’voroq",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "count": 10,
+      "provinceCount": 4,
+      "provinces": [
+        "Aelwynora",
+        "Iazethas",
+        "Thalryss",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Orynéssa",
+          "name": "Orynéssa",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "iazethas:Elaréth",
+          "name": "Elaréth",
+          "province": "Iazethas"
+        },
+        {
+          "id": "iazethas:Leammipa",
+          "name": "Leammipa",
+          "province": "Iazethas"
+        },
+        {
+          "id": "thalryss:Abyrros",
+          "name": "Abyrros",
+          "province": "Thalryss"
+        },
+        {
+          "id": "thalryss:Ocevaruun",
+          "name": "Ocevaruun",
+          "province": "Thalryss"
+        },
+        {
+          "id": "thalryss:Skulltide Expanse",
+          "name": "Skulltide Expanse",
+          "province": "Thalryss"
+        },
+        {
+          "id": "zaltharuun:Amazuul",
+          "name": "Amazuul",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zaltharuun:Keth'varûn",
+          "name": "Keth'varûn",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zaltharuun:Vael'zyr",
+          "name": "Vael'zyr",
+          "province": "Zal’tharuun"
+        },
+        {
+          "id": "zaltharuun:Vaelzahara",
+          "name": "Vaelzahara",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Grassland + Partial forest",
+      "biomes": [
+        "Farming",
+        "Grassland",
+        "Partial forest"
+      ],
+      "count": 9,
+      "provinceCount": 5,
+      "provinces": [
+        "Ceulrithan",
+        "Jor’maelis",
+        "Kharvathen",
+        "Lun’tharavé",
+        "Vuelmora"
+      ],
+      "settlements": [
+        {
+          "id": "ceulrithan:Th’oyndor",
+          "name": "Th’oyndor",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "jormaelis:Meadowlight Expanse",
+          "name": "Meadowlight Expanse",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "kharvathen:Thornbreak",
+          "name": "Thornbreak",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "luntharave:Auralisthra",
+          "name": "Auralisthra",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "vuelmora:Glysera",
+          "name": "Glysera",
+          "province": "Vuelmora"
+        },
+        {
+          "id": "vuelmora:Ithmora",
+          "name": "Ithmora",
+          "province": "Vuelmora"
+        },
+        {
+          "id": "vuelmora:Mornelya",
+          "name": "Mornelya",
+          "province": "Vuelmora"
+        },
+        {
+          "id": "vuelmora:Thyravéa-Morn",
+          "name": "Thyravéa-Morn",
+          "province": "Vuelmora"
+        },
+        {
+          "id": "vuelmora:Xel'ryndor",
+          "name": "Xel'ryndor",
+          "province": "Vuelmora"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Grassland",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Grassland"
+      ],
+      "count": 8,
+      "provinceCount": 5,
+      "provinces": [
+        "Ceulrithan",
+        "Kharvathen",
+        "Sylvavéryn",
+        "Vaelmyrith",
+        "Vuelmora"
+      ],
+      "settlements": [
+        {
+          "id": "ceulrithan:Cindréa",
+          "name": "Cindréa",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "kharvathen:Draskminn",
+          "name": "Draskminn",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "kharvathen:Lorath",
+          "name": "Lorath",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "sylvaveryn:Elaravosk",
+          "name": "Elaravosk",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "sylvaveryn:Thalavaryn",
+          "name": "Thalavaryn",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "sylvaveryn:Vaerundell",
+          "name": "Vaerundell",
+          "province": "Sylvavéryn"
+        },
+        {
+          "id": "vaelmyrith:Eldaréss",
+          "name": "Eldaréss",
+          "province": "Vaelmyrith"
+        },
+        {
+          "id": "vuelmora:Hyselva",
+          "name": "Hyselva",
+          "province": "Vuelmora"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Grassland + Hybrid tree and forest floor",
+      "biomes": [
+        "Farming",
+        "Grassland",
+        "Hybrid tree and forest floor"
+      ],
+      "count": 8,
+      "provinceCount": 7,
+      "provinces": [
+        "Aelvanyr",
+        "Astraevos",
+        "Eldermere",
+        "Kaelvorrin",
+        "Kharvathen",
+        "Lun’tharavé",
+        "Vuelmora"
+      ],
+      "settlements": [
+        {
+          "id": "aelvanyr:Wildbloom",
+          "name": "Wildbloom",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "astraevos:Caelmyros",
+          "name": "Caelmyros",
+          "province": "Astraevos"
+        },
+        {
+          "id": "eldermere:Cloverfen",
+          "name": "Cloverfen",
+          "province": "Eldermere"
+        },
+        {
+          "id": "kaelvorrin:Dunvyr",
+          "name": "Dunvyr",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "kaelvorrin:Heths’ther",
+          "name": "Heths’ther",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "kharvathen:Rivenwild",
+          "name": "Rivenwild",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "luntharave:Lun'varae",
+          "name": "Lun'varae",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "vuelmora:Thaloréa Reach",
+          "name": "Thaloréa Reach",
+          "province": "Vuelmora"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water + Mountain range",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Mountain range"
+      ],
+      "count": 7,
+      "provinceCount": 6,
+      "provinces": [
+        "Bravelyn",
+        "Drakmorren",
+        "Gruddirynn",
+        "Jor’maelis",
+        "Virelport",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "bravelyn:Sundervale",
+          "name": "Sundervale",
+          "province": "Bravelyn"
+        },
+        {
+          "id": "drakmorren:Heth'vára",
+          "name": "Heth'vára",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "drakmorren:Vorakmar",
+          "name": "Vorakmar",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "gruddirynn:Sleakitika",
+          "name": "Sleakitika",
+          "province": "Gruddirynn"
+        },
+        {
+          "id": "jormaelis:Yire’thaulor",
+          "name": "Yire’thaulor",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "virelport:Bronzewake",
+          "name": "Bronzewake",
+          "province": "Virelport"
+        },
+        {
+          "id": "zharvokh:Tharvokar",
+          "name": "Tharvokar",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Partial forest + Treetops - treehouses",
+      "biomes": [
+        "Farming",
+        "Partial forest",
+        "Treetops - treehouses"
+      ],
+      "count": 7,
+      "provinceCount": 5,
+      "provinces": [
+        "Falthrakar",
+        "Kaelvorrin",
+        "Kharvathen",
+        "Pelvoryn",
+        "Valerune"
+      ],
+      "settlements": [
+        {
+          "id": "falthrakar:Oryndéa",
+          "name": "Oryndéa",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "kaelvorrin:Myrathéa",
+          "name": "Myrathéa",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "kaelvorrin:Velunéth",
+          "name": "Velunéth",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "kharvathen:Ironwood",
+          "name": "Ironwood",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "pelvoryn:Belynthar",
+          "name": "Belynthar",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "pelvoryn:Thaloréa",
+          "name": "Thaloréa",
+          "province": "Pelvoryn"
+        },
+        {
+          "id": "valerune:Scalori",
+          "name": "Scalori",
+          "province": "Valerune"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Mountain range + Partial forest",
+      "biomes": [
+        "Farming",
+        "Mountain range",
+        "Partial forest"
+      ],
+      "count": 6,
+      "provinceCount": 6,
+      "provinces": [
+        "Aelvanyr",
+        "Eldermere",
+        "Falthrakar",
+        "Iazethas",
+        "Nalvessir",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "aelvanyr:Faeloryn",
+          "name": "Faeloryn",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "eldermere:Oakenshire",
+          "name": "Oakenshire",
+          "province": "Eldermere"
+        },
+        {
+          "id": "falthrakar:Gorathkar",
+          "name": "Gorathkar",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "iazethas:Pokbith",
+          "name": "Pokbith",
+          "province": "Iazethas"
+        },
+        {
+          "id": "nalvessir:Pellavess",
+          "name": "Pellavess",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "zharvokh:Drakzhul",
+          "name": "Drakzhul",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water + Marshes and swamps",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Marshes and swamps"
+      ],
+      "count": 5,
+      "provinceCount": 4,
+      "provinces": [
+        "Ceulrithan",
+        "Falthrakar",
+        "Nalvessir",
+        "Vaelmyrith"
+      ],
+      "settlements": [
+        {
+          "id": "ceulrithan:Qov'ei",
+          "name": "Qov'ei",
+          "province": "Ceulrithan"
+        },
+        {
+          "id": "falthrakar:Drae'vyris",
+          "name": "Drae'vyris",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "falthrakar:Lithvar",
+          "name": "Lithvar",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "nalvessir:Balmire",
+          "name": "Balmire",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "vaelmyrith:Faelunéth",
+          "name": "Faelunéth",
+          "province": "Vaelmyrith"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Mountain range",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Mountain range"
+      ],
+      "count": 5,
+      "provinceCount": 5,
+      "provinces": [
+        "Aelwynora",
+        "Drakmorren",
+        "Eldermere",
+        "Khorvaak",
+        "Lun’tharavé"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Vaelméra",
+          "name": "Vaelméra",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "drakmorren:Elarûneth",
+          "name": "Elarûneth",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "eldermere:Faelmere",
+          "name": "Faelmere",
+          "province": "Eldermere"
+        },
+        {
+          "id": "khorvaak:Vorathûn",
+          "name": "Vorathûn",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "luntharave:Lunévaris",
+          "name": "Lunévaris",
+          "province": "Lun’tharavé"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Ocean Surface floating settlement",
+      "biomes": [
+        "Beach and grass with water",
+        "Ocean Surface floating settlement"
+      ],
+      "count": 5,
+      "provinceCount": 5,
+      "provinces": [
+        "Aelwynora",
+        "Drakmorren",
+        "Lun’tharavé",
+        "Nalvessir",
+        "Virelport"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Yltharien",
+          "name": "Yltharien",
+          "province": "Aelwynora"
+        },
+        {
+          "id": "drakmorren:Myraléon",
+          "name": "Myraléon",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "luntharave:Seralun",
+          "name": "Seralun",
+          "province": "Lun’tharavé"
+        },
+        {
+          "id": "nalvessir:Bentharys",
+          "name": "Bentharys",
+          "province": "Nalvessir"
+        },
+        {
+          "id": "virelport:Virelyss",
+          "name": "Virelyss",
+          "province": "Virelport"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Deep forest + Marshes and swamps + Partial forest",
+      "biomes": [
+        "Deep forest",
+        "Marshes and swamps",
+        "Partial forest"
+      ],
+      "count": 5,
+      "provinceCount": 5,
+      "provinces": [
+        "Astraevos",
+        "Falthrakar",
+        "Iazethas",
+        "Marrowynd",
+        "Valerune"
+      ],
+      "settlements": [
+        {
+          "id": "astraevos:Cyralune",
+          "name": "Cyralune",
+          "province": "Astraevos"
+        },
+        {
+          "id": "falthrakar:Caelvanna",
+          "name": "Caelvanna",
+          "province": "Falthrakar"
+        },
+        {
+          "id": "iazethas:Myr'ethûn",
+          "name": "Myr'ethûn",
+          "province": "Iazethas"
+        },
+        {
+          "id": "marrowynd:Seawynd Hollow",
+          "name": "Seawynd Hollow",
+          "province": "Marrowynd"
+        },
+        {
+          "id": "valerune:Valdrune Fields",
+          "name": "Valdrune Fields",
+          "province": "Valerune"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Underwater without reefs",
+      "biomes": [
+        "Underwater without reefs"
+      ],
+      "count": 5,
+      "provinceCount": 4,
+      "provinces": [
+        "Drakmorren",
+        "Jor’maelis",
+        "Virelport",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "drakmorren:Kharrowfen",
+          "name": "Kharrowfen",
+          "province": "Drakmorren"
+        },
+        {
+          "id": "jormaelis:Cyravûn",
+          "name": "Cyravûn",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "jormaelis:Ish’voryk",
+          "name": "Ish’voryk",
+          "province": "Jor’maelis"
+        },
+        {
+          "id": "virelport:Virethéa",
+          "name": "Virethéa",
+          "province": "Virelport"
+        },
+        {
+          "id": "zaltharuun:Thal’zuroth",
+          "name": "Thal’zuroth",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Hybrid tree and forest floor",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Hybrid tree and forest floor"
+      ],
+      "count": 3,
+      "provinceCount": 3,
+      "provinces": [
+        "Kharvathen",
+        "Thalryss",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "kharvathen:Greybriar",
+          "name": "Greybriar",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "thalryss:Leviamor",
+          "name": "Leviamor",
+          "province": "Thalryss"
+        },
+        {
+          "id": "zaltharuun:Keth’mora",
+          "name": "Keth’mora",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Marshes and swamps",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Marshes and swamps"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Khorvaak",
+        "Zal’tharuun"
+      ],
+      "settlements": [
+        {
+          "id": "khorvaak:Cyraléth",
+          "name": "Cyraléth",
+          "province": "Khorvaak"
+        },
+        {
+          "id": "zaltharuun:Zhurak’thel",
+          "name": "Zhurak’thel",
+          "province": "Zal’tharuun"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Partial forest + Treetops - treehouses",
+      "biomes": [
+        "Beach and grass with water",
+        "Partial forest",
+        "Treetops - treehouses"
+      ],
+      "count": 2,
+      "provinceCount": 1,
+      "provinces": [
+        "Earrorim"
+      ],
+      "settlements": [
+        {
+          "id": "earrorim:Solvyréa",
+          "name": "Solvyréa",
+          "province": "Earrorim"
+        },
+        {
+          "id": "earrorim:Wrasserah",
+          "name": "Wrasserah",
+          "province": "Earrorim"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Deep forest + Partial forest + Treetops - treehouses",
+      "biomes": [
+        "Deep forest",
+        "Partial forest",
+        "Treetops - treehouses"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Aelvanyr",
+        "Astraevos"
+      ],
+      "settlements": [
+        {
+          "id": "aelvanyr:Elarvess",
+          "name": "Elarvess",
+          "province": "Aelvanyr"
+        },
+        {
+          "id": "astraevos:Vaelunthir",
+          "name": "Vaelunthir",
+          "province": "Astraevos"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Grassland + Treetops - treehouses",
+      "biomes": [
+        "Farming",
+        "Grassland",
+        "Treetops - treehouses"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Kaelvorrin",
+        "Sylvavéryn"
+      ],
+      "settlements": [
+        {
+          "id": "kaelvorrin:Mistval",
+          "name": "Mistval",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "sylvaveryn:Vaelthyros",
+          "name": "Vaelthyros",
+          "province": "Sylvavéryn"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Hybrid tree and forest floor + Mountain range",
+      "biomes": [
+        "Farming",
+        "Hybrid tree and forest floor",
+        "Mountain range"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Kharvathen",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "kharvathen:Dorghalun",
+          "name": "Dorghalun",
+          "province": "Kharvathen"
+        },
+        {
+          "id": "zharvokh:Karag-Thûl",
+          "name": "Karag-Thûl",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Marshes and swamps + Mountain range",
+      "biomes": [
+        "Farming",
+        "Marshes and swamps",
+        "Mountain range"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Iazethas",
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "iazethas:Bleasacia",
+          "name": "Bleasacia",
+          "province": "Iazethas"
+        },
+        {
+          "id": "zharvokh:Moltharok",
+          "name": "Moltharok",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Marshes and swamps + Partial forest",
+      "biomes": [
+        "Farming",
+        "Marshes and swamps",
+        "Partial forest"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Kaelvorrin",
+        "Sylvavéryn"
+      ],
+      "settlements": [
+        {
+          "id": "kaelvorrin:Kael'vyrûn",
+          "name": "Kael'vyrûn",
+          "province": "Kaelvorrin"
+        },
+        {
+          "id": "sylvaveryn:Sylthéa",
+          "name": "Sylthéa",
+          "province": "Sylvavéryn"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Grassland + Marshes and swamps + Mountain range",
+      "biomes": [
+        "Grassland",
+        "Marshes and swamps",
+        "Mountain range"
+      ],
+      "count": 2,
+      "provinceCount": 2,
+      "provinces": [
+        "Iazethas",
+        "Vaelmyrith"
+      ],
+      "settlements": [
+        {
+          "id": "iazethas:Mostrerah",
+          "name": "Mostrerah",
+          "province": "Iazethas"
+        },
+        {
+          "id": "vaelmyrith:Velkynwood",
+          "name": "Velkynwood",
+          "province": "Vaelmyrith"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Beach and reefs with water + Grassland",
+      "biomes": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Grassland"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Drakmorren"
+      ],
+      "settlements": [
+        {
+          "id": "drakmorren:Skarnfell",
+          "name": "Skarnfell",
+          "province": "Drakmorren"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Deep cavern + Farming",
+      "biomes": [
+        "Beach and grass with water",
+        "Deep cavern",
+        "Farming"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Virelport"
+      ],
+      "settlements": [
+        {
+          "id": "virelport:Straithaven",
+          "name": "Straithaven",
+          "province": "Virelport"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Prairie",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Prairie"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Vaelmyrith"
+      ],
+      "settlements": [
+        {
+          "id": "vaelmyrith:Eldryssar",
+          "name": "Eldryssar",
+          "province": "Vaelmyrith"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Farming + Treetops - treehouses",
+      "biomes": [
+        "Beach and grass with water",
+        "Farming",
+        "Treetops - treehouses"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "zharvokh:Myrvéssa",
+          "name": "Myrvéssa",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Hybrid tree and forest floor + Partial forest",
+      "biomes": [
+        "Beach and grass with water",
+        "Hybrid tree and forest floor",
+        "Partial forest"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Aelwynora"
+      ],
+      "settlements": [
+        {
+          "id": "aelwynora:Sylvathûn",
+          "name": "Sylvathûn",
+          "province": "Aelwynora"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and grass with water + Mountain range + Valley",
+      "biomes": [
+        "Beach and grass with water",
+        "Mountain range",
+        "Valley"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Drakmorren"
+      ],
+      "settlements": [
+        {
+          "id": "drakmorren:Grimvald",
+          "name": "Grimvald",
+          "province": "Drakmorren"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and reefs with water",
+      "biomes": [
+        "Beach and reefs with water"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Valerune"
+      ],
+      "settlements": [
+        {
+          "id": "valerune:Avarélyn",
+          "name": "Avarélyn",
+          "province": "Valerune"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Beach and reefs with water + Ocean Surface floating settlement",
+      "biomes": [
+        "Beach and reefs with water",
+        "Ocean Surface floating settlement"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Astraevos"
+      ],
+      "settlements": [
+        {
+          "id": "astraevos:Ael'voryn",
+          "name": "Ael'voryn",
+          "province": "Astraevos"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Deep forest + Grassland + Partial forest",
+      "biomes": [
+        "Deep forest",
+        "Grassland",
+        "Partial forest"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Falthrakar"
+      ],
+      "settlements": [
+        {
+          "id": "falthrakar:Brokharn",
+          "name": "Brokharn",
+          "province": "Falthrakar"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Farming + Grassland + Marshes and swamps",
+      "biomes": [
+        "Farming",
+        "Grassland",
+        "Marshes and swamps"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Zharvokh"
+      ],
+      "settlements": [
+        {
+          "id": "zharvokh:Kharévok",
+          "name": "Kharévok",
+          "province": "Zharvokh"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Marshes and swamps + Mountain range + Prairie",
+      "biomes": [
+        "Marshes and swamps",
+        "Mountain range",
+        "Prairie"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "Drakmorren"
+      ],
+      "settlements": [
+        {
+          "id": "drakmorren:Fenwyrd",
+          "name": "Fenwyrd",
+          "province": "Drakmorren"
+        }
+      ]
+    },
+    {
+      "combinationKey": "Ocean Surface floating settlement + Underwater with reefs",
+      "biomes": [
+        "Ocean Surface floating settlement",
+        "Underwater with reefs"
+      ],
+      "count": 1,
+      "provinceCount": 1,
+      "provinces": [
+        "El'dravire Riverrealm"
+      ],
+      "settlements": [
+        {
+          "id": "eldravire_riverrealm:Murethash",
+          "name": "Murethash",
+          "province": "El'dravire Riverrealm"
+        }
+      ]
+    }
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

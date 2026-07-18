@@ -1,0 +1,87 @@
+{
+  "schema": "belavados.settlement_dropdown_biome_rules.derived.v1",
+  "kind": "belavados_settlement_dropdown_biome_rules",
+  "generatedDate": "2026-07-17",
+  "sourceDataStatus": "derived_from_uploaded_geography_package",
+  "groups": [
+    {
+      "group": "All Biomes",
+      "options": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Deep cavern",
+        "Deep forest",
+        "Farming",
+        "Grassland",
+        "Hybrid tree and forest floor",
+        "Marshes and swamps",
+        "Mountain range",
+        "Ocean Surface floating settlement",
+        "Partial forest",
+        "Prairie",
+        "Treetops - treehouses",
+        "Underwater with reefs",
+        "Underwater without reefs",
+        "Valley"
+      ]
+    },
+    {
+      "group": "Forest",
+      "options": [
+        "Deep forest",
+        "Marshes and swamps",
+        "Partial forest",
+        "Treetops - treehouses"
+      ]
+    },
+    {
+      "group": "Hybrid",
+      "options": [
+        "Beach and grass with water",
+        "Beach and reefs with water",
+        "Hybrid tree and forest floor"
+      ]
+    },
+    {
+      "group": "Mountains",
+      "options": [
+        "Deep cavern",
+        "Mountain range"
+      ]
+    },
+    {
+      "group": "Ocean",
+      "options": [
+        "Ocean Surface floating settlement",
+        "Underwater with reefs",
+        "Underwater without reefs"
+      ]
+    },
+    {
+      "group": "Plains",
+      "options": [
+        "Farming",
+        "Grassland",
+        "Prairie"
+      ]
+    }
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

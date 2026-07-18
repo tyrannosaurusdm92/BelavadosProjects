@@ -1,0 +1,649 @@
+{
+  "schema": "belavados.settlement_weather_landmarks.v1",
+  "backendEndpoint": "https://script.google.com/macros/s/AKfycbwE41vBV5aY1R1BFTZrgvUCabdCQqtjCy1CXKzxBuvG4nOW2T9dGzIRExaaCe4jm6lgxA/exec",
+  "backgroundImageUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/character_studio/media/dnd_belavados.png",
+  "provinceWater": {
+    "Aelvanyr": {
+      "inlandWater": "Rootglass River and Mythraelyn Delta",
+      "baySeaSound": "Wildbloom Sound",
+      "waterTerrain": "Partial forest; Farming; Deep forest"
+    },
+    "Aelwynora": {
+      "inlandWater": "Seleneš Glasswater Sea",
+      "baySeaSound": "Elarithen Pearl Bay",
+      "waterTerrain": "Beach and grass with water; Partial forest; Ocean Surface floating settlement"
+    },
+    "Astraevos": {
+      "inlandWater": "Vaelunthir Mirror Gulf",
+      "baySeaSound": "Astraevos Reefcourt",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "Bravelyn": {
+      "inlandWater": "Loxvire Emberwash",
+      "baySeaSound": "Qasvire Southreach",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "Ceulrithan": {
+      "inlandWater": "Ceulrithan Deep Channel",
+      "baySeaSound": "Luntharavé Crossing Sea",
+      "waterTerrain": "Farming; Partial forest; Beach and grass with water"
+    },
+    "Drakmorren": {
+      "inlandWater": "Drakmorren Northblue Sea",
+      "baySeaSound": "Fenwyrd Mist Gulf",
+      "waterTerrain": "Beach and grass with water; Mountain range; Beach and reefs with water"
+    },
+    "Earrorim": {
+      "inlandWater": "Earrorim Crimson Reach",
+      "baySeaSound": "Marrowynd Westmere",
+      "waterTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "El'dravire Riverrealm": {
+      "inlandWater": "El’dravire Great River and Seven-Mouth Delta",
+      "baySeaSound": "Riverrealm Inner Sea",
+      "waterTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "Eldermere": {
+      "inlandWater": "Eldermere Palewater Bay",
+      "baySeaSound": "Oakenshire Bright Sound",
+      "waterTerrain": "Partial forest; Farming; Beach and grass with water"
+    },
+    "Falthrakar": {
+      "inlandWater": "Falthrakar Inland Strait",
+      "baySeaSound": "Gorathkar Trade Sea",
+      "waterTerrain": "Partial forest; Beach and grass with water; Marshes and swamps"
+    },
+    "Gruddirynn": {
+      "inlandWater": "Gruddirynn Frostless Deep",
+      "baySeaSound": "Coravûn Farwater",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "Iazethas": {
+      "inlandWater": "Iazethas Brownwater Gulf",
+      "baySeaSound": "Mostrerah Marsh Bay",
+      "waterTerrain": "Partial forest; Farming; Deep forest"
+    },
+    "Jor’maelis": {
+      "inlandWater": "Jor’maelis Sunlit Sea",
+      "baySeaSound": "Caelorynth Bright Gulf",
+      "waterTerrain": "Underwater without reefs; Beach and grass with water; Partial forest"
+    },
+    "Kaelvorrin": {
+      "inlandWater": "Kaelvorrin Bloodmere",
+      "baySeaSound": "Kaelvorrin Inner Red Bay",
+      "waterTerrain": "Farming; Partial forest; Grassland"
+    },
+    "Kharvathen": {
+      "inlandWater": "Kharvathen Reedwater Canal",
+      "baySeaSound": "Kharvathen Greenblue Shoals",
+      "waterTerrain": "Farming; Grassland; Beach and grass with water"
+    },
+    "Khorvaak": {
+      "inlandWater": "Khorvaak Forestgreen Gulf",
+      "baySeaSound": "Khorvaak Crocodile Sea",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Farming"
+    },
+    "Lun’tharavé": {
+      "inlandWater": "Lun’tharavé Pinkwater Lakes",
+      "baySeaSound": "Moonlet Bead Bay",
+      "waterTerrain": "Beach and grass with water; Farming; Partial forest"
+    },
+    "Marrowynd": {
+      "inlandWater": "Marrowynd Northgate Sea",
+      "baySeaSound": "Marrowynd Coldblue Bay",
+      "waterTerrain": "Partial forest; Beach and grass with water; Farming"
+    },
+    "Nalvessir": {
+      "inlandWater": "Nalvessir Grayreef Sound",
+      "baySeaSound": "Nalvessir Cloudwater Gulf",
+      "waterTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "Pelvoryn": {
+      "inlandWater": "Pelvoryn Flamewater Channel",
+      "baySeaSound": "Pelvoryn Orange Bay",
+      "waterTerrain": "Partial forest; Farming; Beach and grass with water"
+    },
+    "Sylvavéryn": {
+      "inlandWater": "Sylvavéryn Cyanriver",
+      "baySeaSound": "Sylvavéryn Tideglass Sea",
+      "waterTerrain": "Farming; Partial forest; Beach and grass with water"
+    },
+    "Thalryss": {
+      "inlandWater": "Thalryss Narrow Sea",
+      "baySeaSound": "Thalryss Mirror Bay",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement"
+    },
+    "Vaelmyrith": {
+      "inlandWater": "Vaelmyrith Amethyst Sea",
+      "baySeaSound": "Vaelmyrith Starfall Gulf",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement"
+    },
+    "Valerune": {
+      "inlandWater": "Valerune Asparagus Marshlake",
+      "baySeaSound": "Valerune Reed Gulf",
+      "waterTerrain": "Partial forest; Farming; Beach and reefs with water"
+    },
+    "Virelport": {
+      "inlandWater": "Virelport Sailroad Sea",
+      "baySeaSound": "Virelport Open Gulf",
+      "waterTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "Vuelmora": {
+      "inlandWater": "Vuelmora Bluehook Lagoon",
+      "baySeaSound": "Vuelmora Outer Bay",
+      "waterTerrain": "Farming; Grassland; Partial forest"
+    },
+    "Zal’tharuun": {
+      "inlandWater": "Zal’tharuun Abyssal River",
+      "baySeaSound": "Zal’tharuun Blackwater Sea",
+      "waterTerrain": "Beach and grass with water; Ocean Surface floating settlement; Farming"
+    },
+    "Zharvokh": {
+      "inlandWater": "Zharvokh Deepgate Sea",
+      "baySeaSound": "Karag-Thûl Stormhorn Gulf",
+      "waterTerrain": "Farming; Beach and grass with water; Mountain range"
+    }
+  },
+  "provinceLandmarks": {
+    "Aelvanyr": {
+      "highland": "Freeblade Greenribs",
+      "volcanoOrVent": "Lunawyn Smokehill",
+      "forestOrSwamp": "Drakesylva Rootmere Forest"
+    },
+    "Aelwynora": {
+      "highland": "Aelwynora Moonback Hills",
+      "volcanoOrVent": "Wilsara Bluevent",
+      "forestOrSwamp": "Sylvarûn Saltleaf Groves"
+    },
+    "Astraevos": {
+      "highland": "Cyralune Palehorns",
+      "volcanoOrVent": "Aelvoryn Glass Cone",
+      "forestOrSwamp": "Mythalora Rainveil"
+    },
+    "Bravelyn": {
+      "highland": "Bravelyn Magenta Spines",
+      "volcanoOrVent": "Rynblast Caldera",
+      "forestOrSwamp": "Qelvandra Thornfields"
+    },
+    "Ceulrithan": {
+      "highland": "Ceulrithan Violet Ramps",
+      "volcanoOrVent": "Purple Vow Vent",
+      "forestOrSwamp": "Wickmoss Hanging Wood"
+    },
+    "Drakmorren": {
+      "highland": "Dragonwake Crown",
+      "volcanoOrVent": "Fenwyrd Stormmouth",
+      "forestOrSwamp": "Kharrowfen Bogforest"
+    },
+    "Earrorim": {
+      "highland": "Crimson Tailbacks",
+      "volcanoOrVent": "Redfang Smoke",
+      "forestOrSwamp": "Earrorim Spicewood"
+    },
+    "El'dravire Riverrealm": {
+      "highland": "El’dravire Floodwall Hills",
+      "volcanoOrVent": "Thornsteam Basin",
+      "forestOrSwamp": "Reedcrown Marshwoods"
+    },
+    "Eldermere": {
+      "highland": "Elderroot Uplands",
+      "volcanoOrVent": "Pale Ash Knob",
+      "forestOrSwamp": "Oakenshire Elderwood"
+    },
+    "Falthrakar": {
+      "highland": "Falthrakar Greenstone Wall",
+      "volcanoOrVent": "Verdant Forge",
+      "forestOrSwamp": "Gorathkar Deepleaf"
+    },
+    "Gruddirynn": {
+      "highland": "Gruddirynn Pearlbacks",
+      "volcanoOrVent": "Pearl Embervent",
+      "forestOrSwamp": "Lavender Fenlands"
+    },
+    "Iazethas": {
+      "highland": "Iazethas Mudstone Teeth",
+      "volcanoOrVent": "Mudglass Cone",
+      "forestOrSwamp": "Bleasacia Blackfen"
+    },
+    "Jor’maelis": {
+      "highland": "Jor’maelis Pale Peaks",
+      "volcanoOrVent": "Sunlance Vent",
+      "forestOrSwamp": "Lilyfire Coastwood"
+    },
+    "Kaelvorrin": {
+      "highland": "Bloodstone Saddle",
+      "volcanoOrVent": "Bloodwake Caldera",
+      "forestOrSwamp": "Redroot Basinwood"
+    },
+    "Kharvathen": {
+      "highland": "Kharvathen Highfolds",
+      "volcanoOrVent": "Moonmouth Kharvath",
+      "forestOrSwamp": "Kharvathen Glassfern"
+    },
+    "Khorvaak": {
+      "highland": "Khorvaak Rootwalls",
+      "volcanoOrVent": "Rootfire Hill",
+      "forestOrSwamp": "Khorvaak Blackleaf Jungle"
+    },
+    "Lun’tharavé": {
+      "highland": "Lun’tharavé Rosethorns",
+      "volcanoOrVent": "Roseglass Vent",
+      "forestOrSwamp": "Roselight Canopy"
+    },
+    "Marrowynd": {
+      "highland": "Marrowynd Bonebacks",
+      "volcanoOrVent": "Bluebone Cone",
+      "forestOrSwamp": "Northroot Wetwood"
+    },
+    "Nalvessir": {
+      "highland": "Nalvessir Slatehorns",
+      "volcanoOrVent": "Slatefire Vent",
+      "forestOrSwamp": "Graymoss Wetleaf"
+    },
+    "Pelvoryn": {
+      "highland": "Pelvoryn Ashridges",
+      "volcanoOrVent": "Pelvoryn Flamekeel",
+      "forestOrSwamp": "Cinderfern Belt"
+    },
+    "Sylvavéryn": {
+      "highland": "Sylvavéryn Cloudstairs",
+      "volcanoOrVent": "Cloudstep Vent",
+      "forestOrSwamp": "Cyanleaf Greatwood"
+    },
+    "Thalryss": {
+      "highland": "Thalryss Bluewhite Knives",
+      "volcanoOrVent": "Bluewhite Needle",
+      "forestOrSwamp": "Thalryss Moonpine"
+    },
+    "Vaelmyrith": {
+      "highland": "Amethyst Crownrange",
+      "volcanoOrVent": "Amethyst Firecup",
+      "forestOrSwamp": "Vaelmyrith Gloomwood"
+    },
+    "Valerune": {
+      "highland": "Valerune High Marshwalls",
+      "volcanoOrVent": "Greenroot Steamer",
+      "forestOrSwamp": "Valerune Reedforest"
+    },
+    "Virelport": {
+      "highland": "Virelport Dockcliffs",
+      "volcanoOrVent": "Harborfire Vent",
+      "forestOrSwamp": "Saltmarket Palms"
+    },
+    "Vuelmora": {
+      "highland": "Vuelmora Hookback Hills",
+      "volcanoOrVent": "Hookglass Vent",
+      "forestOrSwamp": "Bluehook Grove"
+    },
+    "Zal’tharuun": {
+      "highland": "Zal’tharuun Ironribs",
+      "volcanoOrVent": "Ironrind Caldera",
+      "forestOrSwamp": "Blackmoss Tangle"
+    },
+    "Zharvokh": {
+      "highland": "Zharvokh Stormhorns",
+      "volcanoOrVent": "Karag-Thûl Thunderforge",
+      "forestOrSwamp": "Myrvéssa High Rootlands"
+    }
+  },
+  "provinceWeather": {
+    "Aelvanyr": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Deep forest",
+      "namedWeather": "Root-rain Lanterns",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "Aelwynora": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Ocean Surface floating settlement",
+      "namedWeather": "Silver-Salt Fog",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "Astraevos": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "namedWeather": "Mirror-Squall Line",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 4800 m"
+    },
+    "Bravelyn": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "namedWeather": "Ember-Heat Dryline",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "Ceulrithan": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Partial forest; Beach and grass with water",
+      "namedWeather": "Violet Backstorm",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 4800 m"
+    },
+    "Drakmorren": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Mountain range; Beach and reefs with water",
+      "namedWeather": "Dragon-Anvil Gales",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 6200 m"
+    },
+    "Earrorim": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "namedWeather": "Crimson Dustburst",
+      "verticalNote": "highest settled weather band 180 m; deepest recorded route 4800 m"
+    },
+    "El'dravire Riverrealm": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "namedWeather": "Seven-Mouth Monsoon",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "Eldermere": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and grass with water",
+      "namedWeather": "Palebay Drizzle",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "Falthrakar": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Beach and grass with water; Marshes and swamps",
+      "namedWeather": "Greenwall Rainshadow",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "Gruddirynn": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "namedWeather": "Deep-Pearl Sea Smoke",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "Iazethas": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Deep forest",
+      "namedWeather": "Brownwater Thunder",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "Jor’maelis": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "namedWeather": "Sunlance Cyclone Bands",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "Kaelvorrin": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Partial forest; Grassland",
+      "namedWeather": "Redwall Pressure Fall",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "Kharvathen": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Grassland; Beach and grass with water",
+      "namedWeather": "Reedglass Rainbursts",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "Khorvaak": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Farming",
+      "namedWeather": "Forestgreen Steamfront",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "Lun’tharavé": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Farming; Partial forest",
+      "namedWeather": "Copper-Bead Rain",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "Marrowynd": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Beach and grass with water; Farming",
+      "namedWeather": "Boneback Wet Gales",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 6200 m"
+    },
+    "Nalvessir": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "namedWeather": "Grayreef Fogfall",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "Pelvoryn": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and grass with water",
+      "namedWeather": "Cinder-Wet Squalls",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "Sylvavéryn": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Partial forest; Beach and grass with water",
+      "namedWeather": "Cyan Sky-River",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "Thalryss": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "namedWeather": "Knife-Cloud Fronts",
+      "verticalNote": "highest settled weather band 180 m; deepest recorded route 4800 m"
+    },
+    "Vaelmyrith": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "namedWeather": "Starfall Violet Haze",
+      "verticalNote": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "Valerune": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and reefs with water",
+      "namedWeather": "Reed-Steam Murk",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "Virelport": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "namedWeather": "Port-Mast Squalls",
+      "verticalNote": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "Vuelmora": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Grassland; Partial forest",
+      "namedWeather": "Bluehook Tide Fog",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "Zal’tharuun": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Ocean Surface floating settlement; Farming",
+      "namedWeather": "Blackwater Storm-Stack",
+      "verticalNote": "highest settled weather band 180 m; deepest recorded route 6200 m"
+    },
+    "Zharvokh": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Beach and grass with water; Mountain range",
+      "namedWeather": "Stormhorn Tidewall",
+      "verticalNote": "highest settled weather band 5200 m; deepest recorded route 8200 m"
+    }
+  },
+  "biomeWeather": {
+    "ocean_surface_settlements": {
+      "weatherLife": "Salt haze, squalls, moon-tide fog, floating docks.",
+      "settlementResponse": "Tide stairs, breakaway piers, shell gardens, roof nets, fog horns."
+    },
+    "reef_shallows": {
+      "weatherLife": "Clear warm water, reef glare, spawning tides, storm surge.",
+      "settlementResponse": "Reef law, current pilots, coral masonry, moonlit closures."
+    },
+    "deep_water_without_reefs": {
+      "weatherLife": "Cold upwelling, pressure roads, trench fog.",
+      "settlementResponse": "Submarine locks, pressure shrines, bioluminescent charts, brine taboos."
+    },
+    "farming_plains": {
+      "weatherLife": "Warm field winds, flood canals, mildew seasons.",
+      "settlementResponse": "Raised granaries, smokehouses, reed filters, moon-timed planting."
+    },
+    "grassland_and_prairie": {
+      "weatherLife": "Dryline storms, fire season, herd weather.",
+      "settlementResponse": "Mobile herds, burn laws, cistern stones, storm cellars."
+    },
+    "mountain_range": {
+      "weatherLife": "Rain-making slopes, ridge lightning, rare high ice.",
+      "settlementResponse": "Terraces, landslide walls, sky bridges, lightning towers."
+    },
+    "valleys": {
+      "weatherLife": "Fog bowls, fruit belts, river crossings.",
+      "settlementResponse": "Drainage ditches, fog bells, orchard shrines, fever marsh patrols."
+    },
+    "deep_cavern": {
+      "weatherLife": "Stable damp air, mineral rivers, fungal lamps.",
+      "settlementResponse": "Vent shafts, cave flood alarms, fungus farms, stone reservoirs."
+    },
+    "deep_forest": {
+      "weatherLife": "Canopy thunder, root roads, rot heat.",
+      "settlementResponse": "Elevated paths, smoked stores, resin firebreaks, fungal guilds."
+    },
+    "marsh_and_swamp": {
+      "weatherLife": "Blackwater, fever fog, mosquitoes, floating soil.",
+      "settlementResponse": "Pole houses, reed boats, disease rites, amphibious markets."
+    },
+    "polar_forest": {
+      "weatherLife": "Long light, long dark, wet gales, thin harbor skim.",
+      "settlementResponse": "Light halls, food vaults, tide clocks, communal winter law."
+    },
+    "hybrid_coastlands": {
+      "weatherLife": "Beach, reef, grass, farm, and forest in close reach.",
+      "settlementResponse": "Mixed travel law: ferry, caravan, skyship, and canal authority overlap."
+    }
+  },
+  "namedWeatherGlossary": [
+    {
+      "name": "Copper-Silver King Tide",
+      "meaning": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+    },
+    {
+      "name": "Hushed Neap",
+      "meaning": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+    },
+    {
+      "name": "Storm-Stack Tide",
+      "meaning": "A low-pressure sea storm arriving with a strong moon tide."
+    },
+    {
+      "name": "Bastveig Drawdown",
+      "meaning": "A sudden retreat of water before trench-fed surge returns."
+    },
+    {
+      "name": "Horundar Wall",
+      "meaning": "A black-green wall of rain that crosses whole coasts."
+    },
+    {
+      "name": "Nannara Bead Squalls",
+      "meaning": "Short, sharp squalls that arrive in pairs or trios every few days."
+    },
+    {
+      "name": "Seleneš Silver Fog",
+      "meaning": "Moonlit fog so bright it makes ships look closer than they are."
+    },
+    {
+      "name": "Dragon-Anvil Cloud",
+      "meaning": "A towering thunderhead that forms over heated highlands."
+    },
+    {
+      "name": "Hag-Lantern Mist",
+      "meaning": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+    },
+    {
+      "name": "Cockatrice Still",
+      "meaning": "A suffocating, windless heat that freezes sails and tempers alike."
+    },
+    {
+      "name": "Beholder’s Eye Cyclone",
+      "meaning": "A rotating storm whose calm center is ringed by clear, staring sky."
+    },
+    {
+      "name": "Goblin Drum Thunder",
+      "meaning": "Low rolling thunder that repeats long before the rain reaches a settlement."
+    },
+    {
+      "name": "Kobold Sump Breath",
+      "meaning": "Warm gas-fog from marsh canals and low cave mouths."
+    },
+    {
+      "name": "Spiderweb Rain",
+      "meaning": "A fine crosswind rain that seems to fall sideways from many directions."
+    },
+    {
+      "name": "Basilisk Glass Haze",
+      "meaning": "Shimmering heat that turns distance into false water and false stone."
+    },
+    {
+      "name": "Chimera Crosswind",
+      "meaning": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+    },
+    {
+      "name": "Kraken-Surge",
+      "meaning": "A steep, dark swell pushed by far-off pressure changes."
+    },
+    {
+      "name": "Trollwash Rot-Rain",
+      "meaning": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+    },
+    {
+      "name": "Owlbear Dusk Gust",
+      "meaning": "A sudden evening wind that turns forest travel loud and blind."
+    },
+    {
+      "name": "Manticore Dusthook",
+      "meaning": "A hooked dust plume ahead of dryline storms."
+    },
+    {
+      "name": "Wyvern Ridge Lightning",
+      "meaning": "Highland lightning that walks along exposed ridges."
+    },
+    {
+      "name": "Gelatinous Roadmire",
+      "meaning": "Rain-soaked clay roads that swallow carts and boots."
+    },
+    {
+      "name": "Mimic Puddle Season",
+      "meaning": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+    },
+    {
+      "name": "Ghoulwind",
+      "meaning": "A dry graveyard wind that carries dust, spores, and old sickness."
+    },
+    {
+      "name": "Griffon Updraft",
+      "meaning": "A clean mountain lift used by skyships and great birds."
+    },
+    {
+      "name": "Sahuagin Undertow",
+      "meaning": "A fast pull beneath reef water during strong tide shifts."
+    },
+    {
+      "name": "Banshee Rain",
+      "meaning": "Thin cold rain that whistles through ruins and empty rigging."
+    },
+    {
+      "name": "Hydra Floodpulse",
+      "meaning": "One storm-fed river splits into several dangerous surges."
+    },
+    {
+      "name": "Wyrmcoil Current",
+      "meaning": "A spiraling river or sea current that turns boats sideways."
+    },
+    {
+      "name": "Moonmoth Bloom",
+      "meaning": "A soft glowing insect and spore bloom after warm moon rain."
+    }
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

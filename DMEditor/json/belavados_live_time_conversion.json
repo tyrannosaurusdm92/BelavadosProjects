@@ -1,0 +1,91 @@
+{
+  "schema": "belavados.time_conversion.live_client.v1",
+  "solarYearDays": 330.15,
+  "civilYearDays": 330,
+  "months": [
+    {
+      "index": 1,
+      "name": "Thoryn-Rahek",
+      "theme": "aberrant life, primordial mutation, dangerous origins"
+    },
+    {
+      "index": 2,
+      "name": "Freysethysra",
+      "theme": "crossroads, curses, beauty, temptation, forbidden pacts"
+    },
+    {
+      "index": 3,
+      "name": "Nefarokir",
+      "theme": "death, spirits, memory, burial, cosmic ledgers"
+    },
+    {
+      "index": 4,
+      "name": "Thalunesh",
+      "theme": "dreamers, tricksters, shapeshifters, wanderers, fey mischief"
+    },
+    {
+      "index": 5,
+      "name": "Horundar",
+      "theme": "storms, oceans, floods, earthquakes, raw elemental force"
+    },
+    {
+      "index": 6,
+      "name": "Raeshkul",
+      "theme": "intellect, psionics, strategy, higher understanding"
+    },
+    {
+      "index": 7,
+      "name": "Asethrimir",
+      "theme": "freedom, revelry, wilderness survival, constructs, awakened machinery"
+    },
+    {
+      "index": 8,
+      "name": "Sokhivar",
+      "theme": "sunlight, music, prophecy, divine freedom"
+    },
+    {
+      "index": 9,
+      "name": "Iskazunet",
+      "theme": "beasts, instinct, fertility, shadows, curses, twilight-born peoples"
+    },
+    {
+      "index": 10,
+      "name": "Bastve'enlil",
+      "theme": "tides, reefs, trenches, adaptation, civilization, instinct"
+    },
+    {
+      "index": 11,
+      "name": "Hathruna",
+      "theme": "rebirth, rot, fungi, roots, decay cycles"
+    }
+  ],
+  "weekdayMap": {
+    "Monday": "Nebday",
+    "Tuesday": "Sigranday",
+    "Wednesday": "Ishtaday",
+    "Thursday": "Marduday",
+    "Friday": "Enkirday",
+    "Saturday": "Anubaday",
+    "Sunday": "Valkhaday"
+  },
+  "settlementUtcFormula": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12)",
+  "liveUpdateIntervalMs": 1000,
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

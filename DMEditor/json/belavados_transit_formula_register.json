@@ -1,0 +1,103 @@
+{
+  "schema": "belavados.transit.formula_register.v1",
+  "formulas": [
+    {
+      "key": "great_circle_distance_km",
+      "expression": "d=2*R*asin(sqrt(sin^2(dLat/2)+cos(lat1)*cos(lat2)*sin^2(dLon/2)))"
+    },
+    {
+      "key": "bearing",
+      "expression": "theta=atan2(sin(dLon)*cos(lat2), cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(dLon))"
+    },
+    {
+      "key": "utc_band_span",
+      "expression": "utcBandSpan=abs(utcOffsetTo-utcOffsetFrom)"
+    },
+    {
+      "key": "fixed_minutes",
+      "expression": "fixed=originBoarding+terminusDisembark+intermediateStops*dwell+breakMinutes"
+    },
+    {
+      "key": "motion_minutes",
+      "expression": "motion=60*distanceKm/serviceSpeedKph*weatherFactor*regionalFactor*factionFactor*pantheonFactor"
+    },
+    {
+      "key": "total_minutes",
+      "expression": "total=fixed+motion+transferMinutes+cooldownMinutes"
+    },
+    {
+      "key": "required_motion_speed",
+      "expression": "requiredSpeedKph=distanceKm/max((targetMinutes-fixedMinutes)/60,epsilon)"
+    },
+    {
+      "key": "available_ichor_energy",
+      "expression": "E_available=m_i*e_i*Pi*eta_reaction*eta_containment"
+    },
+    {
+      "key": "power_output",
+      "expression": "P_output=E_available/t"
+    },
+    {
+      "key": "potency_index",
+      "expression": "IPI=10*Pi*(1+0.6*H+0.4*Psi)*G_s"
+    },
+    {
+      "key": "runaway_index",
+      "expression": "Runaway=(Heat_Generation/Heat_Removal)*(1+H+contamination)"
+    },
+    {
+      "key": "safety_margin",
+      "expression": "Safety_Margin=Rated_Limit/Operating_Load"
+    },
+    {
+      "key": "rail_force",
+      "expression": "F_total=m*g*Crr+0.5*rho_air*CdA*v^2+m*g*grade+m*a"
+    },
+    {
+      "key": "rail_power",
+      "expression": "P_rail=F_total*v/eta_traction"
+    },
+    {
+      "key": "skyship_power",
+      "expression": "P_sky=0.5*rho_air*CdA*v^3/eta_thrust + m*g*liftReserve/eta_lift"
+    },
+    {
+      "key": "steamship_power",
+      "expression": "P_ship=0.5*rho_water*CdA*v^3/eta_shaft"
+    },
+    {
+      "key": "submarine_power",
+      "expression": "P_sub=0.5*rho_water*CdA*v^3*quietPenalty/eta_quietDrive"
+    },
+    {
+      "key": "portal_field_energy",
+      "expression": "E_field=E_base+k_distance*foldDistance+k_mass*batchMass+k_time*openMinutes+k_stability/(lockCertainty)"
+    },
+    {
+      "key": "cooldown_minutes",
+      "expression": "cooldown=max(0,heatDebtMJ/coolingRateMJperMinute)"
+    },
+    {
+      "key": "risk_index",
+      "expression": "Risk=Severity*Probability*Exposure*Moral_Load*Weather*Faction*Pantheon"
+    }
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema": "belavados.transit.math_profiles.topography_weather.v2",
+  "canon": {
+    "corePremise": "Core-grade ichor behaves like sealed long-endurance nuclear-pattern civic power: small mass, enormous heat/electric/field output, severe cooling and shielding needs, and strict legal custody.",
+    "benchmarks": {
+      "railUtcMinus4ToPlus1Minutes": 240,
+      "railMinimumIntermediateStops": 8,
+      "skyshipSameSpanMinutes": 120,
+      "portalCrossing": "near-instant after lock and batching"
+    },
+    "directions": [
+      "northbound",
+      "southbound",
+      "eastbound",
+      "westbound",
+      "northeast",
+      "northwest",
+      "southeast",
+      "southwest"
+    ],
+    "topographyWeatherRevision": "belavados-four-compendium-canon-2026-07-17",
+    "routeRewritePremise": "Transit math now carries clear-service movement, terrain-distance factors, and weather-adjusted movement per segment, including deep cavern and deep sea access classes."
+  },
+  "realm": {
+    "meanRadiusKm": 6371.0088,
+    "utcBandDegrees": 15,
+    "gravityMps2": 9.80665,
+    "airDensityKgM3": 1.18,
+    "waterDensityKgM3": 1025
+  },
+  "modes": {
+    "rail": {
+      "speedKph": {
+        "local": 900,
+        "regional": 2200,
+        "intercity": 3600,
+        "express": 5400,
+        "emergency": 6800
+      },
+      "dwell": {
+        "origin": 8,
+        "intermediate": 5,
+        "terminus": 8,
+        "breakPerFiveUtcBands": 20
+      },
+      "benchmark": {
+        "utcBands": 5,
+        "maxMinutes": 240,
+        "minIntermediateStops": 8
+      },
+      "physics": [
+        "traction",
+        "adhesion",
+        "rolling resistance",
+        "grade force",
+        "signal spacing",
+        "regenerative braking"
+      ]
+    },
+    "skyship": {
+      "speedKph": {
+        "local": 1200,
+        "regional": 3600,
+        "intercity": 7200,
+        "express": 14000,
+        "emergency": 17000
+      },
+      "dwell": {
+        "origin": 6,
+        "intermediate": 3,
+        "terminus": 6,
+        "breakPerFiveUtcBands": 8
+      },
+      "benchmark": {
+        "utcBands": 5,
+        "maxMinutes": 120
+      },
+      "physics": [
+        "lift lattice",
+        "thrust",
+        "drag",
+        "gust reserve",
+        "landing cooldown"
+      ]
+    },
+    "portal": {
+      "speedKph": {
+        "ledgerEquivalent": 99999,
+        "express": 99999
+      },
+      "dwell": {
+        "origin": 10,
+        "intermediate": 2,
+        "terminus": 8,
+        "breakPerFiveUtcBands": 0
+      },
+      "benchmark": {
+        "physicalCrossingMinutes": 0.5,
+        "expressLockWindowMinutes": 8
+      },
+      "physics": [
+        "destination lock",
+        "field stability",
+        "membrane health",
+        "mass transfer"
+      ]
+    },
+    "steamship": {
+      "speedKph": {
+        "local": 80,
+        "regional": 180,
+        "intercity": 360,
+        "express": 520,
+        "emergency": 650
+      },
+      "dwell": {
+        "origin": 14,
+        "intermediate": 12,
+        "terminus": 14,
+        "breakPerFiveUtcBands": 40
+      },
+      "physics": [
+        "buoyancy",
+        "hull drag",
+        "boiler pressure",
+        "condenser recovery",
+        "shaft work"
+      ]
+    },
+    "submarine": {
+      "speedKph": {
+        "local": 90,
+        "regional": 240,
+        "intercity": 480,
+        "express": 700,
+        "emergency": 850
+      },
+      "dwell": {
+        "origin": 18,
+        "intermediate": 15,
+        "terminus": 18,
+        "breakPerFiveUtcBands": 50
+      },
+      "physics": [
+        "buoyancy",
+        "pressure hull",
+        "hydrodynamic drag",
+        "life support",
+        "trim"
+      ]
+    },
+    "ferry": {
+      "speedKph": {
+        "local": 50,
+        "regional": 120,
+        "intercity": 180,
+        "express": 240
+      },
+      "dwell": {
+        "origin": 8,
+        "intermediate": 6,
+        "terminus": 8,
+        "breakPerFiveUtcBands": 30
+      }
+    },
+    "caravan": {
+      "speedKph": {
+        "local": 18,
+        "regional": 40,
+        "intercity": 65,
+        "express": 80
+      },
+      "dwell": {
+        "origin": 20,
+        "intermediate": 25,
+        "terminus": 20,
+        "breakPerFiveUtcBands": 120
+      }
+    }
+  },
+  "terrainDistanceFactorsApplied": {
+    "deepCavern": 1.18,
+    "mountain": 1.14,
+    "underwaterPressure": 1.16,
+    "reef": 1.12,
+    "marshForest": 1.1,
+    "modeSpecific": "Each segment stores actual terrainDistanceFactor used."
+  },
+  "weatherFactorApplication": "Every segment stores topographyWeather.timeFactor and movementMinutesWeatherAdjusted; schedules can switch to weather-adjusted profile during named weather or regional hazard conditions.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

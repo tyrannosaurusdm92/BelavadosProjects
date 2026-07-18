@@ -1,0 +1,199 @@
+{
+  "schema": "belavados.transit.pantheon_faction_model.v1",
+  "ichorProductionDoctrine": "Ichor is a deity-produced compound harvested during controlled feeding. Prison systems interrupt final consumption and leave black living residue that can be separated, denatured, stabilized, and converted into public transit power under legal custody.",
+  "pantheonInfluences": [
+    {
+      "god": "Nebyrr",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Sigrananna",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Marduthor",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Ishtanora",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Enkirael",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Anubaldir",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Valkhamesh",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Freyseth",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Nefarokir",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Thalunesh",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Horundar",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Raeshkul",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Setrimir",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Sokhivar",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Iskareth",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Bastveig",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Thoryn-Rahek",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Hathruna",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Eirzunet",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Oskar'enlil",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Asethyr",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    },
+    {
+      "god": "Nephthysra",
+      "routeEffect": "Public ledgers should record this deity when weather, route law, ancestry, machine behavior, tide, death, dream, or political pressure makes the route less ordinary."
+    }
+  ],
+  "factions": {
+    "Temple-Prison Licensing Offices": {
+      "modes": [
+        "all"
+      ],
+      "delayMinutes": 8,
+      "riskFactor": 1.05
+    },
+    "Civic Transit Wardens": {
+      "modes": [
+        "all"
+      ],
+      "delayMinutes": 4,
+      "riskFactor": 0.95
+    },
+    "Ichor Refiners Guild": {
+      "modes": [
+        "rail",
+        "skyship",
+        "steamship",
+        "submarine",
+        "portal"
+      ],
+      "delayMinutes": 6,
+      "riskFactor": 0.9
+    },
+    "Crownline Rail Inspectors": {
+      "modes": [
+        "rail"
+      ],
+      "delayMinutes": 5,
+      "riskFactor": 0.85
+    },
+    "Skyport Pilot Houses": {
+      "modes": [
+        "skyship"
+      ],
+      "delayMinutes": 7,
+      "riskFactor": 0.88
+    },
+    "Harbor Grounding Guilds": {
+      "modes": [
+        "steamship",
+        "submarine",
+        "ferry"
+      ],
+      "delayMinutes": 10,
+      "riskFactor": 0.9
+    },
+    "Deep-Lock Keepers": {
+      "modes": [
+        "submarine"
+      ],
+      "delayMinutes": 12,
+      "riskFactor": 0.82
+    },
+    "Portal Registry": {
+      "modes": [
+        "portal"
+      ],
+      "delayMinutes": 12,
+      "riskFactor": 0.8
+    },
+    "Black Ichor Syndicates": {
+      "modes": [
+        "all"
+      ],
+      "delayMinutes": 0,
+      "riskFactor": 1.8
+    },
+    "Anti-Ichor Abolition Cells": {
+      "modes": [
+        "all"
+      ],
+      "delayMinutes": 15,
+      "riskFactor": 1.25
+    },
+    "Noble Extraction Houses": {
+      "modes": [
+        "portal",
+        "skyship",
+        "rail"
+      ],
+      "delayMinutes": 5,
+      "riskFactor": 1.2
+    }
+  },
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

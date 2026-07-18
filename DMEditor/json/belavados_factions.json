@@ -1,0 +1,731 @@
+{
+  "schema": "belavados.factions.active_ten.player_site.v1",
+  "kind": "belavados_factions",
+  "generatedDate": "2026-07-17",
+  "sourceDataStatus": "derived_from_province_and_settlement_records",
+  "factionCount": 10,
+  "factions": [
+    {
+      "name": "The Choral Synod",
+      "count": 46,
+      "settlementCount": 42,
+      "provinceCount": 4,
+      "settlements": [
+        "Abyrros",
+        "Auralisthra",
+        "Blackwake Isles",
+        "Bleasacia",
+        "Caelunor",
+        "Cyr'ethael",
+        "Dreadcurrent",
+        "Elarion Pastures",
+        "Elarithen",
+        "Elaréth",
+        "Faelvyrûn",
+        "Grimwater Reach",
+        "Leammipa",
+        "Leviamor",
+        "Lun'varae",
+        "Lunathéa",
+        "Lunavéss",
+        "Lunévaris",
+        "Morvyrûn-Thal",
+        "Mostrerah",
+        "Myr'ethûn",
+        "Neruvéa",
+        "Nythalûn",
+        "Ocevaruun",
+        "Orynéssa",
+        "Pokbith",
+        "Seralun",
+        "Skulltide Expanse",
+        "Streccea",
+        "Sylmaris",
+        "Sylvarûn",
+        "Sylvathûn",
+        "Sylvéraith",
+        "Thal’kazuun",
+        "Ulwyn",
+        "Vaelméra",
+        "Vaeloris Greenlands",
+        "Vireluna",
+        "Vorthalass",
+        "Wilsara",
+        "Yl'varessa",
+        "Yltharien"
+      ],
+      "provinces": [
+        "Aelwynora",
+        "Iazethas",
+        "Lun’tharavé",
+        "Thalryss"
+      ]
+    },
+    {
+      "name": "The Black-Maw Myriad",
+      "count": 43,
+      "settlementCount": 39,
+      "provinceCount": 4,
+      "settlements": [
+        "Abyrros",
+        "Aelrúnor",
+        "Balmire",
+        "Belynthar",
+        "Bentharys",
+        "Blackwake Isles",
+        "Briarwater",
+        "Caelthyrûn",
+        "Cyréthar",
+        "Dreadcurrent",
+        "Fael'ryss",
+        "Fensylth",
+        "Frostfen",
+        "Gavaryn",
+        "Greenmire",
+        "Grimwater Reach",
+        "Leviamor",
+        "Lorangriel",
+        "Lysvire",
+        "Lysévara",
+        "Maelvéra",
+        "Merrinthal",
+        "Morvyrûn-Thal",
+        "Murethash",
+        "Nythalûn",
+        "Nythéssa",
+        "Ocevaruun",
+        "Or'lythae",
+        "Palevanna",
+        "Pellavess",
+        "Porthelis",
+        "Skulltide Expanse",
+        "Thaloréa",
+        "Thal’kazuun",
+        "Thyralûn",
+        "Veloraskkis",
+        "Vorthalass",
+        "Wildsunder",
+        "Yi’vanyr"
+      ],
+      "provinces": [
+        "El'dravire Riverrealm",
+        "Nalvessir",
+        "Pelvoryn",
+        "Thalryss"
+      ]
+    },
+    {
+      "name": "The Nefaric Veil",
+      "count": 37,
+      "settlementCount": 34,
+      "provinceCount": 3,
+      "settlements": [
+        "Blacktide Reach",
+        "Caelorynth",
+        "Cindervale Coast",
+        "Cyravûn",
+        "Elarûneth",
+        "Fenwyrd",
+        "Grimvald",
+        "Heth'vára",
+        "Ish’voryk",
+        "Kharrowfen",
+        "Kharrowport",
+        "Li’mioreimn",
+        "Lythéra",
+        "Meadowlight Expanse",
+        "Morvakar",
+        "Mossirueth",
+        "Myraléon",
+        "Myrkwake",
+        "Nyr'thalor",
+        "Orinthéa",
+        "Rnzeuluun",
+        "Seawynd Hollow",
+        "Shadewharf",
+        "Skarnfell",
+        "Stormharrow",
+        "Thalmerrow",
+        "Thyraléa",
+        "Thyrévara",
+        "Utch’myrith",
+        "Vaelorûn",
+        "Vaelshore",
+        "Vorakmar",
+        "Yire’thaulor",
+        "Éryndor"
+      ],
+      "provinces": [
+        "Drakmorren",
+        "Jor’maelis",
+        "Marrowynd"
+      ]
+    },
+    {
+      "name": "The Obsidian Diadem",
+      "count": 37,
+      "settlementCount": 34,
+      "provinceCount": 3,
+      "settlements": [
+        "Amazuul",
+        "Bloodmire",
+        "Cyraléth",
+        "Eldaréss",
+        "Eldavûn",
+        "Eldryssar",
+        "Faelunéth",
+        "Ithkazuun",
+        "Keth'varûn",
+        "Keth’mora",
+        "Khazovar",
+        "Lunethryl",
+        "Lunoréa",
+        "Morvélyn",
+        "Myrvéla",
+        "Norevûn",
+        "Oravélyn",
+        "Sszaruun",
+        "Sylthéra-Vael",
+        "Thaléssar",
+        "Thal’zuroth",
+        "Vael'zyr",
+        "Vaelzahara",
+        "Vaerûn-Keth",
+        "Varesh-Ka",
+        "Velkynwood",
+        "Vorathûn",
+        "Vyraléth",
+        "Whispergrove",
+        "Xal’voroq",
+        "Zelvarûn",
+        "Zhurak’thel",
+        "Zor'elyth",
+        "Élarwyn"
+      ],
+      "provinces": [
+        "Khorvaak",
+        "Vaelmyrith",
+        "Zal’tharuun"
+      ]
+    },
+    {
+      "name": "The Freeblade Veil",
+      "count": 33,
+      "settlementCount": 30,
+      "provinceCount": 3,
+      "settlements": [
+        "Aelgrove",
+        "Aelmyrwald",
+        "Cloverfen",
+        "Drakesylva",
+        "Elaravosk",
+        "Elarvess",
+        "Everwake",
+        "Faelmere",
+        "Faeloryn",
+        "Greenhollow Plains",
+        "Harvestmere",
+        "Lethyrvos",
+        "Lunawyn",
+        "Lunebriar",
+        "Mossvale",
+        "Myrvaelûn",
+        "Mythraelyn",
+        "Oakenshire",
+        "Riverbloom",
+        "Rootmere",
+        "Syl'thara",
+        "Sylthadös",
+        "Sylthéa",
+        "Sylvanreach",
+        "Sylvarielle",
+        "Thalavaryn",
+        "Vaelithorne",
+        "Vaelthyros",
+        "Vaerundell",
+        "Wildbloom"
+      ],
+      "provinces": [
+        "Aelvanyr",
+        "Eldermere",
+        "Sylvavéryn"
+      ]
+    },
+    {
+      "name": "The Cog-Sanctum Synod",
+      "count": 32,
+      "settlementCount": 29,
+      "provinceCount": 3,
+      "settlements": [
+        "Aelvyréa",
+        "Bleosianys",
+        "Coravûn",
+        "Dorghalun",
+        "Drakzhul",
+        "Draskminn",
+        "Dravéssar",
+        "Faeloryth",
+        "Greybriar",
+        "Ironwood",
+        "Karag-Thûl",
+        "Kharzund",
+        "Kharévok",
+        "Lorath",
+        "Moltharok",
+        "Morélyth",
+        "Myrvéssa",
+        "Othéryn",
+        "Rivenwild",
+        "Sleakitika",
+        "Thal'véra",
+        "Tharvokar",
+        "Thornbreak",
+        "Umiotope",
+        "Vaeloréss",
+        "Vorthélyn",
+        "Vulkradûn",
+        "Wrobetopia",
+        "Zarveng"
+      ],
+      "provinces": [
+        "Gruddirynn",
+        "Kharvathen",
+        "Zharvokh"
+      ]
+    },
+    {
+      "name": "The Crucible Wardens",
+      "count": 32,
+      "settlementCount": 29,
+      "provinceCount": 3,
+      "settlements": [
+        "Aelthéon",
+        "Brokharn",
+        "Bronzewake",
+        "Caelvanna",
+        "Dorghalun",
+        "Drae'vyris",
+        "Draskminn",
+        "Faeloria",
+        "Gorathkar",
+        "Greybriar",
+        "Ironwood",
+        "Kharzund",
+        "Lithvar",
+        "Lorath",
+        "Mor'athéra",
+        "Nellvaris",
+        "Oryndéa",
+        "Rivenwild",
+        "Stormgullet",
+        "Straithaven",
+        "Thalyréss",
+        "Thornbreak",
+        "Vaeluréss",
+        "Veilstrand",
+        "Virelyss",
+        "Vireléssar",
+        "Virethéa",
+        "Virethûn",
+        "Zarveng"
+      ],
+      "provinces": [
+        "Falthrakar",
+        "Kharvathen",
+        "Virelport"
+      ]
+    },
+    {
+      "name": "The Regent Lattice",
+      "count": 32,
+      "settlementCount": 29,
+      "provinceCount": 3,
+      "settlements": [
+        "Ael'voryn",
+        "Aelmoryth",
+        "Aelryss-Kor",
+        "Aelshoreth",
+        "Caelmyros",
+        "Cyralune",
+        "Elarion Pastures",
+        "Elarithen",
+        "Glattonica",
+        "Iciarene",
+        "Myralûn",
+        "Mythalora",
+        "Obriasos",
+        "Orithalune",
+        "Orynéssa",
+        "Solvyréa",
+        "Sylvarûn",
+        "Sylvathûn",
+        "Sylvéraith",
+        "Ullunor",
+        "Ulwyn",
+        "Vaelméra",
+        "Vaelunthir",
+        "Vaelynor",
+        "Wagriolyn",
+        "Wilsara",
+        "Wrasserah",
+        "Yl'varessa",
+        "Yltharien"
+      ],
+      "provinces": [
+        "Aelwynora",
+        "Astraevos",
+        "Earrorim"
+      ]
+    },
+    {
+      "name": "The Glasswell Institute",
+      "count": 30,
+      "settlementCount": 27,
+      "provinceCount": 3,
+      "settlements": [
+        "Cindrau",
+        "Cindréa",
+        "Faelith",
+        "Gildri",
+        "Glysera",
+        "Hyselva",
+        "Ithmora",
+        "Loxvire",
+        "Mornelya",
+        "Oelnoreu",
+        "Qasvire",
+        "Qel'vorys",
+        "Qelvandra",
+        "Qov'ei",
+        "Rilvays",
+        "Soltharyn Basin",
+        "Solthéra",
+        "Solunéa",
+        "Solvaryn",
+        "Sundervale",
+        "Thaloréa Reach",
+        "Thyravéa-Morn",
+        "Th’oyndor",
+        "Turyne",
+        "Vaelyssa",
+        "Xel'ryndor",
+        "Xelvoryn"
+      ],
+      "provinces": [
+        "Bravelyn",
+        "Ceulrithan",
+        "Vuelmora"
+      ]
+    },
+    {
+      "name": "The Brass Concordat",
+      "count": 29,
+      "settlementCount": 26,
+      "provinceCount": 3,
+      "settlements": [
+        "Ael'voryn",
+        "Aelmoryth",
+        "Aelryss-Kor",
+        "Aelshoreth",
+        "Avarélyn",
+        "Brassmere Concord",
+        "Caelmyros",
+        "Cyralune",
+        "Dunvyr",
+        "Heths’ther",
+        "Kael'vyrûn",
+        "Mistval",
+        "Myrathéa",
+        "Mythalora",
+        "Nythavéa",
+        "Orithalune",
+        "Scalori",
+        "Silver Véil",
+        "Silverwake",
+        "Sunvale Reach",
+        "Thal'ryssûn",
+        "Thaloju",
+        "Vaelunthir",
+        "Valdrune Fields",
+        "Velunéth",
+        "Whispering Éstuary"
+      ],
+      "provinces": [
+        "Astraevos",
+        "Kaelvorrin",
+        "Valerune"
+      ]
+    }
+  ],
+  "activeFactionCount": 10,
+  "activeTen": [
+    {
+      "id": "fac_crucible_wardens",
+      "name": "The Crucible Wardens",
+      "atTableRole": "Relic containment, rail escorts, technology licensing.",
+      "primarySeat": "Kharzund, Kharvathen",
+      "portalEligibility": {
+        "likelyAtaCategory": "Military and Security / Arcane Scholars",
+        "tier3TitleOptions": "Arcane Sentinel, Warcaster, Artifact Trader",
+        "passRisk": "Pass audited after every relic transfer."
+      },
+      "publicPressure": "Industrial wardens, foundry guards, road-safety officers, and disaster responders tied to hard infrastructure."
+    },
+    {
+      "id": "fac_obsidian_diadem",
+      "name": "The Obsidian Diadem",
+      "atTableRole": "Authoritarian courts, occupation, pact cavalry.",
+      "primarySeat": "Sszaruun, Zal-tharuun",
+      "portalEligibility": {
+        "likelyAtaCategory": "Military and Security / Government",
+        "tier3TitleOptions": "Warcaster, Emissary, Strategic Courier",
+        "passRisk": "Pass may be revoked by rival governments; forged passes are common."
+      },
+      "publicPressure": "Elite conspiratorial power that turns reputation, inheritance, silence, and fear into political currency."
+    },
+    {
+      "id": "fac_choral_synod",
+      "name": "The Choral Synod",
+      "atTableRole": "Healing faith, pilgrim debt, sacred transit.",
+      "primarySeat": "Auralisthra, Lun-tharave",
+      "portalEligibility": {
+        "likelyAtaCategory": "Religious Orders / Celestial Scholars",
+        "tier3TitleOptions": "Divine Herald, Veilkeeper, Dream Weaver",
+        "passRisk": "Pass can bind pilgrims into debt records."
+      },
+      "publicPressure": "Public ritual, song-law, temple consensus, healing choirs, and moral pressure through spectacle."
+    },
+    {
+      "id": "fac_brass_concordat",
+      "name": "The Brass Concordat",
+      "atTableRole": "Treaty law, legal cover, lantern agents.",
+      "primarySeat": "Avarelyn, Valerune",
+      "portalEligibility": {
+        "likelyAtaCategory": "Royal and Government Officials",
+        "tier3TitleOptions": "Diplomat, Emissary, Strategic Courier",
+        "passRisk": "Pass has heavy logging and political scrutiny."
+      },
+      "publicPressure": "Trade, contracts, machine works, licenses, civic ledgers, and profitable stability."
+    },
+    {
+      "id": "fac_nefaric_veil",
+      "name": "The Nefaric Veil",
+      "atTableRole": "Death-ledger contracts and eerie justice.",
+      "primarySeat": "Grimvald, Drakmorren",
+      "portalEligibility": {
+        "likelyAtaCategory": "Not usually legal; compromised security channels",
+        "tier3TitleOptions": "Shadow Operative only if officially laundered",
+        "passRisk": "Legal pass usually implies corruption, blackmail, or deniable state sanction."
+      },
+      "publicPressure": "Death records, hidden burials, spirit law, prison rumors, and secrets no court wants publicly weighed."
+    },
+    {
+      "id": "fac_black_maw_myriad",
+      "name": "The Black-Maw Myriad",
+      "atTableRole": "Ichor ecology, mutation, adaptive broods.",
+      "primarySeat": "Greenmire, Nalvessir",
+      "portalEligibility": {
+        "likelyAtaCategory": "Normally ineligible",
+        "tier3TitleOptions": "None; negotiable clades may use escorts",
+        "passRisk": "Any portal contact risks contamination review."
+      },
+      "publicPressure": "Legal-crime brokers, salvage crews, registered violence, smuggling paperwork, and Thalryss-style plausible deniability."
+    },
+    {
+      "id": "fac_glasswell_institute",
+      "name": "The Glasswell Institute",
+      "atTableRole": "Arcane science, test chambers, personhood horror.",
+      "primarySeat": "Gildri, Ceulrithan",
+      "portalEligibility": {
+        "likelyAtaCategory": "Arcane Scholars / Trade Guilds",
+        "tier3TitleOptions": "Leyline Researcher, Artifact Trader, Riftwalker",
+        "passRisk": "Research exceptions are where disasters begin."
+      },
+      "publicPressure": "Research houses, medical experiments, mutation records, healing trials, and dangerous knowledge with clean windows."
+    },
+    {
+      "id": "fac_freeblade_veil",
+      "name": "The Freeblade Veil",
+      "atTableRole": "Liberation cells, forged papers, sabotage.",
+      "primarySeat": "Mythraelyn, Aelvanyr",
+      "portalEligibility": {
+        "likelyAtaCategory": "Rarely legal; liberation covers",
+        "tier3TitleOptions": "Shadow Operative, Strategic Courier",
+        "passRisk": "Most passes are borrowed, forged, or stolen from tyrants."
+      },
+      "publicPressure": "Independent protectors, scouts, informants, and traveling blades that take jobs between factions."
+    },
+    {
+      "id": "fac_cog_sanctum_synod",
+      "name": "The Cog-Sanctum Synod",
+      "atTableRole": "Machine-priests, augmetics, foundry rites.",
+      "primarySeat": "Sleakitika, Gruddirynn",
+      "portalEligibility": {
+        "likelyAtaCategory": "Arcane Scholars / Trade Guilds / Religious",
+        "tier3TitleOptions": "Artifact Trader, Leyline Researcher, Divine Herald",
+        "passRisk": "Machine relics trigger quarantine clauses."
+      },
+      "publicPressure": "Sacred machinery, construct rights, artificial souls, mechanism-priests, and doctrine around awakened design."
+    },
+    {
+      "id": "fac_regent_lattice",
+      "name": "The Regent Lattice",
+      "atTableRole": "Surveillance, ration control, civic assimilation.",
+      "primarySeat": "Glattonica, Earrorim",
+      "portalEligibility": {
+        "likelyAtaCategory": "Government / Military and Security",
+        "tier3TitleOptions": "Strategic Courier, Shadow Operative, Warcaster",
+        "passRisk": "Passes can punish entire registered families."
+      },
+      "publicPressure": "High governance, royal offices, regional coordination, and the polite force of official control."
+    }
+  ],
+  "activeTenLookup": {
+    "The Crucible Wardens": {
+      "id": "fac_crucible_wardens",
+      "name": "The Crucible Wardens",
+      "atTableRole": "Relic containment, rail escorts, technology licensing.",
+      "primarySeat": "Kharzund, Kharvathen",
+      "portalEligibility": {
+        "likelyAtaCategory": "Military and Security / Arcane Scholars",
+        "tier3TitleOptions": "Arcane Sentinel, Warcaster, Artifact Trader",
+        "passRisk": "Pass audited after every relic transfer."
+      },
+      "publicPressure": "Industrial wardens, foundry guards, road-safety officers, and disaster responders tied to hard infrastructure."
+    },
+    "The Obsidian Diadem": {
+      "id": "fac_obsidian_diadem",
+      "name": "The Obsidian Diadem",
+      "atTableRole": "Authoritarian courts, occupation, pact cavalry.",
+      "primarySeat": "Sszaruun, Zal-tharuun",
+      "portalEligibility": {
+        "likelyAtaCategory": "Military and Security / Government",
+        "tier3TitleOptions": "Warcaster, Emissary, Strategic Courier",
+        "passRisk": "Pass may be revoked by rival governments; forged passes are common."
+      },
+      "publicPressure": "Elite conspiratorial power that turns reputation, inheritance, silence, and fear into political currency."
+    },
+    "The Choral Synod": {
+      "id": "fac_choral_synod",
+      "name": "The Choral Synod",
+      "atTableRole": "Healing faith, pilgrim debt, sacred transit.",
+      "primarySeat": "Auralisthra, Lun-tharave",
+      "portalEligibility": {
+        "likelyAtaCategory": "Religious Orders / Celestial Scholars",
+        "tier3TitleOptions": "Divine Herald, Veilkeeper, Dream Weaver",
+        "passRisk": "Pass can bind pilgrims into debt records."
+      },
+      "publicPressure": "Public ritual, song-law, temple consensus, healing choirs, and moral pressure through spectacle."
+    },
+    "The Brass Concordat": {
+      "id": "fac_brass_concordat",
+      "name": "The Brass Concordat",
+      "atTableRole": "Treaty law, legal cover, lantern agents.",
+      "primarySeat": "Avarelyn, Valerune",
+      "portalEligibility": {
+        "likelyAtaCategory": "Royal and Government Officials",
+        "tier3TitleOptions": "Diplomat, Emissary, Strategic Courier",
+        "passRisk": "Pass has heavy logging and political scrutiny."
+      },
+      "publicPressure": "Trade, contracts, machine works, licenses, civic ledgers, and profitable stability."
+    },
+    "The Nefaric Veil": {
+      "id": "fac_nefaric_veil",
+      "name": "The Nefaric Veil",
+      "atTableRole": "Death-ledger contracts and eerie justice.",
+      "primarySeat": "Grimvald, Drakmorren",
+      "portalEligibility": {
+        "likelyAtaCategory": "Not usually legal; compromised security channels",
+        "tier3TitleOptions": "Shadow Operative only if officially laundered",
+        "passRisk": "Legal pass usually implies corruption, blackmail, or deniable state sanction."
+      },
+      "publicPressure": "Death records, hidden burials, spirit law, prison rumors, and secrets no court wants publicly weighed."
+    },
+    "The Black-Maw Myriad": {
+      "id": "fac_black_maw_myriad",
+      "name": "The Black-Maw Myriad",
+      "atTableRole": "Ichor ecology, mutation, adaptive broods.",
+      "primarySeat": "Greenmire, Nalvessir",
+      "portalEligibility": {
+        "likelyAtaCategory": "Normally ineligible",
+        "tier3TitleOptions": "None; negotiable clades may use escorts",
+        "passRisk": "Any portal contact risks contamination review."
+      },
+      "publicPressure": "Legal-crime brokers, salvage crews, registered violence, smuggling paperwork, and Thalryss-style plausible deniability."
+    },
+    "The Glasswell Institute": {
+      "id": "fac_glasswell_institute",
+      "name": "The Glasswell Institute",
+      "atTableRole": "Arcane science, test chambers, personhood horror.",
+      "primarySeat": "Gildri, Ceulrithan",
+      "portalEligibility": {
+        "likelyAtaCategory": "Arcane Scholars / Trade Guilds",
+        "tier3TitleOptions": "Leyline Researcher, Artifact Trader, Riftwalker",
+        "passRisk": "Research exceptions are where disasters begin."
+      },
+      "publicPressure": "Research houses, medical experiments, mutation records, healing trials, and dangerous knowledge with clean windows."
+    },
+    "The Freeblade Veil": {
+      "id": "fac_freeblade_veil",
+      "name": "The Freeblade Veil",
+      "atTableRole": "Liberation cells, forged papers, sabotage.",
+      "primarySeat": "Mythraelyn, Aelvanyr",
+      "portalEligibility": {
+        "likelyAtaCategory": "Rarely legal; liberation covers",
+        "tier3TitleOptions": "Shadow Operative, Strategic Courier",
+        "passRisk": "Most passes are borrowed, forged, or stolen from tyrants."
+      },
+      "publicPressure": "Independent protectors, scouts, informants, and traveling blades that take jobs between factions."
+    },
+    "The Cog-Sanctum Synod": {
+      "id": "fac_cog_sanctum_synod",
+      "name": "The Cog-Sanctum Synod",
+      "atTableRole": "Machine-priests, augmetics, foundry rites.",
+      "primarySeat": "Sleakitika, Gruddirynn",
+      "portalEligibility": {
+        "likelyAtaCategory": "Arcane Scholars / Trade Guilds / Religious",
+        "tier3TitleOptions": "Artifact Trader, Leyline Researcher, Divine Herald",
+        "passRisk": "Machine relics trigger quarantine clauses."
+      },
+      "publicPressure": "Sacred machinery, construct rights, artificial souls, mechanism-priests, and doctrine around awakened design."
+    },
+    "The Regent Lattice": {
+      "id": "fac_regent_lattice",
+      "name": "The Regent Lattice",
+      "atTableRole": "Surveillance, ration control, civic assimilation.",
+      "primarySeat": "Glattonica, Earrorim",
+      "portalEligibility": {
+        "likelyAtaCategory": "Government / Military and Security",
+        "tier3TitleOptions": "Strategic Courier, Shadow Operative, Warcaster",
+        "passRisk": "Passes can punish entire registered families."
+      },
+      "publicPressure": "High governance, royal offices, regional coordination, and the polite force of official control."
+    }
+  },
+  "sourceNotes": "Active faction roster, portal eligibility, and public pressure fields are stored for settlement profile display and NPC/location filtering.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  },
+  "currentCanonSources": [
+    "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+    "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+    "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+    "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+  ],
+  "fullLifeCompendiumJson": "canon_source_life_in_belavados_full.json"
+}

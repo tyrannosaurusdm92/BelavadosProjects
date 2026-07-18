@@ -1,0 +1,97 @@
+{
+  "schema": "belavados.transit.math_package_manifest.v1",
+  "purpose": "Math-heavy JSON and JavaScript generated from the immersive DOCX transit set and integrated with the arch tracker route hook system.",
+  "sourceDocuments": [
+    {
+      "fileName": "Belavadös Ichor-Powered Portal.docx",
+      "sha256": "ae4ac895a9a2d93d17cead0d2097a6cb657f227c82a055ba9bb63c9b50d6ff88",
+      "paragraphs": 700,
+      "tables": 60,
+      "characters": 164953
+    },
+    {
+      "fileName": "Belavadös Ichor-Powered Skyships.docx",
+      "sha256": "9177b1e1eb7253cf3c2961250fdae4ec43c21ee9a0b04d835780769e989d8b42",
+      "paragraphs": 1300,
+      "tables": 168,
+      "characters": 284326
+    },
+    {
+      "fileName": "Belavadös Ichor-Powered Steamships.docx",
+      "sha256": "353fecc9eac5459791d7a25db7bc8a140de8875fae6ec9741b766922010e1a53",
+      "paragraphs": 590,
+      "tables": 106,
+      "characters": 99849
+    },
+    {
+      "fileName": "Belavadös Ichor-Powered Submarines.docx",
+      "sha256": "422c4f75fc2bcd329b02e00b0ab2e041abca3c343f9ef3b6120ec5e6c7e6d6e1",
+      "paragraphs": 454,
+      "tables": 100,
+      "characters": 101374
+    },
+    {
+      "fileName": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "sha256": "21d6cb5e1e2e2398027173f574e741fc32c5be03bfd372d878f13b0c5029b8c8",
+      "paragraphs": 645,
+      "tables": 115,
+      "characters": 106865
+    },
+    {
+      "fileName": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "sha256": "f892137f0783928c2088084e3e8d8de81a58d6529cf8e9095f9e67a6524d2913",
+      "paragraphs": 251,
+      "tables": 55,
+      "characters": 35899
+    },
+    {
+      "fileName": "TRANSIT_ACCURACY_PASS_README.md.docx",
+      "sha256": "3e41febd255ca07394d6ee407e4c947469ce9650f3e5aa82ec6c7b48cc71e4e6",
+      "paragraphs": 28,
+      "tables": 1,
+      "characters": 2601
+    }
+  ],
+  "archTrackerNodeCount": 280,
+  "outputs": [
+    "JSON math profiles",
+    "formula register",
+    "route schema",
+    "weather hazards",
+    "pantheon/factions",
+    "ichor chemistry",
+    "JS route calculator",
+    "JS validator",
+    "arch tracker bridge",
+    "math-ready arch tracker copy"
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  },
+  "routeCount": 1059,
+  "edgeCount": 1059,
+  "routeCountsByMode": {
+    "caravan": 235,
+    "ferry": 50,
+    "portal": 27,
+    "rail": 241,
+    "skyship": 110,
+    "steamship": 195,
+    "submarine": 201
+  }
+}

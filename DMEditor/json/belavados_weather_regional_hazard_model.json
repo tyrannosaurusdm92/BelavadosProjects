@@ -1,0 +1,317 @@
+{
+  "schema": "belavados.transit.weather_region_hazard_model.topography_route_rewrite.v2",
+  "weatherBands": {
+    "clearPublicService": {
+      "timeFactor": 1,
+      "riskFactor": 1
+    },
+    "heavyRainAndRot": {
+      "timeFactor": 1.12,
+      "riskFactor": 1.18
+    },
+    "stormStackTide": {
+      "timeFactor": 1.35,
+      "riskFactor": 1.75
+    },
+    "skyRiverCrosswind": {
+      "timeFactor": 1.22,
+      "riskFactor": 1.4
+    },
+    "reefFog": {
+      "timeFactor": 1.18,
+      "riskFactor": 1.33
+    },
+    "deepColdUpwelling": {
+      "timeFactor": 1.3,
+      "riskFactor": 1.55
+    },
+    "mountainStormGate": {
+      "timeFactor": 1.28,
+      "riskFactor": 1.45
+    },
+    "urbanCrowdResonance": {
+      "timeFactor": 1.08,
+      "riskFactor": 1.25
+    }
+  },
+  "regionalBands": {
+    "coastalReef": {
+      "timeFactor": 1.1,
+      "riskFactor": 1.2
+    },
+    "abyssalTrench": {
+      "timeFactor": 1.25,
+      "riskFactor": 1.65
+    },
+    "mountainSpine": {
+      "timeFactor": 1.18,
+      "riskFactor": 1.45
+    },
+    "forestRotBelt": {
+      "timeFactor": 1.14,
+      "riskFactor": 1.25
+    },
+    "urbanCivicCore": {
+      "timeFactor": 1.05,
+      "riskFactor": 1.15
+    },
+    "openWater": {
+      "timeFactor": 1.15,
+      "riskFactor": 1.3
+    }
+  },
+  "generatedDate": "2026-07-17",
+  "rewriteRevision": "belavados-four-compendium-canon-2026-07-17",
+  "routeApplicationRules": {
+    "deepCavern": "mountainStormGate + mountainSpine; extra lift/airshaft checks on caravan/rail/skyship approach",
+    "underwaterDeepSea": "deepColdUpwelling + abyssalTrench; pressure-gate clearance on submarine routes",
+    "reefOrShallowCoast": "reefFog + coastalReef; ferry/steamship/submarine pilotage windows",
+    "oceanSurface": "stormStackTide + openWater; surface dock stabilization and storm-bead mooring checks",
+    "forestMarsh": "heavyRainAndRot + forestRotBelt; rot-rain, swollen roots, and flood roads",
+    "skyship": "skyRiverCrosswind with province named weather and high weather band checks"
+  },
+  "provinceWeatherProfiles": {
+    "Aelvanyr": {
+      "namedWeather": "Root-rain Lanterns",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Deep forest",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Aelwynora": {
+      "namedWeather": "Silver-Salt Fog",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Ocean Surface floating settlement",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Astraevos": {
+      "namedWeather": "Mirror-Squall Line",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Bravelyn": {
+      "namedWeather": "Ember-Heat Dryline",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Ceulrithan": {
+      "namedWeather": "Violet Backstorm",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Partial forest; Beach and grass with water",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Drakmorren": {
+      "namedWeather": "Dragon-Anvil Gales",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Mountain range; Beach and reefs with water",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Earrorim": {
+      "namedWeather": "Crimson Dustburst",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "highestSettledWeatherBandMeters": 180.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "El'dravire Riverrealm": {
+      "namedWeather": null,
+      "climateBelt": null,
+      "dominantTerrain": null,
+      "highestSettledWeatherBandMeters": null,
+      "deepestRecordedRouteMeters": null
+    },
+    "Eldermere": {
+      "namedWeather": "Palebay Drizzle",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and grass with water",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Falthrakar": {
+      "namedWeather": "Greenwall Rainshadow",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Beach and grass with water; Marshes and swamps",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Gruddirynn": {
+      "namedWeather": "Deep-Pearl Sea Smoke",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Iazethas": {
+      "namedWeather": "Brownwater Thunder",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Deep forest",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Jormaelis": {
+      "namedWeather": "Sunlance Cyclone Bands",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Jor’maelis": {
+      "namedWeather": null,
+      "climateBelt": null,
+      "dominantTerrain": null,
+      "highestSettledWeatherBandMeters": null,
+      "deepestRecordedRouteMeters": null
+    },
+    "Kaelvorrin": {
+      "namedWeather": "Redwall Pressure Fall",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Partial forest; Grassland",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Kharvathen": {
+      "namedWeather": "Reedglass Rainbursts",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Grassland; Beach and grass with water",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Khorvaak": {
+      "namedWeather": "Forestgreen Steamfront",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Farming",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Luntharave": {
+      "namedWeather": "Copper-Bead Rain",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Farming; Partial forest",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Lun’tharavé": {
+      "namedWeather": null,
+      "climateBelt": null,
+      "dominantTerrain": null,
+      "highestSettledWeatherBandMeters": null,
+      "deepestRecordedRouteMeters": null
+    },
+    "Marrowynd": {
+      "namedWeather": "Boneback Wet Gales",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Beach and grass with water; Farming",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Nalvessir": {
+      "namedWeather": "Grayreef Fogfall",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Pelvoryn": {
+      "namedWeather": "Cinder-Wet Squalls",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and grass with water",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Sylvaveryn": {
+      "namedWeather": "Cyan Sky-River",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Partial forest; Beach and grass with water",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Sylvavéryn": {
+      "namedWeather": null,
+      "climateBelt": null,
+      "dominantTerrain": null,
+      "highestSettledWeatherBandMeters": null,
+      "deepestRecordedRouteMeters": null
+    },
+    "Thalryss": {
+      "namedWeather": "Knife-Cloud Fronts",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "highestSettledWeatherBandMeters": 180.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Vaelmyrith": {
+      "namedWeather": "Starfall Violet Haze",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Ocean Surface floating settlement",
+      "highestSettledWeatherBandMeters": 4600.0,
+      "deepestRecordedRouteMeters": 4800.0
+    },
+    "Valerune": {
+      "namedWeather": "Reed-Steam Murk",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and reefs with water",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Virelport": {
+      "namedWeather": "Port-Mast Squalls",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "highestSettledWeatherBandMeters": 1200.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Vuelmora": {
+      "namedWeather": "Bluehook Tide Fog",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Grassland; Partial forest",
+      "highestSettledWeatherBandMeters": 220.0,
+      "deepestRecordedRouteMeters": 180.0
+    },
+    "Zaltharuun": {
+      "namedWeather": "Blackwater Storm-Stack",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Beach and grass with water; Ocean Surface floating settlement; Farming",
+      "highestSettledWeatherBandMeters": 180.0,
+      "deepestRecordedRouteMeters": 6200.0
+    },
+    "Zal’tharuun": {
+      "namedWeather": null,
+      "climateBelt": null,
+      "dominantTerrain": null,
+      "highestSettledWeatherBandMeters": null,
+      "deepestRecordedRouteMeters": null
+    },
+    "Zharvokh": {
+      "namedWeather": "Stormhorn Tidewall",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Farming; Beach and grass with water; Mountain range",
+      "highestSettledWeatherBandMeters": 5200.0,
+      "deepestRecordedRouteMeters": 8200.0
+    }
+  },
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
