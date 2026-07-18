@@ -1,0 +1,3816 @@
+{
+  "schema": "belavados-dmeditor-package-manifest-v2",
+  "generatedAt": "2026-07-18T00:44:01.489Z",
+  "entryPoint": "index.html",
+  "htmlFileCount": 1,
+  "htmlFiles": [
+    "index.html"
+  ],
+  "fileCount": 760,
+  "totalBytes": 235253852,
+  "maxFileSizeKiB": 24000,
+  "repositoryPath": "DMEditor",
+  "jsonRepositoryPath": "DMEditor/json",
+  "files": [
+    {
+      "path": ".github/workflows/json-index.yml",
+      "bytes": 773,
+      "sha256": "5e3a60e29823a4fe6af6fcf5894bb13ced45f1a7eecf4fdbdb8291a90733903c"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 575,
+      "sha256": "35d6f080236daaaf89fee2055fca605a128fc612c07149b1c187c607e006430c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3461,
+      "sha256": "7b342a497b5f10a53710a7fe1d7a0c052bfe0d664a4f7bc165edff460320e0d3"
+    },
+    {
+      "path": "assets/pins/provinces/aelvanyr.svg",
+      "bytes": 4289,
+      "sha256": "3a4c70dcfab64e4b5f197b6b0439df521f3da152d765da628a12f0956afd0644"
+    },
+    {
+      "path": "assets/pins/provinces/aelwynora.svg",
+      "bytes": 4305,
+      "sha256": "e090727c0cdbae92c5bb2ad87968b98ff620511643cb78e7669075566608a852"
+    },
+    {
+      "path": "assets/pins/provinces/astraevos.svg",
+      "bytes": 4305,
+      "sha256": "789d1332a6945531df05350e4d82df4098f0477b51499884cd35c73c3e1883f7"
+    },
+    {
+      "path": "assets/pins/provinces/bravelyn.svg",
+      "bytes": 4289,
+      "sha256": "f3ff66c6a75a5f529896a4274dc3fc471e1abc674ac8c012f7c3543e449f6df9"
+    },
+    {
+      "path": "assets/pins/provinces/ceulrithan.svg",
+      "bytes": 4321,
+      "sha256": "930b5cc9fdd1a090444d6b9f5d087c2e4b7213a916175bbd8a2a5dde8863e8ff"
+    },
+    {
+      "path": "assets/pins/provinces/drakmorren.svg",
+      "bytes": 4321,
+      "sha256": "450a005c467fc2b9da056cc42afc5ee791a9951dbacc665a611076dea0f4d974"
+    },
+    {
+      "path": "assets/pins/provinces/earrorim.svg",
+      "bytes": 4289,
+      "sha256": "37066ee758a3d2e24fcd3982a82fd17e083240da7d105a2bd93b659bd089397e"
+    },
+    {
+      "path": "assets/pins/provinces/eldermere.svg",
+      "bytes": 4305,
+      "sha256": "e99b08cdbdca3306c3340c5004cab96e030779f19e173537236486014addf86b"
+    },
+    {
+      "path": "assets/pins/provinces/eldravire.svg",
+      "bytes": 4305,
+      "sha256": "09a6ee84452bdcfe81134985cf7464a861a08b61fdb94a705e933a6e7521f8cf"
+    },
+    {
+      "path": "assets/pins/provinces/falthrakar.svg",
+      "bytes": 4321,
+      "sha256": "4f6f429f420c458c35665fd2259dc42f4b7763af9bfc88a02dc26da602711e74"
+    },
+    {
+      "path": "assets/pins/provinces/gruddirynn.svg",
+      "bytes": 4321,
+      "sha256": "c0a1a95b7ac2aedad65aa48d05eb6a30bff920e6d687f72d3ace5f091c7732ea"
+    },
+    {
+      "path": "assets/pins/provinces/iazethas.svg",
+      "bytes": 4289,
+      "sha256": "fa4c83f8e7da1a646585273999e3b052ca8246c07fc7d80b4bc9466ecddbf9d5"
+    },
+    {
+      "path": "assets/pins/provinces/jormaelis.svg",
+      "bytes": 4305,
+      "sha256": "9c0ff248d557d5b2841167bb6a01307cbe7b145b9d01b05f7eddcf477b2c7e2e"
+    },
+    {
+      "path": "assets/pins/provinces/kaelvorrin.svg",
+      "bytes": 4321,
+      "sha256": "0f6b36ca6a3b40e33507849d299102ac7706093ee2d7ee3300be230126445985"
+    },
+    {
+      "path": "assets/pins/provinces/kharvathen.svg",
+      "bytes": 4321,
+      "sha256": "752c06d9ae15dbfb11de987767cb8952f58383d2643dc9183ead53aa84232186"
+    },
+    {
+      "path": "assets/pins/provinces/khorvaak.svg",
+      "bytes": 4289,
+      "sha256": "f2f4a0ee2bf2bf8be0b29afb04f06dbb1561d8e621a8710c58281130fac8ba49"
+    },
+    {
+      "path": "assets/pins/provinces/luntharave.svg",
+      "bytes": 4321,
+      "sha256": "e2fec07e582b425ca0b42051c558eacf04d748280fa8d95fcb8ec4b4e5e3fd1b"
+    },
+    {
+      "path": "assets/pins/provinces/marrowynd.svg",
+      "bytes": 4305,
+      "sha256": "303f073202c1998fe48dbea8aa80e483303914514645e5cf927fd5e2c7a16a3a"
+    },
+    {
+      "path": "assets/pins/provinces/nalvessir.svg",
+      "bytes": 4305,
+      "sha256": "010a9ae9fd2d75181d4c61b07cf67edb88f8df528d5754bbdf65da901eb3fd58"
+    },
+    {
+      "path": "assets/pins/provinces/pelvoryn.svg",
+      "bytes": 4289,
+      "sha256": "cf40a40dd269f3efdca05c4b6325526208b0b362117375e507d39607bc0cddd9"
+    },
+    {
+      "path": "assets/pins/provinces/sylvaveryn.svg",
+      "bytes": 4321,
+      "sha256": "43f70aa2305f88c532ead3735d83ce992201f60bc3f7c8204434b89604687fde"
+    },
+    {
+      "path": "assets/pins/provinces/thalryss.svg",
+      "bytes": 4289,
+      "sha256": "6580751ecc715f7667583214b413981a1e9c5e9563c70ae3451b3c96c748e8de"
+    },
+    {
+      "path": "assets/pins/provinces/vaelmyrith.svg",
+      "bytes": 4321,
+      "sha256": "4a50bd769fe7fa62591d55d2ea09bf2b1812f00063312a4ee24c7eac44ab3488"
+    },
+    {
+      "path": "assets/pins/provinces/valerune.svg",
+      "bytes": 4289,
+      "sha256": "e862d148ffe169803e64b8d9a16e183459442dee46cd51e29e4987b62bbdd367"
+    },
+    {
+      "path": "assets/pins/provinces/virelport.svg",
+      "bytes": 4305,
+      "sha256": "f6ea58768d993931a22f14b8f4a7e0bca9ccc7747511fb301f32e74cfe167b60"
+    },
+    {
+      "path": "assets/pins/provinces/vuelmora.svg",
+      "bytes": 4289,
+      "sha256": "ceb38f8999d9b5aca05641c437fe3960bde787b553b061bffe0cceb84bfe422f"
+    },
+    {
+      "path": "assets/pins/provinces/zaltharuun.svg",
+      "bytes": 4321,
+      "sha256": "755c4d4524af2c96892d71b02406540297c87be22c3010d58004dfa634e143df"
+    },
+    {
+      "path": "assets/pins/provinces/zharvokh.svg",
+      "bytes": 4289,
+      "sha256": "2ce74be1fb57e89b449af7a648bbb38c21fb3dcb926a2c77b08eb2ef84c497f7"
+    },
+    {
+      "path": "assets/pins/settlements/capitalcity.svg",
+      "bytes": 4449,
+      "sha256": "3b65d0238351b1df3936bf44d5d22f8d3e689d31bae78b892231bd8cda082229"
+    },
+    {
+      "path": "assets/pins/settlements/city.svg",
+      "bytes": 4594,
+      "sha256": "fc7d3d7b86bcd470455018c7d2f7f82f7e12545387be567aaa0706956ffeccfe"
+    },
+    {
+      "path": "assets/pins/settlements/town.svg",
+      "bytes": 4436,
+      "sha256": "2990435bb23ec6794e7be5b63580bf0fd112cfd4e4d6558b61c0e5fecb9d84fe"
+    },
+    {
+      "path": "assets/pins/settlements/village.svg",
+      "bytes": 4635,
+      "sha256": "5137f7cc04a8e1cc1503b1d2cebfc3e9d100ae730d971c2f92e553701ec92bf1"
+    },
+    {
+      "path": "assets/vendor/jszip.min.js",
+      "bytes": 97630,
+      "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e"
+    },
+    {
+      "path": "assets/world_map.png",
+      "bytes": 2398149,
+      "sha256": "af6f44d84aa0ba5a37e194a422dc9e743010d9ab908da50e95d0aa61c01c5d16"
+    },
+    {
+      "path": "css/editor-enhancements.css",
+      "bytes": 2596,
+      "sha256": "24d1c594f4e0c71ab17adc5f6b4447d7bfa5f9cedf5cb3ce37dc15c49f0d3278"
+    },
+    {
+      "path": "css/world_map.css",
+      "bytes": 7180,
+      "sha256": "0b453d1726a215f2589883fb4e20fb265bc29ba71b4961798d69ff558b0831f9"
+    },
+    {
+      "path": "data/backend.config.json",
+      "bytes": 934,
+      "sha256": "a86b4cfd618a472e7f4b70bb8de2a17af69eb653a17a7eeff2cb3b9ec0710700"
+    },
+    {
+      "path": "data/corrected-world-map-manifest.json",
+      "bytes": 1184,
+      "sha256": "9450eb68d00486ddf45837a0742ab04bdc43627bdafa39aab948dc88c10f5b5b"
+    },
+    {
+      "path": "data/export-file-list.json",
+      "bytes": 1741,
+      "sha256": "a27a738b81e3c977deb925af965c93211d023dff090a985bd0715648bd6c8328"
+    },
+    {
+      "path": "data/source-editor-manifest.json",
+      "bytes": 643,
+      "sha256": "0426a636ecc4191c25695fbb9763f9957a29305a957532d396bfb926a9f57f52"
+    },
+    {
+      "path": "data/world_map_template.txt",
+      "bytes": 3604,
+      "sha256": "1716bf1652eca5ed9de7232f7025a8cfbd3aea6a493a6ebf1a94f0c9b433895e"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_AUDIT.md",
+      "bytes": 881,
+      "sha256": "ef1980a4f0304b0212e09f6660ccb9c33f3d5566ab97997f96bb28997708b944"
+    },
+    {
+      "path": "docs/JSZIP_LICENSE.markdown",
+      "bytes": 33753,
+      "sha256": "566c953c6090b1218ca6217dd7359d45dde46581968586dc607d59a78af6a9c4"
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "bytes": 1137,
+      "sha256": "599e26d73c06088a309327d0f337d7f1cca976a0fa8e8ccc408e23b7d8ac80a9"
+    },
+    {
+      "path": "geojson/clickable_provinces_and_settlement_pins.geojson",
+      "bytes": 144971,
+      "sha256": "18ef4282079f51edcbcdfe36356bfcca4fd5e6a544ac40e0557a9f8fc619c9eb"
+    },
+    {
+      "path": "geojson/land_geometry.geojson",
+      "bytes": 2051379,
+      "sha256": "d18bb34266701f2e025af931592c2c043f4e33fc4fef0a833989c1b153fe5591"
+    },
+    {
+      "path": "geojson/province_borders.geojson",
+      "bytes": 20749,
+      "sha256": "9fd5990f016cb790a57d7c28a873c71eff9456148314432e69c2b991d216f494"
+    },
+    {
+      "path": "geojson/province_centers.geojson",
+      "bytes": 5990,
+      "sha256": "4b58d9e1983461abd55bda489f1d109333178225915a26349f1a7096c58159d1"
+    },
+    {
+      "path": "geojson/settlement_and_territory_pins.geojson",
+      "bytes": 108985,
+      "sha256": "31c470cfcfb2b05ae82da1ad8669f22443bab4ccad47934b50c94fcca6acf3ff"
+    },
+    {
+      "path": "geojson/territory_borders.geojson",
+      "bytes": 15280,
+      "sha256": "0318773c6729d065ff82e0c11ba6b905fc7748a5113d088f189ab1d2da674d00"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8992528,
+      "sha256": "42000390ba829498b40d7cae9e7b9972c91345fab1ba7285e8235d883ad888a7"
+    },
+    {
+      "path": "js/backend-client.js",
+      "bytes": 13284,
+      "sha256": "7dd48ac00fc8f31d217291df873c2aff8df332df053abf379758534e5e72ae28"
+    },
+    {
+      "path": "js/backend-lock.js",
+      "bytes": 1084,
+      "sha256": "82fda374fe902ed1b97dae591fcf4b5a6d2112607ecc94ee0cf519b31a34a5be"
+    },
+    {
+      "path": "js/build-json-index.mjs",
+      "bytes": 941,
+      "sha256": "69418619fc245e8e1c2052bfc4b60a277e3fcf417f6687371a38a8937e930c7d"
+    },
+    {
+      "path": "js/build-package-manifest.mjs",
+      "bytes": 1775,
+      "sha256": "a6148e668f490404b579ce1fa79a70cbb3dfe3113cf201c543b04c6dc17f7a95"
+    },
+    {
+      "path": "js/canonical_world_data.js",
+      "bytes": 7334917,
+      "sha256": "cee0dce01a27c20ab8c14c60c8a897d409e3d5d122475455b4684a117c0c70ea"
+    },
+    {
+      "path": "js/clickable_geojson_data.js",
+      "bytes": 145007,
+      "sha256": "32f9e2e7f21052632164f0457ed33d908ed46bf9d354a3823ced83c1c5e83bcc"
+    },
+    {
+      "path": "js/editor-enhancements.js",
+      "bytes": 34927,
+      "sha256": "cdf5062024e1f5d8d3108e03a784600fc8feda69c24afa48ee682286d06d38bf"
+    },
+    {
+      "path": "js/map-domain.js",
+      "bytes": 18824,
+      "sha256": "3e16e4be7cd2f094dbedbeaa59814432db995e353f11cbf495298d729d5529c4"
+    },
+    {
+      "path": "js/natural_systems_data.js",
+      "bytes": 502000,
+      "sha256": "bcebc519d94690dc361598b7d8f2f4649f774afc6bcc6febde461c6cf60e0165"
+    },
+    {
+      "path": "js/world_map.js",
+      "bytes": 14853,
+      "sha256": "9b7e20914babfb92f8ac12343c210ba4cdaea0b5164bf1e8caed4ea36ae01eba"
+    },
+    {
+      "path": "json/Abyrros_Thalryss.json",
+      "bytes": 78917,
+      "sha256": "5157b3aca7d5149c798e04353da0d09344994a5225b765b386c060eea71fe8f7"
+    },
+    {
+      "path": "json/Abyrros_npcs.json",
+      "bytes": 34708,
+      "sha256": "0a03f9cfb4de57d46bbb6a76c9932e5c2db08e57b5d1d1f8ad5b0800c857f0f0"
+    },
+    {
+      "path": "json/Aelgrove_Eldermere.json",
+      "bytes": 80507,
+      "sha256": "082fd5b1cca3943d14e1176cd0d62f27b2a3a17c58bb6a1b103524acd5989fed"
+    },
+    {
+      "path": "json/Aelgrove_npcs.json",
+      "bytes": 27397,
+      "sha256": "eb0c57fe88de9045b684b6e66876011486a123c72452dbaf4b9f15a3b5a609dd"
+    },
+    {
+      "path": "json/Aelmoryth_Astraevos.json",
+      "bytes": 79524,
+      "sha256": "8daf7c4db2373a5476af9104beb384d29cde7807e4c008c526a7cb275b5dfc8c"
+    },
+    {
+      "path": "json/Aelmoryth_npcs.json",
+      "bytes": 18122,
+      "sha256": "bd582153094dfc064659d21b4135228b80c47a6cee84ef3b48c7226cb184ff27"
+    },
+    {
+      "path": "json/Aelmyrwald_Sylvaveryn.json",
+      "bytes": 73384,
+      "sha256": "fac858ee6123b12b533069a8808e85125fcfea258394f27c670911bc4a6892c9"
+    },
+    {
+      "path": "json/Aelmyrwald_npcs.json",
+      "bytes": 13908,
+      "sha256": "7ab45b4f5c876a00c7c955053ced1ccdcb41534d02bba348df124f885b0fbbfc"
+    },
+    {
+      "path": "json/Aelrunor_Eldravire.json",
+      "bytes": 79395,
+      "sha256": "acbed51293829dff18218bb738dd6363be90659f04aab1cebd7bddd944febc0c"
+    },
+    {
+      "path": "json/Aelrunor_EldravireRiverrealm.json",
+      "bytes": 1305,
+      "sha256": "2a6946e2ee5d656aced9fe36f43ce85f0e16583055d0c8e0fb50258ce19571a0"
+    },
+    {
+      "path": "json/Aelrunor_npcs.json",
+      "bytes": 14362,
+      "sha256": "b35ab6c4334d3d54a45ee5ba8da02b85f51d0e571dce93eb66943dfe42ba963f"
+    },
+    {
+      "path": "json/AelryssKor_Astraevos.json",
+      "bytes": 79592,
+      "sha256": "592b9ac8373ad83356d02778e9318bd51b65d9ad0fbae06897556df9b4e20df2"
+    },
+    {
+      "path": "json/AelryssKor_npcs.json",
+      "bytes": 23658,
+      "sha256": "eded5000521b71ffda363278d09afaf1c254848c93c734708c7a998595df0118"
+    },
+    {
+      "path": "json/Aelshoreth_Astraevos.json",
+      "bytes": 82356,
+      "sha256": "e412499f9787642d84cfbac0ac6910548b9c66566d14088925a8c4207322df84"
+    },
+    {
+      "path": "json/Aelshoreth_npcs.json",
+      "bytes": 23642,
+      "sha256": "bd56250eb2e97acbca49b3fd1bdd1d4e7b3611a4f58f7d2b6fd889debebc812d"
+    },
+    {
+      "path": "json/Aeltheon_Falthrakar.json",
+      "bytes": 78156,
+      "sha256": "40726ed22d2e483adf6750e490b39198bfafd61aee4bf8f8039623b5f2580214"
+    },
+    {
+      "path": "json/Aeltheon_npcs.json",
+      "bytes": 27729,
+      "sha256": "003fa469dbf3b6027533c01520c9ce8da0807ee01d788f41c006904914886a8c"
+    },
+    {
+      "path": "json/Aelvanyr.json",
+      "bytes": 1671877,
+      "sha256": "cbe8b1545f26605ff6aa1c22966e11b5bf8e905a3e0b92688be5cbe5c84313e6"
+    },
+    {
+      "path": "json/Aelvoryn_Astraevos.json",
+      "bytes": 80517,
+      "sha256": "f0abd338c97767c7731674006692f76e1cfb6e5a56d21daec72c35f80c753598"
+    },
+    {
+      "path": "json/Aelvoryn_npcs.json",
+      "bytes": 27685,
+      "sha256": "13433adb04e86ea9df8785147ab144143f0f6056613a251b13f355e756fede92"
+    },
+    {
+      "path": "json/Aelvyrea_Gruddirynn.json",
+      "bytes": 76736,
+      "sha256": "7be99a1536b566e319f5b5bcd6ce7d83619123c0f5add699f0b8dfbabdf92981"
+    },
+    {
+      "path": "json/Aelvyrea_npcs.json",
+      "bytes": 13941,
+      "sha256": "349139f1b2bbe3660ed438e7c2e0ed7b26ebcaa9957502f31c973f0f532e52b0"
+    },
+    {
+      "path": "json/Aelwynora.json",
+      "bytes": 1954531,
+      "sha256": "582e68051b228526a0cc7f38a48b5d47929ece9effe2bf870581b549761f3295"
+    },
+    {
+      "path": "json/Amazuul_Zaltharuun.json",
+      "bytes": 77015,
+      "sha256": "238c6e4bf988e8308e75c9ffec793634fd0c8c166440c3368c2d70e198e5b069"
+    },
+    {
+      "path": "json/Amazuul_npcs.json",
+      "bytes": 14461,
+      "sha256": "4b73f3ae9652f47c904bb6b5228ed96b32459a7fdb86db50ec6b50ba79142b9c"
+    },
+    {
+      "path": "json/Astraevos.json",
+      "bytes": 1595279,
+      "sha256": "5ed1857c12a8338110253caf57914cc6241d2a6cfc9eb963bff6b145f6f2a3cf"
+    },
+    {
+      "path": "json/Auralisthra_Luntharave.json",
+      "bytes": 78828,
+      "sha256": "0d88fef596a91bd862c48b73ae318e796b5a927b6d6c9c76f037f6b4d55241a9"
+    },
+    {
+      "path": "json/Auralisthra_npcs.json",
+      "bytes": 13758,
+      "sha256": "70390a66adef3b500ab8b824a661aea391d79b10dca2a51e6984679075b96968"
+    },
+    {
+      "path": "json/Avarelyn_Valerune.json",
+      "bytes": 81013,
+      "sha256": "fe84e087a53665fe87d7b8214adc37df5cdfc2b4e52759e6ecfb584ae20a374f"
+    },
+    {
+      "path": "json/Avarelyn_npcs.json",
+      "bytes": 21219,
+      "sha256": "2408254004322b7d8e8a8ebb024e264e9888c7cdd0ae41df81dc9ec3aa821493"
+    },
+    {
+      "path": "json/Balmire_Nalvessir.json",
+      "bytes": 78543,
+      "sha256": "dfbd70bf994091e844caba0339672ab43189f24f957bbed4e47951a12d57c9e0"
+    },
+    {
+      "path": "json/Balmire_npcs.json",
+      "bytes": 14190,
+      "sha256": "f13c3c42a6fd37bd1925dbf135a7bc0c015454327745cba52f49d6283a19e81a"
+    },
+    {
+      "path": "json/Belynthar_Pelvoryn.json",
+      "bytes": 78531,
+      "sha256": "8c43920afdba9cb5e4a771d9154f5e4bb9d499918f6772832ce0c3e7be02a907"
+    },
+    {
+      "path": "json/Belynthar_npcs.json",
+      "bytes": 13651,
+      "sha256": "86203eff8ed29c7d3331cf88f2d2eee925567208b26bb3d14b19bcc747ab5798"
+    },
+    {
+      "path": "json/Bentharys_Nalvessir.json",
+      "bytes": 77905,
+      "sha256": "c4f5259f3c9f3e3d224cdf80f34a5ac0f7c98069698c536fb8eebd2e8ad45c24"
+    },
+    {
+      "path": "json/Bentharys_npcs.json",
+      "bytes": 14239,
+      "sha256": "23937b48e15c3d36f313c8ca37164e0ece0ffabaf6323b4be0ea8f79519ecbff"
+    },
+    {
+      "path": "json/BlacktideReach_Marrowynd.json",
+      "bytes": 81337,
+      "sha256": "b2e720c4f011bb9cbd9b6798208c2ad82d5339bcc4eb052eb7ca17438923285e"
+    },
+    {
+      "path": "json/BlacktideReach_npcs.json",
+      "bytes": 18126,
+      "sha256": "1be6359d18b22d52fcbbd4fd95791cc85e87ef59fca33c8242c50ea7cb4ef3df"
+    },
+    {
+      "path": "json/BlackwakeIsles_Thalryss.json",
+      "bytes": 83282,
+      "sha256": "3a209c86434a26f02d8cab7c9014d76c617a8c5d160a85cb7f2ebc4456c8f78b"
+    },
+    {
+      "path": "json/BlackwakeIsles_npcs.json",
+      "bytes": 14539,
+      "sha256": "202cb09a41f1c93a6d63e724663598207dcb36ee0b5ef67bdb17cc5e3f8f3e3e"
+    },
+    {
+      "path": "json/Bleasacia_Iazethas.json",
+      "bytes": 82541,
+      "sha256": "6144451200e275a3661e9fdc9556349041a9d897bc920cf623e26b0abc92983d"
+    },
+    {
+      "path": "json/Bleasacia_npcs.json",
+      "bytes": 28472,
+      "sha256": "92e3a974edbb0916a4f483ed7116afd560a64c0598298b9aebe8d7f022c57f5e"
+    },
+    {
+      "path": "json/Bleosianys_Gruddirynn.json",
+      "bytes": 80605,
+      "sha256": "cbfc2186ca0053ae96709911339e050c296db1e230b473ddb81520dfa4e3a5ed"
+    },
+    {
+      "path": "json/Bleosianys_npcs.json",
+      "bytes": 17655,
+      "sha256": "09b2aacddc10d075c15fdf73292f16aa06dd400aafd3b29984810dbd5d6394d6"
+    },
+    {
+      "path": "json/Bloodmire_Khorvaak.json",
+      "bytes": 80862,
+      "sha256": "a8e0271a5e7855828fbc67e2faab1e5a51af24e8c9bf3397cf572c2149e48af7"
+    },
+    {
+      "path": "json/Bloodmire_npcs.json",
+      "bytes": 27472,
+      "sha256": "9340bd2480584e1e4ae29541dc52e762a0eff0a83a16d8f06ca5b2e0f8c3cad5"
+    },
+    {
+      "path": "json/BrassmereConcord_Valerune.json",
+      "bytes": 78812,
+      "sha256": "836936bb22bfaf07f2e0e22bfaf95dcc39c03a4188d3f905119c31aae4e87339"
+    },
+    {
+      "path": "json/BrassmereConcord_npcs.json",
+      "bytes": 13878,
+      "sha256": "04f4d4d34e22955cb338caa2a31b6729321a6960fa53d7521c136f8a725e031f"
+    },
+    {
+      "path": "json/Bravelyn.json",
+      "bytes": 1742455,
+      "sha256": "34d8eec023f7a2fb61925dddb841e068c5485b4ec66fbca97d55a88932f160ed"
+    },
+    {
+      "path": "json/Briarwater_Nalvessir.json",
+      "bytes": 80117,
+      "sha256": "ba8259a7a3ded84278a4325b47198483e2d781a832fdef480a24c16abc54bad8"
+    },
+    {
+      "path": "json/Briarwater_npcs.json",
+      "bytes": 14108,
+      "sha256": "51a6c946acbddf04f88f1f8545fbcab4eaa6870f761b81dce9233bf2c22857f4"
+    },
+    {
+      "path": "json/Brokharn_Falthrakar.json",
+      "bytes": 77962,
+      "sha256": "9cf695ee4ea632e1b6b3b878c7c8fb3aa568075fd10b692930646d578518022e"
+    },
+    {
+      "path": "json/Brokharn_npcs.json",
+      "bytes": 27491,
+      "sha256": "8dd883d14a72a9fb11472184719025bc581dd9f23827683513bb7e1295cf83fd"
+    },
+    {
+      "path": "json/Bronzewake_Virelport.json",
+      "bytes": 82599,
+      "sha256": "216b8dbf26fa344995152226887636c074cdecffff77f48a762e5a0f32f05eb3"
+    },
+    {
+      "path": "json/Bronzewake_npcs.json",
+      "bytes": 25842,
+      "sha256": "2c76e4f6198509f54f5c30ab24990d745d26c6c6ff4179ebcb4ab7ce04f9f754"
+    },
+    {
+      "path": "json/Caelmyros_Astraevos.json",
+      "bytes": 78201,
+      "sha256": "77b3626e065c2d4726ac383b0777b4bca9412d6125ec4678d6a0aad3112a1302"
+    },
+    {
+      "path": "json/Caelmyros_npcs.json",
+      "bytes": 23549,
+      "sha256": "897f83e6e92c344b49cf7d86a6e55fb3748bc2dc94242b8761fe3806444295ef"
+    },
+    {
+      "path": "json/Caelorynth_Jormaelis.json",
+      "bytes": 77413,
+      "sha256": "58830a1554f3526434ad9c412153bee21fdbfeaefd119e48258143d3ad15c74c"
+    },
+    {
+      "path": "json/Caelorynth_npcs.json",
+      "bytes": 14302,
+      "sha256": "3ac4b55fde0ccbe069318ff35bfa75ec0ef47cb8b6aea9747005647f0c64276e"
+    },
+    {
+      "path": "json/Caelthyrun_Eldravire.json",
+      "bytes": 79241,
+      "sha256": "07cee3a68a9059fe318fd5666c8c5a994429b9497c7cebd78289abb858f86575"
+    },
+    {
+      "path": "json/Caelthyrun_EldravireRiverrealm.json",
+      "bytes": 1307,
+      "sha256": "2ec7826d5888b7c60d20a2a6ec6aa52f62b9d549957bf3c2354f561c41c03550"
+    },
+    {
+      "path": "json/Caelthyrun_npcs.json",
+      "bytes": 32400,
+      "sha256": "37106f5de8a8984395d261eeed5190dd685a170811bf0deff08019dc01a673a7"
+    },
+    {
+      "path": "json/Caelunor_Luntharave.json",
+      "bytes": 78505,
+      "sha256": "db538ebc86d7303315144792ec10aec18bae74538ac07aa3b49cb79f0cee8cf8"
+    },
+    {
+      "path": "json/Caelunor_npcs.json",
+      "bytes": 14016,
+      "sha256": "190d10630a3b692398eaeed908e05a20d944adc4964e2cd204116fefac7d4371"
+    },
+    {
+      "path": "json/Caelvanna_Falthrakar.json",
+      "bytes": 76362,
+      "sha256": "69a7e81e261edee985208c8b2c34f0cb88892bf8bd91d0617005e87d9c1a366d"
+    },
+    {
+      "path": "json/Caelvanna_npcs.json",
+      "bytes": 27037,
+      "sha256": "a1cd9ac51e882a693d0dc59b8032a75bf3e430e4608ec58635bf096677a29fc5"
+    },
+    {
+      "path": "json/Ceulrithan.json",
+      "bytes": 1548198,
+      "sha256": "b62e817d60cfa2a144b29a59211ab3d69627ce18e8da9c854569213a5665e21d"
+    },
+    {
+      "path": "json/CindervaleCoast_Marrowynd.json",
+      "bytes": 77799,
+      "sha256": "6175fddebfbe1fa580168d1a30e7bb33eea2d702e3b66ad2678ceaad772b1be0"
+    },
+    {
+      "path": "json/CindervaleCoast_npcs.json",
+      "bytes": 14013,
+      "sha256": "49494ad63322cb038da6f85d0f632bf3bc681090935279d7e580846a24a4951b"
+    },
+    {
+      "path": "json/Cindrau_Ceulrithan.json",
+      "bytes": 79116,
+      "sha256": "c24cc2637cb1054d10e026297bead9974a9083eac9bc8942fc36bd8cd5936e6a"
+    },
+    {
+      "path": "json/Cindrau_npcs.json",
+      "bytes": 26902,
+      "sha256": "0f254b2b4a7a863962a52595e350c4bbcd757e6f5111daecc4cf9e85e0bd1432"
+    },
+    {
+      "path": "json/Cindrea_Ceulrithan.json",
+      "bytes": 76541,
+      "sha256": "94f581871ff5748707b4eb05dd3a1942df6e6ac61b55b56f5581095aeacfdbef"
+    },
+    {
+      "path": "json/Cindrea_npcs.json",
+      "bytes": 45876,
+      "sha256": "b623af3e899a774112992b9e9f286b92c479867fec1d4b8de31b532293a5c1cf"
+    },
+    {
+      "path": "json/Cloverfen_Eldermere.json",
+      "bytes": 76539,
+      "sha256": "a6eb813e28c7a91f2e4a0ba0b43fb761fe84d7fb1a99beeb4896b3a5be397408"
+    },
+    {
+      "path": "json/Cloverfen_npcs.json",
+      "bytes": 17807,
+      "sha256": "641ea451068371e6dc00fe3ce81642f397ef95a6aaf0c965904801ce7f92e680"
+    },
+    {
+      "path": "json/Coravun_Gruddirynn.json",
+      "bytes": 78108,
+      "sha256": "498b21858298efb48eb2e1a8ac53f4119aeb1a6da542598a528e0a6d4dee8ae3"
+    },
+    {
+      "path": "json/Coravun_npcs.json",
+      "bytes": 14254,
+      "sha256": "d9e226b6f851ccfe5d9c8a0186fb94a3bd153e842c9435fdc1458e29f01dcd3f"
+    },
+    {
+      "path": "json/Cyraleth_Khorvaak.json",
+      "bytes": 79504,
+      "sha256": "614a7a53923006ef28a16ad307c13c325ad1a2b0e5dd007497d2ba1279df5ec5"
+    },
+    {
+      "path": "json/Cyraleth_npcs.json",
+      "bytes": 27410,
+      "sha256": "b80aee0128052987c852b929b48b77c0ac062e95c7f359921ac1c90b40d2d079"
+    },
+    {
+      "path": "json/Cyralune_Astraevos.json",
+      "bytes": 81523,
+      "sha256": "f57e6bd131455c1f667b015bbc864a6274245ef23e1bba86ba4a01b0f4551d64"
+    },
+    {
+      "path": "json/Cyralune_npcs.json",
+      "bytes": 23598,
+      "sha256": "19c13599dbca09402c0a1339479072ba952315a4c914a4a65a61e55a3c6802a5"
+    },
+    {
+      "path": "json/Cyravun_Jormaelis.json",
+      "bytes": 74428,
+      "sha256": "b4eb01c894fb4b4bdfffc79cc7735dbc43c142335cfadb1afb207c949eb0332b"
+    },
+    {
+      "path": "json/Cyravun_npcs.json",
+      "bytes": 14229,
+      "sha256": "12e948c97b914662cb1a4b88d4be7bdd23038ae821eca7dadfe1a12c3e6518cf"
+    },
+    {
+      "path": "json/Cyrethael_Iazethas.json",
+      "bytes": 78774,
+      "sha256": "cffc7748bc9e256e7ee12c1307792f3809db5aa6ceae89bf0ecd67c27dffd7a8"
+    },
+    {
+      "path": "json/Cyrethael_npcs.json",
+      "bytes": 22071,
+      "sha256": "6f4e75f023dcd349e69464858a2f22849c3dec56cc33800e05d5494057e0b163"
+    },
+    {
+      "path": "json/Cyrethar_Eldravire.json",
+      "bytes": 79259,
+      "sha256": "2c7192ae1ca9b1a0729b4a39c33ea7853a507b8f2cc77018016592475a0fe55d"
+    },
+    {
+      "path": "json/Cyrethar_EldravireRiverrealm.json",
+      "bytes": 1305,
+      "sha256": "b745b080938de4d0d77ed4fe12bb6cbec422bbb382e39e0698ac433d163aebd0"
+    },
+    {
+      "path": "json/Cyrethar_npcs.json",
+      "bytes": 28172,
+      "sha256": "77ec316b8089c3ec12126ea424645a2b5138221766e0cb5f52535e32d8b24136"
+    },
+    {
+      "path": "json/Dorghalun_Kharvathen.json",
+      "bytes": 83670,
+      "sha256": "c8770973966cd9a7eff70ecace7d8e13bd5c25fb81d6620c257071d48f38f6b3"
+    },
+    {
+      "path": "json/Dorghalun_npcs.json",
+      "bytes": 14414,
+      "sha256": "1908af06780e4f73eabf0ff7c524c8ddbac2e46d03c3cba8b694fa27426bcfec"
+    },
+    {
+      "path": "json/Draevyris_Falthrakar.json",
+      "bytes": 78675,
+      "sha256": "ae5f0145ad547f3d834333127e63964175710d07090b9d1a855b74b4f59cffe2"
+    },
+    {
+      "path": "json/Draevyris_npcs.json",
+      "bytes": 14174,
+      "sha256": "50c7c56d1a5e2e4cfbe73e1b50e8a624fed31d1d8d4f19754ab7fb092a742d4a"
+    },
+    {
+      "path": "json/Drakesylva_Aelvanyr.json",
+      "bytes": 77721,
+      "sha256": "35e314d9a30c6861d5a3c274c85cdb7b96ba3e60ed4e4377c47888b738aa2a44"
+    },
+    {
+      "path": "json/Drakesylva_npcs.json",
+      "bytes": 36388,
+      "sha256": "7fed86f705d0ffc672155bb6d816b5da65269df429faa78765f7dd40714892cf"
+    },
+    {
+      "path": "json/Drakmorren.json",
+      "bytes": 1736260,
+      "sha256": "c07b1e05020ba0abbdec3af7ad18b0985609b109ce991788829576e3a6dd69e2"
+    },
+    {
+      "path": "json/Drakzhul_Zharvokh.json",
+      "bytes": 78283,
+      "sha256": "fc6850bbc5385f166cdf7258473128f7b649950beb13bba9884b43cdd500d61e"
+    },
+    {
+      "path": "json/Drakzhul_npcs.json",
+      "bytes": 14522,
+      "sha256": "af35f4f4c630e679ad0f5533efe295a6004b761f7f72d2260802037ff5acb63e"
+    },
+    {
+      "path": "json/Draskminn_Kharvathen.json",
+      "bytes": 78373,
+      "sha256": "90d7a8820d75aeaefdae328d5e59ec0ed2dba460057246561e7587b8c718fa15"
+    },
+    {
+      "path": "json/Draskminn_npcs.json",
+      "bytes": 13834,
+      "sha256": "363e8cb8f57fffba13c4fa18fe002ca5efcb754b9387c4b04f8b4bf19d21cde1"
+    },
+    {
+      "path": "json/Dravessar_Gruddirynn.json",
+      "bytes": 78121,
+      "sha256": "11e0bbf380f52c522eb9e550f37cc77619598b0cba4bee825de23620ee309f76"
+    },
+    {
+      "path": "json/Dravessar_npcs.json",
+      "bytes": 27428,
+      "sha256": "029128b2e90766b32b3e76613255610f25fd208e2605ee3ac7f2e82384f6c17e"
+    },
+    {
+      "path": "json/Dreadcurrent_Thalryss.json",
+      "bytes": 81796,
+      "sha256": "b4cc566310bc305e8470db60d17aa447ed467954657039fee012020dbf8b0478"
+    },
+    {
+      "path": "json/Dreadcurrent_npcs.json",
+      "bytes": 18386,
+      "sha256": "3d4a94c8698bf80016d87eda38596b618e84e72b5305a6ac6b2a248fc44939b7"
+    },
+    {
+      "path": "json/Dunvyr_Kaelvorrin.json",
+      "bytes": 77383,
+      "sha256": "edd1ac62c65fd2dce6418f73b8ed7763def43f8f7ffd3dfda96eeff7baf749dd"
+    },
+    {
+      "path": "json/Dunvyr_npcs.json",
+      "bytes": 13278,
+      "sha256": "f509e5cba1a0cd18ca7b8f37408bcd9f1859fb73008d427da3a7496908e8f1bc"
+    },
+    {
+      "path": "json/Earrorim.json",
+      "bytes": 1579563,
+      "sha256": "77b5d2c7eaa09a35ce3574751ad5e582c75def9526e5e35c0ecea34890b77d45"
+    },
+    {
+      "path": "json/Elaravosk_Sylvaveryn.json",
+      "bytes": 78856,
+      "sha256": "ced1f402a1c073f14a66793e19d6ac4a63d9b177d7881ed9adac82b9b1433076"
+    },
+    {
+      "path": "json/Elaravosk_npcs.json",
+      "bytes": 13852,
+      "sha256": "1a8e693f4a9f0ab67b07cdaacc99891d5d6fd6e318a11dc7246402f05aef5a42"
+    },
+    {
+      "path": "json/Elareth_Iazethas.json",
+      "bytes": 78140,
+      "sha256": "39cafbf8d1f4dd8e625b0018f6197b4b50c3914374cfdb7e66b334f1b8c293a8"
+    },
+    {
+      "path": "json/Elareth_npcs.json",
+      "bytes": 14677,
+      "sha256": "dcf03114c3fc6db7e40c72dc82010ef667a65f2884b1fc42ab80596012ebff21"
+    },
+    {
+      "path": "json/ElarionPastures_Aelwynora.json",
+      "bytes": 78485,
+      "sha256": "9edb3a9aa13eedbbb730cc2fcb30f3548ece9aaa63ccf7f18968874b1dcb8d11"
+    },
+    {
+      "path": "json/ElarionPastures_npcs.json",
+      "bytes": 14212,
+      "sha256": "ed17071a0d269d76e51a8b07a62864da76d047d6058208d5f24710ab237b931b"
+    },
+    {
+      "path": "json/Elarithen_Aelwynora.json",
+      "bytes": 84252,
+      "sha256": "0be885ce21d2ffe093a4d06e34cae615c0fdd03bc6da6fb972c72a33c356abc8"
+    },
+    {
+      "path": "json/Elarithen_npcs.json",
+      "bytes": 18038,
+      "sha256": "9d4edc22c498a99165748be52e6db466daf72f00df91166bc87d39b34f9715fc"
+    },
+    {
+      "path": "json/Elaruneth_Drakmorren.json",
+      "bytes": 78104,
+      "sha256": "c58dbeb0cd9757b941c75345ea2be3e8d64f0ca1a459b0530139cce32990ad01"
+    },
+    {
+      "path": "json/Elaruneth_npcs.json",
+      "bytes": 33111,
+      "sha256": "4fbe9abff94939c756b1fbeac4c63428d37e571bf0d065eece155ae29a719777"
+    },
+    {
+      "path": "json/Elarvess_Aelvanyr.json",
+      "bytes": 77484,
+      "sha256": "cd295f0b8a9bdcf551d8f34fc86654475eeb17de45413d021b02228c81d974ff"
+    },
+    {
+      "path": "json/Elarvess_npcs.json",
+      "bytes": 13610,
+      "sha256": "21c18aea6af861364c76143dc31703241d7f824d28b19fb56a27549d7529ea0b"
+    },
+    {
+      "path": "json/Elarwyn_Khorvaak.json",
+      "bytes": 77318,
+      "sha256": "8ef09eae5ca53562d58d9be91dd87ed0c9a20d7729a14d335db2638d8229b959"
+    },
+    {
+      "path": "json/Elarwyn_npcs.json",
+      "bytes": 38721,
+      "sha256": "ca74da7a6acb1cafff52d14f7047ca84a18a62533c93332178fefd6c4616c6a4"
+    },
+    {
+      "path": "json/Eldaress_Vaelmyrith.json",
+      "bytes": 77754,
+      "sha256": "ac2ca48445a5be86d1788139d2601e16c9a489e33d73fef7af4b17eb914245a1"
+    },
+    {
+      "path": "json/Eldaress_npcs.json",
+      "bytes": 14352,
+      "sha256": "a833bc5b6a19a3315b22f866c7ae709ab417c2f06016c11977df0acc4d294143"
+    },
+    {
+      "path": "json/Eldavun_Vaelmyrith.json",
+      "bytes": 79447,
+      "sha256": "7da03aac41c8ed02fb16aa9108b101ac7c65b94a3f16c281f3f376a7170b32d2"
+    },
+    {
+      "path": "json/Eldavun_npcs.json",
+      "bytes": 18049,
+      "sha256": "49157542e10a2a12a8fec03c8458a15d8c55106187dde9dfbc7bc37352cf8743"
+    },
+    {
+      "path": "json/Eldermere.json",
+      "bytes": 1708313,
+      "sha256": "8b1cb13dd29ae56d0ee18ec0c5c282924733c28e1e93ffc1cb59ce3860282c9b"
+    },
+    {
+      "path": "json/Eldravire.json",
+      "bytes": 1507,
+      "sha256": "24fb38a995ed4962ad993275712b03e849070adec3012bfe9a531dc0b063bbe2"
+    },
+    {
+      "path": "json/EldravireRiverrealm.json",
+      "bytes": 1199294,
+      "sha256": "f2efb5e68eea6fbcbbb43b93ca1c79d03c8b3128a908e79e00075723b5ed0e10"
+    },
+    {
+      "path": "json/Eldryssar_Vaelmyrith.json",
+      "bytes": 81076,
+      "sha256": "b555c6b4b644db35f483fcbef1a27740d802f5d49a1252958f3683daf79d8373"
+    },
+    {
+      "path": "json/Eldryssar_npcs.json",
+      "bytes": 19619,
+      "sha256": "fac3bec32fff3cdbc532e882a9f5a741ee18e63096c3c3657be249dd3ceaeedc"
+    },
+    {
+      "path": "json/Eryndor_Jormaelis.json",
+      "bytes": 77214,
+      "sha256": "18d8e39fcb5719456821792a844f507037ab738fb81616813638ba25ae5dbe34"
+    },
+    {
+      "path": "json/Eryndor_npcs.json",
+      "bytes": 14308,
+      "sha256": "26f59fe0cd9cd44445fffb86c5e3f647ec3be37f2a59762b90a47b4e348efd1a"
+    },
+    {
+      "path": "json/Everwake_Aelvanyr.json",
+      "bytes": 76456,
+      "sha256": "ab3c2e581dd176be08f8329e10e45676b6f1e9e70fb9652665510bb66178ed1c"
+    },
+    {
+      "path": "json/Everwake_npcs.json",
+      "bytes": 22965,
+      "sha256": "4d788e5f73c691a1c6f55691165925618d2b305ecb4c9287286eafb8b46c4c69"
+    },
+    {
+      "path": "json/Faelith_Ceulrithan.json",
+      "bytes": 78488,
+      "sha256": "8438aae23991dfb2671d0a008f55cef4dd9f792a6137b5b72e25b0cc53873b21"
+    },
+    {
+      "path": "json/Faelith_npcs.json",
+      "bytes": 36847,
+      "sha256": "bb49a0731de9ab1c60b5e825e35d1764dfab120783f3ac1ad17830ab8b8b5ca0"
+    },
+    {
+      "path": "json/Faelmere_Eldermere.json",
+      "bytes": 80754,
+      "sha256": "7e153f3711078ec0ded1741ef5fa7321f7c301a3ae4a9483ff6f8f2d6ae376e5"
+    },
+    {
+      "path": "json/Faelmere_npcs.json",
+      "bytes": 14758,
+      "sha256": "d2798aed3ab6eaa83ab4bce7b44b968cd46d6af4e31e511b5fd7b8f50406b3e7"
+    },
+    {
+      "path": "json/Faeloria_Falthrakar.json",
+      "bytes": 77301,
+      "sha256": "428fe56e989fb231acbadf890666dcd740c6ba00b20d828f2d12327369394bd5"
+    },
+    {
+      "path": "json/Faeloria_npcs.json",
+      "bytes": 14138,
+      "sha256": "797f5c9a9593be766f83d2a911ec2541d73a26f053e471ca004f09bf2d59e99d"
+    },
+    {
+      "path": "json/Faeloryn_Aelvanyr.json",
+      "bytes": 75726,
+      "sha256": "78bcab33b5864e721c62ab8a877c13bec1e545d2a85d61140b6df24bec773dbf"
+    },
+    {
+      "path": "json/Faeloryn_npcs.json",
+      "bytes": 23097,
+      "sha256": "d7081a2679113e22ad61c7996f4959ac6b04ff42a85007a0fba0bcdb6d8d6de8"
+    },
+    {
+      "path": "json/Faeloryth_Gruddirynn.json",
+      "bytes": 78982,
+      "sha256": "07fbd1ad12a41d77d979819af3443f889a3f02d4efb75a26b5f1a3887693bdad"
+    },
+    {
+      "path": "json/Faeloryth_npcs.json",
+      "bytes": 31222,
+      "sha256": "b2d80638f441d5fb66e506988df3fa27452159f485140d4f0c9ca25c9719741c"
+    },
+    {
+      "path": "json/Faelryss_Eldravire.json",
+      "bytes": 79285,
+      "sha256": "68dfe0bbf255d81823bc190ea4d6475505f246a6d40ded2f6ab61ee5eec854b2"
+    },
+    {
+      "path": "json/Faelryss_EldravireRiverrealm.json",
+      "bytes": 1305,
+      "sha256": "502ea430bb47eeff65d2741b76cd1ffd4a6c0642f140356d642d85242bff8726"
+    },
+    {
+      "path": "json/Faelryss_npcs.json",
+      "bytes": 18006,
+      "sha256": "3b1c686a18074a3a1ea901c1a2bcb7dd3f5273b8507fce7c0f368f21d1eab4be"
+    },
+    {
+      "path": "json/Faeluneth_Vaelmyrith.json",
+      "bytes": 78635,
+      "sha256": "1e18c1e21278198268c56c6f5d40a4c2ac7ff2296df49ce1a4232b759ade8804"
+    },
+    {
+      "path": "json/Faeluneth_npcs.json",
+      "bytes": 28177,
+      "sha256": "c44f22c19f5c478aa534c1fa1ee5b3b16567759144425216b3ff4c20294025a7"
+    },
+    {
+      "path": "json/Faelvyrun_Iazethas.json",
+      "bytes": 77318,
+      "sha256": "f95d67a5557c63a8d19bcf3531f9b839b52330dbbc136e3f67fd5886eacd898c"
+    },
+    {
+      "path": "json/Faelvyrun_npcs.json",
+      "bytes": 18375,
+      "sha256": "5ff4b2856ff07a46e5534a5ae151cbb095dd84875377ec79b3510b3ef6e5b908"
+    },
+    {
+      "path": "json/Falthrakar.json",
+      "bytes": 1871904,
+      "sha256": "4300630681a6035d0498cc36c3cbf4aa8c664a7c3bffcf6c59d516e5e31ffee7"
+    },
+    {
+      "path": "json/Fensylth_Pelvoryn.json",
+      "bytes": 76889,
+      "sha256": "9c0a414461fa1088a142c7cf3f50d3a28a6d80997416fb6526eeb57b9841e630"
+    },
+    {
+      "path": "json/Fensylth_npcs.json",
+      "bytes": 13765,
+      "sha256": "bab76daf0e24b0aceb0d480369044c2a927a3a33e9aa7e826ad0862cbbbd24ac"
+    },
+    {
+      "path": "json/Fenwyrd_Drakmorren.json",
+      "bytes": 82551,
+      "sha256": "7d30e0e870a0ff209f80e2b23f364f448afd2e78db3cd0999e24781a92457a36"
+    },
+    {
+      "path": "json/Fenwyrd_npcs.json",
+      "bytes": 24255,
+      "sha256": "d5581b60e3b5fd6f54338eaf09ab66f7799e41a3dea20d6f99b4dc6bacb9bd32"
+    },
+    {
+      "path": "json/Frostfen_Nalvessir.json",
+      "bytes": 77305,
+      "sha256": "6eb8e944313d56d324985df103fbb75fe6702d33e4aad2c05b0de8f53294fce8"
+    },
+    {
+      "path": "json/Frostfen_npcs.json",
+      "bytes": 21307,
+      "sha256": "debe2827f96cc7be0ddf1b922c38b8919e1b9f1a3fb995a95b0fe43995518128"
+    },
+    {
+      "path": "json/Gavaryn_Pelvoryn.json",
+      "bytes": 76791,
+      "sha256": "023a784ca25cef84aafc12e61b07ba51b228555d566c1aacb002c7dbdf8e496b"
+    },
+    {
+      "path": "json/Gavaryn_npcs.json",
+      "bytes": 13614,
+      "sha256": "6afb84c0c4c7558c80117cdbd588d1c06381b7639e8b846e579aee40948be419"
+    },
+    {
+      "path": "json/Gildri_Ceulrithan.json",
+      "bytes": 81937,
+      "sha256": "408039bef76f99b4249311270a7b6688991b5c0a25a03f6b632266a0da378cdc"
+    },
+    {
+      "path": "json/Gildri_npcs.json",
+      "bytes": 26981,
+      "sha256": "60c601cfc78f454b0a9684f252fbdf01fca2d60c78058f12ed4185fcc223d2a9"
+    },
+    {
+      "path": "json/Glattonica_Earrorim.json",
+      "bytes": 82032,
+      "sha256": "4a89e139333b73ab9113a025c63585e6f24393bccded38c5fa207d958ca87aba"
+    },
+    {
+      "path": "json/Glattonica_npcs.json",
+      "bytes": 13956,
+      "sha256": "e25c6f766e0a1fb49d32d6bd52be73fa1bd80e9b62acb1c0137ee8160cdc1269"
+    },
+    {
+      "path": "json/Glysera_Vuelmora.json",
+      "bytes": 73995,
+      "sha256": "a7f27a0c0087a53f56d4da6269dddd0aeff2dc268d21e9b0708f43b053c3377d"
+    },
+    {
+      "path": "json/Glysera_npcs.json",
+      "bytes": 16941,
+      "sha256": "76a41c17e33b4d1c96accfd597589f1d540d3d9a0370eed5f48be7cfb7ce3473"
+    },
+    {
+      "path": "json/Gorathkar_Falthrakar.json",
+      "bytes": 78206,
+      "sha256": "aaa56bcfca71ee0f139d7cd79da3cbe1224d4583236b5c8a42afd069ae37b738"
+    },
+    {
+      "path": "json/Gorathkar_npcs.json",
+      "bytes": 14019,
+      "sha256": "b798ababea11470118889ecc11e5280ce626d7079c06e219fe539803ed09c0cc"
+    },
+    {
+      "path": "json/GreenhollowPlains_Eldermere.json",
+      "bytes": 74591,
+      "sha256": "32c2f98b1f578ca1b68c8bf3437f45896c94fce894720b19224b6fd64ba5ed69"
+    },
+    {
+      "path": "json/GreenhollowPlains_npcs.json",
+      "bytes": 31426,
+      "sha256": "f9e2df3a7c238a1698913425eae0bcb36e8558a6a8c0b5bc09f0685440bf4bc6"
+    },
+    {
+      "path": "json/Greenmire_Nalvessir.json",
+      "bytes": 82474,
+      "sha256": "7c8b4e577e2fedeaddd0c6290bd28a717bf9fc0e64e74f68cef44cef7ba2ab3e"
+    },
+    {
+      "path": "json/Greenmire_npcs.json",
+      "bytes": 14198,
+      "sha256": "17e96c0e3b56b2ea0699b0f87babef93563421f05d3df03ce1489aef5472a6a1"
+    },
+    {
+      "path": "json/Greybriar_Kharvathen.json",
+      "bytes": 81567,
+      "sha256": "573e2c99a90439e429814099d1ca56f79eaf1778655c3d9cf34772a30b7fbf9d"
+    },
+    {
+      "path": "json/Greybriar_npcs.json",
+      "bytes": 27363,
+      "sha256": "88d0ec8081b1e41a0a2f9d88536f737e082e22ea419bd7ba7041c061a4c133c3"
+    },
+    {
+      "path": "json/Grimvald_Drakmorren.json",
+      "bytes": 86271,
+      "sha256": "c4ccc58a9ac9ad6f467a45f03c1c061427be28690d08249c3dac8fdc932edaf5"
+    },
+    {
+      "path": "json/Grimvald_npcs.json",
+      "bytes": 33655,
+      "sha256": "770b8eebf12189b8b18b9db0eef66ac27bfe1542405488905d89700b251a671e"
+    },
+    {
+      "path": "json/GrimwaterReach_Thalryss.json",
+      "bytes": 80256,
+      "sha256": "aebdda50125fff80ff4df97d8d32578da548673f5b4261bf398f78a714a78e25"
+    },
+    {
+      "path": "json/GrimwaterReach_npcs.json",
+      "bytes": 14534,
+      "sha256": "8186e0e23865065da08e9d309b47011f29d666d693b5969f9666fa2737c2b9d3"
+    },
+    {
+      "path": "json/Gruddirynn.json",
+      "bytes": 1885733,
+      "sha256": "c2929d391f787e5b515fe57b002a1f16f1304094875bd5fa84482f73169d7914"
+    },
+    {
+      "path": "json/Harvestmere_Eldermere.json",
+      "bytes": 75824,
+      "sha256": "e86104ef91d247acf3dd9dbd6a2efaae2fd53f9386f0a89dec15187528c7ea3d"
+    },
+    {
+      "path": "json/Harvestmere_npcs.json",
+      "bytes": 27597,
+      "sha256": "ea4e833d134f9d1946474a60d79355308402f7bd0933616dfc3a687b0d503ee9"
+    },
+    {
+      "path": "json/Hethsther_Kaelvorrin.json",
+      "bytes": 73967,
+      "sha256": "750042356827bfb2303737e5f86bfdcd67e3e7ca8693121f669c4fd7f35a20e4"
+    },
+    {
+      "path": "json/Hethsther_npcs.json",
+      "bytes": 13298,
+      "sha256": "8af2316209557a63e503cc5edeb6dd590fd4a7953d66d0f2af34127668d77ff3"
+    },
+    {
+      "path": "json/Hethvara_Drakmorren.json",
+      "bytes": 83110,
+      "sha256": "85e60841a1c854195b4ec72522bf69a899940af74af7810a2cf18a49ff0e358f"
+    },
+    {
+      "path": "json/Hethvara_npcs.json",
+      "bytes": 28549,
+      "sha256": "545fafe1585eac483d10076f2eec2cec45b0781cf6d15322e5a0648fdf316b21"
+    },
+    {
+      "path": "json/Hyselva_Vuelmora.json",
+      "bytes": 79100,
+      "sha256": "0d6f04da3d485b331679a3b6163e5414568b80113f17c8dcb1a6fc9ebd960146"
+    },
+    {
+      "path": "json/Hyselva_npcs.json",
+      "bytes": 32335,
+      "sha256": "c4977c3b821220a68af3aba44a0e633676a39fc0dc2af5058746fc2d58763cba"
+    },
+    {
+      "path": "json/Iazethas.json",
+      "bytes": 1702501,
+      "sha256": "415c0b624b1151af7536932dab2ce1e9e2360df78a01236310acfd98d334f4a1"
+    },
+    {
+      "path": "json/Iciarene_Earrorim.json",
+      "bytes": 79953,
+      "sha256": "79e64cb391cfc15549ed125e8088d7b84aba42ebfa9605c6d7be90d526df57cb"
+    },
+    {
+      "path": "json/Iciarene_npcs.json",
+      "bytes": 23286,
+      "sha256": "a9b04fe3bf09bfb263ee604a9aedadaaf9468e07fa25995665b07f48e7cb03b1"
+    },
+    {
+      "path": "json/Ironwood_Kharvathen.json",
+      "bytes": 79193,
+      "sha256": "78d14ea65cb9438ed045a4f282a47b46e8d935c2f4dd952b377e70251a1b8e1a"
+    },
+    {
+      "path": "json/Ironwood_npcs.json",
+      "bytes": 27061,
+      "sha256": "d923bbeb55c68b91853cbaeef5d6dff1197f3290fa89170ba24aaf4054069905"
+    },
+    {
+      "path": "json/Ishvoryk_Jormaelis.json",
+      "bytes": 74944,
+      "sha256": "eaefdaf48bc0f28037ecb70b61aa50852b0a5c3803125491f42207a1743f3484"
+    },
+    {
+      "path": "json/Ishvoryk_npcs.json",
+      "bytes": 18067,
+      "sha256": "3c3c3f96d7468edc8fd104259754434344c8b107e4019561939187f0e04415d9"
+    },
+    {
+      "path": "json/Ithkazuun_Zaltharuun.json",
+      "bytes": 81136,
+      "sha256": "5343386c1a02c912f458d65326be6607d076518b35e53aa3e1904e80fec94276"
+    },
+    {
+      "path": "json/Ithkazuun_npcs.json",
+      "bytes": 18222,
+      "sha256": "0f4e17c61a212452c08ddc62a654d4a519e82522eec0a4207d08c595ce2560b9"
+    },
+    {
+      "path": "json/Ithmora_Vuelmora.json",
+      "bytes": 74019,
+      "sha256": "f84ae394a1daab5fa3bdf1516d12a53cb6106ae10f35887f4754010cfcfcbede"
+    },
+    {
+      "path": "json/Ithmora_npcs.json",
+      "bytes": 13360,
+      "sha256": "20cf1478b8f249550b4f7e5e6a7c882030426795211cdffbbebd76e1e953f183"
+    },
+    {
+      "path": "json/Jormaelis.json",
+      "bytes": 2166353,
+      "sha256": "13b3c6bc6f777538d5255e1ef4ba60aa7affb4af8e595a9a0d9c2346e0735fee"
+    },
+    {
+      "path": "json/Kaelvorrin.json",
+      "bytes": 1505678,
+      "sha256": "1340aa59b6063872166ed420cda4a15fb3ff12a322a186d1990dc685e512a4fe"
+    },
+    {
+      "path": "json/Kaelvyrun_Kaelvorrin.json",
+      "bytes": 75794,
+      "sha256": "53845e776285ef25c3c6bf64612a47f1a601d13557d7acca91121dde647294c8"
+    },
+    {
+      "path": "json/Kaelvyrun_npcs.json",
+      "bytes": 17458,
+      "sha256": "4f21dd6f795e1f3f51a1dcd7eef10949a6805f613b570a1d886d995c0056e350"
+    },
+    {
+      "path": "json/KaragThul_Zharvokh.json",
+      "bytes": 85771,
+      "sha256": "853c260fb1bbfb6b1185b39fc9417ed088efe447812be4113b08baf9f2da6ea5"
+    },
+    {
+      "path": "json/KaragThul_npcs.json",
+      "bytes": 15107,
+      "sha256": "2cc954d4e65445d06a3772addb57118243907eea6345ea6ad4eeba09788c2691"
+    },
+    {
+      "path": "json/Kethmora_Zaltharuun.json",
+      "bytes": 79787,
+      "sha256": "c4c4466274fe6449e5e47ae08b5c0049ab44f2e0ab51a0c1228dc6b393eca6e4"
+    },
+    {
+      "path": "json/Kethmora_npcs.json",
+      "bytes": 14526,
+      "sha256": "c5920a0b8520b83cade5054bee37b73967a1f7fe866b3ee6b9d3217d6c82acc7"
+    },
+    {
+      "path": "json/Kethvarun_Zaltharuun.json",
+      "bytes": 77449,
+      "sha256": "3c45c6cdc3c6394ed0c3d41ffcfee27b84486ae3b508c27dda770eb4bd19d3f6"
+    },
+    {
+      "path": "json/Kethvarun_npcs.json",
+      "bytes": 27959,
+      "sha256": "246a33940f228546db732669e6f15c0e3ee8431d593a6513e78ca5dafd7d9e04"
+    },
+    {
+      "path": "json/Kharevok_Zharvokh.json",
+      "bytes": 80405,
+      "sha256": "1892e7f0cb59f1afa6d708cb8d35dd72e1c1d0ae4b0117e4cce0d698ceaec1c5"
+    },
+    {
+      "path": "json/Kharevok_npcs.json",
+      "bytes": 28265,
+      "sha256": "d18fcdf1b67486a655b65d42292084585154e9da676d1ce096c13a13d9524e7e"
+    },
+    {
+      "path": "json/Kharrowfen_Drakmorren.json",
+      "bytes": 80150,
+      "sha256": "8fc9546bd88c8e30e5e8380741716bfc0ee9b323ad1565e5adf6d0a375902a47"
+    },
+    {
+      "path": "json/Kharrowfen_npcs.json",
+      "bytes": 18115,
+      "sha256": "bbf9a31eed396164d983ff9b7fc2cbb3fc99292d109a9fb9c364677500c651e3"
+    },
+    {
+      "path": "json/Kharrowport_Marrowynd.json",
+      "bytes": 78022,
+      "sha256": "5575623fab08a0f7d12a7f8c7ec2c54e032ef9859cd5369240a26bfda47d2a7a"
+    },
+    {
+      "path": "json/Kharrowport_npcs.json",
+      "bytes": 31138,
+      "sha256": "9adb82e34dada8bcd86857706790b7c6f34a032bbb5c069dab0516ae5a9affe9"
+    },
+    {
+      "path": "json/Kharvathen.json",
+      "bytes": 1583538,
+      "sha256": "08d4ebf710d89afc03be2878d769b3670ed4418e5fd583158b1f36add856d5ca"
+    },
+    {
+      "path": "json/Kharzund_Kharvathen.json",
+      "bytes": 83116,
+      "sha256": "5e23d1581ef3567b7cdca6cc30466ebb1125a45d51374e520371f2d67c17e21d"
+    },
+    {
+      "path": "json/Kharzund_npcs.json",
+      "bytes": 13908,
+      "sha256": "09a31dc718aefa428757284b3f88a56f651d96708d640d13bd06802b15abbb0d"
+    },
+    {
+      "path": "json/Khazovar_Khorvaak.json",
+      "bytes": 79931,
+      "sha256": "b7210e6e5627e1de8a97b97cc2f1eed9c07d488d7b1b2b90345c2f02a20280bd"
+    },
+    {
+      "path": "json/Khazovar_npcs.json",
+      "bytes": 27035,
+      "sha256": "8b4fc5a571de910a7666788f1eca44284e76ae74cd8e84bd8405030c1a16c9db"
+    },
+    {
+      "path": "json/Khorvaak.json",
+      "bytes": 1567169,
+      "sha256": "bd3af2e4724216776ebd3967132c2a6a2b3ec9b6a870a0b9a34465e8faaff786"
+    },
+    {
+      "path": "json/Leammipa_Iazethas.json",
+      "bytes": 81362,
+      "sha256": "adc46179221591244a48ae15810b66440905191b2a1f8b2350b5cf3a448abdf4"
+    },
+    {
+      "path": "json/Leammipa_npcs.json",
+      "bytes": 18241,
+      "sha256": "5e7d4d9b85b28640417b1a21d124136c84625af79e5444b22f49c525b966baf0"
+    },
+    {
+      "path": "json/Lethyrvos_Sylvaveryn.json",
+      "bytes": 77281,
+      "sha256": "35dc3608d41bcc503bb462d6f52f360ce74b077f304047c36d00a493a668a5a2"
+    },
+    {
+      "path": "json/Lethyrvos_npcs.json",
+      "bytes": 13941,
+      "sha256": "6fb793c3fee3ba2021d30a6d0f4645865b88acf329b6295cd82c8ec37c5f78b7"
+    },
+    {
+      "path": "json/Leviamor_Thalryss.json",
+      "bytes": 83068,
+      "sha256": "785c786cd21979acd47a6696733e55d7fa6ebb4cba105a68d9ab90268ecc0a55"
+    },
+    {
+      "path": "json/Leviamor_npcs.json",
+      "bytes": 18758,
+      "sha256": "752e7755dc9a6f09d071315fb2d6921f174c656fed9116d0ea1cb5de910a27c2"
+    },
+    {
+      "path": "json/Limioreimn_Jormaelis.json",
+      "bytes": 79846,
+      "sha256": "d88ec6675b7992bfe044b5a5c700845ebace950109aca27ec926f08a0c557bb3"
+    },
+    {
+      "path": "json/Limioreimn_npcs.json",
+      "bytes": 27873,
+      "sha256": "f0386cd31b65e520ec27a5dcfa8a54e47ebc1d7c59a37864409d63ef7f9b6a46"
+    },
+    {
+      "path": "json/Lithvar_Falthrakar.json",
+      "bytes": 80980,
+      "sha256": "932a9535f36b6ffcafa61722450106367f4e3a40bd905e1d7346d4a23ff44d84"
+    },
+    {
+      "path": "json/Lithvar_npcs.json",
+      "bytes": 18300,
+      "sha256": "7de0fe4850cca434fdf22512546149bc6d8a7c451642ac242c1a9b813cbb7b6a"
+    },
+    {
+      "path": "json/Lorangriel_Eldravire.json",
+      "bytes": 82875,
+      "sha256": "a4de2aee083d8f40c3e61e9979588ecf471e7568d6eebe8230283cb9307b7c5f"
+    },
+    {
+      "path": "json/Lorangriel_EldravireRiverrealm.json",
+      "bytes": 1306,
+      "sha256": "0bac94a1e7cca357b1d498b7c859d1fd1e526e5a09346a227e2ba55515500e2d"
+    },
+    {
+      "path": "json/Lorangriel_npcs.json",
+      "bytes": 18955,
+      "sha256": "749faf2ec2cfb91057eb9a8391cab9a8a155fe54bc3b9ae75109b0716f6bfa1d"
+    },
+    {
+      "path": "json/Lorath_Kharvathen.json",
+      "bytes": 76593,
+      "sha256": "4fc50a86e6ef684d6ad355cad3039d4ab92a0721ead2f492439f562059726067"
+    },
+    {
+      "path": "json/Lorath_npcs.json",
+      "bytes": 13819,
+      "sha256": "29cd2127de5736a3d84cb4a4f9546cbde23e94a9b4f97a094307e84c8f9df1a6"
+    },
+    {
+      "path": "json/Loxvire_Bravelyn.json",
+      "bytes": 81169,
+      "sha256": "6c835df4e76e9065557bde8d24dc68bf9e4e7fcb738edc55c2eff8e6b86a6f9f"
+    },
+    {
+      "path": "json/Loxvire_npcs.json",
+      "bytes": 17872,
+      "sha256": "49a79b657372041d18bc7d53442482efa0d2a94cb3d928c88a2a926daab13411"
+    },
+    {
+      "path": "json/Lunathea_Luntharave.json",
+      "bytes": 76765,
+      "sha256": "e34903d83f3582dc87a8b41399391a2bebd81c998c099932859390be56e9e1ca"
+    },
+    {
+      "path": "json/Lunathea_npcs.json",
+      "bytes": 13937,
+      "sha256": "f5c90ca501d2c94a346f28e135115f3bc3c4548cdd2c4a009854980b0a8def06"
+    },
+    {
+      "path": "json/Lunavess_Luntharave.json",
+      "bytes": 76327,
+      "sha256": "2b20a34198bd1f23f0cefe4d7415e4b49ebacb0eb2873bbe5e227881c327e2ef"
+    },
+    {
+      "path": "json/Lunavess_npcs.json",
+      "bytes": 13952,
+      "sha256": "a6434ce03a50cf80be218444434aadc5075b50aadb7829a9006079084deb947f"
+    },
+    {
+      "path": "json/Lunawyn_Aelvanyr.json",
+      "bytes": 76581,
+      "sha256": "dff165c0a1b69596715b1c1e05be2f1af72abfbcb9ce3af1848d50177d16292b"
+    },
+    {
+      "path": "json/Lunawyn_npcs.json",
+      "bytes": 22874,
+      "sha256": "71784fa2ef93ee5a16f5521d443a188516dd7fc08e6d9b31722f1b2b45e50d19"
+    },
+    {
+      "path": "json/Lunebriar_Eldermere.json",
+      "bytes": 74861,
+      "sha256": "9658c5873d373fa0e0bc6788b4c2544d167552841a3ff6a0361f0b8681574629"
+    },
+    {
+      "path": "json/Lunebriar_npcs.json",
+      "bytes": 14135,
+      "sha256": "e474d2e3fb92f1e038efc7362156cbd6aeba3dd865b53d6cf323b69004902c51"
+    },
+    {
+      "path": "json/Lunethryl_Vaelmyrith.json",
+      "bytes": 82147,
+      "sha256": "6b649897ab958ff6430e841c7847b6382f104e999b62f49936a10727f246509a"
+    },
+    {
+      "path": "json/Lunethryl_npcs.json",
+      "bytes": 21653,
+      "sha256": "bd744ff0fbfdf7c64e6666b972f0557508d96a1f611701dd304743df0f0119ee"
+    },
+    {
+      "path": "json/Lunevaris_Luntharave.json",
+      "bytes": 74650,
+      "sha256": "c85773c09a315d9d8dbcb33246bd541ce11b1d39063b7d74d5b02594210c1ca6"
+    },
+    {
+      "path": "json/Lunevaris_npcs.json",
+      "bytes": 34688,
+      "sha256": "7bbb6c6e1f79b101fb66fcafaed865c7af8f53787fd72d7ee0ab03c548227fd2"
+    },
+    {
+      "path": "json/Lunorea_Khorvaak.json",
+      "bytes": 77402,
+      "sha256": "cccc1519728f7f23f5f5dea271556f5deaaf0d7e7535b047b9d5edface821e5d"
+    },
+    {
+      "path": "json/Lunorea_npcs.json",
+      "bytes": 14038,
+      "sha256": "64aab868a93239e7278b6a6fdfd15d7f5861b8fd038f8e577dd51c59ac8acaf7"
+    },
+    {
+      "path": "json/Luntharave.json",
+      "bytes": 1716678,
+      "sha256": "1bd074ce0fca864419886bef73871cd019fb95f9f3315ee642f44825486bd39b"
+    },
+    {
+      "path": "json/Lunvarae_Luntharave.json",
+      "bytes": 75798,
+      "sha256": "bd48c7794bb7c0d977b05ab5ecf71a2f294e3efc41734c5dedbf71be75728d67"
+    },
+    {
+      "path": "json/Lunvarae_npcs.json",
+      "bytes": 13744,
+      "sha256": "773a62ba313cfd5eb31c27f5dae8190ae4addb80965058c0f1ab46b737d3c872"
+    },
+    {
+      "path": "json/Lysevara_Pelvoryn.json",
+      "bytes": 76214,
+      "sha256": "bc0b3ba02caf2d0e9a96e8183099936300992668899eec6b289ae9479feb13ac"
+    },
+    {
+      "path": "json/Lysevara_npcs.json",
+      "bytes": 26906,
+      "sha256": "9b581bd6d1155befe02bcf0320e62e5e45c2f179cb46eb3e328bf4af0aea71cd"
+    },
+    {
+      "path": "json/Lysvire_Pelvoryn.json",
+      "bytes": 78533,
+      "sha256": "41211814fbfca79c394e8e75c6a1cb0576ce26484a1c14d69659e852907680ad"
+    },
+    {
+      "path": "json/Lysvire_npcs.json",
+      "bytes": 13640,
+      "sha256": "06ced6f097868a01ce8126ce0be1c70c570d5216ce84b49cdfadacdc34cb4e5a"
+    },
+    {
+      "path": "json/Lythera_Jormaelis.json",
+      "bytes": 76601,
+      "sha256": "4e7d8abd6ab6804ad56b5f628108b43f4b2046960d55f33566408743ee961707"
+    },
+    {
+      "path": "json/Lythera_npcs.json",
+      "bytes": 27394,
+      "sha256": "7f4b24214c679804f0d5f67a23aa2be60c6a102629e8717c0d0870b89281ca24"
+    },
+    {
+      "path": "json/Maelvera_Eldravire.json",
+      "bytes": 77282,
+      "sha256": "b36e04bfeb32dbf5f909475611ea3a41836aa79fea8360c9a74bb57e63792bd3"
+    },
+    {
+      "path": "json/Maelvera_EldravireRiverrealm.json",
+      "bytes": 1305,
+      "sha256": "3bca59d8320758d097dc8e75ac889ea4523c83ffc0a5f7bd103bdf3957b5307e"
+    },
+    {
+      "path": "json/Maelvera_npcs.json",
+      "bytes": 14457,
+      "sha256": "7e6ce9a510a79e371058cd4a397001790f83dac60754b431a2d5938ce519660e"
+    },
+    {
+      "path": "json/Marrowynd.json",
+      "bytes": 1888412,
+      "sha256": "55fe02f36d8f10b762c7aecc777ca628e850a26b7438b35dc2e76a5e37acba2a"
+    },
+    {
+      "path": "json/MeadowlightExpanse_Jormaelis.json",
+      "bytes": 77229,
+      "sha256": "3b2a2a61fae02a6dbf4f2ba192e6737d701d56474397baa14b8e048ee2548752"
+    },
+    {
+      "path": "json/MeadowlightExpanse_npcs.json",
+      "bytes": 14219,
+      "sha256": "e8f83eb154f60dbe24013618bb295d12ef38b2ebc919e67af4e1243bee9c477e"
+    },
+    {
+      "path": "json/Merrinthal_Eldravire.json",
+      "bytes": 81747,
+      "sha256": "7cf8e3f30a1aac4951ac3709fb56e06f0ef9a73b54a18ff28105ad19223771ec"
+    },
+    {
+      "path": "json/Merrinthal_EldravireRiverrealm.json",
+      "bytes": 1306,
+      "sha256": "f9b782fa00273e60171f6f39466bc355da82fc35704d3cf84822d27d5fa32590"
+    },
+    {
+      "path": "json/Merrinthal_npcs.json",
+      "bytes": 14437,
+      "sha256": "6eab664357a88d32acf82b2856cdab9b9c8957a076e194994225211a894893c6"
+    },
+    {
+      "path": "json/Mistval_Kaelvorrin.json",
+      "bytes": 75643,
+      "sha256": "18bb08b4e3b6fdeea2330eb0d3941b8ef38bc8160c48106e851291f0074f3186"
+    },
+    {
+      "path": "json/Mistval_npcs.json",
+      "bytes": 26185,
+      "sha256": "5cf95413cae90a325aac3e8fe3a6da55e8442d6d84b21203c430cc913ae9af7a"
+    },
+    {
+      "path": "json/Moltharok_Zharvokh.json",
+      "bytes": 82778,
+      "sha256": "9800e9188445897f4fb71caf1cb2d11fb50992c509800d5c3cdb9e2168029067"
+    },
+    {
+      "path": "json/Moltharok_npcs.json",
+      "bytes": 18766,
+      "sha256": "8c8038ec0381abc76f1e71b1f01a59fe6e7893cc0fc715e5b2bf93557fb8d4fb"
+    },
+    {
+      "path": "json/Morathera_Falthrakar.json",
+      "bytes": 76302,
+      "sha256": "e239c0c129861d92a5e5c0c5c1894e50f533565085573d6f73184bc7ab518f17"
+    },
+    {
+      "path": "json/Morathera_npcs.json",
+      "bytes": 27505,
+      "sha256": "2bb5bbdfa09ad08935101228db19e06adfe63b165286385c32732672aaf555e9"
+    },
+    {
+      "path": "json/Morelyth_Gruddirynn.json",
+      "bytes": 77058,
+      "sha256": "7e8c4285941c300134c9a753fdbd31ce20c1101482068ce49a301a739b17f436"
+    },
+    {
+      "path": "json/Morelyth_npcs.json",
+      "bytes": 14072,
+      "sha256": "2a98c8b968a3fead62b332bb5bd180f38e0c6aa9772fdc67e2e8e409c1cb162c"
+    },
+    {
+      "path": "json/Mornelya_Vuelmora.json",
+      "bytes": 76923,
+      "sha256": "a240185054808f88c225c1bae57bb35733cafbe1624788907bb7f97a54ddbc3e"
+    },
+    {
+      "path": "json/Mornelya_npcs.json",
+      "bytes": 26930,
+      "sha256": "8f02c682c7af5cde1e0c60e580169657df086e13334154f9fcd344e24e5f0f26"
+    },
+    {
+      "path": "json/Morvakar_Drakmorren.json",
+      "bytes": 78537,
+      "sha256": "98e675216d24560d44fa9569fdb7de59864b18deef941c6640f71bb97c3c4c4a"
+    },
+    {
+      "path": "json/Morvakar_npcs.json",
+      "bytes": 23871,
+      "sha256": "df0d265f191aca490d6eab83f72bb9f8353ce844fd56defb31d14185cbfe6ca8"
+    },
+    {
+      "path": "json/Morvelyn_Vaelmyrith.json",
+      "bytes": 79645,
+      "sha256": "d797609e195249878bb71a8db09031847c37214b6758e532aa4e29d8534f5a3b"
+    },
+    {
+      "path": "json/Morvelyn_npcs.json",
+      "bytes": 14499,
+      "sha256": "d5df72527e9b107f291e0bdf65f687d902fe21c63a4d14d148249c178b78a610"
+    },
+    {
+      "path": "json/MorvyrunThal_Thalryss.json",
+      "bytes": 78454,
+      "sha256": "450846e7f2d5db4fdbee3cc46bd885b27fb360e46995892f5f22034f61d257e0"
+    },
+    {
+      "path": "json/MorvyrunThal_npcs.json",
+      "bytes": 14407,
+      "sha256": "fe0523198241d38de1fad4c4c2e810aa6e2e32ac374db3e7430ceeb0fe98c876"
+    },
+    {
+      "path": "json/Mossirueth_Jormaelis.json",
+      "bytes": 82181,
+      "sha256": "9b51551247b91642e08c3c983c5b8a4ba3cf5d5d0554a91857d57b4d43c8aa61"
+    },
+    {
+      "path": "json/Mossirueth_npcs.json",
+      "bytes": 14329,
+      "sha256": "01c34ecf50b23dad542eabfcf5062c41a9f2a071a8e91b2cd3a1f15d45922e60"
+    },
+    {
+      "path": "json/Mossvale_Eldermere.json",
+      "bytes": 77533,
+      "sha256": "4d2dab2592d2a0c67b0e8ad568eb8bda8e0dba0236ff1c9c654afbf39fcf611e"
+    },
+    {
+      "path": "json/Mossvale_npcs.json",
+      "bytes": 14204,
+      "sha256": "afa9314665f2490f41ecda8958ac085aaf6c6088372aad3094ac315c74b6d46d"
+    },
+    {
+      "path": "json/Mostrerah_Iazethas.json",
+      "bytes": 80706,
+      "sha256": "cade4d7bc74b2c140bef66dbf6a3fe5bae762ab2de8f1e44ed51e8b1439b50dd"
+    },
+    {
+      "path": "json/Mostrerah_npcs.json",
+      "bytes": 24103,
+      "sha256": "346417c5dc81c9ffbdb8a6119cdec03be82bb1402f335dfcc7328e3dfd5cdafd"
+    },
+    {
+      "path": "json/Murethash_Eldravire.json",
+      "bytes": 81009,
+      "sha256": "06346e7ced82701d422184a5da551ffa44e394cc57b24f6ac448ea555ae5c4ef"
+    },
+    {
+      "path": "json/Murethash_EldravireRiverrealm.json",
+      "bytes": 1305,
+      "sha256": "d25aea28156bac82f314bc4ee3797002994cbabff05777c25c8fc5ca72774cc5"
+    },
+    {
+      "path": "json/Murethash_npcs.json",
+      "bytes": 18169,
+      "sha256": "5739e87d04011a4d842409da90276b928f069a418ae7784ca9993028e871e026"
+    },
+    {
+      "path": "json/Myraleon_Drakmorren.json",
+      "bytes": 77977,
+      "sha256": "4dc2c8841ed8cc3b33271643f6eaeda9e8d41d50f14f7700945de25864d432ed"
+    },
+    {
+      "path": "json/Myraleon_npcs.json",
+      "bytes": 37236,
+      "sha256": "f8d51cb7c1575b50106c0e7b261af43e0eed9afdcb344e324fc1965f9c0b4e6d"
+    },
+    {
+      "path": "json/Myralun_Earrorim.json",
+      "bytes": 79060,
+      "sha256": "2ca88365abd8eb0fe74c75aea019cfa65e243e671258767b38d784c3a83978f0"
+    },
+    {
+      "path": "json/Myralun_npcs.json",
+      "bytes": 23440,
+      "sha256": "e29141521a4cdfc1d9228978093e1249809bcd6424be0cafec88007ba590d419"
+    },
+    {
+      "path": "json/Myrathea_Kaelvorrin.json",
+      "bytes": 74422,
+      "sha256": "47452473219184f3fd21a82de4b3da8445740f78db0edb15cdade4f2fb01a855"
+    },
+    {
+      "path": "json/Myrathea_npcs.json",
+      "bytes": 26870,
+      "sha256": "e4e5f655e8c5c17f64fa67fe29e467e60777db68a29a3d9e9c1e6c6f2e01944d"
+    },
+    {
+      "path": "json/Myrethun_Iazethas.json",
+      "bytes": 79437,
+      "sha256": "a153af748e85ae59cb7c63ad9310ef37165c60187323a93dfd9af3d7496e5398"
+    },
+    {
+      "path": "json/Myrethun_npcs.json",
+      "bytes": 28502,
+      "sha256": "c62cd7c32f9c8689dc70ea9524bbbe40400c3e67f438318da1ebd05085e73cf3"
+    },
+    {
+      "path": "json/Myrkwake_Marrowynd.json",
+      "bytes": 76695,
+      "sha256": "1cafbbbbd24db5c47d3813f816fbbdad1ea78fadb9865a3cee4d85d765449986"
+    },
+    {
+      "path": "json/Myrkwake_npcs.json",
+      "bytes": 31233,
+      "sha256": "65eea44b9c208835051e85a5e6a5df3625cb4c7611ac54e3a1c99f7f21619af0"
+    },
+    {
+      "path": "json/Myrvaelun_Sylvaveryn.json",
+      "bytes": 79249,
+      "sha256": "82d0411200bb408b64374f11c3e0a555304085bfeb34ff125431af6e3481c8f9"
+    },
+    {
+      "path": "json/Myrvaelun_npcs.json",
+      "bytes": 27279,
+      "sha256": "56915114d6e7ab356e1bbaaeb1ce2a677064dd50d78b9f86e0dff7c78accb863"
+    },
+    {
+      "path": "json/Myrvela_Vaelmyrith.json",
+      "bytes": 77629,
+      "sha256": "c4983c474e4a3f2453d2ef2707f1df275450a1856e092ca650e91b4a69e84d06"
+    },
+    {
+      "path": "json/Myrvela_npcs.json",
+      "bytes": 14399,
+      "sha256": "ee2f8dee865707fc3ed1b19b817bf60a5a50a44119015f349c5372f7bd8354a8"
+    },
+    {
+      "path": "json/Myrvessa_Zharvokh.json",
+      "bytes": 79926,
+      "sha256": "97561771d8b9347add4d2077abc1108e33ee7b6e05c34807507d51181fe110ad"
+    },
+    {
+      "path": "json/Myrvessa_npcs.json",
+      "bytes": 14607,
+      "sha256": "570c89d8e194af1f05d2692ec3c860dd250d3ccc89e792f8a2a63b80072b3ca3"
+    },
+    {
+      "path": "json/Mythalora_Astraevos.json",
+      "bytes": 83369,
+      "sha256": "12749b35c46b1c1a9c4d2357b8bcd95e4e4794df9e1e7cd29a8eabf4c678f878"
+    },
+    {
+      "path": "json/Mythalora_npcs.json",
+      "bytes": 37153,
+      "sha256": "d04b08effe3e5c226c8a9bce5baf2358282283722ccaca27ca072bb83e910563"
+    },
+    {
+      "path": "json/Mythraelyn_Aelvanyr.json",
+      "bytes": 78455,
+      "sha256": "6d4a330bd40cead07b47d4681d8ca507decf6344157dde06e1d646a702f9f61d"
+    },
+    {
+      "path": "json/Mythraelyn_npcs.json",
+      "bytes": 36184,
+      "sha256": "8b209ae3b2d60acb5f9ecc8f3eb0d82c2a9bbf5ff023f3f62424b5d1e7c009b8"
+    },
+    {
+      "path": "json/Nalvessir.json",
+      "bytes": 1391939,
+      "sha256": "d337358332440b207ba07c72dc25f4f9f6eacc7b830dd48f4e11f230276c3ae0"
+    },
+    {
+      "path": "json/Nellvaris_Falthrakar.json",
+      "bytes": 80641,
+      "sha256": "9320a7971950fb217670d5be35a9b4101716917942e3867fbe2c2cc150d1be4a"
+    },
+    {
+      "path": "json/Nellvaris_npcs.json",
+      "bytes": 31230,
+      "sha256": "c5e8b63b4372a408ac2ed6ff51fc8f3dfecc0e0b8c48adec9bc90179b89fa444"
+    },
+    {
+      "path": "json/Neruvea_Luntharave.json",
+      "bytes": 75491,
+      "sha256": "15d5e08177b0ea3f36b72348ce252ecc7968a2ef85e637182cff1fc18be20794"
+    },
+    {
+      "path": "json/Neruvea_npcs.json",
+      "bytes": 31156,
+      "sha256": "2ffec81acfc7518a56106e0e2521fd8615a34efbf8796ad53417c87c9a40eaca"
+    },
+    {
+      "path": "json/Norevun_Khorvaak.json",
+      "bytes": 77644,
+      "sha256": "87c60ab85efbed3730b95e40c17e60d0f4370487ee09064b5b2533b5cb266a04"
+    },
+    {
+      "path": "json/Norevun_npcs.json",
+      "bytes": 14042,
+      "sha256": "f8a3e41b279596c38b2935645521ec7a250ae8d62554bc8d3e76750c3180f8b9"
+    },
+    {
+      "path": "json/Nyrthalor_Jormaelis.json",
+      "bytes": 77164,
+      "sha256": "395bac1ea6c641d6a4dbffa2b8f3b6ed3dbe5d746a2e8777e014faf34a54703d"
+    },
+    {
+      "path": "json/Nyrthalor_npcs.json",
+      "bytes": 18347,
+      "sha256": "74416966c7d1dc04b79f8ecd88dd9a2085eae287263ad642221f6921b5c1fc96"
+    },
+    {
+      "path": "json/Nythalun_Thalryss.json",
+      "bytes": 79863,
+      "sha256": "4063268036f082a8dfb0ca92aa8a7e13095bdd463a83360d4c68eb50a025bb09"
+    },
+    {
+      "path": "json/Nythalun_npcs.json",
+      "bytes": 14486,
+      "sha256": "9e7e84cb70ef2201d76b35217ff402a1d6545dc00257f4e12bc130bd721b0fa3"
+    },
+    {
+      "path": "json/Nythavea_Valerune.json",
+      "bytes": 77425,
+      "sha256": "2fbb078190a249c0d0567f0bc718fa82d1aec75a0c5a12f85f529c45e4335eb6"
+    },
+    {
+      "path": "json/Nythavea_npcs.json",
+      "bytes": 13949,
+      "sha256": "5db0a6f942a4c10735faf84688ed7622c4e6d8982b49775b532b2891058a7f70"
+    },
+    {
+      "path": "json/Nythessa_Pelvoryn.json",
+      "bytes": 76864,
+      "sha256": "cbfe81b53174e650bf5d0246e396bc9d8bc84474d1b50c6a9d8c0e198d2c1c48"
+    },
+    {
+      "path": "json/Nythessa_npcs.json",
+      "bytes": 13649,
+      "sha256": "e3c543024e6edc0a18f9186d487c1f62bae6f5c54112095ca3f88b3411ac0c9f"
+    },
+    {
+      "path": "json/Oakenshire_Eldermere.json",
+      "bytes": 82044,
+      "sha256": "77efdf744d1095a1ffc8403fb7a1488b9857c6b1fc5200160d7e169389e85730"
+    },
+    {
+      "path": "json/Oakenshire_npcs.json",
+      "bytes": 28407,
+      "sha256": "4ee7ef97f856a76055aac4428757196af91386ad8415b7864415d572ad899321"
+    },
+    {
+      "path": "json/Obriasos_Earrorim.json",
+      "bytes": 77381,
+      "sha256": "c89d2004d9a9f1f5f66711fccd057d1233574d2eaf1dd93f06622c6d9a467b07"
+    },
+    {
+      "path": "json/Obriasos_npcs.json",
+      "bytes": 45773,
+      "sha256": "a1f22cfd92cb48054e9a7703fd9d8fed909153d5d27bc954510cd46070e01a0a"
+    },
+    {
+      "path": "json/Ocevaruun_Thalryss.json",
+      "bytes": 82080,
+      "sha256": "e5537434091102f5515a43ba2f8f7975d8ef13026449abfa21401d07617ba177"
+    },
+    {
+      "path": "json/Ocevaruun_npcs.json",
+      "bytes": 27556,
+      "sha256": "66b0b2a32d17f7542c50a0411443c2ebeb847272bfc2b7e6cbec671d89e34ad0"
+    },
+    {
+      "path": "json/Oelnoreu_Vuelmora.json",
+      "bytes": 77103,
+      "sha256": "6a8b92d7a508abee9b2bfd0f016590965f2ff7ecfafb28050f5880698672dbff"
+    },
+    {
+      "path": "json/Oelnoreu_npcs.json",
+      "bytes": 13433,
+      "sha256": "aa36d98e9b81f48b3ba9e13be05e4db32e1c1d5f9fb2aa75706e558b65ca7bf7"
+    },
+    {
+      "path": "json/Oravelyn_Vaelmyrith.json",
+      "bytes": 76999,
+      "sha256": "2edd05d36ef28f29424dc999c61119b76df8f3b9469c87100a47f35012b37974"
+    },
+    {
+      "path": "json/Oravelyn_npcs.json",
+      "bytes": 14367,
+      "sha256": "00e5da4d118223dd9d73100253bdd26cdf85ec97485cc787e6a8397cfd7c9d57"
+    },
+    {
+      "path": "json/Orinthea_Marrowynd.json",
+      "bytes": 75614,
+      "sha256": "9e879d846a19ae2202dd8f4df230f185a55e8914ac51d36bb278b43e34b827a4"
+    },
+    {
+      "path": "json/Orinthea_npcs.json",
+      "bytes": 13974,
+      "sha256": "34ac6828febd58a85a4800df8e34d932db043e3ac552a5ae4e8c07346ff5cf0f"
+    },
+    {
+      "path": "json/Orithalune_Astraevos.json",
+      "bytes": 79971,
+      "sha256": "456cc210a90373ca098c9b5eebd418c302e11c0817262ee47924945da6360ec9"
+    },
+    {
+      "path": "json/Orithalune_npcs.json",
+      "bytes": 36985,
+      "sha256": "1784fac0af65a69651b287de9d2d2bf7fb9156d37fd68e621bd88f70307d9fee"
+    },
+    {
+      "path": "json/Orlythae_Eldravire.json",
+      "bytes": 75724,
+      "sha256": "cf831c6336ce2d19779edcfa3d34960c33f57782cc4f1485689e6484f74a0c1e"
+    },
+    {
+      "path": "json/Orlythae_EldravireRiverrealm.json",
+      "bytes": 1305,
+      "sha256": "e0bb1604c02cf6cc3bfd15ba60b9747277735bb4530bdbbb2c2684e4a84dd70b"
+    },
+    {
+      "path": "json/Orlythae_npcs.json",
+      "bytes": 33011,
+      "sha256": "4d5974e868db89f6a03ba151bba21a71af5950374221f9bbadbac35cdb6e3b41"
+    },
+    {
+      "path": "json/Oryndea_Falthrakar.json",
+      "bytes": 73851,
+      "sha256": "669846f2d922d64b56da3fa7e15d2b71570919df57ff3ef7e43dce46903cc309"
+    },
+    {
+      "path": "json/Oryndea_npcs.json",
+      "bytes": 17563,
+      "sha256": "6c9508e4775e3f555a9742d4c1b8e7bde2301649f7c875a0f95a24d7f8017db9"
+    },
+    {
+      "path": "json/Orynessa_Aelwynora.json",
+      "bytes": 78624,
+      "sha256": "cf7dcced58d9e339fbc8741bbcc8da39aae82afc2ae03902be22c02e9573ae03"
+    },
+    {
+      "path": "json/Orynessa_npcs.json",
+      "bytes": 14335,
+      "sha256": "9031740aef137bf28ca48f307809d5430608ff60e7d302508ce08b9fa1186c68"
+    },
+    {
+      "path": "json/Otheryn_Gruddirynn.json",
+      "bytes": 77589,
+      "sha256": "16936b75fe604fcd60eb5d7fbc03e0c2a16c03bbc084544e94d7c9ea5003c8f9"
+    },
+    {
+      "path": "json/Otheryn_npcs.json",
+      "bytes": 18531,
+      "sha256": "e9832a151e3b33aa7437728681ba5bb7fab6f18432e75775b132cfa1c2d72977"
+    },
+    {
+      "path": "json/Palevanna_Nalvessir.json",
+      "bytes": 75963,
+      "sha256": "6e83860f522bc559067a5842876d95af79db04019497c7a7c92e5674e548d2c7"
+    },
+    {
+      "path": "json/Palevanna_npcs.json",
+      "bytes": 35301,
+      "sha256": "660d6f2d925345c384e35899d88a54068fa6c673401b37c6c146c2509340fd6c"
+    },
+    {
+      "path": "json/Pellavess_Nalvessir.json",
+      "bytes": 74221,
+      "sha256": "ddc86687abbd6dddc5bc7311c2f43bf7ef39fda77343afdbbda840b89dcced11"
+    },
+    {
+      "path": "json/Pellavess_npcs.json",
+      "bytes": 18095,
+      "sha256": "9542bc0ed9f35373febbc3daa967389cd099ba91514d5a68d098f2aa20236ae1"
+    },
+    {
+      "path": "json/Pelvoryn.json",
+      "bytes": 1368873,
+      "sha256": "74f923a3d312f3e27a200d65d837287a630e7525c2527aa994f3b06b982e0c5d"
+    },
+    {
+      "path": "json/Pokbith_Iazethas.json",
+      "bytes": 79726,
+      "sha256": "d0fbc5d685b294c0b1770aebcb8cab9920f40220dc46225c2b5ba11855a82ac4"
+    },
+    {
+      "path": "json/Pokbith_npcs.json",
+      "bytes": 31900,
+      "sha256": "fecea0acac71b88803da30fde5abe4b359358eb94d15eb732e83b9c666cf025a"
+    },
+    {
+      "path": "json/Porthelis_Nalvessir.json",
+      "bytes": 80323,
+      "sha256": "2239994dcf7ab009d541bc5f2ecaf5c2788b2481c83a3141826844986d0a33d5"
+    },
+    {
+      "path": "json/Porthelis_npcs.json",
+      "bytes": 14085,
+      "sha256": "a638fc37d454b980f841e6c74f7d41415f53d108194a229a28c1d05dfa96e1c3"
+    },
+    {
+      "path": "json/Qasvire_Bravelyn.json",
+      "bytes": 80825,
+      "sha256": "a27ce33118c2b9d1e2a6dc7026fcf938894dc2cbf0f60a4bdc4b97a4d48d4dbd"
+    },
+    {
+      "path": "json/Qasvire_npcs.json",
+      "bytes": 31421,
+      "sha256": "aec24618186d778dd07ea831027e6bc04b706fd632050d38e66a0e579071ac14"
+    },
+    {
+      "path": "json/Qelvandra_Bravelyn.json",
+      "bytes": 79023,
+      "sha256": "ee2749c3befa8f3fc17f2a7d43ce70ec7031e51b1d383692ff9c8c1eba3e04c1"
+    },
+    {
+      "path": "json/Qelvandra_npcs.json",
+      "bytes": 23351,
+      "sha256": "db6032bfdf0542407836c8a3f788e3e405b9a1a8238d38439fb7bbb202bfb2eb"
+    },
+    {
+      "path": "json/Qelvorys_Bravelyn.json",
+      "bytes": 79015,
+      "sha256": "046a1796d7165ddaf13104369ea4ee41532f64fd99940a19feb0f06c29af4892"
+    },
+    {
+      "path": "json/Qelvorys_npcs.json",
+      "bytes": 23999,
+      "sha256": "c9310718767561140fbe427404833689224dd101a5a403c4051f79572246a441"
+    },
+    {
+      "path": "json/Qovei_Ceulrithan.json",
+      "bytes": 80543,
+      "sha256": "5ed85c9e0e774a54d1827b2d0e8ab2a5344b6682762157414f1df5ecb4e16bb0"
+    },
+    {
+      "path": "json/Qovei_npcs.json",
+      "bytes": 23474,
+      "sha256": "045d1f925cc4e15f3e716b02eee8b249d4eabbd08944619a1f60d92d82f1a86b"
+    },
+    {
+      "path": "json/Rilvays_Ceulrithan.json",
+      "bytes": 75873,
+      "sha256": "70b908927d6af031180fac1a7e967a7a2df3cf7d99d08eedf64ba24cebf11345"
+    },
+    {
+      "path": "json/Rilvays_npcs.json",
+      "bytes": 27293,
+      "sha256": "15a6854de0fa9a08967e7b294bb34006be0c3fed82fd05f3e6fc08010a7c873f"
+    },
+    {
+      "path": "json/Rivenwild_Kharvathen.json",
+      "bytes": 79766,
+      "sha256": "f1f8a2afc2166302fea8592b9faca8101138dfc9a34a5522a7cce50052643b1e"
+    },
+    {
+      "path": "json/Rivenwild_npcs.json",
+      "bytes": 18056,
+      "sha256": "5b62de45d4aa43053fa07fc0c497b51a6b9ea0f14346dca78fa50c762327664a"
+    },
+    {
+      "path": "json/Riverbloom_Eldermere.json",
+      "bytes": 81558,
+      "sha256": "1c06e7bb82cba44cb1dcf6c8c0dd1a1b571bf35c82dada206afbe2ac1e391a0f"
+    },
+    {
+      "path": "json/Riverbloom_npcs.json",
+      "bytes": 14284,
+      "sha256": "d1bee96c00af25ff6aadd127bacc007b747a15b7b29a740d11f878dcef8802c8"
+    },
+    {
+      "path": "json/Rnzeuluun_Jormaelis.json",
+      "bytes": 80737,
+      "sha256": "0f5f2bb3a227e281fd620cb43fcea3142c67782a3ab9c74469f187917c1f3a90"
+    },
+    {
+      "path": "json/Rnzeuluun_npcs.json",
+      "bytes": 17837,
+      "sha256": "59d5f0d7079781a5c873aa63f7db4969a9bfa0fc7ec0159a145683e7009d4bd4"
+    },
+    {
+      "path": "json/Rootmere_Aelvanyr.json",
+      "bytes": 76450,
+      "sha256": "d8e6e23bdf7b989cf58a74c8e5e2db96826146e5f8f09c9e4efada8daa03dafd"
+    },
+    {
+      "path": "json/Rootmere_npcs.json",
+      "bytes": 22981,
+      "sha256": "ec97f78bcb6dbc921f7dbcce7b450b5310088c9f3edec8ddb019afc445d345ee"
+    },
+    {
+      "path": "json/Scalori_Valerune.json",
+      "bytes": 78456,
+      "sha256": "ac1a210f47cd8ec2216cde6da03fa677024ff74826b418cf7717c91adc5aa073"
+    },
+    {
+      "path": "json/Scalori_npcs.json",
+      "bytes": 17397,
+      "sha256": "7a14a0560f9eb660936f3e17933340949acdebbd4c7dde4a903fa788a9c0382e"
+    },
+    {
+      "path": "json/SeawyndHollow_Marrowynd.json",
+      "bytes": 79009,
+      "sha256": "ba39db30ad312732466151a3fbb140748574968fe4ae4b1d0c5ebc72581e676f"
+    },
+    {
+      "path": "json/SeawyndHollow_npcs.json",
+      "bytes": 17915,
+      "sha256": "d1a92aca96dad45a4114761c3ae63fe3a395970fd7f4c69b4f692488785dddcf"
+    },
+    {
+      "path": "json/Seralun_Luntharave.json",
+      "bytes": 80272,
+      "sha256": "933a1a45b6afaa0933ad03e3c6c28a4215ca2ad2055c8fa0e351f5b69cd92a48"
+    },
+    {
+      "path": "json/Seralun_npcs.json",
+      "bytes": 13976,
+      "sha256": "846db60ca81c6a381839d79c0d03546450e248b12c60e7609489ea70dca39ddb"
+    },
+    {
+      "path": "json/Shadewharf_Marrowynd.json",
+      "bytes": 75745,
+      "sha256": "b36b7bd135e98b7179f0cb461c87974194d9c732810edb4c910e4418cbb1ef7c"
+    },
+    {
+      "path": "json/Shadewharf_npcs.json",
+      "bytes": 17697,
+      "sha256": "c4c5509c0eb67ee727bc3f2007b57eac77d024b0b5583bfd484938a8b5657818"
+    },
+    {
+      "path": "json/SilverVeil_Kaelvorrin.json",
+      "bytes": 75371,
+      "sha256": "cdbfdacd42770ede817ce54b4f382217dd09378c4754d463d82f7b6386cfa189"
+    },
+    {
+      "path": "json/SilverVeil_npcs.json",
+      "bytes": 22719,
+      "sha256": "cc4d5f99576c1d02cf61708c827073f11a66557f061f7a3d35a58ab16ca0c34d"
+    },
+    {
+      "path": "json/Silverwake_Kaelvorrin.json",
+      "bytes": 75748,
+      "sha256": "e496650abf7c9e29a2196539f70f5f424a52733dc13ba2698851187e9ad7ee54"
+    },
+    {
+      "path": "json/Silverwake_npcs.json",
+      "bytes": 13335,
+      "sha256": "878493a786d856e17e904a66ef9216e3bf87fbffd543783914a63d5d847f858e"
+    },
+    {
+      "path": "json/Skarnfell_Drakmorren.json",
+      "bytes": 76774,
+      "sha256": "5a4688b2260960e9eb12f6c868636cfdc434d3d67c95a74c9adf91dae5c523e0"
+    },
+    {
+      "path": "json/Skarnfell_npcs.json",
+      "bytes": 27801,
+      "sha256": "00f0e69ee8af2a7ab53e5ddf8c5457a2c1be974fa8648e05728bbc364f2d574b"
+    },
+    {
+      "path": "json/SkulltideExpanse_Thalryss.json",
+      "bytes": 84887,
+      "sha256": "7941a279e4d12e16d48178566d2ce39f4ef184f6789233fa2954c178861bf98d"
+    },
+    {
+      "path": "json/SkulltideExpanse_npcs.json",
+      "bytes": 14584,
+      "sha256": "33063b218d963daa9ef54ff213b94c6be718c900de6047685b56dab2bc3498d4"
+    },
+    {
+      "path": "json/Sleakitika_Gruddirynn.json",
+      "bytes": 82688,
+      "sha256": "abd57cc773c571ef50c6413d44e3ab8c658612bf1bc3e1bea52abbc6b95aec1a"
+    },
+    {
+      "path": "json/Sleakitika_npcs.json",
+      "bytes": 14111,
+      "sha256": "47b21ce582eb4fc059d32fe7af2dfda1a44c862141020f2e2dafe44f75342676"
+    },
+    {
+      "path": "json/SoltharynBasin_Bravelyn.json",
+      "bytes": 78222,
+      "sha256": "9926449ad564c52dbea870e460b5bc46a55705f150e52ef1ee5ad544167e2cbc"
+    },
+    {
+      "path": "json/SoltharynBasin_npcs.json",
+      "bytes": 41733,
+      "sha256": "974f7fb3bcf21c379214fcec2b0253d6ecfd5077cf8a03b5570886a194a2fcb1"
+    },
+    {
+      "path": "json/Solthera_Bravelyn.json",
+      "bytes": 77973,
+      "sha256": "c07b04c146ba7b20daed8f3e09c4cf65a943b2b4988ba98527df3ffba14b14a8"
+    },
+    {
+      "path": "json/Solthera_npcs.json",
+      "bytes": 31248,
+      "sha256": "07946ff5dd8dbf76928e26496c0a0c21c75f5b515810fcac9bc16a7cd4ca6314"
+    },
+    {
+      "path": "json/Solunea_Bravelyn.json",
+      "bytes": 76252,
+      "sha256": "f2c8e25279c9e4c94bdf4f4eb23afa3324acc54868c9630018dc8bfae2d0df88"
+    },
+    {
+      "path": "json/Solunea_npcs.json",
+      "bytes": 14097,
+      "sha256": "7561d00a173f939689f0a6b95074d836f0ba41ff2bfad81e7396aa133c7239b4"
+    },
+    {
+      "path": "json/Solvaryn_Bravelyn.json",
+      "bytes": 81702,
+      "sha256": "100ddd158f17c283cf63eadb76c3f8d55e818a3fa14a7f3cbe38bb8a0dcaa9c1"
+    },
+    {
+      "path": "json/Solvaryn_npcs.json",
+      "bytes": 27179,
+      "sha256": "7abafca4a22d3cf24337501faf6993fd051783e141c017ece238b740a3c12eb8"
+    },
+    {
+      "path": "json/Solvyrea_Earrorim.json",
+      "bytes": 76024,
+      "sha256": "555df14c3a28079d101061b209e1e212fa4eb1a2b5c97f4f9e4087744229a4f2"
+    },
+    {
+      "path": "json/Solvyrea_npcs.json",
+      "bytes": 36626,
+      "sha256": "407c76a1f6c3c673d288647f35651a7653100d2f96a5cf26e450c719cc9ba2f8"
+    },
+    {
+      "path": "json/Sszaruun_Zaltharuun.json",
+      "bytes": 81673,
+      "sha256": "5d9b85779cde697311b96551bec2798a339b67e089b73de6171a9d9e66fea45f"
+    },
+    {
+      "path": "json/Sszaruun_npcs.json",
+      "bytes": 18216,
+      "sha256": "051599d8f786cf51e60a6201ab4fa39044e736692f0479f8833047ed692c76b6"
+    },
+    {
+      "path": "json/Stormgullet_Virelport.json",
+      "bytes": 80178,
+      "sha256": "825515de867a49672a999ea43f95f3f90de46c8300abfbd020388cb4829a41ad"
+    },
+    {
+      "path": "json/Stormgullet_npcs.json",
+      "bytes": 21782,
+      "sha256": "d2331d5d820837bc94fc2aa458720628a80ca7c66b4469d0c7ebf1d5fe28e3f5"
+    },
+    {
+      "path": "json/Stormharrow_Marrowynd.json",
+      "bytes": 80162,
+      "sha256": "6d6d88c069eb6e0ffe456b268b855eda6928c091911293b8055d969fe67f5a3f"
+    },
+    {
+      "path": "json/Stormharrow_npcs.json",
+      "bytes": 13814,
+      "sha256": "f982665938fc8aab06485df7756db9ac4291e7341f3d041b06a6217d326ecf12"
+    },
+    {
+      "path": "json/Straithaven_Virelport.json",
+      "bytes": 79916,
+      "sha256": "bafe2d90bdb6c819188747a6efefcfa13af516594e6d3029e45d0572962ea184"
+    },
+    {
+      "path": "json/Straithaven_npcs.json",
+      "bytes": 14115,
+      "sha256": "40594165a3f17816b7e14a3f0d5f6debe614f7ef32e62e38692b5008662dd2a2"
+    },
+    {
+      "path": "json/Streccea_Iazethas.json",
+      "bytes": 82961,
+      "sha256": "82075f0dd2b38e60d8c1b5a42540ddb791895b1e999a73ba0718d08d0a9473f2"
+    },
+    {
+      "path": "json/Streccea_npcs.json",
+      "bytes": 28708,
+      "sha256": "9544bc41c2f2a08f964198f0f1795290e0270575ea6c134f03377f16aa935d83"
+    },
+    {
+      "path": "json/Sundervale_Bravelyn.json",
+      "bytes": 78557,
+      "sha256": "2c21aad5ba7d5b28df1e3e8327ecb0968e77bd40ffcc8afd53da73e657cb8f7b"
+    },
+    {
+      "path": "json/Sundervale_npcs.json",
+      "bytes": 27291,
+      "sha256": "f9608bf15a5c9931f1a6b031c32986a0c7dfbb90e981f50202f9c7e82cc8f1b2"
+    },
+    {
+      "path": "json/SunvaleReach_Valerune.json",
+      "bytes": 75456,
+      "sha256": "af52aa6d8e0b47df817b832c19bd02b6aca4e1123d351a03c58bf8655dcd29d1"
+    },
+    {
+      "path": "json/SunvaleReach_npcs.json",
+      "bytes": 13856,
+      "sha256": "1d01806a2b536944f78e63bd304ad2e294a511d7b7ad1b56f4f7fa3834e09574"
+    },
+    {
+      "path": "json/Sylmaris_Luntharave.json",
+      "bytes": 78758,
+      "sha256": "2abfd2f4b7ebde464bb599211213d0cdffbafcf6de8c161c1a235b917aa555f0"
+    },
+    {
+      "path": "json/Sylmaris_npcs.json",
+      "bytes": 18007,
+      "sha256": "ef9d4c9a5b8695667910e259c4ee6d4e5770889938f2e7df81801ecfbccf4bc1"
+    },
+    {
+      "path": "json/Sylthados_Sylvaveryn.json",
+      "bytes": 77942,
+      "sha256": "73cf0d5fedc351b134bb36a61e9f82ce9f460456d5ae1b595b9b4b0e50175694"
+    },
+    {
+      "path": "json/Sylthados_npcs.json",
+      "bytes": 17700,
+      "sha256": "fb45099303bac433f54fb48af39a16e0f45440c45d66fb6498b7ea7af544022c"
+    },
+    {
+      "path": "json/Sylthara_Sylvaveryn.json",
+      "bytes": 75514,
+      "sha256": "45bda06d74bb46297539f2864d63e57243efaf39750406ae381bfc1f4d2dcbe3"
+    },
+    {
+      "path": "json/Sylthara_npcs.json",
+      "bytes": 17837,
+      "sha256": "abaf100b5b345de133c2e5e600a6b1a97bd08add0dae7c18e53a10aadb22cf24"
+    },
+    {
+      "path": "json/Sylthea_Sylvaveryn.json",
+      "bytes": 73503,
+      "sha256": "b846148878778ffd8efb24c66064d2156ecbba20b7d64db8969fad83db5d475e"
+    },
+    {
+      "path": "json/Sylthea_npcs.json",
+      "bytes": 20982,
+      "sha256": "de4e759c2f56c9b8a0c717538c8c4efc84835506199b58d76569cb898e0ea566"
+    },
+    {
+      "path": "json/SyltheraVael_Vaelmyrith.json",
+      "bytes": 80714,
+      "sha256": "8078c9566909bbb1494ad8d4085950b082afc98597127469472aa8aa751dcd92"
+    },
+    {
+      "path": "json/SyltheraVael_npcs.json",
+      "bytes": 18807,
+      "sha256": "40b890db4014ace6daed1423f7cad6454d4d5ac14558ed1fcea82f61be043e68"
+    },
+    {
+      "path": "json/Sylvanreach_Eldermere.json",
+      "bytes": 79627,
+      "sha256": "ef54269cc6575ab8bcd742fb95fae60d4fcc4b1849c55f95d3ce2b75e0248515"
+    },
+    {
+      "path": "json/Sylvanreach_npcs.json",
+      "bytes": 15589,
+      "sha256": "07619c3294f842b969f5b21f4651028f54ede49897b88ecc7ccd3c054d5c88f1"
+    },
+    {
+      "path": "json/Sylvarielle_Aelvanyr.json",
+      "bytes": 72673,
+      "sha256": "209d6f885a1d5d18d83e8e5abda99eecc64898a9f77aca4542e95387b12e4d02"
+    },
+    {
+      "path": "json/Sylvarielle_npcs.json",
+      "bytes": 40009,
+      "sha256": "8ba36cfeb796e4f7b8bad7c37bc1b020de0989dbf45751bd59d8dcde4a7bcbf3"
+    },
+    {
+      "path": "json/Sylvarun_Aelwynora.json",
+      "bytes": 80991,
+      "sha256": "367788ded46bef7b38ebfe7c08703266428a34a92e439a89764512622b2fef38"
+    },
+    {
+      "path": "json/Sylvarun_npcs.json",
+      "bytes": 37233,
+      "sha256": "fdaf1dc331ccf30a13e6ee49d6512c46f74cc32675dd289910982ef4eea59ecb"
+    },
+    {
+      "path": "json/Sylvathun_Aelwynora.json",
+      "bytes": 81004,
+      "sha256": "bddc86f8d1f92e6bf917614db86fb911a9609ddaa3fba18767df618de8bf9fd5"
+    },
+    {
+      "path": "json/Sylvathun_npcs.json",
+      "bytes": 40670,
+      "sha256": "36c8c828732330102cc26cc12b5b116f489cd566e7441f8d19e2bef397d5e903"
+    },
+    {
+      "path": "json/Sylvaveryn.json",
+      "bytes": 1802632,
+      "sha256": "2798bbfdfed236c9002704e9272566894c4f04ae9c7ca3a1e63e493a37f1fd64"
+    },
+    {
+      "path": "json/Sylveraith_Aelwynora.json",
+      "bytes": 81659,
+      "sha256": "f3542883aeda178acc44c5db962894a92bb11a11998054c215a5be7d337f7d8b"
+    },
+    {
+      "path": "json/Sylveraith_npcs.json",
+      "bytes": 18008,
+      "sha256": "25f9a7f72ceb90c806f767af92697037b484440b111061eaf8d12c89218714eb"
+    },
+    {
+      "path": "json/Thalavaryn_Sylvaveryn.json",
+      "bytes": 76891,
+      "sha256": "d688fd93a2c40fa54f91675ec6548639f38a331d6f6fb8967df3d20527d46f58"
+    },
+    {
+      "path": "json/Thalavaryn_npcs.json",
+      "bytes": 20932,
+      "sha256": "092f52a1486f64182dfa2823c95a83624487257be9b6cf47dc00d9315a3f9f4e"
+    },
+    {
+      "path": "json/Thalessar_Khorvaak.json",
+      "bytes": 77397,
+      "sha256": "78f80b055bb1f87403a5b31fe2f536c1890b871c900b9d5755881f0995609835"
+    },
+    {
+      "path": "json/Thalessar_npcs.json",
+      "bytes": 14143,
+      "sha256": "f4d15c53fdce736a0bf32948360e4439f0286c001bee1e241b766260a67b29f5"
+    },
+    {
+      "path": "json/Thalkazuun_Thalryss.json",
+      "bytes": 80218,
+      "sha256": "f4252b8f34924b869fd7267bc4d3d1530f74063903e61a8b86cb965c52f0ea0f"
+    },
+    {
+      "path": "json/Thalkazuun_npcs.json",
+      "bytes": 18694,
+      "sha256": "da05cedee893a25b1d673349274544a0c4b3ccf882591405104fe897ec2d8714"
+    },
+    {
+      "path": "json/Thalmerrow_Marrowynd.json",
+      "bytes": 80600,
+      "sha256": "5ddf70431736c5ff2f38b51485f82d9f2cc06d772be93049eb27881d4968aae1"
+    },
+    {
+      "path": "json/Thalmerrow_npcs.json",
+      "bytes": 13977,
+      "sha256": "741a7066f86fd29b4c89f3cd4c94975209b0cab4d5cc64b3344a913309d1b9f2"
+    },
+    {
+      "path": "json/Thaloju_Valerune.json",
+      "bytes": 73899,
+      "sha256": "ec8d24366cd87a388edabf9e3d5a79619ebdedee48b67b6846d42d7a9b8d14b2"
+    },
+    {
+      "path": "json/Thaloju_npcs.json",
+      "bytes": 17389,
+      "sha256": "39f769ad50cde1cdde46bc98869d463dabee427b08245bcd07a14244cd641779"
+    },
+    {
+      "path": "json/ThaloreaReach_Vuelmora.json",
+      "bytes": 73597,
+      "sha256": "ee353c5c30f57b27156ffb74001ee32c1eb4abfd6e59ea64fab905bccf663b88"
+    },
+    {
+      "path": "json/ThaloreaReach_npcs.json",
+      "bytes": 13452,
+      "sha256": "562206ae48a1e639cd1658fe7118fcb53592abae1f5f8cd7085f994a5a7fff99"
+    },
+    {
+      "path": "json/Thalorea_Pelvoryn.json",
+      "bytes": 73775,
+      "sha256": "445b57cbebe2df6881079d8495bf0f857654c24e5e219f2fbb47a782f441996c"
+    },
+    {
+      "path": "json/Thalorea_npcs.json",
+      "bytes": 13645,
+      "sha256": "381253a9d814a382af53fffd798540c223353ebf41098f11e18146392ee04cb9"
+    },
+    {
+      "path": "json/Thalryss.json",
+      "bytes": 1931228,
+      "sha256": "f9a358f5718de2c6a97a73962ca906d3e8c8afdc18d4eead4911c306dce06bc9"
+    },
+    {
+      "path": "json/Thalryssun_Kaelvorrin.json",
+      "bytes": 71995,
+      "sha256": "8aa2dc501a7f264470f3e1fe14867b01d4dd7568d75564cf23ba9e8602b1552b"
+    },
+    {
+      "path": "json/Thalryssun_npcs.json",
+      "bytes": 16961,
+      "sha256": "f5258007626b0f1b0b1050ae94985ad997ddc0f8d3479823a8efbc9b58b51c6b"
+    },
+    {
+      "path": "json/Thalvera_Zharvokh.json",
+      "bytes": 80138,
+      "sha256": "03cc18468aa33c76048e6d769ceb3ce38c44697a0ff7c7a7d407919a248c3dd3"
+    },
+    {
+      "path": "json/Thalvera_npcs.json",
+      "bytes": 14844,
+      "sha256": "2520620e7e94583c3b5d9659778e5406d0b7164a5fbffd762bdba8e42ea13dd8"
+    },
+    {
+      "path": "json/Thalyress_Falthrakar.json",
+      "bytes": 76834,
+      "sha256": "cc9fc8ca90acebfdf08cdace237e39f1b83334a5160e079193cf66fbb39a0df8"
+    },
+    {
+      "path": "json/Thalyress_npcs.json",
+      "bytes": 17871,
+      "sha256": "cbce25e89fcca0615b213b95e3bdb7772c6d5d969a98e048c563f3a72ec0c12d"
+    },
+    {
+      "path": "json/Thalzuroth_Zaltharuun.json",
+      "bytes": 79128,
+      "sha256": "2dcc048c9299cae4ca6be7a7471176c7911338292e78ccbadf3ec32ad3bd9fd8"
+    },
+    {
+      "path": "json/Thalzuroth_npcs.json",
+      "bytes": 18655,
+      "sha256": "cd1fdb02be08df9f442b3750f59a4907c643fdf0defc38d27098fa484fae683b"
+    },
+    {
+      "path": "json/Tharvokar_Zharvokh.json",
+      "bytes": 85312,
+      "sha256": "2932d459a4805756c555eb6dbd9fc88230fefc1dce79aea859c9499e3ff6d45b"
+    },
+    {
+      "path": "json/Tharvokar_npcs.json",
+      "bytes": 14988,
+      "sha256": "ed76517f71286088b66e9cb27949f6dc7c2a5ed0f90abe22beaf9f3a5bc1f5c8"
+    },
+    {
+      "path": "json/Thornbreak_Kharvathen.json",
+      "bytes": 77444,
+      "sha256": "dad30dee946d60dd00275d016ff34b19bf35b51bc4a60e5c5c015139c3ebcd5f"
+    },
+    {
+      "path": "json/Thornbreak_npcs.json",
+      "bytes": 21899,
+      "sha256": "5752223251fd50aa7b439963f952b20cbbf1df372c9269ecf128bed27c9376ab"
+    },
+    {
+      "path": "json/Thoyndor_Ceulrithan.json",
+      "bytes": 73462,
+      "sha256": "09aadd77b0fc1840324f8f4695a0f89358870fa673c2a22fb9998e1d350a696e"
+    },
+    {
+      "path": "json/Thoyndor_npcs.json",
+      "bytes": 23329,
+      "sha256": "f31a7e502c4e2a6452032c8d530c0c6b93e2c69925a323a36e4c214281bd3040"
+    },
+    {
+      "path": "json/Thyralea_Jormaelis.json",
+      "bytes": 76153,
+      "sha256": "8bb32ca99d543e4b3908b113cb9f7b560604e6d72aa91fa7231e5f0373941b27"
+    },
+    {
+      "path": "json/Thyralea_npcs.json",
+      "bytes": 17889,
+      "sha256": "7913872f90991aa2b8979aa02b21abfadfa55b3edbc6c1704f2c2f15795a9492"
+    },
+    {
+      "path": "json/Thyralun_Eldravire.json",
+      "bytes": 76233,
+      "sha256": "40d485413e2d0ec2757803f89536198db64b22d5d56bf773557dbb854343f695"
+    },
+    {
+      "path": "json/Thyralun_npcs.json",
+      "bytes": 28016,
+      "sha256": "0ec8f7b6f06ce017194cdbb5c578064715223c8aa02f6cdb34a13d6a35eb94ef"
+    },
+    {
+      "path": "json/ThyraveaMorn_Vuelmora.json",
+      "bytes": 74124,
+      "sha256": "3492a702c8a767254d96d3e81cd26cbae3b434cb47a4bedcd5bca94de1b02cca"
+    },
+    {
+      "path": "json/ThyraveaMorn_npcs.json",
+      "bytes": 18098,
+      "sha256": "025da1fae2a536f1f7d7cebc97a1abbfaf81ae0d7d416ea0c95a2838c7168fa2"
+    },
+    {
+      "path": "json/Thyrevara_Marrowynd.json",
+      "bytes": 75094,
+      "sha256": "74b41bc05421d42fd7e277f013d9884b6623cc2b89c33be6ef16e5378eb7b14a"
+    },
+    {
+      "path": "json/Thyrevara_npcs.json",
+      "bytes": 27488,
+      "sha256": "b1204eebb77a9b8061242ca7103016d5b88daca69280f37d55e5b61f688e1bdd"
+    },
+    {
+      "path": "json/Turyne_Ceulrithan.json",
+      "bytes": 77993,
+      "sha256": "52bcdd3ef3cc2565da9844608ab0b88c79b700b255a2ce66484414050e3cc630"
+    },
+    {
+      "path": "json/Turyne_npcs.json",
+      "bytes": 14002,
+      "sha256": "bc56342f7b1216158f22e120034d005c5fe0af634122aedf945ffe2c6b1b9f79"
+    },
+    {
+      "path": "json/Ullunor_Earrorim.json",
+      "bytes": 79251,
+      "sha256": "c7a3d3504348da8a58e26d055a5757a92daecc91744428d9d52ac40a6706900f"
+    },
+    {
+      "path": "json/Ullunor_npcs.json",
+      "bytes": 26795,
+      "sha256": "b50863dc137bab0da3f5ff999e1ba09facf372a43574db5d30fc962ba78e095f"
+    },
+    {
+      "path": "json/Ulwyn_Aelwynora.json",
+      "bytes": 84100,
+      "sha256": "34983b6bdb913a7a89a68e0ca76f5f993cc4808aa271aafadd6da9caaab306a4"
+    },
+    {
+      "path": "json/Ulwyn_npcs.json",
+      "bytes": 33017,
+      "sha256": "06fad7db71a1eda6d766892c7f9d3501e89ecebc91d2dc2bf69d69b975f8d414"
+    },
+    {
+      "path": "json/Umiotope_Gruddirynn.json",
+      "bytes": 80592,
+      "sha256": "713de6ed4bec8c217e1b995311988fbc101ad9c78ebffb9300ba4b3ec42787a1"
+    },
+    {
+      "path": "json/Umiotope_npcs.json",
+      "bytes": 17709,
+      "sha256": "1a5a28e67bbfec8659e47d7c53f17442aac62df6599f364f5f771f93d1413024"
+    },
+    {
+      "path": "json/Utchmyrith_Jormaelis.json",
+      "bytes": 80409,
+      "sha256": "df4e56ad194f1df5bcbe55dfa27ff6b90be00e8ff47bdcd2a6b0eb6a65982931"
+    },
+    {
+      "path": "json/Utchmyrith_npcs.json",
+      "bytes": 31493,
+      "sha256": "615baab12b7570361cb5d11536ca8e229898ef06cfea73b02eb5508ffc8d4e5f"
+    },
+    {
+      "path": "json/Vaelithorne_Aelvanyr.json",
+      "bytes": 72866,
+      "sha256": "9a8db099a4c7f7c02e7d35d30e436d46bf1326ed14391368b6810375f570c6f2"
+    },
+    {
+      "path": "json/Vaelithorne_npcs.json",
+      "bytes": 23085,
+      "sha256": "4c2461a0582712ba8d5c41cefddbd772ebb1323a583578235c609ff6eda804d2"
+    },
+    {
+      "path": "json/Vaelmera_Aelwynora.json",
+      "bytes": 78954,
+      "sha256": "48f05538f3389dcc35d639bfbec2452597cf510aeb19d4ef02745f467e1ebdbe"
+    },
+    {
+      "path": "json/Vaelmera_npcs.json",
+      "bytes": 23798,
+      "sha256": "b1ff3af166eae5ac053a5a610f76c18b62eaeb593d80f46d76c926fac555e3c7"
+    },
+    {
+      "path": "json/Vaelmyrith.json",
+      "bytes": 1908711,
+      "sha256": "0013688520da5acec3496f56481f452278f8e162b3f4185b6c1a2b46a0a58bb7"
+    },
+    {
+      "path": "json/Vaeloress_Gruddirynn.json",
+      "bytes": 76580,
+      "sha256": "cc07d7fd5d2185f031bfbacac7480ca6a44a0361942db9ce566b6a2591d4f2e9"
+    },
+    {
+      "path": "json/Vaeloress_npcs.json",
+      "bytes": 14100,
+      "sha256": "9bd8d0f05f13f796047575306d514e3375b9569fa97234a59f28eefc8825f3d0"
+    },
+    {
+      "path": "json/VaelorisGreenlands_Iazethas.json",
+      "bytes": 77365,
+      "sha256": "0882f4722d97070271192b92ac1a5ff1f955f099dc0aacb2f89e4ce517e3cbc3"
+    },
+    {
+      "path": "json/VaelorisGreenlands_npcs.json",
+      "bytes": 14664,
+      "sha256": "110b2dccb5b0d3dac01460a2d22447fc99d5a2d718ea2197ec40be889fac84b5"
+    },
+    {
+      "path": "json/Vaelorun_Drakmorren.json",
+      "bytes": 78918,
+      "sha256": "9836d33dec8122c1917ae0de7a8027792999422b64b75174ba2b1cc43674f81b"
+    },
+    {
+      "path": "json/Vaelorun_npcs.json",
+      "bytes": 23941,
+      "sha256": "5594efddb6be3e492a6b8f040aab375ddc5a7abefdacd787cde74b89a23e86ed"
+    },
+    {
+      "path": "json/Vaelshore_Marrowynd.json",
+      "bytes": 77881,
+      "sha256": "ce7c3a1002870acf49947f98056189bcc1e432b8f5bae6a1298f5891f1dffa40"
+    },
+    {
+      "path": "json/Vaelshore_npcs.json",
+      "bytes": 31534,
+      "sha256": "90233ecf0529a706bed8fecf34fdcd4f0e03c3b2fc3bf954d83aee7afb7e3401"
+    },
+    {
+      "path": "json/Vaelthyros_Sylvaveryn.json",
+      "bytes": 79082,
+      "sha256": "3d11d3f29a3ec80c7e5917e10c7cf053caa73964e91cfbf83a3c3233beec45a1"
+    },
+    {
+      "path": "json/Vaelthyros_npcs.json",
+      "bytes": 17575,
+      "sha256": "9f541de0e7aba8cde62251dc14a555a5922ddbd9b2ceeff3421497d65867fb18"
+    },
+    {
+      "path": "json/Vaelunthir_Astraevos.json",
+      "bytes": 83424,
+      "sha256": "e13f17ac403db2d97ea5c5d29dff12ffce9672818e42a545437b5d2f6a3f1b71"
+    },
+    {
+      "path": "json/Vaelunthir_npcs.json",
+      "bytes": 14233,
+      "sha256": "05ff3463e77d1ab59061dc9668fbd56bfe4cd1e1364c781a2ed6cc4e7cf8b101"
+    },
+    {
+      "path": "json/Vaeluress_Virelport.json",
+      "bytes": 75664,
+      "sha256": "efb429a87ada74bf8910ef7478944de7847f65b59bb85573bca28c2235f425ad"
+    },
+    {
+      "path": "json/Vaeluress_npcs.json",
+      "bytes": 14017,
+      "sha256": "f0f249956c87146147eebbd44a1ce2a30150f98e0e0839e969699b4b70a3a4f8"
+    },
+    {
+      "path": "json/Vaelynor_Earrorim.json",
+      "bytes": 77091,
+      "sha256": "d1a2b16dcc831a0e45e1f4d2aaa12d248623612032bdc7b485154fe8293fced2"
+    },
+    {
+      "path": "json/Vaelynor_npcs.json",
+      "bytes": 23371,
+      "sha256": "4fb316666256d3ec91bc1290eaac520dea8293218527fa74fa1fd30b4842c9d6"
+    },
+    {
+      "path": "json/Vaelyssa_Ceulrithan.json",
+      "bytes": 74031,
+      "sha256": "43f2ab746b04a414f38d743ac2a4b971ba4b838efba529273b998ba61b5d3844"
+    },
+    {
+      "path": "json/Vaelyssa_npcs.json",
+      "bytes": 44200,
+      "sha256": "75b8fb310dd752d4a36977779b9903c5ed3ff1230b7f31d3c8f6f737b3b900fd"
+    },
+    {
+      "path": "json/Vaelzahara_Zaltharuun.json",
+      "bytes": 77600,
+      "sha256": "c51548c0c475d5e05bfa0207d7a5e7cdc7916654ffc2cf68ef8ac179c13c8d7d"
+    },
+    {
+      "path": "json/Vaelzahara_npcs.json",
+      "bytes": 14488,
+      "sha256": "7a8d3f16a8d863263b655904b596bb93c323b55ba72f7b8449da58ab537a7d4d"
+    },
+    {
+      "path": "json/Vaelzyr_Zaltharuun.json",
+      "bytes": 76195,
+      "sha256": "830f6a11570b814e385618d5ff7c979cd616f215ff8d267cb08fb4ac05607379"
+    },
+    {
+      "path": "json/Vaelzyr_npcs.json",
+      "bytes": 14472,
+      "sha256": "16fd2509e7bfac2247616fe80252bf555c1b8549ed36dbf781dc8b2f5adf3d2c"
+    },
+    {
+      "path": "json/VaerunKeth_Zaltharuun.json",
+      "bytes": 76970,
+      "sha256": "04f93037c30a646705aa0aaf827fc9051ea737ee21be8afd52258cb99bb1bb8e"
+    },
+    {
+      "path": "json/VaerunKeth_npcs.json",
+      "bytes": 22281,
+      "sha256": "5cb395a928ff3e2ddf501f8e2a15c60ef3ecdbe195ef4f15db86e5395c31088a"
+    },
+    {
+      "path": "json/Vaerundell_Sylvaveryn.json",
+      "bytes": 76606,
+      "sha256": "840b766f8c57f75d7037a33366d9f279c5173bdff851161fbc747f690912e5d5"
+    },
+    {
+      "path": "json/Vaerundell_npcs.json",
+      "bytes": 13870,
+      "sha256": "7ce600344b0157fb3dceda4b18d59dc1d86fefaa5f1afd35ce5083c10ccf503b"
+    },
+    {
+      "path": "json/ValdruneFields_Valerune.json",
+      "bytes": 75405,
+      "sha256": "0d288e74d9b753d8494d459c62dc4f501f3f9b2e87b3a31795e7fc6bdb039555"
+    },
+    {
+      "path": "json/ValdruneFields_npcs.json",
+      "bytes": 27479,
+      "sha256": "6fbe78d4f901f1f24182579157ab84ff448debc2bdb9380cdd397fab773ed34e"
+    },
+    {
+      "path": "json/Valerune.json",
+      "bytes": 1383721,
+      "sha256": "f6f79a17350546667123703671a6c05ef3fd7e910f2f5af174b9979650304013"
+    },
+    {
+      "path": "json/VareshKa_Zaltharuun.json",
+      "bytes": 80993,
+      "sha256": "7e36f04e27508da9695613d5597501cee6fb58a1010195643d6f40f436bd16ec"
+    },
+    {
+      "path": "json/VareshKa_npcs.json",
+      "bytes": 31116,
+      "sha256": "73024252fa8795c5decef4b54fe8644a9dc85b528ef515608cb71f0c070ddbb4"
+    },
+    {
+      "path": "json/Veilstrand_Virelport.json",
+      "bytes": 80868,
+      "sha256": "ac8b5f401b753119cb4290d08d4c871f96ad3a13bf40cb1cf5edf6783b05091b"
+    },
+    {
+      "path": "json/Veilstrand_npcs.json",
+      "bytes": 18182,
+      "sha256": "48bbeb6438ca723830127d826cfdd2cb9d2a2529992e2e4fe7e9e5bd5f163925"
+    },
+    {
+      "path": "json/Velkynwood_Vaelmyrith.json",
+      "bytes": 82948,
+      "sha256": "a7a219c9c35c8745c144ea92b25c2a34b9b726671a8aed6733eeeb95dc15bf31"
+    },
+    {
+      "path": "json/Velkynwood_npcs.json",
+      "bytes": 14899,
+      "sha256": "596995e81b54cdd12520b6e2bd8fcfab78a1a6c895aa65b9befda1bc1cc46d97"
+    },
+    {
+      "path": "json/Veloraskkis_Eldravire.json",
+      "bytes": 81426,
+      "sha256": "dfeecb077f788d768cea9f7d61ed9dec2856396785a42f746f36f3426980bb82"
+    },
+    {
+      "path": "json/Veloraskkis_EldravireRiverrealm.json",
+      "bytes": 1307,
+      "sha256": "819a6f274dec86cfb9e606969e4abe2bc6ce9ecfe52542b118084b495479147e"
+    },
+    {
+      "path": "json/Veloraskkis_npcs.json",
+      "bytes": 23912,
+      "sha256": "28b06fc12351a0fb570b5c2b261a6a4c87ec7da7e795ba3007ff670b384a8134"
+    },
+    {
+      "path": "json/Veluneth_Kaelvorrin.json",
+      "bytes": 71715,
+      "sha256": "a4884a359ec38956124a71ccdc8a9b6552cf86592aa924cf3f45986f2e049121"
+    },
+    {
+      "path": "json/Veluneth_npcs.json",
+      "bytes": 13314,
+      "sha256": "b78b06d7c609da77199c6f6be11d3927a32d8d5b7b6dd836e3b9d60e38a3e946"
+    },
+    {
+      "path": "json/Virelessar_Virelport.json",
+      "bytes": 78505,
+      "sha256": "01ceec6140ca9e87df93a46c080582e5aaafbeafd0f0ca8c90a1d07d4331e3fd"
+    },
+    {
+      "path": "json/Virelessar_npcs.json",
+      "bytes": 14127,
+      "sha256": "f913b12e590d3794863abd0819c9be60590d934d417fe56cde3ab9a796b86b66"
+    },
+    {
+      "path": "json/Virelport.json",
+      "bytes": 1576011,
+      "sha256": "a45beb9f8a0ddfb6c30539a339c8ba7be70e4e242c597bed505f6befafb4d91e"
+    },
+    {
+      "path": "json/Vireluna_Luntharave.json",
+      "bytes": 78800,
+      "sha256": "0e77f97a2bbb2dda27f368bf7b07e769e15015e482eaa5b6aa1270ce929e1293"
+    },
+    {
+      "path": "json/Vireluna_npcs.json",
+      "bytes": 17389,
+      "sha256": "aacc0e0a932afc6675272306290833546494b0c020c54d1deae4afd60d98339a"
+    },
+    {
+      "path": "json/Virelyss_Virelport.json",
+      "bytes": 78037,
+      "sha256": "71c7b57a1bed5a182610a03e790e073240df6f8c45c5038ac0b261e333d91561"
+    },
+    {
+      "path": "json/Virelyss_npcs.json",
+      "bytes": 27440,
+      "sha256": "00467e5f098ae8a253f34e0fd245498da4709cdd3776e9332b513cb5a5ec8711"
+    },
+    {
+      "path": "json/Virethea_Virelport.json",
+      "bytes": 74351,
+      "sha256": "d8aece1ae938103792afa93fc9465d1cc67f7f4bd76f931007a3b84832918d89"
+    },
+    {
+      "path": "json/Virethea_npcs.json",
+      "bytes": 14054,
+      "sha256": "ffc9886104ed95c25b290663076fd7b95328f2bb4cbcb9f2c1d89fdb8a2a874e"
+    },
+    {
+      "path": "json/Virethun_Virelport.json",
+      "bytes": 77360,
+      "sha256": "afe3cf7081f3614f31b7d92e021816989feb8919fb1ad56ff4283d436c7bbbe8"
+    },
+    {
+      "path": "json/Virethun_npcs.json",
+      "bytes": 14218,
+      "sha256": "552a4d666bce395af2a7a10e9663863cf4bb78c6a52726dcc3b9d78a67d2cf74"
+    },
+    {
+      "path": "json/Vorakmar_Drakmorren.json",
+      "bytes": 82084,
+      "sha256": "ce3c46d2c033670f45c11bfc1f72e040201f525f1b106163dc1dcf2958c3eb14"
+    },
+    {
+      "path": "json/Vorakmar_npcs.json",
+      "bytes": 23752,
+      "sha256": "c37a2e986f16d3884d1c9f310f63a49d8a565c5a0e0e2941fde699b70bbf8677"
+    },
+    {
+      "path": "json/Vorathun_Khorvaak.json",
+      "bytes": 84540,
+      "sha256": "a64306f5779ab5905b8440e1b30f76035799458126a5c2ac23f92e3be057c572"
+    },
+    {
+      "path": "json/Vorathun_npcs.json",
+      "bytes": 14669,
+      "sha256": "c9a0d48622b46089ea46941dc15f5ceffeae9a527f4fde20895fb7b82a8ca8ce"
+    },
+    {
+      "path": "json/Vorthalass_Thalryss.json",
+      "bytes": 79948,
+      "sha256": "3e5542e096f001761a399eb135a3fe97bf8884d5e435c7504293b0c3bdd4b632"
+    },
+    {
+      "path": "json/Vorthalass_npcs.json",
+      "bytes": 14412,
+      "sha256": "6af391fd87be14e1bee2ebde4bacda0c5c52e1d8a03054bde7e7417c61423bf7"
+    },
+    {
+      "path": "json/Vorthelyn_Zharvokh.json",
+      "bytes": 79702,
+      "sha256": "dc7d0f062c657a66fae59fe95725a7e6c47792a2438d1dc799befd7ac1f2a0f9"
+    },
+    {
+      "path": "json/Vorthelyn_npcs.json",
+      "bytes": 18689,
+      "sha256": "22745dd068ee4c3e57640aec36162f65e3788eb73a64a9d55f26e87304a53d17"
+    },
+    {
+      "path": "json/Vuelmora.json",
+      "bytes": 1357087,
+      "sha256": "10d5965b4643e1fff0934c3c4113b20004f687f223b829a5d9c904a67db78586"
+    },
+    {
+      "path": "json/Vulkradun_Zharvokh.json",
+      "bytes": 81949,
+      "sha256": "88a83adff2a4d913cd5a58fdcc490025a8b20519adebc46c3c55dda01289e044"
+    },
+    {
+      "path": "json/Vulkradun_npcs.json",
+      "bytes": 18559,
+      "sha256": "828a7029462bba38e5e1424dd88409c3194d09d4dfd7465aac825cf83bcf9270"
+    },
+    {
+      "path": "json/Vyraleth_Khorvaak.json",
+      "bytes": 75282,
+      "sha256": "c4021e086713c8f808c4b2d320c383dc7107359491097103cd53d3417f7f137c"
+    },
+    {
+      "path": "json/Vyraleth_npcs.json",
+      "bytes": 27390,
+      "sha256": "2e6958a57e9e0e6366f9f2b13a9457f7fa42790b74ce1f5623ae56e080ac0a20"
+    },
+    {
+      "path": "json/Wagriolyn_Earrorim.json",
+      "bytes": 79612,
+      "sha256": "c89988ebbd658848204e449c452239fcaebe1b430d604e569b85b18ea4e3161b"
+    },
+    {
+      "path": "json/Wagriolyn_npcs.json",
+      "bytes": 35989,
+      "sha256": "44162e93fb61eef5cb8eeb518a1bb9131171e1f0807fb44dcd4722a9b085b172"
+    },
+    {
+      "path": "json/Whemosthi_Sylvaveryn.json",
+      "bytes": 13128,
+      "sha256": "95d57233f41fdc005f3adab10b76a8e280f25efee288968c1bfc5d99529f6775"
+    },
+    {
+      "path": "json/Whemosthi_npcs.json",
+      "bytes": 5969,
+      "sha256": "ecf405210d574699d055f1323218da30f993eda98847652898de5cda0194c886"
+    },
+    {
+      "path": "json/Whispergrove_Vaelmyrith.json",
+      "bytes": 80875,
+      "sha256": "43aeb327d24aace5bdd2527f34118676c29189edc21cb34f5a70985f6ca96dcc"
+    },
+    {
+      "path": "json/Whispergrove_npcs.json",
+      "bytes": 27838,
+      "sha256": "3c7f41dc77384158f266f7c75007ea5c5551b5112dedebbf42b7b79659e782d4"
+    },
+    {
+      "path": "json/WhisperingEstuary_Valerune.json",
+      "bytes": 76995,
+      "sha256": "3235e005e3d86f08950c5d76f680a9f026c2ef6817bc7a2e5375efbe23284489"
+    },
+    {
+      "path": "json/WhisperingEstuary_npcs.json",
+      "bytes": 13993,
+      "sha256": "5216ca53b475626b06ecae1e3d26758bd27c932fd5ab63150aab8219551a21aa"
+    },
+    {
+      "path": "json/Wildbloom_Aelvanyr.json",
+      "bytes": 72976,
+      "sha256": "c2c00f90ba0d9cf675410604fb82644a7ea379f6647d78921b6aa1f2c3a6d73e"
+    },
+    {
+      "path": "json/Wildbloom_npcs.json",
+      "bytes": 13554,
+      "sha256": "a57c6a3b902f8386763427f646ada009fa64ff8633ef13c331feaac90b3e7f44"
+    },
+    {
+      "path": "json/Wildsunder_Pelvoryn.json",
+      "bytes": 73094,
+      "sha256": "1198005d34748636259264c95da0d1d29519fe83c5e20b28445dff7fbea18590"
+    },
+    {
+      "path": "json/Wildsunder_npcs.json",
+      "bytes": 13643,
+      "sha256": "6a069025bdab173b422ad452c6047249943120c3910db40d44591ec408916127"
+    },
+    {
+      "path": "json/Wilsara_Aelwynora.json",
+      "bytes": 83127,
+      "sha256": "a399b79bcfc6faea4f5012ecd54e3bfb24278137a6b76a5af4167acee0d21d07"
+    },
+    {
+      "path": "json/Wilsara_npcs.json",
+      "bytes": 14521,
+      "sha256": "50995e216d83cca32093855d8d541bae0a72d5c076d0fb4db2a34e7fe3039b93"
+    },
+    {
+      "path": "json/Wrasserah_Earrorim.json",
+      "bytes": 77723,
+      "sha256": "0fcae295ddf054defbdc42eb027027a04bb4e5d5fd6ef7d14c8e59b274995c3f"
+    },
+    {
+      "path": "json/Wrasserah_npcs.json",
+      "bytes": 13941,
+      "sha256": "a0ac32e782e97b6e90849fc83f2a5fa449a5dcc81d485692de2106b361cf95dc"
+    },
+    {
+      "path": "json/Wrobetopia_Gruddirynn.json",
+      "bytes": 80278,
+      "sha256": "9d1f0f5de685162d49303013324b1a11173ab21c4e3260d2b94695506a8ba473"
+    },
+    {
+      "path": "json/Wrobetopia_npcs.json",
+      "bytes": 27466,
+      "sha256": "9f1d60862d13210127abef67a323ec49e4b18369afdb4e4876ead66f8cfcc29f"
+    },
+    {
+      "path": "json/Xalvoroq_Zaltharuun.json",
+      "bytes": 80167,
+      "sha256": "a2b5d084486046876e22917cc1aba2c8c39cd0e4985110add340eb7b16a85253"
+    },
+    {
+      "path": "json/Xalvoroq_npcs.json",
+      "bytes": 18119,
+      "sha256": "dee073fce9ec5fa6605265f4945fd26d019b7d3825a82ebeb3d0030d800fb44f"
+    },
+    {
+      "path": "json/Xelryndor_Vuelmora.json",
+      "bytes": 73170,
+      "sha256": "af30744a39c2d0959f8aef50f3275f5cc0aa4bf31794ec670bf03226958eb469"
+    },
+    {
+      "path": "json/Xelryndor_npcs.json",
+      "bytes": 13404,
+      "sha256": "9fef2b930b10772ac18b2a83921e6b2be1a92f4c1452faf57beb6fb0146cd127"
+    },
+    {
+      "path": "json/Xelvoryn_Bravelyn.json",
+      "bytes": 78587,
+      "sha256": "1372b48bfbb27f74dfe31256d363633120c1521df7bc39690f0f51508043ab8b"
+    },
+    {
+      "path": "json/Xelvoryn_npcs.json",
+      "bytes": 14185,
+      "sha256": "46ea594876d3b40d1aa992603677a8b8fc6bb3fe5a0aefac1142d9243c08f66f"
+    },
+    {
+      "path": "json/Yirethaulor_Jormaelis.json",
+      "bytes": 81933,
+      "sha256": "bb1491401246fdcba02d7dd802f1ac04b11db1c5ad052ee734a7ca023f9b9eba"
+    },
+    {
+      "path": "json/Yirethaulor_npcs.json",
+      "bytes": 31887,
+      "sha256": "129864deea3c3d400801691614452c428cced08e6715018cbf60a0a8a1ea77fa"
+    },
+    {
+      "path": "json/Yivanyr_Eldravire.json",
+      "bytes": 82254,
+      "sha256": "207490b00ef89db3425dd41def32d81ffbee12e94d62b1e79d03d743a06042c6"
+    },
+    {
+      "path": "json/Yivanyr_npcs.json",
+      "bytes": 14462,
+      "sha256": "e0f4b510497e4d6f82bd70b2a623e21b9f454d59fc3cc7ba24f49e904a59f32c"
+    },
+    {
+      "path": "json/Yltharien_Aelwynora.json",
+      "bytes": 83503,
+      "sha256": "dac4f9065cd36f2b5d2222ceb47c7dd2367d38fc2caf569113978c5a9f0ce0de"
+    },
+    {
+      "path": "json/Yltharien_npcs.json",
+      "bytes": 41255,
+      "sha256": "1be994de9f950a378d9ff1447eeee095d9768b26f2f3e2db89430319eb9b8596"
+    },
+    {
+      "path": "json/Ylvaressa_Aelwynora.json",
+      "bytes": 80621,
+      "sha256": "7e0f1fda26b3b58c7707cb5451ba544d57207f1197711b49b79304ca52e73702"
+    },
+    {
+      "path": "json/Ylvaressa_npcs.json",
+      "bytes": 23916,
+      "sha256": "fa223083070e993d818ed945b4f1bbd8015b62978ffa4b74b40cb50027666868"
+    },
+    {
+      "path": "json/Zaltharuun.json",
+      "bytes": 2324046,
+      "sha256": "5338a2d905de3889dc0767d540744d53bac6a7193eb0765a280f0a2fbadc7285"
+    },
+    {
+      "path": "json/Zarveng_Kharvathen.json",
+      "bytes": 78008,
+      "sha256": "c3b7a1d021a242d120a30ca0cef65c6a95e6a25a1925b4ac6036e3bfdb3a5f97"
+    },
+    {
+      "path": "json/Zarveng_npcs.json",
+      "bytes": 17416,
+      "sha256": "5ec358f5108b63de63dc60bcccacabfc7efae8af853930c3e3a9218b499844fa"
+    },
+    {
+      "path": "json/Zelvarun_Zaltharuun.json",
+      "bytes": 77900,
+      "sha256": "328aa3df24ae073ed2ec36c241d35e2d060cad1538134ea2f10bf6b0423e3429"
+    },
+    {
+      "path": "json/Zelvarun_npcs.json",
+      "bytes": 14495,
+      "sha256": "f267de984807f4a9f76e1ac77740d442b3025123140868740e405b78b40e1db4"
+    },
+    {
+      "path": "json/Zharvokh.json",
+      "bytes": 1618091,
+      "sha256": "69715a4019d83dcbdbf43a113624ac7ef7b657d94471344365c56960256c4b6e"
+    },
+    {
+      "path": "json/Zhurakthel_Zaltharuun.json",
+      "bytes": 78616,
+      "sha256": "56adda0098fe06559061726563ce67bbd07ac92303d34da1ef6e1a0eb80f6dd6"
+    },
+    {
+      "path": "json/Zhurakthel_npcs.json",
+      "bytes": 14494,
+      "sha256": "d3f2fce74dc7761f716a1643959ff5b51b881ed3669691abb8d8722f501db022"
+    },
+    {
+      "path": "json/Zorelyth_Zaltharuun.json",
+      "bytes": 77392,
+      "sha256": "0b802ed0edb26a3d4534c274ea7a6c9a4f71460b3584467fb4d5b7864831afd3"
+    },
+    {
+      "path": "json/Zorelyth_npcs.json",
+      "bytes": 14504,
+      "sha256": "8d9f16834d75e873b253ce74141ca9859223256c742958ed7561c306b064e3b5"
+    },
+    {
+      "path": "json/alerts_and_time_tracking.json",
+      "bytes": 5231247,
+      "sha256": "8b341f495702c0ac906c52beb7e7d39ef11244963ebe7d11980ee9480bcf74c9"
+    },
+    {
+      "path": "json/arch_tracker_integration_profile.json",
+      "bytes": 1556,
+      "sha256": "efbdaa1c52aef451b941191f97a885e47d5d7526be31857600f385fe8db01eaa"
+    },
+    {
+      "path": "json/arch_tracker_routes_embedded_index.json",
+      "bytes": 2031,
+      "sha256": "86f96c897884d86559d026e61673d16e26597195c447c35c1bc12b879b270713"
+    },
+    {
+      "path": "json/ata_arch_tracker_route_graph.json",
+      "bytes": 410311,
+      "sha256": "8326333caadb6ce39e20277b80538e317ce5788f6c1d39d9345da2cda1d72f3a"
+    },
+    {
+      "path": "json/belavados_alignments.json",
+      "bytes": 11270,
+      "sha256": "194baa0fe5c29903d5b34eb62c129ef5acbbd9ae73de364d51725dc395a792a8"
+    },
+    {
+      "path": "json/belavados_biomes.json",
+      "bytes": 31992,
+      "sha256": "e39a85a7be381d06d66039a3f5f7186d5707749859e86694739ab650a03af50b"
+    },
+    {
+      "path": "json/belavados_classes.json",
+      "bytes": 587245,
+      "sha256": "dff88b420f18336b4ea07d8e583449c084265f83479fbfb472689c996673ca1b"
+    },
+    {
+      "path": "json/belavados_daily_life.json",
+      "bytes": 2013605,
+      "sha256": "671c6b529bcdc26183bfbd743018d2ff224611336e4fa5c0595e74d37c1bca97"
+    },
+    {
+      "path": "json/belavados_direction_bearing_matrix.json",
+      "bytes": 1927,
+      "sha256": "d922e9bae49650dd338bf4c9af391f7976b07201e9aeaa93bac27534512d2233"
+    },
+    {
+      "path": "json/belavados_factions.json",
+      "bytes": 23343,
+      "sha256": "68ff8af7c0ba6acb305b59d89cab061dcf0b67071efb2dc0f4cfbb322ec78f65"
+    },
+    {
+      "path": "json/belavados_ichor_compound_chemistry.json",
+      "bytes": 2815,
+      "sha256": "f5c656b9ac65fdefcc49e89e4ff8426e2e2157cc7b1267290125d90b96504a09"
+    },
+    {
+      "path": "json/belavados_live_time_conversion.json",
+      "bytes": 3047,
+      "sha256": "9a7cfe9faea534b767e2d96278b598f7ef36c062433fd753e809e3dde3f5f8a9"
+    },
+    {
+      "path": "json/belavados_lore_corpus.json",
+      "bytes": 1122895,
+      "sha256": "dd1f381149a6ff8a4894002e4746a84a61612312b52ec7f84fb4976f56e31873"
+    },
+    {
+      "path": "json/belavados_night_sky.json",
+      "bytes": 249228,
+      "sha256": "2a0e2111d215e9db2fa1ee06819b80cf3e082b31cdf879fd2d6fc658f7c126fe"
+    },
+    {
+      "path": "json/belavados_pantheon.json",
+      "bytes": 81625,
+      "sha256": "16599156fae2a1bb8dd081fe20676e0eb32c1f69debadc7eeea6c3cb6e597389"
+    },
+    {
+      "path": "json/belavados_pantheon_faction_transit_model.json",
+      "bytes": 8147,
+      "sha256": "e21ed53ec3c1ec2687481451809319be5771e29dac71bd29e00d5ac500743995"
+    },
+    {
+      "path": "json/belavados_provinces.json",
+      "bytes": 1017676,
+      "sha256": "4c4dba6a3a15ec5dada5970cb3d0264347d9ae789eef42eab8b0a8009f4dff2b"
+    },
+    {
+      "path": "json/belavados_quests_hooks.json",
+      "bytes": 1046895,
+      "sha256": "69b3f18778fcbd2ec0be4126fc6214846a3e41f3d444214575550f89664e7de6"
+    },
+    {
+      "path": "json/belavados_races.json",
+      "bytes": 17913309,
+      "sha256": "00aa7e401bcc7139bf7b0c5fa758a43a3e5cdeb1843c7b08a9c02a2c3e46694f"
+    },
+    {
+      "path": "json/belavados_route_accuracy_schema.json",
+      "bytes": 1990,
+      "sha256": "68319d45245bf80b2a45be09a99a8428fdcf3ab6cc5c04f4e3ccc4da612c057e"
+    },
+    {
+      "path": "json/belavados_settlement_biome_combinations.json",
+      "bytes": 54274,
+      "sha256": "847dee392a4b03963e8d1200acf398a35583c85d43533b22de8de04a4ce55fbd"
+    },
+    {
+      "path": "json/belavados_settlement_dropdown_biome_rules.json",
+      "bytes": 2696,
+      "sha256": "64e3d43f61413c28914181fb62b1de7ab5cf416febb78486a61f18ced96519f4"
+    },
+    {
+      "path": "json/belavados_settlement_weather_landmarks.json",
+      "bytes": 26348,
+      "sha256": "0b3be408075d53144ced1ee2d2ada0022bc9e39b51610eeb10499338feafc35d"
+    },
+    {
+      "path": "json/belavados_time_conversion.json",
+      "bytes": 520968,
+      "sha256": "0df8987bdb2fc83cf51387548ac22c492933b1df664e2b9adc5c33f1a43829a7"
+    },
+    {
+      "path": "json/belavados_topography_weather_provinces_index.json",
+      "bytes": 26315,
+      "sha256": "8a8d9b09e3ace236c262cdc4e19c7f6c9ef047b7a522e948c3603bac6d32184e"
+    },
+    {
+      "path": "json/belavados_topography_weather_settlements_index.json",
+      "bytes": 4204976,
+      "sha256": "9fcd9f6082e7ac97e5daf68b6a186de30d4e8610aeadd1724b156a8b9cd3424f"
+    },
+    {
+      "path": "json/belavados_transit_formula_register.json",
+      "bytes": 3706,
+      "sha256": "26f4f0328af25030de5a08026f461aadb966a3afc4b0c16d271cfbc44989ccd9"
+    },
+    {
+      "path": "json/belavados_transit_math_manifest.json",
+      "bytes": 3506,
+      "sha256": "e706146246b594a5570693370fdf3a01ebc0cbe0f51cc700c773065bc360ce74"
+    },
+    {
+      "path": "json/belavados_transit_modes_math.json",
+      "bytes": 5830,
+      "sha256": "248d50e6635d62396d4e1e128642cc7adc73bce88f2a6ccf3501a5952b5bc069"
+    },
+    {
+      "path": "json/belavados_transit_policy.json",
+      "bytes": 20211,
+      "sha256": "f170912fb3dc22512637f5b971d3e37e45c33fe7d5c7b763673a10c080efba5e"
+    },
+    {
+      "path": "json/belavados_weather_regional_hazard_model.json",
+      "bytes": 12216,
+      "sha256": "5ebddecce90905d2f681e449c7cf7005d6d087efaa5fdb9193fc0787047273ea"
+    },
+    {
+      "path": "json/canon_revision_audit.json",
+      "bytes": 2449,
+      "sha256": "5589a9937c6e2fa6d6204380d7f2589539309ddacec424ae6d79c2848b342a98"
+    },
+    {
+      "path": "json/canon_revision_manifest.json",
+      "bytes": 4126,
+      "sha256": "8b304b369915649086d9bcc9ff4466a3698e0fe74a14da601f799a9a7ca2d50e"
+    },
+    {
+      "path": "json/canon_source_geology_weather_spatial_full.json",
+      "bytes": 7646810,
+      "sha256": "3a4084d8d616844b5dae2a6738c21ea79772ae1337be1b3fb2a09f6921791ef7"
+    },
+    {
+      "path": "json/canon_source_life_in_belavados_full.json",
+      "bytes": 8681165,
+      "sha256": "0a3b31e4319ff6089439a6d07d318262c04b52e136c9fc6c2fbd5af4994b1d8d"
+    },
+    {
+      "path": "json/canon_source_night_sky_galaxy_time_full.json",
+      "bytes": 437677,
+      "sha256": "fb14347fd6a0a61a0f7b782ebfb6e03b6ac56f7d5d547b6ac982122abe51a04f"
+    },
+    {
+      "path": "json/canon_source_pantheon_races_full.json",
+      "bytes": 430798,
+      "sha256": "5a3fd06efe9e21e1aba3be2fac95bc6d90c2a8b5450ffd11462980b4c0cf4c55"
+    },
+    {
+      "path": "json/canonical_world.json",
+      "bytes": 11440286,
+      "sha256": "99f5c129a39639501ce457f479c90977ee6cc53ea341991d082d0f8c2d30b5b3"
+    },
+    {
+      "path": "json/coordinate_manifest.json",
+      "bytes": 4787,
+      "sha256": "8c8a547cae29ad787c7538520db74cf946eaec76f2ef830f1e2f9c7dad2ea15f"
+    },
+    {
+      "path": "json/dm_map.json",
+      "bytes": 13113635,
+      "sha256": "be4b1ea1ff567ceadfe0af82832ce73efbed4717fc4e3f3d5dbbce61607429bd"
+    },
+    {
+      "path": "json/dnd_5e_spells_by_school_and_level.json",
+      "bytes": 1082198,
+      "sha256": "e3bc28ff423d5c5e18be4fcba84cd0f94075d62fc243a0297b604cc860402f12"
+    },
+    {
+      "path": "json/dropdown_compendium_min.json",
+      "bytes": 5717,
+      "sha256": "89a16975b5d070b418fb4ee8493c451a8b20d9191dff5fdd925f3a7faa590aef"
+    },
+    {
+      "path": "json/earth_utc_offsets_catalog.json",
+      "bytes": 4489,
+      "sha256": "c6f676cd8e774d7fbde9cd8fbe364d56a89f5cac0c5544c6439f2d6b0616e393"
+    },
+    {
+      "path": "json/example_route_hooks_math_ready.json",
+      "bytes": 5216,
+      "sha256": "b843143e9436bca7509d2832f3c7a22f3e7acc729bb6c3a12e1a9b4402405626"
+    },
+    {
+      "path": "json/fares.json",
+      "bytes": 3591,
+      "sha256": "bf3d95e6fe8a650103ca34f4a1e028a004aec192a5d9dc3b42e0327cf71f61fa"
+    },
+    {
+      "path": "json/generation_validation_report.json",
+      "bytes": 175323,
+      "sha256": "bc9fa096c1fe32ef4345905cae1f93004772dd015f3a293e6fbcc395b748108f"
+    },
+    {
+      "path": "json/geography_distance_index.json",
+      "bytes": 13652960,
+      "sha256": "7a426914448a92c231b91014239ab2b029b187e74ac526f84463a518b7d4544d"
+    },
+    {
+      "path": "json/geojson_validation_report.json",
+      "bytes": 1493,
+      "sha256": "195fe595def396b9bf5b0053ad0e939d5009090f87d99265a9391df24ffb7673"
+    },
+    {
+      "path": "json/globe_data.json",
+      "bytes": 6125029,
+      "sha256": "bcaf27aa4cf4443d04099440a021c25eba916f6922a460ae401b67b04ece4100"
+    },
+    {
+      "path": "json/goods_locations.json",
+      "bytes": 471602,
+      "sha256": "8aebbbc9f919ff2aac93d961e01eed664a97bed0c8b204006e975c8fa799102d"
+    },
+    {
+      "path": "json/hexcode_settlement_assignments_v4.json",
+      "bytes": 157226,
+      "sha256": "382b55131ba7c29348b08e252c73483c5309f747bf9b9aa9d555e9fddaa93c7c"
+    },
+    {
+      "path": "json/how_to_play_dnd_5e.json",
+      "bytes": 924391,
+      "sha256": "b7f511e42078d68bc615ce9113beacb702726f2992b27f3a9753ae28a2f828ad"
+    },
+    {
+      "path": "json/index.json",
+      "bytes": 111958,
+      "sha256": "0049e895e5b390009e38189578945705581a8f2554c08cbf2e2f66355db9ec20"
+    },
+    {
+      "path": "json/life_world_rules.json",
+      "bytes": 22373,
+      "sha256": "db2be66af728b346acf4cfcd80be96edef88fc90f6a9451a5df75364fb37c7a5"
+    },
+    {
+      "path": "json/manifest.json",
+      "bytes": 14601,
+      "sha256": "bf3ee799b9a580ab3b09b05fcea8749eac75e99fe6d4fc3e278aeb6269c2a29a"
+    },
+    {
+      "path": "json/manifest_arch_tracker_final.json",
+      "bytes": 2016,
+      "sha256": "e079c5d52e320c11b2f22a864c48af5c050a361b0ac5f88edee90c49d321cdd7"
+    },
+    {
+      "path": "json/manifest_arch_tracker_revised.json",
+      "bytes": 2018,
+      "sha256": "c6dd800827ddac7b69e02382aa9bee3c8426805a13dfb6a1c860d381bf431ee0"
+    },
+    {
+      "path": "json/natural_systems.json",
+      "bytes": 324709,
+      "sha256": "d692b61816089077747eb997793bb7fdaa1838b43e41f95fe00d46c2b6a2c204"
+    },
+    {
+      "path": "json/npc_reaction_assets.json",
+      "bytes": 1597,
+      "sha256": "bcac95cea9ce997985184cb5d47d8886b09568f17a9669815cd1f3d9ebe177d5"
+    },
+    {
+      "path": "json/package_manifest.json",
+      "bytes": 70190,
+      "sha256": "6014ec47a5f0082a25a73a7c6fb1a8a748aa3cd87feed78fc536af836a493271"
+    },
+    {
+      "path": "json/pantheon_and_races.json",
+      "bytes": 71005,
+      "sha256": "b131f599886091843ac49b4045e82cff9e3ea06e4820a25fcea19a980be53ae3"
+    },
+    {
+      "path": "json/province_npcs.json",
+      "bytes": 123953,
+      "sha256": "d78a6724041a349224f448790ebc94cef9014f134fa0e00ae8ac7391b882150c"
+    },
+    {
+      "path": "json/provinces_index.json",
+      "bytes": 15457,
+      "sha256": "483a52716d6c50d219f4ced4f1045980f7b3d92fb00e04e7c3da15ce85859bfe"
+    },
+    {
+      "path": "json/route_hexcode_second_pass_validation.json",
+      "bytes": 2080,
+      "sha256": "e6e9dd10857e7ba119d9fe0e2540fca4304ac6d0e8df79d375427f2754e4f8f3"
+    },
+    {
+      "path": "json/route_manual_canon_pass_validation.json",
+      "bytes": 2058,
+      "sha256": "29836bfbf93345c7432d6779e32169c6b24d2048a875624deef21da6bb968661"
+    },
+    {
+      "path": "json/routes.json",
+      "bytes": 161047,
+      "sha256": "2822c15e4ada7de5c14e9e2633e1c1bcb0ba9e416452f14a65fadd559c98edea"
+    },
+    {
+      "path": "json/routes_all_embedded.json",
+      "bytes": 17628699,
+      "sha256": "58cc3aad8d0e3a3ca3cccd54f3c800c7cb5c411fa9d22dbc246e5d8f693ea2fe"
+    },
+    {
+      "path": "json/routes_caravan.json",
+      "bytes": 1888601,
+      "sha256": "8eb7d578759db3b5850a19aaf156289840a55c703349a4d5a2b76357ffccaa60"
+    },
+    {
+      "path": "json/routes_ferry.json",
+      "bytes": 405918,
+      "sha256": "7db527e5468dd413e8c90f26264c75e0d33a234b8bf5bdc32266fe894da370aa"
+    },
+    {
+      "path": "json/routes_portal.json",
+      "bytes": 227989,
+      "sha256": "7aaa51035d01431e1e268e3a7e12f4bc26c52115cb7440503448ff31e7e77fbc"
+    },
+    {
+      "path": "json/routes_skyship.json",
+      "bytes": 899675,
+      "sha256": "eb0aa6b5e2bdd9bfab3aad4ef934a865a56b83458bb4b27838b70f5d905fc989"
+    },
+    {
+      "path": "json/routes_steamship.json",
+      "bytes": 1594898,
+      "sha256": "5193dba41eebca50031520670fe617a68c0c2c5e2e8ae6ec0436678c36357980"
+    },
+    {
+      "path": "json/routes_submarine.json",
+      "bytes": 1642683,
+      "sha256": "76e5937b17c349375d1de514d127b2e4b169365e97c826aef9ba3d54ad0c9589"
+    },
+    {
+      "path": "json/routes_train_rail.json",
+      "bytes": 1957020,
+      "sha256": "2e834ffdf8416bbcfd6349f367e76d395a280382c2260162757806521ddf778b"
+    },
+    {
+      "path": "json/settlement_locations.json",
+      "bytes": 408568,
+      "sha256": "e37fb01807b6a133c6c9393246f2a97cbf0f5e5e0316cf06616f5e787e702980"
+    },
+    {
+      "path": "json/settlement_manual_biome_pathing_corrections.json",
+      "bytes": 186088,
+      "sha256": "96cf79f3bc118eb2044d3dbdb2eafd0206058ee0b777f210ac308fcd0a2c7f53"
+    },
+    {
+      "path": "json/settlement_map_data_manifest.json",
+      "bytes": 43135,
+      "sha256": "0b63f7680028c6426d612f46bd56d4c4189608eff7ae817c9667739b02a5be48"
+    },
+    {
+      "path": "json/settlement_npcs.json",
+      "bytes": 209129,
+      "sha256": "5b2b07744e08ddfd474176f3bda191a755e6e32c1322acdaa75659729ce28ed6"
+    },
+    {
+      "path": "json/settlement_transit_coverage_index.json",
+      "bytes": 210697,
+      "sha256": "5a172477a1ad8340f15d653d998463a7782f6742afd8bf9e01c3703d0a651d1b"
+    },
+    {
+      "path": "json/shared_manual_canon_merge_report.json",
+      "bytes": 3691,
+      "sha256": "68e725ebe91ae4a87b7664cf007ae3a511de05b8e238428b329086b286e13683"
+    },
+    {
+      "path": "json/source_docx_formula_candidates.json",
+      "bytes": 111462,
+      "sha256": "4a44eafdb23a7a5cffe1aa9d01d21e12fb56b16229e60033e177282da14b9e1e"
+    },
+    {
+      "path": "json/source_docx_section_index.json",
+      "bytes": 780109,
+      "sha256": "280c3e950244b0ff5dba9ece4709a14a16c6192ed4d65bb1222c86a7878c742c"
+    },
+    {
+      "path": "json/terrain_weather_models.json",
+      "bytes": 108468,
+      "sha256": "edaca447839891b3ef40d3556f16e1fce7a33713124937ddb089f29d3c891444"
+    },
+    {
+      "path": "json/time-board.json",
+      "bytes": 1409,
+      "sha256": "6bed2c2e8ca8a82d0069884b41c5235a4e7805def0115b4cdb400f1536fcf409"
+    },
+    {
+      "path": "json/time_conversion.json",
+      "bytes": 2318,
+      "sha256": "67a7f2327983e6e9e02fced9972c9795cc0192ed9bf46d6b19630fae0e675eab"
+    },
+    {
+      "path": "json/topography_npc_rebuild_audit.json",
+      "bytes": 2076,
+      "sha256": "03b4d1c0fc1ef28c4cfbb06036a100d599383d729432e2bcd57c35ba891c7f36"
+    },
+    {
+      "path": "json/transit_system_audit.json",
+      "bytes": 2582,
+      "sha256": "f9b03c3897460e67e6cca7e2ce8e4c5bab2f420bf085f98a635afea7d464799d"
+    },
+    {
+      "path": "json/transport_groups_and_ata_regional_systems.json",
+      "bytes": 743414,
+      "sha256": "18d865b3452f2d4b96eb06ea101ab7cec9c73317fed2c33e25d0e0da101069b5"
+    },
+    {
+      "path": "json/transportation_hubs.json",
+      "bytes": 586635,
+      "sha256": "74dfe284e26f421b674b92800769d1b8a5dba1c83aefe1fc34b96a9e48038f9d"
+    },
+    {
+      "path": "json/transportation_npcs_live.json",
+      "bytes": 2311174,
+      "sha256": "3bc38650d060c63990c2539745eb82644ed6d00bf1b126037f8a0c9630d8c963"
+    },
+    {
+      "path": "json/world_life_registry.json",
+      "bytes": 255071,
+      "sha256": "099548ec2dfea722f965f5177ce40b32751b7d6fd8a2099ef00a35043b1a0ccc"
+    },
+    {
+      "path": "json/world_npcs.json",
+      "bytes": 5856873,
+      "sha256": "a5415ab6db314ee191ff973cb033a9a46d29cd6c68b7dacf0400e653bd93dbe5"
+    },
+    {
+      "path": "json/worldforge_lifesimulator_pin_contract.json",
+      "bytes": 3325,
+      "sha256": "9d9f6eff0c1c9d5f59772d1951f5aa60786bfb7aec7cb650d12e7c1a68372313"
+    },
+    {
+      "path": "package.json",
+      "bytes": 295,
+      "sha256": "ebbe4c2046c743ef261fc1d07e2c193ef212db2b3b28b9d229b5521c0c4bc26e"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 5401,
+      "sha256": "7e43ddffd9d1d452c39cc5dc188f1175cb18ccbed6c4b275b27be39cf800af8a"
+    },
+    {
+      "path": "tests/map-domain.test.mjs",
+      "bytes": 2152,
+      "sha256": "8db410b133f8e78cb701cd2485e73704d21550887b5d9ac87f1130574496318a"
+    },
+    {
+      "path": "tests/package-integrity.test.mjs",
+      "bytes": 4512,
+      "sha256": "2739a16e0398db23f3696da5a26a882a9bbe881d680b6f6b8b1c2218bd5eae62"
+    }
+  ]
+}

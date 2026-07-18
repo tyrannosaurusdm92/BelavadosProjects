@@ -1,0 +1,17 @@
+{
+  "schema": "belavados-map-backend-config-v2",
+  "projectId": "dmeditor",
+  "projectName": "DMEditor",
+  "localApiBase": "/api",
+  "appsScriptUrl": "https://script.google.com/macros/s/AKfycbxe3P6MBofPEhPfTAaz05TWEYhScX9QgpHzBKCdwPGnvzvVoyfllu0bAghZKqHs4E3hGg/exec",
+  "appsScriptLibraryUrl": "https://script.google.com/macros/library/d/1v06thwdjlv-j82hqHibJF3_gik7i8p9fFfK9nj0EOfi8VHhwT11jK5Eb/4",
+  "jsonManifest": "json/index.json",
+  "defaultWorldFile": "dm_map.json",
+  "githubRepository": "tyrannosaurusdm92/BelavadosProjects",
+  "githubBranch": "main",
+  "repositoryPath": "DMEditor",
+  "jsonRepositoryPath": "DMEditor/json",
+  "githubPagesUrl": "https://tyrannosaurusdm92.github.io/BelavadosProjects/DMEditor/",
+  "locked": true,
+  "notes": "The editor always uses the fixed BelavadosProjects backend and scans DMEditor/json. These values are also frozen in js/backend-lock.js and cannot be changed through the interface."
+}

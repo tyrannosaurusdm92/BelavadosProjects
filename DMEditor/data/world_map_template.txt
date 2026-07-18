@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belavadös Canonical World Map</title>
+<link rel="stylesheet" href="css/world_map.css">
+<script defer src="js/map-domain.js"></script>
+<script defer src="js/canonical_world_data.js"></script>
+<script defer src="js/clickable_geojson_data.js"></script>
+<script defer src="js/natural_systems_data.js"></script>
+<script defer src="js/world_map.js"></script>
+</head>
+<body>
+<div class="shell">
+<header class="banner"><div><h1>Belavadös Canonical World Map</h1><p>Clickable GeoJSON province borders, centers, settlements, territories, UTC, terrain/depth, and canon records.</p></div><div class="actions"><span class="status" id="validation">Loading canonical package…</span></div></header>
+<main class="dashboard">
+<aside class="left">
+<section class="module"><h2>Map Controls</h2><div class="module-body"><label>Province<select id="provinceSelect"></select></label><div class="control-list"><label><input id="showBorders" type="checkbox"> Province and territory borders</label><label><input id="showCenters" type="checkbox"> Province center pins</label><label><input id="showSettlements" type="checkbox"> Settlement and territory pins</label><label><input id="showLabels" type="checkbox"> Pin labels</label><label><input id="showRoutes" type="checkbox"> Placement-derived routes</label><label><input id="showTimeZones" type="checkbox"> UTC on pin labels</label><label><input id="showGrid" type="checkbox"> Programmed longitude/latitude grid</label><label><input id="showNatural" type="checkbox"> Natural-system anchors</label></div><label>Zoom<input id="mapZoom" type="range" min="0.35" max="2.25" step="0.01" value="1"></label><div class="row"><button id="focusProvince">Focus Province</button><button class="secondary" id="resetMap">World Map</button><button class="ghost" id="showAll">Show Natural Systems</button></div><p class="tiny" id="mapStatus">All overlays start hidden. Select a province and enable only the layers you need.</p></div></section>
+<section class="module"><h2>Canon Search</h2><div class="module-body"><input id="search" type="search" placeholder="settlement, deity, faction, resource, biome…"><div class="list" id="searchResults"></div></div></section>
+<section class="module"><h2>Time</h2><div class="module-body"><span class="status" id="clockStatus">Loading clock…</span><p class="tiny">UTC values follow the corrected longitude register; Belavadös uses no daylight-saving time.</p></div></section>
+</aside>
+<section class="module map-module"><h2>2048 × 1239 Canonical Equirectangular Map</h2><div class="map-scroll" id="mapScroll"><div class="map-stage" id="mapStage"><div class="map-inner" id="mapInner"><img class="world-image" src="assets/world_map.png" alt="Belavadös canonical flat world map"><svg class="overlay" id="gridOverlay" viewBox="0 0 2048 1239"></svg><svg class="overlay" id="provinceOverlay" viewBox="0 0 2048 1239"></svg><div class="pin-layer" id="pinLayer"></div><div class="popup" id="settlementPopup"></div><button class="ghost hidden" id="closePopup">Close</button></div></div></div></section>
+<aside class="right"><section class="module"><h2>Province Details</h2><div class="module-body" id="provinceDetails"><div class="card"><h3>Select a province</h3></div></div></section><section class="module"><h2>Settlement / Natural-System Details</h2><div class="module-body" id="settlementDetails"><div class="card"><h3>Select a pin or search result</h3></div></div></section></aside>
+</main>
+</div>
+</body>
+</html>

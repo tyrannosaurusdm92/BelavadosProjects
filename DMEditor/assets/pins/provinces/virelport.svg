@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 188" role="img" aria-labelledby="title-virelport desc-virelport" data-pin-kind="province" data-province="Virelport" data-pin-color="#40E0D0" style="--pin-color:#40E0D0">
+  <title id="title-virelport">Virelport province center pin</title>
+  <desc id="desc-virelport">A rounded, button-like, non-circular SVG map pin colored #40E0D0 to match the Virelport province border.</desc>
+  <defs>
+    <linearGradient id="body-virelport" x1="0" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#CAF6F2"/>
+      <stop offset="0.22" stop-color="#8CECE3"/>
+      <stop offset="0.52" stop-color="#40E0D0"/>
+      <stop offset="1" stop-color="#34B8AB"/>
+    </linearGradient>
+    <linearGradient id="face-virelport" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.62" stop-color="#CAF6F2"/>
+      <stop offset="1" stop-color="#8CECE3"/>
+    </linearGradient>
+    <filter id="shadow-virelport" x="-45%" y="-35%" width="190%" height="205%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="shadow-blur"/>
+      <feOffset in="shadow-blur" dy="8" result="shadow-offset"/>
+      <feFlood flood-color="#000000" flood-opacity="0.48" result="shadow-color"/>
+      <feComposite in="shadow-color" in2="shadow-offset" operator="in" result="shadow"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3.5" result="glow-blur"/>
+      <feFlood flood-color="#40E0D0" flood-opacity="0.58" result="glow-color"/>
+      <feComposite in="glow-color" in2="glow-blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="hover-virelport" x="-55%" y="-45%" width="210%" height="225%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="hover-blur"/>
+      <feFlood flood-color="#40E0D0" flood-opacity="0.88" result="hover-color"/>
+      <feComposite in="hover-color" in2="hover-blur" operator="in" result="hover-glow"/>
+      <feMerge><feMergeNode in="hover-glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .pin-button {
+      cursor: pointer;
+      transform-box: fill-box;
+      transform-origin: center;
+      transition: transform .16s cubic-bezier(.2,.8,.2,1), filter .16s ease;
+      outline: none;
+    }
+    svg:hover .pin-button,
+    .pin-button:hover,
+    .pin-button:focus-visible {
+      transform: translateY(-3px) scale(1.035);
+      filter: url(#hover-virelport);
+    }
+    .pin-button:active {
+      transform: translateY(2px) scale(.985);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pin-button { transition: none; }
+    }
+  </style>
+  <g class="pin-button" tabindex="0" focusable="true" role="button" aria-label="Virelport province center">
+    <path d="M38 10H106C121 10 132 21 132 36V91C132 106 122 117 108 119L78 177C75 183 69 183 66 177L36 119C22 117 12 106 12 91V36C12 21 23 10 38 10Z"
+          fill="url(#body-virelport)" stroke="#071014" stroke-width="7" stroke-linejoin="round" filter="url(#shadow-virelport)"/>
+    <path d="M39 18H105C116 18 124 26 124 37V88C124 99 117 107 105 110L73 169C72 171 71 171 70 169L39 110C27 107 20 99 20 88V37C20 26 28 18 39 18Z"
+          fill="none" stroke="#FFFFFF" stroke-opacity="0.40" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M40 20H104C114 20 121 27 121 37V46C95 33 51 33 23 48V37C23 27 30 20 40 20Z"
+          fill="#FFFFFF" opacity="0.18"/>
+    <rect x="29" y="31" width="86" height="70" rx="24" fill="url(#face-virelport)" stroke="#071014" stroke-width="6"/>
+    <rect x="35" y="37" width="74" height="58" rx="19" fill="none" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="2"/>
+    <path d="M43 42C57 33 86 33 101 42" fill="none" stroke="#FFFFFF" stroke-opacity="0.78" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="36" cy="25" r="4" fill="#FFFFFF" opacity="0.88"/>
+    <circle cx="47" cy="21" r="2.5" fill="#FFFFFF" opacity="0.58"/>
+    <text x="72" y="82" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="900" fill="#071014">V</text>
+    <path d="M61 114Q72 121 83 114" fill="none" stroke="#CAF6F2" stroke-opacity="0.82" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

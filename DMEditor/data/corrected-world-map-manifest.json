@@ -1,0 +1,38 @@
+{
+  "schema": "belavados-dmeditor-world-map-manifest-v2",
+  "package": "Belavados_DMEditor_CORRECTED",
+  "entryPoint": "index.html",
+  "htmlFileCount": 1,
+  "primaryImage": "assets/world_map.png",
+  "primaryEditorData": "json/dm_map.json",
+  "primaryCanonicalData": "json/canonical_world.json",
+  "primaryClickableGeoJSON": "geojson/clickable_provinces_and_settlement_pins.geojson",
+  "interactiveExportTemplate": "data/world_map_template.txt",
+  "interactiveExportEntryPoint": "index.html",
+  "counts": {
+    "provinces": 28,
+    "settlementsAndTerritories": 280,
+    "detachedTerritories": 29,
+    "territoryAnchorsRequired": 6,
+    "naturalSystems": 596,
+    "routes": 372
+  },
+  "editing": {
+    "visibleOnLoad": true,
+    "provinceBorderDragging": true,
+    "settlementDragging": true,
+    "territoryAnchorDragging": true,
+    "worldMapReplacement": true,
+    "provinceJsonImport": true,
+    "settlementJsonImport": true,
+    "completeMapImportExport": true,
+    "updatedIndexHtmlExport": true
+  },
+  "backend": {
+    "projectId": "dmeditor",
+    "repositoryPath": "DMEditor",
+    "jsonRepositoryPath": "DMEditor/json",
+    "locked": true,
+    "writesRequireSession": true
+  }
+}
