@@ -1,0 +1,2427 @@
+{
+  "schema": "belavados.transit.source_docx_formula_candidates.v1",
+  "formulaCandidates": [
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "candidate": "The central energy estimate is E_open = P_field * t_open / eta_containment"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "candidate": "practical ledger can use Portal_Stability = (P_field * Rune_Alignment * Void_Reserve * Membrane_Health * Receiver_Lock) / (Mass_Transfer + Fold_Distance + Interference + Psi)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "candidate": "can be estimated as Passengers_per_Window = floor((t_open - t_checks) / headway) * batch_size"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 9,
+      "candidate": "P_field | Portal field power. | W | Power committed to active face and throat."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 12,
+      "candidate": "Time lock | Realm UTC confirmation between halls. | Prevents stale handshakes and schedule drift."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 13,
+      "candidate": "Time lock | Realm UTC agreement within legal tolerance. | Keeps schedules and logs coherent."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 17,
+      "candidate": "Opening energy | E_open = P_field * t_open / eta_containment | Energy cost of active window."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 17,
+      "candidate": "Field heat | Q_heat = E_open * (1 - eta_field) | Thermal debt after useful field work."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 17,
+      "candidate": "Cooldown | Cooldown = Heat_Load / Cooling_Rate + Membrane_Recovery_Time | Minimum recovery before next window."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 17,
+      "candidate": "Auxiliary energy | E_aux = P_aux * (t_prep + t_recovery) | Lights, pumps, rails, medics, signs, shutters."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 17,
+      "candidate": "Total station energy | E_total = E_open + E_aux + E_tests + E_grounding | Full schedule accounting."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 18,
+      "candidate": "P_field | Portal field power. | W | Power committed to active face and throat."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 20,
+      "candidate": "P_field | Portal field power. | W | Power committed to active face and throat."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 24,
+      "candidate": "Identity desk | Names, permits, escorts, custody. | Prevents anonymous high-speed crossing."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 26,
+      "candidate": "Portal to rail | Cooldown hall to manifest desk to protected platform. | 20-60 minutes depending crowd and customs."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 26,
+      "candidate": "Skyship to portal | Ground corridor, charge bleed, screening, batch release. | 45-120 minutes for safe high-energy transfer."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 26,
+      "candidate": "Submarine to portal | Pressure lock, dry hall, medical check, controlled portal lane. | 30-90 minutes depending depth and condition."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 26,
+      "candidate": "Steamship to portal | Pier, cargo drying, customs, portal vestibule. | 25-70 minutes depending freight."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 26,
+      "candidate": "Rail to portal | Platform exit, identity filter, release hall. | 15-60 minutes depending station design."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 34,
+      "candidate": "P_output | E_available / t_release | Power available during planned release."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 35,
+      "candidate": "P_field | Portal field power. | W | Power committed to active face and throat."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 38,
+      "candidate": "Safety behavior | Fail-closed and conservative. | Delays are normal, not embarrassing."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 41,
+      "candidate": "prep_minutes | Expected pre-lock and checks. | 25"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 41,
+      "candidate": "active_window_minutes | Expected crossing window. | 4"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 41,
+      "candidate": "cooldown_minutes | Expected recovery. | 18"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 43,
+      "candidate": "crossing | The current batch may cross. | Move calmly at walking speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 45,
+      "candidate": "eastbound | Primary movement toward increasing UTC/longitude band. | Required for UTC -4 to UTC +1 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 45,
+      "candidate": "westbound | Primary movement toward decreasing UTC/longitude band. | Required for reverse UTC +1 to UTC -4 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 45,
+      "candidate": "northeast | Combined northern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 45,
+      "candidate": "northwest | Combined northern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 45,
+      "candidate": "southeast | Combined southern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 45,
+      "candidate": "southwest | Combined southern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 46,
+      "candidate": "UTC band span | Delta_UTC = abs(UTC_destination - UTC_origin) | UTC -4 to UTC +1 gives Delta_UTC = 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 46,
+      "candidate": "Total schedule time | T_total = T_board + T_motion + T_stops + T_breaks + T_disembark + T_safety | Do not hide boarding, breaks, or disembarking outside the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 46,
+      "candidate": "Train public benchmark | Delta_UTC = 5, N_intermediate_stops >= 8, T_total <= 4 h | The rail network is fast enough when the whole public trip fits inside four hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 46,
+      "candidate": "Skyship public benchmark | Delta_UTC = 5, T_total <= 2 h | The skyship corridor is fast enough when approach, climb, cruise, descent, grounding, and passenger transfer fit inside two hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 46,
+      "candidate": "Train motion requirement | V_required = D_route / (4 h - T_board - T_stops - T_breaks - T_disembark - T_safety) | Use the actual route distance stored in the route ledger; five-band proof schedules must leave enough motion time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 46,
+      "candidate": "Skyship motion requirement | V_required = D_route / (2 h - T_approach - T_grounding - T_transfer - T_safety) | Use high-altitude aether lanes and inertia-cushioned cabins for express service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 47,
+      "candidate": "origin_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 47,
+      "candidate": "destination_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 47,
+      "candidate": "utc_band_span | absolute numeric span | UTC -4 to UTC +1 equals 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 47,
+      "candidate": "target_total_minutes | train: 240 for five-band express; skyship: 120; portal: hall-controlled | Keeps schedule promises testable."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 47,
+      "candidate": "dwell_minutes_total | sum of intermediate dwell, breaks, boarding, disembarking, safety buffers | Prevents hidden time from making routes look faster than they are."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 49,
+      "candidate": "Marsh and fungus belts | Saturated ground, mold heat, biting fog, root movement, hidden channels, rot bloom. | Railbeds need lime and pile inspection; steamships use slow channels; submarines pass through flood locks; portals increase quarantine dwell. | White fuzz on rope, still insects, green lamps in wet trees, sweet rot smell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Portal.docx",
+      "table": 52,
+      "candidate": "Transit-grade service | Stations and vehicles meter the compound through membranes, jackets, traction stacks, boilers, lattices, or portal frames. | Public speed comes from high energy density plus strict separation."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "et thrust equation can be simplified as F = m_dot * Ve + (pe - p0) * Ae"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Isp = F / (m_dot * g0)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "belSolarDayProgress = realmUTCProgress x 330"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "m_ship = m_hull + m_engine + m_fuel + m_cargo + m_crew + m_water + m_armament"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "x_CG = Sum(m_i * x_i) / Sum(m_i)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Trim_Moment = W * (x_CG - x_lift_center)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "F_vertical = L_aether + L_aero + B_buoy + T_v - W"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Reserve_Lift = (L_aether + L_aero + B_buoy + T_v) / W - 1"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "L_aero = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "L_aether = lambda_a * P_lattice / v_leak"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "B_buoy = rho_air * g * V_displaced * phi_aether"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "F_nozzle = m_dot * v_e + (p_e - p_a) * A_e"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "m_dot = rho_i * A_throat * v_throat"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "v_e = sqrt(2 * eta_nozzle * DeltaP / rho_i) + v_arc"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "T_total = Sum(F_nozzle_i * direction_i)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Torque = r_arm x F_nozzle"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "D = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "P_cruise = (D * V + P_lattice + P_hotel) / eta_total"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Endurance = E_fuel_available / P_cruise"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Range = V_ground * Endurance"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Fuel_Mass = P_cruise * t_route / (e_i * Pi * eta_reaction)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Sail_Force = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "V_app = V_wind - V_ship"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "C_sail = C_base * Reef_Factor * Thread_Health * Rune_Alignment"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Rig_Load = Sail_Force * mast_height / stay_angle_factor"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Moment_pitch = Sum(F_i * x_i) + Sum(L_i * x_i) - W*(x_CG - x_ref)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Moment_roll = Sum(F_i * y_i) + Sail_Side_Load * z_mast - W*(y_CG - y_ref)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Moment_yaw = Sum(F_i * y_i) + Rudder_Force * x_tail"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "angular_acceleration = Moment_axis"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Stability_Margin = Restoring_Moment / Disturbing_Moment"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "sigma_bending = M_bending * y / I_section"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Shear_Load = dM_bending/dx"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Grounding_Current_Density = I_ground / A_plate"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Hull_Load_Index = (Bending + Torsion + Pressure + Arc_Load) / Allowable"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Ground_Load_per_Wheel = (W - Residual_Lift) / N_wheels * Load_Shift_Factor"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Charge_Bleed_Time = Q_hull / I_ground_safe"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Purification_Dose = Residue_Level * Hull_Area * Contamination_Factor"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Docking_Risk = Wind_Gust + Residual_Charge + Heat_Load + Cargo_Shift - Crew_Readiness"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Maintenance_DC = 10 + 5*Danger_Index + 2*Bad_Weather + 2*Combat_Damage - Crew_Training"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "candidate": "Corruption_Roll_Trigger = Overload + Contamination + Membrane_Damage + Divine_Exposure"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 7,
+      "candidate": "stored energy -> working medium -> acceleration/coupling -> momentum exchange chemical drive: heat gas -> nozzle -> exhaust momentum electric drive: ionize propellant -> fields -> high-speed particles skyship drive: ichor-aether fluid -> pressure-throat -> aether/plasma jet"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 29,
+      "candidate": "power source separate from propellant ionization creates charged working medium fields accelerate charged particles neutralization/grounding prevents charge buildup Belavadös: ichor seed + aether brine = charge-fluid plume"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 37,
+      "candidate": "Harbor whisper: low discharge, precise docking Hover thunder: high mass flow, low forward speed Cruise braid: efficient field coupling Storm climb: over-rich catalyst, high cooling demand Emergency lance: narrow violent jet, damages lenses"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 118,
+      "candidate": "Scale/dimension clues | galleons could cross oceans but were slow to tack by modern standards; heavy cargo and high castles affected speed and leeway"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 138,
+      "candidate": "Runaway pressure chant | Engine rhythm couples with a god-whisper | Crew hears words inside the hum | Someone must break the rhythm, vent fuel, or destroy the catalyst dose"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 142,
+      "candidate": "Forward cruise | drag, sail lift, thrust required | sails and hull reduce engine load once speed is established"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 143,
+      "candidate": "W = m_ship*g | weight | total upward force required to hover"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 143,
+      "candidate": "L_aero | aerodynamic lift | forward-speed lift from hull and sails"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 143,
+      "candidate": "v_e | effective exhaust velocity | plume speed after pressure and discharge-lens acceleration"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "1. Loaded mass | m_ship = ___ kg | include cargo and fuel"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "3. Required hover lift | Lift_required = W * (1 + reserve) | use 0.15-0.30 reserve"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "4. Aetheric lift | L_aether = lambda_a * P_lattice / v_leak | choose lambda by rune quality"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "5. Vertical thrust | T_v = Sum(m_dot*v_e) | add belly bells and trim nozzles"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "6. Cruise drag | D = 0.5*rho*V^2*S*C_D | dirty hull raises C_D"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "7. Cruise power | P = (D*V + P_lattice + P_hotel)/eta | route planning"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 152,
+      "candidate": "8. Fuel needed | m_fuel = P*t/(e_i*Pi*eta_reaction) | legal grade affects mass"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 153,
+      "candidate": "eastbound | Primary movement toward increasing UTC/longitude band. | Required for UTC -4 to UTC +1 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 153,
+      "candidate": "westbound | Primary movement toward decreasing UTC/longitude band. | Required for reverse UTC +1 to UTC -4 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 153,
+      "candidate": "northeast | Combined northern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 153,
+      "candidate": "northwest | Combined northern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 153,
+      "candidate": "southeast | Combined southern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 153,
+      "candidate": "southwest | Combined southern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 154,
+      "candidate": "UTC band span | Delta_UTC = abs(UTC_destination - UTC_origin) | UTC -4 to UTC +1 gives Delta_UTC = 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 154,
+      "candidate": "Total schedule time | T_total = T_board + T_motion + T_stops + T_breaks + T_disembark + T_safety | Do not hide boarding, breaks, or disembarking outside the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 154,
+      "candidate": "Train public benchmark | Delta_UTC = 5, N_intermediate_stops >= 8, T_total <= 4 h | The rail network is fast enough when the whole public trip fits inside four hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 154,
+      "candidate": "Skyship public benchmark | Delta_UTC = 5, T_total <= 2 h | The skyship corridor is fast enough when approach, climb, cruise, descent, grounding, and passenger transfer fit inside two hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 154,
+      "candidate": "Train motion requirement | V_required = D_route / (4 h - T_board - T_stops - T_breaks - T_disembark - T_safety) | Use the actual route distance stored in the route ledger; five-band proof schedules must leave enough motion time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 154,
+      "candidate": "Skyship motion requirement | V_required = D_route / (2 h - T_approach - T_grounding - T_transfer - T_safety) | Use high-altitude aether lanes and inertia-cushioned cabins for express service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 155,
+      "candidate": "origin_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 155,
+      "candidate": "destination_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 155,
+      "candidate": "utc_band_span | absolute numeric span | UTC -4 to UTC +1 equals 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 155,
+      "candidate": "target_total_minutes | train: 240 for five-band express; skyship: 120; portal: hall-controlled | Keeps schedule promises testable."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 155,
+      "candidate": "dwell_minutes_total | sum of intermediate dwell, breaks, boarding, disembarking, safety buffers | Prevents hidden time from making routes look faster than they are."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 157,
+      "candidate": "Marsh and fungus belts | Saturated ground, mold heat, biting fog, root movement, hidden channels, rot bloom. | Railbeds need lime and pile inspection; steamships use slow channels; submarines pass through flood locks; portals increase quarantine dwell. | White fuzz on rope, still insects, green lamps in wet trees, sweet rot smell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Skyships.docx",
+      "table": 160,
+      "candidate": "Transit-grade service | Stations and vehicles meter the compound through membranes, jackets, traction stacks, boilers, lattices, or portal frames. | Public speed comes from high energy density plus strict separation."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 2,
+      "candidate": "No borrowed relief | Relief capacity cannot be sealed, weighted, or bypassed for speed or prestige."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 5,
+      "candidate": "Local ferry | Short route, frequent docking, high passenger churn, low speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 13,
+      "candidate": "Deep liner hull | Open water, speed, smoother handling."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 27,
+      "candidate": "Reduction gear | Matches high-speed turbine to propulsor needs when installed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 28,
+      "candidate": "Traveler-facing | Present turbine chambers, blade rings, and high-speed shaft doctrine through sensory cues, staff procedure, visible signs, safe waiting, and route consequences rather than hidden numbers."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 28,
+      "candidate": "inspection-facing | Track turbine chambers, blade rings, and high-speed shaft doctrine with one or two decisive values such as heat, charge, residue, stability, pressure, capacity, or legal custody."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 28,
+      "candidate": "Route office | Expose turbine chambers, blade rings, and high-speed shaft doctrine through stable fields, route state changes, resident movement, cargo constraints, and inspection notes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 35,
+      "candidate": "Governor | Controls engine speed and overspeed risk."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 41,
+      "candidate": "Wave drag | Energy lost making waves."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 41,
+      "candidate": "Corridor limit | Legal speed and wake rule for sensitive waters."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 59,
+      "candidate": "Canal | Locks, narrow beam, slow speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 61,
+      "candidate": "Barge assist | Cargo-heavy low-speed service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 74,
+      "candidate": "Buoyancy | B = rho_water * g * V_displaced"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 74,
+      "candidate": "Drag | D_water = 0.5 * rho_water * V^2 * S_wet * C_D + Wave_Drag"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 74,
+      "candidate": "Power to overcome drag | P_motion = D_water * V / eta_propulsive"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 74,
+      "candidate": "Fuel mass | m_fuel = E_route / (e_i * Pi * eta_total)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 74,
+      "candidate": "Stability margin | Stability_Margin = Restoring_Moment / Disturbing_Moment"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Displacement reserve | Reserve_Displacement = (rho_water * V_floodable_safe - M_loaded) / M_loaded | Positive reserve means the vessel still has safe floating margin."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Freeboard check | Freeboard_State = Freeboard_actual / Freeboard_required | Below 1.0 blocks public departure."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Propulsive thrust | F_thrust = m_dot_water * DeltaV * eta_propulsor | Paddles and screws push water astern to move forward."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Paddle immersion | Paddle_Load = Wheel_RPM * Float_Area * Immersion_Depth * rho_water | Too much immersion wastes power; too little causes slap and vibration."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Propeller load | Propeller_Load = K_prop * RPM^3 * Diameter^5 * rho_water | Large screws punish overspeed and bad alignment."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Dock risk | Docking_Risk = Current + Wind + Hull_Charge + Heat_Load + Cargo_Shift - Crew_Readiness | Narrative index for safe pier approach."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Purification dose | Purification_Dose = Residue_Level * Hull_Area * Contamination_Factor | Wash curtain requirement before changing waterways."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 75,
+      "candidate": "Passenger capacity | Capacity_Safe = min(Weight_Limit, Escape_Limit, Seating_Limit, Lifesaving_Limit, Stability_Limit) | Capacity is the strictest limit, not the most generous one."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 77,
+      "candidate": "Ichor heat | Q_ichor = m_i * e_i * Pi * eta_jacket"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 77,
+      "candidate": "Useful shaft work | W_shaft = (Q_boiler + Q_ichor - Q_loss) * eta_cycle * eta_engine"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 77,
+      "candidate": "Condenser recovery | E_recovered = Q_exhaust * eta_condenser + E_charge * eta_galvanic"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 77,
+      "candidate": "Heat debt | Heat_Debt = Q_generated - Q_rejected - Q_stored_safe"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 77,
+      "candidate": "Runaway index | Runaway_Index = Heat_Generation / Heat_Removal * (1 + H + contamination)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Total useful route energy | E_route = (P_motion + P_hotel + P_stabilization + P_auxiliary) * t_route | Energy budget for dispatch."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Boiler heat balance | Q_boiler = Q_furnace + Q_ichor - Q_stack - Q_shell_loss | Heat available to make working vapor."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Vapor work | W_vapor = m_dot_steam * (h_in - h_out) * eta_engine | Work extracted from the vapor stream."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Shaft power | P_shaft = Torque * angular_rate * eta_coupling | Mechanical power delivered to drive."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Condenser duty | Q_condenser = m_dot_steam * (h_exhaust - h_condensate) | Heat that must be removed to recover water."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Galvanic recovery | P_galvanic = V_cell * I_cell * eta_electrical | Auxiliary power from charged recovery systems."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Membrane wear | Membrane_Wear = k_membrane * Area * DeltaC * t * (1 + Heat_Debt) | Long hot service damages exchange membranes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 78,
+      "candidate": "Safety margin | Safety_Margin = Rated_Limit / Operating_Load | Passenger systems should remain above their public-service limit."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 80,
+      "candidate": "Ferry worksheet | Short route, frequent boarding, low speed, high accessibility."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 80,
+      "candidate": "Coastal worksheet | Long route, higher speed, fuel reserve, cooldown."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 81,
+      "candidate": "Local river ferry | Distance 7 km; low speed; shallow draft; high passenger churn; low catalyst grade. | Run frequent departures, short cooldown, strict gangway control, low wake."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 81,
+      "candidate": "Bay express liner | Distance 110 km; turbine screw; higher speed; formal berths; stronger condenser. | Require higher fuel grade, longer preheat, pilot at both ends, planned cooldown."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 81,
+      "candidate": "Reef-side market run | Sensitive living water; mixed cargo; animals; low wake rules. | Use wake smoother, sternwheel or low-speed screw, heavy residue wash, no rush schedule."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 91,
+      "candidate": "eastbound | Primary movement toward increasing UTC/longitude band. | Required for UTC -4 to UTC +1 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 91,
+      "candidate": "westbound | Primary movement toward decreasing UTC/longitude band. | Required for reverse UTC +1 to UTC -4 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 91,
+      "candidate": "northeast | Combined northern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 91,
+      "candidate": "northwest | Combined northern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 91,
+      "candidate": "southeast | Combined southern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 91,
+      "candidate": "southwest | Combined southern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 92,
+      "candidate": "UTC band span | Delta_UTC = abs(UTC_destination - UTC_origin) | UTC -4 to UTC +1 gives Delta_UTC = 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 92,
+      "candidate": "Total schedule time | T_total = T_board + T_motion + T_stops + T_breaks + T_disembark + T_safety | Do not hide boarding, breaks, or disembarking outside the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 92,
+      "candidate": "Train public benchmark | Delta_UTC = 5, N_intermediate_stops >= 8, T_total <= 4 h | The rail network is fast enough when the whole public trip fits inside four hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 92,
+      "candidate": "Skyship public benchmark | Delta_UTC = 5, T_total <= 2 h | The skyship corridor is fast enough when approach, climb, cruise, descent, grounding, and passenger transfer fit inside two hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 92,
+      "candidate": "Train motion requirement | V_required = D_route / (4 h - T_board - T_stops - T_breaks - T_disembark - T_safety) | Use the actual route distance stored in the route ledger; five-band proof schedules must leave enough motion time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 92,
+      "candidate": "Skyship motion requirement | V_required = D_route / (2 h - T_approach - T_grounding - T_transfer - T_safety) | Use high-altitude aether lanes and inertia-cushioned cabins for express service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 93,
+      "candidate": "origin_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 93,
+      "candidate": "destination_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 93,
+      "candidate": "utc_band_span | absolute numeric span | UTC -4 to UTC +1 equals 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 93,
+      "candidate": "target_total_minutes | train: 240 for five-band express; skyship: 120; portal: hall-controlled | Keeps schedule promises testable."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 93,
+      "candidate": "dwell_minutes_total | sum of intermediate dwell, breaks, boarding, disembarking, safety buffers | Prevents hidden time from making routes look faster than they are."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 94,
+      "candidate": "Mode | Core-grade speed doctrine | Boundary that remains true"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 95,
+      "candidate": "Marsh and fungus belts | Saturated ground, mold heat, biting fog, root movement, hidden channels, rot bloom. | Railbeds need lime and pile inspection; steamships use slow channels; submarines pass through flood locks; portals increase quarantine dwell. | White fuzz on rope, still insects, green lamps in wet trees, sweet rot smell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Steamships.docx",
+      "table": 98,
+      "candidate": "Transit-grade service | Stations and vehicles meter the compound through membranes, jackets, traction stacks, boilers, lattices, or portal frames. | Public speed comes from high energy density plus strict separation."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 1,
+      "candidate": "Emergency rise reserve | Guarantee surfacing or lock retreat before ordinary speed. | Sealed burst tanks with cyan-black warning seals that cannot be legally spent for schedule recovery."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 9,
+      "candidate": "Drag | Resistance from moving through water; controls cruise power and speed cost."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 21,
+      "candidate": "Cavitation rattle | Propulsor is overdriven or flow is dirty. | Reduce speed, inspect ring, check depth and wake."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 31,
+      "candidate": "Ballast pump power | P_pump = rho_water * g * head * flow / eta_pump | Determines pump load and heat."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 31,
+      "candidate": "Trim correction | Trim_Error = center_mass_offset + slosh_factor + passenger_shift | Controls tank balancing and warnings."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 31,
+      "candidate": "Emergency reserve | E_reserve >= pump_work + burst_lift + life_support_buffer | Cannot be spent on schedule recovery."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 31,
+      "candidate": "Comfort depth rate | Depth_Rate <= certified passenger limit | Prevents ear pain, falls, and panic."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 31,
+      "candidate": "Reserve seal status | Seal_Intact = true / false / disputed | Legal and narrative control state."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 49,
+      "candidate": "Burst lift | Use protected ichor energy for emergency ascent. | Powerful; damages components if repeated."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 55,
+      "candidate": "Pirate grapple | External capture at low speed. | Seal, reverse, pulse, call rescue."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 57,
+      "candidate": "Regional reef line | Moderate distance, quiet speed, ecological restrictions."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 67,
+      "candidate": "powerClass | cell-bank / catalyst / sealed-core / rescue-reserve | Energy architecture."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Buoyancy force | B = rho_water * g * V_displaced | Upward force from displaced water."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Weight | W = m_ship * g | Downward force from vessel, passengers, cargo, fuel, and ballast."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Net vertical force | F_vertical = B + T_vertical - W | Positive rises; zero holds; negative descends."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Depth pressure | P_depth = P_surface + rho_water * g * depth | External pressure on hull and hatches."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Hull load index | Hull_Load = P_depth * r_hull / (t_wall * sigma_allowable) | Simplified pressure safety check."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Hydrodynamic drag | D = 0.5 * rho_water * V^2 * S_ref * C_D | Cruise resistance."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Shaft power | P_shaft = D * V / eta_prop | Propulsor power at cruise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Route energy | E_route = (P_shaft + P_hotel + P_trim) * t_route | Main route energy budget."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Fuel mass | m_fuel = E_route / (e_i * Pi * eta_total) | Ichor fuel or equivalent active fraction."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 69,
+      "candidate": "Reserve rule | E_reserve >= pump_work + burst_lift + life_support_buffer | Emergency reserve requirement."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Core power | P_core = m_core * e_core * Pi_core * eta_release / t_burn | Average useful release from sealed source over burn interval."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Thermal transfer | Q_loop = P_core * eta_primary * eta_exchange | Heat delivered to secondary loop."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Shaft from core | P_shaft_core = Q_loop * eta_vapor * eta_mechanical | Mechanical propulsor and pump power."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Electric output | P_electric = Q_loop * eta_generator + P_cell | Shipwide electrical supply."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Waste heat | Q_waste = P_core - P_shaft_core - P_electric_useful | Cooling burden."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Core control index | CCI = (Flux * Pi_core * H_core * Resonance_Load) / (Control_Damping * Coolant_Flow * Shielding) | Above legal threshold, reduce output or shut down."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Shield margin | Shield_Margin = Rated_Shielding / Core_Field_Load | Legal protection for crew and passengers."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Cooldown time | Cooldown = Heat_Debt / Cooling_Rate + Membrane_Rest_Time | Turnaround requirement."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 70,
+      "candidate": "Cinder endurance | t_cinder = E_cinder / P_beacon | Low-output emergency duration."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 74,
+      "candidate": "powerClass | cellBank / catalystPlant / sealedCore / mixed | Energy system."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 76,
+      "candidate": "1 | D = 0.5 * rho_water * V^2 * S_ref * C_D | Drag rises sharply with speed; current warning increases route cost."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 76,
+      "candidate": "2 | P_shaft = D * V / eta_prop | Propulsor efficiency turns drag into power demand."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 76,
+      "candidate": "3 | P_hotel = P_air + P_heat + P_lights + P_pumps + P_medical | Passenger comfort is a major load, not an afterthought."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 76,
+      "candidate": "4 | E_route = (P_shaft + P_hotel + P_trim) * t_route | Total useful route energy before reserve."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 76,
+      "candidate": "5 | Q_waste = P_core - useful_power | Cooling systems must reject the difference."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 79,
+      "candidate": "Class | Length band | Power class | Depth band | Capacity | Primary use"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 81,
+      "candidate": "3. Route compromise | Safety margin is shrinking. | Speed drops, hatches lock, passengers reseated. | Divert, hold, rise, or request priority lock."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 84,
+      "candidate": "Does water drag make speed costly? | If not, underwater routes become free express travel."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 85,
+      "candidate": "eastbound | Primary movement toward increasing UTC/longitude band. | Required for UTC -4 to UTC +1 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 85,
+      "candidate": "westbound | Primary movement toward decreasing UTC/longitude band. | Required for reverse UTC +1 to UTC -4 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 85,
+      "candidate": "northeast | Combined northern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 85,
+      "candidate": "northwest | Combined northern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 85,
+      "candidate": "southeast | Combined southern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 85,
+      "candidate": "southwest | Combined southern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 86,
+      "candidate": "UTC band span | Delta_UTC = abs(UTC_destination - UTC_origin) | UTC -4 to UTC +1 gives Delta_UTC = 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 86,
+      "candidate": "Total schedule time | T_total = T_board + T_motion + T_stops + T_breaks + T_disembark + T_safety | Do not hide boarding, breaks, or disembarking outside the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 86,
+      "candidate": "Train public benchmark | Delta_UTC = 5, N_intermediate_stops >= 8, T_total <= 4 h | The rail network is fast enough when the whole public trip fits inside four hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 86,
+      "candidate": "Skyship public benchmark | Delta_UTC = 5, T_total <= 2 h | The skyship corridor is fast enough when approach, climb, cruise, descent, grounding, and passenger transfer fit inside two hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 86,
+      "candidate": "Train motion requirement | V_required = D_route / (4 h - T_board - T_stops - T_breaks - T_disembark - T_safety) | Use the actual route distance stored in the route ledger; five-band proof schedules must leave enough motion time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 86,
+      "candidate": "Skyship motion requirement | V_required = D_route / (2 h - T_approach - T_grounding - T_transfer - T_safety) | Use high-altitude aether lanes and inertia-cushioned cabins for express service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 87,
+      "candidate": "origin_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 87,
+      "candidate": "destination_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 87,
+      "candidate": "utc_band_span | absolute numeric span | UTC -4 to UTC +1 equals 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 87,
+      "candidate": "target_total_minutes | train: 240 for five-band express; skyship: 120; portal: hall-controlled | Keeps schedule promises testable."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 87,
+      "candidate": "dwell_minutes_total | sum of intermediate dwell, breaks, boarding, disembarking, safety buffers | Prevents hidden time from making routes look faster than they are."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 88,
+      "candidate": "Mode | Core-grade speed doctrine | Boundary that remains true"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 89,
+      "candidate": "Marsh and fungus belts | Saturated ground, mold heat, biting fog, root movement, hidden channels, rot bloom. | Railbeds need lime and pile inspection; steamships use slow channels; submarines pass through flood locks; portals increase quarantine dwell. | White fuzz on rope, still insects, green lamps in wet trees, sweet rot smell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Submarines.docx",
+      "table": 92,
+      "candidate": "Transit-grade service | Stations and vehicles meter the compound through membranes, jackets, traction stacks, boilers, lattices, or portal frames. | Public speed comes from high energy density plus strict separation."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 0,
+      "candidate": "Core Design Law A Belavadös railway is not a road with metal strips or a miracle engine dragged through towns. It is a guided civic corridor where track geometry, wheel contact, traction, braking distance, signal authority, passenger mass, cargo custody, and divine-material discipline decide whether speed becomes safety. Ichor may multiply heat, current, tractive effort, recovery, and signaling precision, but the train remains governed by rails, wheels, adhesion, grades, curves, clearances, insp"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 1,
+      "candidate": "Guided trackway | Constrains the train to a certified corridor so speed stays predictable. | Twin polished rails, ballast shoulders, signal posts, bridge plates, and marked no-go margins."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 5,
+      "candidate": "Local shuttle | Short route, close stations, low speed, high accessibility, simple traction."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 5,
+      "candidate": "Branch mixed train | Passenger and freight service where settlement access matters more than speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 8,
+      "candidate": "Traveler-facing | Present divine industry, ichor, and the cost of guided speed through sensory cues, station procedure, visible signs, safe waiting, route consequences, and staff language rather than hidden math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 8,
+      "candidate": "inspection-facing | Track divine industry, ichor, and the cost of guided speed with decisive values such as authority, brake margin, heat, current, adhesion, load, residue, or legal custody."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 8,
+      "candidate": "Route office | Expose divine industry, ichor, and the cost of guided speed through stable fields, route state changes, resident movement, cargo constraints, signal status, and inspection notes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 13,
+      "candidate": "Curve radius | Bend severity and speed influence."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 17,
+      "candidate": "Weather penalty | Reduced force and speed under poor rail conditions."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 29,
+      "candidate": "Jumper | Power or signal connection between cars."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 39,
+      "candidate": "Realm UTC | Shared clock for schedules."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 45,
+      "candidate": "Bridge rating | Allowed weight and speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 47,
+      "candidate": "Descent card | Mandatory brake and speed plan."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 49,
+      "candidate": "Storm order | Reduced speed and inspection trigger."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 63,
+      "candidate": "Overspeed | Speed exceeds route or signal authority."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 64,
+      "candidate": "Traveler-facing | Present failure modes: derailment, overspeed, brake fade, ground fault, and route lock failure through sensory cues, station procedure, visible signs, safe waiting, route consequences, and staff language rather than hidden math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 64,
+      "candidate": "inspection-facing | Track failure modes: derailment, overspeed, brake fade, ground fault, and route lock failure with decisive values such as authority, brake margin, heat, current, adhesion, load, residue, or legal custody."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 64,
+      "candidate": "Route office | Expose failure modes: derailment, overspeed, brake fade, ground fault, and route lock failure through stable fields, route state changes, resident movement, cargo constraints, signal status, and inspection notes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 78,
+      "candidate": "power_type | ichor_electric_crownline | Power and safety behavior."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 78,
+      "candidate": "brake_margin | 0.84 | Hidden safety value for speed decisions."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 80,
+      "candidate": "Rolling resistance | F_roll = C_rr * M_train * g"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 80,
+      "candidate": "Grade force | F_grade = M_train * g * Grade"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 80,
+      "candidate": "Curve limit | V_curve_safe = sqrt(R_curve * a_lateral_limit)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 80,
+      "candidate": "Route power | P_motion = (F_roll + F_grade + F_drag) * V / eta_drive"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 80,
+      "candidate": "Trip time | t_trip = sum(section_distance / allowed_speed) + dwell_time"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Rolling resistance | F_roll = C_rr * M_train * g | Baseline force to keep a train moving on level track."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Grade force | F_grade = M_train * g * Grade | Added force for climbing or retained danger when descending."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Curve speed | V_curve_safe = sqrt(R_curve * a_lateral_limit) | Speed limit from curve radius and comfort/safety band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Total resistance | F_total = F_roll + F_grade + F_curve + F_drag | The force the locomotive must overcome."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Motion power | P_motion = F_total * V / eta_drive | Route power at speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Acceleration | a_train = (F_TE - F_total) / M_train | How quickly the consist can gain speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Trip time | t_trip = sum(section_distance / allowed_speed) + dwell_time | Dispatcher estimate before delays."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 81,
+      "candidate": "Capacity gate | Capacity_Safe = min(Platform_Limit, Door_Limit, Brake_Limit, Weight_Limit, Evacuation_Limit) | Passenger count is the strictest safe limit."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 83,
+      "candidate": "Max adhesion force | F_adhesion = mu_rail * Weight_on_drivers"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 83,
+      "candidate": "Tractive effort limit | F_TE_safe = min(F_motor, F_adhesion, Coupler_Limit)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 83,
+      "candidate": "Braking distance | d_stop = V^2 / (2 * a_brake_safe) + reaction_margin"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 83,
+      "candidate": "Brake heat | Q_brake = 0.5 * M_train * V^2 * eta_heat_to_brakes"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 83,
+      "candidate": "Descent reserve | Reserve_descent = Brake_Heat_Capacity / Expected_Descent_Heat"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Adhesion force | F_adhesion = mu_rail * Weight_on_drivers | Maximum wheel force before slip."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Safe tractive effort | F_TE_safe = min(F_motor, F_adhesion, Coupler_Limit, Track_Limit) | The usable pull is the weakest limit."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Wheel slip index | Slip_Index = F_requested / F_adhesion | Above 1.0 the wheel is asking too much from the rail."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Braking distance | d_stop = V^2 / (2 * a_brake_safe) + reaction_margin | Distance protected by signals and authority."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Brake heat | Q_brake = 0.5 * M_train * V^2 * eta_heat_to_brakes | Thermal burden when friction braking."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Recovery limit | E_regen_accepted = min(E_available_to_recover, Storage_Capacity, Corridor_Demand) | Recovered braking current is limited by receiving capacity."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Descent reserve | Reserve_descent = Brake_Heat_Capacity / Expected_Descent_Heat | Mountain routes should stay above legal reserve."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 84,
+      "candidate": "Emergency stop risk | Stop_Risk = Speed + Load + Weather + Grade - Brake_Readiness - Signal_Margin | Narrative index for urgent dispatch calls."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 86,
+      "candidate": "Available energy | E_available = m_i * e_i * Pi * eta_reaction * eta_containment"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 86,
+      "candidate": "Cell power | P_cell = V_cell * I_cell * eta_electrical"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 86,
+      "candidate": "Traction current | I_traction = P_traction / V_bus"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 86,
+      "candidate": "Recovery energy | E_recovered = 0.5 * M_train * (V_start^2 - V_end^2) * eta_regen"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 86,
+      "candidate": "Runaway index | Runaway_Index = Heat_Generation / Heat_Removal * (1 + H + contamination)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Available energy | E_available = m_i * e_i * Pi * eta_reaction * eta_containment | Main fuel or cell budget."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Power output | P_output = E_available / t | Whether the source can release energy fast enough."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Cell voltage | V_cell = V_0 + K_origin + K_rune - Loss_membrane | Rail-safe version of flow-cell potential."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Cell power | P_cell = V_cell * I_cell * eta_electrical | Power for traction, signals, pumps, and doors."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Traction current | I_traction = P_traction / V_bus | Current required by motors."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Conductor heat | Q_conductor = I_traction^2 * R_path * t | Heat left in crownlines, groundlines, or conduit paths."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Membrane wear | Membrane_Wear = k_membrane * Area * DeltaC * t * (1 + Heat_Debt) | How long hot service damages separated cells."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 87,
+      "candidate": "Runaway index | Runaway_Index = Heat_Generation / Heat_Removal * (1 + H + contamination) | Above 1.0 heat accumulates; public service should slow or stop."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 90,
+      "candidate": "Market local | Distance 18 km; frequent stops; low speed; high passenger churn; branch track. | Use short consists, high accessibility, simple power, frequent dwell, and conservative dispatch."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 90,
+      "candidate": "Mountain freight | Heavy quarry load; long grade; wet rail; descent after summit. | Assign bank engine, reduce speed, reserve brake heat, inspect wheels at summit, and forbid schedule recovery on descent."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 90,
+      "candidate": "Festival extra | Late crowd; many unfamiliar riders; station overflow; mixed weather. | Add wardens, crowd rails, extra dwell, platform margins, and visible delay scripts."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 92,
+      "candidate": "Underway | Signals called, speed held, heat watched, brake margin protected."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 93,
+      "candidate": "Powering up | Steam or current prepared; gauges agree; conductor path tested; catalyst keeper signs custody; signals available."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 93,
+      "candidate": "Underway | Signals called; speed within section; heat watched; adhesion respected; passenger state monitored."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 100,
+      "candidate": "eastbound | Primary movement toward increasing UTC/longitude band. | Required for UTC -4 to UTC +1 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 100,
+      "candidate": "westbound | Primary movement toward decreasing UTC/longitude band. | Required for reverse UTC +1 to UTC -4 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 100,
+      "candidate": "northeast | Combined northern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 100,
+      "candidate": "northwest | Combined northern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 100,
+      "candidate": "southeast | Combined southern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 100,
+      "candidate": "southwest | Combined southern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 101,
+      "candidate": "UTC band span | Delta_UTC = abs(UTC_destination - UTC_origin) | UTC -4 to UTC +1 gives Delta_UTC = 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 101,
+      "candidate": "Total schedule time | T_total = T_board + T_motion + T_stops + T_breaks + T_disembark + T_safety | Do not hide boarding, breaks, or disembarking outside the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 101,
+      "candidate": "Train public benchmark | Delta_UTC = 5, N_intermediate_stops >= 8, T_total <= 4 h | The rail network is fast enough when the whole public trip fits inside four hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 101,
+      "candidate": "Skyship public benchmark | Delta_UTC = 5, T_total <= 2 h | The skyship corridor is fast enough when approach, climb, cruise, descent, grounding, and passenger transfer fit inside two hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 101,
+      "candidate": "Train motion requirement | V_required = D_route / (4 h - T_board - T_stops - T_breaks - T_disembark - T_safety) | Use the actual route distance stored in the route ledger; five-band proof schedules must leave enough motion time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 101,
+      "candidate": "Skyship motion requirement | V_required = D_route / (2 h - T_approach - T_grounding - T_transfer - T_safety) | Use high-altitude aether lanes and inertia-cushioned cabins for express service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 102,
+      "candidate": "origin_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 102,
+      "candidate": "destination_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 102,
+      "candidate": "utc_band_span | absolute numeric span | UTC -4 to UTC +1 equals 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 102,
+      "candidate": "target_total_minutes | train: 240 for five-band express; skyship: 120; portal: hall-controlled | Keeps schedule promises testable."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 102,
+      "candidate": "dwell_minutes_total | sum of intermediate dwell, breaks, boarding, disembarking, safety buffers | Prevents hidden time from making routes look faster than they are."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 103,
+      "candidate": "Eight intermediate stops | 8 x 6 min = 48 min | Minimum eight stops are possible without breaking the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 104,
+      "candidate": "Marsh and fungus belts | Saturated ground, mold heat, biting fog, root movement, hidden channels, rot bloom. | Railbeds need lime and pile inspection; steamships use slow channels; submarines pass through flood locks; portals increase quarantine dwell. | White fuzz on rope, still insects, green lamps in wet trees, sweet rot smell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 107,
+      "candidate": "Transit-grade service | Stations and vehicles meter the compound through membranes, jackets, traction stacks, boilers, lattices, or portal frames. | Public speed comes from high energy density plus strict separation."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 110,
+      "candidate": "UTC -4 to UTC +1 express bands | Core-grade rail can cross the five-band span in four hours total when stops, boarding, and breaks are budgeted as part of the design, not as afterthoughts."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 110,
+      "candidate": "Marsh crossings | Piles, lime, and bridge scraping matter more than speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 114,
+      "candidate": "utc_origin_band | realm UTC origin"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 114,
+      "candidate": "utc_destination_band | realm UTC destination"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Trains & Rail.docx",
+      "table": 114,
+      "candidate": "dwell_minutes_total | boarding and disembark time"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Compute P_route = P_motion + P_hotel + P_stabilization"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Compute E_route = P_route * t_route, then subtract recovered energy where applicable"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Compute m_fuel = E_route / (e_i * Pi * eta_total)"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Its weight is W = 180,000 * 9"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Lift_required = 2,118,960 N"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Reserve_Lift = 2,240,000 / 1,765,800 - 1 = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "kg at Pi = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Pi = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Pi = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "and eta_total = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Pi = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "and eta_total = 0"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "candidate": "Total_Trip_Time = Access_Time + Boarding_Time + Prep_Time + Movement_Time + Transfer_Time + Recovery_Time + Delay_Buffer"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 1,
+      "candidate": "Train/Rail | Feeds steam-electric generation and traction motors while recovering braking energy into ichor-safe storage cells. | Rolling resistance, grade force, acceleration, adhesion, regenerative recovery, timetable dwell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 2,
+      "candidate": "State / grade | Plain function | Transit use | Safety note"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 2,
+      "candidate": "Household cell fluid | Mild separated charge medium | Small pumps, clinic transit lifts, low-speed station machines. | Stable but not suitable for main propulsion."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 4,
+      "candidate": "Stable local grade | IPI 1-3 | Door power, harbor pumps, low-speed trams, station service loads. | Best safety; too weak for fast intercity propulsion."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 4,
+      "candidate": "Regional transit grade | IPI 3-5 | Passenger rail, canal steamships, short-hop submarines, light sky barges. | Good reliability when inspected frequently."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 4,
+      "candidate": "Intercity express grade | IPI 5-7 | Fast rail, skyship corridors, ocean steamships, deep submarine routes. | Requires route logs, cooldown windows, and licensed refiners."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 4,
+      "candidate": "Emergency / elite grade | IPI 7-8.5 | Rescue craft, diplomatic portals, storm climbs, military-adjacent evacuation. | Restricted; never routine for ordinary public service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 4,
+      "candidate": "Unsafe fresh material | IPI 8+ | Not used for ordinary transit. | Too unstable and ethically dangerous for routine passenger schedules."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 5,
+      "candidate": "P | Power. | W | Energy per second."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Available energy | E_available = m_i * e_i * Pi * eta_reaction * eta_containment | Main fuel budget for every vehicle and portal plant."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Power output | P_output = E_available / t | Determines whether a fuel store can release power quickly enough for the route."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Potency index | IPI = 10 * Pi * (1 + 0.6*H + 0.4*Psi) * G_s | Useful for comparing fuel grades and instability."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Burst energy | E_burst = E_available * min(1, IPI/8) * eta_burst | Emergency climb, braking, surfacing, or gate restart capacity."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Safety margin | Safety_Margin = Rated_Limit / Operating_Load | Passenger systems should stay above 1.5; skyships should target 2.0 or better."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Reaction rate | rate = k_eff * [I]^a * [B]^b * A_contact | Controlled exchange rate across an injector, membrane, or reactor face."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Effective rate | k_eff = k_0 * exp(-E_a/(R*T_eff)) * (1 + C_cat + Psi - S_stab) | Temperature, catalyst, resonance, and stabilizer effect on reaction behavior."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Cell voltage | V_cell = V_0 + K_origin + K_rune - (R*T/(n*F_c)) * ln(Q_reaction) | Ichor flow-cell voltage for rail, submarine, portal, and station power."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Electrical power | P_cell = V_cell * I_cell * eta_electrical | Traction motors, control circuits, pumps, locks, and portal field grids."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Membrane leakage | Crossover_Loss = k_membrane * Area_membrane * DeltaC * t | Slow contamination across old or damaged membranes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Jet velocity | v_j = sqrt(2 * DeltaP / rho_i) * eta_nozzle | Pressure-driven fluid-electric discharge speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Mass flow | m_dot = rho_i * A_nozzle * v_j | Nozzle, propulsor, boiler feed, and pressure-throat sizing."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Propulsion force | F_prop = m_dot * v_j + (p_exit - p_air) * A_exit | Generic pressure-jet force for skyships, marine assist, and emergency systems."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Waste heat | Q_heat = E_released * (1 - eta_useful) | Thermal debt after useful work is extracted."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 6,
+      "candidate": "Runaway index | Runaway_Index = (Heat_Generation / Heat_Removal) * (1 + H + contamination) | Above 1.0 heat is accumulating; above 1.5 passenger systems should shut down."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 7,
+      "candidate": "Propulsion power | Raises acceleration and cruise speed. | Higher heat, fuel draw, and membrane load."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 7,
+      "candidate": "Field stabilization | Lets vehicles ride smoother at speed. | Requires control crew and sensors."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 7,
+      "candidate": "Route beacons | Permit higher speed through known corridors. | Needs maintenance and governance."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 7,
+      "candidate": "Terminal checks | Protect passengers during high-energy operation. | Adds dwell and turnaround time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 8,
+      "candidate": "Portal | Traversable wormhole concept; threshold crossing rather than vehicle motion. | Ichor field power stabilizes throat geometry and destination lock. | Very high crossing speed; limited by authorization, stabilization, and cooldown. | Misalignment, contamination, field collapse, unauthorized entry."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 9,
+      "candidate": "Portal | Crossing at walking speed once active | 10-90 minutes stabilization / authorization / cooldown | High-priority restricted corridors only."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 9,
+      "candidate": "Skyship | 150-350 km/h intercity cruise; slower near terminals | 20-75 minutes landing, ground transformation, cleansing, boarding | Fastest common long-distance public mode when portal access is restricted."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 9,
+      "candidate": "Steamship | 35-110 km/h depending hull, waterway, and ichor assist | 15-60 minutes docking, gangway, cargo, boiler staging | Rivers, harbors, reefs, lakes, and open seas."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 9,
+      "candidate": "Train/Rail | 80-250 km/h depending track class and terrain | 2-20 minutes dwell; longer for long-distance consists | Best high-capacity land mode."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 9,
+      "candidate": "Submarine | 35-95 km/h depending depth, silence, and corridor rules | 20-90 minutes pressure lock, trim, boarding, dive/surface sequence | Specialized underwater routes and coastal-to-deep transfer service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Portal stability | Portal_Stability = P_field * Rune_Alignment / (Mass_Transfer + Distance + Weather + Interference) | Must remain above the legal threshold throughout active crossing."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Opening energy | E_open = P_field * t_open / eta_containment | Energy used just to maintain a stable throat during a window."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Mass transfer load | M_transfer = Sum(passenger_mass + cargo_mass + carried_fluid + metal_load) | Crowd batches are counted because mass affects field stress."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Destination certainty | Lock_Certainty = Coordinate_Match * Time_Sync * Station_Handshake * Rune_Health | If this drops, the portal should not open for public service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Field heat | Q_heat = E_open * (1 - eta_field) | Cooldown time follows heat removal and membrane recovery."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Safe throughput | Passengers_per_Window = floor((t_open - t_checks) / headway) * batch_size | Prevents rush crowds from becoming mass-transfer spikes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 11,
+      "candidate": "Cooldown time | Cooldown = Heat_Load / Cooling_Rate + Membrane_Recovery_Time | Even instant travel has turnaround time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Loaded mass | m_ship = hull + crew + passengers + cargo + fuel + water + stores | Every calculation starts with the actual flying mass."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Weight | W = m_ship * g_B | Use Belavadös standard gravity unless a region changes it."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Required lift | Lift_required = W * (1 + reserve) | Passenger reserve should normally be 0.15-0.30."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Vertical budget | F_vertical = L_aether + L_aero + B_buoy + T_v - W | Positive climbs; zero hovers; negative descends."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Reserve lift | Reserve_Lift = (L_aether + L_aero + B_buoy + T_v)/W - 1 | Public ships do not fly at zero reserve."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Aetheric lift | L_aether = lambda_a * P_lattice / v_leak | Better runes and cleaner sails raise lambda_a; rain and damage raise v_leak."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Aerodynamic lift | L_aero = 0.5 * rho_air * V^2 * S_sail * C_L | Works best in cruise, not hover."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Buoyant contribution | B_buoy = rho_air * g_B * V_displaced * phi_aether | Limited support from hull volume and aether-vapor cells."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Nozzle thrust | F_nozzle = m_dot * v_e + (p_e - p_a) * A_e | Vector each nozzle for lift, cruise, braking, or side-slip."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Cruise drag | D = 0.5 * rho_air * V^2 * S_ref * C_D | Dirty hulls, exposed cargo, and storm rigging raise drag."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Cruise power | P_cruise = (D * V + P_lattice + P_hotel) / eta_total | Includes drag, lift lattice, lights, pumps, heat, kitchens, and navigation."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 14,
+      "candidate": "Fuel mass | m_fuel = P_cruise * t_route / (e_i * Pi * eta_reaction) | Legal grade, route time, and efficiency set fuel needs."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 16,
+      "candidate": "Ground load per wheel | Ground_Load_per_Wheel = (W - Residual_Lift)/N_wheels * Load_Shift_Factor | Wheel-bogies must carry actual ground weight after lift is reduced."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 16,
+      "candidate": "Charge bleed time | Charge_Bleed_Time = Q_hull / I_ground_safe | Dock crews wait until hull charge is safe."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 16,
+      "candidate": "Cleansing dose | Purification_Dose = Residue_Level * Hull_Area * Contamination_Factor | Port authority calculates washing and residue handling."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 16,
+      "candidate": "Docking risk | Docking_Risk = Wind_Gust + Residual_Charge + Heat_Load + Cargo_Shift - Crew_Readiness | Narrative and scheduling risk index."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 16,
+      "candidate": "Stability margin | Stability_Margin = Restoring_Moment / Disturbing_Moment | Below 1.0 requires active control and may halt service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Buoyancy check | B = rho_water * g * V_displaced | B must equal or exceed vessel weight in safe loading."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Hull drag | D_water = 0.5 * rho_water * V^2 * S_wet * C_D + Wave_Drag | Drag rises quickly at speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Shaft power | P_shaft = D_water * V / eta_prop | Propeller or paddle power needed for cruise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Boiler duty | Q_boiler = m_dot_steam * (h_steam - h_feedwater) | Heat needed to produce useful steam."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Ichor heat share | P_ichor = (P_shaft + P_hotel + P_stabilizer - P_recovered) / eta_cycle | How much ichor plant power must supply."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Fuel mass | m_fuel = P_ichor * t_route / (e_i * Pi * eta_reaction) | Route fuel plus reserve."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Condenser recovery | E_recovered = m_dot_condensate * c_p * DeltaT * eta_recovery | Recovered heat reduces fuel needs."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 18,
+      "candidate": "Stability index | Stability = Righting_Moment / Heeling_Moment | Low stability delays departure or requires cargo correction."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 19,
+      "candidate": "River route | Moderate speed, frequent docks, shallow-water caution. | Low-to-medium P_shaft, high docking time, stabilizers active."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 19,
+      "candidate": "Lake route | Higher speed, stable water, terminal-to-terminal express. | Medium P_shaft, lower wave risk, strong schedule reliability."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 19,
+      "candidate": "Reef route | Careful corridor navigation through luminous markers. | High sensor and stabilizer load, slower speed despite powerful engines."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 20,
+      "candidate": "Regenerative brine bank | Stores braking energy in separated cells. | Energy recovery on downhill and urban stop-start routes."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Train force | F_train = m*a + C_rr*m*g + m*g*grade + 0.5*rho_air*C_D*A*V^2 | Acceleration, rolling resistance, grade, and aerodynamic drag."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Traction power | P_traction = F_train * V / eta_drive | Power needed at speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Adhesion limit | F_max = mu_adhesion * W_driven | Caps wheel torque before slipping."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Kinetic energy | E_kinetic = 0.5*m*V^2 | Energy invested in acceleration."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Regenerated energy | E_regen = E_brake * eta_regen * Storage_Health | Recovered during braking."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Net route energy | E_net = Integral(P_traction dt) + E_hotel + E_heat - E_regen | Main timetable energy budget."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Fuel mass | m_fuel = E_net / (e_i * Pi * eta_total) | Ichor reserve for route and delays."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Braking distance | d_brake = V^2 / (2*a_brake_safe) | Sets signal spacing and speed limits."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 21,
+      "candidate": "Grade penalty | P_grade = m*g*grade*V | Mountain routes consume far more power uphill."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 22,
+      "candidate": "Urban underground | Frequent stops, low peak speed, high regenerative value. | E_regen and dwell time dominate."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 22,
+      "candidate": "Regional express | Fewer stops, high speed, long cruise segments. | Aerodynamic drag and track class dominate."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 23,
+      "candidate": "Cyan runic fins | Assist trim, roll, and low-speed station approach. | Precise docking at underwater terminals."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 23,
+      "candidate": "Emergency rise reserve | Dedicated burst energy for surfacing or lock retreat. | Cannot be spent for ordinary speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Buoyancy force | B = rho_water * g * V_displaced | Upward force from displaced water."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Net vertical force | F_vertical = B + T_vertical - W | Positive rises, zero holds depth, negative descends."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Depth pressure | P_depth = P_surface + rho_water * g * depth | Determines hull and hatch stress."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Hull stress index | Hull_Load = P_depth * r_hull / t_wall / sigma_allowable | Simplified pressure safety check."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Hydrodynamic drag | D = 0.5 * rho_water * V^2 * S_ref * C_D | Water drag dominates route power."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Shaft power | P_shaft = D * V / eta_prop | Propulsor power needed at cruise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Hotel and life support | P_hotel = P_air + P_CO2 + P_heat + P_lights + P_pumps | Passenger submarine loads are substantial."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Route energy | E_route = (P_shaft + P_hotel + P_trim) * t_route | Main energy budget."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Emergency surfacing reserve | E_reserve >= Pump_Work + Burst_Lift + Life_Support_Buffer | Must remain untouched in public service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 24,
+      "candidate": "Fuel mass | m_fuel = E_route / (e_i * Pi * eta_total) | Add reserve and delay margin."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 25,
+      "candidate": "Reef corridor | Slow-to-moderate speed through sensitive ecosystems. | Sensor load, quiet propulsion, hull cleansing."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 27,
+      "candidate": "Rail to skyship | Station platform -> skyport corridor -> cleansing gate -> wheeled skyship terminal. | 25-70 minutes depending screening and grounding."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 27,
+      "candidate": "Steamship to rail | Pier -> waterfront customs -> covered walkway -> rail platform. | 15-45 minutes depending cargo and crowding."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 27,
+      "candidate": "Submarine to steamship | Pressure lock -> dry harbor hall -> surface pier. | 30-80 minutes because pressure and trim checks matter."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 27,
+      "candidate": "Portal to rail | Portal cooldown hall -> manifest desk -> protected rail platform. | 20-60 minutes, even if crossing itself was brief."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 27,
+      "candidate": "Skyship to portal | Ground corridor -> charge bleed -> screening vestibule -> portal batch. | 45-120 minutes; high-energy modes should not overlap casually."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 31,
+      "candidate": "Heat accumulation | Thermal debt climbs; passenger system shifts to slower mode. | Cooling stop, purge, lower speed, or cancel departure."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 31,
+      "candidate": "Control asymmetry | Vehicle pitches, rolls, yaws, lists, or misaligns with dock. | Reduce speed, redistribute load, switch to backup controls."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 32,
+      "candidate": "5 | Target movement speed or active portal window | "
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 32,
+      "candidate": "12 | Safety margin, thermal debt, membrane health, grounding margin | "
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "1 | m_ship = ___ kg | Include hull, crew, passengers, cargo, fuel, stores."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "2 | W = m_ship * 9.81 | Belavadös standard gravity unless changed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "3 | Lift_required = W * (1 + reserve) | Use 0.15-0.30 reserve for passenger service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "4 | L_aether = lambda_a * P_lattice / v_leak | Choose lambda by rune/sail quality."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "5 | T_v = Sum(m_dot * v_e) | Add belly and trim nozzles."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "6 | D = 0.5*rho*V^2*S*C_D | Dirty hull or storm rigging raises C_D."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "7 | P = (D*V + P_lattice + P_hotel)/eta | Route planning power."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "8 | m_fuel = P*t/(e_i*Pi*eta_reaction) | Fuel plus legal reserve."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 34,
+      "candidate": "10 | Charge_Bleed_Time | Minimum grounding dwell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 35,
+      "candidate": "2 | B = rho_water*g*V_displaced | Buoyancy check."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 35,
+      "candidate": "3 | D_water at route speed | Include wave drag and fouling."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 35,
+      "candidate": "4 | P_shaft = D_water*V/eta_prop | Propulsion power."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 36,
+      "candidate": "2 | Target speed and route profile | Stops, grades, curves, tunnels."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 36,
+      "candidate": "4 | P_traction = F_train*V/eta | Power at speed."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 36,
+      "candidate": "6 | E_net | Energy after recovery."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 37,
+      "candidate": "2 | B = rho_water*g*V_displaced | Buoyancy force."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 37,
+      "candidate": "4 | D = 0.5*rho_water*V^2*S*C_D | Underwater drag."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 37,
+      "candidate": "5 | P_shaft = D*V/eta_prop | Cruise power."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 37,
+      "candidate": "8 | m_fuel and route reserve | Energy for movement plus operations."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 38,
+      "candidate": "Runaway index | Heat and instability ratio used to decide whether a route must slow, purge, or shut down."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 39,
+      "candidate": "Passenger operations documented | Terminals, transfers, dwell time, cooldown, grounding, pressure equalization, and route alerts are recorded for public service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 40,
+      "candidate": "eastbound | Primary movement toward increasing UTC/longitude band. | Required for UTC -4 to UTC +1 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 40,
+      "candidate": "westbound | Primary movement toward decreasing UTC/longitude band. | Required for reverse UTC +1 to UTC -4 express examples."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 40,
+      "candidate": "northeast | Combined northern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 40,
+      "candidate": "northwest | Combined northern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 40,
+      "candidate": "southeast | Combined southern and eastern movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 40,
+      "candidate": "southwest | Combined southern and western movement. | Use where a route crosses both latitude and UTC band."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 41,
+      "candidate": "UTC band span | Delta_UTC = abs(UTC_destination - UTC_origin) | UTC -4 to UTC +1 gives Delta_UTC = 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 41,
+      "candidate": "Total schedule time | T_total = T_board + T_motion + T_stops + T_breaks + T_disembark + T_safety | Do not hide boarding, breaks, or disembarking outside the promise."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 41,
+      "candidate": "Train public benchmark | Delta_UTC = 5, N_intermediate_stops >= 8, T_total <= 4 h | The rail network is fast enough when the whole public trip fits inside four hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 41,
+      "candidate": "Skyship public benchmark | Delta_UTC = 5, T_total <= 2 h | The skyship corridor is fast enough when approach, climb, cruise, descent, grounding, and passenger transfer fit inside two hours."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 41,
+      "candidate": "Train motion requirement | V_required = D_route / (4 h - T_board - T_stops - T_breaks - T_disembark - T_safety) | Use the actual route distance stored in the route ledger; five-band proof schedules must leave enough motion time."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 41,
+      "candidate": "Skyship motion requirement | V_required = D_route / (2 h - T_approach - T_grounding - T_transfer - T_safety) | Use high-altitude aether lanes and inertia-cushioned cabins for express service."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 42,
+      "candidate": "origin_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 42,
+      "candidate": "destination_utc_band | integer or signed UTC label | Needed for UTC-span travel math."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 42,
+      "candidate": "utc_band_span | absolute numeric span | UTC -4 to UTC +1 equals 5."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 42,
+      "candidate": "target_total_minutes | train: 240 for five-band express; skyship: 120; portal: hall-controlled | Keeps schedule promises testable."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 42,
+      "candidate": "dwell_minutes_total | sum of intermediate dwell, breaks, boarding, disembarking, safety buffers | Prevents hidden time from making routes look faster than they are."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 43,
+      "candidate": "Mode | UTC -4 to UTC +1 benchmark | Primary limit"
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 43,
+      "candidate": "Train/rail | Within 4 hours total with at least 8 intermediate stops, breaks, boarding, and disembarking. | Track authority, braking, conductor load, station dwell, heat debt."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 44,
+      "candidate": "Marsh and fungus belts | Saturated ground, mold heat, biting fog, root movement, hidden channels, rot bloom. | Railbeds need lime and pile inspection; steamships use slow channels; submarines pass through flood locks; portals increase quarantine dwell. | White fuzz on rope, still insects, green lamps in wet trees, sweet rot smell."
+    },
+    {
+      "source": "Belavadös Ichor-Powered Transit Dossier.docx",
+      "table": 47,
+      "candidate": "Transit-grade service | Stations and vehicles meter the compound through membranes, jackets, traction stacks, boilers, lattices, or portal frames. | Public speed comes from high energy density plus strict separation."
+    },
+    {
+      "source": "TRANSIT_ACCURACY_PASS_README.md.docx",
+      "table": 0,
+      "candidate": "Route ledger data | Bearing, weather region, faction, pantheon advisory, status, UTC and mode-specific engineering fields."
+    }
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

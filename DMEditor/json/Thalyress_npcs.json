@@ -1,0 +1,475 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "falthrakar:Thalyréss",
+  "settlement": "Thalyréss",
+  "provinceKey": "falthrakar",
+  "province": "Falthrakar",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Falthrakar/Thalyress/Thalyress_Falthrakar.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "falthrakar:Thalyréss",
+    "provinceKey": "falthrakar",
+    "province": "Falthrakar",
+    "settlement": "Thalyréss",
+    "type": "Village",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Partial forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Thalyréss at the final Beach and grass with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 890.0,
+        "y": 887.0,
+        "ix": 890,
+        "iy": 887
+      },
+      "mappedBiomeDepth": "Beach and grass with water",
+      "mappedBiomePath": "Hybrid/Beach and grass with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 79.47,
+      "surfaceAnchorZMeters": 79,
+      "subsurfaceDepthMeters": 13,
+      "subsurfaceAnchorZMeters": -13,
+      "maxHeightMetersAboveSeaLevel": 79,
+      "maxDepthMetersBelowSeaLevel": 13,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -23.55469,
+        -65.91797,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -23.55469,
+        -65.91797,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and grass with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Falthrakar",
+      "Named river / delta / canal / lake": "Falthrakar Inland Strait",
+      "Named bay / gulf / sea / sound": "Gorathkar Trade Sea",
+      "Terrain that feeds the water": "Partial forest; Beach and grass with water; Marshes and swamps"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Falthrakar",
+      "Mountain range / highland": "Falthrakar Greenstone Wall",
+      "Volcano / vent / caldera": "Verdant Forge",
+      "Forest / swamp / landmark": "Gorathkar Deepleaf"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Falthrakar",
+      "Climate regime": "polar; wetland fog and flood pulses",
+      "Dominant terrain": "Partial forest; Beach and grass with water; Marshes and swamps",
+      "Named weather": "Greenwall Rainshadow",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Falthrakar is centered at 32.804753, -5.451203 under Diarchy, with 118,613,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Falthrakar occupies 6,829,353.14 sq mi / 17,687,943.45 sq km of modeled Earth-sized territory, about 3.467776% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Beach and grass with water and Marshes and swamps define its broad terrain, while its settlements intensify into Beach and grass with water, Partial forest, Grassland, Marshes and swamps and Farming. Population density is 6.706 people/sq km / 17.368 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Fey and Trickster Folk, Amphibious and Aquatic Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, Harengon, and 4 more. Faction visibility leans toward The Crucible Wardens, with worship and patronage records naming Nebyrr, Ishtanora, Marduthor, Setrimir, Sigrananna, Iskareth, Thalunesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 12 recorded four-province geography group links, including 10 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 10
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 7
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 8
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 7
+        },
+        {
+          "name": "Faerie",
+          "count": 7
+        },
+        {
+          "name": "Satyr",
+          "count": 7
+        },
+        {
+          "name": "Changeling",
+          "count": 7
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 5
+        },
+        {
+          "name": "Kender",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Crucible Wardens",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Marduthor",
+          "count": 11
+        },
+        {
+          "name": "Setrimir",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Iskareth",
+          "count": 10
+        },
+        {
+          "name": "Thalunesh",
+          "count": 7
+        },
+        {
+          "name": "Bastveig",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Hathruna",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 4
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 7
+        },
+        {
+          "name": "Steamship",
+          "count": 7
+        },
+        {
+          "name": "Submarine",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 5
+        },
+        {
+          "name": "Partial forest",
+          "count": 3
+        },
+        {
+          "name": "Grassland",
+          "count": 1
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Greenwall Rainshadow",
+      "climateRegime": "polar; wetland fog and flood pulses",
+      "provinceCenterLatitude": -71.70886,
+      "provinceCenterLongitude": -32.83595,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and grass with water",
+    "mappedBiomePath": "Hybrid/Beach and grass with water",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 890.0,
+      "y": 887.0,
+      "longitude": -23.55469,
+      "latitude": -65.91797,
+      "utc": "UTC-2",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "grayson",
+      "name": "Grayson",
+      "sourceType": "immersive_npc_roster",
+      "role": "Tracking Companion",
+      "faction": "The Freeblade Veil",
+      "settlement": "Thalyréss",
+      "province": "Falthrakar",
+      "settlementKey": "falthrakar:Thalyréss",
+      "provinceKey": "falthrakar",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "grayson",
+      "name": "Grayson",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Falthrakar",
+      "provinceKey": "falthrakar",
+      "settlement": "Thalyréss",
+      "settlementKey": "falthrakar:Thalyréss",
+      "description": "Grayson is a bold, sharp-witted Deorbasun tracker with a protective streak so strong it borders on territorial law. Cast out young and forced to survive on instinct, they now use humor, suspicion, cooking, and uncanny trail-reading to keep their chosen family fed, found, and defended.\nTheir Deorbasun blood makes them especially tuned to scent, movement, emotional shifts, disturbed ground, and spiritual pressure, turning them into the kind of companion who notices danger before anyone else has named it. Through the Freeblade Veil, Grayson works from the Freeblade Kennel as a loyal guide, short-order cook, spirit-sensitive scout, and defender of strays, wards, and anyone they decide belongs to the pack.",
+      "settlementAndAncestryTexture": "Thalyréss is a Village in Falthrakar, under Diarchy, with moderate danger, Beach and grass with water, Beach and reefs with water, Partial forest terrain. Local records favor Altruistic, Neutral, Cooperative, Neutral civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie. Deorbasun reads through the Deorbasun entry of the race compendium, within Miscellaneous and Hard-to-Classify Races, marked by Nephthysra. Majestic Beast-Souled Guardians of Instinct, Honor, and Mystical Territory. Table cues: ancestral instincts, homeland pressure, and local reputation; starting tendency Altruistic - Lawful - Neutral - Honorable.",
+      "rumors": [
+        "Grayson knows why an ichor ledger changed hands last Sigranday.",
+        "Grayson has a contact in Greybriar who will deny everything."
+      ],
+      "plotHooks": [
+        "Grayson asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Grayson's public story is incomplete."
+      ],
+      "profileId": "npc_0008_grayson",
+      "race": "Deorbasun",
+      "genderAndPronouns": "Agender • they/them",
+      "householdRole": "Ward",
+      "residence": "Thalyréss - Rowhouse",
+      "workplace": "Freeblade Kennel",
+      "job": "Tracking Companion",
+      "faction": "The Freeblade Veil",
+      "profileTable": {
+        "id": "npc_0008_grayson",
+        "race": "Deorbasun",
+        "gender_pronouns": "Agender • they/them",
+        "household_role": "Ward",
+        "province": "Falthrakar",
+        "settlement": "Thalyréss",
+        "residence": "Thalyréss - Rowhouse",
+        "workplace": "Freeblade Kennel",
+        "job": "Tracking Companion",
+        "faction": "The Freeblade Veil"
+      },
+      "quickIndexNumber": 8,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Thalyréss",
+        "province": "Falthrakar",
+        "settlementKey": "falthrakar:Thalyréss",
+        "provinceKey": "falthrakar"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

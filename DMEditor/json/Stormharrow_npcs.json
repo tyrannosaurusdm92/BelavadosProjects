@@ -1,0 +1,397 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "marrowynd:Stormharrow",
+  "settlement": "Stormharrow",
+  "provinceKey": "marrowynd",
+  "province": "Marrowynd",
+  "settlementType": "Capital City",
+  "settlementJsonPath": "shared/settlements/Marrowynd/Stormharrow/Stormharrow_Marrowynd.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "marrowynd:Stormharrow",
+    "provinceKey": "marrowynd",
+    "province": "Marrowynd",
+    "settlement": "Stormharrow",
+    "type": "Capital City",
+    "biomes": [
+      "Farming",
+      "Partial forest",
+      "Beach and grass with water"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Stormharrow at the final Farming anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 897.0,
+        "y": 242.0,
+        "ix": 897,
+        "iy": 242
+      },
+      "mappedBiomeDepth": "Farming",
+      "mappedBiomePath": "Plains/Farming",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 130.67,
+      "surfaceAnchorZMeters": 131,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 131,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -22.32422,
+        47.46094,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -22.32422,
+        47.46094,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Farming",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Marrowynd",
+      "Named river / delta / canal / lake": "Marrowynd Northgate Sea",
+      "Named bay / gulf / sea / sound": "Marrowynd Coldblue Bay",
+      "Terrain that feeds the water": "Partial forest; Beach and grass with water; Farming"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Marrowynd",
+      "Mountain range / highland": "Marrowynd Bonebacks",
+      "Volcano / vent / caldera": "Bluebone Cone",
+      "Forest / swamp / landmark": "Northroot Wetwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Marrowynd",
+      "Climate regime": "subpolar with marine/deep-water sectors",
+      "Dominant terrain": "Partial forest; Beach and grass with water; Farming",
+      "Named weather": "Boneback Wet Gales",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Marrowynd is centered at 61.785677, -112.285013 under Representative Democracy, with 43,221,000 people across 11 settlements.",
+      "extremeAtlasDescription": "Marrowynd occupies 6,188,436.06 sq mi / 16,027,975.82 sq km of modeled Earth-sized territory, about 3.142334% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Beach and grass with water and Farming define its broad terrain, while its settlements intensify into Beach and grass with water, Ocean Surface floating settlement, Partial forest and Farming. Population density is 2.697 people/sq km / 6.984 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Nefarokir, Eirzunet, Sigrananna, Thalunesh, and 3 more.",
+      "groupLinkDescription": "The province participates in 19 recorded four-province geography group links, including 17 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 6
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Harengon",
+          "count": 8
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 7
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 6
+        },
+        {
+          "name": "Faerie",
+          "count": 6
+        },
+        {
+          "name": "Satyr",
+          "count": 6
+        },
+        {
+          "name": "Changeling",
+          "count": 6
+        },
+        {
+          "name": "Tabaxi",
+          "count": 6
+        },
+        {
+          "name": "Bearfolk",
+          "count": 6
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 11
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Nefarokir",
+          "count": 11
+        },
+        {
+          "name": "Eirzunet",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Thalunesh",
+          "count": 8
+        },
+        {
+          "name": "Hathruna",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Submarine",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 6
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 3
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Boneback Wet Gales",
+      "climateRegime": "subpolar with marine/deep-water sectors",
+      "provinceCenterLatitude": 58.6904,
+      "provinceCenterLongitude": -23.93669,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Farming",
+    "mappedBiomePath": "Plains/Farming",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 897.0,
+      "y": 242.0,
+      "longitude": -22.32422,
+      "latitude": 47.46094,
+      "utc": "UTC-1",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 0,
+  "sourceTypeCounts": {},
+  "locationRoleCounts": {},
+  "npcReferences": [],
+  "npcs": [],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

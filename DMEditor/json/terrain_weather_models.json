@@ -1,0 +1,3593 @@
+{
+  "biome_catalog": [
+    {
+      "id": "ocean_surface_floating_settlement",
+      "group": "Ocean",
+      "name": "Ocean Surface floating settlement",
+      "color": "#4cc9d8"
+    },
+    {
+      "id": "underwater_with_reefs",
+      "group": "Ocean",
+      "name": "Underwater with reefs",
+      "color": "#2aa889"
+    },
+    {
+      "id": "underwater_without_reefs",
+      "group": "Ocean",
+      "name": "Underwater without reefs",
+      "color": "#1c5f85"
+    },
+    {
+      "id": "grassland",
+      "group": "Plains",
+      "name": "Grassland",
+      "color": "#7cae4d"
+    },
+    {
+      "id": "prairie",
+      "group": "Plains",
+      "name": "Prairie",
+      "color": "#b6b85c"
+    },
+    {
+      "id": "farming",
+      "group": "Plains",
+      "name": "Farming",
+      "color": "#c8a64b"
+    },
+    {
+      "id": "mountain_range",
+      "group": "Mountains",
+      "name": "Mountain range",
+      "color": "#8b8177"
+    },
+    {
+      "id": "valley",
+      "group": "Mountains",
+      "name": "Valley",
+      "color": "#6f9b55"
+    },
+    {
+      "id": "deep_cavern",
+      "group": "Mountains",
+      "name": "Deep cavern",
+      "color": "#554b5f"
+    },
+    {
+      "id": "deep_lush_forest",
+      "group": "Forest",
+      "name": "Deep and Lush forest",
+      "color": "#1f6f3d"
+    },
+    {
+      "id": "rainforest",
+      "group": "Forest",
+      "name": "Rainforest",
+      "color": "#147a45"
+    },
+    {
+      "id": "partial_forest",
+      "group": "Forest",
+      "name": "Partial forest",
+      "color": "#4e8648"
+    },
+    {
+      "id": "treetops_treehouses",
+      "group": "Forest",
+      "name": "Treetops - treehouses",
+      "color": "#2d8f67"
+    },
+    {
+      "id": "marshes_swamps",
+      "group": "Forest",
+      "name": "Marshes and swamps",
+      "color": "#557c5b"
+    },
+    {
+      "id": "beach_grass_water",
+      "group": "Hybrid",
+      "name": "Beach and grass with water",
+      "color": "#c7bf72"
+    },
+    {
+      "id": "beach_reefs_water",
+      "group": "Hybrid",
+      "name": "Beach and reefs with water",
+      "color": "#69bda4"
+    },
+    {
+      "id": "hybrid_tree_forest_floor",
+      "group": "Hybrid",
+      "name": "Hybrid tree and forest floor",
+      "color": "#3f7e4e"
+    },
+    {
+      "id": "hybrid_farming_forest_grassland",
+      "group": "Hybrid",
+      "name": "Hybrid farming forest grassland",
+      "color": "#8f9f52"
+    }
+  ],
+  "biome_model": {
+    "cell_area_km2": 100,
+    "nominal_cell_dimensions_km": "10 × 10",
+    "maximum_biomes_per_cell": 3,
+    "profiles": {
+      "f1": {
+        "focal_id": "f1",
+        "landmass_name": "Vuelmora / Zal’tharuun",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2200"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "temperate and cold-water reef gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5500 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f2": {
+        "focal_id": "f2",
+        "landmass_name": "Drakmorren",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–4800"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "temperate and cold-water reef gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 7500 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f3": {
+        "focal_id": "f3",
+        "landmass_name": "Bravelyn / Vaelmyrith",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "treetops_treehouses",
+            "name": "Treetops - treehouses",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2400"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 7300 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f4": {
+        "focal_id": "f4",
+        "landmass_name": "Kaelvorrin / Sylvavéryn",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.56
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.505
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–4600"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "temperate and cold-water reef gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5298 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f5": {
+        "focal_id": "f5",
+        "landmass_name": "Aelwynora",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2300"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 4985 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f6": {
+        "focal_id": "f6",
+        "landmass_name": "Astraevos / Valerune",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "treetops_treehouses",
+            "name": "Treetops - treehouses",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–3400"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5122 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f7": {
+        "focal_id": "f7",
+        "landmass_name": "Zharvokh",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–1900"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 6500 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f8": {
+        "focal_id": "f8",
+        "landmass_name": "Lun’tharavé",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.505
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2500"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 6000 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f9": {
+        "focal_id": "f9",
+        "landmass_name": "Khorvaak",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2400"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 7600 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f10": {
+        "focal_id": "f10",
+        "landmass_name": "Thalryss",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "treetops_treehouses",
+            "name": "Treetops - treehouses",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2100"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5170 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f11": {
+        "focal_id": "f11",
+        "landmass_name": "El'dravire Riverrealm",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–3200"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5200 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f12": {
+        "focal_id": "f12",
+        "landmass_name": "Jor’maelis",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "group": "Ocean",
+            "relative_weight": 0.67
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–3300"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "temperate and cold-water reef gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5094 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f13": {
+        "focal_id": "f13",
+        "landmass_name": "Aelvanyr / Eldermere",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–5100"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5231 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f14": {
+        "focal_id": "f14",
+        "landmass_name": "Falthrakar / Pelvoryn",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2800"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "cold-water reef and sponge gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 7600 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f15": {
+        "focal_id": "f15",
+        "landmass_name": "Ceulrithan",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2300"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5305 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f16": {
+        "focal_id": "f16",
+        "landmass_name": "Gruddirynn",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "rainforest",
+            "name": "Rainforest",
+            "group": "Forest",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "treetops_treehouses",
+            "name": "Treetops - treehouses",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2500"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 4992 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f17": {
+        "focal_id": "f17",
+        "landmass_name": "Earrorim",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2000"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5279 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f18": {
+        "focal_id": "f18",
+        "landmass_name": "Kharvathen",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2500"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5616 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f19": {
+        "focal_id": "f19",
+        "landmass_name": "Virelport",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "deep_cavern",
+            "name": "Deep cavern",
+            "group": "Mountains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.725
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–2700"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "cold-water reef and sponge gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5053 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f20": {
+        "focal_id": "f20",
+        "landmass_name": "Marrowynd",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "beach_grass_water",
+            "name": "Beach and grass with water",
+            "group": "Hybrid",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "hybrid_tree_forest_floor",
+            "name": "Hybrid tree and forest floor",
+            "group": "Hybrid",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–4300"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "temperate and cold-water reef gardens"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 5190 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      },
+      "f21": {
+        "focal_id": "f21",
+        "landmass_name": "Iazethas / Nalvessir",
+        "cell_area_km2": 100,
+        "nominal_cell_dimensions_km": "10 × 10",
+        "maximum_biomes_per_cell": 3,
+        "land_biomes": [
+          {
+            "id": "grassland",
+            "name": "Grassland",
+            "group": "Plains",
+            "relative_weight": 1.0
+          },
+          {
+            "id": "prairie",
+            "name": "Prairie",
+            "group": "Plains",
+            "relative_weight": 0.945
+          },
+          {
+            "id": "farming",
+            "name": "Farming",
+            "group": "Plains",
+            "relative_weight": 0.89
+          },
+          {
+            "id": "partial_forest",
+            "name": "Partial forest",
+            "group": "Forest",
+            "relative_weight": 0.835
+          },
+          {
+            "id": "deep_lush_forest",
+            "name": "Deep and Lush forest",
+            "group": "Forest",
+            "relative_weight": 0.78
+          },
+          {
+            "id": "mountain_range",
+            "name": "Mountain range",
+            "group": "Mountains",
+            "relative_weight": 0.725
+          },
+          {
+            "id": "valley",
+            "name": "Valley",
+            "group": "Mountains",
+            "relative_weight": 0.67
+          },
+          {
+            "id": "marshes_swamps",
+            "name": "Marshes and swamps",
+            "group": "Forest",
+            "relative_weight": 0.615
+          },
+          {
+            "id": "beach_reefs_water",
+            "name": "Beach and reefs with water",
+            "group": "Hybrid",
+            "relative_weight": 0.56
+          },
+          {
+            "id": "hybrid_farming_forest_grassland",
+            "name": "Hybrid farming forest grassland",
+            "group": "Hybrid",
+            "relative_weight": 0.505
+          }
+        ],
+        "ocean_biomes": [
+          {
+            "id": "ocean_surface_floating_settlement",
+            "name": "Ocean Surface floating settlement",
+            "depth_range_m": "surface",
+            "distance_range_km": "0–4700"
+          },
+          {
+            "id": "underwater_with_reefs",
+            "name": "Underwater with reefs",
+            "depth_range_m": "generally 0–150 m for shallow reefs; deep reef gardens may extend along shelf and slope",
+            "reef_style": "warm shallow and mesophotic reefs"
+          },
+          {
+            "id": "underwater_without_reefs",
+            "name": "Underwater without reefs",
+            "depth_range_m": "0 to 8500 m"
+          }
+        ],
+        "assignment_method": "Deterministic 100 km² equal-area cell mosaic. Elevation, slope, moisture proxy, distance to coast, latitude, and land-use noise select one primary biome and up to two compatible overlays.",
+        "overlap_rule": "No cell contains more than three biomes. Caverns may underlay a surface biome; treetop or hybrid layers may overlay a forest/ground biome.",
+        "canonical_status": "Locked to the province and settlement canon."
+      }
+    },
+    "catalog_size": 18,
+    "visual_texture_resolution": [
+      2048,
+      1024
+    ]
+  },
+  "ocean_floor_model": {
+    "profiles": {
+      "f1": {
+        "focal_id": "f1",
+        "landmass_name": "Vuelmora / Zal’tharuun",
+        "margin_class": "mixed-active",
+        "continental_shelf_width_km": 86.9,
+        "shelf_break_depth_m": -180,
+        "continental_slope_width_km": 112.8,
+        "slope_base_depth_m": -3600,
+        "continental_rise_width_km": 224.4,
+        "abyssal_plain_depth_m": -4787,
+        "maximum_modeled_trench_depth_m": -5500,
+        "ocean_settlement_domain_radius_km": 2200,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f2": {
+        "focal_id": "f2",
+        "landmass_name": "Drakmorren",
+        "margin_class": "active-convergent",
+        "continental_shelf_width_km": 52.2,
+        "shelf_break_depth_m": -175,
+        "continental_slope_width_km": 93.1,
+        "slope_base_depth_m": -3900,
+        "continental_rise_width_km": 164.9,
+        "abyssal_plain_depth_m": -5024,
+        "maximum_modeled_trench_depth_m": -7500,
+        "ocean_settlement_domain_radius_km": 4800,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f3": {
+        "focal_id": "f3",
+        "landmass_name": "Bravelyn / Vaelmyrith",
+        "margin_class": "active-convergent",
+        "continental_shelf_width_km": 54.2,
+        "shelf_break_depth_m": -175,
+        "continental_slope_width_km": 96.9,
+        "slope_base_depth_m": -3900,
+        "continental_rise_width_km": 170.9,
+        "abyssal_plain_depth_m": -5161,
+        "maximum_modeled_trench_depth_m": -7300,
+        "ocean_settlement_domain_radius_km": 2400,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f4": {
+        "focal_id": "f4",
+        "landmass_name": "Kaelvorrin / Sylvavéryn",
+        "margin_class": "active-convergent",
+        "continental_shelf_width_km": 56.1,
+        "shelf_break_depth_m": -175,
+        "continental_slope_width_km": 100.7,
+        "slope_base_depth_m": -3900,
+        "continental_rise_width_km": 176.8,
+        "abyssal_plain_depth_m": -4798,
+        "maximum_modeled_trench_depth_m": -5298,
+        "ocean_settlement_domain_radius_km": 4600,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f5": {
+        "focal_id": "f5",
+        "landmass_name": "Aelwynora",
+        "margin_class": "rift-volcanic",
+        "continental_shelf_width_km": 84.4,
+        "shelf_break_depth_m": -170,
+        "continental_slope_width_km": 117.0,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 236.5,
+        "abyssal_plain_depth_m": -4635,
+        "maximum_modeled_trench_depth_m": -4985,
+        "ocean_settlement_domain_radius_km": 2300,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f6": {
+        "focal_id": "f6",
+        "landmass_name": "Astraevos / Valerune",
+        "margin_class": "passive",
+        "continental_shelf_width_km": 272.5,
+        "shelf_break_depth_m": -190,
+        "continental_slope_width_km": 141.0,
+        "slope_base_depth_m": -3300,
+        "continental_rise_width_km": 378.0,
+        "abyssal_plain_depth_m": -4772,
+        "maximum_modeled_trench_depth_m": -5122,
+        "ocean_settlement_domain_radius_km": 3400,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f7": {
+        "focal_id": "f7",
+        "landmass_name": "Zharvokh",
+        "margin_class": "active-convergent",
+        "continental_shelf_width_km": 48.4,
+        "shelf_break_depth_m": -175,
+        "continental_slope_width_km": 93.1,
+        "slope_base_depth_m": -3900,
+        "continental_rise_width_km": 159.0,
+        "abyssal_plain_depth_m": -5209,
+        "maximum_modeled_trench_depth_m": -6500,
+        "ocean_settlement_domain_radius_km": 1900,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f8": {
+        "focal_id": "f8",
+        "landmass_name": "Lun’tharavé",
+        "margin_class": "active-convergent",
+        "continental_shelf_width_km": 50.3,
+        "shelf_break_depth_m": -175,
+        "continental_slope_width_km": 96.9,
+        "slope_base_depth_m": -3900,
+        "continental_rise_width_km": 164.9,
+        "abyssal_plain_depth_m": -4846,
+        "maximum_modeled_trench_depth_m": -6000,
+        "ocean_settlement_domain_radius_km": 2500,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f9": {
+        "focal_id": "f9",
+        "landmass_name": "Khorvaak",
+        "margin_class": "mixed-active",
+        "continental_shelf_width_km": 90.2,
+        "shelf_break_depth_m": -180,
+        "continental_slope_width_km": 127.2,
+        "slope_base_depth_m": -3600,
+        "continental_rise_width_km": 241.2,
+        "abyssal_plain_depth_m": -4883,
+        "maximum_modeled_trench_depth_m": -7600,
+        "ocean_settlement_domain_radius_km": 2400,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f10": {
+        "focal_id": "f10",
+        "landmass_name": "Thalryss",
+        "margin_class": "passive",
+        "continental_shelf_width_km": 246.2,
+        "shelf_break_depth_m": -190,
+        "continental_slope_width_km": 135.0,
+        "slope_base_depth_m": -3300,
+        "continental_rise_width_km": 436.8,
+        "abyssal_plain_depth_m": -4820,
+        "maximum_modeled_trench_depth_m": -5170,
+        "ocean_settlement_domain_radius_km": 2100,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f11": {
+        "focal_id": "f11",
+        "landmass_name": "El'dravire Riverrealm",
+        "margin_class": "mixed",
+        "continental_shelf_width_km": 153.0,
+        "shelf_break_depth_m": -185,
+        "continental_slope_width_km": 126.9,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 322.5,
+        "abyssal_plain_depth_m": -4607,
+        "maximum_modeled_trench_depth_m": -5200,
+        "ocean_settlement_domain_radius_km": 3200,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f12": {
+        "focal_id": "f12",
+        "landmass_name": "Jor’maelis",
+        "margin_class": "mixed",
+        "continental_shelf_width_km": 158.2,
+        "shelf_break_depth_m": -185,
+        "continental_slope_width_km": 132.3,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 270.0,
+        "abyssal_plain_depth_m": -4744,
+        "maximum_modeled_trench_depth_m": -5094,
+        "ocean_settlement_domain_radius_km": 3300,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f13": {
+        "focal_id": "f13",
+        "landmass_name": "Aelvanyr / Eldermere",
+        "margin_class": "mixed",
+        "continental_shelf_width_km": 163.5,
+        "shelf_break_depth_m": -185,
+        "continental_slope_width_km": 137.7,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 280.5,
+        "abyssal_plain_depth_m": -4881,
+        "maximum_modeled_trench_depth_m": -5231,
+        "ocean_settlement_domain_radius_km": 5100,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f14": {
+        "focal_id": "f14",
+        "landmass_name": "Falthrakar / Pelvoryn",
+        "margin_class": "mixed-active",
+        "continental_shelf_width_km": 83.6,
+        "shelf_break_depth_m": -180,
+        "continental_slope_width_km": 127.2,
+        "slope_base_depth_m": -3600,
+        "continental_rise_width_km": 232.8,
+        "abyssal_plain_depth_m": -5068,
+        "maximum_modeled_trench_depth_m": -7600,
+        "ocean_settlement_domain_radius_km": 2800,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f15": {
+        "focal_id": "f15",
+        "landmass_name": "Ceulrithan",
+        "margin_class": "active-convergent",
+        "continental_shelf_width_km": 50.3,
+        "shelf_break_depth_m": -175,
+        "continental_slope_width_km": 85.5,
+        "slope_base_depth_m": -3900,
+        "continental_rise_width_km": 170.9,
+        "abyssal_plain_depth_m": -4805,
+        "maximum_modeled_trench_depth_m": -5305,
+        "ocean_settlement_domain_radius_km": 2300,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f16": {
+        "focal_id": "f16",
+        "landmass_name": "Gruddirynn",
+        "margin_class": "passive",
+        "continental_shelf_width_km": 237.5,
+        "shelf_break_depth_m": -190,
+        "continental_slope_width_km": 141.0,
+        "slope_base_depth_m": -3300,
+        "continental_rise_width_km": 436.8,
+        "abyssal_plain_depth_m": -4642,
+        "maximum_modeled_trench_depth_m": -4992,
+        "ocean_settlement_domain_radius_km": 2500,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f17": {
+        "focal_id": "f17",
+        "landmass_name": "Earrorim",
+        "margin_class": "mixed",
+        "continental_shelf_width_km": 147.8,
+        "shelf_break_depth_m": -185,
+        "continental_slope_width_km": 132.3,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 322.5,
+        "abyssal_plain_depth_m": -4929,
+        "maximum_modeled_trench_depth_m": -5279,
+        "ocean_settlement_domain_radius_km": 2000,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f18": {
+        "focal_id": "f18",
+        "landmass_name": "Kharvathen",
+        "margin_class": "mixed-active",
+        "continental_shelf_width_km": 96.9,
+        "shelf_break_depth_m": -180,
+        "continental_slope_width_km": 122.4,
+        "slope_base_depth_m": -3600,
+        "continental_rise_width_km": 216.0,
+        "abyssal_plain_depth_m": -5116,
+        "maximum_modeled_trench_depth_m": -5616,
+        "ocean_settlement_domain_radius_km": 2500,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f19": {
+        "focal_id": "f19",
+        "landmass_name": "Virelport",
+        "margin_class": "mixed",
+        "continental_shelf_width_km": 158.2,
+        "shelf_break_depth_m": -185,
+        "continental_slope_width_km": 143.1,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 280.5,
+        "abyssal_plain_depth_m": -4703,
+        "maximum_modeled_trench_depth_m": -5053,
+        "ocean_settlement_domain_radius_km": 2700,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f20": {
+        "focal_id": "f20",
+        "landmass_name": "Marrowynd",
+        "margin_class": "mixed",
+        "continental_shelf_width_km": 163.5,
+        "shelf_break_depth_m": -185,
+        "continental_slope_width_km": 121.5,
+        "slope_base_depth_m": -3500,
+        "continental_rise_width_km": 291.0,
+        "abyssal_plain_depth_m": -4840,
+        "maximum_modeled_trench_depth_m": -5190,
+        "ocean_settlement_domain_radius_km": 4300,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      },
+      "f21": {
+        "focal_id": "f21",
+        "landmass_name": "Iazethas / Nalvessir",
+        "margin_class": "mixed-active",
+        "continental_shelf_width_km": 83.6,
+        "shelf_break_depth_m": -180,
+        "continental_slope_width_km": 112.8,
+        "slope_base_depth_m": -3600,
+        "continental_rise_width_km": 241.2,
+        "abyssal_plain_depth_m": -5027,
+        "maximum_modeled_trench_depth_m": -8500,
+        "ocean_settlement_domain_radius_km": 4700,
+        "ocean_domain_minimum_required_km": 800,
+        "ocean_domain_maximum_allowed_km": 10000,
+        "overlap_policy": "Ocean settlement domains may overlap. The nearest coastline is the primary planning reference; near-equal distances are shared/disputed mapping space.",
+        "canonical_status": "Locked Belavadös ocean-floor settlement domain."
+      }
+    },
+    "distance_basis": "great-circle distance to nearest authoritative land pixel with dateline wrap",
+    "domain_range_km": [
+      800,
+      10000
+    ],
+    "zones": [
+      "coastal shallows / continental shelf",
+      "continental slope",
+      "continental rise",
+      "abyssal plain / oceanic plate",
+      "active-margin trench"
+    ],
+    "visual_texture_resolution": [
+      2048,
+      1024
+    ],
+    "lookup_texture_resolution": [
+      1024,
+      512
+    ],
+    "overlap_policy": "Domains may overlap and may be treated as shared/disputed ocean-floor settlement mapping space."
+  },
+  "plate_boundaries": [
+    {
+      "name": "Gruddirynn Ridge",
+      "type": "divergent",
+      "coords": [
+        [
+          -45,
+          87
+        ],
+        [
+          -30,
+          70
+        ],
+        [
+          -28,
+          55
+        ],
+        [
+          -32,
+          40
+        ],
+        [
+          -25,
+          25
+        ],
+        [
+          -20,
+          10
+        ],
+        [
+          -15,
+          -5
+        ],
+        [
+          -14,
+          -20
+        ],
+        [
+          -12,
+          -35
+        ],
+        [
+          -18,
+          -50
+        ],
+        [
+          -10,
+          -60
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Rise",
+      "type": "divergent",
+      "coords": [
+        [
+          -110,
+          32
+        ],
+        [
+          -108,
+          15
+        ],
+        [
+          -105,
+          0
+        ],
+        [
+          -110,
+          -15
+        ],
+        [
+          -115,
+          -30
+        ],
+        [
+          -120,
+          -45
+        ],
+        [
+          -130,
+          -55
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "El'dravire Riverrealm Ridge",
+      "type": "divergent",
+      "coords": [
+        [
+          -150,
+          -60
+        ],
+        [
+          -125,
+          -58
+        ],
+        [
+          -105,
+          -60
+        ],
+        [
+          -80,
+          -62
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "El'dravire Riverrealm"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "El'dravire Riverrealm",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Valerune Ridge",
+      "type": "divergent",
+      "coords": [
+        [
+          75,
+          -55
+        ],
+        [
+          95,
+          -50
+        ],
+        [
+          115,
+          -48
+        ],
+        [
+          135,
+          -52
+        ],
+        [
+          155,
+          -58
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Valerune"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Valerune",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Aelwynora Ridge",
+      "type": "divergent",
+      "coords": [
+        [
+          20,
+          -55
+        ],
+        [
+          35,
+          -50
+        ],
+        [
+          50,
+          -43
+        ],
+        [
+          65,
+          -40
+        ],
+        [
+          75,
+          -45
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Aelwynora"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Aelwynora",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Thalryss Ridge",
+      "type": "divergent",
+      "coords": [
+        [
+          58,
+          12
+        ],
+        [
+          62,
+          0
+        ],
+        [
+          66,
+          -15
+        ],
+        [
+          70,
+          -30
+        ],
+        [
+          72,
+          -42
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Thalryss"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Thalryss",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Rift",
+      "type": "divergent",
+      "coords": [
+        [
+          32,
+          28
+        ],
+        [
+          38,
+          20
+        ],
+        [
+          43,
+          13
+        ],
+        [
+          52,
+          12
+        ],
+        [
+          60,
+          10
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "El'dravire Riverrealm Rift",
+      "type": "continental_rift",
+      "coords": [
+        [
+          36,
+          12
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          35,
+          -3
+        ],
+        [
+          34,
+          -12
+        ],
+        [
+          35,
+          -22
+        ],
+        [
+          32,
+          -30
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "El'dravire Riverrealm"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "El'dravire Riverrealm",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Subduction Zone",
+      "type": "convergent",
+      "coords": [
+        [
+          145,
+          42
+        ],
+        [
+          160,
+          50
+        ],
+        [
+          178,
+          52
+        ],
+        [
+          -165,
+          54
+        ],
+        [
+          -150,
+          58
+        ],
+        [
+          -138,
+          58
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          -130,
+          50
+        ],
+        [
+          -125,
+          42
+        ],
+        [
+          -120,
+          33
+        ],
+        [
+          -110,
+          24
+        ],
+        [
+          -100,
+          16
+        ],
+        [
+          -90,
+          12
+        ],
+        [
+          -82,
+          8
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "El'dravire Riverrealm Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          -80,
+          8
+        ],
+        [
+          -82,
+          -5
+        ],
+        [
+          -80,
+          -18
+        ],
+        [
+          -75,
+          -32
+        ],
+        [
+          -73,
+          -45
+        ],
+        [
+          -75,
+          -55
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "El'dravire Riverrealm"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "El'dravire Riverrealm",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Valerune Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          -175,
+          -15
+        ],
+        [
+          -176,
+          -25
+        ],
+        [
+          -178,
+          -35
+        ],
+        [
+          178,
+          -45
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Valerune"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Valerune",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Aelwynora Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          145,
+          30
+        ],
+        [
+          145,
+          38
+        ],
+        [
+          150,
+          45
+        ],
+        [
+          160,
+          52
+        ],
+        [
+          165,
+          58
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Aelwynora"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Aelwynora",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Thalryss Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          142,
+          34
+        ],
+        [
+          143,
+          25
+        ],
+        [
+          145,
+          15
+        ],
+        [
+          145,
+          5
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Thalryss"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Thalryss",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Zharvokh Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          128,
+          20
+        ],
+        [
+          130,
+          12
+        ],
+        [
+          128,
+          5
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Zharvokh"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Zharvokh",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Kharvathen Trench",
+      "type": "convergent",
+      "coords": [
+        [
+          94,
+          15
+        ],
+        [
+          96,
+          5
+        ],
+        [
+          100,
+          -3
+        ],
+        [
+          108,
+          -8
+        ],
+        [
+          120,
+          -11
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Kharvathen"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Kharvathen",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Collision Belt",
+      "type": "collision",
+      "coords": [
+        [
+          70,
+          35
+        ],
+        [
+          78,
+          32
+        ],
+        [
+          86,
+          29
+        ],
+        [
+          95,
+          28
+        ],
+        [
+          102,
+          30
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Belt",
+      "type": "collision",
+      "coords": [
+        [
+          -8,
+          36
+        ],
+        [
+          5,
+          40
+        ],
+        [
+          15,
+          38
+        ],
+        [
+          25,
+          38
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          45,
+          38
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Gruddirynn Boundary",
+      "type": "mixed",
+      "coords": [
+        [
+          -88,
+          18
+        ],
+        [
+          -80,
+          19
+        ],
+        [
+          -72,
+          20
+        ],
+        [
+          -63,
+          18
+        ],
+        [
+          -60,
+          13
+        ],
+        [
+          -70,
+          10
+        ],
+        [
+          -82,
+          10
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "El'dravire Riverrealm Boundary",
+      "type": "mixed",
+      "coords": [
+        [
+          -70,
+          -55
+        ],
+        [
+          -55,
+          -57
+        ],
+        [
+          -40,
+          -58
+        ],
+        [
+          -25,
+          -55
+        ]
+      ],
+      "canonical_category": "plate_boundary",
+      "lore_roots": [
+        "El'dravire Riverrealm"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "El'dravire Riverrealm",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    }
+  ],
+  "weather_paths": [
+    {
+      "name": "Gruddirynn Atmospheric Path",
+      "group": "circulation",
+      "kind": "band",
+      "lat": 5,
+      "description": "Migrating equatorial convergence and rainfall belt.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Gruddirynn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Gruddirynn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Aelwynora Atmospheric Path",
+      "group": "jet_stream",
+      "kind": "band",
+      "lat": 30,
+      "description": "Upper-tropospheric westerly jet near the poleward edge of the Hadley cell.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Aelwynora"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Aelwynora",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Valerune Atmospheric Path",
+      "group": "jet_stream",
+      "kind": "band",
+      "lat": -30,
+      "description": "Upper-tropospheric westerly jet near the poleward edge of the Hadley cell.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Valerune"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Valerune",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Marrowynd Atmospheric Path",
+      "group": "jet_stream",
+      "kind": "wave",
+      "lat": 55,
+      "description": "Meandering midlatitude jet associated with fronts and storm tracks.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Marrowynd"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Marrowynd",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Pelvoryn Atmospheric Path",
+      "group": "jet_stream",
+      "kind": "wave",
+      "lat": -55,
+      "description": "Meandering midlatitude jet associated with Chandratecu-Seleneš's Pale Ocean storm tracks.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Pelvoryn"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Pelvoryn",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "El'dravire Riverrealm Atmospheric Path",
+      "group": "surface_wind",
+      "kind": "arrows",
+      "lat": 15,
+      "direction": -1,
+      "description": "Predominantly northeasterly surface flow toward the tropical convergence zone.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "El'dravire Riverrealm"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "El'dravire Riverrealm",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Thalryss Atmospheric Path",
+      "group": "surface_wind",
+      "kind": "arrows",
+      "lat": -15,
+      "direction": -1,
+      "description": "Predominantly southeasterly surface flow toward the tropical convergence zone.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Thalryss"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Thalryss",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Virelport Atmospheric Path",
+      "group": "surface_wind",
+      "kind": "arrows",
+      "lat": 45,
+      "direction": 1,
+      "description": "Prevailing west-to-east flow in the Ferrel-cell latitude belt.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Virelport"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Virelport",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Falthrakar Atmospheric Path",
+      "group": "surface_wind",
+      "kind": "arrows",
+      "lat": -45,
+      "direction": 1,
+      "description": "Strong west-to-east flow, especially over the Chandratecu-Seleneš's Pale Ocean.",
+      "canonical_category": "weather_path",
+      "lore_roots": [
+        "Falthrakar"
+      ],
+      "naming_basis": {
+        "root_type": "province",
+        "root_name": "Falthrakar",
+        "root_province": null,
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    }
+  ],
+  "ocean_currents": [
+    {
+      "name": "Umiotope Ocean Current",
+      "coords": [
+        [
+          -80,
+          25
+        ],
+        [
+          -72,
+          35
+        ],
+        [
+          -55,
+          43
+        ],
+        [
+          -35,
+          50
+        ],
+        [
+          -15,
+          58
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Umiotope"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Umiotope",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Sleakitika Ocean Current",
+      "coords": [
+        [
+          -55,
+          65
+        ],
+        [
+          -52,
+          55
+        ],
+        [
+          -50,
+          45
+        ],
+        [
+          -55,
+          38
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Sleakitika"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Sleakitika",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Aelvyréa Ocean Current",
+      "coords": [
+        [
+          -15,
+          45
+        ],
+        [
+          -20,
+          35
+        ],
+        [
+          -20,
+          25
+        ],
+        [
+          -18,
+          15
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Aelvyréa"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Aelvyréa",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Dravéssar Ocean Current",
+      "coords": [
+        [
+          -35,
+          -5
+        ],
+        [
+          -40,
+          -20
+        ],
+        [
+          -48,
+          -35
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Dravéssar"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Dravéssar",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Morélyth Ocean Current",
+      "coords": [
+        [
+          15,
+          -35
+        ],
+        [
+          10,
+          -25
+        ],
+        [
+          8,
+          -15
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Morélyth"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Morélyth",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Bleosianys Ocean Current",
+      "coords": [
+        [
+          42,
+          -15
+        ],
+        [
+          38,
+          -28
+        ],
+        [
+          25,
+          -38
+        ],
+        [
+          15,
+          -42
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Bleosianys"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Bleosianys",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Othéryn Ocean Current",
+      "coords": [
+        [
+          125,
+          15
+        ],
+        [
+          130,
+          25
+        ],
+        [
+          140,
+          35
+        ],
+        [
+          155,
+          40
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Othéryn"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Othéryn",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Wrobetopia Ocean Current",
+      "coords": [
+        [
+          165,
+          55
+        ],
+        [
+          155,
+          45
+        ],
+        [
+          145,
+          38
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Wrobetopia"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Wrobetopia",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Coravûn Ocean Current",
+      "coords": [
+        [
+          -135,
+          45
+        ],
+        [
+          -128,
+          35
+        ],
+        [
+          -120,
+          25
+        ],
+        [
+          -112,
+          18
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Coravûn"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Coravûn",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Vaeloréss Ocean Current",
+      "coords": [
+        [
+          -78,
+          -50
+        ],
+        [
+          -78,
+          -35
+        ],
+        [
+          -80,
+          -20
+        ],
+        [
+          -82,
+          -5
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Vaeloréss"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Vaeloréss",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Faeloryth Ocean Current",
+      "coords": [
+        [
+          155,
+          -10
+        ],
+        [
+          155,
+          -25
+        ],
+        [
+          150,
+          -38
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Faeloryth"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Faeloryth",
+        "root_province": "Gruddirynn",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Murethash Ocean Current",
+      "coords": [
+        [
+          112,
+          -35
+        ],
+        [
+          112,
+          -25
+        ],
+        [
+          115,
+          -15
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Murethash"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Murethash",
+        "root_province": "El'dravire Riverrealm",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Merrinthal Ocean Current",
+      "coords": [
+        [
+          130,
+          2
+        ],
+        [
+          122,
+          -5
+        ],
+        [
+          116,
+          -10
+        ]
+      ],
+      "temperature": "warm",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Merrinthal"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Merrinthal",
+        "root_province": "El'dravire Riverrealm",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    },
+    {
+      "name": "Maelvéra Ocean Current",
+      "coords": [
+        [
+          -180,
+          -55
+        ],
+        [
+          -120,
+          -58
+        ],
+        [
+          -60,
+          -56
+        ],
+        [
+          0,
+          -57
+        ],
+        [
+          60,
+          -55
+        ],
+        [
+          120,
+          -58
+        ],
+        [
+          180,
+          -55
+        ]
+      ],
+      "temperature": "cold",
+      "canonical_category": "ocean_current",
+      "lore_roots": [
+        "Maelvéra"
+      ],
+      "naming_basis": {
+        "root_type": "settlement",
+        "root_name": "Maelvéra",
+        "root_province": "El'dravire Riverrealm",
+        "method": "nearest remapped root with category-preserving physical kind"
+      }
+    }
+  ],
+  "scientific_basis": {
+    "status": "Canon-locked worldbuilding surface.",
+    "terrain_note": "The full terrain, shelf, slope, rise, abyss and trench model is fixed and cannot be geographically edited in this viewer.",
+    "ocean_domain_note": "Province-linked ocean-floor settlement domains remain 800–10,000 km from their governing coastline models."
+  }
+}

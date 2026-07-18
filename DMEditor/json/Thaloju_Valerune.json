@@ -1,0 +1,2209 @@
+{
+  "schema": "belavados.settlement.canonical.v4",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "sourceWorldZip": "Belavados_World_Player_Map_FINAL_UNBROKEN_LOCKED.zip",
+  "sourceHybridCacheZip": "belavados_hybrid_location_cache_pages.zip",
+  "htmlFileName": "Thaloju_Valerune.html",
+  "sourceMapHtmlFileName": "Thaloju_Valerune.html",
+  "settlementJsonFileName": "Thaloju_Valerune.json",
+  "provinceFolder": "Valerune",
+  "settlementFolder": "Thaloju",
+  "template": {
+    "size": "Village",
+    "folder": "villages",
+    "biomeCacheUsed": [
+      "Farming",
+      "Deep forest",
+      "Partial forest"
+    ],
+    "sourceTemplateFile": "villages/farming__deep-forest__partial-forest.html",
+    "sourceSettlementBiomes": [
+      "Partial forest",
+      "Farming",
+      "Deep forest"
+    ]
+  },
+  "settlement": {
+    "id": "valerune:Thaloju",
+    "scope": "settlement",
+    "province": "Valerune",
+    "provinceKey": "valerune",
+    "provinceFolder": "Valerune",
+    "settlement": "Thaloju",
+    "name": "Thaloju",
+    "type": "Village",
+    "settlementType": "Village",
+    "x": 871.0,
+    "y": 744.0,
+    "lat": -40.78125,
+    "lon": -26.89453,
+    "latitude": -40.78125,
+    "longitude": -26.89453,
+    "population": 1656820,
+    "squareMiles": 31849.8598,
+    "squareKilometers": 82490.8185,
+    "tags": [
+      "forest",
+      "farming",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "race:dwarven-and-gnomish-kin",
+      "danger:low",
+      "government:runic-concord",
+      "type:village",
+      "water-class:land",
+      "alignment:altruistic",
+      "alignment:lawful",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:caravan",
+      "transit:train",
+      "transit:rail",
+      "faction:the-brass-concordat"
+    ],
+    "races": [
+      "Human",
+      "Halfling",
+      "Kender",
+      "Kithkin",
+      "Harengon",
+      "Centaur",
+      "Giff",
+      "Dwarf"
+    ],
+    "raceCategories": [
+      "Humans, Near-Humans, and Mixed Heritage",
+      "Halfling and Smallfolk",
+      "Animalfolk and Mammalian Anthropomorphs",
+      "Dwarven and Gnomish Kin"
+    ],
+    "deitiesWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Iskareth",
+      "Marduthor",
+      "Raeshkul"
+    ],
+    "danger": "Low",
+    "alignmentAxes": {
+      "altruism": "Altruistic",
+      "lawfulness": "Lawful",
+      "cooperation": "Cooperative",
+      "honor": "Honorable"
+    },
+    "transportation": [
+      "Caravan",
+      "Train"
+    ],
+    "htmlFileName": "Thaloju_Valerune.html",
+    "htmlFile": "Thaloju_Valerune.html",
+    "provinceGovernment": "Runic Concord",
+    "biomes": [
+      "Partial forest",
+      "Farming",
+      "Deep forest"
+    ],
+    "biomePaths": [
+      "Forest/Partial forest",
+      "Plains/Farming",
+      "Forest/Deep forest"
+    ],
+    "primaryBiome": "Partial forest",
+    "scannerDominantBiome": "Partial forest",
+    "scannerBiomeTypes": [
+      "Partial forest",
+      "Farming",
+      "Deep forest"
+    ],
+    "manualWaterLandClass": "land",
+    "hexBiomeScan": {
+      "exactHex": "#AEA657",
+      "exactBiomePath": "Plains/Farming",
+      "exactBiome": "Farming",
+      "dominantBiome": "Partial forest",
+      "biomes": [
+        "Partial forest",
+        "Farming",
+        "Deep forest"
+      ],
+      "biomePaths": [
+        "Forest/Partial forest",
+        "Plains/Farming",
+        "Forest/Deep forest"
+      ],
+      "landWaterClass": "land",
+      "localBiomePercentsRadius25": {
+        "Partial forest": 0.3268,
+        "Farming": 0.2299,
+        "Deep forest": 0.1745,
+        "Grassland": 0.1157,
+        "Marshes and swamps": 0.0792,
+        "Treetops - treehouses": 0.0392,
+        "Hybrid tree and forest floor": 0.0235,
+        "Beach and grass with water": 0.0058
+      },
+      "localBiomePercentsRadius40": {
+        "Partial forest": 0.3029,
+        "Deep forest": 0.1934,
+        "Farming": 0.1826,
+        "Grassland": 0.1102,
+        "Marshes and swamps": 0.0812,
+        "Treetops - treehouses": 0.0622,
+        "Hybrid tree and forest floor": 0.032,
+        "Beach and grass with water": 0.0232
+      },
+      "localWaterPercentRadius25": 0,
+      "localLandHybridPercentRadius25": 1.0,
+      "manualHexAuthority": true,
+      "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+    },
+    "raceCommunities": [
+      {
+        "raceId": "human",
+        "raceName": "Human",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Human",
+        "categoryId": "humans_near_humans_and_mixed_heritage",
+        "categoryName": "Humans, Near-Humans, and Mixed Heritage",
+        "categoryNumber": 1,
+        "creatorGod": "Nebyrr",
+        "deityWorshipped": "Nebyrr",
+        "presence": "common"
+      },
+      {
+        "raceId": "halfling",
+        "raceName": "Halfling",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Halfling",
+        "categoryId": "halfling_and_smallfolk",
+        "categoryName": "Halfling and Smallfolk",
+        "categoryNumber": 4,
+        "creatorGod": "Ishtanora",
+        "deityWorshipped": "Ishtanora",
+        "presence": "major"
+      },
+      {
+        "raceId": "kender",
+        "raceName": "Kender",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Kender",
+        "categoryId": "halfling_and_smallfolk",
+        "categoryName": "Halfling and Smallfolk",
+        "categoryNumber": 4,
+        "creatorGod": "Ishtanora",
+        "deityWorshipped": "Ishtanora",
+        "presence": "common"
+      },
+      {
+        "raceId": "kithkin",
+        "raceName": "Kithkin",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Kithkin",
+        "categoryId": "halfling_and_smallfolk",
+        "categoryName": "Halfling and Smallfolk",
+        "categoryNumber": 4,
+        "creatorGod": "Ishtanora",
+        "deityWorshipped": "Ishtanora",
+        "presence": "common"
+      },
+      {
+        "raceId": "harengon",
+        "raceName": "Harengon",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Harengon",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "common"
+      },
+      {
+        "raceId": "centaur",
+        "raceName": "Centaur",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Centaur",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "minority"
+      },
+      {
+        "raceId": "giff",
+        "raceName": "Giff",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Giff",
+        "categoryId": "animalfolk_and_mammalian_anthropomorphs",
+        "categoryName": "Animalfolk and Mammalian Anthropomorphs",
+        "categoryNumber": 15,
+        "creatorGod": "Iskareth",
+        "deityWorshipped": "Iskareth",
+        "presence": "minority"
+      },
+      {
+        "raceId": "dwarf",
+        "raceName": "Dwarf",
+        "lineageId": null,
+        "lineageName": null,
+        "displayName": "Dwarf",
+        "categoryId": "dwarven_and_gnomish_kin",
+        "categoryName": "Dwarven and Gnomish Kin",
+        "categoryNumber": 3,
+        "creatorGod": "Marduthor",
+        "deityWorshipped": "Marduthor",
+        "presence": "minority"
+      }
+    ],
+    "raceCategoryIds": [
+      "humans_near_humans_and_mixed_heritage",
+      "halfling_and_smallfolk",
+      "animalfolk_and_mammalian_anthropomorphs",
+      "dwarven_and_gnomish_kin"
+    ],
+    "dangerLevel": "Low",
+    "dangerScore": -3.04,
+    "preferredAlignment": "Altruistic - Lawful - Cooperative - Honorable",
+    "publicTransit": [
+      "Caravan",
+      "Train"
+    ],
+    "publicTransportation": [
+      "Caravan",
+      "Train"
+    ],
+    "manualAssignmentLock": true,
+    "manualAssignmentSource": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "correctedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+    "updatedAt": "2026-07-01T00:00:00-04:00",
+    "scannerLandmarks": [
+      "forest",
+      "farm"
+    ],
+    "terrainInfo": {
+      "scannerDominantBiome": "Partial forest",
+      "scannerBiomeTypes": [
+        "Partial forest",
+        "Farming",
+        "Deep forest"
+      ],
+      "hexBiomeScan": {
+        "exactHex": "#AEA657",
+        "exactBiomePath": "Plains/Farming",
+        "exactBiome": "Farming",
+        "dominantBiome": "Partial forest",
+        "biomes": [
+          "Partial forest",
+          "Farming",
+          "Deep forest"
+        ],
+        "biomePaths": [
+          "Forest/Partial forest",
+          "Plains/Farming",
+          "Forest/Deep forest"
+        ],
+        "landWaterClass": "land",
+        "localBiomePercentsRadius25": {
+          "Partial forest": 0.3268,
+          "Farming": 0.2299,
+          "Deep forest": 0.1745,
+          "Grassland": 0.1157,
+          "Marshes and swamps": 0.0792,
+          "Treetops - treehouses": 0.0392,
+          "Hybrid tree and forest floor": 0.0235,
+          "Beach and grass with water": 0.0058
+        },
+        "localBiomePercentsRadius40": {
+          "Partial forest": 0.3029,
+          "Deep forest": 0.1934,
+          "Farming": 0.1826,
+          "Grassland": 0.1102,
+          "Marshes and swamps": 0.0812,
+          "Treetops - treehouses": 0.0622,
+          "Hybrid tree and forest floor": 0.032,
+          "Beach and grass with water": 0.0232
+        },
+        "localWaterPercentRadius25": 0,
+        "localLandHybridPercentRadius25": 1.0,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+      },
+      "scannerEvidenceMode": "manual hexcode authority pass v4; scanner guesses are advisory only",
+      "correctedBy": "Manual hexcode authority pass v4",
+      "landWaterClass": "land"
+    },
+    "settlementScan": {
+      "scannerDominantBiome": "Partial forest",
+      "scannerBiomeTypes": [
+        "Partial forest",
+        "Farming",
+        "Deep forest"
+      ],
+      "hexBiomeScan": {
+        "exactHex": "#AEA657",
+        "exactBiomePath": "Plains/Farming",
+        "exactBiome": "Farming",
+        "dominantBiome": "Partial forest",
+        "biomes": [
+          "Partial forest",
+          "Farming",
+          "Deep forest"
+        ],
+        "biomePaths": [
+          "Forest/Partial forest",
+          "Plains/Farming",
+          "Forest/Deep forest"
+        ],
+        "landWaterClass": "land",
+        "localBiomePercentsRadius25": {
+          "Partial forest": 0.3268,
+          "Farming": 0.2299,
+          "Deep forest": 0.1745,
+          "Grassland": 0.1157,
+          "Marshes and swamps": 0.0792,
+          "Treetops - treehouses": 0.0392,
+          "Hybrid tree and forest floor": 0.0235,
+          "Beach and grass with water": 0.0058
+        },
+        "localBiomePercentsRadius40": {
+          "Partial forest": 0.3029,
+          "Deep forest": 0.1934,
+          "Farming": 0.1826,
+          "Grassland": 0.1102,
+          "Marshes and swamps": 0.0812,
+          "Treetops - treehouses": 0.0622,
+          "Hybrid tree and forest floor": 0.032,
+          "Beach and grass with water": 0.0232
+        },
+        "localWaterPercentRadius25": 0,
+        "localLandHybridPercentRadius25": 1.0,
+        "manualHexAuthority": true,
+        "scannerOverrideRule": "Hexcode map sampling overrides water/near-water scanner guesses. Submerged settlement classification requires dominant submerged/ocean hexcodes, not proximity to water."
+      },
+      "correctedBy": "Manual hexcode authority pass v4"
+    },
+    "transitRuleV5": {
+      "source": "manual transit correction v5 from user rule",
+      "railLabelInData": "Train",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Submarine",
+        "Steamship"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "ferryRule": "Ferry is assigned when local hexcode water evidence indicates a short/local crossing; larger water exposure uses Steamship/Submarine.",
+      "localWaterPercentRadius25": 0.0,
+      "shortFerryWaterProxy": false,
+      "expandedWaterProxy": false,
+      "classification": "land",
+      "isLandBased": true,
+      "isCoastal": false,
+      "isDeepWater": false
+    },
+    "factions": {
+      "id": "fac_brass_concordat",
+      "name": "The Brass Concordat",
+      "subtitle": "cross-provincial diplomatic council and covert writ network",
+      "primarySeat": "Avarelyn, Valerune",
+      "atTableRole": "Use for legal patrons, embassy intrigue, travel permits, secret missions, and political compromise that may save or stain the party.",
+      "publicFace": "Prevent open war, license ichor trade, protect treaty systems, and provide lawful travel cover during crises.",
+      "hiddenTeeth": "Its plausible deniability lets quiet agents bury evidence, sanitize memories, and permit limited pure-ichor use when survival seems to require it.",
+      "patrons": [
+        "Nebyrr",
+        "Raeshkul",
+        "Nefarokir",
+        "Nephthysra",
+        "Marduthor"
+      ],
+      "alignmentTendency": {
+        "Altruism": 1600,
+        "Lawfulness": 2300,
+        "Cooperation": 2000,
+        "Honor": 1500
+      },
+      "riskModifier": -0.1,
+      "influenceLevel": "province-influence",
+      "locationNetwork": [
+        {
+          "province": "Valerune",
+          "primaryUTC": "UTC-1",
+          "displayUTCs": [
+            "UTC-1",
+            "UTC-2"
+          ],
+          "listedSites": [
+            "Avarélyn",
+            "Brassmere Concord",
+            "Scalori",
+            "Sunvale Reach",
+            "Whispering Éstuary"
+          ]
+        }
+      ]
+    },
+    "associatedFactions": [
+      "The Brass Concordat"
+    ],
+    "associatedFactionIds": [
+      "fac_brass_concordat"
+    ],
+    "factionInfluenceLevels": {
+      "fac_brass_concordat": "province-influence"
+    },
+    "factionPatronDeities": [
+      "Nebyrr",
+      "Raeshkul"
+    ],
+    "godsWorshipped": [
+      "Nebyrr",
+      "Ishtanora",
+      "Iskareth",
+      "Marduthor",
+      "Raeshkul"
+    ],
+    "dangerRating": "Low danger",
+    "dangerComputation": {
+      "baseManualRaceGovernmentScore": -1.8,
+      "preferredAlignmentModifier": -1.2,
+      "alignmentComponents": [
+        [
+          "altruism",
+          "altruistic",
+          -0.4
+        ],
+        [
+          "lawfulness",
+          "lawful",
+          -0.3
+        ],
+        [
+          "cooperation",
+          "cooperative",
+          -0.3
+        ],
+        [
+          "honor",
+          "honorable",
+          -0.2
+        ]
+      ],
+      "provinceGovernment": "Runic Concord",
+      "provinceGovernmentModifier": 0.3,
+      "settlementTypeModifier": -0.3,
+      "raceModifier": 0.0,
+      "raceNotes": [],
+      "associatedFactionModifier": -0.03,
+      "associatedFactionComponents": [
+        {
+          "faction": "The Brass Concordat",
+          "level": "province-influence",
+          "modifier": -0.03
+        }
+      ],
+      "factionConflictModifier": 0.0,
+      "waterClass": "land",
+      "waterClassModifier": 0.0,
+      "formula": "previous locked race/government score + preferred alignment + province government + settlement type + race pressure + associated faction influence + faction conflict + water/frontier modifier",
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)"
+    },
+    "contentLocked": true,
+    "worldCanonLocked": true,
+    "playerEditable": false,
+    "lockedFields": [
+      "dangerLevel",
+      "dangerScore",
+      "danger",
+      "races",
+      "raceCategories",
+      "raceCommunities",
+      "transportation",
+      "publicTransit",
+      "publicTransportation",
+      "deitiesWorshipped",
+      "godsWorshipped",
+      "biomes",
+      "biomePaths",
+      "primaryBiome",
+      "settlementTags",
+      "tags",
+      "factions",
+      "associatedFactions",
+      "preferredAlignment",
+      "alignmentAxes",
+      "provinceGovernment"
+    ],
+    "lockPolicy": {
+      "lockedAt": "2026-07-01T00:00:00-04:00",
+      "lockedBy": "Final factions integration + locked player atlas pass (factions, danger, transit, races, deities, biomes, tags locked)",
+      "editing": "disabled in player-facing map and data records",
+      "pinMovement": "disabled",
+      "borderMovement": "disabled"
+    },
+    "draggable": false,
+    "pinRenderMode": "live-static-svg-pin",
+    "pinStorageMode": "locked-coordinate-record",
+    "cssClass": "settlement-pin live-js-css-pin locked-settlement-pin",
+    "transitRuleFinal": {
+      "source": "Final lock pass from user rule",
+      "landBasedRequires": [
+        "Train",
+        "Caravan"
+      ],
+      "deepWaterRequires": [
+        "Submarine"
+      ],
+      "coastalRequires": [
+        "Steamship",
+        "Submarine",
+        "Train",
+        "Caravan"
+      ],
+      "cityRequires": [
+        "Skyship"
+      ],
+      "capitalRequires": [
+        "Skyship",
+        "Portal"
+      ],
+      "classification": "land",
+      "locked": true
+    },
+    "generatedHtmlFileName": "Thaloju_Valerune.html",
+    "sourceMapHtmlFileName": "Thaloju_Valerune.html",
+    "settlementFolder": "Thaloju",
+    "templateBiomeCacheUsed": [
+      "Farming",
+      "Deep forest",
+      "Partial forest"
+    ],
+    "templateSourceFile": "villages/farming__deep-forest__partial-forest.html",
+    "generatedJsonFileName": "Thaloju_Valerune.json",
+    "playerFacingMapPlaceholder": {
+      "type": "locked-coordinate-svg-placeholder",
+      "editable": false,
+      "x": 1487.199951171875,
+      "y": 635.7249755859375,
+      "latitude": -21.748530864715576,
+      "longitude": 81.42186641693115
+    },
+    "utcOffset": 5,
+    "utcLabel": "UTC+5",
+    "provinceWater": {
+      "inlandWater": "Valerune Asparagus Marshlake",
+      "baySeaSound": "Valerune Reed Gulf",
+      "waterTerrain": "Partial forest; Farming; Beach and reefs with water"
+    },
+    "provinceLandmarks": {
+      "highland": "Valerune High Marshwalls",
+      "volcanoOrVent": "Greenroot Steamer",
+      "forestOrSwamp": "Valerune Reedforest"
+    },
+    "provinceWeather": {
+      "climateBelt": "Sunbelt reef-wet belt",
+      "dominantTerrain": "Partial forest; Farming; Beach and reefs with water",
+      "namedWeather": "Reed-Steam Murk",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "weatherNotes": [
+      {
+        "label": "Farming",
+        "description": "Warm field winds, flood canals, mildew seasons.",
+        "response": "Raised granaries, smokehouses, reed filters, moon-timed planting."
+      },
+      {
+        "label": "Deep forest",
+        "description": "Cold upwelling, pressure roads, trench fog.",
+        "response": "Submarine locks, pressure shrines, bioluminescent charts, brine taboos."
+      }
+    ],
+    "topographyWeatherCanon": {
+      "schema": "belavados.settlement_topography_weather_canon.v1",
+      "generatedAtUtc": "2026-07-08T02:36:22+00:00",
+      "sourceDocuments": [
+        "Belavadös Canonical Topography guide.docx",
+        "Life_In_The_World_Of_Belavados_mountain_provinces.docx",
+        "full_world_height_map.json"
+      ],
+      "settlementKey": "valerune:Thaloju",
+      "provinceKey": "valerune",
+      "province": "Valerune",
+      "settlement": "Thaloju",
+      "type": "Village",
+      "biomes": [
+        "Partial forest",
+        "Farming",
+        "Deep forest"
+      ],
+      "primaryBiome": "Partial forest",
+      "pinPlacement": "surface-land-pin",
+      "localTopographicRule": "Surface settlement in Partial forest; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+      "localRasterSample": {
+        "pixel": {
+          "x": 1115.4,
+          "y": 635.725,
+          "ix": 1115,
+          "iy": 636
+        },
+        "exactPaintedHex": "#AEA657",
+        "biomeCategoryId": 5,
+        "biomeCategory": "Farming",
+        "biomePath": "Plains/Farming",
+        "verticalBandId": 0,
+        "verticalBand": "surface_lowland_0_220m",
+        "regionKey": 50,
+        "heightRaw16": 48830,
+        "heightRaw8Azgaar": 190,
+        "surfaceMetersAboveSeaLevel": 137.33,
+        "depthMetersBelowSeaLevel": 0.0,
+        "zMetersFor3D": 137.33
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 137.33,
+        "surfaceAnchorZMeters": 137,
+        "subsurfaceDepthMeters": 0,
+        "subsurfaceAnchorZMeters": null,
+        "maxHeightMetersAboveSeaLevel": 137,
+        "maxDepthMetersBelowSeaLevel": 0,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          81.4218664,
+          -21.7485309,
+          137.33
+        ],
+        "surfaceAnchorCoordinates": [
+          81.4218664,
+          -21.7485309,
+          137
+        ],
+        "subsurfaceAnchorCoordinates": null,
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "provinceWaterAtlas": {
+        "Province": "Valerune",
+        "Named river / delta / canal / lake": "Valerune Asparagus Marshlake",
+        "Named bay / gulf / sea / sound": "Valerune Reed Gulf",
+        "Terrain that feeds the water": "Partial forest; Farming; Beach and reefs with water"
+      },
+      "provinceLandformAtlas": {
+        "Province": "Valerune",
+        "Mountain range / highland": "Valerune High Marshwalls",
+        "Volcano / vent / caldera": "Greenroot Steamer",
+        "Forest / swamp / landmark": "Valerune Reedforest"
+      },
+      "provinceClimateAtlas": {
+        "Province": "Valerune",
+        "Climate belt": "Sunbelt reef-wet belt",
+        "Dominant terrain": "Partial forest; Farming; Beach and reefs with water",
+        "Named weather": "Reed-Steam Murk",
+        "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+      },
+      "provinceDeepAtlasProfile": {
+        "oneLine": "Valerune is centered at -33.735193, 69.650939 under Runic Concord, with 45,575,000 people across 8 settlements.",
+        "extremeAtlasDescription": "Valerune occupies 5,811,759.15 sq mi / 15,052,387.09 sq km of modeled Earth-sized territory, about 2.951067% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Farming and Beach and reefs with water define its broad terrain, while its settlements intensify into Partial forest, Beach and reefs with water and Beach and grass with water. Population density is 3.028 people/sq km / 7.842 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+        "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Halfling — Stout Halfling, Kender, Kithkin, Centaur, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Raeshkul, Sigrananna, Marduthor, Bastveig, and 3 more.",
+        "groupLinkDescription": "The province participates in 10 recorded four-province geography group links, including 9 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+        "dominantRaceCategories": [
+          {
+            "name": "Humans, Near-Humans, and Mixed Heritage",
+            "count": 8
+          },
+          {
+            "name": "Halfling and Smallfolk",
+            "count": 8
+          },
+          {
+            "name": "Animalfolk and Mammalian Anthropomorphs",
+            "count": 8
+          },
+          {
+            "name": "Elven-Types",
+            "count": 7
+          },
+          {
+            "name": "Amphibious and Aquatic Peoples",
+            "count": 5
+          },
+          {
+            "name": "Dwarven and Gnomish Kin",
+            "count": 4
+          },
+          {
+            "name": "Fey-Folk",
+            "count": 4
+          },
+          {
+            "name": "Draconic and Reptilian Races",
+            "count": 2
+          }
+        ],
+        "dominantRaces": [
+          {
+            "name": "Human",
+            "count": 8
+          },
+          {
+            "name": "Halfling — Lightfoot Halfling",
+            "count": 8
+          },
+          {
+            "name": "Harengon",
+            "count": 6
+          },
+          {
+            "name": "Elf — Wood Elf",
+            "count": 5
+          },
+          {
+            "name": "Halfling — Stout Halfling",
+            "count": 4
+          },
+          {
+            "name": "Kender",
+            "count": 4
+          },
+          {
+            "name": "Kithkin",
+            "count": 4
+          },
+          {
+            "name": "Centaur",
+            "count": 4
+          },
+          {
+            "name": "Giff",
+            "count": 4
+          },
+          {
+            "name": "Dwarf — Hill Dwarf",
+            "count": 4
+          },
+          {
+            "name": "Elf — Eladrin",
+            "count": 4
+          },
+          {
+            "name": "Faerie",
+            "count": 4
+          }
+        ],
+        "dominantFactions": [
+          {
+            "name": "The Brass Concordat",
+            "count": 8
+          }
+        ],
+        "dominantDeities": [
+          {
+            "name": "Nebyrr",
+            "count": 8
+          },
+          {
+            "name": "Ishtanora",
+            "count": 8
+          },
+          {
+            "name": "Iskareth",
+            "count": 8
+          },
+          {
+            "name": "Raeshkul",
+            "count": 8
+          },
+          {
+            "name": "Sigrananna",
+            "count": 7
+          },
+          {
+            "name": "Marduthor",
+            "count": 6
+          },
+          {
+            "name": "Bastveig",
+            "count": 5
+          },
+          {
+            "name": "Nefarokir",
+            "count": 5
+          },
+          {
+            "name": "Nephthysra",
+            "count": 5
+          },
+          {
+            "name": "Thalunesh",
+            "count": 4
+          }
+        ],
+        "dangerSpread": [
+          {
+            "name": "Moderate",
+            "count": 3
+          },
+          {
+            "name": "Elevated",
+            "count": 2
+          },
+          {
+            "name": "Low",
+            "count": 2
+          },
+          {
+            "name": "Severe",
+            "count": 1
+          }
+        ],
+        "settlementTypeSpread": [
+          {
+            "name": "Town",
+            "count": 3
+          },
+          {
+            "name": "City",
+            "count": 2
+          },
+          {
+            "name": "Village",
+            "count": 2
+          },
+          {
+            "name": "Capital City",
+            "count": 1
+          }
+        ],
+        "transitModeSpread": [
+          {
+            "name": "Train / Rail",
+            "count": 8
+          },
+          {
+            "name": "Caravan",
+            "count": 8
+          },
+          {
+            "name": "Steamship",
+            "count": 4
+          },
+          {
+            "name": "Submarine",
+            "count": 4
+          },
+          {
+            "name": "Skyship",
+            "count": 3
+          },
+          {
+            "name": "Ferry",
+            "count": 3
+          },
+          {
+            "name": "Portal",
+            "count": 1
+          }
+        ],
+        "primaryBiomeSpread": [
+          {
+            "name": "Partial forest",
+            "count": 5
+          },
+          {
+            "name": "Beach and reefs with water",
+            "count": 2
+          },
+          {
+            "name": "Beach and grass with water",
+            "count": 1
+          }
+        ]
+      },
+      "weather": {
+        "namedWeather": "Reed-Steam Murk",
+        "climateBelt": "Sunbelt reef-wet belt",
+        "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m",
+        "globalNamedWeatherDefinitions": [
+          {
+            "Weather name": "Copper-Silver King Tide",
+            "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+          },
+          {
+            "Weather name": "Hushed Neap",
+            "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+          },
+          {
+            "Weather name": "Storm-Stack Tide",
+            "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+          },
+          {
+            "Weather name": "Bastveig Drawdown",
+            "What it means": "A sudden retreat of water before trench-fed surge returns."
+          },
+          {
+            "Weather name": "Horundar Wall",
+            "What it means": "A black-green wall of rain that crosses whole coasts."
+          },
+          {
+            "Weather name": "Nannara Bead Squalls",
+            "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+          },
+          {
+            "Weather name": "Seleneš Silver Fog",
+            "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+          },
+          {
+            "Weather name": "Dragon-Anvil Cloud",
+            "What it means": "A towering thunderhead that forms over heated highlands."
+          },
+          {
+            "Weather name": "Hag-Lantern Mist",
+            "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+          },
+          {
+            "Weather name": "Cockatrice Still",
+            "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+          },
+          {
+            "Weather name": "Beholder’s Eye Cyclone",
+            "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+          },
+          {
+            "Weather name": "Goblin Drum Thunder",
+            "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+          },
+          {
+            "Weather name": "Kobold Sump Breath",
+            "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+          },
+          {
+            "Weather name": "Spiderweb Rain",
+            "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+          },
+          {
+            "Weather name": "Basilisk Glass Haze",
+            "What it means": "Shimmering heat that turns distance into false water and false stone."
+          },
+          {
+            "Weather name": "Chimera Crosswind",
+            "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+          },
+          {
+            "Weather name": "Kraken-Surge",
+            "What it means": "A steep, dark swell pushed by far-off pressure changes."
+          },
+          {
+            "Weather name": "Trollwash Rot-Rain",
+            "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+          },
+          {
+            "Weather name": "Owlbear Dusk Gust",
+            "What it means": "A sudden evening wind that turns forest travel loud and blind."
+          },
+          {
+            "Weather name": "Manticore Dusthook",
+            "What it means": "A hooked dust plume ahead of dryline storms."
+          },
+          {
+            "Weather name": "Wyvern Ridge Lightning",
+            "What it means": "Highland lightning that walks along exposed ridges."
+          },
+          {
+            "Weather name": "Gelatinous Roadmire",
+            "What it means": "Rain-soaked clay roads that swallow carts and boots."
+          },
+          {
+            "Weather name": "Mimic Puddle Season",
+            "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+          },
+          {
+            "Weather name": "Ghoulwind",
+            "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+          },
+          {
+            "Weather name": "Griffon Updraft",
+            "What it means": "A clean mountain lift used by skyships and great birds."
+          },
+          {
+            "Weather name": "Sahuagin Undertow",
+            "What it means": "A fast pull beneath reef water during strong tide shifts."
+          },
+          {
+            "Weather name": "Banshee Rain",
+            "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+          },
+          {
+            "Weather name": "Hydra Floodpulse",
+            "What it means": "One storm-fed river splits into several dangerous surges."
+          },
+          {
+            "Weather name": "Wyrmcoil Current",
+            "What it means": "A spiraling river or sea current that turns boats sideways."
+          },
+          {
+            "Weather name": "Moonmoth Bloom",
+            "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+          }
+        ]
+      },
+      "biomeRenderRule": {
+        "id": 10,
+        "group": "Forest",
+        "category": "Partial forest",
+        "path": "Forest/Partial forest",
+        "preview_color": "#3E742E"
+      },
+      "renderRules": {
+        "provinceBordersAndPins": "hidden until province dropdown selection",
+        "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+        "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+        "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+        "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+      }
+    },
+    "localRasterSample": {
+      "pixel": {
+        "x": 1115.4,
+        "y": 635.725,
+        "ix": 1115,
+        "iy": 636
+      },
+      "exactPaintedHex": "#AEA657",
+      "biomeCategoryId": 5,
+      "biomeCategory": "Farming",
+      "biomePath": "Plains/Farming",
+      "verticalBandId": 0,
+      "verticalBand": "surface_lowland_0_220m",
+      "regionKey": 50,
+      "heightRaw16": 48830,
+      "heightRaw8Azgaar": 190,
+      "surfaceMetersAboveSeaLevel": 137.33,
+      "depthMetersBelowSeaLevel": 0.0,
+      "zMetersFor3D": 137.33
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 137.33,
+      "surfaceAnchorZMeters": 137,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 137,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        81.4218664,
+        -21.7485309,
+        137.33
+      ],
+      "surfaceAnchorCoordinates": [
+        81.4218664,
+        -21.7485309,
+        137
+      ],
+      "subsurfaceAnchorCoordinates": null,
+      "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+      "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+    },
+    "pinPlacement": "ocean-surface-floating-pin",
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Valerune",
+      "Named river / delta / canal / lake": "Valerune Asparagus Marshlake",
+      "Named bay / gulf / sea / sound": "Valerune Reed Gulf",
+      "Terrain that feeds the water": "Partial forest; Farming; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Valerune",
+      "Mountain range / highland": "Valerune High Marshwalls",
+      "Volcano / vent / caldera": "Greenroot Steamer",
+      "Forest / swamp / landmark": "Valerune Reedforest"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Valerune",
+      "Climate belt": "Sunbelt reef-wet belt",
+      "Dominant terrain": "Partial forest; Farming; Beach and reefs with water",
+      "Named weather": "Reed-Steam Murk",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Valerune is centered at -33.735193, 69.650939 under Runic Concord, with 45,575,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Valerune occupies 5,811,759.15 sq mi / 15,052,387.09 sq km of modeled Earth-sized territory, about 2.951067% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Farming and Beach and reefs with water define its broad terrain, while its settlements intensify into Partial forest, Beach and reefs with water and Beach and grass with water. Population density is 3.028 people/sq km / 7.842 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Halfling — Stout Halfling, Kender, Kithkin, Centaur, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Raeshkul, Sigrananna, Marduthor, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 10 recorded four-province geography group links, including 9 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 5
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 4
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 2
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 4
+        },
+        {
+          "name": "Kender",
+          "count": 4
+        },
+        {
+          "name": "Kithkin",
+          "count": 4
+        },
+        {
+          "name": "Centaur",
+          "count": 4
+        },
+        {
+          "name": "Giff",
+          "count": 4
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 4
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 4
+        },
+        {
+          "name": "Faerie",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Raeshkul",
+          "count": 8
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Bastveig",
+          "count": 5
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Nephthysra",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Partial forest",
+          "count": 5
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 1
+        }
+      ]
+    },
+    "localTopographicRule": "Surface settlement in Partial forest; render local roads, drainage, soil, vegetation, slope bases, and coast/river access according to its biome and province water system.",
+    "weatherDetails": {
+      "namedWeather": "Reed-Steam Murk",
+      "climateBelt": "Sunbelt reef-wet belt",
+      "verticalNote": "highest settled weather band 220 m; deepest recorded route 180 m",
+      "globalNamedWeatherDefinitions": [
+        {
+          "Weather name": "Copper-Silver King Tide",
+          "What it means": "When both moons favor the sea at once, harbor stones vanish and reef roads drown."
+        },
+        {
+          "Weather name": "Hushed Neap",
+          "What it means": "A low, quiet tide that exposes mud gates, wreck bones, and hidden causeways."
+        },
+        {
+          "Weather name": "Storm-Stack Tide",
+          "What it means": "A low-pressure sea storm arriving with a strong moon tide."
+        },
+        {
+          "Weather name": "Bastveig Drawdown",
+          "What it means": "A sudden retreat of water before trench-fed surge returns."
+        },
+        {
+          "Weather name": "Horundar Wall",
+          "What it means": "A black-green wall of rain that crosses whole coasts."
+        },
+        {
+          "Weather name": "Nannara Bead Squalls",
+          "What it means": "Short, sharp squalls that arrive in pairs or trios every few days."
+        },
+        {
+          "Weather name": "Seleneš Silver Fog",
+          "What it means": "Moonlit fog so bright it makes ships look closer than they are."
+        },
+        {
+          "Weather name": "Dragon-Anvil Cloud",
+          "What it means": "A towering thunderhead that forms over heated highlands."
+        },
+        {
+          "Weather name": "Hag-Lantern Mist",
+          "What it means": "Greenish swamp fog carrying spores, firefly light, and bad directions."
+        },
+        {
+          "Weather name": "Cockatrice Still",
+          "What it means": "A suffocating, windless heat that freezes sails and tempers alike."
+        },
+        {
+          "Weather name": "Beholder’s Eye Cyclone",
+          "What it means": "A rotating storm whose calm center is ringed by clear, staring sky."
+        },
+        {
+          "Weather name": "Goblin Drum Thunder",
+          "What it means": "Low rolling thunder that repeats long before the rain reaches a settlement."
+        },
+        {
+          "Weather name": "Kobold Sump Breath",
+          "What it means": "Warm gas-fog from marsh canals and low cave mouths."
+        },
+        {
+          "Weather name": "Spiderweb Rain",
+          "What it means": "A fine crosswind rain that seems to fall sideways from many directions."
+        },
+        {
+          "Weather name": "Basilisk Glass Haze",
+          "What it means": "Shimmering heat that turns distance into false water and false stone."
+        },
+        {
+          "Weather name": "Chimera Crosswind",
+          "What it means": "Three winds meeting over cliffs, reefs, or a canyon mouth."
+        },
+        {
+          "Weather name": "Kraken-Surge",
+          "What it means": "A steep, dark swell pushed by far-off pressure changes."
+        },
+        {
+          "Weather name": "Trollwash Rot-Rain",
+          "What it means": "Warm rain that wakes rot, swollen roots, and hungry fungus."
+        },
+        {
+          "Weather name": "Owlbear Dusk Gust",
+          "What it means": "A sudden evening wind that turns forest travel loud and blind."
+        },
+        {
+          "Weather name": "Manticore Dusthook",
+          "What it means": "A hooked dust plume ahead of dryline storms."
+        },
+        {
+          "Weather name": "Wyvern Ridge Lightning",
+          "What it means": "Highland lightning that walks along exposed ridges."
+        },
+        {
+          "Weather name": "Gelatinous Roadmire",
+          "What it means": "Rain-soaked clay roads that swallow carts and boots."
+        },
+        {
+          "Weather name": "Mimic Puddle Season",
+          "What it means": "A season when road puddles hide sinkholes, leeches, and false bottoms."
+        },
+        {
+          "Weather name": "Ghoulwind",
+          "What it means": "A dry graveyard wind that carries dust, spores, and old sickness."
+        },
+        {
+          "Weather name": "Griffon Updraft",
+          "What it means": "A clean mountain lift used by skyships and great birds."
+        },
+        {
+          "Weather name": "Sahuagin Undertow",
+          "What it means": "A fast pull beneath reef water during strong tide shifts."
+        },
+        {
+          "Weather name": "Banshee Rain",
+          "What it means": "Thin cold rain that whistles through ruins and empty rigging."
+        },
+        {
+          "Weather name": "Hydra Floodpulse",
+          "What it means": "One storm-fed river splits into several dangerous surges."
+        },
+        {
+          "Weather name": "Wyrmcoil Current",
+          "What it means": "A spiraling river or sea current that turns boats sideways."
+        },
+        {
+          "Weather name": "Moonmoth Bloom",
+          "What it means": "A soft glowing insect and spore bloom after warm moon rain."
+        }
+      ]
+    },
+    "topographyDetails": {
+      "localRasterSample": {
+        "pixel": {
+          "x": 1115.4,
+          "y": 635.725,
+          "ix": 1115,
+          "iy": 636
+        },
+        "exactPaintedHex": "#AEA657",
+        "biomeCategoryId": 5,
+        "biomeCategory": "Farming",
+        "biomePath": "Plains/Farming",
+        "verticalBandId": 0,
+        "verticalBand": "surface_lowland_0_220m",
+        "regionKey": 50,
+        "heightRaw16": 48830,
+        "heightRaw8Azgaar": 190,
+        "surfaceMetersAboveSeaLevel": 137.33,
+        "depthMetersBelowSeaLevel": 0.0,
+        "zMetersFor3D": 137.33
+      },
+      "heightAndDepthBySeaLevel": {
+        "displayZMeters": 137.33,
+        "surfaceAnchorZMeters": 137,
+        "subsurfaceDepthMeters": 0,
+        "subsurfaceAnchorZMeters": null,
+        "maxHeightMetersAboveSeaLevel": 137,
+        "maxDepthMetersBelowSeaLevel": 0,
+        "anchorMode": "surface_anchor",
+        "pinPlacement": "surface-land-pin",
+        "hasUnderworldRumor": false,
+        "verticalRangeSourceText": "",
+        "terrainRole": null,
+        "terrainFact": null
+      },
+      "vertical3D": {
+        "displayCoordinates": [
+          81.4218664,
+          -21.7485309,
+          137.33
+        ],
+        "surfaceAnchorCoordinates": [
+          81.4218664,
+          -21.7485309,
+          137
+        ],
+        "subsurfaceAnchorCoordinates": null,
+        "hoverLine": "draw vertical hover/leader line from surface anchor to display coordinate when underground or underwater",
+        "scaleRule": "pin scales with zoom; z-coordinate is meters relative to sea level"
+      },
+      "docxMountainCanon": null,
+      "docxVerticalTableRecord": null,
+      "biomeRenderRule": {
+        "id": 10,
+        "group": "Forest",
+        "category": "Partial forest",
+        "path": "Forest/Partial forest",
+        "preview_color": "#3E742E"
+      }
+    },
+    "allowedTransitModes": [
+      "caravan",
+      "rail"
+    ],
+    "waterLandClass": "ocean_surface",
+    "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+    "manualCanonPathingUpdate": {
+      "source": "belavados-four-compendium-canon-2026-07-17",
+      "settlementKey": "valerune:Thaloju",
+      "primaryBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement"
+      ],
+      "waterLandClass": "ocean_surface",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "transportation": [
+        "Train / Rail",
+        "Submarine"
+      ],
+      "allowedTransitModes": [
+        "rail",
+        "submarine"
+      ],
+      "pathingNotes": [
+        "Rail/tunnel water station includes submarine airlock for globe-scale travel."
+      ],
+      "modeSurfaceRule": "Manual canon override: no sea mode is placed on dry land without a named water/airlock/dock justification; no land mode is placed on open sea without a named bridge, tunnel, platform, or upper structure.",
+      "portalCapitalRule": "Portal gates are normal-case Portal service and only capital cities receive them in this pass.",
+      "hexcodeTransitAuthority": {
+        "sourcePackage": "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip + user manual correction pass",
+        "sampledExactHex": "#6E6143",
+        "sampledBiomePath": "Ocean/Ocean Surface floating settlement",
+        "sampledBiomeCategory": "Ocean Surface floating settlement",
+        "sampledWaterLandClass": "ocean_surface",
+        "previousWaterLandClass": "land",
+        "effectiveWaterLandClass": "ocean_surface",
+        "surfaceLandAccess": true,
+        "coastalAccess": true,
+        "floatingAccess": true,
+        "deepWaterAccess": false,
+        "reefAccess": false,
+        "submarineRule": "Submarine service is permitted for deep water, floating/ocean-surface, coastal access, and authored airlocked underwater train stations.",
+        "manualCanonOverrideApplied": true
+      }
+    },
+    "updatedHexcodeProfile": {
+      "settlementId": "valerune:Thaloju",
+      "settlement": "Thaloju",
+      "province": "Valerune",
+      "provinceKey": "valerune",
+      "sampledImage": "Belavados_realistic_source.png",
+      "sampleGrid": {
+        "width": 1536,
+        "height": 1024
+      },
+      "xImage": 1115.4,
+      "yImage": 635.725,
+      "exactHex": "#6E6143",
+      "rgb": {
+        "r": 110,
+        "g": 97,
+        "b": 67
+      },
+      "biomeGroup": "Ocean",
+      "biomeCategory": "Ocean Surface floating settlement",
+      "biomePath": "Ocean/Ocean Surface floating settlement",
+      "hexWaterLandClass": "ocean_surface",
+      "assignmentConfidence": 0.25,
+      "dominantRegionKey": 5,
+      "dominantBandId": 5,
+      "regionAssignmentConfidence": 0.25,
+      "canonicalVerticalBands": "4, 5, 6",
+      "canonicalZRange": "0 to 0 m",
+      "dominantZMin": 0.0,
+      "dominantZMean": 0.0,
+      "dominantZMax": 0.0,
+      "regionPhysicalMeaning": "open blue water, floating routes, harbors, and warm sea roads",
+      "previousExactHex": "#AEA657",
+      "previousBiomePath": "Plains/Farming",
+      "authority": "updated realism hexcode scan sampled at settlement image coordinate"
+    },
+    "distanceFromProvinceCenter": {
+      "miles": 697.0,
+      "kilometers": 1121.7
+    },
+    "finalPlacementScope": "mainland",
+    "finalMapX": 871.0,
+    "finalMapY": 744.0,
+    "finalLongitude": -26.89453,
+    "finalLatitude": -40.78125,
+    "finalMappedBiomeDepth": "Deep and Lush forest",
+    "finalPlacementMatch": "compatible",
+    "finalUTC": "UTC-2",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "majorityPopulationRaces": [
+      "Halfling"
+    ],
+    "creatorGodsOfMajorityRaces": [
+      "Ishtanora"
+    ],
+    "resourcesAndServicesProvided": [
+      "Timber",
+      "Medicinal herbs",
+      "Game",
+      "Resins",
+      "Grain",
+      "Produce",
+      "Livestock",
+      "Plant fibers"
+    ],
+    "settlementHtmlPath": "settlements/Valerune/Thaloju/Thaloju_Valerune.html",
+    "interactiveMapHtml": "settlements/Valerune/Thaloju/Thaloju_Valerune.html",
+    "playerZoomInLink": "settlements/Valerune/Thaloju/Thaloju_Valerune.html",
+    "settlementTags": [
+      "forest",
+      "farming",
+      "race:humans-near-humans-and-mixed-heritage",
+      "race:halfling-and-smallfolk",
+      "race:animalfolk-and-mammalian-anthropomorphs",
+      "race:dwarven-and-gnomish-kin",
+      "danger:low",
+      "government:runic-concord",
+      "type:village",
+      "water-class:land",
+      "alignment:altruistic",
+      "alignment:lawful",
+      "alignment:cooperative",
+      "alignment:honorable",
+      "transit:caravan",
+      "transit:train",
+      "transit:rail",
+      "faction:the-brass-concordat"
+    ],
+    "lockedPlayerFields": [
+      "dangerLevel",
+      "races",
+      "transportation",
+      "deitiesWorshipped",
+      "biomes",
+      "settlementTags",
+      "factions"
+    ],
+    "editingLocked": true,
+    "htmlPath": "settlements/Valerune/Thaloju/Thaloju_Valerune.html",
+    "jsonPath": "settlements/Valerune/Thaloju/Thaloju.json",
+    "placementScope": "mainland",
+    "timeZone": {
+      "timeZoneId": "UTC-2",
+      "timeZoneName": "Belavadös UTC-2",
+      "offsetHoursFromUTC": -2,
+      "offsetMinutesFromUTC": -120,
+      "offsetHoursFromBMT": -2,
+      "offsetMinutesFromBMT": -120,
+      "longitudeBandDegrees": [
+        -37.5,
+        -22.5
+      ],
+      "certifiedLatitude": -40.78125,
+      "certifiedLongitude": -26.89453,
+      "latitudeHemisphere": "south",
+      "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+      "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+    },
+    "mappedBiomeDepth": "Deep and Lush forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "finalRouteAccessClass": "land_surface_access",
+    "canonicalDocSection": {
+      "source": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+      "sourceBlock": 4436,
+      "subsections": [
+        "Identity and Classification",
+        "Population, Area, and Government",
+        "Environment, Terrain, and Depth",
+        "Peoples, Communities, and Faith",
+        "Alignment, Danger, Transit, and Resources",
+        "Factions and Influence",
+        "Tags, Files, Rendering, and Canon Locks"
+      ]
+    }
+  },
+  "geojsonFeature": {
+    "type": "Feature",
+    "properties": {
+      "name": "Thaloju",
+      "settlement": "Thaloju",
+      "province": "Valerune",
+      "provinceKey": "valerune",
+      "type": "Village",
+      "settlementType": "Village",
+      "x": 871.0,
+      "y": 744.0,
+      "lat": -40.78125,
+      "lon": -26.89453,
+      "latitude": -40.78125,
+      "longitude": -26.89453,
+      "scope": "mainland",
+      "utc": "UTC-2",
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "placementMatch": "compatible",
+      "transportation": [
+        "Caravan",
+        "Train"
+      ],
+      "canonicalRevision": "belavados-four-compendium-canon-2026-07-17"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -26.89453,
+        -40.78125
+      ]
+    }
+  },
+  "canonicalFileName": "Thaloju_Valerune.json",
+  "canonicalHtmlFileName": "Thaloju_Valerune.html",
+  "canonicalPath": "shared/settlements/Valerune/Thaloju/Thaloju_Valerune.json",
+  "canonicalHtmlPath": "shared/settlements/Valerune/Thaloju/Thaloju_Valerune.html",
+  "provinceCanonicalPath": "shared/settlements/Valerune/Valerune.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "valerune:Thaloju",
+    "provinceKey": "valerune",
+    "province": "Valerune",
+    "settlement": "Thaloju",
+    "type": "Village",
+    "biomes": [
+      "Ocean Surface floating settlement"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Thaloju at the final Deep and Lush forest anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 871.0,
+        "y": 744.0,
+        "ix": 871,
+        "iy": 744
+      },
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "mappedBiomePath": "Forest/Deep Lush forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 137.33,
+      "surfaceAnchorZMeters": 137,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 137,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -26.89453,
+        -40.78125,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -26.89453,
+        -40.78125,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Deep and Lush forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Valerune",
+      "Named river / delta / canal / lake": "Valerune Asparagus Marshlake",
+      "Named bay / gulf / sea / sound": "Valerune Reed Gulf",
+      "Terrain that feeds the water": "Partial forest; Farming; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Valerune",
+      "Mountain range / highland": "Valerune High Marshwalls",
+      "Volcano / vent / caldera": "Greenroot Steamer",
+      "Forest / swamp / landmark": "Valerune Reedforest"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Valerune",
+      "Climate regime": "subtropical with marine/deep-water sectors; wetland fog and flood pulses",
+      "Dominant terrain": "Partial forest; Farming; Beach and reefs with water",
+      "Named weather": "Reed-Steam Murk",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Valerune is centered at -33.735193, 69.650939 under Runic Concord, with 45,575,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Valerune occupies 5,811,759.15 sq mi / 15,052,387.09 sq km of modeled Earth-sized territory, about 2.951067% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Farming and Beach and reefs with water define its broad terrain, while its settlements intensify into Partial forest, Beach and reefs with water and Beach and grass with water. Population density is 3.028 people/sq km / 7.842 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Halfling — Stout Halfling, Kender, Kithkin, Centaur, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Raeshkul, Sigrananna, Marduthor, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 10 recorded four-province geography group links, including 9 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 5
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 4
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 2
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 4
+        },
+        {
+          "name": "Kender",
+          "count": 4
+        },
+        {
+          "name": "Kithkin",
+          "count": 4
+        },
+        {
+          "name": "Centaur",
+          "count": 4
+        },
+        {
+          "name": "Giff",
+          "count": 4
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 4
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 4
+        },
+        {
+          "name": "Faerie",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Raeshkul",
+          "count": 8
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Bastveig",
+          "count": 5
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Nephthysra",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Partial forest",
+          "count": 5
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Reed-Steam Murk",
+      "climateRegime": "subtropical with marine/deep-water sectors; wetland fog and flood pulses",
+      "provinceCenterLatitude": -33.22557,
+      "provinceCenterLongitude": -18.50672,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "manualCanonPathingUpdate": {
+      "source": "belavados-four-compendium-canon-2026-07-17",
+      "settlementKey": "valerune:Thaloju",
+      "primaryBiome": "Ocean Surface floating settlement",
+      "biomes": [
+        "Ocean Surface floating settlement"
+      ],
+      "biomePaths": [
+        "Ocean/Ocean Surface floating settlement"
+      ],
+      "waterLandClass": "ocean_surface",
+      "pinPlacement": "ocean-surface-floating-pin",
+      "transportation": [
+        "Train / Rail",
+        "Submarine"
+      ],
+      "allowedTransitModes": [
+        "rail",
+        "submarine"
+      ],
+      "pathingNotes": [
+        "Rail/tunnel water station includes submarine airlock for globe-scale travel."
+      ],
+      "modeSurfaceRule": "Manual canon override: no sea mode is placed on dry land without a named water/airlock/dock justification; no land mode is placed on open sea without a named bridge, tunnel, platform, or upper structure.",
+      "portalCapitalRule": "Portal gates are normal-case Portal service and only capital cities receive them in this pass.",
+      "hexcodeTransitAuthority": {
+        "sourcePackage": "Belavados_map_full_hexcode_biome_tables_REALISM_TOPOGRAPHY.zip + user manual correction pass",
+        "sampledExactHex": "#6E6143",
+        "sampledBiomePath": "Ocean/Ocean Surface floating settlement",
+        "sampledBiomeCategory": "Ocean Surface floating settlement",
+        "sampledWaterLandClass": "ocean_surface",
+        "previousWaterLandClass": "land",
+        "effectiveWaterLandClass": "ocean_surface",
+        "surfaceLandAccess": true,
+        "coastalAccess": true,
+        "floatingAccess": true,
+        "deepWaterAccess": false,
+        "reefAccess": false,
+        "submarineRule": "Submarine service is permitted for deep water, floating/ocean-surface, coastal access, and authored airlocked underwater train stations.",
+        "manualCanonOverrideApplied": true
+      }
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Deep and Lush forest",
+    "mappedBiomePath": "Forest/Deep Lush forest",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 871.0,
+      "y": 744.0,
+      "longitude": -26.89453,
+      "latitude": -40.78125,
+      "utc": "UTC-2",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "manualCanonRevision": "belavados-four-compendium-canon-2026-07-17",
+  "manualCanonMergedIntoShared": true,
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
