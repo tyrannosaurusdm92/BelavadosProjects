@@ -1,0 +1,409 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "zharvokh:Myrvéssa",
+  "settlement": "Myrvéssa",
+  "provinceKey": "zharvokh",
+  "province": "Zharvokh",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Zharvokh/Myrvessa/Myrvessa_Zharvokh.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "zharvokh:Myrvéssa",
+    "provinceKey": "zharvokh",
+    "province": "Zharvokh",
+    "settlement": "Myrvéssa",
+    "type": "Town",
+    "biomes": [
+      "Treetops - treehouses",
+      "Beach and grass with water",
+      "Farming"
+    ],
+    "primaryBiome": "Treetops - treehouses",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Myrvéssa at the final Farming anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1271.0,
+        "y": 492.0,
+        "ix": 1271,
+        "iy": 492
+      },
+      "mappedBiomeDepth": "Farming",
+      "mappedBiomePath": "Plains/Farming",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 1200.0,
+      "surfaceAnchorZMeters": 5200,
+      "subsurfaceDepthMeters": 8200,
+      "subsurfaceAnchorZMeters": -8200,
+      "maxHeightMetersAboveSeaLevel": 5200,
+      "maxDepthMetersBelowSeaLevel": 8200,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "up to 5200 m above; down to 8200 m below",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        43.41797,
+        3.51562,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        43.41797,
+        3.51562,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Farming",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": {
+      "Settlement": "Myrvéssa",
+      "Province": "Zharvokh",
+      "Type": "Town",
+      "Height / depth note": "up to 5200 m above; down to 8200 m below",
+      "Depth / height note": "down to 8200 m below; up to 5200 m above"
+    },
+    "provinceWaterAtlas": {
+      "Province": "Zharvokh",
+      "Named river / delta / canal / lake": "Zharvokh Deepgate Sea",
+      "Named bay / gulf / sea / sound": "Karag-Thûl Stormhorn Gulf",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Hybrid tree and forest floor"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Zharvokh",
+      "Mountain range / highland": "Zharvokh Stormhorns",
+      "Volcano / vent / caldera": "Karag-Thûl Thunderforge",
+      "Forest / swamp / landmark": "Myrvéssa High Rootlands"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Zharvokh",
+      "Climate regime": "equatorial with marine/deep-water sectors; orographic winds and rain shadows",
+      "Dominant terrain": "Farming; Beach and grass with water; Mountain range",
+      "Named weather": "Stormhorn Tidewall",
+      "Vertical note": "highest settled weather band 5200 m; deepest recorded route 8200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Zharvokh is centered at 73.587529, -60.833104 under Military Regency, with 26,890,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Zharvokh occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Hybrid tree and forest floor. Karag-Thûl, Kharévok, Moltharok, and Tharvokar carry the mountain record: Karag-Thûl occupies the whole mountain section it sits within and descends into caverns with underworld rumors, Kharévok sits between two ranges, Moltharok clings to a mountain side, and Tharvokar is deep mountain.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 2 more. Frequently recorded peoples include Dwarf — Mountain Dwarf, Dwarf — Duergar, Gnome — Deep Gnome, Elf — Drow, Human, Halfling — Lightfoot Halfling, Dwarf — Hill Dwarf, Gnome — Rock Gnome, and 4 more. Faction visibility leans toward The Cog-Sanctum Synod, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Bastveig, Setrimir, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 21 recorded four-province geography group links, including 18 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 9
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 4
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Dwarf — Mountain Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Duergar",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Deep Gnome",
+          "count": 9
+        },
+        {
+          "name": "Elf — Drow",
+          "count": 9
+        },
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 7
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Cog-Sanctum Synod",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 9
+        },
+        {
+          "name": "Setrimir",
+          "count": 9
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 4
+        },
+        {
+          "name": "Hathruna",
+          "count": 4
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 4
+        },
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 5
+        },
+        {
+          "name": "Submarine",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 3
+        },
+        {
+          "name": "Mountain range",
+          "count": 3
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        },
+        {
+          "name": "Treetops - treehouses",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Karag-Thûl: Karag-Thûl takes up the entire section of mountain range it sits within, and its lowest caverns carry underworld access rumors.",
+        "Kharévok: Kharévok is situated between two mountain ranges.",
+        "Moltharok: Moltharok is perched on the side of the mountain.",
+        "Tharvokar: Tharvokar is a deep mountain city in Zharvokh."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Stormhorn Tidewall",
+      "climateRegime": "equatorial with marine/deep-water sectors; orographic winds and rain shadows",
+      "provinceCenterLatitude": 0.81138,
+      "provinceCenterLongitude": 47.35391,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 11,
+      "group": "Forest",
+      "category": "Treetops - treehouses",
+      "path": "Forest/Treetops - treehouses",
+      "preview_color": "#719D2A"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Farming",
+    "mappedBiomePath": "Plains/Farming",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1271.0,
+      "y": 492.0,
+      "longitude": 43.41797,
+      "latitude": 3.51562,
+      "utc": "UTC+3",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 0,
+  "sourceTypeCounts": {},
+  "locationRoleCounts": {},
+  "npcReferences": [],
+  "npcs": [],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

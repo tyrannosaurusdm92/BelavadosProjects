@@ -1,0 +1,778 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "kaelvorrin:Myrathéa",
+  "settlement": "Myrathéa",
+  "provinceKey": "kaelvorrin",
+  "province": "Kaelvorrin",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Kaelvorrin/Myrathea/Myrathea_Kaelvorrin.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "kaelvorrin:Myrathéa",
+    "provinceKey": "kaelvorrin",
+    "province": "Kaelvorrin",
+    "settlement": "Myrathéa",
+    "type": "Town",
+    "biomes": [
+      "Partial forest",
+      "Farming",
+      "Treetops - treehouses"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Myrathéa at the final Partial forest anchor in territory scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1831.0,
+        "y": 366.0,
+        "ix": 1831,
+        "iy": 366
+      },
+      "mappedBiomeDepth": "Partial forest",
+      "mappedBiomePath": "Forest/Partial forest",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 217.54,
+      "surfaceAnchorZMeters": 218,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 218,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        141.85547,
+        25.66406,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        141.85547,
+        25.66406,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Partial forest",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Kaelvorrin",
+      "Named river / delta / canal / lake": "Kaelvorrin Bloodmere",
+      "Named bay / gulf / sea / sound": "Kaelvorrin Inner Red Bay",
+      "Terrain that feeds the water": "Farming; Partial forest; Grassland"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Kaelvorrin",
+      "Mountain range / highland": "Bloodstone Saddle",
+      "Volcano / vent / caldera": "Bloodwake Caldera",
+      "Forest / swamp / landmark": "Redroot Basinwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Kaelvorrin",
+      "Climate regime": "multi-belt, centered in temperate",
+      "Dominant terrain": "Farming; Partial forest; Grassland",
+      "Named weather": "Redwall Pressure Fall",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Kaelvorrin is centered at 6.383293, 5.827743 under Consensus Democracy, with 133,180,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Kaelvorrin occupies 5,610,032.72 sq mi / 14,529,918.04 sq km of modeled Earth-sized territory, about 2.848636% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Farming, Partial forest and Grassland define its broad terrain, while its settlements intensify into Farming and Partial forest. Population density is 9.166 people/sq km / 23.740 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Dwarven and Gnomish Kin, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, and 1 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin, Harengon, Centaur, Giff, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Marduthor, Raeshkul, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 9
+        },
+        {
+          "name": "Kender",
+          "count": 9
+        },
+        {
+          "name": "Kithkin",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Centaur",
+          "count": 9
+        },
+        {
+          "name": "Giff",
+          "count": 9
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 9
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 7
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 7
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 7
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Marduthor",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        },
+        {
+          "name": "Nefarokir",
+          "count": 4
+        },
+        {
+          "name": "Nephthysra",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Low",
+          "count": 7
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Steamship",
+          "count": 1
+        },
+        {
+          "name": "Submarine",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Farming",
+          "count": 7
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Redwall Pressure Fall",
+      "climateRegime": "multi-belt, centered in temperate",
+      "provinceCenterLatitude": 47.36977,
+      "provinceCenterLongitude": 125.84241,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "territory",
+    "mappedBiomeDepth": "Partial forest",
+    "mappedBiomePath": "Forest/Partial forest",
+    "placementMatch": "exact-territory",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1831.0,
+      "y": 366.0,
+      "longitude": 141.85547,
+      "latitude": 25.66406,
+      "utc": "UTC+9",
+      "scope": "territory"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-brann-glimmerlock-18-1",
+      "name": "Brann Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "role": "best friend",
+      "faction": null,
+      "settlement": "Myrathéa",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Myrathéa",
+      "provinceKey": "kaelvorrin",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-doru-starbarrow-18-0",
+      "name": "Doru Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "role": "cousin",
+      "faction": null,
+      "settlement": "Myrathéa",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Myrathéa",
+      "provinceKey": "kaelvorrin",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-kaelix-starwake",
+      "name": "Kaelix Starwake",
+      "sourceType": "transportation_employee",
+      "role": "Train Conductor",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Myrathéa",
+      "province": "Kaelvorrin",
+      "settlementKey": "kaelvorrin:Myrathéa",
+      "provinceKey": "kaelvorrin"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-brann-glimmerlock-18-1",
+      "name": "Brann Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "best friend",
+      "employeeId": "emp-kaelix-starwake",
+      "employeeName": "Kaelix Starwake",
+      "raceCategory": "Amphibious and Aquatic Peoples",
+      "race": "Locathah",
+      "genderIdentity": "Demi-Male",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Moon / Moonself",
+        "subject": "Moon",
+        "object": "Moon",
+        "possessiveDeterminer": "Moon’s",
+        "possessivePronoun": "Moon’s",
+        "reflexive": "Moonself",
+        "example": "Moon carried moon’s charm."
+      },
+      "honorific": "Father",
+      "province": "Kaelvorrin",
+      "provinceKey": "kaelvorrin",
+      "settlement": "Myrathéa",
+      "settlementKey": "kaelvorrin:Myrathéa",
+      "homeLocation": {
+        "province": "Kaelvorrin",
+        "settlement": "Myrathéa",
+        "x": 1831.0,
+        "y": 366.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Locathah",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrathéa",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Myrathéa",
+        "provinceKey": "kaelvorrin"
+      }
+    },
+    {
+      "id": "side-doru-starbarrow-18-0",
+      "name": "Doru Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "cousin",
+      "employeeId": "emp-kaelix-starwake",
+      "employeeName": "Kaelix Starwake",
+      "raceCategory": "Animalfolk and Mammalian Anthropomorphs",
+      "race": "Leonin",
+      "genderIdentity": "Demi-Female",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Bun / Bunnyself",
+        "subject": "Bun",
+        "object": "Bun",
+        "possessiveDeterminer": "Bun’s",
+        "possessivePronoun": "Bun’s",
+        "reflexive": "Bunnyself / Bunself",
+        "example": "Bun made bun’s tea bunnyself."
+      },
+      "honorific": "Mama",
+      "province": "Kaelvorrin",
+      "provinceKey": "kaelvorrin",
+      "settlement": "Myrathéa",
+      "settlementKey": "kaelvorrin:Myrathéa",
+      "homeLocation": {
+        "province": "Kaelvorrin",
+        "settlement": "Myrathéa",
+        "x": 1831.0,
+        "y": 366.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Leonin",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Myrathéa",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Myrathéa",
+        "provinceKey": "kaelvorrin"
+      }
+    },
+    {
+      "id": "emp-kaelix-starwake",
+      "name": "Kaelix Starwake",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 29,
+      "race": "Elf — Astral Elf",
+      "genderIdentity": "Non-Binary",
+      "pronouns": "They / Them",
+      "occupation": "Train Conductor",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Altruistic - Lawful - Cooperative - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Kaelvorrin",
+      "homeProvinceKey": "kaelvorrin",
+      "homeSettlement": "Myrathéa",
+      "homeSettlementKey": "kaelvorrin:Myrathéa",
+      "workProvince": "Aelwynora",
+      "workProvinceKey": "aelwynora",
+      "workSettlement": "Yltharien",
+      "workSettlementKey": "aelwynora:Yltharien",
+      "homeLocation": {
+        "province": "Kaelvorrin",
+        "settlement": "Myrathéa",
+        "x": 1831.0,
+        "y": 366.0,
+        "lat": 25.66406,
+        "lon": 141.85547,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+9",
+          "timeZoneName": "Belavadös UTC+9",
+          "offsetHoursFromUTC": 9,
+          "offsetMinutesFromUTC": 540,
+          "offsetHoursFromBMT": 9,
+          "offsetMinutesFromBMT": 540,
+          "longitudeBandDegrees": [
+            127.5,
+            142.5
+          ],
+          "certifiedLatitude": 25.66406,
+          "certifiedLongitude": 141.85547,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Yltharien Train Station / Rail Platform",
+        "province": "Aelwynora",
+        "settlement": "Yltharien",
+        "mode": "rail",
+        "x": 1148.0,
+        "y": 326.0,
+        "lat": 32.69531,
+        "lon": 21.79688,
+        "provinceKey": "aelwynora",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+1",
+          "timeZoneName": "Belavadös UTC+1",
+          "offsetHoursFromUTC": 1,
+          "offsetMinutesFromUTC": 60,
+          "offsetHoursFromBMT": 1,
+          "offsetMinutesFromBMT": 60,
+          "longitudeBandDegrees": [
+            7.5,
+            22.5
+          ],
+          "certifiedLatitude": 32.69531,
+          "certifiedLongitude": 21.79688,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "coverageWorkDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Selnara Driftglass",
+          "type": "Coworker",
+          "score": 63
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "cousin",
+            "name": "Doru Starbarrow",
+            "sideNpcId": "side-doru-starbarrow-18-0",
+            "livesIn": "Myrathéa"
+          },
+          {
+            "kind": "best friend",
+            "name": "Brann Glimmerlock",
+            "sideNpcId": "side-brann-glimmerlock-18-1",
+            "livesIn": "Myrathéa"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Merrinthal",
+            "province": "El'dravire Riverrealm",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Merrinthal",
+            "province": "El'dravire Riverrealm",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Kaelix Starwake is a Astral Elf — Starwake Lineage transportation employee (They / Them) and a train conductor whose public work is transportation, but their tracked life begins at home in Myrathéa, Kaelvorrin. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "brisk but caring",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Elf — Astral Elf",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Elf",
+        "bloodlineOrLineage": "Astral Elf",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Elf",
+          "bloodlineOrLineage": "Astral Elf"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "kaelvorrin:Myrathéa",
+      "workplaceSettlementId": "aelwynora:Yltharien",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Myrathéa",
+        "province": "Kaelvorrin",
+        "settlementKey": "kaelvorrin:Myrathéa",
+        "provinceKey": "kaelvorrin",
+        "serviceMode": "Train / Rail"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
