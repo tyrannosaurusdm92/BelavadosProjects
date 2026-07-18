@@ -1,0 +1,478 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "zaltharuun:Xal’voroq",
+  "settlement": "Xal’voroq",
+  "provinceKey": "zaltharuun",
+  "province": "Zal’tharuun",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Zaltharuun/Xalvoroq/Xalvoroq_Zaltharuun.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "zaltharuun:Xal’voroq",
+    "provinceKey": "zaltharuun",
+    "province": "Zal’tharuun",
+    "settlement": "Xal’voroq",
+    "type": "City",
+    "biomes": [
+      "Ocean Surface floating settlement",
+      "Underwater without reefs"
+    ],
+    "primaryBiome": "Ocean Surface floating settlement",
+    "pinPlacement": "underwater-negative-z-pin",
+    "localTopographicRule": "Render Xal’voroq at the final abyssal plain anchor in mainland scope; pathing uses abyssal_water_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1723.0,
+        "y": 750.0,
+        "ix": 1723,
+        "iy": 750
+      },
+      "mappedBiomeDepth": "abyssal plain",
+      "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": -2732.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 2732,
+      "subsurfaceAnchorZMeters": -2732,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 2732,
+      "anchorMode": "underwater_anchor",
+      "pinPlacement": "underwater-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        122.87109,
+        -41.83594,
+        -6000
+      ],
+      "surfaceAnchorCoordinates": [
+        122.87109,
+        -41.83594,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "abyssal plain",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Zal’tharuun",
+      "Named river / delta / canal / lake": "Zal’tharuun Abyssal River",
+      "Named bay / gulf / sea / sound": "Zal’tharuun Blackwater Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Ocean Surface floating settlement; Farming"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Zal’tharuun",
+      "Mountain range / highland": "Zal’tharuun Ironribs",
+      "Volcano / vent / caldera": "Ironrind Caldera",
+      "Forest / swamp / landmark": "Blackmoss Tangle"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Zal’tharuun",
+      "Climate regime": "broad-latitude subpolar with marine/deep-water sectors",
+      "Dominant terrain": "Beach and grass with water; Ocean Surface floating settlement; Farming",
+      "Named weather": "Blackwater Storm-Stack",
+      "Vertical note": "highest settled weather band 180 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Zal’tharuun is centered at -60.995070, -104.773998 under Tribal Confederation, with 81,309,000 people across 14 settlements.",
+      "extremeAtlasDescription": "Zal’tharuun occupies 10,763,398.02 sq mi / 27,877,072.91 sq km of modeled Earth-sized territory, about 5.465387% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Ocean Surface floating settlement and Farming define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Hybrid tree and forest floor, Underwater without reefs, Partial forest, and 1 more. Population density is 2.917 people/sq km / 7.554 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, Merfolk, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Enkirael, Freyseth, Ishtanora, Iskareth, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 5 recorded four-province geography group links, including 4 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 14
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 13
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 13
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 7
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 13
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 13
+        },
+        {
+          "name": "Triton",
+          "count": 8
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 7
+        },
+        {
+          "name": "Tortle",
+          "count": 7
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 7
+        },
+        {
+          "name": "Hadozee",
+          "count": 7
+        },
+        {
+          "name": "Merfolk",
+          "count": 7
+        },
+        {
+          "name": "Locathah",
+          "count": 7
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 6
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 6
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 14
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 14
+        },
+        {
+          "name": "Enkirael",
+          "count": 14
+        },
+        {
+          "name": "Freyseth",
+          "count": 14
+        },
+        {
+          "name": "Ishtanora",
+          "count": 13
+        },
+        {
+          "name": "Iskareth",
+          "count": 13
+        },
+        {
+          "name": "Bastveig",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 5
+        },
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 5
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 4
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 14
+        },
+        {
+          "name": "Steamship",
+          "count": 13
+        },
+        {
+          "name": "Train / Rail",
+          "count": 7
+        },
+        {
+          "name": "Caravan",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Ferry",
+          "count": 4
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 6
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Hybrid tree and forest floor",
+          "count": 1
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 1
+        },
+        {
+          "name": "Partial forest",
+          "count": 1
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Blackwater Storm-Stack",
+      "climateRegime": "broad-latitude subpolar with marine/deep-water sectors",
+      "provinceCenterLatitude": -60.07106,
+      "provinceCenterLongitude": 119.87224,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 0,
+      "group": "Ocean",
+      "category": "Ocean Surface floating settlement",
+      "path": "Ocean/Ocean Surface floating settlement",
+      "preview_color": "#1F97E5"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "abyssal plain",
+    "mappedBiomePath": "Ocean/Underwater without reefs/Abyssal plain",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "abyssal_water_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1723.0,
+      "y": 750.0,
+      "longitude": 122.87109,
+      "latitude": -41.83594,
+      "utc": "UTC+8",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "chase",
+      "name": "Chase",
+      "sourceType": "immersive_npc_roster",
+      "role": "Hunter",
+      "faction": "The Choral Synod",
+      "settlement": "Xal’voroq",
+      "province": "Zal’tharuun",
+      "settlementKey": "zaltharuun:Xal’voroq",
+      "provinceKey": "zaltharuun",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "chase",
+      "name": "Chase",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Zal’tharuun",
+      "provinceKey": "zaltharuun",
+      "settlement": "Xal’voroq",
+      "settlementKey": "zaltharuun:Xal’voroq",
+      "description": "Chase is a trans Cyclopian hunter with a past scrubbed from every registry except the scars that taught him how retrieval agents think. From the Xal'voroq Workshop, he tracks threats to Choral Synod safe routes, hunts abductors, and trains fugitives to survive pursuit without becoming crueler than their pursuers. He is fierce, private, and difficult to comfort, but his loyalty to escaped people is absolute because he knows exactly what it means to be treated as recoverable property.",
+      "settlementAndAncestryTexture": "Xal’voroq is a City in Zal’tharuun, under Tribal Confederation, with severe danger, Ocean Surface floating settlement, Underwater without reefs terrain. Local records favor Neutral, Neutral, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Elf — Sea Elf, Tortle, Genasi — Water Genasi. Cyclopian reads through the Cyclopian entry of the race compendium, within Giantkin and Powerful Humanoids, marked by Anubaldir. Cyclopians are one-eyed giantkin often associated with prophecy, craftsmanship, or primal vision. Their singular perspective is often both literal and symbolic in their culture. Table cues: Intelligence +2, Dexterity/Wisdom +1, Darkvision, Knowledge Seeker; starting tendency Neutral - Neutral - Neutral - Honorable.",
+      "rumors": [
+        "Chase No-Registry knows why an ichor ledger changed hands last Nebday.",
+        "Chase No-Registry has a contact in Nythalûn who will deny everything."
+      ],
+      "plotHooks": [
+        "Chase No-Registry asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Chase No-Registry's public story is incomplete."
+      ],
+      "profileId": "npc_0098_chase_no_registry",
+      "race": "Cyclopian",
+      "genderAndPronouns": "Trans-Male • he/him",
+      "householdRole": "Elder",
+      "residence": "Xal’voroq - Market Apartment",
+      "workplace": "Xal’voroq Workshop",
+      "job": "Hunter",
+      "faction": "The Choral Synod",
+      "profileTable": {
+        "id": "npc_0098_chase_no_registry",
+        "race": "Cyclopian",
+        "gender_pronouns": "Trans-Male • he/him",
+        "household_role": "Elder",
+        "province": "Zal’tharuun",
+        "settlement": "Xal’voroq",
+        "residence": "Xal’voroq - Market Apartment",
+        "workplace": "Xal’voroq Workshop",
+        "job": "Hunter",
+        "faction": "The Choral Synod"
+      },
+      "quickIndexNumber": 96,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Xal’voroq",
+        "province": "Zal’tharuun",
+        "settlementKey": "zaltharuun:Xal’voroq",
+        "provinceKey": "zaltharuun"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

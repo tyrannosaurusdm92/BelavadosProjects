@@ -1,0 +1,869 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "jormaelis:Yire’thaulor",
+  "settlement": "Yire’thaulor",
+  "provinceKey": "jormaelis",
+  "province": "Jor’maelis",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Jormaelis/Yirethaulor/Yirethaulor_Jormaelis.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "jormaelis:Yire’thaulor",
+    "provinceKey": "jormaelis",
+    "province": "Jor’maelis",
+    "settlement": "Yire’thaulor",
+    "type": "City",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water",
+      "Mountain range"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Yire’thaulor at the final Beach and grass with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 262.0,
+        "y": 120.0,
+        "ix": 262,
+        "iy": 120
+      },
+      "mappedBiomeDepth": "Beach and grass with water",
+      "mappedBiomePath": "Hybrid/Beach and grass with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 0.0,
+      "surfaceAnchorZMeters": 0,
+      "subsurfaceDepthMeters": 85,
+      "subsurfaceAnchorZMeters": -85,
+      "maxHeightMetersAboveSeaLevel": 0,
+      "maxDepthMetersBelowSeaLevel": 85,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -133.94531,
+        68.90625,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -133.94531,
+        68.90625,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and grass with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Jor’maelis",
+      "Named river / delta / canal / lake": "Jor’maelis Sunlit Sea",
+      "Named bay / gulf / sea / sound": "Caelorynth Bright Gulf",
+      "Terrain that feeds the water": "Underwater without reefs; Beach and grass with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Jor’maelis",
+      "Mountain range / highland": "Jor’maelis Pale Peaks",
+      "Volcano / vent / caldera": "Sunlance Vent",
+      "Forest / swamp / landmark": "Lilyfire Coastwood"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Jor’maelis",
+      "Climate regime": "broad-latitude subpolar with marine/deep-water sectors",
+      "Dominant terrain": "Underwater without reefs; Beach and grass with water; Partial forest",
+      "Named weather": "Sunlance Cyclone Bands",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 6200 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Jor’maelis is centered at -46.374220, 130.627031 under Communalism, with 105,431,000 people across 13 settlements.",
+      "extremeAtlasDescription": "Jor’maelis occupies 10,194,632.18 sq mi / 26,403,976.13 sq km of modeled Earth-sized territory, about 5.176582% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Underwater without reefs, Beach and grass with water and Partial forest define its broad terrain, while its settlements intensify into Ocean Surface floating settlement, Beach and grass with water, Underwater without reefs, Partial forest and Farming. Population density is 3.993 people/sq km / 10.342 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Elemental and Energy-Born Peoples, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Triton, Merfolk, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, and 4 more. Faction visibility leans toward The Nefaric Veil, with worship and patronage records naming Nefarokir, Eirzunet, Nebyrr, Ishtanora, Iskareth, Sigrananna, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 11
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 11
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 11
+        },
+        {
+          "name": "Elven-Types",
+          "count": 10
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 10
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 11
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 11
+        },
+        {
+          "name": "Triton",
+          "count": 8
+        },
+        {
+          "name": "Merfolk",
+          "count": 7
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 6
+        },
+        {
+          "name": "Tortle",
+          "count": 6
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 6
+        },
+        {
+          "name": "Hadozee",
+          "count": 6
+        },
+        {
+          "name": "Locathah",
+          "count": 6
+        },
+        {
+          "name": "Tamhiogal",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Ocean",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Reef",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Nefaric Veil",
+          "count": 13
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nefarokir",
+          "count": 13
+        },
+        {
+          "name": "Eirzunet",
+          "count": 13
+        },
+        {
+          "name": "Nebyrr",
+          "count": 11
+        },
+        {
+          "name": "Ishtanora",
+          "count": 11
+        },
+        {
+          "name": "Iskareth",
+          "count": 11
+        },
+        {
+          "name": "Sigrananna",
+          "count": 10
+        },
+        {
+          "name": "Bastveig",
+          "count": 10
+        },
+        {
+          "name": "Horundar",
+          "count": 8
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 6
+        },
+        {
+          "name": "Thalunesh",
+          "count": 6
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 4
+        },
+        {
+          "name": "Low",
+          "count": 4
+        },
+        {
+          "name": "High",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 4
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Submarine",
+          "count": 12
+        },
+        {
+          "name": "Steamship",
+          "count": 10
+        },
+        {
+          "name": "Train / Rail",
+          "count": 7
+        },
+        {
+          "name": "Caravan",
+          "count": 7
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 4
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Underwater without reefs",
+          "count": 2
+        },
+        {
+          "name": "Partial forest",
+          "count": 2
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Sunlance Cyclone Bands",
+      "climateRegime": "broad-latitude subpolar with marine/deep-water sectors",
+      "provinceCenterLatitude": 64.10481,
+      "provinceCenterLongitude": -146.47045,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and grass with water",
+    "mappedBiomePath": "Hybrid/Beach and grass with water",
+    "placementMatch": "exact",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 262.0,
+      "y": 120.0,
+      "longitude": -133.94531,
+      "latitude": 68.90625,
+      "utc": "UTC-9",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 4,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1,
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 3
+  },
+  "npcReferences": [
+    {
+      "id": "side-noryn-moonspoke-57-0",
+      "name": "Noryn Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "role": "cousin",
+      "faction": null,
+      "settlement": "Yire’thaulor",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "provinceKey": "jormaelis",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-orris-thornvalve-57-1",
+      "name": "Orris Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "role": "best friend",
+      "faction": null,
+      "settlement": "Yire’thaulor",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "provinceKey": "jormaelis",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "proctor-ingra-vell",
+      "name": "Proctor Ingra Vell",
+      "sourceType": "immersive_npc_roster",
+      "role": "Forge Proctor",
+      "faction": "The Crucible Wardens",
+      "settlement": "Yire’thaulor",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "provinceKey": "jormaelis",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-sylven-ashglade",
+      "name": "Sylven Ashglade",
+      "sourceType": "transportation_employee",
+      "role": "Rail Navigator",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Yire’thaulor",
+      "province": "Jor’maelis",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "provinceKey": "jormaelis"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-noryn-moonspoke-57-0",
+      "name": "Noryn Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "cousin",
+      "employeeId": "emp-sylven-ashglade",
+      "employeeName": "Sylven Ashglade",
+      "raceCategory": "Insectoid, Ooze, and Aberrant Creatures",
+      "race": "Plasmoid",
+      "genderIdentity": "Bi-Gender",
+      "pronounSet": {
+        "group": "Flexible Pronoun Preferences",
+        "name": "No Pronouns / Name Only",
+        "subject": "Name",
+        "object": "Name",
+        "possessiveDeterminer": "Name’s",
+        "possessivePronoun": "Name’s",
+        "reflexive": "Nameself / Name",
+        "example": "Pippin brought Pippin’s book."
+      },
+      "honorific": "Bean",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "settlement": "Yire’thaulor",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Yire’thaulor",
+        "x": 262.0,
+        "y": 120.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Plasmoid",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Yire’thaulor",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Yire’thaulor",
+        "provinceKey": "jormaelis"
+      }
+    },
+    {
+      "id": "side-orris-thornvalve-57-1",
+      "name": "Orris Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "best friend",
+      "employeeId": "emp-sylven-ashglade",
+      "employeeName": "Sylven Ashglade",
+      "raceCategory": "Miscellaneous and Hard-to-Classify Races",
+      "race": "Volsarii",
+      "genderIdentity": "Cis-Female",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "First Person Singular",
+        "subject": "I",
+        "object": "Me",
+        "possessiveDeterminer": "My",
+        "possessivePronoun": "Mine",
+        "reflexive": "Myself",
+        "example": "I made it myself."
+      },
+      "honorific": "Tadpole",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "settlement": "Yire’thaulor",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Yire’thaulor",
+        "x": 262.0,
+        "y": 120.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Volsarii",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Yire’thaulor",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Yire’thaulor",
+        "provinceKey": "jormaelis"
+      }
+    },
+    {
+      "id": "proctor-ingra-vell",
+      "name": "Proctor Ingra Vell",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Jor’maelis",
+      "provinceKey": "jormaelis",
+      "settlement": "Yire’thaulor",
+      "settlementKey": "jormaelis:Yire’thaulor",
+      "description": "Proctor Ingra Vell is a sharp, sarcastic Volsarii forge-proctor with a mercenary’s practicality, a death-guide’s instincts, and a frightening talent for making people doubt themselves before a fight even begins. As one of the four-armed soul-ferriers shaped by Nefarokir, Nebyrr, and Sokhivar, she can sense fear clinging to the dead, read the emotional residue of battlefield remains, and treat fallen warriors with reverence even when she hated them alive.\nAt the Yire’thaulor Clinic, Ingra forges, repairs, and blesses Crucible Custodian arms used for retrieval work, battlefield containment, and the handling of ichor-tainted relics. She is rude, loyal, flirtatious when it serves her, and deeply haunted by old contracts; her cruelty is usually armor, but her sense of duty toward the dead is real enough that even her enemies get proper rites.",
+      "settlementAndAncestryTexture": "Yire’thaulor is a City in Jor’maelis, under Communalism, with high danger, Beach and grass with water, Beach and reefs with water, Mountain range terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Dwarf — Mountain Dwarf, Gnome — Rock Gnome, Goliath. Volsarii reads through the Volsarii entry of the race compendium, within Miscellaneous and Hard-to-Classify Races, marked by Nephthysra. Four-Armed Ferriers of Souls, Liminal Balance, and Ethereal Wings. Table cues: ancestral instincts, homeland pressure, and local reputation; starting tendency Altruistic - Lawful - Combative - Honorable.",
+      "rumors": [
+        "Proctor Ingra Vell knows why an ichor ledger changed hands last Nebday.",
+        "Proctor Ingra Vell has a contact in Turyne who will deny everything."
+      ],
+      "plotHooks": [
+        "Proctor Ingra Vell asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Proctor Ingra Vell's public story is incomplete."
+      ],
+      "profileId": "npc_0035_proctor_ingra_vell",
+      "race": "Volsarii",
+      "genderAndPronouns": "Trans-Female • she/her",
+      "householdRole": "Household Guard",
+      "residence": "Yire’thaulor - Canal Flat",
+      "workplace": "Yire’thaulor Clinic",
+      "job": "Forge Proctor",
+      "faction": "The Crucible Wardens",
+      "profileTable": {
+        "id": "npc_0035_proctor_ingra_vell",
+        "race": "Volsarii",
+        "gender_pronouns": "Trans-Female • she/her",
+        "household_role": "Household Guard",
+        "province": "Jor’maelis",
+        "settlement": "Yire’thaulor",
+        "residence": "Yire’thaulor - Canal Flat",
+        "workplace": "Yire’thaulor Clinic",
+        "job": "Forge Proctor",
+        "faction": "The Crucible Wardens"
+      },
+      "quickIndexNumber": 35,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Yire’thaulor",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Yire’thaulor",
+        "provinceKey": "jormaelis"
+      }
+    },
+    {
+      "id": "emp-sylven-ashglade",
+      "name": "Sylven Ashglade",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 52,
+      "race": "Corvum",
+      "genderIdentity": "Non-Binary",
+      "pronouns": "They / Them",
+      "occupation": "Rail Navigator",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Neutral - Cooperative - Neutral",
+      "currentMood": "Happy",
+      "homeProvince": "Jor’maelis",
+      "homeProvinceKey": "jormaelis",
+      "homeSettlement": "Yire’thaulor",
+      "homeSettlementKey": "jormaelis:Yire’thaulor",
+      "workProvince": "Earrorim",
+      "workProvinceKey": "earrorim",
+      "workSettlement": "Iciarene",
+      "workSettlementKey": "earrorim:Iciarene",
+      "homeLocation": {
+        "province": "Jor’maelis",
+        "settlement": "Yire’thaulor",
+        "x": 262.0,
+        "y": 120.0,
+        "lat": 68.90625,
+        "lon": -133.94531,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-9",
+          "timeZoneName": "Belavadös UTC-9",
+          "offsetHoursFromUTC": -9,
+          "offsetMinutesFromUTC": -540,
+          "offsetHoursFromBMT": -9,
+          "offsetMinutesFromBMT": -540,
+          "longitudeBandDegrees": [
+            -142.5,
+            -127.5
+          ],
+          "certifiedLatitude": 68.90625,
+          "certifiedLongitude": -133.94531,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Iciarene Train Station / Rail Platform",
+        "province": "Earrorim",
+        "settlement": "Iciarene",
+        "mode": "rail",
+        "x": 1472.0,
+        "y": 625.0,
+        "lat": -19.86328,
+        "lon": 78.75,
+        "provinceKey": "earrorim",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+5",
+          "timeZoneName": "Belavadös UTC+5",
+          "offsetHoursFromUTC": 5,
+          "offsetMinutesFromUTC": 300,
+          "offsetHoursFromBMT": 5,
+          "offsetMinutesFromBMT": 300,
+          "longitudeBandDegrees": [
+            67.5,
+            82.5
+          ],
+          "certifiedLatitude": -19.86328,
+          "certifiedLongitude": 78.75,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "coverageWorkDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Orryn Blackbriar",
+          "type": "Coworker",
+          "score": 52
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "cousin",
+            "name": "Noryn Moonspoke",
+            "sideNpcId": "side-noryn-moonspoke-57-0",
+            "livesIn": "Yire’thaulor"
+          },
+          {
+            "kind": "best friend",
+            "name": "Orris Thornvalve",
+            "sideNpcId": "side-orris-thornvalve-57-1",
+            "livesIn": "Yire’thaulor"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Stormharrow",
+            "province": "Marrowynd",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Stormharrow",
+            "province": "Marrowynd",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Sylven Ashglade is a Corvum — Ashglade Blackwing Lineage transportation employee (They / Them) and a rail navigator whose public work is transportation, but their tracked life begins at home in Yire’thaulor, Jor’maelis. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "methodical and patient",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Corvum",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Corvum",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Corvum"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "jormaelis:Yire’thaulor",
+      "workplaceSettlementId": "earrorim:Iciarene",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Yire’thaulor",
+        "province": "Jor’maelis",
+        "settlementKey": "jormaelis:Yire’thaulor",
+        "provinceKey": "jormaelis",
+        "serviceMode": "Train / Rail"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

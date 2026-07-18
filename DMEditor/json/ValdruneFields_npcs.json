@@ -1,0 +1,794 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "valerune:Valdrune Fields",
+  "settlement": "Valdrune Fields",
+  "provinceKey": "valerune",
+  "province": "Valerune",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Valerune/ValdruneFields/ValdruneFields_Valerune.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "valerune:Valdrune Fields",
+    "provinceKey": "valerune",
+    "province": "Valerune",
+    "settlement": "Valdrune Fields",
+    "type": "Town",
+    "biomes": [
+      "Partial forest",
+      "Deep forest",
+      "Marshes and swamps"
+    ],
+    "primaryBiome": "Partial forest",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Valdrune Fields at the final Marshes and swamps anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 855.0,
+        "y": 668.0,
+        "ix": 855,
+        "iy": 668
+      },
+      "mappedBiomeDepth": "Marshes and swamps",
+      "mappedBiomePath": "Forest/Marshes and swamps",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 122.16,
+      "surfaceAnchorZMeters": 122,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 122,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -29.70703,
+        -27.42188,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -29.70703,
+        -27.42188,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Marshes and swamps",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Valerune",
+      "Named river / delta / canal / lake": "Valerune Asparagus Marshlake",
+      "Named bay / gulf / sea / sound": "Valerune Reed Gulf",
+      "Terrain that feeds the water": "Partial forest; Farming; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Valerune",
+      "Mountain range / highland": "Valerune High Marshwalls",
+      "Volcano / vent / caldera": "Greenroot Steamer",
+      "Forest / swamp / landmark": "Valerune Reedforest"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Valerune",
+      "Climate regime": "subtropical with marine/deep-water sectors; wetland fog and flood pulses",
+      "Dominant terrain": "Partial forest; Farming; Beach and reefs with water",
+      "Named weather": "Reed-Steam Murk",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Valerune is centered at -33.735193, 69.650939 under Runic Concord, with 45,575,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Valerune occupies 5,811,759.15 sq mi / 15,052,387.09 sq km of modeled Earth-sized territory, about 2.951067% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Partial forest, Farming and Beach and reefs with water define its broad terrain, while its settlements intensify into Partial forest, Beach and reefs with water and Beach and grass with water. Population density is 3.028 people/sq km / 7.842 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Halfling — Stout Halfling, Kender, Kithkin, Centaur, and 4 more. Faction visibility leans toward The Brass Concordat, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Raeshkul, Sigrananna, Marduthor, Bastveig, and 3 more.",
+      "groupLinkDescription": "The province participates in 10 recorded four-province geography group links, including 9 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 8
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 5
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 4
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 2
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Harengon",
+          "count": 6
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 4
+        },
+        {
+          "name": "Kender",
+          "count": 4
+        },
+        {
+          "name": "Kithkin",
+          "count": 4
+        },
+        {
+          "name": "Centaur",
+          "count": 4
+        },
+        {
+          "name": "Giff",
+          "count": 4
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 4
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 4
+        },
+        {
+          "name": "Faerie",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Iskareth",
+          "count": 8
+        },
+        {
+          "name": "Raeshkul",
+          "count": 8
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Bastveig",
+          "count": 5
+        },
+        {
+          "name": "Nefarokir",
+          "count": 5
+        },
+        {
+          "name": "Nephthysra",
+          "count": 5
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 4
+        },
+        {
+          "name": "Submarine",
+          "count": 4
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Partial forest",
+          "count": 5
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Beach and grass with water",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Reed-Steam Murk",
+      "climateRegime": "subtropical with marine/deep-water sectors; wetland fog and flood pulses",
+      "provinceCenterLatitude": -33.22557,
+      "provinceCenterLongitude": -18.50672,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 10,
+      "group": "Forest",
+      "category": "Partial forest",
+      "path": "Forest/Partial forest",
+      "preview_color": "#3E742E"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Marshes and swamps",
+    "mappedBiomePath": "Forest/Marshes and swamps",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 855.0,
+      "y": 668.0,
+      "longitude": -29.70703,
+      "latitude": -27.42188,
+      "utc": "UTC-2",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-pava-moonspoke-32-0",
+      "name": "Pava Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "role": "best friend",
+      "faction": null,
+      "settlement": "Valdrune Fields",
+      "province": "Valerune",
+      "settlementKey": "valerune:Valdrune Fields",
+      "provinceKey": "valerune",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-tivren-mosscloak",
+      "name": "Tivren Mosscloak",
+      "sourceType": "transportation_employee",
+      "role": "Rail Maintenance Technician",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "home",
+      "settlement": "Valdrune Fields",
+      "province": "Valerune",
+      "settlementKey": "valerune:Valdrune Fields",
+      "provinceKey": "valerune"
+    },
+    {
+      "id": "side-vel-thornvalve-32-1",
+      "name": "Vel Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "role": "neighbor",
+      "faction": null,
+      "settlement": "Valdrune Fields",
+      "province": "Valerune",
+      "settlementKey": "valerune:Valdrune Fields",
+      "provinceKey": "valerune",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-pava-moonspoke-32-0",
+      "name": "Pava Moonspoke",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "best friend",
+      "employeeId": "emp-tivren-mosscloak",
+      "employeeName": "Tivren Mosscloak",
+      "raceCategory": "Humans, Near-Humans, and Mixed Heritage",
+      "race": "Human",
+      "lineage": "Khoravar",
+      "genderIdentity": "Demi-Female",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "Second Person",
+        "subject": "You",
+        "object": "You",
+        "possessiveDeterminer": "Your",
+        "possessivePronoun": "Yours",
+        "reflexive": "Yourself / Yourselves",
+        "example": "You forgot your jacket."
+      },
+      "honorific": "Uncle",
+      "province": "Valerune",
+      "provinceKey": "valerune",
+      "settlement": "Valdrune Fields",
+      "settlementKey": "valerune:Valdrune Fields",
+      "homeLocation": {
+        "province": "Valerune",
+        "settlement": "Valdrune Fields",
+        "x": 855.0,
+        "y": 668.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Human — Khoravar",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Valdrune Fields",
+        "province": "Valerune",
+        "settlementKey": "valerune:Valdrune Fields",
+        "provinceKey": "valerune"
+      }
+    },
+    {
+      "id": "emp-tivren-mosscloak",
+      "name": "Tivren Mosscloak",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 24,
+      "race": "Hedge",
+      "genderIdentity": "Non-Binary",
+      "pronouns": "They / Them",
+      "occupation": "Rail Maintenance Technician",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Senior",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Altruistic - Neutral - Cooperative - Honorable",
+      "currentMood": "Happy",
+      "homeProvince": "Valerune",
+      "homeProvinceKey": "valerune",
+      "homeSettlement": "Valdrune Fields",
+      "homeSettlementKey": "valerune:Valdrune Fields",
+      "workProvince": "Bravelyn",
+      "workProvinceKey": "bravelyn",
+      "workSettlement": "Soltharyn Basin",
+      "workSettlementKey": "bravelyn:Soltharyn Basin",
+      "homeLocation": {
+        "province": "Valerune",
+        "settlement": "Valdrune Fields",
+        "x": 855.0,
+        "y": 668.0,
+        "lat": -27.42188,
+        "lon": -29.70703,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-2",
+          "timeZoneName": "Belavadös UTC-2",
+          "offsetHoursFromUTC": -2,
+          "offsetMinutesFromUTC": -120,
+          "offsetHoursFromBMT": -2,
+          "offsetMinutesFromBMT": -120,
+          "longitudeBandDegrees": [
+            -37.5,
+            -22.5
+          ],
+          "certifiedLatitude": -27.42188,
+          "certifiedLongitude": -29.70703,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Soltharyn Basin Train Station / Rail Platform",
+        "province": "Bravelyn",
+        "settlement": "Soltharyn Basin",
+        "mode": "rail",
+        "x": 1656.0,
+        "y": 552.0,
+        "lat": -7.03125,
+        "lon": 111.09375,
+        "provinceKey": "bravelyn",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC+7",
+          "timeZoneName": "Belavadös UTC+7",
+          "offsetHoursFromUTC": 7,
+          "offsetMinutesFromUTC": 420,
+          "offsetHoursFromBMT": 7,
+          "offsetMinutesFromBMT": 420,
+          "longitudeBandDegrees": [
+            97.5,
+            112.5
+          ],
+          "certifiedLatitude": -7.03125,
+          "certifiedLongitude": 111.09375,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "coverageWorkDays": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Elyndra Sunshade",
+          "type": "Coworker",
+          "score": 52
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "best friend",
+            "name": "Pava Moonspoke",
+            "sideNpcId": "side-pava-moonspoke-32-0",
+            "livesIn": "Valdrune Fields"
+          },
+          {
+            "kind": "neighbor",
+            "name": "Vel Thornvalve",
+            "sideNpcId": "side-vel-thornvalve-32-1",
+            "livesIn": "Valdrune Fields"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Qelvandra",
+            "province": "Bravelyn",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Qelvandra",
+            "province": "Bravelyn",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Tivren Mosscloak is a Hedge — Mosscloak Thicket Lineage transportation employee (They / Them) and a rail maintenance technician whose public work is transportation, but their tracked life begins at home in Valdrune Fields, Valerune. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "rule-minded but kind",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Hedge",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Hedge",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Hedge"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "valerune:Valdrune Fields",
+      "workplaceSettlementId": "bravelyn:Soltharyn Basin",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_train.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Valdrune Fields",
+        "province": "Valerune",
+        "settlementKey": "valerune:Valdrune Fields",
+        "provinceKey": "valerune",
+        "serviceMode": "Train / Rail"
+      }
+    },
+    {
+      "id": "side-vel-thornvalve-32-1",
+      "name": "Vel Thornvalve",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "neighbor",
+      "employeeId": "emp-tivren-mosscloak",
+      "employeeName": "Tivren Mosscloak",
+      "raceCategory": "Elven-Types",
+      "race": "Elf",
+      "lineage": "Eladrin",
+      "genderIdentity": "Demi-Male",
+      "pronounSet": {
+        "group": "Standard Personal Pronouns",
+        "name": "They / Them",
+        "subject": "They",
+        "object": "Them",
+        "possessiveDeterminer": "Their",
+        "possessivePronoun": "Theirs",
+        "reflexive": "Themself / Themselves",
+        "example": "They found their map."
+      },
+      "honorific": "Cousin",
+      "province": "Valerune",
+      "provinceKey": "valerune",
+      "settlement": "Valdrune Fields",
+      "settlementKey": "valerune:Valdrune Fields",
+      "homeLocation": {
+        "province": "Valerune",
+        "settlement": "Valdrune Fields",
+        "x": 855.0,
+        "y": 668.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Elf — Eladrin",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Valdrune Fields",
+        "province": "Valerune",
+        "settlementKey": "valerune:Valdrune Fields",
+        "provinceKey": "valerune"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,800 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "khorvaak:Vyraléth",
+  "settlement": "Vyraléth",
+  "provinceKey": "khorvaak",
+  "province": "Khorvaak",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Khorvaak/Vyraleth/Vyraleth_Khorvaak.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "khorvaak:Vyraléth",
+    "provinceKey": "khorvaak",
+    "province": "Khorvaak",
+    "settlement": "Vyraléth",
+    "type": "Village",
+    "biomes": [
+      "Beach and grass with water",
+      "Farming",
+      "Beach and reefs with water"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Vyraléth at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1987.0,
+        "y": 480.0,
+        "ix": 1987,
+        "iy": 480
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 2019.88,
+      "surfaceAnchorZMeters": 2020,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 2020,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        169.27734,
+        5.625,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        169.27734,
+        5.625,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Khorvaak",
+      "Named river / delta / canal / lake": "Khorvaak Forestgreen Gulf",
+      "Named bay / gulf / sea / sound": "Khorvaak Crocodile Sea",
+      "Terrain that feeds the water": "Mountain range; Deep cavern; Beach and grass with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Khorvaak",
+      "Mountain range / highland": "Khorvaak Rootwalls",
+      "Volcano / vent / caldera": "Rootfire Hill",
+      "Forest / swamp / landmark": "Khorvaak Blackleaf Jungle"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Khorvaak",
+      "Climate regime": "predominantly marine multi-belt, centered in equatorial; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Farming",
+      "Named weather": "Forestgreen Steamfront",
+      "Vertical note": "highest settled weather band 1200 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Khorvaak is centered at 3.349876, 140.357152 under Scholar-Bureaucracy, with 66,088,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Khorvaak occupies  sq mi /  sq km of modeled Earth-sized territory. Its province terrain is led by Mountain range, Deep cavern, Beach and grass with water. Vorathûn carries the mountain record, occupying the whole mountain section it sits within and descending into caverns with underworld rumors.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Dwarven and Gnomish Kin, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Halfling — Stout Halfling, Kender, Kithkin, Centaur, Giff, and 4 more. Faction visibility leans toward The Obsidian Diadem, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Enkirael, Freyseth, Bastveig, Sigrananna, and 3 more.",
+      "groupLinkDescription": "The province participates in 4 recorded four-province geography group links, including 3 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 6
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 6
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 7
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 6
+        },
+        {
+          "name": "Kender",
+          "count": 6
+        },
+        {
+          "name": "Kithkin",
+          "count": 6
+        },
+        {
+          "name": "Centaur",
+          "count": 6
+        },
+        {
+          "name": "Giff",
+          "count": 6
+        },
+        {
+          "name": "Dwarf — Hill Dwarf",
+          "count": 6
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Gnome — Rock Gnome",
+          "count": 5
+        },
+        {
+          "name": "Dril'thar — Grassland",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Obsidian Diadem",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Enkirael",
+          "count": 9
+        },
+        {
+          "name": "Freyseth",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 7
+        },
+        {
+          "name": "Sigrananna",
+          "count": 6
+        },
+        {
+          "name": "Marduthor",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 9
+        },
+        {
+          "name": "Submarine",
+          "count": 9
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 6
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 2
+        },
+        {
+          "name": "Deep cavern",
+          "count": 1
+        }
+      ],
+      "mountainSettlementNotes": [
+        "Vorathûn: Vorathûn takes up the entire section of mountain range it sits within, and its lowest caverns carry underworld access rumors."
+      ]
+    },
+    "weather": {
+      "namedWeather": "Forestgreen Steamfront",
+      "climateRegime": "predominantly marine multi-belt, centered in equatorial; orographic winds and rain shadows",
+      "provinceCenterLatitude": -0.45496,
+      "provinceCenterLongitude": 166.59658,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1987.0,
+      "y": 480.0,
+      "longitude": 169.27734,
+      "latitude": 5.625,
+      "utc": "UTC+11",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "side-ari-tidebrook-21-1",
+      "name": "Ari Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "role": "apprentice",
+      "faction": null,
+      "settlement": "Vyraléth",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Vyraléth",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-evrin-brassfern-21-0",
+      "name": "Evrin Brassfern",
+      "sourceType": "transportation_side_npc",
+      "role": "mentor",
+      "faction": null,
+      "settlement": "Vyraléth",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Vyraléth",
+      "provinceKey": "khorvaak",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "emp-xarvo-mindcoil",
+      "name": "Xarvo Mindcoil",
+      "sourceType": "transportation_employee",
+      "role": "Caravan Driver",
+      "faction": null,
+      "serviceModeLabel": "Caravan",
+      "serviceMode": "Caravan",
+      "locationRole": "home",
+      "settlement": "Vyraléth",
+      "province": "Khorvaak",
+      "settlementKey": "khorvaak:Vyraléth",
+      "provinceKey": "khorvaak"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "side-ari-tidebrook-21-1",
+      "name": "Ari Tidebrook",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "apprentice",
+      "employeeId": "emp-xarvo-mindcoil",
+      "employeeName": "Xarvo Mindcoil",
+      "raceCategory": "Humans, Near-Humans, and Mixed Heritage",
+      "race": "Human",
+      "lineage": "Half-Elf",
+      "genderIdentity": "Gender-Less",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Sun / Sunself",
+        "subject": "Sun",
+        "object": "Sun",
+        "possessiveDeterminer": "Sun’s",
+        "possessivePronoun": "Sun’s",
+        "reflexive": "Sunself",
+        "example": "Sun trusted sunself."
+      },
+      "honorific": "Brother",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Vyraléth",
+      "settlementKey": "khorvaak:Vyraléth",
+      "homeLocation": {
+        "province": "Khorvaak",
+        "settlement": "Vyraléth",
+        "x": 1987.0,
+        "y": 480.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Human — Half-Elf",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Vyraléth",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Vyraléth",
+        "provinceKey": "khorvaak"
+      }
+    },
+    {
+      "id": "side-evrin-brassfern-21-0",
+      "name": "Evrin Brassfern",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "mentor",
+      "employeeId": "emp-xarvo-mindcoil",
+      "employeeName": "Xarvo Mindcoil",
+      "raceCategory": "Miscellaneous and Hard-to-Classify Races",
+      "race": "Golynn",
+      "genderIdentity": "Gender-Fluid",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Moon / Moonself",
+        "subject": "Moon",
+        "object": "Moon",
+        "possessiveDeterminer": "Moon’s",
+        "possessivePronoun": "Moon’s",
+        "reflexive": "Moonself",
+        "example": "Moon carried moon’s charm."
+      },
+      "honorific": "Papa",
+      "province": "Khorvaak",
+      "provinceKey": "khorvaak",
+      "settlement": "Vyraléth",
+      "settlementKey": "khorvaak:Vyraléth",
+      "homeLocation": {
+        "province": "Khorvaak",
+        "settlement": "Vyraléth",
+        "x": 1987.0,
+        "y": 480.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Golynn",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Vyraléth",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Vyraléth",
+        "provinceKey": "khorvaak"
+      }
+    },
+    {
+      "id": "emp-xarvo-mindcoil",
+      "name": "Xarvo Mindcoil",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 38,
+      "race": "Kalashtar",
+      "genderIdentity": "Gender-Fluid",
+      "pronouns": "They / He",
+      "occupation": "Caravan Driver",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "caravan",
+      "serviceModeLabel": "Caravan",
+      "belavadosAlignment": "Neutral - Neutral - Cooperative - Neutral",
+      "currentMood": "Exhausted",
+      "homeProvince": "Khorvaak",
+      "homeProvinceKey": "khorvaak",
+      "homeSettlement": "Vyraléth",
+      "homeSettlementKey": "khorvaak:Vyraléth",
+      "workProvince": "Astraevos",
+      "workProvinceKey": "astraevos",
+      "workSettlement": "Aelryss-Kor",
+      "workSettlementKey": "astraevos:Aelryss-Kor",
+      "homeLocation": {
+        "province": "Khorvaak",
+        "settlement": "Vyraléth",
+        "x": 1987.0,
+        "y": 480.0,
+        "lat": 5.625,
+        "lon": 169.27734,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+11",
+          "timeZoneName": "Belavadös UTC+11",
+          "offsetHoursFromUTC": 11,
+          "offsetMinutesFromUTC": 660,
+          "offsetHoursFromBMT": 11,
+          "offsetMinutesFromBMT": 660,
+          "longitudeBandDegrees": [
+            157.5,
+            172.5
+          ],
+          "certifiedLatitude": 5.625,
+          "certifiedLongitude": 169.27734,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Aelryss-Kor Caravan Station",
+        "province": "Astraevos",
+        "settlement": "Aelryss-Kor",
+        "mode": "caravan",
+        "x": 739.0,
+        "y": 764.0,
+        "lat": -44.29688,
+        "lon": -50.09766,
+        "provinceKey": "astraevos",
+        "modeLabel": "Caravan",
+        "timeZone": {
+          "timeZoneId": "UTC-3",
+          "timeZoneName": "Belavadös UTC-3",
+          "offsetHoursFromUTC": -3,
+          "offsetMinutesFromUTC": -180,
+          "offsetHoursFromBMT": -3,
+          "offsetMinutesFromBMT": -180,
+          "longitudeBandDegrees": [
+            -52.5,
+            -37.5
+          ],
+          "certifiedLatitude": -44.29688,
+          "certifiedLongitude": -50.09766,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Day",
+        "start": "08:00",
+        "break": "12:00",
+        "end": "17:00"
+      },
+      "workDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "coverageWorkDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Krex Chitterfang",
+          "type": "Apprentice",
+          "score": 66
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "mentor",
+            "name": "Evrin Brassfern",
+            "sideNpcId": "side-evrin-brassfern-21-0",
+            "livesIn": "Vyraléth"
+          },
+          {
+            "kind": "apprentice",
+            "name": "Ari Tidebrook",
+            "sideNpcId": "side-ari-tidebrook-21-1",
+            "livesIn": "Vyraléth"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Li’mioreimn",
+            "province": "Jor’maelis",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Li’mioreimn",
+            "province": "Jor’maelis",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Xarvo Mindcoil is a Kalashtar — Mindcoil Dreamline transportation employee (They / He) and a caravan driver whose public work is transportation, but their tracked life begins at home in Vyraléth, Khorvaak. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "quietly funny",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Kalashtar",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Kalashtar",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Kalashtar"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "khorvaak:Vyraléth",
+      "workplaceSettlementId": "astraevos:Aelryss-Kor",
+      "trackingColor": {
+        "archColor": "#2e9d52",
+        "assignedColor": "#2e9d52",
+        "archGradient": [
+          "#14532d",
+          "#22c55e",
+          "#bbf7d0"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit__taking_a_caravan.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Vyraléth",
+        "province": "Khorvaak",
+        "settlementKey": "khorvaak:Vyraléth",
+        "provinceKey": "khorvaak",
+        "serviceMode": "Caravan"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
