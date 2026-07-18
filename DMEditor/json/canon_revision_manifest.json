@@ -1,0 +1,94 @@
+{
+  "schema": "belavados.four_compendium_canon_manifest.v1",
+  "revisionId": "belavados-four-compendium-canon-2026-07-17",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "sourceDocuments": [
+    {
+      "file": "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "fullExtractJson": "canon_source_pantheon_races_full.json",
+      "paragraphCount": 508,
+      "tableCount": 59
+    },
+    {
+      "file": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "fullExtractJson": "canon_source_night_sky_galaxy_time_full.json",
+      "paragraphCount": 698,
+      "tableCount": 130
+    },
+    {
+      "file": "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "fullExtractJson": "canon_source_life_in_belavados_full.json",
+      "paragraphCount": 3863,
+      "tableCount": 2949
+    },
+    {
+      "file": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+      "fullExtractJson": "canon_source_geology_weather_spatial_full.json",
+      "paragraphCount": 2782,
+      "tableCount": 2499
+    }
+  ],
+  "authorityRules": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  },
+  "counts": {
+    "provinceCount": 28,
+    "settlementCount": 280,
+    "routeCount": 1059,
+    "routeEdgeCount": 1059
+  },
+  "createdSettlementFiles": [
+    "Whemosthi_Sylvaveryn.json"
+  ],
+  "createdNpcFiles": [
+    "Whemosthi_npcs.json"
+  ],
+  "routeFiles": {
+    "caravan": "routes_caravan.json",
+    "ferry": "routes_ferry.json",
+    "portal": "routes_portal.json",
+    "rail": "routes_train_rail.json",
+    "skyship": "routes_skyship.json",
+    "steamship": "routes_steamship.json",
+    "submarine": "routes_submarine.json"
+  },
+  "operationalIndexes": [
+    "settlement_locations.json",
+    "belavados_topography_weather_settlements_index.json",
+    "belavados_topography_weather_provinces_index.json",
+    "ata_arch_tracker_route_graph.json"
+  ],
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

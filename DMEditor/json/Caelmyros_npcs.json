@@ -1,0 +1,684 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "astraevos:Caelmyros",
+  "settlement": "Caelmyros",
+  "provinceKey": "astraevos",
+  "province": "Astraevos",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Astraevos/Caelmyros/Caelmyros_Astraevos.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "astraevos:Caelmyros",
+    "provinceKey": "astraevos",
+    "province": "Astraevos",
+    "settlement": "Caelmyros",
+    "type": "Town",
+    "biomes": [
+      "Farming",
+      "Grassland",
+      "Hybrid tree and forest floor"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Caelmyros at the final Grassland anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 707.0,
+        "y": 728.0,
+        "ix": 707,
+        "iy": 728
+      },
+      "mappedBiomeDepth": "Grassland",
+      "mappedBiomePath": "Plains/Grassland",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 148.0,
+      "surfaceAnchorZMeters": 148,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 148,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -55.72266,
+        -37.96875,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -55.72266,
+        -37.96875,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Grassland",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Astraevos",
+      "Named river / delta / canal / lake": "Vaelunthir Mirror Gulf",
+      "Named bay / gulf / sea / sound": "Astraevos Reefcourt",
+      "Terrain that feeds the water": "Beach and grass with water; Beach and reefs with water; Partial forest"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Astraevos",
+      "Mountain range / highland": "Cyralune Palehorns",
+      "Volcano / vent / caldera": "Aelvoryn Glass Cone",
+      "Forest / swamp / landmark": "Mythalora Rainveil"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Astraevos",
+      "Climate regime": "broad-latitude temperate with marine/deep-water sectors; wetland fog and flood pulses",
+      "Dominant terrain": "Beach and grass with water; Beach and reefs with water; Partial forest",
+      "Named weather": "Mirror-Squall Line",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Astraevos is centered at 24.310043, 55.171453 under Noocracy, with 65,511,000 people across 9 settlements.",
+      "extremeAtlasDescription": "Astraevos occupies 9,434,750.70 sq mi / 24,435,892.13 sq km of modeled Earth-sized territory, about 4.790733% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Beach and reefs with water and Partial forest define its broad terrain, while its settlements intensify into Beach and grass with water, Partial forest, Beach and reefs with water and Farming. Population density is 2.681 people/sq km / 6.944 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Amphibious and Aquatic Peoples, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Sea Elf, Tortle, Genasi — Water Genasi, Hadozee, and 4 more. Faction visibility leans toward The Brass Concordat and The Regent Lattice, with worship and patronage records naming Nebyrr, Ishtanora, Sigrananna, Iskareth, Raeshkul, Bastveig, Marduthor, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 9
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 9
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 8
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 4
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 4
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 9
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 9
+        },
+        {
+          "name": "Harengon",
+          "count": 5
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 4
+        },
+        {
+          "name": "Tortle",
+          "count": 4
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 4
+        },
+        {
+          "name": "Hadozee",
+          "count": 4
+        },
+        {
+          "name": "Triton",
+          "count": 4
+        },
+        {
+          "name": "Merfolk",
+          "count": 4
+        },
+        {
+          "name": "Locathah",
+          "count": 4
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 4
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Brass Concordat",
+          "count": 9
+        },
+        {
+          "name": "The Regent Lattice",
+          "count": 9
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 9
+        },
+        {
+          "name": "Ishtanora",
+          "count": 9
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Iskareth",
+          "count": 9
+        },
+        {
+          "name": "Raeshkul",
+          "count": 9
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Marduthor",
+          "count": 5
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 4
+        },
+        {
+          "name": "Horundar",
+          "count": 4
+        },
+        {
+          "name": "Thalunesh",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Severe",
+          "count": 3
+        },
+        {
+          "name": "Moderate",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 2
+        },
+        {
+          "name": "High",
+          "count": 1
+        },
+        {
+          "name": "Low",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 3
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 9
+        },
+        {
+          "name": "Caravan",
+          "count": 9
+        },
+        {
+          "name": "Steamship",
+          "count": 6
+        },
+        {
+          "name": "Submarine",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 4
+        },
+        {
+          "name": "Ferry",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Partial forest",
+          "count": 3
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Farming",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Mirror-Squall Line",
+      "climateRegime": "broad-latitude temperate with marine/deep-water sectors; wetland fog and flood pulses",
+      "provinceCenterLatitude": -39.47746,
+      "provinceCenterLongitude": -63.63307,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Grassland",
+    "mappedBiomePath": "Plains/Grassland",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 707.0,
+      "y": 728.0,
+      "longitude": -55.72266,
+      "latitude": -37.96875,
+      "utc": "UTC-4",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "transportation_employee": 1
+  },
+  "locationRoleCounts": {
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "emp-myrrh-veilwalker",
+      "name": "Myrrh Veilwalker",
+      "sourceType": "transportation_employee",
+      "role": "Maintenance Worker",
+      "faction": null,
+      "serviceModeLabel": "Train / Rail",
+      "serviceMode": "Train / Rail",
+      "locationRole": "workplace",
+      "settlement": "Caelmyros",
+      "province": "Astraevos",
+      "settlementKey": "astraevos:Caelmyros",
+      "provinceKey": "astraevos"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-myrrh-veilwalker",
+      "name": "Myrrh Veilwalker",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 44,
+      "race": "Hexblood",
+      "genderIdentity": "Trans-Female",
+      "pronouns": "She / They",
+      "occupation": "Maintenance Worker",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "rail",
+      "serviceModeLabel": "Train / Rail",
+      "belavadosAlignment": "Neutral - Lawful - Neutral - Honorable",
+      "currentMood": "Busy",
+      "homeProvince": "Marrowynd",
+      "homeProvinceKey": "marrowynd",
+      "homeSettlement": "Kharrowport",
+      "homeSettlementKey": "marrowynd:Kharrowport",
+      "workProvince": "Astraevos",
+      "workProvinceKey": "astraevos",
+      "workSettlement": "Caelmyros",
+      "workSettlementKey": "astraevos:Caelmyros",
+      "homeLocation": {
+        "province": "Marrowynd",
+        "settlement": "Kharrowport",
+        "x": 873.0,
+        "y": 218.0,
+        "lat": 51.67969,
+        "lon": -26.54297,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-2",
+          "timeZoneName": "Belavadös UTC-2",
+          "offsetHoursFromUTC": -2,
+          "offsetMinutesFromUTC": -120,
+          "offsetHoursFromBMT": -2,
+          "offsetMinutesFromBMT": -120,
+          "longitudeBandDegrees": [
+            -37.5,
+            -22.5
+          ],
+          "certifiedLatitude": 51.67969,
+          "certifiedLongitude": -26.54297,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Caelmyros Train Station / Rail Platform",
+        "province": "Astraevos",
+        "settlement": "Caelmyros",
+        "mode": "rail",
+        "x": 707.0,
+        "y": 728.0,
+        "lat": -37.96875,
+        "lon": -55.72266,
+        "provinceKey": "astraevos",
+        "modeLabel": "Train / Rail",
+        "timeZone": {
+          "timeZoneId": "UTC-4",
+          "timeZoneName": "Belavadös UTC-4",
+          "offsetHoursFromUTC": -4,
+          "offsetMinutesFromUTC": -240,
+          "offsetHoursFromBMT": -4,
+          "offsetMinutesFromBMT": -240,
+          "longitudeBandDegrees": [
+            -67.5,
+            -52.5
+          ],
+          "certifiedLatitude": -37.96875,
+          "certifiedLongitude": -55.72266,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Night",
+        "start": "22:00",
+        "break": "02:00",
+        "end": "07:00"
+      },
+      "workDays": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "coverageWorkDays": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Ysara Tidewhisper",
+          "type": "Coworker",
+          "score": 68
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "aunt/uncle",
+            "name": "Brann Starbarrow",
+            "sideNpcId": "side-brann-starbarrow-23-0",
+            "livesIn": "Kharrowport"
+          },
+          {
+            "kind": "grandparent",
+            "name": "Tovin Glimmerlock",
+            "sideNpcId": "side-tovin-glimmerlock-23-1",
+            "livesIn": "Kharrowport"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Vorathûn",
+            "province": "Khorvaak",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Vorathûn",
+            "province": "Khorvaak",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Myrrh Veilwalker is a Hexblood — Veilwalker Fey Thread transportation employee (She / They) and a maintenance worker whose public work is transportation, but their tracked life begins at home in Kharrowport, Marrowynd. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "curious and observant",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Hexblood",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Hexblood",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Hexblood"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "marrowynd:Kharrowport",
+      "workplaceSettlementId": "astraevos:Caelmyros",
+      "trackingColor": {
+        "archColor": "#9d4edd",
+        "assignedColor": "#9d4edd",
+        "archGradient": [
+          "#5b21b6",
+          "#9d4edd",
+          "#e0aaff"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/workprofessionalduties__working_at_a_desk.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Caelmyros",
+        "province": "Astraevos",
+        "settlementKey": "astraevos:Caelmyros",
+        "provinceKey": "astraevos",
+        "serviceMode": "Train / Rail"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "eldravireriverrealm:Cyréthar",
+  "settlement": "Cyréthar",
+  "provinceKey": "eldravireriverrealm",
+  "province": "El'dravire Riverrealm",
+  "settlementType": "Town",
+  "settlementJsonPath": "shared/settlements/Eldravire/Cyrethar/Cyrethar_Eldravire.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "eldravireriverrealm:Cyréthar",
+    "provinceKey": "eldravireriverrealm",
+    "province": "El'dravire Riverrealm",
+    "settlement": "Cyréthar",
+    "type": "Town",
+    "biomes": [
+      "Beach and grass with water",
+      "Beach and reefs with water"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-coastal-pin",
+    "localTopographicRule": "Render Cyréthar at the final Beach and reefs with water anchor in mainland scope; pathing uses coastal_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 755.0,
+        "y": 469.0,
+        "ix": 755,
+        "iy": 469
+      },
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "mappedBiomePath": "Hybrid/Beach and reefs with water",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 2.46,
+      "surfaceAnchorZMeters": 2,
+      "subsurfaceDepthMeters": 59,
+      "subsurfaceAnchorZMeters": -59,
+      "maxHeightMetersAboveSeaLevel": 2,
+      "maxDepthMetersBelowSeaLevel": 59,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -47.28516,
+        7.55859,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -47.28516,
+        7.55859,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Beach and reefs with water",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+      "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Mountain range / highland": "El’dravire Floodwall Hills",
+      "Volcano / vent / caldera": "Thornsteam Basin",
+      "Forest / swamp / landmark": "Reedcrown Marshwoods"
+    },
+    "provinceClimateAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Climate regime": "predominantly marine equatorial; wetland fog and flood pulses",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Seven-Mouth Monsoon",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+      "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 12
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 12
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 12
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 12
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 12
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 12
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 12
+        },
+        {
+          "name": "Ishtanora",
+          "count": 12
+        },
+        {
+          "name": "Iskareth",
+          "count": 12
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 12
+        },
+        {
+          "name": "Bastveig",
+          "count": 12
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Hathruna",
+          "count": 9
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 11
+        },
+        {
+          "name": "Submarine",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 7
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Seven-Mouth Monsoon",
+      "climateRegime": "predominantly marine equatorial; wetland fog and flood pulses",
+      "provinceCenterLatitude": -1.31699,
+      "provinceCenterLongitude": -32.88781,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Beach and reefs with water",
+    "mappedBiomePath": "Hybrid/Beach and reefs with water",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "coastal",
+    "routeAccessClass": "coastal_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 755.0,
+      "y": 469.0,
+      "longitude": -47.28516,
+      "latitude": 7.55859,
+      "utc": "UTC-3",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 3,
+  "sourceTypeCounts": {
+    "transportation_employee": 1,
+    "transportation_side_npc": 2
+  },
+  "locationRoleCounts": {
+    "home": 1,
+    "settlement": 2
+  },
+  "npcReferences": [
+    {
+      "id": "emp-brakka-stonehide",
+      "name": "Brakka Stonehide",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Helmsman",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "home",
+      "settlement": "Cyréthar",
+      "province": "El'dravire Riverrealm",
+      "settlementKey": "eldravire_riverrealm:Cyréthar",
+      "provinceKey": "eldravireriverrealm"
+    },
+    {
+      "id": "side-mira-glimmerlock-48-1",
+      "name": "Mira Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "role": "aunt/uncle",
+      "faction": null,
+      "settlement": "Cyréthar",
+      "province": "El'dravire Riverrealm",
+      "settlementKey": "eldravire_riverrealm:Cyréthar",
+      "provinceKey": "eldravireriverrealm",
+      "locationRole": "settlement"
+    },
+    {
+      "id": "side-nalia-starbarrow-48-0",
+      "name": "Nalia Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "role": "apprentice",
+      "faction": null,
+      "settlement": "Cyréthar",
+      "province": "El'dravire Riverrealm",
+      "settlementKey": "eldravire_riverrealm:Cyréthar",
+      "provinceKey": "eldravireriverrealm",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-brakka-stonehide",
+      "name": "Brakka Stonehide",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 25,
+      "race": "Bearfolk",
+      "genderIdentity": "Cis-Male",
+      "pronouns": "He / Him",
+      "occupation": "Skyship Helmsman",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Senior",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Altruistic - Lawful - Cooperative - Honorable",
+      "currentMood": "Frustrated",
+      "homeProvince": "El'dravire Riverrealm",
+      "homeProvinceKey": "eldravireriverrealm",
+      "homeSettlement": "Cyréthar",
+      "homeSettlementKey": "eldravireriverrealm:Cyréthar",
+      "workProvince": "Iazethas",
+      "workProvinceKey": "iazethas",
+      "workSettlement": "Streccea",
+      "workSettlementKey": "iazethas:Streccea",
+      "homeLocation": {
+        "province": "El'dravire Riverrealm",
+        "settlement": "Cyréthar",
+        "x": 755.0,
+        "y": 469.0,
+        "lat": 7.55859,
+        "lon": -47.28516,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC-3",
+          "timeZoneName": "Belavadös UTC-3",
+          "offsetHoursFromUTC": -3,
+          "offsetMinutesFromUTC": -180,
+          "offsetHoursFromBMT": -3,
+          "offsetMinutesFromBMT": -180,
+          "longitudeBandDegrees": [
+            -52.5,
+            -37.5
+          ],
+          "certifiedLatitude": 7.55859,
+          "certifiedLongitude": -47.28516,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Streccea Skyship Port",
+        "province": "Iazethas",
+        "settlement": "Streccea",
+        "mode": "skyship",
+        "x": 126.0,
+        "y": 562.0,
+        "lat": -8.78906,
+        "lon": -157.85156,
+        "provinceKey": "iazethas",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "UTC-11",
+          "timeZoneName": "Belavadös UTC-11",
+          "offsetHoursFromUTC": -11,
+          "offsetMinutesFromUTC": -660,
+          "offsetHoursFromBMT": -11,
+          "offsetMinutesFromBMT": -660,
+          "longitudeBandDegrees": [
+            -172.5,
+            -157.5
+          ],
+          "certifiedLatitude": -8.78906,
+          "certifiedLongitude": -157.85156,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Early",
+        "start": "05:00",
+        "break": "09:00",
+        "end": "14:00"
+      },
+      "workDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "coverageWorkDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Pyria Glowbranch",
+          "type": "Coworker",
+          "score": 68
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "apprentice",
+            "name": "Nalia Starbarrow",
+            "sideNpcId": "side-nalia-starbarrow-48-0",
+            "livesIn": "Cyréthar"
+          },
+          {
+            "kind": "aunt/uncle",
+            "name": "Mira Glimmerlock",
+            "sideNpcId": "side-mira-glimmerlock-48-1",
+            "livesIn": "Cyréthar"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Cyralune",
+            "province": "Astraevos",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Cyralune",
+            "province": "Astraevos",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Brakka Stonehide is a Bearfolk — Stonehide Mountain Lineage transportation employee (He / Him) and a skyship helmsman whose public work is transportation, but their tracked life begins at home in Cyréthar, El'dravire Riverrealm. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "brisk but caring",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Bearfolk",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Bearfolk",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Bearfolk"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "eldravire_riverrealm:Cyréthar",
+      "workplaceSettlementId": "iazethas:Streccea",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "home",
+        "settlement": "Cyréthar",
+        "province": "El'dravire Riverrealm",
+        "settlementKey": "eldravire_riverrealm:Cyréthar",
+        "provinceKey": "eldravireriverrealm",
+        "serviceMode": "Skyship"
+      }
+    },
+    {
+      "id": "side-mira-glimmerlock-48-1",
+      "name": "Mira Glimmerlock",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "aunt/uncle",
+      "employeeId": "emp-brakka-stonehide",
+      "employeeName": "Brakka Stonehide",
+      "raceCategory": "Constructed and Artificial Beings",
+      "race": "Autognome",
+      "genderIdentity": "Gender-Fluid",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Moon / Moonself",
+        "subject": "Moon",
+        "object": "Moon",
+        "possessiveDeterminer": "Moon’s",
+        "possessivePronoun": "Moon’s",
+        "reflexive": "Moonself",
+        "example": "Moon carried moon’s charm."
+      },
+      "honorific": "Little one",
+      "province": "El'dravire Riverrealm",
+      "provinceKey": "eldravireriverrealm",
+      "settlement": "Cyréthar",
+      "settlementKey": "eldravireriverrealm:Cyréthar",
+      "homeLocation": {
+        "province": "El'dravire Riverrealm",
+        "settlement": "Cyréthar",
+        "x": 755.0,
+        "y": 469.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Autognome",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Cyréthar",
+        "province": "El'dravire Riverrealm",
+        "settlementKey": "eldravire_riverrealm:Cyréthar",
+        "provinceKey": "eldravireriverrealm"
+      }
+    },
+    {
+      "id": "side-nalia-starbarrow-48-0",
+      "name": "Nalia Starbarrow",
+      "sourceType": "transportation_side_npc",
+      "sourceFile": "transportation_employees_live.json",
+      "relationshipToEmployee": "apprentice",
+      "employeeId": "emp-brakka-stonehide",
+      "employeeName": "Brakka Stonehide",
+      "raceCategory": "Psionic, Astral, and Alien Minds",
+      "race": "Gwynis",
+      "genderIdentity": "Gender-Flexible",
+      "pronounSet": {
+        "group": "Nounself Pronouns",
+        "name": "Bun / Bunnyself",
+        "subject": "Bun",
+        "object": "Bun",
+        "possessiveDeterminer": "Bun’s",
+        "possessivePronoun": "Bun’s",
+        "reflexive": "Bunnyself / Bunself",
+        "example": "Bun made bun’s tea bunnyself."
+      },
+      "honorific": "Sweetheart",
+      "province": "El'dravire Riverrealm",
+      "provinceKey": "eldravireriverrealm",
+      "settlement": "Cyréthar",
+      "settlementKey": "eldravireriverrealm:Cyréthar",
+      "homeLocation": {
+        "province": "El'dravire Riverrealm",
+        "settlement": "Cyréthar",
+        "x": 755.0,
+        "y": 469.0
+      },
+      "notes": "Side NPC home-life tie using book-valid race and bloodline/lineage data.",
+      "heritageDetail": "Gwynis",
+      "bookValidated": true,
+      "trackable": true,
+      "worldNpcCategory": "transportation_connected_npc",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Cyréthar",
+        "province": "El'dravire Riverrealm",
+        "settlementKey": "eldravire_riverrealm:Cyréthar",
+        "provinceKey": "eldravireriverrealm"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
