@@ -1,0 +1,471 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "nalvessir:Pellavess",
+  "settlement": "Pellavess",
+  "provinceKey": "nalvessir",
+  "province": "Nalvessir",
+  "settlementType": "Village",
+  "settlementJsonPath": "shared/settlements/Nalvessir/Pellavess/Pellavess_Nalvessir.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "nalvessir:Pellavess",
+    "provinceKey": "nalvessir",
+    "province": "Nalvessir",
+    "settlement": "Pellavess",
+    "type": "Village",
+    "biomes": [
+      "Farming",
+      "Partial forest",
+      "Mountain range"
+    ],
+    "primaryBiome": "Farming",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Pellavess at the final Mountain range anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 417.0,
+        "y": 779.0,
+        "ix": 417,
+        "iy": 779
+      },
+      "mappedBiomeDepth": "Mountain range",
+      "mappedBiomePath": "Mountains/Mountain range",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 776.05,
+      "surfaceAnchorZMeters": 776,
+      "subsurfaceDepthMeters": 0,
+      "subsurfaceAnchorZMeters": null,
+      "maxHeightMetersAboveSeaLevel": 776,
+      "maxDepthMetersBelowSeaLevel": 0,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -106.69922,
+        -46.93359,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -106.69922,
+        -46.93359,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Mountain range",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "Nalvessir",
+      "Named river / delta / canal / lake": "Nalvessir Grayreef Sound",
+      "Named bay / gulf / sea / sound": "Nalvessir Cloudwater Gulf",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "Nalvessir",
+      "Mountain range / highland": "Nalvessir Slatehorns",
+      "Volcano / vent / caldera": "Slatefire Vent",
+      "Forest / swamp / landmark": "Graymoss Wetleaf"
+    },
+    "provinceClimateAtlas": {
+      "Province": "Nalvessir",
+      "Climate regime": "subtropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Grayreef Fogfall",
+      "Vertical note": "highest settled weather band 4600 m; deepest recorded route 4800 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "Nalvessir is centered at 23.839316, 110.776447 under Communalism, with 49,799,000 people across 8 settlements.",
+      "extremeAtlasDescription": "Nalvessir occupies 6,331,211.46 sq mi / 16,397,762.41 sq km of modeled Earth-sized territory, about 3.214832% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Beach and reefs with water and Deep forest. Population density is 3.037 people/sq km / 7.866 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Amphibious and Aquatic Peoples, Elf Parent Race and Elf Bloodlines, Animalfolk and Mammalian Anthropomorphs, Draconic and Reptilian Races, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Tortle, Elf — Sea Elf, Genasi — Water Genasi, Harengon, Hadozee, Triton, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Bastveig, Thoryn-Rahek, Sigrananna, Iskareth, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 7 recorded four-province geography group links, including 6 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 8
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 8
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 7
+        },
+        {
+          "name": "Elven-Types",
+          "count": 7
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 7
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        },
+        {
+          "name": "Elemental and Energy-Born Peoples",
+          "count": 4
+        },
+        {
+          "name": "Dwarven and Gnomish Kin",
+          "count": 3
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 8
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 8
+        },
+        {
+          "name": "Tortle",
+          "count": 5
+        },
+        {
+          "name": "Elf — Sea Elf",
+          "count": 5
+        },
+        {
+          "name": "Genasi — Water Genasi",
+          "count": 4
+        },
+        {
+          "name": "Harengon",
+          "count": 4
+        },
+        {
+          "name": "Hadozee",
+          "count": 3
+        },
+        {
+          "name": "Triton",
+          "count": 3
+        },
+        {
+          "name": "Merfolk",
+          "count": 3
+        },
+        {
+          "name": "Locathah",
+          "count": 3
+        },
+        {
+          "name": "Halfling — Stout Halfling",
+          "count": 3
+        },
+        {
+          "name": "Kender",
+          "count": 3
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 8
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 8
+        },
+        {
+          "name": "Ishtanora",
+          "count": 8
+        },
+        {
+          "name": "Bastveig",
+          "count": 8
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 8
+        },
+        {
+          "name": "Sigrananna",
+          "count": 7
+        },
+        {
+          "name": "Iskareth",
+          "count": 7
+        },
+        {
+          "name": "Hathruna",
+          "count": 6
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Oskar'enlil",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 4
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Elevated",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 2
+        },
+        {
+          "name": "Moderate",
+          "count": 1
+        },
+        {
+          "name": "Severe",
+          "count": 1
+        },
+        {
+          "name": "High",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 3
+        },
+        {
+          "name": "City",
+          "count": 2
+        },
+        {
+          "name": "Village",
+          "count": 2
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 8
+        },
+        {
+          "name": "Caravan",
+          "count": 8
+        },
+        {
+          "name": "Steamship",
+          "count": 6
+        },
+        {
+          "name": "Submarine",
+          "count": 6
+        },
+        {
+          "name": "Skyship",
+          "count": 3
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        },
+        {
+          "name": "Ferry",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 4
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Deep forest",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Grayreef Fogfall",
+      "climateRegime": "subtropical with marine/deep-water sectors; orographic winds and rain shadows",
+      "provinceCenterLatitude": -30.00315,
+      "provinceCenterLongitude": -116.65729,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 5,
+      "group": "Plains",
+      "category": "Farming",
+      "path": "Plains/Farming",
+      "preview_color": "#E8D354"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Mountain range",
+    "mappedBiomePath": "Mountains/Mountain range",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 417.0,
+      "y": 779.0,
+      "longitude": -106.69922,
+      "latitude": -46.93359,
+      "utc": "UTC-7",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "immersive_npc_roster": 1
+  },
+  "locationRoleCounts": {
+    "settlement": 1
+  },
+  "npcReferences": [
+    {
+      "id": "adamma-gearmourne",
+      "name": "Adamma Gearmourne",
+      "sourceType": "immersive_npc_roster",
+      "role": "Clockwork Avenger",
+      "faction": "The Regent Lattice",
+      "settlement": "Pellavess",
+      "province": "Nalvessir",
+      "settlementKey": "nalvessir:Pellavess",
+      "provinceKey": "nalvessir",
+      "locationRole": "settlement"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "adamma-gearmourne",
+      "name": "Adamma Gearmourne",
+      "sourceType": "immersive_npc_roster",
+      "sourceFile": "NPC Rosters.docx",
+      "province": "Nalvessir",
+      "provinceKey": "nalvessir",
+      "settlement": "Pellavess",
+      "settlementKey": "nalvessir:Pellavess",
+      "description": "Adamma Gearmourne is a precise, grief-tempered Autognome built for repair, defense, salvage, and caravan protection, but loss has sharpened their purpose into something closer to vengeance. As an Autognome shaped by Marduthor’s craft, machinery, architecture, and underground-hall traditions, they are lawful, resilient, tool-minded, and prone to processing emotion through maintenance routines, battle modifications, and carefully itemized revenge lists.\nFrom the Regent Lattice Repair Bay in Pellavess, Adamma works with the Regent Lattice to repair damaged constructs, salvage broken automata, reinforce traveling crews, and hunt rogue clockworks that threaten trade routes. They speak with controlled courtesy, but beneath it is a deep mourning for the caravan-family they lost, and they sometimes wonder whether feeling pain makes them more alive or merely more breakable.",
+      "settlementAndAncestryTexture": "Pellavess is a Village in Nalvessir, under Communalism, with low danger, Farming, Partial forest, Mountain range terrain. Local records favor Altruistic, Lawful, Cooperative, Honorable civic habits; common communities include Human, Halfling — Lightfoot Halfling, Halfling — Stout Halfling, Kender, Kithkin. Autognome reads through the Autognome entry of the race compendium, within Constructed and Artificial Beings, marked by Setrimir. Autognomes are mechanical or magically animated constructs resembling gnomes. They are often designed for specific purposes and may develop emergent personality traits over time. Table cues: Construct, Armored Casing, Built for Success, Healing Machine; starting tendency Neutral - Lawful - Cooperative - Honorable.",
+      "rumors": [
+        "Adamma Gearmourne knows why an ichor ledger changed hands last Ishtaday.",
+        "Adamma Gearmourne has a contact in Sylthéra-Vael who will deny everything."
+      ],
+      "plotHooks": [
+        "Adamma Gearmourne asks the party to protect a household member without revealing why.",
+        "A rival faction offers proof that Adamma Gearmourne's public story is incomplete."
+      ],
+      "profileId": "npc_0016_adamma_gearmourne",
+      "race": "Autognome",
+      "genderAndPronouns": "Agender • they/them",
+      "householdRole": "Household Guard",
+      "residence": "Pellavess - Workshop Loft",
+      "workplace": "Regent Lattice Repair Bay",
+      "job": "Clockwork Avenger",
+      "faction": "The Regent Lattice",
+      "profileTable": {
+        "id": "npc_0016_adamma_gearmourne",
+        "race": "Autognome",
+        "gender_pronouns": "Agender • they/them",
+        "household_role": "Household Guard",
+        "province": "Nalvessir",
+        "settlement": "Pellavess",
+        "residence": "Pellavess - Workshop Loft",
+        "workplace": "Regent Lattice Repair Bay",
+        "job": "Clockwork Avenger",
+        "faction": "The Regent Lattice"
+      },
+      "quickIndexNumber": 16,
+      "trackable": true,
+      "worldNpcCategory": "immersive_npc_roster",
+      "playerVisible": true,
+      "dmEditableOnly": false,
+      "settlementNpcAssignment": {
+        "locationRole": "settlement",
+        "settlement": "Pellavess",
+        "province": "Nalvessir",
+        "settlementKey": "nalvessir:Pellavess",
+        "provinceKey": "nalvessir"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
