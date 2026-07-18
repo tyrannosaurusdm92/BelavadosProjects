@@ -1,0 +1,128 @@
+{
+  "schema": "belavados.settlement_npcs.v2",
+  "kind": "settlement-npcs",
+  "settlement": "Whemosthi",
+  "province": "Sylvavéryn",
+  "settlementKey": "sylvaveryn:Whemosthi",
+  "provinceKey": "sylvaveryn",
+  "settlementType": "Village",
+  "npcCount": 0,
+  "npcs": [],
+  "npcReferences": [],
+  "sourceTypeCounts": {},
+  "locationRoleCounts": {},
+  "notes": [
+    "No NPC roster was supplied for this newly canonical settlement."
+  ],
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "sylvaveryn:Whemosthi",
+    "provinceKey": "sylvaveryn",
+    "province": "Sylvavéryn",
+    "settlement": "Whemosthi",
+    "type": "Village",
+    "placementScope": "territory",
+    "mappedBiomeDepth": "trench depth",
+    "mappedBiomePath": "Ocean/Underwater without reefs/Trench depth",
+    "placementMatch": "exact-territory",
+    "pinPlacement": "underwater-negative-z-pin",
+    "finalWaterLandClass": "underwater",
+    "routeAccessClass": "trench_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 1878.0,
+      "y": 237.0,
+      "longitude": 150.11719,
+      "latitude": 48.33984,
+      "utc": "UTC+10",
+      "scope": "territory"
+    },
+    "localTopographicRule": "Render Whemosthi at the final trench depth anchor in territory scope; pathing uses trench_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 1878.0,
+        "y": 237.0,
+        "ix": 1878,
+        "iy": 237
+      },
+      "mappedBiomeDepth": "trench depth",
+      "mappedBiomePath": "Ocean/Underwater without reefs/Trench depth",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        150.11719,
+        48.33984,
+        -7800
+      ],
+      "surfaceAnchorCoordinates": [
+        150.11719,
+        48.33984,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "trench depth",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "provinceClimateAtlas": {
+      "Province": "Sylvavéryn",
+      "Climate regime": "multi-belt, centered in temperate with marine/deep-water sectors",
+      "Dominant terrain": "Farming; Partial forest; Beach and grass with water",
+      "Named weather": "Cyan Sky-River",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 180 m"
+    },
+    "weather": {
+      "namedWeather": "Cyan Sky-River",
+      "climateRegime": "multi-belt, centered in temperate with marine/deep-water sectors",
+      "provinceCenterLatitude": 38.6767,
+      "provinceCenterLongitude": 164.19618,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}

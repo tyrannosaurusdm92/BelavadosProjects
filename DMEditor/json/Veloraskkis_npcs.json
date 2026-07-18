@@ -1,0 +1,684 @@
+{
+  "schema": "belavados.settlement_npcs.detail.v1",
+  "kind": "settlement_npc_detail",
+  "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+  "settlementKey": "eldravireriverrealm:Veloraskkis",
+  "settlement": "Veloraskkis",
+  "provinceKey": "eldravireriverrealm",
+  "province": "El'dravire Riverrealm",
+  "settlementType": "City",
+  "settlementJsonPath": "shared/settlements/Eldravire/Veloraskkis/Veloraskkis_Eldravire.json",
+  "topographyWeatherCanon": {
+    "schema": "belavados.settlement_topography_weather_canon.v2",
+    "generatedAtUtc": "2026-07-17T18:27:27+00:00",
+    "sourceDocuments": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "settlementKey": "eldravireriverrealm:Veloraskkis",
+    "provinceKey": "eldravireriverrealm",
+    "province": "El'dravire Riverrealm",
+    "settlement": "Veloraskkis",
+    "type": "City",
+    "biomes": [
+      "Beach and grass with water",
+      "Marshes and swamps",
+      "Partial forest"
+    ],
+    "primaryBiome": "Beach and grass with water",
+    "pinPlacement": "surface-land-pin",
+    "localTopographicRule": "Render Veloraskkis at the final Marshes and swamps anchor in mainland scope; pathing uses land_surface_access and must not substitute the superseded July 8 coordinates.",
+    "localRasterSample": {
+      "status": "superseded-by-final-embedded-GeoJSON-placement",
+      "pixel": {
+        "x": 701.0,
+        "y": 455.0,
+        "ix": 701,
+        "iy": 455
+      },
+      "mappedBiomeDepth": "Marshes and swamps",
+      "mappedBiomePath": "Forest/Marshes and swamps",
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "heightAndDepthBySeaLevel": {
+      "displayZMeters": 28.27,
+      "surfaceAnchorZMeters": 28,
+      "subsurfaceDepthMeters": 52,
+      "subsurfaceAnchorZMeters": -52,
+      "maxHeightMetersAboveSeaLevel": 28,
+      "maxDepthMetersBelowSeaLevel": 52,
+      "anchorMode": "surface_anchor",
+      "pinPlacement": "surface-land-pin",
+      "hasUnderworldRumor": false,
+      "verticalRangeSourceText": "",
+      "terrainRole": null,
+      "terrainFact": null
+    },
+    "vertical3D": {
+      "displayCoordinates": [
+        -56.77734,
+        10.01953,
+        0
+      ],
+      "surfaceAnchorCoordinates": [
+        -56.77734,
+        10.01953,
+        0
+      ],
+      "zValueMeaning": "Representative render anchor for the mapped depth class; use detailed vertical records where an exact named depth is available.",
+      "mappedBiomeDepth": "Marshes and swamps",
+      "hoverLine": "Draw a vertical leader from sea/surface level to submerged or cavern display anchors.",
+      "scaleRule": "Meters relative to sea level; canonical range -8200 to +5200."
+    },
+    "docxMountainCanon": null,
+    "docxVerticalTableRecord": null,
+    "provinceWaterAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Named river / delta / canal / lake": "El’dravire Great River and Seven-Mouth Delta",
+      "Named bay / gulf / sea / sound": "Riverrealm Inner Sea",
+      "Terrain that feeds the water": "Beach and grass with water; Partial forest; Beach and reefs with water"
+    },
+    "provinceLandformAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Mountain range / highland": "El’dravire Floodwall Hills",
+      "Volcano / vent / caldera": "Thornsteam Basin",
+      "Forest / swamp / landmark": "Reedcrown Marshwoods"
+    },
+    "provinceClimateAtlas": {
+      "Province": "El'dravire Riverrealm",
+      "Climate regime": "predominantly marine equatorial; wetland fog and flood pulses",
+      "Dominant terrain": "Beach and grass with water; Partial forest; Beach and reefs with water",
+      "Named weather": "Seven-Mouth Monsoon",
+      "Vertical note": "highest settled weather band 220 m; deepest recorded route 240 m"
+    },
+    "provinceDeepAtlasProfile": {
+      "oneLine": "El'dravire Riverrealm is centered at -16.033105, 61.118515 under Parliamentary Government, with 133,430,000 people across 12 settlements.",
+      "extremeAtlasDescription": "El'dravire Riverrealm occupies 6,815,430.47 sq mi / 17,651,883.88 sq km of modeled Earth-sized territory, about 3.460707% of Belavadös's surface. It is not merely a province but a continent-scale civic machine: Beach and grass with water, Partial forest and Beach and reefs with water define its broad terrain, while its settlements intensify into Beach and grass with water, Farming, Marshes and swamps, Beach and reefs with water and Ocean Surface floating settlement. Population density is 7.559 people/sq km / 19.578 people/sq mi, which lets wilderness, roads, faction-held corridors, and vast uncrowded borders remain huge.",
+      "peopleFactionsAndFaith": "The strongest public people-groups are Humans, Near-Humans, and Mixed Heritage, Halfling and Smallfolk, Animalfolk and Mammalian Anthropomorphs, Elf Parent Race and Elf Bloodlines, Amphibious and Aquatic Peoples, Fey and Trickster Folk, and 2 more. Frequently recorded peoples include Human, Halfling — Lightfoot Halfling, Harengon, Elf — Wood Elf, Elf — Eladrin, Fey-Folk — Faerie, Satyr, Changeling, and 4 more. Faction visibility leans toward The Black-Maw Myriad, with worship and patronage records naming Nebyrr, Ishtanora, Iskareth, Thoryn-Rahek, Bastveig, Sigrananna, Hathruna, and 3 more.",
+      "groupLinkDescription": "The province participates in 6 recorded four-province geography group links, including 5 cross-transportation-group links. These links place it inside overlapping regional corridors rather than one isolated block, allowing border-adjacent transit, faction influence, and cultural spillover to breathe across group lines.",
+      "dominantRaceCategories": [
+        {
+          "name": "Humans, Near-Humans, and Mixed Heritage",
+          "count": 12
+        },
+        {
+          "name": "Halfling and Smallfolk",
+          "count": 12
+        },
+        {
+          "name": "Animalfolk and Mammalian Anthropomorphs",
+          "count": 12
+        },
+        {
+          "name": "Elven-Types",
+          "count": 9
+        },
+        {
+          "name": "Amphibious and Aquatic Peoples",
+          "count": 6
+        },
+        {
+          "name": "Fey-Folk",
+          "count": 5
+        },
+        {
+          "name": "Plantfolk and Nature-Bound Races",
+          "count": 5
+        },
+        {
+          "name": "Draconic and Reptilian Races",
+          "count": 5
+        }
+      ],
+      "dominantRaces": [
+        {
+          "name": "Human",
+          "count": 12
+        },
+        {
+          "name": "Halfling — Lightfoot Halfling",
+          "count": 12
+        },
+        {
+          "name": "Harengon",
+          "count": 9
+        },
+        {
+          "name": "Elf — Wood Elf",
+          "count": 5
+        },
+        {
+          "name": "Elf — Eladrin",
+          "count": 5
+        },
+        {
+          "name": "Faerie",
+          "count": 5
+        },
+        {
+          "name": "Satyr",
+          "count": 5
+        },
+        {
+          "name": "Changeling",
+          "count": 5
+        },
+        {
+          "name": "Tabaxi",
+          "count": 5
+        },
+        {
+          "name": "Bearfolk",
+          "count": 5
+        },
+        {
+          "name": "Mandrake",
+          "count": 5
+        },
+        {
+          "name": "Mycelian",
+          "count": 5
+        }
+      ],
+      "dominantFactions": [
+        {
+          "name": "The Black-Maw Myriad",
+          "count": 12
+        }
+      ],
+      "dominantDeities": [
+        {
+          "name": "Nebyrr",
+          "count": 12
+        },
+        {
+          "name": "Ishtanora",
+          "count": 12
+        },
+        {
+          "name": "Iskareth",
+          "count": 12
+        },
+        {
+          "name": "Thoryn-Rahek",
+          "count": 12
+        },
+        {
+          "name": "Bastveig",
+          "count": 12
+        },
+        {
+          "name": "Sigrananna",
+          "count": 9
+        },
+        {
+          "name": "Hathruna",
+          "count": 9
+        },
+        {
+          "name": "Thalunesh",
+          "count": 5
+        },
+        {
+          "name": "Valkhamesh",
+          "count": 5
+        },
+        {
+          "name": "Horundar",
+          "count": 5
+        }
+      ],
+      "dangerSpread": [
+        {
+          "name": "Moderate",
+          "count": 3
+        },
+        {
+          "name": "High",
+          "count": 3
+        },
+        {
+          "name": "Low",
+          "count": 3
+        },
+        {
+          "name": "Severe",
+          "count": 2
+        },
+        {
+          "name": "Elevated",
+          "count": 1
+        }
+      ],
+      "settlementTypeSpread": [
+        {
+          "name": "Town",
+          "count": 4
+        },
+        {
+          "name": "City",
+          "count": 4
+        },
+        {
+          "name": "Village",
+          "count": 3
+        },
+        {
+          "name": "Capital City",
+          "count": 1
+        }
+      ],
+      "transitModeSpread": [
+        {
+          "name": "Train / Rail",
+          "count": 11
+        },
+        {
+          "name": "Caravan",
+          "count": 11
+        },
+        {
+          "name": "Steamship",
+          "count": 11
+        },
+        {
+          "name": "Submarine",
+          "count": 11
+        },
+        {
+          "name": "Ferry",
+          "count": 5
+        },
+        {
+          "name": "Skyship",
+          "count": 5
+        },
+        {
+          "name": "Portal",
+          "count": 1
+        }
+      ],
+      "primaryBiomeSpread": [
+        {
+          "name": "Beach and grass with water",
+          "count": 7
+        },
+        {
+          "name": "Farming",
+          "count": 2
+        },
+        {
+          "name": "Marshes and swamps",
+          "count": 1
+        },
+        {
+          "name": "Beach and reefs with water",
+          "count": 1
+        },
+        {
+          "name": "Ocean Surface floating settlement",
+          "count": 1
+        }
+      ]
+    },
+    "weather": {
+      "namedWeather": "Seven-Mouth Monsoon",
+      "climateRegime": "predominantly marine equatorial; wetland fog and flood pulses",
+      "provinceCenterLatitude": -1.31699,
+      "provinceCenterLongitude": -32.88781,
+      "authority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    },
+    "biomeRenderRule": {
+      "id": 13,
+      "group": "Hybrid",
+      "category": "Beach and grass with water",
+      "path": "Hybrid/Beach and grass with water",
+      "preview_color": "#E1D395"
+    },
+    "renderRules": {
+      "provinceBordersAndPins": "hidden until province dropdown selection",
+      "settlementClick": "clicking a settlement pin displays its full settlement/province JSON until another settlement is clicked",
+      "deepMountainPins": "surface anchor plus vertical hover/leader line to negative-z cavern point",
+      "underwaterPins": "negative z using depth; ocean-surface settlements at z=0 with water-column metadata",
+      "heightScale": "meters relative to sea level; canonical range -8200 to +5200"
+    },
+    "placementScope": "mainland",
+    "mappedBiomeDepth": "Marshes and swamps",
+    "mappedBiomePath": "Forest/Marshes and swamps",
+    "placementMatch": "compatible",
+    "finalWaterLandClass": "land",
+    "routeAccessClass": "land_surface_access",
+    "finalSpatialAuthority": "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx",
+    "finalMapAnchor": {
+      "x": 701.0,
+      "y": 455.0,
+      "longitude": -56.77734,
+      "latitude": 10.01953,
+      "utc": "UTC-4",
+      "scope": "mainland"
+    },
+    "canonicalRevision": {
+      "revisionId": "belavados-four-compendium-canon-2026-07-17",
+      "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+      "authorityOrder": [
+        "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+        "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+        "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+        "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+      ],
+      "fullSourceJson": [
+        "canon_source_pantheon_races_full.json",
+        "canon_source_night_sky_galaxy_time_full.json",
+        "canon_source_life_in_belavados_full.json",
+        "canon_source_geology_weather_spatial_full.json"
+      ],
+      "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+      "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+    }
+  },
+  "npcCount": 1,
+  "sourceTypeCounts": {
+    "transportation_employee": 1
+  },
+  "locationRoleCounts": {
+    "workplace": 1
+  },
+  "npcReferences": [
+    {
+      "id": "emp-maldrik-graveborn",
+      "name": "Maldrik Graveborn",
+      "sourceType": "transportation_employee",
+      "role": "Skyship Engineer",
+      "faction": null,
+      "serviceModeLabel": "Skyship",
+      "serviceMode": "Skyship",
+      "locationRole": "workplace",
+      "settlement": "Veloraskkis",
+      "province": "El'dravire Riverrealm",
+      "settlementKey": "eldravire_riverrealm:Veloraskkis",
+      "provinceKey": "eldravireriverrealm"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "emp-maldrik-graveborn",
+      "name": "Maldrik Graveborn",
+      "sourceType": "transportation_employee",
+      "sourceFile": "transportation_employees_live.json",
+      "age": 68,
+      "race": "Reborn",
+      "genderIdentity": "Agender",
+      "pronouns": "They / Them",
+      "occupation": "Skyship Engineer",
+      "employer": "Belavadös Arcane Transit Authority",
+      "jobRank": "Staff",
+      "serviceMode": "skyship",
+      "serviceModeLabel": "Skyship",
+      "belavadosAlignment": "Neutral - Lawful - Cooperative - Neutral",
+      "currentMood": "Happy",
+      "homeProvince": "Vaelmyrith",
+      "homeProvinceKey": "vaelmyrith",
+      "homeSettlement": "Whispergrove",
+      "homeSettlementKey": "vaelmyrith:Whispergrove",
+      "workProvince": "El'dravire Riverrealm",
+      "workProvinceKey": "eldravireriverrealm",
+      "workSettlement": "Veloraskkis",
+      "workSettlementKey": "eldravireriverrealm:Veloraskkis",
+      "homeLocation": {
+        "province": "Vaelmyrith",
+        "settlement": "Whispergrove",
+        "x": 1807.0,
+        "y": 583.0,
+        "lat": -12.48047,
+        "lon": 137.63672,
+        "note": "LIVE home location; this is not treated as the work assignment.",
+        "timeZone": {
+          "timeZoneId": "UTC+9",
+          "timeZoneName": "Belavadös UTC+9",
+          "offsetHoursFromUTC": 9,
+          "offsetMinutesFromUTC": 540,
+          "offsetHoursFromBMT": 9,
+          "offsetMinutesFromBMT": 540,
+          "longitudeBandDegrees": [
+            127.5,
+            142.5
+          ],
+          "certifiedLatitude": -12.48047,
+          "certifiedLongitude": 137.63672,
+          "latitudeHemisphere": "south",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "assignedWorkplace": {
+        "name": "Veloraskkis Skyship Port",
+        "province": "El'dravire Riverrealm",
+        "settlement": "Veloraskkis",
+        "mode": "skyship",
+        "x": 701.0,
+        "y": 455.0,
+        "lat": 10.01953,
+        "lon": -56.77734,
+        "provinceKey": "el'dravire_riverrealm",
+        "modeLabel": "Skyship",
+        "timeZone": {
+          "timeZoneId": "UTC-4",
+          "timeZoneName": "Belavadös UTC-4",
+          "offsetHoursFromUTC": -4,
+          "offsetMinutesFromUTC": -240,
+          "offsetHoursFromBMT": -4,
+          "offsetMinutesFromBMT": -240,
+          "longitudeBandDegrees": [
+            -67.5,
+            -52.5
+          ],
+          "certifiedLatitude": 10.01953,
+          "certifiedLongitude": -56.77734,
+          "latitudeHemisphere": "north",
+          "rule": "UTC offset = clamp(floor((longitude + 7.5) / 15), -12, +12); Belavadös uses no daylight-saving adjustment.",
+          "authority": "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx"
+        }
+      },
+      "shift": {
+        "name": "Evening",
+        "start": "14:00",
+        "break": "18:00",
+        "end": "23:00"
+      },
+      "workDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "coverageWorkDays": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Monday"
+      ],
+      "relationshipsWithCoworkers": [
+        {
+          "employeeName": "Tharos Grimtalon",
+          "type": "Coworker",
+          "score": 51
+        }
+      ],
+      "homeLife": {
+        "familyAndPartners": [
+          {
+            "kind": "cousin",
+            "name": "Noryn Brassfern",
+            "sideNpcId": "side-noryn-brassfern-31-0",
+            "livesIn": "Whispergrove"
+          },
+          {
+            "kind": "best friend",
+            "name": "Orris Tidebrook",
+            "sideNpcId": "side-orris-tidebrook-31-1",
+            "livesIn": "Whispergrove"
+          }
+        ],
+        "regularVisits": [
+          {
+            "place": "Ulwyn",
+            "province": "Aelwynora",
+            "reason": "days-off market, scenic spot, or friend visit"
+          }
+        ],
+        "vacations": [
+          {
+            "destination": "Ulwyn",
+            "province": "Aelwynora",
+            "pattern": "one long weekend each Belavadös month when coverage allows"
+          }
+        ]
+      },
+      "biography": "Maldrik Graveborn is a Reborn — Graveborn Thread transportation employee (They / Them) and a skyship engineer whose public work is transportation, but their tracked life begins at home in Whispergrove, Vaelmyrith. Their routine includes family/chosen-family ties, visits, rest, vacations, coworker dynamics, and workplace responsibilities without simulating the whole settlement.",
+      "personality": "quietly funny",
+      "dailySchedule": [
+        {
+          "state": "Off Duty",
+          "activity": "personal errands or home life"
+        },
+        {
+          "state": "Traveling to Work",
+          "activity": "traveling to assigned workplace"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Break",
+          "activity": "taking a break"
+        },
+        {
+          "state": "On Duty",
+          "activity": "working assigned transportation duties"
+        },
+        {
+          "state": "Traveling Home",
+          "activity": "traveling home"
+        },
+        {
+          "state": "Resting",
+          "activity": "spending time with family"
+        }
+      ],
+      "behaviorRules": {
+        "onDuty": [
+          "greet travelers",
+          "sell or validate tickets",
+          "check cargo",
+          "operate assigned systems",
+          "answer questions",
+          "patrol platforms/docks/terminals",
+          "talk with coworkers",
+          "take scheduled breaks"
+        ],
+        "backgroundSimulation": [
+          "shift changes",
+          "mood updates",
+          "relationship progression",
+          "employment changes",
+          "basic time progression"
+        ],
+        "moodInfluences": [
+          "fatigue",
+          "workplace conditions",
+          "weather",
+          "coworker relationships",
+          "recent events"
+        ]
+      },
+      "reactionAssets": {
+        "allLibraryAvailable": true,
+        "work": [
+          "npc_assets/reactions & activities/afternoonroutine__continuing_work.svg",
+          "npc_assets/reactions & activities/afternoonroutine__making_deliveries.svg",
+          "npc_assets/reactions & activities/afternoonroutine__patrolling.svg"
+        ],
+        "travel": [
+          "npc_assets/reactions & activities/morningroutine__leaving_home.svg",
+          "npc_assets/reactions & activities/eveningroutine__returning_home.svg",
+          "npc_assets/reactions & activities/daysoffleisure__traveling.svg"
+        ],
+        "break": [
+          "npc_assets/reactions & activities/middayactivehours__taking_a_break.svg"
+        ],
+        "home": [
+          "npc_assets/reactions & activities/eveningroutine__spending_time_with_family.svg",
+          "npc_assets/reactions & activities/maintenancedomesticactivities__cooking.svg"
+        ],
+        "vacation": [
+          "npc_assets/reactions & activities/addedstates__vacationing.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_family.svg",
+          "npc_assets/reactions & activities/daysoffleisure__visiting_friends.svg"
+        ]
+      },
+      "accessPolicy": "Employee controls require hidden operations access; player-facing cards are read-only.",
+      "heritageDetail": "Reborn",
+      "mixedHeritage": {
+        "mode": "single heritage",
+        "race": "Reborn",
+        "bookValidated": true
+      },
+      "bookValidated": true,
+      "bookRaceSelections": [
+        {
+          "race": "Reborn"
+        }
+      ],
+      "scheduleNote": "Five-day rotating transit-coverage schedule; source workdays retained in sourceWorkdays.",
+      "homeSettlementId": "vaelmyrith:Whispergrove",
+      "workplaceSettlementId": "eldravire_riverrealm:Veloraskkis",
+      "trackingColor": {
+        "archColor": "#00ffff",
+        "assignedColor": "#00ffff",
+        "archGradient": [
+          "#00ffff",
+          "#38bdf8",
+          "#2563eb"
+        ]
+      },
+      "reactionAssetBase": "npc_assets/reactions & activities/",
+      "reactionAsset": "npc_assets/reactions & activities/traveltransit_boarding_skyship.svg",
+      "trackable": true,
+      "worldNpcCategory": "transportation_employee",
+      "playerVisible": true,
+      "dmEditableOnly": true,
+      "settlementNpcAssignment": {
+        "locationRole": "workplace",
+        "settlement": "Veloraskkis",
+        "province": "El'dravire Riverrealm",
+        "settlementKey": "eldravire_riverrealm:Veloraskkis",
+        "provinceKey": "eldravireriverrealm",
+        "serviceMode": "Skyship"
+      }
+    }
+  ],
+  "notes": "Settlement-specific NPC file. The global shared/json/settlement_npcs.json file is now a finder/index pointing to these per-settlement files.",
+  "canonicalRevision": {
+    "revisionId": "belavados-four-compendium-canon-2026-07-17",
+    "revisedAtUtc": "2026-07-17T18:27:27+00:00",
+    "authorityOrder": [
+      "Belavados_Pantheon_and_Races_Compendium_Current_Canon(3).docx",
+      "Belavados_Full_Night_Sky_Galaxy_and_Time_Conversion_Compendium(3).docx",
+      "Life_in_Belavados_Complete_Corrected_Compendium(2).docx",
+      "Belavados_Full_Geological_Features_and_Weather_Compendium_Corrected(2).docx"
+    ],
+    "fullSourceJson": [
+      "canon_source_pantheon_races_full.json",
+      "canon_source_night_sky_galaxy_time_full.json",
+      "canon_source_life_in_belavados_full.json",
+      "canon_source_geology_weather_spatial_full.json"
+    ],
+    "spatialAuthority": "Final 2048 x 1024 equirectangular anchors and province transforms from the corrected geological/weather compendium override every earlier coordinate, UTC, mapped-biome/depth, and route geometry value.",
+    "nonSpatialAuthority": "Current pantheon/races and life compendia preserve and extend non-spatial canon; the newest night-sky/time compendium governs calendar, celestial, and exact settlement UTC data."
+  }
+}
